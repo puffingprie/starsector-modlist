@@ -1,0 +1,38 @@
+{
+
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+                        "elipsion7s":10,
+		},
+	},
+	
+	"knownShips":{
+		"tags":["base_bp", "midline_bp", "hightech_bp", "tritachyon,"],
+		"hulls":[
+                        "elipsion7s",
+
+			],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	
+	"knownWeapons":{
+		"tags":["base_bp",],
+		"weapons":[
+			"breachpod",
+			"sabotpod",
+			"phasecl",
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+		],
+	},
+},
+
