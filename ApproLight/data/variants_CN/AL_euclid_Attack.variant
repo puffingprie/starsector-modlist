@@ -1,0 +1,73 @@
+{
+    "displayName": "进攻",
+    "fluxCapacitors": 26,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "AL_euclid",
+    "hullMods": [
+        "AL_filteredphasecoating",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_euclid_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "AL_lighter_large",
+                "WS0006": "AL_lighter_large"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "AL_condemnpod"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "AL_condemnpod",
+                "WS0002": "AL_condemnpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "mark9"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "AL_explodebeam",
+                "WS0007": "AL_explodebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "AL_spiderpulse",
+                "WS0011": "AL_spiderpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "AL_defenderpd",
+                "WS0017": "AL_defenderpd",
+                "WS0018": "AL_defenderpd",
+                "WS0019": "AL_defenderpd",
+                "WS0020": "AL_defenderpd",
+                "WS0021": "AL_defenderpd",
+                "WS0022": "AL_defenderpd",
+                "WS0023": "AL_defenderpd"
+            }
+        }
+    ],
+    "wings": ["AL_damocleser_wing"]
+}

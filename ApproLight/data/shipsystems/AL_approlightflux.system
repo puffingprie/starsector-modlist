@@ -1,0 +1,24 @@
+{
+	"id":"AL_approlightflux",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"originem.al.shipsystems.scripts.ai.AL_ApproLightFluxAI",
+	"statsScript":"originem.al.shipsystems.scripts.AL_ApproLightFluxStats",
+	"jitterColor":[100,165,255,80],
+	"jitterCopies":3,
+	"jitterRange":25,
+	"jitterRangeRadiusFraction":0,
+
+    "engineGlowLengthMult":1.2,
+	"engineGlowWidthMult":1.1,
+	"engineGlowGlowMult":1.2,
+
+
+	"useSound":"system_high_energy_focus_activate",
+	#"deactivateSound":"system_high_energy_focus_deactivate",
+	# Stian deactivated these two because of audio playback timing issues. See fortressshield.system for more.
+	# Re-enable for testing.
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"AL_approlightflux_loop",	
+}

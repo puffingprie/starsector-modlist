@@ -1,0 +1,5 @@
+command,class,tags,syntax,help
+AL_SpawnILFleet,originem.al.scripts.dev.consoles.AL_SpawnILFleet,"core,cheat,campaign",AL_spawnILFleet <difficulty> <countMultiplier>,"Spawns an Immortal-Light fleet.
+"
+AL_StartMission,originem.al.scripts.dev.consoles.AL_StartMission,"core,campaign",AL_startMission <missionId>,
+AL_RandomTest,originem.al.scripts.dev.consoles.AL_RandomTest,"core,campaign",AL_randomTest,

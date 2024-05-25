@@ -1,0 +1,2 @@
+name,id,script,desc,icon,order
+XI型晶孔,AL_crystalhole,originem.al.scripts.campaign.econ.crystalholeXI,该地坐落着几处由博尔肯基金会建造的XI型晶孔设施，并且在此中转的绝大多数资源来自于博尔肯的贸易和资助。该类设施类似可开关的稳定虫洞，能在不被破坏的情况下通过空间节点传输物资并满足市场需求，提升舰队质量。,graphics/icons/markets/crystalholeXI.png,30

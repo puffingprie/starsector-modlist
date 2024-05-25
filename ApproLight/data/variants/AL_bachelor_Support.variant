@@ -1,0 +1,44 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "AL_bachelor",
+    "hullMods": [
+        "AL_glittertargetingcore",
+        "AL_shadowblueprint"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_bachelor_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "AL_wildfirelhc"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "AL_thunderpod",
+                "WS0008": "AL_thunderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "ioncannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd",
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd"
+            }
+        }
+    ]
+}

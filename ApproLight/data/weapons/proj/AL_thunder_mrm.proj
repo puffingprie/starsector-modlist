@@ -1,0 +1,54 @@
+{
+  "id": "AL_thunder_mrm",
+  "specClass": "missile",
+  "missileType": "MISSILE",
+  "sprite": "graphics/missiles/AL_missile_thunder.png",
+  "onHitEffect": "originem.al.scripts.weapons.proj.AL_ThunderMRMOnHitEffect",
+  "size": [10, 27],
+  "center": [5, 13.5],
+  "collisionRadius": 15,
+  "collisionClass": "MISSILE_NO_FF",
+  "explosionColor": [100, 50, 255, 150],
+  "explosionRadius": 150,
+  "explosionSpec": {
+    "duration": 0.2,
+    "radius": 200,
+    "coreRadius": 100,
+    "collisionClass": "HITS_SHIPS_AND_ASTEROIDS",
+    "collisionClassByFighter": "HITS_SHIPS_AND_ASTEROIDS",
+    "particleSizeMin": 10.0,
+    "particleSizeRange": 8.0,
+    "particleDuration": 0.75,
+    "particleCount": 30,
+    "particleColor": [100, 50, 255, 255]
+  },
+  "engineSpec": {
+    "turnAcc": 1000,
+    "turnRate": 300,
+    "acc": 2000,
+    "dec": 1000
+  },
+  "engineSlots": [
+    {
+      "id": "ES1",
+      "loc": [-10, 0],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "mode": "QUAD_STRIP",
+        "engineColor": [100, 20, 255, 255],
+        "contrailDuration": 0.5,
+        "contrailWidthMult": 1.2,
+        "contrailWidthAddedFractionAtEnd": 2,
+        "contrailMinSeg": 5,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 1,
+        "contrailSpawnDistMult": 0,
+        "contrailColor": [100, 100, 100, 120],
+        "type": "GLOW"
+      },
+      "width": 10.0,
+      "length": 70.0,
+      "angle": 180.0
+    }
+  ]
+}

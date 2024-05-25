@@ -1,0 +1,20 @@
+{
+  "id": "AL_pulsecannon_shot",
+  "specClass": "projectile",
+  #"spawnType": "BALLISTIC",
+  #"collisionClass": "RAY",
+  #"collisionClassByFighter": "RAY_FIGHTER",
+  "onHitEffect": "originem.al.scripts.weapons.proj.AL_PulseCannonOnHitEffect",
+  "spawnType": "BALLISTIC_AS_BEAM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "length": 60.0,
+  "width": 10.0,
+  "hitGlowRadius": 40,
+  "fadeTime": 0.25,
+  "fringeColor": [100, 75, 255, 255],
+  "coreColor": [235, 235, 255, 255],
+  "textureScrollSpeed": 64.0,
+  "pixelsPerTexel": 5.0,
+  "textureType": "SMOOTH", # only needed for BEAM spawnType
+}

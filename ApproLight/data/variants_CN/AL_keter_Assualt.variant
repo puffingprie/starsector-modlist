@@ -1,0 +1,56 @@
+{
+    "displayName": "突击",
+    "fluxCapacitors": 18,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "AL_keter",
+    "hullMods": [
+        "AL_glittertargetingcore",
+        "AL_frequencybuffergrid"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_keter_Assualt",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0012": "AL_fireflushpulse"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "sabotpod",
+                "WS0004": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "gravitonbeam",
+                "WS00176": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_fireflushcannon",
+                "WS0002": "AL_fireflushcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd",
+                "WS0011": "AL_defenderpd",
+                "WS0013": "AL_defenderpd",
+                "WS0018": "AL_starflak_medium"
+            }
+        }
+    ]
+}

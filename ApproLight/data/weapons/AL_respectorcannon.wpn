@@ -1,0 +1,53 @@
+{
+  "id": "AL_respectorcannon",
+  "specClass": "projectile",
+  "projectileSpecId": "AL_respector_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "everyFrameEffect": "originem.al.scripts.weapons.AL_RespectorEveryFrameEffect",
+  "turretSprite": "graphics/weapons/AL_respectorcannon_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/AL_respectorcannon_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/AL_respectorcannon_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/AL_respectorcannon_hardpoint_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    255,
+    0,
+    0,
+    255
+  ],
+  "turretOffsets": [
+    11,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    12,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 60,
+    "spread": 20,
+    "particleSizeMin": 7,
+    "particleSizeRange": 15,
+    "particleDuration": 1,
+    "particleCount": 25,
+    "particleColor": [
+      255,
+      50,
+      0,
+      255
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundOne": "AL_respectorcannon_charge",
+  "fireSoundTwo": "AL_respectorcannon_shot"
+}

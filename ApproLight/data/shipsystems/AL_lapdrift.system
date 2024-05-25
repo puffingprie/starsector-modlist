@@ -1,0 +1,16 @@
+{
+	"id":"AL_lapdrift",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"originem.al.shipsystems.scripts.AL_LapDriftStats",
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+	
+	"aiHints":{
+		"activeSpeedIncrease":125,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":80,
+	}
+}

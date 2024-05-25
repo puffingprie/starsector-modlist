@@ -1,0 +1,35 @@
+{
+    "displayName": "标准",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "AL_referee",
+    "hullMods": ["AL_DeuStove"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_referee_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd",
+                "WS0005": "AL_refusingpulse",
+                "WS0006": "AL_refusingpulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "swarmer",
+                "WS0002": "swarmer"
+            }
+        }
+    ],
+    "wings": [
+        "AL_soulno_wing",
+        "AL_heavynail_wing"
+    ]
+}

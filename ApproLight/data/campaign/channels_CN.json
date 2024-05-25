@@ -1,0 +1,25 @@
+{
+  "defaultChannels": [
+    "approlight_public"
+  ],
+  "approlight_public": {
+    "name": "趋光公共新闻",
+    "logo": "graphics/icons/intel/comms.png",
+    "icon": "graphics/icons/intel/comms.png",
+    "image": "graphics/factions/approlight.png",
+    "sound": "ui_channel_news",
+    "faction": "approlight",
+    "type": "新闻报告",
+    "shortType": "新闻"
+  },
+  "approlight_internal": {
+    "name": "趋光高级指挥情报",
+    "logo": "graphics/icons/intel/secure_comms.png",
+    "icon": "graphics/icons/intel/secure_comms.png",
+    "image": "graphics/factions/approlight.png",
+    "sound": "ui_channel_comm_secure",
+    "faction": "approlight",
+    "type": "情报报告 Report",
+    "shortType": "情报"
+  }
+}

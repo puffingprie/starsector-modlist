@@ -1,0 +1,52 @@
+{
+    "displayName": "标准",
+    "fluxCapacitors": 5,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "AL_postgraduate",
+    "hullMods": [
+        "AL_frequencybuffergrid",
+        "AL_glittertargetingcore",
+        "AL_dimensiongenerator"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_postgraduate_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "AL_spiderpulse",
+                "WS0008": "AL_spiderpulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "squall"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "AL_precollimation"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_defenderpd",
+                "WS0002": "AL_defenderpd",
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd",
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "heavyburst"}
+        }
+    ]
+}

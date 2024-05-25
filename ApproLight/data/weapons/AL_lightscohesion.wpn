@@ -1,0 +1,74 @@
+{
+  "collisionClass": "RAY_FIGHTER",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "convergeOnPoint": true,
+  "everyFrameEffect":"originem.al.scripts.weapons.AL_LightsCohesionEveryFrameEffect",
+  "beamEffect":"originem.al.scripts.weapons.AL_LightsCohesionBeamEffect",
+  "coreColor": [
+    255,
+    255,
+    255,
+    100
+  ],
+  "fireSoundOne": "AL_lightscohesion_charge",
+  #"fireSoundTwo":"AL_lightscohesion_loop",
+  "fringeColor": [
+    144,
+    79,
+    255,
+    255
+  ],
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    10,
+    0,
+    -10,
+    0,
+    0,
+    -10,
+    0,
+    10
+  ],
+  "hardpointSprite": "graphics/blank.png",
+  "id": "AL_lightscohesion",
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "pixelsPerTexel": 5,
+  "size": "LARGE",
+  "specClass": "beam",
+  "textureScrollSpeed": 292,
+  "textureType": SMOOTH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    -0,
+    0
+  ],
+  "turretOffsets": [
+    10,
+    0,
+    -10,
+    0,
+    0,
+    -10,
+    0,
+    10
+  ],
+  "turretSprite": "graphics/blank.png",
+  "type": "ENERGY",
+  "width": 8
+}

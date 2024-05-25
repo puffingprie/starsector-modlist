@@ -1,0 +1,18 @@
+{
+  "id": "AL_moonlight_medium_shot",
+  "specClass": "projectile",
+  #"spawnType": "BEAM",
+  "spawnType": "BALLISTIC_AS_BEAM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "onHitEffect": "originem.al.scripts.weapons.proj.AL_MoonLightMediumOnHit",
+  "length": 16.0,
+  "width": 10.0,
+  "hitGlowRadius": 25,
+  "fadeTime": 0.25,
+  "fringeColor": [100, 0, 255, 255],
+  "coreColor": [255, 255, 255, 200],
+  "textureType": "SMOOTH", # only needed for BEAM spawnType
+  "textureScrollSpeed": -256.0,
+  "pixelsPerTexel": 1.0
+}

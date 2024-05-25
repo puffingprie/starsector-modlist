@@ -1,0 +1,9 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+AL_IL_Header,Immortal-Light Campaign Settings,Header,Immortal-Light Campaign Settings,,,,,
+AL_IL_spawnRateMultiplier,Immortal-Light Fleet Spawn Rate,Double,1,,An Immortal-Light fleet spawns every [12]-[16] days to guard the Chaos Rift (maximum of [4] fleets); modify this value to adjust the spawn rate.,0.1,30,
+AL_IL_baseShipCount,Immortal-Light Base Ship Count,Int,10,,"The minimum number of ships that will be present in an Immortal-Light fleet when it spawns (regardless of the current difficulty scaling).
+
+Note that this number can never exceed [1.5] times the player's default fleet size.",1,100,
+AL_IL_difficultyMultiplier,Immortal-Light Difficulty Multiplier,Double,1,,"The overall quality of Immortal-Light fleets increases based on various factors, with the total difficulty being rated [H.X] in the fleet's name (where ""X"" is an integer representing the current difficulty).",0.1,5,
+AL_BOC_Header,Blade of Conviction Campaign Settings,Header,Blade of Conviction Campaign Settings,,,,,
+AL_BOC_encounterRateMultiplier,Blade of Conviction Attack Frequency,Double,1,,The Blade of Conviction sends fleets to attack the Chaos Rift once every [15] - [30] days; adjust this value to increase/decrease the frequency of the attacks.,0.1,30,

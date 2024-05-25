@@ -1,0 +1,56 @@
+{
+    "displayName": "精英",
+    "fluxCapacitors": 9,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "AL_scholar_il",
+    "hullMods": [
+        "targetingunit",
+        "AL_chainedmod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_scholar_il_Elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "tachyonlance"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "AL_lighter_hidden",
+                "WS0006": "AL_lighter_hidden",
+                "WS0013": "AL_lighter_hidden",
+                "WS0014": "AL_lighter_hidden"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "AL_explodebeam",
+                "WS0008": "AL_explodebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0016": "heavyneedler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_defenderpd",
+                "WS0002": "AL_defenderpd",
+                "WS0003": "AL_refusingpulse",
+                "WS0004": "AL_refusingpulse",
+                "WS0011": "AL_defenderpd",
+                "WS0012": "AL_defenderpd"
+            }
+        }
+    ]
+}

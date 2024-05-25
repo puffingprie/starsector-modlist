@@ -1,0 +1,43 @@
+{
+  "id": "AL_ruler_mrm",
+  "specClass": "missile",
+  "missileType": "MISSILE",
+  "onHitEffect": "originem.al.scripts.weapons.proj.AL_RulerMissileProjEffect",
+  "sprite": "graphics/missiles/AL_missile_ruler.png",
+  "size": [6, 17],
+  "center": [3, 8],
+  "collisionRadius": 9,
+  "collisionClass": "MISSILE_NO_FF",
+  "explosionColor": [70, 70, 155, 100], # purely visual, will get a white additively blended core on top of this color
+  "explosionRadius": 125, # purely visual
+  "engineSpec": {
+    "turnAcc": 600,
+    "turnRate": 180,
+    "acc": 700,
+    "dec": 350
+  },
+  "engineSlots": [
+    {
+      "id": "ES1",
+      "loc": [-10, 0],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "mode": "QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+        "engineColor": [150, 155, 255, 255],
+        "glowSizeMult": 1.5,
+        "contrailDuration": 1.5,
+        "contrailWidthMult": 1,
+        "contrailWidthAddedFractionAtEnd": 2, # can be negative. makes trail spread out/narrow at the end
+        "contrailMinSeg": 5, # min segment length, in pixels
+        "contrailMaxSpeedMult": 0.5,
+        "contrailAngularVelocityMult": 0.5,
+        "contrailSpawnDistMult": 0.25,
+        "contrailColor": [100, 165, 255, 100],
+        "type": "GLOW" # GLOW or SMOKE; additive or regular blend mode
+      },
+      "width": 4.0,
+      "length": 30.0,
+      "angle": 180.0
+    },
+  ]
+}

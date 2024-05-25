@@ -1,0 +1,55 @@
+{
+  "id": "AL_protoncollider",
+  "specClass": "projectile",
+  "projectileSpecId": "AL_proton_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "everyFrameEffect": "originem.al.scripts.weapons.AL_WildFireEveryFrameScript",
+  "turretSprite": "graphics/weapons/AL_wildfire_pc_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/AL_wildfire_pc_turret_glow.png",
+  "turretGunSprite": "graphics/weapons/AL_wildfire_pc_turret_gun.png",
+  "hardpointSprite": "graphics/weapons/AL_wildfire_pc_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/AL_wildfire_pc_hardpoint_glow.png",
+  "hardpointGunSprite": "graphics/weapons/AL_wildfire_pc_hardpoint_gun.png",
+  "glowColor": [
+    130,
+    255,
+    255,
+    255
+  ],
+  "visualRecoil": 6,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    29,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    29,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 20,
+    "particleSizeMin": 8,
+    "particleSizeRange": 8,
+    "particleDuration": 0.4,
+    "particleCount": 20,
+    "particleColor": [
+      100,
+      255,
+      255,
+      150
+    ]
+  },
+  "fireSoundTwo": "AL_protoncollider_fire"
+}

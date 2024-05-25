@@ -1,0 +1,28 @@
+{
+	"id":"AL_Decorative_master",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"DECORATIVE",
+	"size":"MEDIUM",
+	"renderBelowAllWeapons":true,
+	#"renderHints":["RENDER_ADDITIVE"],
+	"everyFrameEffect":"originem.al.scripts.weapons.AL_BachelorEveryFrameEffect",
+	"numFrames":2,	
+	"frameRate":0,
+	"alwaysAnimate":"false",
+	"turretSprite":"graphics/weapons/decorative/AL_master/AL_master_glow00.png",
+	"hardpointSprite":"graphics/weapons/decorative/AL_master/AL_master_glow00.png",	
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":0,
+					   "particleSizeMin":0,
+					   "particleSizeRange":0,
+					   "particleDuration":0,
+					   "particleCount":0,
+					   "particleColor":[0,0,0,0]},	
+	"projectileSpecId":"AL_None_Porj",  # projectile that will be fired
+}

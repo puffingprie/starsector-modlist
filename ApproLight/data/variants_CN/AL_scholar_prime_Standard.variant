@@ -1,0 +1,52 @@
+{
+    "displayName": "标准",
+    "fluxCapacitors": 10,
+    "fluxVents": 22,
+    "goalVariant": true,
+    "hullId": "AL_scholar_prime",
+    "hullMods": [
+        "fluxbreakers",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_scholar_prime_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "AL_chopfire"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "AL_lighter_hidden",
+                "WS0006": "AL_lighter_hidden",
+                "WS0013": "AL_lighter_hidden",
+                "WS0014": "AL_lighter_hidden"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "AL_spiderpulse",
+                "WS0008": "AL_protoncollider",
+                "WS0016": "AL_moonfire_medium"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_refusingpulse",
+                "WS0002": "AL_refusingpulse",
+                "WS0003": "AL_refusingpulse",
+                "WS0004": "AL_refusingpulse",
+                "WS0011": "AL_refusingpulse",
+                "WS0012": "AL_refusingpulse"
+            }
+        }
+    ]
+}

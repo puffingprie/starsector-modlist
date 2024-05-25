@@ -1,0 +1,37 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Cross-Dimension Maneuver,AL_crossdimenmaneuver,,,,,,,,,,0.5,2,0.5,10,,,,,TRUE,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Quench Dissipation Module,AL_approlightflux,,,-0.2,,,,,3,0.0666,0.25,0.625,0.5,6,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+Quantum Backlash Coil,AL_chargeshield,,,,,,0.1,,,,1.5,,0.25,15,,,,TRUE,,,,,,,,,graphics/icons/hullsys/AL_chargeshield_ico.png
+Vortex Displacer,AL_eddydisplacer,,,,,,0.05,,2,0.075,1,,0.5,3,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+Shatterlight Shift,AL_tornlight,1,,,,,,,,,0.5,1,1,10,TRUE,,,,,TRUE,TRUE,TRUE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+Arclight Shift,AL_arclight,1,,,,,,,2,0.05,0.5,1.5,1,7.5,TRUE,,,,,TRUE,TRUE,TRUE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+Glow Flux Jammer,AL_glowfluxjammer,,,,,,0.15,,,,1,,0.2,3,,,TRUE,TRUE,,TRUE,TRUE,,,,,,graphics/icons/hullsys/emp_emitter.png
+Supercomputing Channel,AL_euclidALG,,,,,,,,,,0.5,10,0.5,20,,,,,,,,,,,,,graphics/icons/hullsys/AL_euclidALG.png
+Amethyst Doctrine,AL_purpleprinciple,,,,,,,,,,0,0.1,0.4,0,,,,,,,,,,,,,graphics/icons/hullsys/reserve_deployment.png
+Spirit Battle System,AL_battlemode,1,,,,,,,,,1,,1,1,TRUE,,,,,,,,,,,,graphics/icons/hullsys/AL_battlemode.png
+Chrono Displacer,AL_parsecdisplacer,,,,,,0.10,,2,0.1,0.25,0,0.25,0.5,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+Boson Phase Cloak,AL_bosonphasecloak,,,,,,,,,,0.5,,0.5,2,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,,,graphics/icons/hullsys/phase_cloak.png
+Freezing Watch,AL_freezingwatch,,,,,,0.25,,,,0.5,20,0.5,10,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+Origin Core Release,AL_originflux,,,,,,,,,,1,,1,30,TRUE,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+Cataclysm,AL_cataclysm,,,,,,0.35,,,,1.8,,0.1,30,,,,,,,,,TRUE,TRUE,,,graphics/icons/hullsys/quantum_disruptor.png
+Time-Space Echo,AL_spacetimeecho,1,,,,,,,,,1,15,1,15,,,,,,,,,,,,,graphics/icons/hullsys/AL_spacetimeecho.png
+Flux Transfer Array,AL_fluxtransferarray,,,,,,,,3,0.05,0.25,,0.25,1,,TRUE,TRUE,,,,,,TRUE,,,,graphics/icons/hullsys/quantum_disruptor.png
+Mandate of Heaven,AL_godswilldriver,,,,,,,,,,0.5,2,1,15,,,,,,,,,,,,,graphics/icons/hullsys/burn_drive.png
+Divine Shield,AL_callofgodshield,,,0.02,,,,,,,1.5,,1.5,0,TRUE,,,TRUE,TRUE,,,,,,,,graphics/icons/hullsys/fortress_shield.png
+Divine Judgement,AL_separationofobsession,,,,,,0.1,,,,0.5,4,0.5,20,,,,TRUE,,,,,,,,,graphics/icons/hullsys/fortress_shield.png
+Evasion Driver,AL_thresholdavoiddriver,1,,,,,,,2,0.05,0.25,2.5,0.25,0,,,,,TRUE,,,,TRUE,TRUE,,,graphics/icons/hullsys/damper_field.png
+Quantum Drift,AL_lapdrift,,,,,,,,3,0.05,3,0,0,3,,,,TRUE,TRUE,,,,,TRUE,,,graphics/icons/hullsys/displacer.png
+Atomic Brushstroke,AL_atomscratch,,,,,,0.2,,2,0.0667,0.5,0,0.5,3,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+Pressurized Driver,AL_pressurizeddriver,1,,,,,0.1,,,,1,4,1,30,,,,TRUE,,TRUE,TRUE,TRUE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+Chronitron Field,AL_chronitonfield,1,,,,,0.25,,,,4,10,2,16,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
+Remote Repair System,AL_remoterepairsystem,,,,,,,,,,0,0,0,0,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
+Vanta Stalking,AL_darkwildstalking,,,,,,,,,,1,3,2,5,,,,,,,,,,,,,graphics/icons/hullsys/infernium_injector.png
+Flux Limiter,AL_fluxcompressconductor,,,0.01,,,,,,,0.75,,0.75,0,TRUE,,,TRUE,,,,,,,,,graphics/icons/hullsys/fortress_shield.png
+Blinding Light,AL_overflowlight,,,0.02,,,,,,,0.5,4,0.5,10,,,,TRUE,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+Ion Circulation,AL_reentrantcirculation,,,,,,0.1,,,,1.5,,0.25,12,,,,TRUE,,,,,,,,,graphics/icons/hullsys/AL_chargeshield_ico.png
+Subatomic Brushstroke,AL_displacerHeracles,,,,,,0.2,,2,0.1,0.5,0,0.5,3,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+Stepwise Recall Device,AL_substeprecalldevice,,,,,,0.25,,2,0.06,0.5,,0.5,,,,,,,,,,,,,,graphics/icons/hullsys/recall_device.png
+Tribute of the Damned,AL_darkpraise,1,,,,,,,,,0.25,8,0.25,8,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+Crystal Countdown,AL_blastcountdown,,,0.2,,,,,,,0.5,4,0.5,15,,,,TRUE,,,,,,TRUE,,,graphics/icons/hullsys/AL_crystalblast_ico.png
+Time Travel Drive,AL_tm_traveldrive,1,,,,,,,,,2,,2,0,TRUE,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,

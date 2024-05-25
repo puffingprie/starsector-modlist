@@ -1,0 +1,23 @@
+{
+  "id": "AL_hov_pulsecannon_shot",
+  "specClass": "projectile",
+  "spawnType": "BALLISTIC_AS_BEAM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "onFireEffect": "originem.al.scripts.weapons.proj.AL_HOVPulseCannonProjEffect",
+  "onHitEffect": "originem.al.scripts.weapons.proj.AL_HOVPulseCannonProjEffect",
+  "length": 100.0,
+  "width": 12,
+  "fadeTime": 0.1,
+  "fringeColor": [150, 150, 255, 255],
+  "coreColor": [200, 150, 255, 255],
+  "glowColor": [150, 100, 255, 75],
+  "glowRadius": 100,
+  "textureType": "SMOOTH",
+  "textureScrollSpeed": 64.0,
+  "pixelsPerTexel": 5.0,
+  "noImpactSounds": true,
+  "noShieldImpactSounds": true,
+  "noNonShieldImpactSounds": true,
+  "bulletSprite": "graphics/missiles/shell_gauss_cannon.png"
+}

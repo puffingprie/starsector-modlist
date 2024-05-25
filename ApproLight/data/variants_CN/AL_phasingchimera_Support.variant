@@ -1,0 +1,40 @@
+{
+    "displayName": "支援",
+    "fluxCapacitors": 7,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "AL_phasingchimera",
+    "hullMods": ["AL_glittertargetingcore"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_phasingchimera_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "tachyonlance",
+                "WS0006": "tachyonlance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_railgun",
+                "WS0002": "AL_railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd",
+                "WS0009": "AL_defenderpd",
+                "WS0010": "AL_defenderpd",
+                "WS0011": "AL_defenderpd"
+            }
+        }
+    ]
+}

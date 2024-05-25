@@ -1,0 +1,85 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 9,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "AL_klistamanas",
+    "hullMods": [
+        "AL_DeuStove",
+        "AL_frequencybuffergrid",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_klistamanas_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "tachyonlance",
+                "WS0014": "tachyonlance"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "AL_thunderpod",
+                "WS0008": "AL_thunderpod",
+                "WS0009": "AL_condemnpod",
+                "WS0010": "AL_condemnpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "AL_fireflushpulse",
+                "WS0012": "AL_fireflushpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "AL_explodebeam",
+                "WS0004": "AL_explodebeam",
+                "WS0015": "taclaser",
+                "WS0016": "taclaser",
+                "WS0017": "taclaser",
+                "WS0018": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_moonfire_medium",
+                "WS0002": "AL_moonfire_medium"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "AL_starflak_medium",
+                "WS0006": "AL_starflak_medium"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "AL_defenderpd",
+                "WS0020": "AL_defenderpd",
+                "WS0021": "AL_defenderpd",
+                "WS0022": "AL_defenderpd",
+                "WS0023": "AL_defenderpd",
+                "WS0024": "AL_defenderpd",
+                "WS0025": "AL_defenderpd",
+                "WS0026": "AL_defenderpd"
+            }
+        }
+    ]
+}

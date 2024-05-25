@@ -1,0 +1,20 @@
+{
+  "id": "AL_fireflushpulse_shot",
+  "specClass": "projectile",
+  "spawnType": "BALLISTIC_AS_BEAM",
+  "onHitEffect": "originem.al.scripts.weapons.proj.AL_FireFlushPulseOnHit",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "length": 80.0,
+  "width": 10,
+  "fadeTime": 0.5,
+  "fringeColor": [255, 0, 180, 255],
+  "coreColor": [255, 200, 200, 200],
+  "glowColor": [240, 40, 120, 60],
+  "glowRadius": 80,
+  "hitGlowRadius": 120,
+  "textureType": "WEAVE", # now also used for "BALLISTIC_AS_BEAM", if specified
+  #"textureType": ["graphics/fx/emp_arcs.png", "graphics/fx/emp_arcs.png"],
+  "textureScrollSpeed": 3.0,
+  "pixelsPerTexel": 2.0,
+}

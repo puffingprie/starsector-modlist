@@ -1,0 +1,47 @@
+{
+  "id": "AL_firebless_shot",
+  "specClass": "missile",
+  "missileType": "MISSILE",
+  "onFireEffect": "originem.al.scripts.weapons.proj.AL_FireBlessProjEffect",
+  "onHitEffect": "originem.al.scripts.weapons.proj.AL_FireBlessProjEffect",
+  "sprite": "graphics/missiles/AL_missile_firebless.png",
+  "size": [10, 10],
+  "center": [5, 5],
+  "collisionRadius": 10,
+  "collisionClass": "MISSILE_NO_FF",
+  "explosionColor": [155, 100, 200, 255], # purely visual, will get a white additively blended core on top of this color
+  "explosionRadius": 70, # purely visual
+  "engineSpec": {
+    "turnAcc": 720,
+    "turnRate": 360,
+    "acc": 300,
+    "dec": 300
+  },
+  "fadeTime": 0.5,
+  "flameoutTime": 0.5,
+  "noCollisionWhileFading": true,
+  "noDebrisWhenDestroyed": true,
+  "engineSlots": [
+    {
+      "id": "ES1",
+      "loc": [0, 0],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "mode": "QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+        "engineColor": [200, 0, 120, 10],
+        "contrailDuration": 0,
+        "contrailWidthMult": 0,
+        "contrailWidthAddedFractionAtEnd": -1, # can be negative. makes trail spread out/narrow at the end
+        "contrailMinSeg": 5, # min segment length, in pixels
+        "contrailMaxSpeedMult": 0f,
+        "contrailAngularVelocityMult": 0f,
+        "contrailSpawnDistMult": 0,
+        "contrailColor": [200, 0, 120, 100],
+        "type": "GLOW" # GLOW or SMOKE; additive or regular blend mode
+      },
+      "width": 1.0,
+      "length": 1.0,
+      "angle": 180.0
+    },
+  ]
+}

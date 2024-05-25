@@ -1,0 +1,44 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 20,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "AL_keter",
+    "hullMods": [
+        "targetingunit",
+        "AL_antideuengine",
+        "converted_hangar"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_keter_Attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0012": "AL_moonfire_large"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "AL_lighter",
+                "WS0004": "AL_lighter"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavyneedler",
+                "WS0002": "heavyneedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0016": "AL_subspace_detonation_unit"}
+        }
+    ],
+    "wings": ["sarissa_wing"]
+}

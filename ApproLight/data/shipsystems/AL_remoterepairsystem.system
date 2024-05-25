@@ -1,0 +1,13 @@
+{
+	"id":"AL_remoterepairsystem",
+	"type":"STAT_MOD",
+	"aiType":"NONE",
+	"statsScript":"originem.al.shipsystems.scripts.AL_BattleMode",
+
+	"useSound":"system_ammo_feeder",
+	"loopSound":"system_high_energy_focus_loop",
+	"outOfUsesSound":"gun_out_of_ammo",	
+	
+	"aiHints":{
+	}
+}

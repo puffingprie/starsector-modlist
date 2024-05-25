@@ -1,0 +1,59 @@
+{
+    "displayName": "进攻",
+    "fluxCapacitors": 22,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "AL_scholar_ils",
+    "hullMods": [
+        "targetingunit",
+        "converted_hangar",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_scholar_ils_Attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "AL_fireflushpulse",
+                "WS0010": "AL_fireflushpulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0024": "squall"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0023": "AL_ultrabeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "AL_fireflushcannon",
+                "WS0004": "AL_fireflushcannon",
+                "WS0017": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_defenderpd",
+                "WS0002": "AL_defenderpd",
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd",
+                "WS0011": "AL_defenderpd",
+                "WS0012": "AL_defenderpd",
+                "WS0015": "AL_subspace_detonation_unit",
+                "WS0016": "AL_subspace_detonation_unit"
+            }
+        }
+    ],
+    "wings": ["AL_techno_wing"]
+}

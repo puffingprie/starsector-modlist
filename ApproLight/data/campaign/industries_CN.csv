@@ -1,0 +1,2 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
+AL_planetaryshield,聚光防护罩,120,90,,3,,,"grounddefenses, structure",,graphics/icons/industry/AL_planetary_shield.png,originem.al.scripts.campaign.industry.AL_PlanetaryShield,"一种覆盖于整个星球上空的电磁隔离护盾,能有效遮蔽来自外太空的辐射干扰.与此同时,模块化的防护单元可以通过短期电磁干扰强化来抑制来袭舰队的攻击.",2700

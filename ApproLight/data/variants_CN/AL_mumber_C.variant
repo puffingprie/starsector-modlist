@@ -1,0 +1,31 @@
+{
+    "displayName": "C",
+    "fluxCapacitors": 9,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "AL_mumber",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_mumber_C",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "taclaser",
+                "WS0004": "taclaser",
+                "WS0007": "AL_respectbeam",
+                "WS0008": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd"
+            }
+        }
+    ]
+}

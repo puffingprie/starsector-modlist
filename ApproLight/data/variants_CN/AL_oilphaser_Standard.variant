@@ -1,0 +1,43 @@
+{
+    "displayName": "标准",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "AL_oilphaser",
+    "hullMods": [
+        "pointdefenseai",
+        "AL_glittertargetingcore"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_oilphaser_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "taclaser",
+                "WS0003": "taclaser",
+                "WS0006": "taclaser",
+                "WS0007": "taclaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "sabot",
+                "WS0009": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "taclaser",
+                "WS0004": "taclaser",
+                "WS0005": "taclaser"
+            }
+        }
+    ]
+}

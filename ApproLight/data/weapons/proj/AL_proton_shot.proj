@@ -1,0 +1,20 @@
+{
+  "id": "AL_proton_shot",
+  "specClass": "projectile",
+  "spawnType": "BALLISTIC_AS_BEAM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "onHitEffect": "originem.al.scripts.weapons.proj.AL_WildFireProjEffect",
+  "onFireEffect": "originem.al.scripts.weapons.proj.AL_WildFireProjEffect",
+  "length": 24.0,
+  "width": 8,
+  "fadeTime": 0.2,
+  "fringeColor": [100, 255, 255, 255],
+  "glowColor": [100, 150, 255, 75],
+  "glowRadius": 20,
+  "coreColor": [255, 255, 255, 200],
+  "hitGlowRadius": 25,
+  "textureType": "ROUGH", # now also used for "BALLISTIC_AS_BEAM", if specified
+  "textureScrollSpeed": -256,
+  "pixelsPerTexel": 0.5,
+}

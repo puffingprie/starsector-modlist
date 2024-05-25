@@ -1,0 +1,84 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 44,
+    "goalVariant": true,
+    "hullId": "AL_laplace_ether",
+    "hullMods": [
+        "AL_frequencybuffergrid",
+        "AL_glittertargetingcore",
+        "AL_shadowblueprint"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_laplace_ether_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0026": "AL_unstablemissile_array",
+                "WS0027": "AL_unstablemissile_array",
+                "WS0028": "AL_unstablemissile_array",
+                "WS0029": "AL_unstablemissile_array"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0021": "AL_condemnpod",
+                "WS0022": "AL_condemnpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0024": "AL_spiderlaser",
+                "WS0025": "AL_spiderlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "AL_railgun",
+                "WS0012": "AL_railgun",
+                "WS0013": "AL_railgun",
+                "WS0014": "AL_railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_defenderpd",
+                "WS0002": "AL_defenderpd",
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd",
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd",
+                "WS0007": "AL_defenderpd",
+                "WS0008": "AL_defenderpd",
+                "WS0017": "AL_defenderpd",
+                "WS0018": "AL_defenderpd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "heavyburst",
+                "WS0016": "heavyburst",
+                "WS0019": "heavyburst",
+                "WS0020": "heavyburst"
+            }
+        }
+    ],
+    "wings": [
+        "AL_techno_wing",
+        "AL_techno_wing",
+        "AL_firelink_wing"
+    ]
+}

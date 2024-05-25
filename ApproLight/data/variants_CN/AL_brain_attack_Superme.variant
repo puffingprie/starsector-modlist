@@ -1,0 +1,74 @@
+{
+    "displayName": "高端",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "AL_brain_attack",
+    "hullMods": [
+        "targetingunit",
+        "AL_dimensiongenerator",
+        "AL_frequencybuffergrid"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_brain_attack_Superme",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0021": "AL_firesbless",
+                "WS0022": "AL_firesbless"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "breach",
+                "WS0010": "breach"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "AL_condemnpod",
+                "WS0014": "AL_condemnpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0019": "AL_lightscohesion"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "AL_explodebeam",
+                "WS0008": "AL_explodebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "railgun",
+                "WS0012": "railgun",
+                "WS0015": "heavyac",
+                "WS0016": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_defenderpd",
+                "WS0002": "AL_defenderpd",
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd"
+            }
+        }
+    ]
+}

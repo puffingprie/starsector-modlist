@@ -1,0 +1,54 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 20,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "AL_keter_il",
+    "hullMods": [
+        "targetingunit",
+        "AL_frequencybuffergrid"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_keter_il_Elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0012": "tachyonlance"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "salamanderpod",
+                "WS0004": "salamanderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "hveldriver",
+                "WS0002": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd",
+                "WS0011": "AL_defenderpd",
+                "WS0013": "AL_defenderpd",
+                "WS0016": "AL_refusingpulse",
+                "WS00176": "AL_refusingpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0018": "AL_starflak_medium"}
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "displayName": "支援",
+    "fluxCapacitors": 2,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "AL_referee",
+    "hullMods": [
+        "AL_dimensiongenerator",
+        "expanded_deck_crew"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_referee_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd",
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "heatseeker",
+                "WS0002": "heatseeker"
+            }
+        }
+    ],
+    "wings": [
+        "AL_techno_wing",
+        "AL_firelink_wing"
+    ]
+}

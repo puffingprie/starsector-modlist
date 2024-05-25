@@ -1,0 +1,36 @@
+{
+  "id": "AL_starflak_shot",
+  "specClass": "projectile",
+  "spawnType": "BALLISTIC",
+  "collisionClass": "PROJECTILE_FF",
+  "collisionClassByFighter": "PROJECTILE_FIGHTER",
+  "length": 30.0,
+  "hitGlowRadius": 20,
+  "width": 5,
+  "fadeTime": 0.2,
+  "fringeColor": [200, 255, 255, 255],
+  "coreColor": [255, 200, 200, 150],
+  "glowColor": [125, 200, 255, 69],
+  "glowRadius": 20,
+  "textureScrollSpeed": 64.0,
+  "pixelsPerTexel": 5.0,
+  "bulletSprite": "graphics/missiles/shell_large_blue.png",
+  #"bulletSprite": "",
+  "behaviorSpec": {
+    "behavior": "PROXIMITY_FUSE",
+    "range": 20,
+    "explosionSpec": {
+      "duration": 0.1f,
+      "radius": 30,
+      "coreRadius": 10, # full damage within core radius - also equal to proximity fuse range
+      "collisionClass": PROJECTILE_FF,
+      "collisionClassByFighter": PROJECTILE_FIGHTER,
+      "particleSizeMin": 3.0,
+      "particleSizeRange": 6.0,
+      "particleDuration": 0.6,
+      "particleCount": 50,
+      "particleColor": [125, 200, 255, 255],
+      "sound": "explosion_flak"
+    },
+  }
+}

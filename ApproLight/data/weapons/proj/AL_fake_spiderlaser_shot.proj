@@ -1,0 +1,17 @@
+{
+  "id": "AL_fake_spiderlaser_shot",
+  "specClass": "projectile",
+  "spawnType": "BALLISTIC",
+  "collisionClass": "PROJECTILE_FF",
+  "collisionClassByFighter": "PROJECTILE_FIGHTER",
+  "length": 16.0,
+  "width": 4,
+  "fadeTime": 0.15,
+  "fringeColor": [100, 100, 235, 200],
+  "coreColor": [150, 150, 150, 50],
+  "hitGlowRadius": 20,
+  "textureType": "LASER", # now also used for "BALLISTIC_AS_BEAM", if specified
+  #"textureType": ["graphics/fx/emp_arcs.png", "graphics/fx/emp_arcs.png"],
+  "textureScrollSpeed": -256,
+  "pixelsPerTexel": 1.0,
+}

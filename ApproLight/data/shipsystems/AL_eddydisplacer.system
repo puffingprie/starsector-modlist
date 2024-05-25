@@ -1,0 +1,30 @@
+{
+	"id":"AL_eddydisplacer",
+	"type":"DISPLACER",
+	"aiType":"PHASE_DISPLACER",
+    
+    "statsScript":"originem.al.shipsystems.scripts.AL_EddyDisplacerStats",
+	
+	"jitterColor":[100,165,255,155],
+	#"jitterColor":[255,100,255,150],
+	"jitterCopies":10,
+	"jitterRange":0,
+	"jitterRangeRadiusFraction":0.5,
+	
+	"engineGlowColor":[100,165,255,125],
+
+	"range":500,
+	"randomRange":0,
+	
+	"renderCopyDuringTeleport":true,
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"AL_eddydisplacer_activate",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":500,
+		"averageSpeedIncrease":50,
+	}
+}

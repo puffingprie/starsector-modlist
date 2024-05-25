@@ -1,0 +1,141 @@
+{
+  "hullName": "AL_penciller",
+  "hullId": "AL_penciller",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/AL_penciller.png",
+  "style": "APPRO_TECH",
+  "height": 167,
+  "width": 115,
+  "center": [60, 84],
+  "collisionRadius": 89.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 86.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "high_maintenance",
+    "AL_dimensiongenerator"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [19, -28]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -90,
+      "locations": [-7, -28]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [-2, 8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39, 27.5],
+      "length": 21.920309,
+      "width": 9.899495,
+      "angle": 135,
+      "contrailSize": 9.899495,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-25, -41.5],
+      "length": 31.112698,
+      "width": 9.899495,
+      "angle": -135,
+      "contrailSize": 9.899495,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-32.5, 38.5],
+      "length": 24.5,
+      "width": 8,
+      "angle": 135,
+      "contrailSize": 8,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-18, 49.5],
+      "length": 24.5,
+      "width": 8,
+      "angle": 135,
+      "contrailSize": 8,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-28, -38],
+      "length": 15.909903,
+      "width": 3.535534,
+      "angle": -135,
+      "contrailSize": 3.535534,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-22, -44],
+      "length": 15.909903,
+      "width": 3.535534,
+      "angle": -135,
+      "contrailSize": 3.535534,
+      "style": "APPRO_ENGINE"
+    }
+  ],
+  "bounds": [
+    20.5, 2,
+    80, 2.5,
+    68, 5,
+    42.5, 30.5,
+    33, 30,
+    16, 44.5,
+    14, 50,
+    8, 46,
+    -7.5, 46,
+    -15.5, 54,
+    -22, 47.5,
+    -14.5, 42.5,
+    -22.5, 37.5,
+    -30, 41.5,
+    -36, 36.5,
+    -31, 30.5,
+    -34, 27.5,
+    -37, 29,
+    -41.5, 24.5,
+    -40.5, 22.5,
+    -42, 15.5,
+    -63, 15.5,
+    -66, 12,
+    -46, 11,
+    -73, 4.5,
+    -19, 0.5,
+    -21.5, -9,
+    -64, -11.5,
+    -31.5, -16.5,
+    -47, -18,
+    -41.5, -24.5,
+    -30.5, -24,
+    -24, -31,
+    -29.5, -37.5,
+    -19.5, -44,
+    -12, -39,
+    23, -38.5,
+    44.5, -19.5,
+    71, -18.5,
+    67, -14.5,
+    39.5, -13,
+    18, -5.5
+  ]
+}

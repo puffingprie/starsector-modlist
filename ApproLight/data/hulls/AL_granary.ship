@@ -1,0 +1,186 @@
+{
+  "hullName": "AL_granary",
+  "hullId": "AL_granary",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/AL_granary.png",
+  "style": "APPRO_TECH",
+  "height": 490,
+  "width": 240,
+  "center": [120, 249],
+  "collisionRadius": 272,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 259.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "AL_amrefiningfactory",
+    "AL_dimensiongenerator"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 70.5,
+      "locations": [15, 70]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -70.5,
+      "locations": [15, -70]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 213,
+      "angle": 180,
+      "locations": [-139.5, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [84.5, 101.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [84.5, -101.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 64,
+      "angle": -159,
+      "locations": [1.5, -98.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 64,
+      "angle": 159,
+      "locations": [1.5, 98.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 64,
+      "angle": 21,
+      "locations": [104, 93]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 64,
+      "angle": -21,
+      "locations": [104, -93]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-211.5, 35.5],
+      "length": 37,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-211.5, -35.5],
+      "length": 37,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-209, 44.5],
+      "length": 30,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-209, -44.5],
+      "length": 30,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-213, 26],
+      "length": 35.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-213, -26],
+      "length": 35.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-37.5, 95],
+      "length": 16,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-37.5, -95],
+      "length": 16,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "APPRO_ENGINE"
+    }
+  ],
+  "bounds": [
+    -210, -65.5,
+    -191, -110.5,
+    -64.5, -110,
+    -3, -98.5,
+    101, -109.5,
+    105, -95,
+    145.5, -93.5,
+    183, -72.5,
+    183, 72.5,
+    145.5, 93.5,
+    105, 95,
+    101, 109.5,
+    -3, 98.5,
+    -64.5, 110,
+    -191, 110.5,
+    -210, 65.5
+  ]
+}

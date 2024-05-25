@@ -1,0 +1,54 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 8,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "AL_brain",
+    "hullMods": [
+        "converted_hangar",
+        "missleracks",
+        "AL_antideuengine"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_brain_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "dragon",
+                "WS0014": "dragon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "sabot_single",
+                "WS0012": "sabot_single"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "hveldriver",
+                "WS0008": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_defenderpd",
+                "WS0002": "AL_defenderpd",
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd",
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd"
+            }
+        }
+    ],
+    "wings": ["talon_wing"]
+}

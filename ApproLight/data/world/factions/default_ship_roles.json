@@ -1,0 +1,153 @@
+{
+  "combatSmallForSmallFleet": {
+    "AL_penciller_missile": 6,
+    "AL_penciller_Support": 4,
+    "AL_jadewat_Attack": 10,
+    "AL_mumber_Support": 4,
+    "AL_mumber_Strike": 2,
+    "AL_academician_Standard": 6,
+    "AL_academician_Attack": 4
+  },
+  "combatSmall": {
+    "AL_penciller_missile": 6,
+    "AL_penciller_Support": 4,
+    "AL_jadewat_Attack": 10,
+    "AL_mumber_Strike": 5,
+    "AL_mumber_Support": 5,
+    "AL_academician_Standard": 6,
+    "AL_academician_Attack": 4
+  },
+  "combatMedium": {
+    "AL_whitewolf_Attack": 4,
+    "AL_whitewolf_Elite": 3,
+    "AL_whitewolf_Balanced": 3,
+    "AL_referee_Standard": 10,
+    "AL_bachelor_Attack": 3,
+    "AL_bachelor_Support": 3,
+    "AL_bachelor_Standard": 3,
+    "AL_emptiness_Standard": 3,
+    "AL_emptiness_Support": 4,
+    "AL_emptiness_Elite": 3,
+    "AL_boson_Standard": 5,
+    "AL_boson_Attack": 5,
+    "AL_brain_Defend": 3,
+    "AL_brain_Support": 3,
+    "AL_brain_Attack": 4,
+    "AL_discipline_Attack": 5,
+    "AL_discipline_Support": 5,
+    "AL_torch_Standard": 10
+  },
+  "combatLarge": {
+    "AL_scholar_Attack": 3,
+    "AL_scholar_Assault": 3,
+    "AL_scholar_Expansion": 2,
+    "AL_archimedes_Standard": 3,
+    "AL_archimedes_Strike": 3,
+    "AL_archimedes_Attack": 4,
+    "AL_keter_Standard": 4,
+    "AL_keter_Attack": 4,
+    "AL_keter_Elite": 2,
+    "AL_keter_Destory": 2,
+    "AL_keter_il_Attack": 5,
+    "AL_keter_il_Elite": 5,
+    "AL_postgraduate_Standard": 5,
+    "AL_postgraduate_Elite": 5,
+    "AL_brain_attack_Standard": 2,
+    "AL_brain_attack_Warrior": 1,
+    "AL_brain_attack_Superme": 1,
+    "AL_scholar_i_Standard": 10
+  },
+  "combatCapital": {
+    "AL_euclid_Standard": 4,
+    "AL_euclid_AntiDefense": 3,
+    "AL_euclid_Artillery": 3,
+    "AL_frozenyard_Balanced": 5,
+    "AL_frozenyard_Attack": 5,
+    "AL_scholar_s_Standard": 5,
+    "AL_scholar_s_Expansion": 5,
+    "AL_keter_m_Standard": 5,
+    "AL_keter_m_Elite": 5,
+    "AL_doctor_Standard": 4,
+    "AL_doctor_Elite": 3,
+    "AL_doctor_Assault": 3,
+    "AL_doctoralsupervisor_Standard": 5,
+    "AL_doctoralsupervisor_Support": 5,
+    "AL_repairfactory_Standard": 5,
+    "AL_euclid_m_Bomb": 4,
+    "AL_euclid_m_Strike": 2,
+    "AL_klistamanas_Standard": 2,
+    "AL_klistamanas_Attack": 2,
+    "AL_klistamanas_Balanced": 3,
+    "AL_klistamanas_Elite": 3
+  },
+  "combatFreighterSmall": {
+  },
+  "combatFreighterMedium": {
+  },
+  "combatFreighterLarge": {
+  },
+  "civilianRandom": {
+  },
+  "carrierSmall": {
+  },
+  "carrierMedium": {
+    "AL_referee_Standard": 5,
+    "AL_referee_Support": 5,
+    "AL_crown_Standard": 4,
+    "AL_crown_Strike": 6
+  },
+  "carrierLarge": {
+    "AL_frozenyard_Attack": 10,
+    "AL_euclid_m_Bomb": 5,
+    "AL_euclid_m_Strike": 5,
+    "AL_repairfactory_Standard": 4,
+  },
+  "phaseSmall": {
+    "AL_assistance_Standard": 10,
+  },
+  "phaseMedium": {
+  },
+  "phaseLarge": {
+    "AL_phasingchimera_Standard": 6,
+    "AL_phasingchimera_Elite": 4,
+  },
+  "phaseCapital": {
+  },
+  "freighterSmall": {
+    "AL_textbook_Standard": 10,
+  },
+  "freighterMedium": {
+    "AL_oilphaser_Standard": 10,
+    "AL_scolder_Standard": 10
+  },
+  "freighterLarge": {
+    "AL_granary_Standard": 10,
+    "AL_granary_Cargo": 10,
+  },
+  "tankerSmall": {
+  },
+  "tankerMedium": {
+    "AL_oilphaser_Standard": 10,
+  },
+  "tankerLarge": {
+    "AL_granary_Standard": 10,
+    "AL_granary_Fuel": 10,
+  },
+  "personnelSmall": {
+    "AL_textbook_Standard": 10
+  },
+  "personnelMedium": {
+    "AL_scolder_Standard": 10
+  },
+  "linerMedium": {
+    "AL_scolder_Standard": 10
+  },
+  "personnelLarge": {
+  },
+  "tug": {
+  },
+  "crig": {
+  },
+  "utility": {
+  },
+}

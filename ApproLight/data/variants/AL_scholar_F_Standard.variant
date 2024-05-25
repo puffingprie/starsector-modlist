@@ -1,0 +1,52 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 9,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "AL_scholar_F",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "AL_scholar_F_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "AL_spiderlaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "AL_lighter_hidden_twin",
+                "WS0006": "AL_lighter_hidden_twin",
+                "WS0013": "AL_lighter_hidden_twin",
+                "WS0014": "AL_lighter_hidden_twin"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "AL_respectbeam",
+                "WS0008": "AL_respectbeam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0016": "AL_respectorcannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_refusingpulse",
+                "WS0002": "AL_refusingpulse",
+                "WS0003": "AL_refusingpulse",
+                "WS0004": "AL_refusingpulse",
+                "WS0011": "vulcan",
+                "WS0012": "vulcan"
+            }
+        }
+    ]
+}

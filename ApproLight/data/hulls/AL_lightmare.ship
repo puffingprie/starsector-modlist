@@ -1,0 +1,61 @@
+{
+  "hullName": "AL_lightmare",
+  "hullId": "AL_lightmare",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/AL_lightmare.png",
+  "style": "APPRO_TECH",
+  "height": 48,
+  "width": 40,
+  "center": [20, 22],
+  "collisionRadius": 27,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, -0],
+      "length": 16,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-12.5, 4],
+      "length": 9.832549,
+      "width": 3.644711,
+      "angle": -169.5,
+      "contrailSize": 3.644711,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-12.5, -4],
+      "length": 9.832549,
+      "width": 3.644711,
+      "angle": 169.5,
+      "contrailSize": 3.644711,
+      "style": "APPRO_ENGINE"
+    }
+  ],
+  "bounds": [
+    -16.5, -7.5,
+    -9, -15.5,
+    20, -4.5,
+    14, -2.5,
+    14, 2.5,
+    20, 4.5,
+    -9, 15.5,
+    -16.5, 7.5
+  ]
+}

@@ -1,0 +1,134 @@
+{
+    "bounds": [
+        -20.5,
+        -5.5,
+        -17,
+        -15,
+        -2,
+        -15.5,
+        2,
+        -10.5,
+        13.5,
+        -14.5,
+        23,
+        -5,
+        7.5,
+        -2,
+        7.5,
+        2,
+        23,
+        5,
+        13.5,
+        14.5,
+        2,
+        10.5,
+        -2,
+        15.5,
+        -17,
+        15,
+        -20.5,
+        5.5
+    ],
+    "center": [
+        25.5,
+        24
+    ],
+    "collisionRadius": 24.04163,
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 5,
+            "length": 19,
+            "location": [
+                -17,
+                5
+            ],
+            "style": "APPRO_ENGINE",
+            "width": 5
+        },
+        {
+            "angle": -180,
+            "contrailSize": 5,
+            "length": 19,
+            "location": [
+                -17,
+                -5
+            ],
+            "style": "APPRO_ENGINE",
+            "width": 5
+        },
+        {
+            "angle": 180,
+            "contrailSize": 4,
+            "length": 11.5,
+            "location": [
+                -16,
+                11
+            ],
+            "style": "APPRO_ENGINE",
+            "width": 4
+        },
+        {
+            "angle": -180,
+            "contrailSize": 4,
+            "length": 11.5,
+            "location": [
+                -16,
+                -11
+            ],
+            "style": "APPRO_ENGINE",
+            "width": 4
+        }
+    ],
+    "height": 53,
+    "hullId": "AL_soulno",
+    "hullName": "AL_soulno",
+    "hullSize": "FIGHTER",
+    "shieldCenter": [
+        0,
+        0
+    ],
+    "shieldRadius": 25.869867,
+    "spriteName": "graphics/ships/AL_soulno.png",
+    "style": "APPRO_TECH",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": 0,
+            "arc": 220,
+            "id": "WS0001",
+            "locations": [
+                10,
+                9.5
+            ],
+            "mount": "HIDDEN",
+            "size": "SMALL",
+            "type": "ENERGY"
+        },
+        {
+            "angle": 0,
+            "arc": 220,
+            "id": "WS0002",
+            "locations": [
+                10,
+                -9.5
+            ],
+            "mount": "HIDDEN",
+            "size": "SMALL",
+            "type": "ENERGY"
+        },
+        {
+            "angle": 0,
+            "arc": 10,
+            "id": "WS0003",
+            "locations": [
+                -6,
+                0
+            ],
+            "mount": "HIDDEN",
+            "size": "SMALL",
+            "type": "ENERGY"
+        }
+    ],
+    "width": 51
+}

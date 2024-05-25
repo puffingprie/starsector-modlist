@@ -1,0 +1,62 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "LINKED",
+  "fireSoundTwo": "AL_spiderpulse_fire",
+  "glowColor": [
+    155,
+    100,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    -3,
+    3,
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/AL_spiderpulse_hardpoint_glow.png",
+  "hardpointOffsets": [
+    12.5,
+    -7,
+    12.5,
+    7,
+    13.5,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/AL_spiderpulse_hardpoint_base.png",
+  "id": "AL_spiderpulse",
+  "muzzleFlashSpec": {
+    "length": 50,
+    "particleColor": [
+      155,
+      100,
+      255,
+      255
+    ],
+    "particleCount": 15,
+    "particleDuration": 0.12,
+    "particleSizeMin": 15,
+    "particleSizeRange": 10,
+    "spread": 5
+  },
+  "projectileSpecId": "AL_spiderpulse_shot",
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    -3,
+    3,
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/AL_spiderpulse_turret_glow.png",
+  "turretOffsets": [
+    12,
+    -7,
+    12,
+    7,
+    13,
+    0
+  ],
+  "turretSprite": "graphics/weapons/AL_spiderpulse_turret_base.png",
+  "type": "ENERGY"
+}

@@ -1,0 +1,52 @@
+{
+    "displayName": "拓展",
+    "fluxCapacitors": 8,
+    "fluxVents": 27,
+    "hullId": "AL_scholar",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_scholar_Expansion",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "AL_electricalcannon"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "AL_lighter_hidden",
+                "WS0006": "AL_lighter_hidden",
+                "WS0013": "AL_lighter_hidden",
+                "WS0014": "AL_lighter_hidden"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "gravitonbeam",
+                "WS0008": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0016": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_defenderpd",
+                "WS0002": "AL_defenderpd",
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd",
+                "WS0011": "AL_defenderpd",
+                "WS0012": "AL_defenderpd"
+            }
+        }
+    ]
+}

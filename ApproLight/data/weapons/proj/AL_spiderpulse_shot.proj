@@ -1,0 +1,18 @@
+{
+  "id": "AL_spiderpulse_shot",
+  "specClass": "projectile",
+  "spawnType": "BALLISTIC",
+  "onHitEffect": "originem.al.scripts.weapons.proj.AL_SpiderProjOnHitEffect",
+  "onFireEffect": "originem.al.scripts.weapons.proj.AL_SpiderProjOnHitEffect",
+  "collisionClass": "PROJECTILE_FF",
+  "collisionClassByFighter": "PROJECTILE_FIGHTER",
+  "length": 15.0,
+  "width": 10,
+  "fadeTime": 0.1,
+  "fringeColor": [100, 150, 235, 255],
+  "coreColor": [200, 200, 255, 200],
+  "hitGlowRadius": 20,
+  "textureScrollSpeed": 64.0,
+  "pixelsPerTexel": 5.0,
+  "bulletSprite": "graphics/missiles/AL_shell_spider.png"
+}

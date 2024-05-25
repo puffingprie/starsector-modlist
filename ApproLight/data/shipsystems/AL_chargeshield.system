@@ -1,0 +1,26 @@
+{
+	"id":"AL_chargeshield",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"originem.al.shipsystems.scripts.AL_ChargeShieldStats",
+	"aiScript":"originem.al.shipsystems.scripts.ai.AL_ChargeShieldAI",
+
+	"jitterColor":[0,150,255,15],
+	"jitterCopies":3,
+	"jitterRange":20,
+	"jitterRangeRadiusFraction":0,
+	
+	"fadeActivationSoundOnChargedown":false,
+	
+	"useSound":"AL_chargeshield_charge",
+	"impactSound":"system_emp_emitter_impact",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":1000,
+		"threatAmount":10,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}

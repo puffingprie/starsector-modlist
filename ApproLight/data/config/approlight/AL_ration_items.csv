@@ -1,0 +1,32 @@
+id,item,extra,type,add,max,locked
+p_core,AL_primecore,,COMMODITY,0.5,4,FALSE
+p_material,AL_primematerial,,COMMODITY,0.75,6,FALSE
+p_peripheral,AL_primeperipheral,,COMMODITY,1,8,FALSE
+ai_core,alpha_core,,COMMODITY,0.2,1,FALSE
+beta_core,beta_core,,COMMODITY,0.5,3,FALSE
+gamma_core,gamma_core,,COMMODITY,1,5,FALSE
+AL_w_s_01,AL_refusingpulse,,WEAPON,4,10,FALSE
+AL_w_m_01,AL_lighter,,WEAPON,2,10,FALSE
+AL_w_m_03,AL_railgun,,WEAPON,2,10,FALSE
+AL_w_m_04,AL_fireflushcannon,,WEAPON,2,10,FALSE
+AL_w_m_05,AL_spiderpulse,,WEAPON,2,10,FALSE
+AL_w_l_01,AL_spiderpod,,WEAPON,1,10,FALSE
+AL_w_l_02,AL_electricalcannon,,WEAPON,1,5,FALSE
+AL_w_l_03,AL_ultrabeam,,WEAPON,1,5,FALSE
+AL_w_l_04,AL_spiderlaser,,WEAPON,1,5,FALSE
+AL_w_l_05,AL_fireflushpulse,,WEAPON,1,5,FALSE
+AL_w_l_06,AL_moonfire_large,,WEAPON,1,5,FALSE
+AL_w_l_07,AL_dyingblazebeam,,WEAPON,1,5,FALSE
+AL_s_01,AL_ship_contract,AL_euclid,SPECIAL,0.5,5,FALSE
+AL_s_02,AL_ship_contract,AL_keter,SPECIAL,0.5,5,FALSE
+AL_s_03,AL_ship_contract,AL_bachelor,SPECIAL,0.5,5,FALSE
+AL_s_04,AL_ship_contract,AL_mumber,SPECIAL,0.5,5,FALSE
+AL_s_05,AL_ship_contract,AL_torch,SPECIAL,0.005,1,FALSE
+Ori_s_01,AL_prime_bp,AL_mumber_prime,SPECIAL,1,0,TRUE
+Ori_s_02,AL_prime_bp,AL_scholar_prime,SPECIAL,1,0,TRUE
+Ori_s_03,AL_prime_bp,AL_whitewolf_prime,SPECIAL,1,0,TRUE
+Ori_s_04,AL_prime_bp,AL_frozenyard_prime,SPECIAL,1,0,TRUE
+ AL_lock_s_01,AL_ship_contract,AL_penciller_H,SPECIAL,1,0,TRUE
+ AL_lock_s_03,AL_ship_contract,AL_scholar_F,SPECIAL,1,0,TRUE
+ AL_lock_s_04,AL_ship_contract,AL_keter_H,SPECIAL,1,0,TRUE
+ AL_lock_s_05,AL_ship_contract,AL_master,SPECIAL,1,0,TRUE

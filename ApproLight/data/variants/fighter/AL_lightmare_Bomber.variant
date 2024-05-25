@@ -1,0 +1,14 @@
+{
+  "quality":1,
+  "displayName": "Heavy Bomber",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "AL_lightmare",
+  "variantId": "AL_lightmare_Bomber",
+  "weaponGroups": [
+  {"mode":"LINKED",
+		 "weapons":{
+		 			"WS0001":"AL_lighter_single",
+		 		   },
+		}]
+}

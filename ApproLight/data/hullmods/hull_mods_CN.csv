@@ -1,0 +1,234 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+二位氢炉,AL_DeuStove,1,,趋光计划-以太,"offensive,special,req_spaceport,AL_system_set","特殊, 需要船坞, 趋光能源系统",12000,,,,5,10,15,25,originem.al.hullmods.AL_DeuStove,"趋光议会起源之一，是一种强大而有效的主动耗散设备。
+
+该能源炉链接了舰船所有的幅能通道，形成一个功效强大的幅能缓冲区，在启动时能提供数秒的超负荷耗散功率。
+
+[ %s ]
+- 本系统可用时，按下 %s 将优先激活本系统而非强制排散
+- 激活需要 %s 秒的准备:
+    此期间再次按下 %s 将取消激活，还原为强制排散
+- 共计 %s 秒，提高 %s 的基础幅能耗散
+- 激活时允许开盾时耗散 %s 硬幅能
+- 缓冲/冷却 %s 秒
+- 安装 %s 来启用自动化(AI默认拥有此插件)",提高幅能有效容量。,,graphics/hullmods/AL_deustove.png
+D.S自动化,AL_deustove_auto,1,,趋光计划-以太,"offensive,special, no_build_in",特殊,,TRUE,,,0,0,0,0,originem.al.hullmods.AL_DeuStoveAuto," %s 的激活将不再需要手动操作，而是藉由以下条件：
+- 舰船幅能水平高于 %s 时激活
+- 舰船为AI操控时:
+    此时不适合强制排幅且激活后不会浪费排散增益时激活
+
+该插件不会与其他趋光插件互相产生影响。",二位氢炉自动化。,,graphics/hullmods/AL_deustove_auto.png
+维度差发生器,AL_dimensiongenerator,2,,趋光计划-全灵,"defensive,req_spaceport,AL_system_set","防御, 需要船坞, 趋光能源系统",20000,,,,5,10,15,25,originem.al.hullmods.AL_DimensionGenerator,"趋光议会起源之一，是一种强大的防御性损伤管理系统。
+
+通过链接维度空腔来产生效能：在战舰周围形成扭曲引力层，靠近的敌方射弹与导弹都有一定概率被引力乱流遣送至空腔深层。
+ 
+[ %s ]
+- 有概率直接 %s 敌方靠近的射弹(包括导弹)
+- 根据 %s 产生硬幅能
+- 当前幅能水平影响吸收概率及产生幅能的量",提升幅能效率，转移攻击。,,graphics/hullmods/AL_dimensiongenerator.png
+,,,,,,,,,,,,,,,,,,,
+耀光定位核心,AL_glittertargetingcore,3,,趋光计划-以太,"offensive,AL_in_set","武器, 趋光内置协调装置",18000,,,,4,8,15,25,originem.al.hullmods.AL_GlitterTargetingCore,"议会专属的定位设备，是趋光战舰的常备配置。与常规火控插件相比，耀光定位核心将算法重点放在能量武器上。
+
+- 根据舰船级别:
+    增加 %s 的实弹武器射程
+    增加 %s 的能量武器射程",提高武器射程， 越大的舰船收益越大。,根据当前幅能水平提高 %s ~ %s 的能量武器伤害，幅能越高，伤害越高。,graphics/hullmods/AL_glittertargetingcore.png
+跃光幻影弹链,AL_shadowblueprint,3,,趋光计划-以太,"offensive,AL_in_set","武器, 趋光内置协调装置",18000,,,,4,8,12,20,originem.al.hullmods.AL_ShadowBluePrint,"一种基于量子叠加原理的弹药复制系统。使用观察者元件对舰船所有低信息量的射弹进行重叠观测，一定条件下会产生二重的宏观表象。
+
+弹链有一定概率 ""复制"" 来源于该舰的射弹，但由于系统兼容性等原因，尽量使用同类武器才能尽可能触发这个效果:
+
+- 对光束武器无效
+- 实弹、能量、导弹武器共享 %s 的复制概率
+- 触发复制时，忽略单发幅能/伤害高于 %s 的射弹:
+    作为代替，该射弹伤害会提高 %s 
+- 概率会随着幅能水平的上升而提高:
+    最多提高原来的 %s 
+- 概率分配取决于装载武器的类型",提高射弹伤害能力。,各类型武器对应提高与上述当前复制概率数值相同的射速。,graphics/hullmods/AL_shadowblueprint.png
+衍光空权设备,AL_airrightequipment,1,,趋光计划-全灵,"special,AL_in_set","特殊, 趋光内置协调装置",8000,,,,3,6,10,15,originem.al.hullmods.AL_AirRightEquipment,"一系列LPC工厂优化方案及调频设备，能加强战机联队与母舰的联系，提升协同作战能力。
+
+[ %s ]
+- 提高战机 %s 的对舰伤害
+- 根据该舰与战机距离，提高战机对导弹、其他战机的伤害
+    - 距离越近，伤害加成越高，最高可达 %s
+    - 距离超过战机作战范围的 %s 时失去增益
+
+[ %s ]
+- 该舰安装的幅能寄存器/耗散通道能提高战机的幅能容量/耗散
+- 根据舰船规模，安装满寄存器/耗散通道时，最高加成为 %s",加强高幅能作战力。,,graphics/hullmods/AL_airrightequipment.png
+反炉谐振引擎,AL_antideuengine,1,,趋光计划-全灵,"engines,req_spaceport,AL_in_set","特殊, 引擎, 需要船坞, 趋光内置协调装置",8000,,,,6,12,20,30,originem.al.hullmods.AL_AntiDeuEngine,"原理与二位氢炉背道而驰的粒子发生器，通过与舰体散发的某种场产生物理排斥来达到加速的目的。
+
+- 最大速度提高 %s 
+- 机动性提高 %s 
+
+[ %s ]
+- 幅能保持在 %s 以下达 %s 秒额外提供:
+- %s 秒内提高 %s 从该插件获得的速度及机动性
+- 加快引擎修复
+- 该增益有 %s 秒的冷却时间",提高舰船机动性。,[ %s ] 不再自动触发，而是通过充能完毕后 %s (默认为WASD) 触发。 ,graphics/hullmods/AL_antideuengine.png
+,,,,,,,,,,,,,,,,,,,
+趋光链式升级,AL_chainedmod,2,,趋光计划-以太,"special,req_spaceport,AL_out_set","特殊, 需要船坞, 趋光外置协调装置",12500,,,,3,6,10,15,originem.al.hullmods.AL_ChainedMod,"优化舰船系统接口，升级软件协议及底层硬件设备。
+
+- 总体提高 %s 幅能/装甲/护盾的性能
+- 升级其他安装在该舰船上的 %s ",全面升级。,%s 及 %s 的增益数值提高至 %s 。,graphics/hullmods/AL_chainedmod.png
+滤光相位镀层,AL_filteredphasecoating,2,,趋光计划-全灵,"defensive,req_spaceport,AL_out_set","防御, 需要船坞, 趋光外置协调装置",15000,,,,3,6,10,15,originem.al.hullmods.AL_FilteredPhaseCoating,"外层船体上应用相位技术的离子镀层，能周期性转移受到的船体伤害，从而提高舰船整体的耐受性。
+
+[ %s ]
+- 根据舰船级别:
+    缓冲区拥有 %s 的伤害转移额度
+- 通过消耗额度免疫 %s 船体伤害(EMP伤害不消耗额度)
+- 消耗量取决于受到的基础伤害
+- 额度每秒回复 %s
+- 额度完全消耗后将强制进入充能状态
+- 根据幅能水平，幅能越低，充能时间越短：
+    最短 %s 秒，最长 %s 秒",加强装甲承受力。,伤害转移额度提高当前幅能容量的 %s 。,graphics/hullmods/AL_filteredphasecoating.png
+频光阻抑电网,AL_frequencybuffergrid,2,,趋光计划-全灵,"defensive,req_spaceport,AL_out_set","防御, 需要船坞, 趋光外置协调装置",12000,,,,3,6,10,15,originem.al.hullmods.AL_FrequencyBufferGrid,"主要安装在幅能管道上的多级缓冲装置，在极大程度上改善舰船电网的韧性。
+
+[ %s ]
+- 软幅能以任何形式的上升都会瞬间排散 %s
+- 随后 %s 秒内，这些软幅能会逐渐返还",提高幅能管道耐用度。,软幅能返还时会自动耗散一部分，当前幅能水平越低，耗散量越高，最低 %s，最高 %s。,graphics/hullmods/AL_frequencybuffergrid.png
+,,,,,,,,,,,,,,,,,,,
+蚀暗侵彻武备,AL_penetrationarms,1,,趋光计划-全灵,special,特殊,5000,,,,3,6,10,15,originem.al.hullmods.AL_PenetrationArms,让该舰船上趋光议会研发的火蚀武器采用试验性聚能装药，使其触发火蚀后产生的爆燃能腐蚀破坏附着物的金属键，造成有效结构杀伤。,特化火蚀。,不再降低火蚀的总伤害，并减少其 %s 伤害输出所需时间。,graphics/hullmods/AL_penetrationarms.png
+,,,,,,,,,,,,,,,,,,,
+反物质精化工厂,AL_amrefiningfactory,,,趋光计划-全灵,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_AmRefiningFactory,"进行战场打扫工作时，通过该舰大量的精化管道，能最大化地回收利用反物质燃料。
+
+- 在战斗结束后，每个停机/摧毁的舰船都能额外提供 %s 个反物质燃料(包括己方)
+- 舰队开启 "" %s "" 时，降低 %s 的燃料使用量。(舰队内有多个该类舰船时，合计最多降低 %s )",提供燃料。,,graphics/hullmods/AL_amrefiningfactory.png
+小型食品工房,AL_foodfactory,,,趋光计划-以太,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_FoodFactory,装载了趋光议会小型生态系统，在满战备的情况下，每天能生产 %s 到 %s 个食物。,,,graphics/hullmods/AL_foodfactory.png
+誓约雷环,AL_oathofthunder,,,趋光计划-以太,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_OathOfThunder,"科特-级巡洋舰的独特内置幅能装置，被构筑于幅能管道中并遍布整个船体，也因此造成了船体内的强静电干扰。
+
+- 所有武器射速下降 %s，备弹量下降 %s
+- 根据幅能水平，幅能越高，增益越大:
+    - 最多提高 %s 的EMP抗性
+    - 最多提供 %s 装甲伤害减免
+    - 持续对周围幅能较高的敌舰释放电弧，造成少量的能量伤害和EMP伤害
+
+驭雷之子宣誓他将永远在光的王座下顶礼朝拜，犹如讴歌那电闪雷鸣中的传说一般。
+该插件不会与其他趋光插件互相产生影响。",,,graphics/hullmods/AL_oathofthunder.png
+立誓雷嚣,AL_contractvower,,,趋光计划-以太,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_ContractVower,"替代誓约雷环的特殊涡轮发动机，其动力来自于周遭引力场的位差。
+
+[ %s ]
+- 周期性获得增益，基础冷却时间为 %s 秒
+- 每获得一次增益，冷却时间降低 %s 秒，最低降至 %s 秒
+- 增益持续时间为 %s 秒
+- 增益内容:
+    - 最大速度及机动性 + %s 
+    - 幅能耗散 + %s ",,,graphics/hullmods/AL_contractvower.png
+趋光维修工厂,AL_repairFactory,,,趋光计划-全灵,,,,,TRUE,,100,100,100,100,originem.al.hullmods.AL_RepairFactory,"配备了近乎囊括一切维护方面的硬件设备，专业能力堪比一个空间站，为舰队提供强大的战斗续航能力。
+
+-提升其他舰队成员每天 %s 的战备恢复速度以及 %s 的维修速度，不会影响消耗补给的总量
+-其他舰队成员可以获得 %s 的结构加成
+-封存时不生效
+-效果不能叠加
+
+该舰船的零幅能速度加成为原来的 %s 倍。
+该插件不会与其他趋光插件互相产生影响。",,,graphics/hullmods/AL_RepairFactory.png
+至高,AL_primeship,,,至高之辉,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_PrimeShip,"至高舰独有的一系列系统套件，使用着远高于趋光议会现有科技的技术。比起科学，至高舰的设计理念似乎更往 ""君权神授"" 的意象发展，与普通人的第一反应相悖的是，它们在这个词中似乎是占据 ""神"" 的地位。
+
+- 只要该舰船存在于舰队中，所有我方舰船获得增益:
+    - 最大结构及装甲值 + %s
+    - 幅能容量及幅能耗散 + %s
+    - 最大宇宙航速低于 %s 时，最大宇宙航速 + %s
+- 仅当该舰船出现在战场时，所有我方舰船获得增益:
+    - 最高航速 + %s
+    - 机动性 + %s
+- 除最大宇宙航速外，不同种类的至高舰增益可以叠加，同种则不行
+
+该插件不会与其他趋光插件互相产生影响。
+装载该插件的舰船每月将额外消耗 %s 的补给。",至高之证明。,,graphics/hullmods/AL_primeship.png
+渊默神启核心,AL_brainAI,,,时钟蜕变,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_BrainAI,"一种无需冷却池，植入在整个舰船的电路，数据传输速度及智能程度甚至远超 阿尔法-级 的人工智能。由于不明原因，其思维能力一直处于封闭状态，且有着安全协议做保障，所以暂时不存在威胁。蓝图说明其核心动力来源于船体中心的十字光辉：这令大多数专家难以认同，但以目前科技水平确实无法参透其原理。
+
+渊默神启核心能加速幅能流通，产生引力场：
+  - %s 敌方 %s ，使其减速甚至被弹出力场
+  - 开启 %s 时，力场性质反转， %s 一切敌方 %s
+
+此外，对舰船幅能寄存器及耗散通道的改装能加强护盾：
+  - 每点改装使护盾承伤能力 + %s
+  - 最多提高 %s
+  - 舰船为 %s -级时，增益提高至 %s 倍",神性排斥。,,graphics/hullmods/AL_brainAI.png
+意根无色,AL_manarupya,,,时钟蜕变,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_Manarupya,"若无机体有妄言，亦能染污，则情身一切法皆可为执持。
+
+接近末那识的战舰会 ""归化""，自身受到的部分增益会被剥离。敌方舰船越接近，剥离的程度越高。",神性排斥。,,graphics/hullmods/AL_manarupya.png
+希格斯世界,AL_boss_higgsworld,,,时钟蜕变,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_HiggsWorld,"""我其实不想孤独一人...""
+
+这是陪伴基路的无数个自己。
+
+希格斯拥有时空残影:
+    - 残影将一直旋转在希格斯四周
+    - 最多能自然生成 %s 个残影，且如果超出这个数值，残影会自动回收
+    - 回收能瞬间带来已损失结构的 %s 的回复，与 %s 的全护甲修复，并且在一定时间内加强武器威力与整体耐性
+    - 幅能越高，生成速度越高，回收冷却时间越短。不过由于残影的时间轴问题，多次吸收残影会导致生成速度与恢复速度越来越慢，但回收后的增益时间变长
+
+当且仅当 %s 为军官时:
+    - 残影数量上限+ %s 
+    - 生成速度提高 %s 
+
+当希格斯指向某艘敌方战舰时，会从残影招来跨空间闪击。
+
+额外提供在维持护盾时 %s 的硬幅能排散。
+
+该插件不会与其他趋光插件互相产生影响。",进化的铁证。,,graphics/hullmods/AL_higgsworld.png
+模因植入栓,AL_plugforboss,,,,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_PlugForBoss,特殊议会舰队所拥有的充能。,,,graphics/hullmods/AL_foodfactory.png
+时空排斥,AL_spacetimerejection,,,时钟蜕变,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_SpaceTimeRejection,"这艘船自身的时间轴与现在的时空格格不入。 随时都有可能产生未知的危险。
+
+我方电子战强度下降 %s 。 ",哔哩哔哩蹦吧。,,graphics/hullmods/AL_spacetimerejection.png
+永光异构,IL_isomery,,,永光之锋,,,,,TRUE,,0,0,0,0,originem.al.hullmods.IL_Isomery,"这艘船虽然能被正常的船员所使用， 但却需要付出更多代价:
+    - 船员损失率提高 %s
+    - 每月维护所需补给和部署所需补给提高 %s
+
+内部存在具有未知排斥性的能量，使其对同源损害抗性极强:
+    - EMP抗性提高 %s
+    - 能量伤害抗性提高 %s",,,graphics/hullmods/IL_isomery.png
+断罪异构,BC_isomery,,,断罪之剑,,,,,TRUE,,0,0,0,0,originem.al.hullmods.BC_Isomery,"该船疑似被高维度的力量侵蚀，现在负面影响已消除。
+
+内部存在具有未知排斥性的能量，使其对同源损害抗性极强:
+    - EMP抗性提高 %s
+    - 能量伤害抗性提高 %s",,,graphics/hullmods/BC_isomery.png
+破誓谏言,AL_contractbreaker,,,趋光计划-全灵,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_ContractBreaker,"欧几里得.改的龙骨构造十分独特，设计师在保持装甲稳定性的同时使用了较为危险的空间节省方案，并在内部大量安置了实验性加速生产设备，而这些设备的关键就是被原火氏族称为 ""破誓谏言"" 的解码器。这种解码器能轻而易举地绕过安全协议，使得这些实验设备得以全功率运转。
+
+提高可作战战机的数量:
+- 每个战机联队可以额外部署 %s 架战机
+- 这些战机需要花费 战机更换时间 来部署
+- 这些战机在存活固定时间后自动返航，具体如下：
+    - 单机联队 %s 秒
+    - 二机联队 %s 秒
+    - 三机及以上联队 %s 秒",,,graphics/hullmods/AL_contractbreaker.png
+燃油改造,AL_module_fuel,,,,req_spaceport,,,TRUE,,,10,10,10,10,originem.al.hullmods.AL_GranaryFuelModule,"将仓廪-级的部分货舱改造为油舱。
++ %s  燃油容量
+-  %s  货舱容量
+
+只能安装在仓廪-级运输舰上。",,,graphics/hullmods/AL_granaryfuelmodule.png
+货舱改造,AL_module_cargo,,,,req_spaceport,,,TRUE,,,10,10,10,10,originem.al.hullmods.AL_GranaryCargoModule,"将仓廪-级的部分油舱改造为货舱。
++ %s  货舱容量
+-  %s  燃油容量
+
+只能安装在仓廪-级运输舰上。",,,graphics/hullmods/AL_granarycargomodule.png
+群集幅散单元,AL_intensivefluxunits,,,趋光计划-以太,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_IntensiveFluxUnits,"这艘船的幅散管道排布方案密集且激进，这在倾泻火力时效果显著，一旦幅能压力过大，就会对防御系统造成压迫：
+
+- 硬幅能水平低于 %s 时，幅能耗散提高 %s 
+- 软幅能水平高于 %s 时，护盾维持所需幅能提高 %s 
+
+该插件不会与其他趋光插件互相产生影响。",,,graphics/hullmods/AL_intensive_flux_conduits.png
+多维湍流护罩,AL_mdshield,,,趋光计划-全灵,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_MultiDimensionShield,"一种特殊的应急能量护盾，使用惰性能量来阻隔突然到来的伤害。平时处于透明状态，受到一定伤害时会自动启动。
+
+- 在 %s 秒内受到超过 %s 的伤害时启动
+- 结构、装甲及护盾受到的伤害降低 %s 
+- 持续 %s 秒
+- 冷却时间 %s 秒",,,graphics/hullmods/AL_mdshield.png
+相位锚点降频,AL_phase_anchor_degrading,,,,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_PhaseAnchorDegrading,"由于舰船的特殊设计，整个能源系统需要同时给用于战术系统的特制动量轮和两个大型武器槽供能，而这种分流不仅会使火控系统效率低下，也会导致舰船在装载相位锚点的情况下，进出相位隐形状态时因不稳定而产生不可预见的灾难。为了避免这种情况的发生，开发人员以降低实用性为代价，设计出了针对相位锚点的特殊调制。
+
+- 所有武器射程超过 %s 单位的部分将极大衰减
+- 当该舰已安装 %s 插件:
+    - 相位状态软幅能耗散及武器重装速率的增益为原来的 %s",,,graphics/hullmods/AL_phase_anchor_degrading.png
+刻晶七音,AL_purplediamond,,,趋光计划-全灵,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_PurpleDiamond,咄嗟之间，衍七为界。,七次重生。,,graphics/hullmods/AL_purplediamond.png
+月弧导弹强化配件,AL_moonarcslot,,,趋光计划-全灵,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_MoonArcSlot,"位于舰船中间的 %s 被特殊的硬件系统辅助，内部结构被扩充，且适配了大量可补充导弹的优化程式。
+
+对于 %s 的导弹武器：
+    - 获得额外 %s 的弹药
+对于 %s 的导弹武器：
+    - 加快 %s 的弹药恢复速度
+与此同时，对于舰船上其他使用相同导弹的武器：
+    - 获得额外 %s 的弹药",,,graphics/hullmods/AL_moonarcslot.png
+灵树改造,AL_primus_arbore,,,始源灵树,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_PrimusArbore,"娜秋城的馈赠， 始源灵树教派的独特改造。 能使舰船更加适应额外的幅能寄存器及耗散通道的安装，每点幅能寄存器能额外提升 %s 的幅能容量，每点耗散通道能额外提升 %s 的幅能耗散。
+不过与此同时，因改造后舰船材料脆性不可避免的提高，装甲及结构都会降低 %s 。
+
+该插件不会与其他趋光插件互相产生影响。
+装载该系统的舰船 每月将额外消耗 %s 的补给。",,,graphics/hullmods/AL_primus_arbore.png
+,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,15 @@
+{
+  "id": "ApproLight",
+  "name": "Appro-Light",
+  "version": { "major": 1, "minor": 3, "patch": 3 },
+  "author": "Author:Originem. \nMain Art: Laomi, BZOne, Shadow Light, Ura. \nArt Assistance: Shadow Light, Ura.\nSound and Music: Shadow Light, MesoTronik\nSpecial Thanks:MesoTronik, Nia, APuJun, Tartifilette, lili, FAX \nOpenGL support:Dark.Revenant \nUnofficial Translation by MrMagolor",
+  "description": "*Requires LazyLib\n*Requires GraphicLib\n*Requires MagicLib 0.26 or higher \n\n This is a group of pilgrims who have risen in the dim constellation of the Perseus. Learn all knowledge, cast away your shackles, firmly cast forth dauntlessly in the name of the light! \n This mod contains the Appro-Light Council and the forces of Immortal-Light",
+  "gameVersion": "0.97a",
+  "dependencies": [
+    { "id": "lw_lazylib", "name": "LazyLib" },
+    { "id": "MagicLib", "name": "MagicLib" },
+    { "id": "shaderLib", "name": "GraphicLib" }
+  ],
+  "jars": ["jars/ApproLightCore.jar"],
+  "modPlugin": "originem.al.ApproLightModPlugin"
+}

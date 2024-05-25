@@ -1,0 +1,44 @@
+{
+    "displayName": "先进",
+    "fluxCapacitors": 6,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "AL_bachelor",
+    "hullMods": [
+        "AL_chainedmod",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_bachelor_Advanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "tachyonlance"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "sabotpod",
+                "WS0008": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "lightneedler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd",
+                "WS0005": "AL_refusingpulse",
+                "WS0006": "AL_refusingpulse"
+            }
+        }
+    ]
+}

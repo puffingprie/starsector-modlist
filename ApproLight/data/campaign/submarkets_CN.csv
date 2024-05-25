@@ -1,0 +1,8 @@
+id,name,faction,desc,script,icon,order
+AL_militaryMarket,"幽灵纽带市集
+(S.Nexus Fair)",,"与议会中主要的幽灵纽带成员进行贸易,  他们将出售一部分趋光议会敌对势力的舰船—— 他们的战利品。
+
+武器和货物可以在这里交易, 即便它们在公开市场属于非法货物. 拥有雇佣协议或与 $theFaction 的关系更好就能买卖更多物品. 
+会收购当地的非法商品作为特权回购计划 的一部分. 
+
+此市集每次只开放七天， 关闭后再过七天才会重新开放。",originem.al.scripts.campaign.submarkets.AL_MilitarySubmarketPlugin,graphics/factions/spectre_nexus_market.png,100

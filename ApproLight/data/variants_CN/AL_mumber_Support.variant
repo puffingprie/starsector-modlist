@@ -1,0 +1,40 @@
+{
+    "displayName": "支援",
+    "fluxCapacitors": 4,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "AL_mumber",
+    "hullMods": [
+        "advancedoptics",
+        "AL_glittertargetingcore"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_mumber_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "gravitonbeam",
+                "WS0008": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "taclaser",
+                "WS0004": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd"
+            }
+        }
+    ]
+}

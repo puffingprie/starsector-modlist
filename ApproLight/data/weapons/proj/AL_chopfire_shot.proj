@@ -1,0 +1,20 @@
+{
+  "id": "AL_chopfire_shot",
+  "specClass": "projectile",
+  "spawnType": "BALLISTIC_AS_BEAM",
+  "onHitEffect": "originem.al.scripts.weapons.proj.AL_ChopFireOnHit",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "length": 250.0,
+  "width": 20,
+  "fadeTime": 0.2,
+  "fringeColor": [100, 100, 255, 255],
+  "coreColor": [185, 255, 255, 200],
+  "glowColor": [185, 255, 255, 20],
+  "glowRadius": 200,
+  "passThroughMissiles": true,
+  "textureType": "ROUGH2", # now also used for "BALLISTIC_AS_BEAM", if specified
+  #"textureType": ["graphics/fx/AL_deitygun_fringe.png", "graphics/fx/AL_beam_coreB.png"],
+  "textureScrollSpeed": -256,
+  "pixelsPerTexel": 1.0,
+}

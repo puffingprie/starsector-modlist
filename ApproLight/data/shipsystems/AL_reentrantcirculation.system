@@ -1,0 +1,24 @@
+{
+	"id":"AL_reentrantcirculation",
+	"type":"STAT_MOD",
+	#"aiType":"ACAUSAL_DISRUPTOR",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"originem.al.shipsystems.scripts.AL_ReentrantCirculationStats",
+	"aiScript":"originem.al.shipsystems.scripts.ai.AL_ChargeShieldAI",
+
+	"clampTurnRateAfter":true,
+	
+	"fadeActivationSoundOnChargedown":false,
+	
+	"loopSound":"AL_reentrantcirculation_loop",
+	"impactSound":"system_emp_emitter_impact",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":1000,
+		"threatAmount":10,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}

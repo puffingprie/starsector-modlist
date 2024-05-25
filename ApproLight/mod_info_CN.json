@@ -1,0 +1,17 @@
+{
+  "id": "ApproLight",
+  "name": "趋光议会 [ApproLight]",
+  "version": {"major": 1, "minor": 3, "patch": 3},
+  "author": "Originem\n主要美术: 老咪,BZOne\n协助美术: 影之光,Ura\n音效及音乐: 影之光,MesoTronik\n特别感谢: MesoTronik,Nia,阿朴君,Tartifilette,lili公主,Fax,Scythe\nOpenGL指导: Dark.Revenant",
+  "description": "本mod中文版仅在远行星号中文论坛(fossic)发布，任何整合包加入本mod都是未经授权的\n\n这是一群在昏暗的英仙座星云之中崛起的趋光者。汲取一切知识，斩开一切枷锁，坚定执着，无所畏惧，他们，以光为名！\n\n本mod包含了趋光议会及永光之锋势力及大量生涯内容。\n通过与趋光军官对话获取本mod内容信息。",
+  "gameVersion": "0.96a-RC10",
+  "dependencies": [
+    {"id": "lw_lazylib", "name": "LazyLib"},
+    {"id": "MagicLib", "name": "MagicLib"},
+    {"id": "shaderLib", "name": "GraphicLib"},
+  ],
+  "jars": [
+    "jars/ApproLightCore.jar"
+  ],
+  "modPlugin": "originem.al.ApproLightModPlugin"
+}

@@ -1,0 +1,36 @@
+{
+	"id":"AL_battlemode",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"originem.al.shipsystems.scripts.ai.AL_BattleModeAI",
+
+	"statsScript":"originem.al.shipsystems.scripts.AL_BattleMode",
+	
+	"shieldRingColor":[61,39,81,255],
+	"shieldInnerColor":[61,39,81,255],
+	"shieldThicknessMult":1.2,
+	"shieldFluctuationMult":1.5,
+    
+	"jitterUnderColor":[61,39,81,150],
+	"jitterUnderCopies":5,
+	"jitterUnderRange":20,
+	"jitterUnderRangeRadiusFraction":0.1,
+	
+	
+	"engineGlowColor":[120,80,255,255],
+	"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":1.2,
+	"engineGlowWidthMult":1.2,
+	"engineGlowGlowMult":1.2,
+	
+    "weaponGlowColor":[61,39,80,250],
+	"weaponTypes":[BALLISTIC,ENERGY],
+    
+	"useSound":"system_ammo_feeder",
+	"loopSound":"system_high_energy_focus_loop",
+	"outOfUsesSound":"gun_out_of_ammo",	
+	
+	"aiHints":{
+		"averageSpeedIncrease":20,
+	}
+}

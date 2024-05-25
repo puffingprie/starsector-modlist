@@ -1,0 +1,36 @@
+{
+    "displayName": "进攻",
+    "fluxCapacitors": 9,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "AL_bachelor",
+    "hullMods": [
+        "AL_antideuengine",
+        "hardenedshieldemitter",
+        "converted_hangar"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_bachelor_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "AL_condemnpod",
+                "WS0008": "AL_condemnpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "reaper"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "AL_fireflushpulse"}
+        }
+    ],
+    "wings": ["sarissa_wing"]
+}

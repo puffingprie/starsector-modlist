@@ -1,0 +1,12 @@
+{
+	"masterVersionFile":"https://raw.githubusercontent.com/TruthOriginem/Starsector-Ori-Mod-Version-File/master/ApproLight.version",
+	"modName":"ApproLight",
+	"modThreadId":9688,
+	"modVersion":
+	{
+		"major":1,
+		"minor":3,
+		"patch":3
+	},
+	"starsectorVersion":"0.96a-RC10"
+}

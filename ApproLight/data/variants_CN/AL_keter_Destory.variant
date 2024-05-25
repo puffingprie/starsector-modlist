@@ -1,0 +1,56 @@
+{
+    "displayName": "摧毁",
+    "fluxCapacitors": 10,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "AL_keter",
+    "hullMods": [
+        "AL_filteredphasecoating",
+        "AL_glittertargetingcore"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_keter_Destory",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0012": "AL_electricalcannon"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "AL_condemnpod",
+                "WS0004": "AL_condemnpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "AL_spiderpulse",
+                "WS00176": "AL_spiderpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd",
+                "WS0011": "AL_defenderpd",
+                "WS0013": "AL_defenderpd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_starflak_medium",
+                "WS0002": "AL_starflak_medium",
+                "WS0018": "AL_starflak_medium"
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "displayName": "反防御",
+    "fluxCapacitors": 10,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "AL_euclid",
+    "hullMods": [
+        "AL_frequencybuffergrid",
+        "missleracks",
+        "AL_penetrationarms",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_euclid_AntiDefense",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "squall",
+                "WS0006": "squall"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "AL_condemnpod",
+                "WS0002": "AL_condemnpod",
+                "WS0003": "AL_thunderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "AL_moonfire_large"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "AL_fireflushcannon",
+                "WS0007": "AL_fireflushcannon",
+                "WS0010": "AL_fireflushcannon",
+                "WS0011": "AL_fireflushcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "AL_defenderpd",
+                "WS0017": "AL_defenderpd",
+                "WS0018": "AL_defenderpd",
+                "WS0019": "AL_defenderpd",
+                "WS0020": "AL_defenderpd",
+                "WS0021": "AL_defenderpd",
+                "WS0022": "AL_refusingpulse",
+                "WS0023": "AL_refusingpulse"
+            }
+        }
+    ],
+    "wings": ["AL_respector_wing"]
+}

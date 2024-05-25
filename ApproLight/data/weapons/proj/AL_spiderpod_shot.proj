@@ -1,0 +1,50 @@
+{
+  "id": "AL_spiderpod_shot",
+  "specClass": "missile",
+  "missileType": "HEATSEEKER",
+  "onFireEffect": "originem.al.scripts.weapons.proj.AL_SpiderPodEffect",
+  "sprite": "graphics/missiles/AL_missile_spiderpod.png",
+  "size": [24, 24],
+  "center": [12, 12],
+  "collisionRadius": 12,
+  "collisionClass": "MISSILE_NO_FF",
+  "glowColor": [0, 200, 255, 75],
+  "glowRadius": 125,
+  "explosionColor": [0, 165, 255, 255], # purely visual, will get a white additively blended core on top of this color
+  "explosionRadius": 125, # purely visual
+  "engineSpec": {
+    "turnAcc": 720,
+    "turnRate": 180,
+    "acc": 300,
+    "dec": 600
+  },
+  "noCollisionWhileFading": true,
+  "flameoutTime": 0.2, # total time from flameout to full fadeout
+  "noEngineGlowTime": 0.2, # time spent without the engine glow being rendered
+  "fadeTime": 0.2, # fadeout duration
+  "noDebrisWhenDestroyed": true,
+  "engineSlots": [
+    {
+      "id": "ES1",
+      "loc": [0, 0],
+      #"style": "MISSILE_MIDLINE",
+      "style": "CUSTOM",
+      "styleSpec": {
+        "mode": "QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+        "engineColor": [0, 200, 255, 255],
+        "contrailDuration": 2.5,
+        "contrailWidthMult": 2,
+        "contrailWidthAddedFractionAtEnd": -0.1, # can be negative. makes trail spread out/narrow at the end
+        "contrailMinSeg": 5, # min segment length, in pixels
+        "contrailMaxSpeedMult": .0f,
+        "contrailAngularVelocityMult": 0f,
+        "contrailSpawnDistMult": 0, # how far away from engine it starts
+        "contrailColor": [0, 200, 255, 255],
+        "type": "SMOKE" # GLOW or SMOKE; additive or regular blend mode
+      },
+      "width": 12.0,
+      "length": 1.0,
+      "angle": 180.0
+    }
+  ],
+}

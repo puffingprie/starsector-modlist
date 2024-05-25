@@ -1,0 +1,32 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 1,
+    "goalVariant": true,
+    "hullId": "AL_torch",
+    "hullMods": [
+        "AL_shadowblueprint",
+        "AL_antideuengine",
+        "autorepair"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_torch_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "autopulse"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "irpulse",
+                "WS0002": "irpulse",
+                "WS0005": "ionpulser",
+                "WS0006": "ionpulser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "AL_textbook",
+    "hullMods": [
+        "AL_antideuengine",
+        "AL_DeuStove",
+        "AL_airrightequipment",
+        "AL_chainedmod"
+    ],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "AL_textbook_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "AL_refusingpulse",
+            "WS0002": "AL_refusingpulse"
+        }
+    }]
+}

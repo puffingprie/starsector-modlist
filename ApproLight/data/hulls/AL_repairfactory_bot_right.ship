@@ -1,0 +1,91 @@
+{
+  "hullName": "Bot",
+  "hullId": "AL_repairfactory_bot_right",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/AL_repairfactory_bot_right.png",
+  "style": "APPRO_TECH",
+  "height": 220,
+  "width": 200,
+  "center": [89, 117],
+  "collisionRadius": 166.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 158.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "reduced_explosion",
+    "AL_filteredphasecoating"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -80,
+      "locations": [46, -4]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -135,
+      "locations": [-50, 50]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -135,
+      "locations": [-15, 7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-66, 16],
+      "length": 64,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-49, -4],
+      "length": 46,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-7.5, -49],
+      "length": 32.132023,
+      "width": 9.753563,
+      "angle": -135,
+      "contrailSize": 9.753563,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-20.5, -43],
+      "length": 39.89756,
+      "width": 12.717635,
+      "angle": -135,
+      "contrailSize": 12.717635,
+      "style": "APPRO_ENGINE"
+    }
+  ],
+  "bounds": [
+    70, -59,
+    6, -57,
+    -118.5, 71.5,
+    -43.5, 61.5,
+    7.5, 8.5,
+    55.5, 5.5,
+    95, -21
+  ]
+}

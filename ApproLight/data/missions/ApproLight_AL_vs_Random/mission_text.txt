@@ -1,0 +1,18 @@
+------ Please wait for the MP, it is connecting to the combat simulation database...
+------ data numbers are:
++++ALIB31ONGT0A1
+------ Reviewed and approved. You will be using a fleet from the Appro-Light Council to face a simulated fleet from a random force in the sector, please reconnect to the database if you are unhappy with the opposing fleet. In addition, your victory will add points to your Night's Watch Cyberspace point pool. The first person on the leaderboard will receive a mystery prize! Let's see, Councilor, if you make it to the top, I might consider giving you an exciting-
+[Link cut off briefly] [Noisy white noise: well sorry, I won't say that in the future, and please don't unplug my internet connection].
+
+Hold down the following keys and click on that mission panel to switch between simulated scenarios.
+Spacebar: Refresh ship
+CTRL key: Reset
+
+D key: Next player fleet formation
+F key: Next enemy fleet formation
+A/S key: Decrease/increase fleet size of both sides
+E/R key: Decrease/increase enemy's superiority factor
+I/O: Decrease/increase the quality of our fleet
+K/L key: Decrease/increase enemy fleet mass
+B key: Turn on/off fleet equalizer
+T key: Turn on/off acceleration time

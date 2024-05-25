@@ -1,0 +1,25 @@
+{
+	"id":"AL_euclidALG",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"originem.al.shipsystems.scripts.AL_EuclidALGStats",
+
+	"jitterUnderColor":[100,0,255,155],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":12,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"engineGlowColor":[180,80,255,255],
+	"engineGlowContrailColor":[100,165,255,25],
+
+	#"useSound":"system_burn_drive_activate",
+	"loopSound":"AL_EALG_loop",
+	#"deactivateSound":"system_burn_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":40,
+	}
+}

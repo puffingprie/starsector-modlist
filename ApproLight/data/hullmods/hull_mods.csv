@@ -1,0 +1,226 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+Deuterium-Antideuterium Reactor,AL_DeuStove,1,,Appro-Light - Ether,"offensive,special,req_spaceport,AL_system_set","Special, Requires Dock, AL Energy System",12000,,,,5,10,15,25,originem.al.hullmods.AL_DeuStove,"One of the original technologies of Appro-Light, this is a powerful and effective activated flux dissipation device.
+The energy furnace links all of the ship's flux conduits, providing a few seconds of powerful flux dissipation.
+
+[ %s ]
+- When this system is available, pressing %s will activate this system in preference to venting.
+- Activation takes %s seconds to prepare:
+    Pressing %s again during this period will cancel the activation and revert to regular venting.
+
+- For %s seconds, increases base flux dissipation by %s.
+- Applies %s hard flux dissipation when shield is active alongside the system.
+- Must cool down for %s seconds after use - venting during this time will work as normal.
+- Install [D.S. Automation] to enable automatic activation (AI has this enabled by default)",Increase effecitve flux capacity.,,graphics/hullmods/AL_deustove.png
+D.S Automation,AL_deustove_auto,1,,Appro-Light - Ether,"offensive,special, no_build_in",Special,,TRUE,,,0,0,0,0,originem.al.hullmods.AL_DeuStoveAuto,"The activation of %s will no longer be done manually, but by the following conditions.
+-Activated when the ship's flux level is above %s.
+-When the ship is under AI control:
+    Activated at the ship couldn't safe vent and no wasted dissipation if activated
+
+The hullmod does not interact with other Appro-Light hullmods.",Automation.,,graphics/hullmods/AL_deustove_auto.png
+Dimensional Difference Generator,AL_dimensiongenerator,2,,Appro-Light - Spirit,"defensive,req_spaceport,AL_system_set","Defenses, Requires Dock, AL Energy System",20000,,,,5,10,15,25,originem.al.hullmods.AL_DimensionGenerator,"One of the original devices created by Appro-Light, it is a powerful defensive damage management system.
+By drawing energy through a link with p-space, a distorted gravitational layer is formed around the warship, and enemy projectiles and missiles in close proximity have a certain probability of being dispatched to the depths of p-space by the turbulence.
+ 
+[%s]
+- Probability of %s enemy projectiles (including missiles).
+- Generates hard flux based on the %s.
+- The current flux level affects the probability of absorption and the amount of flux generated.",Boosts flux efficiency and nullifies attacks.,,graphics/hullmods/AL_dimensiongenerator.png
+,,,,,,,,,,,,,,,,,,,
+Glitter Targeting Core,AL_glittertargetingcore,3,,Appro-Light - Ether,"offensive,AL_in_set","Weapons, AL Built-In Coordination",18000,,,,4,8,15,25,originem.al.hullmods.AL_GlitterTargetingCore,"These proprietary targeting systems of the council are typically included as part of Appro-Light ships. Compared to normal targeting devices, the Glitter Targeting Core is more focused on energy weapons.
+ 
+- Depending on the hull size:
+    Extends the range of ballistic weapons by %s
+    Extends the range of energy weapons by %s",Targeting unit focused on energy weapons,"Energy weapons deal %s~%s increased damage, depending on the ship's flux level.",graphics/hullmods/AL_glittertargetingcore.png
+Phantom Ammo Feeder,AL_shadowblueprint,3,,Appro-Light - Ether,"offensive,AL_in_set","Special, AL Built-In Coordination",18000,,,,4,8,12,20,originem.al.hullmods.AL_ShadowBluePrint,"A munitions replication system based on the principle of quantum superposition.
+Using observer elements to overlap all low-information projectiles fired from a ship, a dichotomous macroscopic appearance is created under certain conditions.
+
+The ammo feeder has a certain probability of ""replicating"" the projectiles fired by the ship, but due to system compatibility, etc., usage of similar weapon types yields better results:
+
+- Does not work on beam weapons.
+- Ballistic, energy, and missile weapons share a %s replication probability.
+- When replication is triggered, a projectile with EMP and/or damage higher than %s is ignored:
+    Instead, the projectile's damage will be increased by %s.
+- The probability increases as the flux level increases:
+    Up to %s of the original.
+- Probability distribution depends on the type of weapons mounted.",Projectile duplication,Weapons have their rate of fire increased by the same percentage as their replication chance.,graphics/hullmods/AL_shadowblueprint.png
+A.L. Air Power Equipment,AL_airrightequipment,1,,Appro-Light - Spirit,"special,AL_in_set","Engines, Defenses, AL Built-In Coordination",8000,,,,3,6,10,15,originem.al.hullmods.AL_AirRightEquipment,"A series of LPC forge optimization programs and FM equipment can strengthen the connection between the fighter wing and the mothership and enhance their synergy.
+
+[ %s ]
+- Increases the damage the ship's fighters deal to ships by %s.
+- Depending on the distance between this ship and the fighter, the damage of the fighter against missiles and other fighters is increased.
+- The closer the distance, the higher the damage bonus, up to %s.
+- If the distance exceeds %s of the fighter's engagement range, the gain is lost.
+
+[ %s ]
+- The ship is equipped with flux capacitor/vent channels that increase the flux capacity/dissipation of all wings.
+- Depending on the size of the ship, the maximum bonus is %s when the maximum capacitors/vents are installed.",Enhance fighter wings.,,graphics/hullmods/AL_airrightequipment.png
+Anti-Deuterium Resonance Engine,AL_antideuengine,1,,Appro-Light - Spirit,"engines,req_spaceport,AL_in_set","Engines, Requires Dock, AL Built-In Coordination",8000,,,,6,12,20,30,originem.al.hullmods.AL_AntiDeuEngine,"An engine that follows counter principles to the Deuterium Reactor developed in secret. A ship equipped with this hullmod gains increased maneuverability and speed.
+
+-Increases combat speed by %s
+-Increases maneuverability by %s. 
+
+-%s-
+During battle if flux can be maintained below %s for %s seconds:
+-In %s seconds, combat speed and maneuverability buff gained from this hullmod will be increased by %s.
+-The engine will rapidly repair itself during this time.
+-This process has a cooldown of %s seconds.",Improved ship mobility,"[ %s ] is no longer triggered automatically: instead, double-tap a movement key (WASD) to activate it.",graphics/hullmods/AL_antideuengine.png
+,,,,,,,,,,,,,,,,,,,
+A-L Chained Upgrade,AL_chainedmod,2,,Appro-Light - Ether,"special,req_spaceport,AL_out_set","Special, AL External Coordination",12500,,,,3,6,10,15,originem.al.hullmods.AL_ChainedMod,"Optimization of ship system interfaces, upgraded software protocols and underlying hardware equipment. 
+
+-Increases the ship's flux/armor/shield all-around performance by %s.
+-Enhances other %s installed on the ship.",All-around enhancements,The buffs for %s and %s are increased by %s.,graphics/hullmods/AL_chainedmod.png
+Filtered Phase Coating,AL_filteredphasecoating,2,,Appro-Light - Spirit,"defensive,req_spaceport,AL_out_set","Defenses, Requires Dock, AL External Coordination",15000,,,,3,6,10,15,originem.al.hullmods.AL_FilteredPhaseCoating,"The ion plating applied to the outer hull with phase technology periodically shunts the damage received from the hull, thus improving the overall resistance of the ship.
+
+[%s]
+- Depending on the ship's class:
+    Buffer can absorb a total of %s damage.
+- Immunity to %s hull damage by consumption of buffer value(EMP damage does not apply).
+- Buffer depletion depends on the base damage taken.
+- The buffer regenerates at a rate of %s per second.
+- After the buffer is completely consumed, it enters a recovery state.
+- The lower the flux level, the shorter the recovery time:
+    Minimum %s seconds, maximum %s seconds.",Increase effective armor.,The total damage transfer amount is increased by %s of the ship's flux capacity.,graphics/hullmods/AL_filteredphasecoating.png
+Frequency Buffer Grid,AL_frequencybuffergrid,2,,Appro-Light - Spirit,"defensive,req_spaceport,AL_out_set","Defenses, AL External Coordination",12000,,,,3,6,10,15,originem.al.hullmods.AL_FrequencyBufferGrid,"A multi-stage buffer device, mainly installed on the ship's flux conduits, improves the resilience of the ship's power grid to a great extent.
+
+%s
+- Soft flux generated in any way instantly has %s sent to a buffer.
+- The buffered flux is gradually returned over the next %s seconds.",Turn burst flux into sustained.,"When the soft flux is returned, %s~%s of it is automatically dissipated, with more flux being dissipated when the ship is at a low flux level.",graphics/hullmods/AL_frequencybuffergrid.png
+,,,,,,,,,,,,,,,,,,,
+Corrosion Piercer Armament,AL_penetrationarms,1,,Appro-Light - Spirit,special,Special,5000,,,,3,6,10,15,originem.al.hullmods.AL_PenetrationArms,"Enables Appro-Light's Fire Corrosion weapons on this ship to instead use experimental concentrated charges so that the conflagration produced by triggering Fire Corrosion breaks metallic bonding where it is attached, causing effective hull damage.
+
+- The total damage of Fire Corrosion is reduced by %s, but does not reduce the armor penetration of Fire Corrosion, nor does it reduce the hull damage dealt by those weapons with Fire Corrosion that can already damage hull.
+- Fire Corrosion can now deal hull damage when it burns armor cells with no armor left.",Fire Corrosion specialization.,No longer reduces the damage of Fire Corrosion. Reduces the time it takes for Fire Corrosion to apply by %s.,graphics/hullmods/AL_penetrationarms.png
+,,,,,,,,,,,,,,,,,,,
+Anti-Matter Refinery,AL_amrefiningfactory,,,Appro-Light - Spirit,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_AmRefiningFactory,"This ship's large number of refining factories maximize the recycling of antimatter fuel during the aftermath of a battle.
+
+-At the end of battles: Each ship disabled or destroyed provide %s additional fuel (including your own ships).
+-The fuel usage during %s is reduced by %s. (up to a maximum of %s)",Provides Fuel,,graphics/hullmods/AL_amrefiningfactory.png
+Hydroponics Bay,AL_foodfactory,,,Appro-Light - Ether,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_FoodFactory,"This ship is equipped with a hydroponics bay producing %s to %s food each day at full combat readiness, as long as there is free space in the fleet's cargo.",,,graphics/hullmods/AL_foodfactory.png
+Oath of Thunder,AL_oathofthunder,,,Appro-Light - Ether,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_OathOfThunder,"A unique device built into the ship has a flux conduit spread throughout the hull.
+
+-Fire rate is decreased by %s and ammo reserves are reduced by %s
+-At high flux levels emp resistance is increased by %s and damage to armor is reduced by %s. The ship will also continuously shoot lightning arcs causing a small amount of energy and EMP damage.
+
+The hullmod does not interact with other Appro-Light hullmods.",,,graphics/hullmods/AL_oathofthunder.png
+Oath of Vower,AL_contractvower,,,Appro-Light - Ether,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_ContractVower,"The special turbo engine that replaces the Oath of Thunder system is powered by the bit difference of the surrounding gravitational field.
+
+[ %s ]
+- Periodic buff with a base cooldown of %s seconds
+- For each buff, the cooldown is reduced by %s seconds, down to %s seconds
+- Duration of buff is %s seconds
+- Buff effects:
+    - Maximum speed and maneuverability + %s 
+    - Flux dissipation + %s 
+",,,graphics/hullmods/AL_contractvower.png
+A-L Repair Bay,AL_repairFactory,,,Appro-Light - Spirit,,,,,TRUE,,100,100,100,100,originem.al.hullmods.AL_RepairFactory,"This ship is equipped with a suite of equipment akin to a fully stocked orbital station.
+
+-Increases the rate of other fleet member's combat readiness recovery outside of combat by %s, and their out-of-combat repairs by %s, without affecting the number of supplies consumed.
+-Does not work when mothballed.
+-Effects do not stack.
+
+The ship's zero flux speed bonus is increased by %s times the original speed.
+This hullmod does not interact with other Appro-Light hullmods.",,,graphics/hullmods/AL_RepairFactory.png
+Supremacy,AL_primeship,,,Supreme Light,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_PrimeShip,"""Supreme Light"" ships utilize technology vastly beyond Appro-Light's current levels. Their design seems more focused on the idea of ""divine right"" than science: contrary to most people's first impression, these ships seem to be the ""divine"" part of that expression.
+
+As long as this ship is present in a fleet, every ship in the fleet will gain:
+ -Armor & hull +%s
+ -Flux capacity/dissipation +%s
+ -If the ship's burn level is below %s, it gains %s additional burn speed.
+
+When this ship is deployed in combat, all deployed allied ships will gain:
+ -Top speed +%s
+ -Maneuverability +%s
+
+This hullmod's effects stack (besides the burn speed increase) with multiple classes of Prime ship, but not with duplicates of the same class.
+
+Does not interact with other Appro-Light hullmods.
+Ships with this hullmod consume an additional %s supplies per month.",True Supremacy,,graphics/hullmods/AL_primeship.png
+Divine A.I. Core,AL_brainAI,,,Time Metamorphosis,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_BrainAI,"An AI core that does not require any cooling that is implanted into the ship. Its intelligence and data processing power far exceeds any alpha-grade A.I currently known.  For unknown reasons the A.I.'s ability to think for itself has been disabled and security protocols have been put in place to prevent it from being re-enabled; it currently poses no threat to its users.  The schematics indicate that the power comes from the cross-shaped light in the center of the ship: this is a source of debate for most experts, but the current level of technology is incapable of understanding the working principle.
+
+The Divine AI Core accelerates the circulation of flux, generating a gravitational field.
+  -%s all nearby enemy %s, slowing them down or repelling them away from the field.
+  -When %s is turned on, the nature of the force field is reversed, %s all nearby enemy %s.
+
+In addition, modifications to the ship's flux capacitor and vent channels can strengthen the shields:
+  + %s to shield efficiency per flux capacitor/vent.
+  -Maximum %s increase.
+  -%s-class ships receive up to an additional %s bonus.",Reject Divinity,,graphics/hullmods/AL_brainAI.png
+Mana Void,AL_manarupya,,,Time Metamorphosis,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_Manarupya,"If an inorganic body can be deluded, if it can be tainted: then the Dharma of a human body can also be enforced.
+
+Enemy ships approaching the Essence will be ""naturalized"" and part of any increases to base stats they possess will be removed. The closer the ships are, the greater the degree of removal.",REJECT DIVINITY,,graphics/hullmods/AL_manarupya.png
+Higgs World,AL_boss_higgsworld,,,Time Metamorphosis,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_HiggsWorld,"""It's not me who wants to be alone...""
+It is the countless clones that accompany Keel.
+
+Higgs has a temporal residue:
+    -The shadow will always rotate around Higgs.
+    -Up to %s shadows can be generated naturally, and if this number is exceeded, the shadows will be recycled automatically
+    -Recycle instantly brings back %s of the lost hitpoints, with %s of armor repair, and enhances weapon damage and overall durability for a certain amount of time
+    -The higher the flux, the faster the generation speed and recovery cooldown. However, due to the timeline of the residue, multiple shadow absorptions will result in slower and slower generation and recovery, but longer recovery gain duration.
+
+When and only when %s is an officer:
+    -The maximum number of residual shadows +%s
+    -Generation speed increases by %s
+
+When Higgs points at an enemy ship, it invokes a cross-space flash from the residual shadow.
+
+Provides an additional %s of hard flux dissipation while shield is on.
+
+This hullmod does not interact with other Appro-Light hullmods.",Evolution of irrefutable evidence,,graphics/hullmods/AL_higgsworld.png
+Membrane Implant,AL_plugforboss,,,,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_PlugForBoss,The power of the special parliamentary fleets.,,,graphics/hullmods/AL_foodfactory.png
+Space-Time Rejection,AL_spacetimerejection,,,Time Metamorphosis,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_SpaceTimeRejection,"This ship's timeline is out of line with the rest of space. Unknown threats could appear at any time.
+
+The fleet's ECM rating is reduced by %s.",Beep beep beep,,graphics/hullmods/AL_spacetimerejection.png
+Immortal-Light Isomery,IL_isomery,,,Immortal-Light,,,,,TRUE,,0,0,0,0,originem.al.hullmods.IL_Isomery,"Although this ship can be operated normally the maintaince costs are sky-high:
+    -Crew loss rate is increased by %s
+    -Its monthly and deployment supply costs are increased by %s
+
+The ship is extremely resistant to energy damage due to the unknown repulsive nature of the energy circulating within:
+    -EMP resistance increased by %s
+    -Energy damage resistance increased by %s",,,graphics/hullmods/IL_isomery.png
+Conviction Isomery,BC_isomery,,,Blade of Conviction,,,,,TRUE,,0,0,0,0,originem.al.hullmods.BC_Isomery,"The ship was suspected to have been eroded by higher dimensional forces, the negative effects have now been eliminated.
+
+The presence of internal energies with unknown repulsive properties makes it extremely resistant to homologous damage:
+    -EMP resistance increased by %s
+    -Energy damage resistance increased by %s",,,graphics/hullmods/BC_isomery.png
+Oath Breaker,AL_contractbreaker,,,Appro-Light - Spirit,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_ContractBreaker,"""The euclidean structure is unique in all directions and achieves the ultimate logistical efficiency."" The designers have placed a number of high-risk maintenance facilities in surplus space and have configured mobile devices called ""Oath Breakers"" by the Prime Flame Clan that can bypass safety protocols to allow the equipment to operate at full strength.
+
+Under the influence of the ""Oath Breaker"" all fighter squadrons can deploy an additional %s craft; however these extra craft need to return of maintenance after some time.
+For wings with a single craft at base, the operational time of the additional aircraft are %s seconds, two-craft squadrons operate for %s seconds, three and above operate for %s seconds.""",,,graphics/hullmods/AL_contractbreaker.png
+Fuel Modification,AL_module_fuel,,,,req_spaceport,,,TRUE,,,10,10,10,10,originem.al.hullmods.AL_GranaryFuelModule,"Convert some of the cargo space in the Granary-class into fuel space.
++ %s fuel capacity
+- %s cargo capacity
+
+Can only be installed on a Granary-class ship.",,,graphics/hullmods/AL_granaryfuelmodule.png
+Cargo Modification,AL_module_cargo,,,,req_spaceport,,,TRUE,,,10,10,10,10,originem.al.hullmods.AL_GranaryCargoModule,"Convert some of the fuel space in the Granary-class into cargo space.
++ %s cargo capacity
+- %s fuel capacity
+
+Can only be installed on a Granary-class ship.",,,graphics/hullmods/AL_granarycargomodule.png
+Intensive Flux Units,AL_intensivefluxunits,,,Appro-Light - Ether,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_IntensiveFluxUnits,"The ship's flux vent layout is dense and aggressive, which is remarkably effective when utilized for weapons: but once the flux pressure is too high, defensive systems would be compromised:
+
+-When the ship's hard flux level is below %s, its flux dissipation is increased by %s.
+-When the ship's soft flux level is above %s, its shield upkeep is increased by %s.
+
+The hullmod does not interact with other Appro-Light hullmods.",,,graphics/hullmods/AL_intensive_flux_conduits.png
+Multi-Dimensional Turbulence Shield,AL_mdshield,,,Appro-Light - Spirit,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_MultiDimensionShield,"A special emergency energy shield that uses inert energy to block the sudden arrival of damage. Normally transparent, it is activated automatically when a certain amount of damage is taken.
+
+-If, within %s seconds, more than %s damage is taken:
+-Damage to hull, armor and shields is reduced by %s.
+-Lasts %s seconds.
+-Must cool down for %s seconds after use.",,,graphics/hullmods/AL_mdshield.png
+Phase Anchor Reduction,AL_phase_anchor_degrading,,,,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_PhaseAnchorDegrading,"Due to the special design of the ship, the power grid needs to feed both a powerful propulsion system and two large weapon slots, and this diversion will not only make the fire control system inefficient, but also lead to unforeseen disasters due to instability when the ship enters and exits the phase cloaking state with phase anchor points loaded. To avoid this, the developers have designed special modulation for phase anchor points at the cost of reduced practicality.
+
+- All weapon ranges above %s units will be greatly reduced.
+- If the %s hullmod is installed, its flux dissipation and weapon cooldown effects will be reduced by %s.",,,graphics/hullmods/AL_phase_anchor_degrading.png
+Heptatonic Crystal,AL_purplediamond,,,Appro-Light - Ether,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_PurpleDiamond,The boundary between heaven and Earth is formed of the derivative of seven.,7x7 = 49,,graphics/hullmods/AL_purplediamond.png
+Moon Arc Slot,AL_moonarcslot,,,Appro-Light - Ether,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_MoonArcSlot,"The %s located in the middle of the ship is assisted by a special hardware system, the internal structure is expanded and adapted with a large number of optimized programs that can complement the missiles.
+
+For %s missile weapons:
+    - Gain an additional %s ammo.
+For %s missile weapons:
+    - Ammo regenerates %s faster.
+Furthermore, other missile weapons which fire the same type of missile as the above boosted weapon will gain an additional %s ammo.",More missiles or regeneration depending on if the medium missile reloads or not.,,graphics/hullmods/AL_moonarcslot.png
+Primus Arborea Modifications,AL_primus_arbore,,,Primus Arborea,,,,,TRUE,,0,0,0,0,originem.al.hullmods.AL_PrimusArbore,"The gift of Naqiu City. A unique transformation of the Primus Arborea Sect that originated from the Naqiu City. This hullmod makes a ship more adaptable to installed flux capactors and vents. Each capacitor increases flux capacity by %s and each vent increases dissipation by %s.
+
+This hullmod does not interact with other hullmods.
+This hullmod also increases the supplies needed per month by %s.",The power of trees enhances capacitors and vents.,,graphics/hullmods/AL_primus_arbore.png
+,,,,,,,,,,,,,,,,,,,

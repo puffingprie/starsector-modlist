@@ -1,0 +1,59 @@
+{
+  "id": "AL_bladeofcleavingfire",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "originem.al.scripts.weapons.AL_BladeOfCleavingFireBeamEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/AL_bladeofcleavingfire_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/AL_bladeofcleavingfire_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/AL_bladeofcleavingfire_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/AL_bladeofcleavingfire_hardpoint_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    90,
+    190,
+    255,
+    235
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    7,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    9,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    90,
+    190,
+    255,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 25,
+  "textureType":["graphics/fx/AL_bladeofcleavingfire_fringe.png","graphics/fx/beamcorec.png"],
+  "textureScrollSpeed": 128,
+  "pixelsPerTexel": 1,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "AL_bladeofcleavingfire_charge",
+}

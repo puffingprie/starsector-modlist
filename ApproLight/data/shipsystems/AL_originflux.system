@@ -1,0 +1,21 @@
+{
+	"id":"AL_originflux",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"originem.al.shipsystems.scripts.ai.AL_OriginFluxAI",
+	"statsScript":"originem.al.shipsystems.scripts.AL_OriginFluxStats",
+		
+	#"useSound":"beam_heavy_intro",
+	#"outOfUsesSound":"gun_out_of_ammo",
+
+	#"activatingShieldsCancels":true,
+	
+	
+	"useSound":"AL_deitygun_impact",
+	"deactivateSound":"AL_originflux_deactivate",
+	# Stian deactivated these two because of audio playback timing issues. See fortressshield.system for more.
+	# Re-enable for testing.
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"AL_originflux_loop",
+}

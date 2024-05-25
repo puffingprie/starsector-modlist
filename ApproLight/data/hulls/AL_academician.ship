@@ -1,0 +1,199 @@
+{
+  "hullName": "AL_acadamician",
+  "hullId": "AL_academician",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/AL_academician.png",
+  "style": "APPRO_TECH",
+  "height": 140,
+  "width": 154,
+  "center": [77, 75],
+  "collisionRadius": 99.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 96,
+  "viewOffset": 0,
+  "builtInMods": [
+    "AL_antideuengine",
+    "AL_DeuStove"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 35.5,
+      "locations": [-12, 18]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -35.5,
+      "locations": [-12, -18]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-0.5, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 120,
+      "locations": [-3, 52]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -127,
+      "locations": [-3, -52]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 109.343002,
+      "angle": 30,
+      "locations": [27, 34]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 109.343002,
+      "angle": -30,
+      "locations": [27, -34]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, 52.5],
+      "length": 31.555279,
+      "width": 9.222669,
+      "angle": 139.5,
+      "contrailSize": 9.222669,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-16, -52.5],
+      "length": 31.555279,
+      "width": 9.222669,
+      "angle": -139.5,
+      "contrailSize": 9.222669,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-28, 36.5],
+      "length": 21.983,
+      "width": 6.323829,
+      "angle": 157,
+      "contrailSize": 6.323829,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-28, -36.5],
+      "length": 21.983,
+      "width": 6.323829,
+      "angle": -157,
+      "contrailSize": 6.323829,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-31, 34.5],
+      "length": 27.171621,
+      "width": 5.178032,
+      "angle": 157,
+      "contrailSize": 5.178032,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-31, -34.5],
+      "length": 27.171621,
+      "width": 5.178032,
+      "angle": -157,
+      "contrailSize": 5.178032,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-34.5, 32.5],
+      "length": 32.025833,
+      "width": 7.575212,
+      "angle": 157,
+      "contrailSize": 7.575212,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-34.5, -32.5],
+      "length": 32.025833,
+      "width": 7.575212,
+      "angle": -157,
+      "contrailSize": 7.575212,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-45.5, 11],
+      "length": 16,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-45.5, -11],
+      "length": 16,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-30.5, -0],
+      "length": 30.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "APPRO_ENGINE"
+    }
+  ],
+  "bounds": [
+    -30.5, -10,
+    -64, -12.5,
+    -15, -39.5,
+    -14.5, -56,
+    -25, -68.5,
+    -14, -70,
+    15, -46.5,
+    26, -46,
+    54.5, -16,
+    23, -26,
+    10.5, -19.5,
+    23.5, -4.5,
+    23.5, 4.5,
+    10.5, 19.5,
+    23, 26,
+    54.5, 16,
+    26, 46,
+    15, 46.5,
+    -14, 70,
+    -25, 68.5,
+    -14.5, 56,
+    -15, 39.5,
+    -64, 12.5,
+    -30.5, 10
+  ]
+}

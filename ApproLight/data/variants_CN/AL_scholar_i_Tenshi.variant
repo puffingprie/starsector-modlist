@@ -1,0 +1,52 @@
+{
+    "displayName": "突击",
+    "fluxCapacitors": 15,
+    "fluxVents": 26,
+    "hullId": "AL_scholar_i",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_scholar_i_Tenshi",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "tachyonlance"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "AL_lighter_hidden",
+                "WS0012": "AL_lighter_hidden",
+                "WS0013": "AL_lighter_hidden",
+                "WS0014": "AL_lighter_hidden"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "AL_spiderpulse",
+                "WS0008": "AL_spiderpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "heavyneedler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_defenderpd",
+                "WS0002": "AL_defenderpd",
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd",
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd"
+            }
+        }
+    ]
+}

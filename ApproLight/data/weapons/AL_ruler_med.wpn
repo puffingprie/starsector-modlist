@@ -1,0 +1,64 @@
+{
+  "id": "AL_ruler_med",
+  "specClass": "projectile",
+  "projectileSpecId": "AL_ruler_mrm",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/AL_launcher_m4_2x_turret_base.png",
+  "hardpointSprite": "graphics/weapons/AL_launcher_m4_2x_hardpoint_base.png",
+  "renderHints": [
+    "RENDER_LOADED_MISSILES"
+  ],
+  "turretOffsets": [
+    8,
+    9,
+    8,
+    -9,
+    5,
+    4,
+    5,
+    -4
+  ],
+  "turretAngleOffsets": [
+    0,
+    -0,
+    0,
+    -0
+  ],
+  "hardpointOffsets": [
+    12,
+    9,
+    12,
+    -9,
+    9,
+    4,
+    9,
+    -4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    -0,
+    0,
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 15,
+    "particleSizeRange": 20,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackSpread": 10,
+    "particleColor": [
+      80,
+      80,
+      100,
+      175
+    ]
+  },
+  "fireSoundTwo": "harpoon_fire"
+}

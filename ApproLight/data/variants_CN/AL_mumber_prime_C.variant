@@ -1,0 +1,47 @@
+{
+    "displayName": "C",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "AL_mumber_prime",
+    "hullMods": [
+        "AL_airrightequipment",
+        "AL_frequencybuffergrid",
+        "targetingunit",
+        "unstable_injector",
+        "fluxbreakers",
+        "reinforcedhull",
+        "AL_shadowblueprint"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_mumber_prime_C",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "AL_spiderpulse"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "AL_respectbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "taclaser",
+                "WS0004": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd"
+            }
+        }
+    ]
+}

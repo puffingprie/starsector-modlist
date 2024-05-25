@@ -1,0 +1,82 @@
+{
+  "APPRO_ENGINE": {
+    "engineColor": [
+      70,
+      100,
+      255,
+      220
+    ],
+    "engineCampaignColor": [
+      70,
+      100,
+      255,
+      255
+    ],
+    "contrailParticleSizeMult": 4,
+    "contrailParticleDuration": 2,
+    "contrailParticleFinalSizeMult": 0.4,
+    "contrailMaxSpeedMult": 0.5,
+    "contrailAngularVelocityMult": 0.5,
+    "contrailColor": [
+      100,
+      150,
+      255,
+      35
+    ],
+    "contrailCampaignColor": [
+      100,
+      150,
+      255,
+      35
+    ],
+    "glowSizeMult": 1.1,
+    "glowAlternateColor": [
+      100,
+      120,
+      255,
+      255
+    ],
+    "type": "GLOW",
+    "glowSprite": "graphics/fx/AL_engineglow.png",
+    "omegaMode": true
+  },
+  "PRIME_ENGINE": {
+    "engineColor": [
+      255,
+      255,
+      85,
+      220
+    ],
+    "engineCampaignColor": [
+      255,
+      255,
+      85,
+      255
+    ],
+    "contrailParticleSizeMult": 4,
+    "contrailParticleDuration": 1,
+    "contrailParticleFinalSizeMult": 2,
+    "contrailMaxSpeedMult": 0.5,
+    "contrailAngularVelocityMult": 0.5,
+    "contrailColor": [
+      255,
+      255,
+      180,
+      35
+    ],
+    "contrailCampaignColor": [
+      255,
+      255,
+      180,
+      35
+    ],
+    "glowSizeMult": 1,
+    "glowAlternateColor": [
+      255,
+      255,
+      180,
+      255
+    ],
+    "type": "GLOW"
+  }
+}

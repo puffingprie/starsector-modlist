@@ -1,0 +1,44 @@
+{
+  "id": "AL_fbig_ftr_l",
+  "specClass": "projectile",
+  "projectileSpecId": "AL_fbig_shot",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/ships/damocleser/AL_damocleser_left_arm.png",
+  "turretGunSprite": "graphics/ships/damocleser/AL_damocleser_left_gun.png",
+  "hardpointSprite": "",
+  "renderHints":[RENDER_BARREL_BELOW],
+  "visualRecoil":10.0,
+  "turretOffsets": [
+    28,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 30,
+    "particleSizeMin": 6,
+    "particleSizeRange": 10,
+    "particleDuration": 0.4,
+    "particleCount": 12,
+    "particleColor": [
+      255,
+      110,
+      0,
+      255
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "AL_fbig_fire"
+}

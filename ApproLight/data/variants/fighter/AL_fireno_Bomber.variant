@@ -1,0 +1,15 @@
+{
+  "displayName": "Bomber",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "AL_fireno",
+  "hullMods": [],
+  "variantId": "AL_fireno_Bomber",
+  "weaponGroups": [
+  {"mode":"LINKED",
+		 "weapons":{
+		 			"WS0001":"AL_nihilitymissile",
+					"WS0002":"AL_nihilitymissile",
+		 		   },
+		}]
+}

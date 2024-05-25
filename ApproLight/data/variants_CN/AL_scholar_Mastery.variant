@@ -1,0 +1,58 @@
+{
+    "displayName": "专业",
+    "fluxCapacitors": 17,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "AL_scholar",
+    "hullMods": [
+        "magazines",
+        "AL_glittertargetingcore"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_scholar_Mastery",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "autopulse"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "AL_lighter_hidden",
+                "WS0006": "AL_lighter_hidden",
+                "WS0013": "AL_lighter_hidden",
+                "WS0014": "AL_lighter_hidden"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "AL_fireflushcannon",
+                "WS0008": "AL_fireflushcannon",
+                "WS0016": "AL_fireflushcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_defenderpd",
+                "WS0002": "AL_defenderpd",
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "vulcan",
+                "WS0012": "vulcan"
+            }
+        }
+    ]
+}

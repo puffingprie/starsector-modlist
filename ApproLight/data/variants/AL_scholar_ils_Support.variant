@@ -1,0 +1,65 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 20,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "AL_scholar_ils",
+    "hullMods": [
+        "AL_frequencybuffergrid",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_scholar_ils_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "AL_bladeofcleavingfire",
+                "WS0010": "AL_bladeofcleavingfire"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0024": "AL_spiderpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0023": "gauss"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "ionbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0017": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "gravitonbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_defenderpd",
+                "WS0002": "AL_defenderpd",
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd",
+                "WS0011": "AL_defenderpd",
+                "WS0012": "AL_defenderpd",
+                "WS0015": "AL_subspace_detonation_unit",
+                "WS0016": "AL_subspace_detonation_unit"
+            }
+        }
+    ]
+}

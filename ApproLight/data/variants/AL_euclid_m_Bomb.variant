@@ -1,0 +1,65 @@
+{
+    "displayName": "Bomb",
+    "fluxCapacitors": 18,
+    "fluxVents": 40,
+    "goalVariant": true,
+    "hullId": "AL_euclid_m",
+    "hullMods": ["AL_glittertargetingcore"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_euclid_m_Bomb",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "AL_dyingblazebeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "AL_ruler_med",
+                "WS0002": "AL_ruler_med"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "AL_respectbeam",
+                "WS0007": "AL_respectbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "AL_explodebeam",
+                "WS0011": "AL_explodebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "AL_defenderpd",
+                "WS0005": "AL_defenderpd",
+                "WS0016": "AL_refusingpulse",
+                "WS0017": "AL_refusingpulse",
+                "WS0018": "AL_defenderpd",
+                "WS0019": "AL_defenderpd",
+                "WS0020": "AL_defenderpd",
+                "WS0021": "AL_defenderpd",
+                "WS0022": "AL_defenderpd",
+                "WS0023": "AL_defenderpd"
+            }
+        }
+    ],
+    "wings": [
+        "AL_fireno_wing",
+        "AL_fireno_wing",
+        "AL_lightmare_wing",
+        "AL_lightmare_wing",
+        "longbow_wing"
+    ]
+}

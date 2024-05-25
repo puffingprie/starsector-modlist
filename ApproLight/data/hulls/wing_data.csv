@@ -1,0 +1,9 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,number
+AL_techno_wing,AL_techno_Fighter,"fighter3,fighter,high,alpj_ether_bp",0,,5,9,V,4000,500,,3,FIGHTER,Fighter,15,6000,982
+AL_soulno_wing,AL_soulno_Fighter,"interceptor4,interceptor,high,alpj_ether_bp",1,,6,12,V,6000,500,100,3,INTERCEPTOR,Interceptor,12,10000,983
+AL_fireno_wing,AL_fireno_Bomber,"bomber5,bomber,high,alpj_spirit_bp",1,,4,10,BOX,4000,2000,200,2,BOMBER,Support Bomber,15,8000,984
+AL_firelink_wing,AL_firelink_Fighter,"support4, fighter, high,alpj_spirit_bp",2,,4,10,BOX,4000,500,,2,SUPPORT,Support,15,8000,984
+AL_heavynail_wing,AL_heavynail_Fighter,"fighter4,fighter,high,alpj_spirit_bp",3,,7,14,V,6000,500,-100,1,FIGHTER,Superheavy Fighter,20,10000,985
+AL_respector_wing,AL_respector_Fighter,"support4, fighter, high,alpj_spirit_bp",2,0.5,6,15,V,0,500,,2,SUPPORT,Heavy Support,15,10000,2
+AL_damocleser_wing,AL_damocleser_Fighter,"fighter4,fighter,high,alpj_spirit_bp",3,0.5,7,18,BOX,4000,500,,2,FIGHTER,Fighter,20,20000,986
+AL_lightmare_wing,AL_lightmare_Bomber,"bomber5,bomber,high,alpj_spirit_bp",2,0.25,8,25,V,4000,2000,700,2,BOMBER,Bomber,20,15000,987

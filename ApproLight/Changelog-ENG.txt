@@ -1,0 +1,195 @@
+-,↑,↓ = update entry prefix, - means adjust, ↑ means enhance, ↓ means weaken.
+* = relatively important change
+** = very important change
+*** = Subversive change
+# = prefix representing the text change accompanying the entry
+: = separates the prefix from the level of importance
+The format is: update prefix change prefix text prefix
+(C) = compatible with the previous saves (i.e. without this flag you need to make a new save)
+2024/3/9 1.3.3 (C)
+- Keter(M) slightly modified visuals
+- Fix some bugs.
+- Fixed some weapons of the Archimedes class not recognizing missiles correctly.
+- The arc created by the activation of the Phase Detonator ability is now randomly chosen from a Phase Detonator weapon on the ship.
+- Redo some missile sprites and fix the visual effects.
+- Adjusted the stacking method of some increases/decreases.
+- Additional effects when Fire Corrosion is triggered.
+- Optimized the Deity Cannon's effects.
+- Reduced the chance of ship salvage from IL at H.1~H.9 scaling.
+↑ * # Phantom Ammo Feeder now has a s-mod bonus: increases rate of fire for weapons depending on their corresponding duplication chance.
+↑ Adjusted Oppenheimer weapon arcs, flux statistics 12000/700 -> 13000/800, shield upkeep ratio 0.4->0.5
+↑ Doubles the probability of the Purging Fire Plasma Cannon's Fire Corrosion effect
+~ * # Spine Bomber reworked, number of craft 3->2, OP cost now 10, Nihility Rocket changed to instead increase damage to shields depending on the angle hit.
+~ * # Frequency Buffer Grid's automatic dissipation of flux changed to s-mod bonus, minimum effect 1%->5%.
+~ * # Corrosion Piercer Armament: optimized the text and added a new s-mod bonus: fire corrosion damage will no longer be reduced, and fire corrosion will apply 33% faster.
+~ # Spider Pulse Cannon and Spider Laser now fire +2 sub-projectiles with Chain Upgrade installed, and the additional projectiles fired by Spider Laser 2-3 -> 1-3
+~ # PF-Respector Star-Cannon no longer increases damage based on flux level, instead increasing damage by a flat 25% if Phantom Ammo Feeder is installed.
+~ Rods From Cleaving Fire per-shot damage 1200->1000 (flux/damage unchanged), Ion Tear radius 60->50, damage fixed at 250, with additional EMP
+↓ Purging Fire Twin Cannon reduced additional Fire Corrosion damage from 300->200.
+
+2024/2/25 1.3.2 (C)
+- Fixed some text.
+- Fixed some missing trails.
+- Adjusted some variants.
+- Fine-tuned Condemnation MIRV behavior.
+- * Resprites:
+    Sealing Nail Superheavy Fighter
+    Edification Fighter
+    Lamp Fighter
+    Spine Bomber
+    DaDR Beam
+    Refusing Pulse PD
+- Removed Ruler LRMs from Gilbert's Requisitions and reduced overall stock of the requisitions.
+- Rewrote settings code to no longer have a hard requirement for lunalib (for the time being)
+- Fixed bug with some decorative weapons appearing for sale.
+- Reset the sound effects of the Amethyst Doctrine system
+- Adjusted Immortal-Light fleet composition, added Emptiness to IL doctrine, and slightly increased IL's overall fleet quality.
+- Added the Almera-class phase cruiser MagicBounty from AL+.
+↑ PF-PD Refusing Pulser OP cost decreased by 1, flux/second 30->20.
+↑ Wildfire series "spin-up" time halved.
+↑ Filtered Phase Coating: new s-mod bonus that increases the damage transfer amount by 3% of the current flux capacity.
+~ # AL Chained Upgrade overall enhancement 2.5%->2%, UI optimized, new s-mod bonus added: increases the buff value by 10%.
+~ # Phase Detonator startup time increased by 0.15 seconds, special effects optimized.
+~ Essence system: increased cooldown 15 -> 20 seconds, increased (hard) flux generation to 10%, adjusted AI to make it use the system more often.
+~ Anti-Deuterium Resonance Engine: adjusted top speed increase to 20/15/10/10, new s-mod bonus: boost can now be manually triggered by double-tapping a movement key.
+↓ # Glitter Targeting Core damage increase effect moved to s-mod bonus.
+
+2024/2/17 1.3.1 (C)
+- # Numerous corrections to description text.
+↓ Reduced DaDR Beam effect values by 5% for shield and 5% for hull.
+- Fixed bugs in the Phase Detonator series.
+~ Adjusted values for some gain and loss benefits.
+
+2024/2/16 1.3.0
+- *** Adapted 0.96.
+- *** Merged most AL+ content (except for Ancient Secrets and Knights Arbiter)
+- Keter (M) changes 2 rear-facing medium slots to small slots with adjusted arcs.
+- Reset of the adder level mapping.
+- Optimized boson effects.
+- # Fixed some various files.
+- Scolder reset, now Scolder-class Exploration Ship with built-in exploration equipment.
+↑ Frozen Yard: hull 10000->12000, armor 800->1000
+↑ White Wolf: OP 95->100, rear small hybrid->small energy.
+↑ Heavy Igniter Launcher refire delay 20->15s
+↑ PF-Ultra Beam burst damage +800, armor piercing +400 (beam duration reduced by 1 second)
+↑ Wildfire flux/damage 0.3->0.25
+↑ Spider Pod Launcher: main projectile EMP 500 -> 3000, orbiter EMP 100 -> 300
+~ DaDR beam new effect, now reduces energy damage resistance by 20% on shields and 10% on armor/hull (two big thumbs up to Alex: the upside down kind)
+2023/5/1 1.2.0
+- # * Now when you have maximum relations with Keel Higgs of the Blade of Conviction, you are rewarded with a special "Graven AI Core": identical in performance to an Alpha Core, except for the presence of a "Conviction Firewall" skill.
+- # * Wildfire series redone: are now EMP/fragmentation machine guns that need to build up their rate of fire, initially only 50% of the listed value.
+	- #: Wildfire Cannon renamed to Wildfire Proton Machine Gun
+- # Changed some file formats.
+- # Rods From Cleaving Fire: projectile speed reduced, visual effect adjusted, DPH/FPH 1500/2250 -> 1200/1920, DPS/FPS 250/375->200/320 (flux/damage 1.5->1.6), on-hit adjusted: now based on hard-flux of its target and other conditions (hardened shields reduces the chance), triggers regardless of hitting the shields to overload and cause penetrating damage
+- # New UNGP rule: AL Scholar (like HSS Phoenix but for the Scholar series), adds "ungp_scholar" ship tag for modders to make their ships compatible
+- Cleaving Fire LR Cannon: Projectile speed reduced, visual effect adjusted, range 1200->1100, DPH/FPH 800/1400->750/1200 (flux/damage 1.75->1.6), DPS/FPS 267/467->250/400
+- # Adds a HVB against the Exiled Outpost
+- Reduces the AI cores dropped by Immortal-Light capitals
+- Number of AI cores traded by the Dynasty Seeker reduced
+- # * Ruler MRM Pod changed to Ruler SRM Pod (Ruler LRM made hidden)
+	- Missile range significantly reduced.
+	- Missile HP 100 -> 150, missile DPH 250->150, HE->kinetic damage type
+	- Hitting a target 4 times triggers [Ruler Lockdown], reducing the target's maneuverability/speed by 50% for 4 seconds (gradually decays, and cannot stack)
+		- If the firing ship is equipped with AL Chained Upgrade, triggering [Ruler Lockdown] will also randomly emit a shield-piercing arc dealing 300 energy/emp damage depending on the target's flux level
+	- Reduced refire delay, burst size 5->4 shots.
+
+↑ # PF-Respector Star-Cannon now gains damage the lower the ship's flux is, rather than higher.
+↑ # Purging Fire Cannon ammo/reload 30 -> 15 (ammo reload rate per second remains unchanged), fire corrosion trigger probability 10% -> 25%, effects change to fire corrosion damage with 50% probability and damage increased to 300.
+↑ # Heavy Moonfire No longer magazine-based, range 700 -> 800, DPS/FPS changed to 200/200, slightly reduced accuracy, effects are now similar to Purging Fire Cannon, trigger probability 10%, damage has 50% probability increased from 50 to 150.
+↑ Frightener Fabricator Range 2500 -> 3000, missile lifetime 4.5 -> 6 seconds.
+↑ Spider Laser DPS/FPS 375/450 -> 400/400, companion projectiles 4~6 -> 2~4 and no longer attach EMP (the main projectiles can still emit EMP arcs).
+↑ Respector Tri-Beam 200 -> 120 per second (flux ratio 1.0 -> 0.6)
+↑ Spider Pulse Cannon Single shot flux 50 -> 40 (flux ratio 1.0 -> 0.8)
+↑ Condemnation MIRV Pod Reload time 20 -> 15 seconds, single round firing interval adjusted to 0.5 seconds.
+
+↓ # Starlight Moonfire no longer has damaging arcs, adds text explaining the flares, flare chance 25%->50%, improves turret base graphics.
+↓ The number of quest rewards for hunting the Immortal-Light Front are reduced by 1.
+
+2023/4/* 1.1.2 (C) hotfix
+- Fix some possible bugs with the Forbidden Knowledge.
+
+↓ Condemnation MIRV warhead on-hit effect 10%->5%, gained a special graphical effect.
+
+2023/4/10 1.1.2 (C)
+- * The player eliminating Immortal-Light fleets has an increased effect on IL's scaling, as well as the Assistant and Judicator joining IL fleet doctrine.
+- #A new high-priority military contact, MarkeDon.
+- Fixes some bugs with the "Invitation from the Dynasty" mission.
+- Lowered the area covered by the Divine Knowledge's builtin missiles.
+- Fixed some bugs with the mount location on the ALSI.
+- ALSS AI improvement, will now only try to activate the system and deactivate shields when its hull is above 80%.
+- Rewrote the animation code for the PF-E Dying Blaze Beam, will hopefully fix the crashes.
+- Emptiness built-in deuterium reactor->dimensional difference generator
+- Reduces the number of AI cores offered by Gilbert.
+- Optimize a few variants.
+
+- * Divine Knowledge-class Divine Cruiser: Flux capacity/dissipation 12500/900-> 11000/750, shield upkeep 0.6->0.4, DP 35->32, built-in beam DPS/FPS 300/300->250/200, increases beam travel speed. built-in missiles reworked: missile HP 1->100, damage reduced to 50 but gains a 50% chance to deal 200 fire corrosion damage
+- Wildfire Cannon range 1000->900, flux/shot 225->210, DPS/FPS tuned to 125/175
+
+↑ * Phasing Chimera: top speed 70->90, Phase Anchor Reduction range clamp 600->800, hull 4000->600, armor 600->800, flux capacity 9000->10000, new ship system
+↑ # Euclid: description change, top speed 25->30, cargo capacity 700->200, CR consumption lowered, area affected by system increased.
+↑ Euclid (M): OPs 270->280, armor 1300->1500, flux capacity/dissipation 15000/650->13000/600, remove built-in resonance engine, top speed 25->30, cargo capacity 800->200.
+↑ Spider Pod gains 500 EMP damage on the main missile and 100 on each sub-projectile.
+
+↓ * Forbidden Knowledge FX optimized and improved, turret arc fine-tuned, HP of motes from system changed to 200, duration increased by ~1 second, flux capacity/dissipation 21000/1400->20000/1250, 4 small synergy->small energy, shield efficiency 0.8->1.0
+↓ * Anti-Deuterium Resonance Engine (hullmod) OP cost increased 5/10/15/25->6/12/20/30
+↓ Keter's system now only deals 1/4 as much damage to phased ships.
+↓ Knowledge-class Divine Destroyer flux capacity/dissipation 5750/425->5500/400, shield upkeep ratio 0.5->0.6, removes built-in hullmods except for Divine AI Core
+↓ Wildfire Collider flux/shot 300->315, maximum spread +2 degrees.
+
+2023/2/23/1.1.1 Hotfix2
+- Size factor of Originem mission fleets adjusted to 2~3.
+- Base number of IL fleet members 9->10
+
+2023/2/20/1.1.1 Hotfix
+- # New description for the Appro-Light faction
+- hotfixes
+- Mapping optimization
+
+2023/1/22/1.1.1
+- * # Added special fleet: Exile Outpost Se.17-B, orbiting the planet Imhotep. Related story at: https://www.fossic.org/thread-6348-1-1.html
+- Fix some bugs.
+- Update sprites: Tablet, Keter, Phasing Chimera, and Keter(M).
+
+2023/1/7/1.1.0 Hotfix
+- Adjust some fits, add Corrosion Piercer Armament.
+
+2022/12/31/1.1.0 is not compatible with older archives, must be reopened
+- ** # The Prime Ships now have a pre-mission: Invitation from the Dynasty.
+- ** Reduced bullet size/effect size for most weapons.
+- ** Adjusted the Immortal-Light Front officer rank/number curve, lowered the overall difficulty, and drastically reduced the fleet size. Now hostile to Independents/Pirates.
+- * # New unmanned warship for Immortal-Light Front: Forbidden Knowledge, ship feature: buff removal.
+- * # Fix and optimize Appro-Light Documentary content and typography.
+- * Immortal-Light Front has a new fleet BGM.
+- * Optimize code structure.
+- * Update multiple avatars.
+- * Provide multiple AL_SETTING.ini adjustable parameters.
+- # Optimize Divine AI core description, now Divine AI core will change from missile repulsion to attraction when the ship opens the tactical system.
+- # Fix some ids in rules.csv.
+- Adjust the autofit priority of some weapons.
+- Adjusted some ship fits.
+- Higgs' fleet will now replenish its own ships at certain intervals.
+- Starlight Moonfire range 850->800, OP cost 28->27.
+- Star Imager Tracking Gun DPS/FPS 275/325->250/300.
+- Cleaving Fire LR Cannon no longer causes Fire Corrosion, DPH/FPH 750/1350 -> 800/1400, reduced credit value.
+- Keter's Tactical System effects optimized, now with hint range.
+- Divine Knowledge effects optimized.
+- A-L Air Power Equipment now increases fighter damage to ships by 10%.
+- Laplace-class Dreadnought's second ship has a story point acquisition requirement of 3 points -> 2 points.
+
+↑ # Pyrosphere Thunderstorm Cannon adjustment: Electric Cloud damage now ignores 50% of armor damage reduction, and adds a hidden effect: now if there are multiple targets within the electron cloud, the arc hits from the electron cloud will be partially diluted to those targets (previously every target was hit), but the overall behavior is the same: the more targets, the higher the total damage that can be dealt.
+↑ PF - Ultra Beam burst damage 3600->4000, maintain flux-damage ratio, otherwise unchanged.
+↑ Spider Laser reduces scatter, reduces projectile flight speed, optimizes effects, now generates small projectiles with EMP damage.
+↑ Frightener Factory refire delay 8->5 seconds.
+↑ Purging Fire Pulse Cannon's Fire Corrosion trigger probability 20%->25%.
+↑ Purging Fire cannon OP cost 9->8.
+↑ Laplace-class Dreadnought now automatically deploys shields after use if shields are on before using tactical system.
+↑ Keter's maximum burn level 7->8.
+↑ Divine Knowledge max cosmic speed 7->8, remove built-in AL Chained Upgrade, ordnance point budget 150->160.
+↑ Knowledge remove built-in AL Chained Upgrade, ordnance points 90->100, two small energy mounts changed to missiles.
+↑ Helper phase frigate flux capacity/dissipation 3000/350 -> 4500/300
+↑ Tactical System: Light Shatter Shift/Arc Light Shift can now be canceled with a second activation.
+↑ Tactical system: Supercomputing Pathway width 600 -> 800.
+
+↓ Reduced the frequency of loot ships appearing in the Spectre Nexus Fair.
+↓ Condemnation MIRV split distance 500->750, medium/large mount total ammo 12->9/ 27->24.
+↓ Rods from Cleaving fire no longer deals fire corrosion damage.

@@ -1,0 +1,38 @@
+{
+	"id":"AL_fluxtransferarray",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"originem.al.shipsystems.scripts.ai.AL_FluxTransferArrayAI",
+	"statsScript":"originem.al.shipsystems.scripts.AL_FluxTransferArrayStats",
+	"runScriptWhileIdle":true, 
+	
+	# handled in the script instead of here
+	#"jitterUnderColor":[90,165,255,155],
+	#"jitterUnderCopies":25,
+	#"jitterUnderMinRange":0,
+	#"jitterUnderRange":7,
+	#"jitterUnderRangeRadiusFraction":0,
+	
+	#"jitterColor":[90,165,255,55],
+	#"jitterCopies":3,
+	#"jitterMinRange":0,
+	#"jitterRange":0,
+	#"jitterRangeRadiusFraction":0,
+	
+	#"engineGlowColor":[255,175,125,255],
+	#"engineGlowContrailColor":[100,165,255,25],
+	#"engineGlowLengthMult":0.5,
+	#"engineGlowWidthMult":0.7,
+	#"engineGlowGlowMult":0.5,
+	
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"AL_fluxtransferarray_use",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

@@ -1,0 +1,12 @@
+{
+	"id":"AL_blastcountdown",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"originem.al.shipsystems.scripts.AL_BlastCountdownStats",
+	
+	"weaponGlowColor":[150,50,255,155],
+	"weaponTypes":[BALLISTIC,ENERGY,MISSILE],
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+}

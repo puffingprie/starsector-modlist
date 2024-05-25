@@ -1,0 +1,30 @@
+{
+	"id":"AL_spacetimeecho",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"originem.al.shipsystems.scripts.AL_SpaceTimeEchoStats",
+	
+	"jitterColor":[0,150,255,15],
+	"jitterCopies":0,
+	"jitterRange":0,
+	"jitterRangeRadiusFraction":0,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.5,
+	
+	"fadeActivationSoundOnChargedown":false,
+	
+	"useSound":"system_phase_teleporter",
+	"loopSound":"AL_spacetimeecho_loop",
+	"impactSound":"system_emp_emitter_impact",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":1000,
+		"threatAmount":10,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}

@@ -1,0 +1,46 @@
+{
+    "displayName": "标准",
+    "fluxCapacitors": 6,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "AL_granary_mk2",
+    "hullMods": [
+        "expanded_deck_crew",
+        "AL_filteredphasecoating"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_granary_mk2_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "AL_thunder_factory"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "AL_ruler_med",
+                "WS0005": "AL_ruler_med"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_defenderpd",
+                "WS0002": "AL_defenderpd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "AL_starflak_medium"}
+        }
+    ],
+    "wings": [
+        "AL_damocleser_wing",
+        "AL_damocleser_wing"
+    ]
+}

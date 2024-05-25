@@ -1,0 +1,4 @@
+id,name,short,desc,cost,isBonus,isGolden,spritePath,effectPlugin,extra1,extra2,source,tags
+AL_tongue_of_kukulcan,库库尔坎之舌,高层人士的嚼舌根,每个月，除了趋光议会，每个与你关系为中立及以上的势力都有 %s 的概率对你的好感度降低 %s ，且每触发一次，趋光议会对你的好感度降低 %s,2,FALSE,,graphics/icons/ungp/AL_tongue_of_kukulcan.png,originem.al.ungp.rules.AL_TongueOfKukulcan,太空歌剧中的诛心之言……,,趋光智人崇拜研究所 A.L.R.I.H.W,
+AL_eye_of_jormungand,耶梦加得之眼,超空间战士,在超空间时，我方舰队的实弹，能量武器射程及感应器强度提高 %s ，若是趋光战舰，加成幅度提高 %s,-1,TRUE,,graphics/icons/ungp/AL_eye_of_jormungand.png,originem.al.ungp.rules.AL_EyeOfJormungand,,,双蛇之目隐秘计划,
+AL_golden_scholar,AL Scholar,提高旗舰:学者的性能,若玩家旗舰为学者系列战舰，该舰船结构、装甲 + %s ，最高航速 +%s ，导弹伤害及对战列舰伤害 + %s,-4,TRUE,TRUE,graphics/icons/ungp/AL_golden_scholar.png,originem.al.ungp.rules.AL_GoldenScholar,对以下舰船生效:,,原初学者结社,

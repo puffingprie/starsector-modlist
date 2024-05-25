@@ -1,0 +1,55 @@
+{
+  "id": "AL_wildfirelhc",
+  "specClass": "projectile",
+  "projectileSpecId": "AL_wildfirelhc_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "originem.al.scripts.weapons.AL_WildFireEveryFrameScript",
+  "turretSprite": "graphics/weapons/AL_wildfire_lhc_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/AL_wildfire_lhc_turret_glow.png",
+  "turretGunSprite": "graphics/weapons/AL_wildfire_lhc_turret_gun.png",
+  "hardpointSprite": "graphics/weapons/AL_wildfire_lhc_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/AL_wildfire_lhc_hardpoint_glow.png",
+  "hardpointGunSprite": "graphics/weapons/AL_wildfire_lhc_hardpoint_gun.png",
+  "turretOffsets": [
+    36,
+    4,
+    36,
+    -4
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    39,
+    4,
+    39,
+    -4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "visualRecoil": 12,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 50,
+    "spread": 25,
+    "particleSizeMin": 4,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 50,
+    "particleColor": [
+      100,
+      255,
+      255,
+      150
+    ]
+  },
+  "fireSoundTwo": "AL_wildfirelhc_fire"
+}

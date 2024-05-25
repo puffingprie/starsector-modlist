@@ -1,0 +1,56 @@
+{
+  "id": "AL_lighter_large",
+  "specClass": "projectile",
+  "projectileSpecId": "AL_lighter_torp",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "displayArcRadius": 1000,
+  "turretSprite": "graphics/weapons/AL_lighter_large.png",
+  "hardpointSprite": "graphics/weapons/AL_lighter_large_hardpoint.png",
+  "turretOffsets": [
+    13,
+    -9,
+    13,
+    9,
+    16,
+    0
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    19,
+    -9,
+    19,
+    9,
+    23,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    -0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 24,
+    "cloudParticleCount": 10,
+    "cloudDuration": 2.5,
+    "cloudRadius": 12,
+    "blowbackParticleCount": 8,
+    "blowbackDuration": 2,
+    "blowbackLength": 18,
+    "blowbackSpread": 10,
+    "particleColor": [
+      150,
+      73,
+      191,
+      120
+    ]
+  },
+  "fireSoundTwo": "AL_lighter_launch"
+}

@@ -1,0 +1,27 @@
+{
+  "variantId": "AL_respector_Fighter",
+  "hullId": "AL_respector",
+  "displayName": "Heavy Support Fighter",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "no_weapon_flux",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "AL_explodebeam",
+        "WS0002": "AL_defenderpd",
+        "WS0003": "AL_defenderpd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

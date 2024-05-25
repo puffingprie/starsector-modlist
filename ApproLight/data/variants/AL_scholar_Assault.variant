@@ -1,0 +1,48 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 18,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "AL_scholar",
+    "hullMods": [
+        "fluxbreakers",
+        "AL_glittertargetingcore",
+        "AL_chainedmod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_scholar_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "AL_spiderlaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "AL_lighter_hidden",
+                "WS0006": "AL_lighter_hidden",
+                "WS0013": "AL_lighter_hidden",
+                "WS0014": "AL_lighter_hidden"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "AL_railgun",
+                "WS0008": "AL_railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "vulcan",
+                "WS0012": "vulcan"
+            }
+        }
+    ]
+}

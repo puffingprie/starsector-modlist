@@ -1,0 +1,13 @@
+{
+#趋光议会mod设置#
+#使用Lunalib可以在游戏内动态设置
+#以下设置需要重新开档才能生效
+"showPlanetNameInChinese" : false, # 用中文显示星球名字
+"showPlanetNameOnlyInChinese" : true, # 只用中文显示星球名字,如果为false的话格式就是“中文名(英文名)”，true的话就是“中文名”。如果上一选项为false,这一选项无效
+#以下设置即时生效
+"enableShader" : true, # 打开一些额外光效:光晕、维度差、二位氢炉，建议使用兼容OpenGL 3.0及以上的显卡
+"AL_BOC_encounterRateMultiplier" : 1.0, # 默认: 1.0 断罪之剑产生舰队攻击永光之锋的频率系数
+"AL_IL_spawnRateMultiplier" : 1.0, # 默认: 1.0 永光之锋生成频率系数
+"AL_IL_baseShipCount" : 10, # 默认: 10 永光之锋生成舰船基础数量
+"AL_IL_difficultyMultiplier" : 1.0, # 默认: 1.0 永光之锋难度提升速率
+}

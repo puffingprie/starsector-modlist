@@ -1,0 +1,26 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 10,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "AL_penciller",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_penciller_missile",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "amblaster",
+                "WS0003": "amblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "heavyneedler"}
+        }
+    ]
+}

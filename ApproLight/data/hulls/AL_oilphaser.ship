@@ -1,0 +1,177 @@
+{
+  "hullName": "AL_oilphaser",
+  "hullId": "AL_oilphaser",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/phase/AL_oilphaser.png",
+  "style": "APPRO_TECH",
+  "height": 244,
+  "width": 191,
+  "center": [103, 117],
+  "collisionRadius": 143.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 142.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phasefield",
+    "shielded_holds",
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 189.140976,
+      "angle": 70.820992,
+      "locations": [46, 36]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 189.140976,
+      "angle": 90,
+      "locations": [21, 36]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 264.547394,
+      "angle": 165.96376,
+      "locations": [-103, 37]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 189.140976,
+      "angle": 0,
+      "locations": [-8, 30]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 189.140976,
+      "angle": -50.194428,
+      "locations": [23, -38]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 189.140976,
+      "angle": -135,
+      "locations": [-48, -39]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 189.140976,
+      "angle": 180,
+      "locations": [-34, 30]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-11, 79.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-33, 79.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-83, 56.5],
+      "length": 20.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-73.5, -8],
+      "length": 49.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-57, 9.5],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-92, -20.5],
+      "length": 49,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-53.5, -33.5],
+      "length": 25,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-102, -41.5],
+      "length": 18.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-41.5, -74.5],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "APPRO_ENGINE"
+    }
+  ],
+  "bounds": [
+    29, 16.5,
+    -3.5, -15,
+    6, -27.5,
+    72, -36,
+    54.5, -53,
+    -29, -79,
+    -106.5, -28.5,
+    -52, 10,
+    -104, 25.5,
+    -118, 29,
+    -106.5, 45,
+    -48.5, 71,
+    1.5, 77,
+    83, 47.5,
+    117, 25
+  ]
+}

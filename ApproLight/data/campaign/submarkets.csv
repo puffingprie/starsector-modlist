@@ -1,0 +1,7 @@
+id,name,faction,desc,script,icon,order
+AL_militaryMarket,S. Nexus Fair,,"Trade with the leaders of Appro-Light's Spectre Nexus organization, selling their spoils of war: a mix of various ships and equipment from hostile factions as well as Appro-Light's own doctrine.
+
+Weapons and goods can be traded here, even if they are illegal on the open market. Having a commission and/or a better relationship with $theFaction will allow you to buy and sell more items. 
+Local illegal goods will be acquired as part of a no-questions-asked buyback program. 
+
+This market is only open for seven days at a time, and will not reopen for another seven days after closing.",originem.al.scripts.campaign.submarkets.AL_MilitarySubmarketPlugin,graphics/factions/spectre_nexus_market.png,100

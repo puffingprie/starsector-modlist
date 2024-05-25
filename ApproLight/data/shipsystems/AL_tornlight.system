@@ -1,0 +1,25 @@
+{
+	"id":"AL_tornlight",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE_TOGGLE",
+	
+	"statsScript":"originem.al.shipsystems.scripts.AL_TornLightStats",
+	
+	"engineGlowColor":[180,80,255,255],
+	"engineGlowContrailColor":[100,50,255,10],
+	"engineGlowLengthMult":3,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":2,
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	"useSound":"AL_tornlight_use",
+	"loopSound":"AL_tornlight_loop",
+	"deactivateSound":"AL_tornlight_end",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":100,
+	}
+}

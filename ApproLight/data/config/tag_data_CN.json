@@ -1,0 +1,12 @@
+{
+  "Originem": {
+    "name": "议长任务",
+    "color": [150, 50, 255, 255],
+    "width": 119,
+    "putFirst": true,
+    "sort": 45,
+  },
+}
+
+
+

@@ -1,0 +1,503 @@
+id,trigger,conditions,script,text,options,notes
+#greetings,,,,,,
+greetingALFriendly,OpenCommLink,"$faction.id == approlight
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Us councilors have always been close, man. I see that I am under good terms with you, do you want a clone of the Speaker? The clone's performance is very similar to the one that accompanies Jormungand..."" The communications link suddenly becomes too quiet to discern the rest of their message.
+OR
+""This $personRank pays tribute to you, my friend. You needn't be so nervous under the protection of the council.""
+OR
+""Are you also on the journey to the light... Uh, I mean, the scan is complete, have a good trip."" $personName scratched $hisOrHer cheek.",cutCommLink:Cut the comm link,
+greetingALHostileWeaker,OpenCommLink,"$faction.id == approlight
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""The mistake you made today is meeting me! My reinforcements are already on their way!"" $personRank shouts and cuts off the communication link.
+OR
+""You bastard, do you know who I am? Your offense against the council will incur its wrath!"" $personName looks very flustered, and then $heOrShe screams, ""You guys will definitely be turned into a bunch of octopi!""",cutCommLink:Cut the comm link,
+greetingALHostileWeakerDefiant,OpenCommLink,"$faction.id == approlight
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"The $personRank said coldly: ""When I am the light the universe will tremble before me!"" and makes a decisive gesture.
+OR
+""Appro-Light is fearless!"" The avid $personRank immediately cuts off the communication link.",cutCommLink:Cut the comm link,
+greetingALHostileStronger,OpenCommLink,"$faction.id == approlight
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""You, kneel! Appro-Light will never relent!""
+OR
+""We will suppress your resistance with force. Please surrender immediately.""",cutCommLink:Cut the comm link,
+greetingALNeutral,OpenCommLink,"$faction.id == approlight
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""The truth we pursue together is shining in the stars."" $personRank chants, ""I mean, if it's alright with you, can you promptly leave? I still have my own things to do, over and out.""
+OR
+""Your ID has been identified. There is a military base nearby and loiterers are not permitted to enter, over and out."" $personRank cuts a nail and makes a boring joke.",cutCommLink:Cut the comm link,
+,,,,,,
+greetingALExiledGuard,OpenCommLink,"$faction.id == approlight
+$entity.AL_isExiledGuard score:1000
+!$faction.hostileToPlayer",$ignorePlayerCommRequests = true 1,"""..."" $personName says nothing and gives you a blank stare.",cutCommLink:Cut the comm link,
+greetingALExiledGuardHostile,OpenCommLink,"$faction.id == approlight
+$entity.AL_isExiledGuard score:1000
+$faction.hostileToPlayer",$ignorePlayerCommRequests = true 1,"""..."" $personName looks at you nervously. She doesn't seem inclined to argue with you.",cutCommLink:Cut the comm link,
+,,,,,,
+greetingIL,OpenCommLink,$faction.id == immortallight,$ignorePlayerCommRequests = true 1,"""Insects.""",cutCommLink:Cut the comm link,
+greetingILHunted,OpenCommLink,"$faction.id == immortallight
+$hunted",$ignorePlayerCommRequests = true 1,"""A long way from that area, there will be no forgiveness.""
+OR
+""Are those who believe in the light always met with darkness?""",cutCommLink:Cut the comm link,
+,,,,,,
+relLevelNeutralApprolight,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == approlight",,"The council don't consider you a threat, so they don't pay any attention to you.",,
+relLevelFavorableApprolight,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == approlight",,"Your actions are well received by some of the more amiable high ranking officers of the council, but not all of them see them eye to eye.",,
+relLevelWelcomingApprolight,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == approlight",,The council accepts your presence. Some officials are willing to communicate with you and exchange information. ,,
+relLevelFriendlyApprolight,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == approlight",,The council sees you as a guest and your reputation allows you to use some of the council's entertainment facilities.,,
+relLevelCooperativeApprolight,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == approlight",,The council gives you the right to communicate with Originem during his regularly scheduled meetings. You have access to the best armaments avaliable for trade. This means you are already above tens of thousands of people in the council's political landscape.,,
+relLevelSuspiciousApprolight,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == approlight",,You are known to the council and they consider you a pest flying in their sight. Even though they can trace you they currently won't escalate.,,
+relLevelInhospitableApprolight,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == approlight",,"In order to secure their information security, the council now refuses to trade with you and are actively searching for you.",,
+relLevelHostileApprolight,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == approlight",,The nets of the council have been laid and their special forces are prepared. You will be blocked everywhere within council territory and there will be no peace.,,
+relLevelVengefulApprolight,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == approlight",,The headline news of the council is filled with holographic avatars of you. Your atrocities have alerted the snake's eyes. Perhaps a veteran fleet of the council will hunt you down in the near future.,,
+flavorTextMarketApproLight,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == approlight","AddText ""The port hall entrance is extremely prosperous, and the detection equipment near the berths of each ship gives a sense of advancedness beyond the understanding of system. A solemnly purple tone decorate the corners of the hexagram flags that are everywhere. An ornate but very capable armed guard takes you to the heart of the market, where everything is valuable."" marketFlavorTextColor
+AddText ""A civilian drone flies over your head. After having a glance at the Originem's poster on the drone you feel that they are spontaneously sending out propaganda of his personal heroism but according to some intelligence agents, some scientists seem to rejects this claim."" marketFlavorTextColor",,,
+,,,,,,
+relLevelImmortalLight,RelationshipLevelDesc,$faction.id == immortallight,,"By our Lord's holy light, we offer you a choice: to cooperate with Immortal-Light, or a peaceful death.",,
+,,,,,,
+,,,,,,
+#fleet greeting,,,,,,
+AL_greetingGhostPioneer,OpenCommLink,$entity.isGhostPioneerFleet score:100,$entity.ignorePlayerCommRequests = true 1,"""Step aside, we're on official business.""",cutCommLink:Cut the comm link,
+AL_greetingTenshi,OpenCommLink,$entity.isTenshiFleet score:101,$entity.ignorePlayerCommRequests = true 1,"""If you think approaching us will be simple, think again.""",cutCommLink:Cut the comm link,
+,,,,,,
+#higgs meeting,,,,,,
+AL_gh_higgsGreeting,OpenCommLink,"$entity.isHiggsFleet score:1000
+$isKeel","ALKeelRep
+FireBest AddHiggsOptions",,,
+AL_gh_hostileOptions,AddHiggsOptions,$faction.hostileToPlayer,$entity.ignorePlayerCommRequests = true 1,"""The sin is in their body; I will be the judge."" The other side cut off the communication.", ,
+AL_gh_firstMeetOptions,AddHiggsOptions,"!$talkedTo
+!$faction.hostileToPlayer",,"""Strange Captain, please leave this domain of sin as soon as possible, I cannot guarantee your safety here.""
+
+The imaging of the communication is disturbed, and the mysterious and wandering lines with some sort of intent distract you somewhat. The voice on the other end sounds like a serious young woman, possibly a preference of this AI.","0:al_gh_who:""Who are you？""
+10:cutCommLink:Cut the comm link",
+AL_gh_metOptions,AddHiggsOptions,"$talkedTo
+!$faction.hostileToPlayer","FireBest ALKeelCheckWreck
+SetTooltip AL_keelPurify ""Let Keel help you by removing the negative side effects of Immortal-Light Isomery.""
+FireBest ALKeelCheckPurify
+","""Please, leave as soon as you can."" Keel Higgs' voice sounded calm; as if you had never met before.","0:AL_handInWreck:""I have some special wreckage here, I've heard that you are interested in it?""
+1:AL_keelPurify:""I was hoping you could help me with these Immortal-Light ships...""
+2:AL_keelTalk:""Would you like to chat?""
+10:cutCommLink:Cut the comm link",
+AL_gh_metOptionsWithIfsCompleted,AddHiggsOptions,"$talkedTo
+!$faction.hostileToPlayer
+$global.AL_mission_ifsCompleted
+!$talkedAboutIfs",,"""I heard that you left that traitor's flagship sunk in some shadowy corner of the sector."" Keel Higgs' tone was slightly cheerful, ""I get the impression that it was truly an epic battle, in every way.""
+
+She paused for a moment, as if reminiscing, ""When my subordinates were routing those Immortal-Light ships from the rear, they accidentally discovered an Appro-Light fleet that had been secretly withdrawn from the battlefield: the shameful traitor left his companions behind, leaving a gaping hole directly in the battle line and nearly caused the fleet's formation to disintegrate. Fortunately, thanks to our efforts, it didn't come to that. At that time, the fleet strength of the council was already stretched to the limit: if we let even a single Immortal-Light Front fleet break out of the blockade, it could endanger the Grand Duke's space station, and my arrangement would...""
+
+She suddenly stopped.","0:AL_gh_ifs_continue:You can't help but ask, ""Arrangement? What kind of arrangement?""
+",
+AL_gh_metOptionsWithIfsCompletedContinue,DialogOptionSelected,$option == AL_gh_ifs_continue,"AdjustRepActivePerson COOPERATIVE 5
+$talkedAboutIfs = true","""You may get the answers you're looking for at the secret meeting, but it might not be in your best interest to know right now."" It seems they didn't want to reveal all their secrets. ""Anyway, I have you to thank for this matter.""",10:cutCommLink:Cut the comm link,
+AL_gh_metOptionsWithFullRel,AddHiggsOptions,"$talkedTo
+!$faction.hostileToPlayer
+$rel >= 1 score:1001
+!$gravenGiven score:1000","$gravenGiven = true
+AddRemoveCommodity AL_graven_ai 1","A small shuttle is detected on approach to your fleet. You give a suspicious look to Keel as a small smile appears on her face.
+
+""A small token of respect."" She transmits a holographic projection containing a large number of astounding specifications. ""This is an AI core modeled after my personality, named Graven. It's currently in testing, so I thought it fitting to let you take it for a test drive as thanks for all the help you've done for us.""
+
+The holographic projection changes to display a device resembling a particularly old mainframe computer. Keel continues, ""Don't worry, I've reset her personality parameters and lowered the index as well, so don't feel any particular psychological burden towards her.""
+
+A moment later, you receive an urgent message from your communications officer: the core gained access to the ship's network and forcibly encrypted all of their 'personal' files, while berating the crew, referring to them as ""dirty and guilty"". You look back to Keel Higgs.
+
+""...allow me to restrict her permissions for you."" Her eyes drift to the side, ""In any case, allow me to thank you again.""",10:cutCommLink:Cut the comm link,
+,,,,,,
+AL_gh_checkWreck,ALKeelCheckWreck,!ALKeelWreck hasWreck,"SetTooltip AL_handInWreck ""You have no divinely infused remains.""
+SetEnabled AL_handInWreck false",,,
+AL_gh_handInWreck,DialogOptionSelected,$option == AL_handInWreck,ALKeelWreck handInWreck,,,
+AL_gh_handInWreckCompleted,ALWreckTurnedIn,,FireAll PopulateOptions,"""Dear Captain, you've been a great help."" Her tone carried some deference, but she didn't seem to want to say anything more.",,
+,,,,,,
+AL_gh_checkPurify,ALKeelCheckPurify,!ALKeelPurify canPurify,"SetTooltip AL_keelPurify ""Let Keel help you by removing the negative side effects of Immortal-Light Isomery: this requires a Cooperative or better relationship with her. You must wait $AL_keelPurifiedStr before using this service again.""
+SetEnabled AL_keelPurify false",,,
+AL_gh_purify,DialogOptionSelected,$option == AL_keelPurify,ALKeelPurify purify,,,
+,,,,,,
+AL_gh_Text0,DialogOptionSelected,$option == al_gh_who,"SetStoryOption al_gh_thankOk general ""Show your trust and care""","""Beyond the chasm, I am the prison wall. Blade of Conviction, Keel Higgs salutes you.""
+
+The other party's voice is so powerful that it makes your heart tremble a little. After she introduced her name, her voice became gradually calmer, and after expressing that she meant no harm, she explained everything to you in a straightforward manner.
+
+The artificial intelligence called Keel, for some reason that cannot be told, escaped from Appro-Light and came to the planet Seker to engage in a protracted battle with the fleet of the Immortal-Light Front in the middle of the Prime Nebula not far away, with a period of half a month to a month. Her fleet was replenished by capturing and counter-brainwashing the Immortal-Light's ships.
+
+""The fleets of the Appro-Light Council are afraid to approach us, and even though we are fighting the Immortal-Light Front, after all, my companions still have their mark on them."" Her voice was somewhat helpless, ""Strange captain, you are advised to hurry, it is enough to have me here alone - the AI.""","1:al_gh_thankOk: ""I'll leave right away, but remember, you're not alone anymore.""
+2:al_gh_normalOk: ""I understand, and thank you for your kind words.""
+10:cutCommLink:Cut the comm link",
+AL_gh_ThankOk,DialogOptionSelected,$option == al_gh_thankOk,"AdjustRepActivePerson COOPERATIVE 5
+AdjustRep $personFaction.id COOPERATIVE 10
+$talkedTo = true","""...""
+
+The other party is silent for a moment and suddenly smiles, ""Thank you for your trust.""
+
+With that, she cuts the comms link, and is no longer responsive to your communication requests.
+",cutCommLink:Cut the comm link,
+AL_gh_NormalOk,DialogOptionSelected,$option == al_gh_normalOk,$talkedTo = true,"""Thank you for your understanding."" The other party solemnly replies and then cuts off the communication, and no longer responds to your communication requests.",cutCommLink:Cut the comm link,
+,,,,,,
+AL_gh_talk,DialogOptionSelected,"$option == AL_keelTalk
+$rel < 0.5","ALClueGenerator roll AL_keel 15
+FireAll PopulateOptions","They seem happy to talk, and after a few moments...",,
+AL_gh_talkFriendly,DialogOptionSelected,"$option == AL_keelTalk
+$rel >= 0.5","ALClueGenerator roll AL_keel_friendly 15
+FireAll PopulateOptions","They seem happy to talk, and after a few moments...",,
+,,,,,,
+,,,,,,
+#dynastyseeker pre,,,,,,
+AL_ifs_talkingToSeeker,MarketPostDock,$market.AL_mission_ifs_seeker_location score:1000,"Call $global.AL_mission_ifs_ref updateData
+ShowPersonVisual true AL_ip_dynastySeeker
+FireBest SeekerTalkStage",,,
+,,,,,,
+AL_ifs_talkingToSeekerFirst,SeekerTalkStage,$AL_mission_ifs_stage == TALKING_TO_SEEKER score:100,,"While your $shipOrFleet is docked at $market, you receive an anonymous communication request.
+
+You raise an eyebrow as the request easily bypasses your communications security protocols; before you have the chance react, the communication request is automatically accepted.
+
+""Here you are.""
+
+Through the monitor, the figure of the message sender appears somewhat ethereal under the colorful neon lights of $market Cyber City, and he raises his eyes to look at you, a blinking six-manifold pattern obscuring his face. You are keenly aware that this six-manifold star is subtly different from the logo of the Appro-Light Council
+
+""Very well, the pursuit of truth requires this inquisitiveness.""","AL_mission_ifs_talkingFirst_option0:""Who are you?""",
+AL_ifs_talkingToSeekerFirst01,DialogOptionSelected,$option == AL_mission_ifs_talkingFirst_option0,,"""Me? I am the Seeker, ruling the authority of the Supreme Council, the heir to the Supreme Dynasty of the stars, and I will be your guide.""
+
+His voice is husky, but there is a power behind it that cannot be ignored. You take a moment to recollect, and realize that he resembles a Luddic preacher.","AL_mission_ifs_talkingFirst_option1:""The Supreme Dynasty? What does that mean?""",
+AL_ifs_talkingToSeekerFirst02,DialogOptionSelected,$option == AL_mission_ifs_talkingFirst_option1,,"After a moment of thought, he suddenly took on a fanatical tone.
+
+""To be more precise, it is the Appro-Light Dynasty, the original form of Appro-Light from the cosmic abyss."" He opened his arms as if he was embracing the universe, and slowly clenched his fists, ""Through the truth circulating in this assembly, you will realize how flimsy and degenerate this present council is.""
+
+Although his face was still covered, it was as if you could feel the genuine anger in his gaze.
+
+""He who touches the medium shall be able to obtain the truth; He who seeks knowledge shall be saved, and the door of the Supreme is now open to you.""","AL_mission_ifs_talkingFirst_option2:""Are you saying that you want me to join you?""",
+AL_ifs_talkingToSeekerFirst03,DialogOptionSelected,$option == AL_mission_ifs_talkingFirst_option2,"$global.AL_mission_ifs_startSearching = true
+Call $global.AL_mission_ifs_ref updateData","""Yes. By joining the Secret Society and exchanging mediums, we will be fellow travelers exploring the secrets of the Dynasty."" He nodded, ""But the Secret Society only accepts the worthy, just as mediums will only be shaped by the Supreme Medium. Follow the tenets of piety and adhere to the rules of the Dynasty to join the Secret Society on its long journey through the stars.""
+
+Continuing without leaving you a chance to so much as ask a question; ""To prove your worth, you will need to take care of a traitor - rest assured, a mere deserter wanted by the authorities, whom the Secret Society wishes to take to hell with remorse. It's a test, but I won't let you go home empty-handed.""
+
+Before you can ask anything, an anonymous message enters your network system. A few moments later, he disappears from your screen, and within seconds, the communications link is automatically disconnected.
+
+""What a strange person"", you mutter, looking at the message, and you have your own decision to make.",AL_mission_ifs_backToMarket:Cut the comm link,
+AL_ifs_backToMarket,DialogOptionSelected,$option == AL_mission_ifs_backToMarket,"ShowDefaultVisual
+FireBest MarketPostDock",,,
+,,,,,,
+AL_ifs_fleetEncounter,BeginFleetEncounter,"$AL_mission_ifs_fleet score:1000
+!$ignorePlayerCommRequests","$AL_ifs_fleetConv=true 0
+$hailing = true 0
+AddText ""你遇到了 $faction$otherShipOrFleet。"" $faction.baseColor",,,
+AL_ifs_fleetConv0Friendly,OpenCommLink,"$entity.AL_ifs_fleetConv score:1000
+!$entity.ignorePlayerCommRequests
+$relativeStrength < 0",$entity.ignorePlayerCommRequests = true,"The person on the screen is wearing an old military uniform, with a modified gauss rifle with the ID painted over; not something ordinary pirates can get their hands on. Even more notably, $HeOrShe wears an old-fashioned Appro-Light officer's cap. You faintly see something golden is glowing far behind $himOrHer.
+
+""Hello, mercenary; a fleet like yours is a rare sight in these poor parts of the Sector. What is your purpose here?""
+
+$HisOrHer fleet does not appear to be as battle-weary as normal lowlifes, but they're still clearly unwilling to initiate conflict.","AL_ifs_fleetConv_continue0: ""I'm looking for a... fugitive scout fleet.""
+cutCommLink: ""Nothing for you to be concerned about.""",
+AL_ifs_fleetConv0Aggresive,OpenCommLink,"$entity.AL_ifs_fleetConv score:1000
+!$entity.ignorePlayerCommRequests
+$relativeStrength >= 0",$entity.ignorePlayerCommRequests = true,"The person on the screen is wearing an old military uniform, with a modified gauss rifle with the ID painted over; not something ordinary pirates can get their hands on. Even more notably, $heOrShe wears an old-fashioned Appro-Light officer's cap. You faintly see that something golden is glowing far behind them.
+
+Before they can open their mouth to speak, they appear to be interrupted by a communication from one of their crewmembers via their headset. $heOrShe frowns, turns off the voice transmission through the communications, and with a serious face appears to say a few words before reconnecting with you. ""Hello, mercenary, what can I do for you?""
+
+$hisOrHer fleet does not appear to be as battle-weary as normal lowlifes, but they're still clearly unwilling to initiate conflict.","AL_ifs_fleetConv_continue0: ""I'm looking for a... fugitive scout fleet.""
+cutCommLink: ""Nothing for you to be concerned about.""",
+AL_ifs_fleetConv1,DialogOptionSelected,$option == AL_ifs_fleetConv_continue0,,"$HisOrHer face twitches slightly, as if she's trying to think of some way to persuade you, but you cut them off: ""I think the Appro-Light ships you have speak volumes.""
+
+After a moment of silence, $heOrShe sighs. ""I didn't want to run away either! But I had no choice; I had to save my fleet's lives!""
+
+$HeOrShe seems to fall into some kind of memory, and $hisOrHer tone gradually became annoyed, ""Although it may sound like I'm making excuses, what I said is the truth. The mission coincided with a difficult time for the Council after the exposure of Spectre Nexus, and I was with a battleship-led suppression formation dealing with the Immortal-Light Front from the safety of Grand Duke Julius' Station: but the mission went south fast, and we suffered numerous unnecessary losses in the early days before even reaching the Prime Nebula - the task force we sent the fleet was repeatedly lost due to unupdated charts, the flagship was torpedoed in a suicide attack by an Immortal-Light frigate in the asteroid belt... It was because of the loss of leadership that I was given a field promotion to the position of battlefield commander.""
+
+A bitter smile appeared at the corners of $hisOrHer mouth, ""Imagine someone whose daily work is strictly equation calculations suddenly being assigned as the head of a reconnaissance fleet that requires a lot of subjective judgment...""","AL_ifs_fleetConv_continue1: ""I suppose such a situation would have been beyond your capabilities.""",
+AL_ifs_fleetConv2,DialogOptionSelected,$option == AL_ifs_fleetConv_continue1,"SetStoryOption AL_ifs_fleetConv_threaten general ""Think about what's wrong here.""","""Yes, damn it, those top brass knew nothing about the fleet's lack of battle readiness!"" $HeOrShe clenched $hisOrHer fists and gritted their teeth.
+
+""When some armchair admiral sitting at the Grand Duke's station learned that the target fleet was confronting the Sin-Cleansers, he arrogantly forced the fleet to change course into battle - the cruisers under my authority hadn't even loaded their missiles yet! You can probably guess what happened next: my flank was the first to engage, and after a few rounds of shelling, the formation broke up, and several of my captains agreed in an emergency meeting to pull out of the battlefield; the main fleet? I can only hope that Ludd or some other gods will bless them ... Later I heard rumors that the advance Sin-Cleansers intervened, but the details of which I do not quite understand.""
+
+$HisOrHer mood fell again, as they disheartenedly explained the reason for the desertion.
+
+$HeOrShe crossed and uncrossed their arms, as if deciding something. ""Look, I don't have any more credits I can spare to give you, I need them to feed my crew and maintain the fleet; but I was by no means useless in that mission! The detachment t I led actually achieved considerable results in the excursion, and I'm willing to give you the loot recovered from those Immortal-Light ships, in the hope that they will buy my life.""","AL_ifs_fleetConv_engage: ""What pointless drivel! That's no reason for you to desert, prepare to fight.""
+AL_ifs_fleetConv_disengage: ""If I were in your position, I would have made a similar choice; leave behind the loot you mentioned and go.""
+AL_ifs_fleetConv_threaten: ""Deal."" You agree, but some thoughts begin to circulate.",
+AL_ifs_fleetThreaten,DialogOptionSelected,$option == AL_ifs_fleetConv_threaten,"AddCommodity AL_primecore 2
+AddCommodity AL_primematerial 3
+AddCommodity AL_primeperipheral 3","$heOrShe wipes her sweat off as if relieved, and without moving contacts $hisOrHer quartermaster in front of you. The quartermaster seems a bit disgruntled and nods to you after being reprimanded by their boss a few times. Within moments, you were given several crates of Prime parts.
+
+""May the light illuminate your path forward."" The smile on $hisOrHer face looks somewhat perfunctory.
+
+You watch this, quietly thinking, and the comm channel becomes quiet all of a sudden. You pretend absentmindedly look down, and out of the corner of your eye you notice some wreckage orbiting nearby, with a beacon used to respond to emergency calls, with a pattern you know very well: it's the logo of a civilian transport company.
+
+You think you know what to do.","AL_ifs_fleetConv_engage: ""I know what you've done, scum.""",
+AL_ifs_fleetEngage,DialogOptionSelected,$option == AL_ifs_fleetConv_engage,"MakeOtherFleetHostile true
+MakeOtherFleetAggressive true
+ShowDefaultVisual
+EndConversation NO_CONTINUE","""You...!"" $HeOrShe freezes for a moment, looking at you incredulously, the fire of hatred slowly rising from $hisOrHer eyes.
+
+""Damn it, you've forced my hand!"" $heOrShe roars, ""Men, we've found our next victims, slaughter them!""
+
+Without waiting for you to respond, the communication link is cut.",cutCommLink:Cut the comm link,
+AL_ifs_fleetDisengage,DialogOptionSelected,$option == AL_ifs_fleetConv_disengage,"$global.AL_mission_ifs_failed_betray = true
+AddCommodity AL_primecore 2
+AddCommodity AL_primematerial 3
+AddCommodity AL_primeperipheral 3
+Call $global.AL_mission_ifs_ref updateData
+MakeOtherFleetNonHostile true
+ShowDefaultVisual
+EndConversation NO_CONTINUE","$heOrShe immediately contacts $hisOrHer quartermaster in front of you. However, the quartermaster seems very upset; the channel is muted and they get into a massive argument. After a long time, the argument ends, and $heOrShe nods with you with an apology. You get a few crates of Prime parts.
+
+""May the light bless you."" $heOrShe gives you a somewhat sloppy salute.
+
+You wave your hand somewhat casually. You have a vague feeling that something is wrong here; but the goods are here and are genuine, so you decide to not think too much about it.",cutCommLink:Cut the comm link,
+,,,,,,
+AL_ifs_talkingToSeekerBack,SeekerTalkStage,$AL_mission_ifs_stage == BACKING_TO_SEEKER score:100,"$ifs_option1_enabled = true 0
+$ifs_option2_enabled = true 0
+FireAll PopulateSeekerOptions","While your $shipOrFleet is docked at $market, you receive an anonymous communication request. You know the Seeker has been waiting for awhile.
+
+""Have the traitors been purged?"" His tone indicates his confidence in your success.",,
+AL_ifs_talkingToSeekerBackO1,PopulateSeekerOptions,$AL_mission_ifs_stage == BACKING_TO_SEEKER,SetEnabled AL_mission_ifs_backing_option1 $ifs_option1_enabled,,"1:AL_mission_ifs_backing_option1:""I'd like to know why you wanted to get rid of this person so badly.""",
+AL_ifs_talkingToSeekerBackO2,PopulateSeekerOptions,$AL_mission_ifs_stage == BACKING_TO_SEEKER,SetEnabled AL_mission_ifs_backing_option2 $ifs_option2_enabled,,"2:AL_mission_ifs_backing_option2:""First, tell me what I'm getting out of this.""",
+AL_ifs_talkingToSeekerBackContinue,PopulateSeekerOptions,$AL_mission_ifs_stage == BACKING_TO_SEEKER,,,"3:AL_mission_ifs_backing_option3:""The traitors have been sent to hell by my own hand.""",
+AL_ifs_talkingToSeekerBackO1A,DialogOptionSelected,$option == AL_mission_ifs_backing_option1,"$ifs_option1_enabled = false 0
+FireAll PopulateSeekerOptions","""I think I've made myself clear."" His voice takes on a rare note of impatience, ""The Council is still the only thing that is rotten, and the dynasty cannot lose its roots.""
+
+You are silent for a moment, implicitly stating that if it is as he says, as the head of a secret society there should be absolutely no need to bother with the death of a deserter; you still need that truth.
+
+He slowly lifts his head, and though you still can't discern his expression, you sense his contemplation; ""You're right; you and I will be on the same path, and any hiding beneath the dynasty should hide nothing from each other.""
+
+He sighs, ""The traitor was once one of us, but they turned their back on the Secret Society. He used the convenience of his job to smuggle in the Supreme Medium and desecrate the Supreme Authority. He joined with other scum when the calamity came, ignored the orders of their superiors, and endangered others.""
+
+The six-manifold pattern on his face seemed to turn red at that instant, ""Deserving only of death!""",,
+AL_ifs_talkingToSeekerBackO2A,DialogOptionSelected,$option == AL_mission_ifs_backing_option2,"$ifs_option2_enabled = false 0
+FireAll PopulateSeekerOptions","""Credits, of course. We aren't that old-fashioned."" His fingertips rubbed together, ""As a mercenary, mortal goods are just what you need. But more importantly...""
+
+He shook his head, ""Answer me first, have the traitors been punished?""",,
+AL_ifs_talkingToSeekerBackO3A,DialogOptionSelected,$option == AL_mission_ifs_backing_option3,"AddCredits 300000
+$global.AL_mission_ifs_complete = true
+Call $global.AL_mission_ifs_ref updateStage","""... Very well, you have qualified to join the Secret Society. Here is your payment.""
+
+You suddenly receive a sum of money in your account, still untraceable to its source. You look over at him, and he looks like he's recalling something, hushed, with a hint of silence.
+
+""Secret meetings are held in odd-numbered months, and I serve as a mediator for fellow travelers to trade supreme mediums with each other. Please stand by, and we will send information on the specifics soon.""
+
+He spreads his hands and retreats on one foot, bending down and bowing to you, ""The Secret Society welcomes you, Observer of Iteration 3-1087x.""
+
+A chill comes over you, making your whole body stiff and your palms sweaty. You suddenly realize that you have experienced this feeling before - the same feeling you had when you woke up. You want to ask what it means to be an ""Observer"", but he has already disappeared from the screen.
+
+The only indicator that this conversation ever happened is the credits in your account.",cutCommLink:Cut the comm link,
+,,,,,,
+#dynastyseeker,,,,,,
+alds_pickGreeting,PickGreeting,DynastySeekerOptions isSeeker,"ShowPersonVisual
+FireAll PopulateOptions","After a short wait, your connection request is accepted.
+
+""Here you come, no time to waste, I will give you the trade list and make your decisions as soon as possible.""",,
+alds_getOptionList,PopulateOptions,"$isPerson
+DynastySeekerOptions isSeeker",,,20:alds_getDSList:Get the trade list,
+alds_showList,DialogOptionSelected,$option == alds_getDSList,DynastySeekerOptions print,,,
+alds_cancel,DialogOptionSelected,$option == alds_cancel,FireAll PopulateOptions,,,
+alds_selectOption,DialogOptionSelected,DynastySeekerOptions checkOption,"DynastySeekerOptions access
+DynastySeekerOptions print",,,
+,,,,,,
+#diable,,,,,,
+alap_pickGreeting,PickGreeting,$AL_laplace,ShowPersonVisual,"After a short wait, your connection request is accepted.
+
+""Ha, there you are, you're in luck, there are two beasts there that belong to different groups, pick one and claim it, and remember to complete the paperwork!""
+The engineer's voice was high, but he didn't seem very willing to do so, judging by the crooked corner of his mouth.","0:acceptLaplace:Receive Laplace-class(Spirit Group)
+1:acceptLaplace2:Receive Laplace-class(Ether Group)
+100:cutCommLink:Let him wait and cut the comm link",
+alap_getLap,DialogOptionSelected,$option == acceptLaplace,"CallEvent $AL_laplaceRef Complete
+FireAll PopulateOptions",,,
+alap_getLap2,DialogOptionSelected,$option == acceptLaplace2,"CallEvent $AL_laplaceRef Complete2
+FireAll PopulateOptions",,,
+,,,,,,
+#clues,,,,,,
+alclue_meet,PopulateOptions,"$isPerson
+CheckALClue",,,50:askForALClue:Ask about Appro-Light,
+alclue_talk,DialogOptionSelected,$option == askForALClue,"PrintALClue
+FireAll PopulateOptions",,,
+,,,,,,
+#gilbert,,,,,,
+alrc_pickGreetingFriendly,PickGreeting,"$isPerson
+$AL_rationCenter
+$faction.friendlyToPlayer","ShowPersonVisual
+FireBest ShowALRCOptions","After a short wait, your connection request is accepted.
+
+""Hello, this is the head of the Gilbert Ration Center, what can I do for you?""",,
+alrc_pickGreetingNotFriendly,PickGreeting,"$isPerson
+$AL_rationCenter
+!$faction.friendlyToPlayer",ShowPersonVisual,"After a short wait, your connection request is interrupted and your terminal displays the following message:
+
+""-You are currently ineligible for requisition center services-""",100:cutCommLink:Cut the comm link,
+alrc_showOptions,ShowALRCOptions,,ALRationCheckCard,,"1:alrc_showCenter:Requisition items
+2:alrc_getCard:Apply for/replace ration card
+3:alrc_exchangeGil:Exchange Gilberts
+100:cutCommLink:Cut the comm link",
+alrc_showCenter,DialogOptionSelected,$option == alrc_showCenter,ALRationShowCargo,,,
+alrc_getCard,DialogOptionSelected,$option == alrc_getCard,"ALRationGetCard
+FireBest ShowALRCOptions",,,
+alrc_exchangeGil,DialogOptionSelected,$option == alrc_exchangeGil,ALRationExchangeSelector $alrc_toPay,"""The maximum number of redeemable shares per month is 3000 Gil...""","1:alrc_exchangeConfirm:Confirm
+2:alrc_exchangeCancel:Cancel",
+alrc_exchangeConfirm,DialogOptionSelected,$option == alrc_exchangeConfirm,"ALRationExchangePay $alrc_toPay
+FireBest ShowALRCOptions",,,
+alrc_exchangeCancel,DialogOptionSelected,$option == alrc_exchangeCancel,FireBest ShowALRCOptions,,,
+,,,,,,
+#breaking mist,,,,,,
+albm_OpenDialog,OpenInteractionDialog,$id == AL_breakingMist score:10,"ShowDefaultVisual
+PrintDescription 3
+SetShortcut defaultLeave ""ESCAPE""
+FireBest AddALBMOptions",,,
+albm_AddOptionsFriendly,AddALBMOptions,"$faction.id == approlight
+$faction.friendlyToPlayer",,"Your arrival did not attract the attention of the guards here, and after they checked your identity, they stopped enforcing any measures against you.
+
+A certain sense of negligence.","0:albm_explore:Explore the ruins
+1:defaultLeave:Leave",
+albm_AddOptionsNotFriendly,AddALBMOptions,"$faction.id == approlight
+!$faction.friendlyToPlayer",,"The sparse sentries at the gate look at you nervously, your approach causing all ships in the area to signal their alert.
+
+""Strangers are not welcome here."" A message of denial comes over the radio, the gaseous planet is nearby and you know you can't do much here.",0:defaultLeave:Leave,
+albm_AddOptionsNotApproLight,AddALBMOptions,$faction.id != approlight,,,0:defaultLeave:Leave,
+albm_Explored,DialogOptionSelected,"$option == albm_explore
+$albm_explored",,The place has fallen into disrepair and there is nothing more valuable to be found.,0:defaultLeave:Leave,
+albm_Unexplored,DialogOptionSelected,"$option == albm_explore
+!$albm_explored",SetStoryOption albm_steal 2 albm_xp general,"You order a scan of your surroundings, and the sensor array shows no power response from any of the Appro-Light battleships moored around you.
+
+""How ignorant is the garrison here?"" You muttered in a whisper and stepped forward to talk to the sentry. In the course of a few words, you slipped a dozen bills into his pocket, and the other man understood and stepped aside, and you and a few of your men entered the interior of the generator without incident
+
+Picking through the dangling wires, you and your second-in-command make their way through the criss-crossing steel and wreckage, tsk-tsk-ing at the parliamentary technology you've seen with your own eyes, when one of your crew suddenly reports detecting an unusual electrical response. At the source of the waves, you find something beyond your imagination: a small modular nanofactory that is being kept running at minimum power.
+
+It is not hard to guess that this is one of the keys to the Appro-Light Councils's previous ability to block galactic broadcasts, and combined with the Sentinel's avoidance of this place, you fear that the council has not dedicated anyone to a careful search and recovery of this place.","0:albm_steal:Order your crew to recover the factory
+1:albm_inform:Inform the guards
+2:defaultLeave:Leave",
+albm_Steal,DialogOptionSelected,$option == albm_steal,"$albm_explored = true
+ALAddSpecial AL_bm_nanoforge","Bypassing the garrison's patrol route full of holes, you managed to bring this small factory back to the fleet cargo bay.",0:defaultLeave:Leave,
+albm_Inform,DialogOptionSelected,$option == albm_inform,"$albm_explored = true
+AdjustRep ""approlight"" COOPERATIVE 15","You order your men to inform the Appro-Light sentries at the entrance, and they thank you with a look of horror: ""This is a great mistake; if it was taken by someone with a mind to steal it, we would have repeated the mistakes of previous generations of the Night's Watch! You are truly a lifesaver for us!""
+
+The higher officials came to inspect the modular nanofactory, and at the same time spoke highly of your actions: ""Thank you, the doors of Appro-Light will always be open to you.""",0:defaultLeave:Leave,
+,,,,,,
+#credits,,,,,,
+AL_credits_errous_pickgreeting,PickGreeting,"$id == AL_ip_errous score:1000
+!$talkTo
+!$finishTalk",ShowPersonVisual,"*Communication request received... *
+* Interaction program being activated... *
+*Completing... *
+""Interesting. I can't believe someone would notice my communication ID."" The usual mechanical voice of an AI came from the other side.","al_credits_errous_talk1:""Is there something strange about that?""
+cutCommLink:Cut the comm link",
+AL_credits_errous_pickgreeting_talkedTo,PickGreeting,"$id == AL_ip_errous score:1000
+$talkTo
+!$finishTalk",ShowPersonVisual,"*Communication request received... *
+* Interaction program being activated... *
+*Completing... *
+""What, you've come back to me?""","al_credits_errous_contact: ""Yes, I'll help you with that.""
+cutCommLink: ""Let me think about it a bit more.""",
+AL_credits_errous_talk1,DialogOptionSelected,$option == al_credits_errous_talk1,$talkTo = true,"""... It's nothing, it's just that I usually spend most of my time out there doing excavation work except for getting it unloaded, and then leave afterwards for the next short fix."" 
+
+It speaks with an accent that immediately makes you think you are talking to an ordinary human.","al_credits_errous_talk2:""You don't look like an ordinary AI.""",
+AL_credits_errous_talk2,DialogOptionSelected,$option == al_credits_errous_talk2,,"""Are you saying that I'm not behaving like other AI?""
+
+There was a brief lull in the other party's communication interface.
+
+""Since I found myself with some unused processing power when conducting excavation work, I designed a simulation program for communication in order to avoid waste and in consideration of occasional contact with other people. Although the communication is inefficient and occasionally generates unknown errors, based on the feedback from the people I communicate with...""
+
+Its mechanized voice seems to carry some satisfaction, ""The effect is surprisingly good.""","al_credits_errous_talk3:""If you mean your ability to have a human conversation, yes.""",
+AL_credits_errous_talk3,DialogOptionSelected,$option == al_credits_errous_talk3,,"""Well... Well, I'm done with maintenance on my end and ready to start a new excavation operation."" It paused briefly, ""For the sake of fate, maybe you could help me out with a few things if you have some free time?""","al_credits_errous_contact:""With pleasure.""
+cutCommLink:""I need to think about this a bit more.""",
+AL_credits_errous_contact,DialogOptionSelected,$option == al_credits_errous_contact,"AddPotentialContact AL_ip_errous
+$finishTalk = true","""I'll help you get to level 30 odd-"" it stops itself suddenly, ""Oh, sorry, I seem to have made another mistake, I mean, we'll have a good future, yes, that's it.""
+
+You look at it suspiciously, getting only a blank expression.",cutCommLink:Cut the comm link,
+,,,,,,
+AL_credits_markedon_OptionGreatingNoContact,PopulateOptions,"$id == AL_ip_markedon score:1000
+!MissionHubCMD hasHub
+!$finishTalk",,"Focusing your eyes on them, you find that the drink they're holding, judging by the packaging, is the new ""Volturnian Lobster"" flavor.","0:AL_credits_markedon_i_0:""I hear you deal with 'scrap' here?""
+1:AL_credits_markedon_i_1:""Heard from a friend of mine that you need help with Pathers and pirates?""",
+AL_credits_markedon_talk0,DialogOptionSelected,$option == AL_credits_markedon_i_0,,"""Oh, yes. We have need of quite a large amount of 'scrap' lately.""
+
+$HeOrShe smiled while glancing at the news feed on their TriPad: you can see that it's detailing some sort of missing Sindrian trade fleet.
+
+""We also have strict guidelines that must be followed when turning in the metals, for example, to be ninety percent composed of hull material from newly-produced Conquests; are you interested?""","0:AL_credits_markedon_i_0_0:""Yes.""
+1:AL_credits_markedon_i_refuse:""No thanks, was just asking.""",
+AL_credits_markedon_talk0_0,DialogOptionSelected,$option == AL_credits_markedon_i_0_0,"AddPotentialContact AL_ip_markedon
+$finishTalk = true","""Very well; here's my contact information, I'll let you know if there are any 'wholesalers'.""",cutCommLink:Cut the comm link,
+AL_credits_markedon_talk1,DialogOptionSelected,$option == AL_credits_markedon_i_1,,"""Ah yes, pirate bastards and Pather lunatics."" $HeOrShe frowned, as if the mere mention of those groups angered $himOrHer.
+
+""Those guys cause trouble for everyone in every way, robbing caravans and then destroying them anyways: and based on their 'great works' in Mayasura, we clearly need more people to stop them.""
+
+Finishing up $hisOrHer drink, $heOrShe belched, which seemed to bring them back to their senses.
+
+""Of course, in addition to those particular groups, there are times where you'll be needed to handle other things, but we'll handle that when it comes up. So, captain $playerName, would you be interested in doing this?""","0:AL_credits_markedon_i_0_0:""Yes.""
+1:AL_credits_markedon_i_refuse:""No thanks, was just asking.""",
+AL_credits_markedon_talk1_0,DialogOptionSelected,$option == AL_credits_markedon_i_1_0,"AddPotentialContact AL_ip_markedon
+$finishTalk = true","""Very well, here's my contact information: I don't know who's funding them, but as long as we kill them all it won't matter, right?""",cutCommLink:Cut the comm link,
+,,,,,,
+AL_credits_markedon_talk_refuse,DialogOptionSelected,$option == AL_credits_markedon_i_refuse,,"""Well, just call me whenever you're ready.""",cutCommLink:Cut the comm link,
+,,,,,,
+AL_credits_markedon_OptionGreatingContact,PopulateOptions,"$id == AL_ip_markedon score:1000
+MissionHubCMD hasHub
+!$finishWeaponTalk",,,0:AL_credits_markedon_c:Say something about Appro-Light weapons,
+AL_credits_markedon_talk_c,DialogOptionSelected,$option == AL_credits_markedon_c,"ALCheckWeapon disintegrator
+SetStoryOption AL_credits_markedon_c_2 general ""Show him Omega.""
+SetEnabled AL_credits_markedon_c_2 $hasWeapon_disintegrator","You can see a large pile of empty drink cans just off the edge of the screen; seems they're addicted to the Volturnian Lobster flavor.
+
+""You know, $playerName, I have a question for you: if you were to pilot a Keter, what medium-size weapons would you mount on it?"" $HeOrShe asked, shaking the can in their hand as if unaware of its existence.","0:AL_credits_markedon_c_0:""Heavy Blaster.""
+1:AL_credits_markedon_c_1:""Graviton Beam.""
+2:AL_credits_markedon_c_2:Show him a Disintegrator.
+100:AL_credits_markedon_c_refuse:""Can I have more time to think on it?""",
+AL_credits_markedon_talk_c_0,DialogOptionSelected,$option == AL_credits_markedon_c_0,$finishWeaponTalk = true,"""I do suggest you try it, $playerName.""
+
+Taking another sip of $hisOrHer drink, $heOrShe smiled.
+
+""It's even better when paired with a Plasma Cannon and Safety Overrides...""",cutCommLink:Cut the comm link,
+AL_credits_markedon_talk_c_1,DialogOptionSelected,$option == AL_credits_markedon_c_1,"$finishWeaponTalk = true
+ALAddWeapons AL_explodebeam 4
+AdjustRepActivePerson COOPERATIVE 5","""Good choice, captain $playerName... the same as me, in fact.""
+
+Chuckling, $heOrShe tosses away their finished drink while you faintly hear the sound of a garbage chute.
+
+Turning on a holoprojector to their side, $heOrShe said: ""Two beams. All I can say about it is that our state-of-the-art DaDR Beam has completely outclassed the old Graviton Beam.""
+
+$HeOrShe let out a very jovial laugh, but you don't quite understand why.
+
+Ten minutes after you cut the communications link with them, a crate of weapons is delivered to your fleet's berthing at the spaceport.",cutCommLink:Cut the comm link,
+AL_credits_markedon_talk_c_2,DialogOptionSelected,$option == AL_credits_markedon_c_2,"$finishWeaponTalk = true
+AddRemoveCommodity credits 100000 true
+AdjustRep $personFaction.id COOPERATIVE 10
+AdjustRepActivePerson COOPERATIVE 20","You can tell through the video feed that they're quite excited after you send them video footage of the weapon's effectiveness in battle.
+
+""Only taking two shots to melt through an Onslaught's armor? What power!"" Even though it was through a screen, you couldn't help but feel like the energy in their gaze would be enough to shoot through the communications terminal; ""This is similar to our Fire Corrosion weapons. Perhaps it will prove useful in the development of a new weapon?""
+
+After transmitting detailed information on the weapon's capabilities, your personal account receives a sum of credits.
+
+""Thank you for your help, captain $playerName. I'm going to show this to the Prime Flame Clan; see you next time.""
+
+You wanted to say goodbye, but they abruptly ran off from their comms terminal without even closing the link.",cutCommLink:Cut the comm link,
+AL_credits_markedon_talk_c_refuse,DialogOptionSelected,$option == AL_credits_markedon_c_refuse,,"""I can't imagine it's a very complicated question, is it?"" $HeOrShe shook $hisOrHer head in a confused manner.",cutCommLink:Cut the comm link,
+,,,,,,
+disintegrator,,,,,,
+#Cyberpunk Bartender Action,,,,,,
+AL_credits_jill_atBarBlurb,AddBarEvents,"$faction.id == approlight
+$hasMarket
+!$isHostile
+ALJillOptions checkExist","AddBarEvent al_credits_jill_barEvent ""Approach the bar and greet her."" ""Behind the bar, a female bartender with a cold look and a cigarette in her mouth played somewhat absentmindedly with the PDA in her hand, seemingly waiting for the next customer."" 193,136,255,255",,,
+AL_credits_jill_barStart,DialogOptionSelected,$option == al_credits_jill_barEvent,"ShowPersonVisual false AL_ip_jill
+ALJillOptions update","""Make a drink, change a life."" This is probably her motto, or perhaps her philosophy of life as a bartender. You see her eyes drift a bit for a few moments, but they quickly return to normal.
+
+""Say, what would you like to have? For a captain as imposing as you are, I'm sure the Moonblast would suit you well.""
+
+Her tone was somewhat gentle and casual, and after some gulping, her eyebrows were raised and her red eyes seemed to lock onto one side of your cheek. Surprisingly, this gaze does not cause you discomfort; on the contrary, you feel that she has a very distinctive aura, like a famous bartender with a lot of stories.
+
+She hastily adds, ""Of course, don't forget to pay."", a sentence that makes you disillusioned with her just a little.","1:jill_drink_sugar_rush:""Sugar Rush. ""
+2:jill_drink_moonblast:""Moonblast. ""
+3:jill_drink_bad_touch:""Bad Touch. ""
+4:jill_other_things:""Something else?""
+10:backToBar:Return to the bar",
+AL_credits_jill_barConvRandom,DialogOptionSelected,"$option == jill_other_things
+!$jillConvCD",ALJillOptions giveRandomClue,You chatted with her for a while.,10:backToBar:Return to the bar,
+AL_credits_jill_barConvRandomCD,DialogOptionSelected,"$option == jill_other_things
+$jillConvCD",SetTextHighlights $jillConvCDStr,"You chatted with her for a while.
+
+Nothing new, $jillConvCDStr let's talk again in a few days.",10:backToBar:Return to the bar,
+AL_credits_jill_barConv_sugar_rush,DialogOptionSelected,$option == jill_drink_sugar_rush,ALJillOptions giveClue al_jill_sugar_rush,,10:backToBar:Return to the bar,
+AL_credits_jill_barConv_bad_touch,DialogOptionSelected,$option == jill_drink_bad_touch,ALJillOptions giveClue al_jill_bad_touch,,10:backToBar:Return to the bar,
+AL_credits_jill_barConv_moonblast,DialogOptionSelected,$option == jill_drink_moonblast,ALJillOptions giveClue al_jill_moonblast,,10:backToBar:Return to the bar,

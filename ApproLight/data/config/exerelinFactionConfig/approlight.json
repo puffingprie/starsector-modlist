@@ -1,0 +1,43 @@
+{
+  "playableFaction": true,
+  "corvusCompatible": true,
+  "rebelFleetSuffix": "Anti-Light",
+  "startRelationships": {
+    "immortallight": -0.6,
+    "fob": 0.5
+  },
+  "diplomacyPositiveChance": {"fob": 1.5},
+  "diplomacyNegativeChance": {"fob": 0.75},
+  "diplomacyTraits": ["stalwart", "likes_ai", "temperamental"],
+  "maxRelationships": {"luddic_church": -0.5},
+  "minRelationships": {"fob": 0.1},
+  "morality": "amoral",
+  "alignments": {
+    "corporate": 0.5,
+    "technocratic": 1,
+  },
+  "startShipsSolo": [["AL_mumber_Strike"]],
+  "startShipsCombatSmall": [["AL_whitewolf_Balanced", "AL_mumber_Strike", "AL_jadewat_Attack"]],
+  "startShipsTradeSmall": [["AL_referee_Standard", "AL_textbook_Standard", "AL_textbook_Standard"]],
+  "startShipsCombatLarge": [
+    ["AL_postgraduate_Standard", "AL_whitewolf_Balanced", "AL_mumber_Strike", "AL_textbook_Standard"],
+    ["AL_scholar_Assault", "AL_emptiness_Standard", "AL_assistance_Standard", "AL_textbook_Standard"]
+  ],
+  "startShipsTradeLarge": [["AL_oilphaser_Standard", "AL_scolder_Standard", "AL_scolder_Standard", "AL_brain_Defend"]],
+  "defenceStations": [
+    {"ids": ["orbitalstation_high", "battlestation_high", "starfortress_high"]},
+  ],
+  "industrySeeds": [
+    {"id": "orbitalworks", "mult": 0.1},
+  ],
+  "startSpecialItems": [
+    [["alpj_spirit_bp", ""]],
+  ],
+  "bonusSeeds": [
+    {"id": "nanoforge_pristine", "count": 1},
+    {"id": "aiCore_station", "count": 2, "mult": 0.2},
+    {"id": "aiCore_military", "mult": 0.25},
+    {"id": "aiCore_heavyindustry", "count": 1},
+    {"id": "aiCore_any", "mult": 2.5},
+  ],
+}

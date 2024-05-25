@@ -1,0 +1,62 @@
+{
+  "id": "AL_lighter_torp",
+  "specClass": "missile",
+  "missileType": "ROCKET",
+  "sprite": "graphics/missiles/AL_missile_lighter.png",
+  "onHitEffect": "originem.al.scripts.weapons.proj.AL_LighterOnHit",
+  "size": [10, 29],
+  "center": [5, 14],
+  "collisionRadius": 20,
+  "collisionClass": "MISSILE_FF",
+  "explosionColor": [153, 60, 182, 255], # purely visual, will get a white additively blended core on top of this color
+  "explosionRadius": 350, # purely visual
+  "explosionSpec": {
+    "duration": 0.1f, # not visual
+    "radius": 200,
+    "coreRadius": 100, # full damage within core radius
+    "collisionClass": HITS_SHIPS_AND_ASTEROIDS,
+    "collisionClassByFighter": HITS_SHIPS_AND_ASTEROIDS,
+    "particleSizeMin": 6.0,
+    "particleSizeRange": 4.0,
+    "particleDuration": 1,
+    "particleCount": 200,
+    "particleColor": [153, 118, 155, 255]
+  },
+  "flameoutTime": 2, # total time from flameout to full fadeout
+  "noEngineGlowTime": 0.5, # time spent without the engine glow being rendered
+  "fadeTime": 0.7, # fadeout duration
+  "armingTime": 0.5,
+  "engineSpec": {
+    "turnAcc": 0,
+    "turnRate": 0,
+    #"acc": 35,
+    "acc": 500,
+    "dec": 0
+  },
+  "engineSlots": [
+    {
+      "id": "ES1",
+      "loc": [-10, 0],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "mode": "QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+        "engineColor": [226, 118, 143, 255],
+        "contrailDuration": 0,
+        "contrailWidthMult": 1,
+        "contrailWidthAddedFractionAtEnd": 1, # can be negative. makes trail spread out/narrow at the end
+        "contrailMinSeg": 5, # min segment length, in pixels
+        "contrailMaxSpeedMult": 0f,
+        "contrailAngularVelocityMult": 0.5f,
+        "contrailSpawnDistMult": 0f, # how far away from engine it starts
+        "contrailColor": [150, 73, 191, 120],
+        "glowSizeMult": 2,
+        "glowAlternateColor": [150, 0, 255, 255],
+        "type": "GLOW" # GLOW or SMOKE; additive or regular blend mode
+      },
+      "width": 9.0,
+      "length": 100.0,
+      "angle": 180.0
+    }
+  ]
+}
+			

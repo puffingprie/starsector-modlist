@@ -1,0 +1,101 @@
+{
+  "hullName": "AL_heavynail",
+  "hullId": "AL_heavynail",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/phase/AL_heavynail.png",
+  "style": "APPRO_TECH",
+  "height": 72,
+  "width": 54,
+  "center": [27, 35],
+  "collisionRadius": 46,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 46,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 135,
+      "angle": 45,
+      "locations": [-9, 20]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 135,
+      "angle": -45,
+      "locations": [-9, -20]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 0,
+      "locations": [4, -16]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": -0,
+      "locations": [4, 16]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26, 0],
+      "length": 19,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-18.5, 21],
+      "length": 9.32583,
+      "width": 4.595162,
+      "angle": 142.5,
+      "contrailSize": 4.595162,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-18.5, -21],
+      "length": 9.32583,
+      "width": 4.595162,
+      "angle": -142.5,
+      "contrailSize": 4.595162,
+      "style": "APPRO_ENGINE"
+    }
+  ],
+  "bounds": [
+    -27.5, -7.5,
+    -31.5, -8,
+    -19, -15.5,
+    -13.5, -26,
+    1.5, -15.5,
+    34.5, -3.5,
+    34.5, 3.5,
+    1.5, 15.5,
+    -13.5, 26,
+    -19, 15.5,
+    -31.5, 8,
+    -27.5, 7.5
+  ]
+}

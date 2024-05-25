@@ -1,0 +1,27 @@
+{
+	"id":"AL_separationofobsession",
+	"type":"STAT_MOD",
+	"aiType":"DAMPER_FIELD",
+	#"aiType":"CUSTOM",
+
+	"statsScript":"originem.al.shipsystems.scripts.AL_SeparationOfObsessionStats",
+    #"aiScript":"originem.al.shipsystems.scripts.ai.AL_SeparationOfObsessionsSupportAI",
+
+	#"runScriptWhileIdle":true, # unapply() never gets called
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"AL_sob_activate",
+	"loopSound":"AL_sob_loop",
+	"deactivateSound":"AL_sob_deactivate",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":1800,
+    	"threatAmount":10,
+    	"threatAngle":0,
+    	"threatArc":360,
+	}
+}
+
+
+

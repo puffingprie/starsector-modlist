@@ -1,0 +1,36 @@
+{
+  "star_technic": {
+    "name": "环宇者",
+    "tilt": 20,
+    "pitch": 10,
+    "rotation": -3,
+    "planetColor": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "atmosphereThickness": 0.15,
+    "atmosphereThicknessMin": 20,
+    "atmosphereColor": [
+      155,
+      50,
+      155,
+      160
+    ],
+    "texture": "graphics/planets/AL_star_technic.jpg",
+    "icon": "graphics/warroom/icon_planet.png",
+    "iconColor": [
+      155,
+      155,
+      255,
+      255
+    ],
+    "isStar": false,
+    "lightPosition": [
+      4,
+      -1,
+      8
+    ],
+  }
+}

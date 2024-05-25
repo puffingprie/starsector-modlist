@@ -1,0 +1,573 @@
+{
+  "music": {
+    "ApproLight_unos_music": [
+      {"file": "ApproLight_bg_music01.ogg", "source": "sounds/music/", "volume": 0.7, "randomStart": true},
+    ],
+    "ApproLight_bg_music": [
+      {"file": "ApproLight_bg_music02.ogg", "source": "sounds/music/", "volume": 1, "randomStart": true}
+    ],
+    "ApproLight_chaosrift_music": [
+      {"file": "ApproLight_bg_chaosrift.ogg", "source": "sounds/music/", "volume": 1, "randomStart": true},
+    ],
+    "ApproLight_market_hostile": [
+      {"file": "ApproLight_market_hostile.ogg", "source": "sounds/music/", "volume": 0.6, "randomStart": true},
+    ],
+    "ApproLight_market_neutral": [
+      {"file": "ApproLight_market_neutral.ogg", "source": "sounds/music/", "volume": 0.6, "randomStart": true},
+    ],
+    "ApproLight_market_friendly": [
+      {"file": "ApproLight_market_friendly.ogg", "source": "sounds/music/", "volume": 0.6, "randomStart": true},
+    ],
+    "ApproLight_encounter_hostile": [
+      {"file": "ApproLight_encounter_hostile.ogg", "source": "sounds/music/", "volume": 0.8, "randomStart": true},
+    ],
+    "ApproLight_encounter_neutral": [
+      {"file": "ApproLight_encounter_neutral.ogg", "source": "sounds/music/", "volume": 0.8, "randomStart": true},
+    ],
+    "ApproLight_encounter_friendly": [
+      {"file": "ApproLight_encounter_friendly.ogg", "source": "sounds/music/", "volume": 0.8, "randomStart": true},
+    ],
+    "ImmortalLight_encounter_hostile": [
+      {"file": "ImmortalLight_encounter_hostile.ogg", "source": "sounds/music/", "volume": 0.8, "randomStart": true},
+    ]
+  },
+  "AL_ghost_hit": [
+    {"file": "sounds/fx/other/AL_ghost_hit.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/fx/other/AL_ghost_hit.ogg", "pitch": 0.95, "volume": 1},
+    {"file": "sounds/fx/other/AL_ghost_hit.ogg", "pitch": 1.05, "volume": 1},
+  ],
+  "AL_laplace_trigger": [
+    {"file": "sounds/fx/other/AL_laplace_trigger.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_higgs_hit": [
+    {"file": "sounds/fx/impact/AL_higgs_hit.ogg", "pitch": 1, "volume": 0.7},
+    {"file": "sounds/fx/impact/AL_higgs_hit2.ogg", "pitch": 0.75, "volume": 0.7},
+    {"file": "sounds/fx/impact/AL_higgs_hit3.ogg", "pitch": 1.25, "volume": 0.7},
+    {"file": "sounds/fx/impact/AL_higgs_hit4.ogg", "pitch": 1.5, "volume": 0.7},
+  ],
+  "AL_fireflushpulse_impact": [
+    {"file": "sounds/fx/impact/AL_fireflushpulse_impact.ogg", "pitch": 1, "volume": 1.0},
+    {"file": "sounds/fx/impact/AL_fireflushpulse_impact.ogg", "pitch": 0.95, "volume": 1.0},
+    {"file": "sounds/fx/impact/AL_fireflushpulse_impact.ogg", "pitch": 1.05, "volume": 1.0},
+  ],
+  "AL_cataclysm_impact": [
+    {"file": "sounds/fx/impact/AL_cataclysm_impact.ogg", "pitch": 1, "volume": 1.0},
+    {"file": "sounds/fx/impact/AL_cataclysm_impact.ogg", "pitch": 0.95, "volume": 1.0},
+    {"file": "sounds/fx/impact/AL_cataclysm_impact.ogg", "pitch": 1.05, "volume": 1.0},
+  ],
+  "AL_bosonphase_impact": [
+    {"file": "sounds/fx/impact/AL_bosonphase_impact.ogg", "pitch": 1, "volume": 1.0},
+    {"file": "sounds/fx/impact/AL_bosonphase_impact.ogg", "pitch": 0.95, "volume": 1.0},
+    {"file": "sounds/fx/impact/AL_bosonphase_impact.ogg", "pitch": 1.05, "volume": 1.0},
+  ],
+  "AL_cataclysm_charge": [
+    {"file": "sounds/fx/other/AL_cataclysm_charge.ogg", "pitch": 1, "volume": 1.00},
+    {"file": "sounds/fx/other/AL_cataclysm_charge.ogg", "pitch": 0.95, "volume": 1.00},
+    {"file": "sounds/fx/other/AL_cataclysm_charge.ogg", "pitch": 1.05, "volume": 1.00},
+  ],
+  "AL_dowelbeam_loop": [
+    {"file": "sounds/sfx_wpn_energy/graviton_beam_loop.ogg", "pitch": 0.4, "volume": 0.6},
+  ],
+  "AL_chargeshield_charge": [
+    {"file": "sounds/fx/systems/AL_chargeshield_charge.ogg", "pitch": 1, "volume": 1.00},
+  ],
+  "AL_chargeshield_explode": [
+    {"file": "sounds/fx/systems/AL_chargeshield_explode.ogg", "pitch": 1, "volume": 1.00},
+  ],
+  "AL_contractvower_loop": [
+    {"file": "sounds/fx/other/AL_contractvower_loop.ogg", "pitch": 1, "volume": 1.00},
+  ],
+  "AL_boss_higgsworld_absorb": [
+    {"file": "sounds/fx/other/AL_boss_higgsworld_absorb.ogg", "pitch": 1, "volume": 1.00},
+    {"file": "sounds/fx/other/AL_boss_higgsworld_absorb.ogg", "pitch": 0.95, "volume": 1.00},
+    {"file": "sounds/fx/other/AL_boss_higgsworld_absorb.ogg", "pitch": 1.05, "volume": 1.00},
+  ],
+  "AL_boss_higgsworld_gen": [
+    {"file": "sounds/fx/other/AL_boss_higgsworld_gen.ogg", "pitch": 1, "volume": 1.00},
+    {"file": "sounds/fx/other/AL_boss_higgsworld_gen.ogg", "pitch": 0.95, "volume": 1.00},
+    {"file": "sounds/fx/other/AL_boss_higgsworld_gen.ogg", "pitch": 1.05, "volume": 1.00},
+  ],
+  "AL_spacetimeecho_loop": [
+    {"file": "sounds/fx/other/AL_spacetimeecho_loop.ogg", "pitch": 1, "volume": 1.00},
+    {"file": "sounds/fx/other/AL_spacetimeecho_loop.ogg", "pitch": 0.95, "volume": 1.00},
+    {"file": "sounds/fx/other/AL_spacetimeecho_loop.ogg", "pitch": 1.05, "volume": 1.00},
+  ],
+  "AL_approlightflux_loop": [
+    {"file": "sounds/fx/other/AL_approlightflux_loop.ogg", "pitch": 1, "volume": 1.00},
+  ],
+  "AL_EALG_loop": [
+    {"file": "sounds/fx/other/AL_EALG_loop.ogg", "pitch": 1, "volume": 1.00},
+  ],
+  "AL_gravigun_fire": [
+    {"file": "sounds/sfx_wpn_energy/thermal_pulse_cannon_fire_01.ogg", "pitch": 0.5, "volume": 0.8},
+  ],
+  "AL_godswilldriver_loop": [
+    {"file": "sounds/fx/ships/AL_godswilldriver_loop.ogg", "pitch": 1, "volume": 1.00},
+    {"file": "sounds/fx/ships/AL_godswilldriver_loop.ogg", "pitch": 0.95, "volume": 1.00},
+    {"file": "sounds/fx/ships/AL_godswilldriver_loop.ogg", "pitch": 1.05, "volume": 1.00},
+  ],
+  "AL_brainexplode_charge": [
+    {"file": "sounds/fx/ships/AL_brainexplode_charge.ogg", "pitch": 1, "volume": 1.00},
+    {"file": "sounds/fx/ships/AL_brainexplode_charge.ogg", "pitch": 0.95, "volume": 1.00},
+    {"file": "sounds/fx/ships/AL_brainexplode_charge.ogg", "pitch": 1.05, "volume": 1.00},
+  ],
+  "AL_brainexplode_explode": [
+    {"file": "sounds/fx/ships/AL_brainexplode_explode.ogg", "pitch": 1, "volume": 1.00},
+    {"file": "sounds/fx/ships/AL_brainexplode_explode.ogg", "pitch": 0.95, "volume": 1.00},
+    {"file": "sounds/fx/ships/AL_brainexplode_explode.ogg", "pitch": 1.05, "volume": 1.00},
+  ],
+  "AL_boss_convertStage": [
+    {"file": "sounds/fx/ships/AL_boss_convertStage.ogg", "pitch": 1, "volume": 1.00},
+  ],
+  "AL_thunder_fire": [
+    {"file": "sounds/fx/other/AL_thunder_fire.ogg", "pitch": 1, "volume": 0.50},
+    {"file": "sounds/fx/other/AL_thunder_fire.ogg", "pitch": 0.95, "volume": 0.50},
+    {"file": "sounds/fx/other/AL_thunder_fire.ogg", "pitch": 1.05, "volume": 0.50},
+  ],
+  "AL_thunder_hit": [
+    {"file": "sounds/fx/other/AL_thunder_hit01.ogg", "pitch": 1, "volume": 0.55},
+    {"file": "sounds/fx/other/AL_thunder_hit01.ogg", "pitch": 1.05, "volume": 0.55},
+    {"file": "sounds/fx/other/AL_thunder_hit02.ogg", "pitch": 0.95, "volume": 0.55},
+  ],
+  "AL_shield_raise": {
+    "sounds": [
+      {"file": "sounds/fx/ships/AL_shield_large_raise.ogg", "pitch": 1, "volume": 1},
+      {"file": "sounds/fx/ships/AL_shield_medium_raise.ogg", "pitch": 1, "volume": 1},
+      {"file": "sounds/fx/ships/AL_shield_small_raise.ogg", "pitch": 1, "volume": 1},
+    ],
+    "FIGHTER": {"sounds": [2], "pitch": 1, "volume": 0.5},
+    "FRIGATE": {"sounds": [2], "pitch": 1, "volume": 0.6},
+    "DESTROYER": {"sounds": [1], "pitch": 1, "volume": 0.7},
+    "CRUISER": {"sounds": [1], "pitch": 1, "volume": 0.8},
+    "CAPITAL_SHIP": {"sounds": [0], "pitch": 1, "volume": 1},
+  },
+  "AL_dg_absorb": [
+    {"file": "sounds/fx/other/AL_dg_absorb.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_antideu_loop": [
+    {"file": "sounds/fx/other/AL_antideu_loop.ogg", "pitch": 1, "volume": 1.0}
+  ],
+  "AL_holytide_act": [
+    {"file": "sounds/fx/other/AL_holytide.ogg", "pitch": 1, "volume": 0.70}
+  ],
+  "AL_fierycorrosion_loop": [
+    {"file": "sounds/fx/other/AL_fierycorrosion_loop.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_fierycorrosion_trigger": [
+    {"file": "sounds/fx/other/AL_fierycorrosion_trigger.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_atonement_system_loop": [
+    {"file": "sounds/fx/other/AL_atonement_system_loop.ogg", "pitch": 1, "volume": 0.6}
+  ],
+  "AL_bachelor_system_loop": [
+    {"file": "sounds/fx/other/AL_bachelor_system_loop.ogg", "pitch": 1, "volume": 1.0}
+  ],
+  "AL_circleemp_loop": [
+    {"file": "sounds/fx/other/AL_circleemp_loop.ogg", "pitch": 1, "volume": 0.6}
+  ],
+  "AL_bm_start": [
+    {"file": "sounds/fx/campaign/breakingmist/AL_bm_start.ogg", "pitch": 1, "volume": 0.50}
+  ],
+  "AL_bm_stop": [
+    {"file": "sounds/fx/campaign/breakingmist/AL_bm_stop.ogg", "pitch": 1, "volume": 0.50}
+  ],
+  "AL_bm_complete": [
+    {"file": "sounds/fx/campaign/breakingmist/AL_bm_complete.ogg", "pitch": 1, "volume": 0.50}
+  ],
+  "AL_bmb_count": [
+    {"file": "sounds/fx/campaign/breakingmist/AL_bmb_count.ogg", "pitch": 1, "volume": 0.50}
+  ],
+  "AL_bmb_deploy": [
+    {"file": "sounds/fx/campaign/breakingmist/AL_bmb_deploy.ogg", "pitch": 1, "volume": 0.50}
+  ],
+  "AL_bmb_explosion": [
+    {"file": "sounds/fx/campaign/breakingmist/AL_bmb_explosion.ogg", "pitch": 1, "volume": 0.50}
+  ],
+  "AL_fluxflushpulse_shot": [
+    {"file": "sounds/fx/weapons/AL_fluxflushpulse_shot.ogg", "pitch": 1, "volume": 0.40},
+    {"file": "sounds/fx/weapons/AL_fluxflushpulse_shot.ogg", "pitch": 0.95, "volume": 0.40},
+    {"file": "sounds/fx/weapons/AL_fluxflushpulse_shot.ogg", "pitch": 1.05, "volume": 0.40}
+  ],
+  "AL_electricalcannon_fire": [
+    {"file": "sounds/fx/weapons/AL_electricalcannon_fire.ogg", "pitch": 1, "volume": 1.00}
+  ],
+  "AL_electricalcannon_charge": [
+    {"file": "sounds/fx/weapons/AL_electricalcannon_charge.ogg", "pitch": 1, "volume": 0.60},
+  ],
+  "AL_electricalcannon_impact": [
+    {"file": "sounds/fx/weapons/AL_electricalcannon_impact.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/fx/weapons/AL_electricalcannon_impact.ogg", "pitch": 0.95, "volume": 1},
+    {"file": "sounds/fx/weapons/AL_electricalcannon_impact.ogg", "pitch": 1.05, "volume": 1}
+  ],
+  "AL_spiderpod_launch": [
+    {"file": "sounds/fx/weapons/AL_spiderpod_launch.ogg", "pitch": 1, "volume": 1.00},
+  ],
+  "AL_spiderpod_charge": [
+    {"file": "sounds/fx/weapons/AL_spiderpod_charge.ogg", "pitch": 1, "volume": 1.00},
+  ],
+  "AL_pulsecannon_fire": [
+    {"file": "sounds/fx/weapons/AL_pulsecannon_fire.ogg", "pitch": 1, "volume": 0.80},
+  ],
+  "AL_pulsecannon_impact": [
+    {"file": "sounds/fx/weapons/AL_pulsecannon_impact.ogg", "pitch": 1, "volume": 0.60},
+    {"file": "sounds/fx/weapons/AL_pulsecannon_impact.ogg", "pitch": 0.9, "volume": 0.60},
+    {"file": "sounds/fx/weapons/AL_pulsecannon_impact.ogg", "pitch": 1.05, "volume": 0.60},
+  ],
+  "AL_godsbless_charge": [
+    {"file": "sounds/fx/weapons/AL_godsbless_charge.ogg", "pitch": 1, "volume": 0.30},
+  ],
+  "AL_godsbless_loop": [
+    {"file": "sounds/fx/weapons/AL_godsbless_loop.ogg", "pitch": 1, "volume": 1.00},
+  ],
+  "AL_fbig_fire": [
+    {"file": "sounds/fx/weapons/AL_fbig_fire.ogg", "pitch": 1, "volume": 0.60},
+  ],
+  "AL_spiderpulse_fire": [
+    {"file": "sounds/fx/weapons/AL_spiderpulse_fire.ogg", "pitch": 1, "volume": 0.60},
+    {"file": "sounds/fx/weapons/AL_spiderpulse_fire.ogg", "pitch": 0.95, "volume": 0.60},
+    {"file": "sounds/fx/weapons/AL_spiderpulse_fire.ogg", "pitch": 1.05, "volume": 0.60},
+  ],
+  "AL_spiderlaser_fire": [
+    {"file": "sounds/fx/weapons/AL_spiderlaser_fire.ogg", "pitch": 1, "volume": 0.80},
+    {"file": "sounds/fx/weapons/AL_spiderlaser_fire.ogg", "pitch": 0.95, "volume": 0.80},
+    {"file": "sounds/fx/weapons/AL_spiderlaser_fire.ogg", "pitch": 1.05, "volume": 0.80},
+  ],
+  "AL_spiderlaser_impact": [
+    {"file": "sounds/fx/weapons/AL_spiderlaser_impact.ogg", "pitch": 1, "volume": 0.6},
+    {"file": "sounds/fx/weapons/AL_spiderlaser_impact.ogg", "pitch": 0.95, "volume": 0.6},
+    {"file": "sounds/fx/weapons/AL_spiderlaser_impact.ogg", "pitch": 1.05, "volume": 0.6},
+  ],
+  "AL_spiderpalp_fire": [
+    {"file": "sounds/fx/weapons/AL_spiderpalp_fire.ogg", "pitch": 1, "volume": 0.70},
+  ],
+  "AL_protoncollider_fire": [
+    {"file": "sounds/fx/weapons/AL_protoncollider_fire.ogg", "pitch": 1, "volume": 0.8},
+    {"file": "sounds/fx/weapons/AL_protoncollider_fire.ogg", "pitch": 0.95, "volume": 0.8},
+    {"file": "sounds/fx/weapons/AL_protoncollider_fire.ogg", "pitch": 1.05, "volume": 0.8},
+  ],
+  "AL_wildfirelhc_fire": [
+    {"file": "sounds/fx/weapons/AL_wildfirelhc_fire.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/fx/weapons/AL_wildfirelhc_fire.ogg", "pitch": 0.95, "volume": 1},
+    {"file": "sounds/fx/weapons/AL_wildfirelhc_fire.ogg", "pitch": 1.05, "volume": 1},
+  ],
+  "AL_wildfirelhc_impact": [
+    {"file": "sounds/fx/weapons/AL_wildfirelhc_impact.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_chopfire_fire": [
+    {"file": "sounds/fx/weapons/AL_chopfire_fire.ogg", "pitch": 1, "volume": 1.00},
+    {"file": "sounds/fx/weapons/AL_chopfire_fire.ogg", "pitch": 1.05, "volume": 1.00},
+    {"file": "sounds/fx/weapons/AL_chopfire_fire.ogg", "pitch": 0.95, "volume": 1.00},
+  ],
+  "AL_chopfire_charge": [
+    {"file": "sounds/fx/weapons/AL_chopfire_charge.ogg", "pitch": 1, "volume": 1.0},
+  ],
+  "AL_chopfire_impact": [
+    {"file": "sounds/fx/weapons/AL_chopfire_impact.ogg", "pitch": 1, "volume": 1.0},
+  ],
+  "AL_rodsfromchopper_fire": [
+    {"file": "sounds/fx/weapons/AL_rodsfromchopper_fire.ogg", "pitch": 1, "volume": 1.1},
+    {"file": "sounds/fx/weapons/AL_rodsfromchopper_fire.ogg", "pitch": 0.95, "volume": 1.1},
+    {"file": "sounds/fx/weapons/AL_rodsfromchopper_fire.ogg", "pitch": 1.05, "volume": 1.1},
+  ],
+  "AL_rodsfromchopper_charge": [
+    {"file": "sounds/fx/weapons/AL_rodsfromchopper_charge.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/fx/weapons/AL_rodsfromchopper_charge.ogg", "pitch": 0.95, "volume": 1},
+  ],
+  "AL_dyingblazebeam_fire": [
+    {"file": "sounds/fx/weapons/AL_dyingblazebeam_fire.ogg", "pitch": 1, "volume": 0.8},
+  ],
+  "AL_dyingblazebeam_loop": [
+    {"file": "sounds/fx/weapons/AL_dyingblazebeam_loop.ogg", "pitch": 1, "volume": 0.8}
+  ],
+  "AL_deitygun_charge": [
+    {"file": "sounds/fx/weapons/AL_deitygun_charge.ogg", "pitch": 1, "volume": 1.0},
+  ],
+  "AL_deitygun_fire": [
+    {"file": "sounds/fx/weapons/AL_deitygun_fire.ogg", "pitch": 1, "volume": 1.2},
+  ],
+  "AL_deitygun_loop": [
+    {"file": "sounds/fx/weapons/AL_deitygun_loop.ogg", "pitch": 1, "volume": 1.0},
+  ],
+  "AL_deitygun_impact": [
+    {"file": "sounds/fx/weapons/AL_deitygun_impact.ogg", "pitch": 0.7, "volume": 0.8},
+    {"file": "sounds/fx/weapons/AL_deitygun_impact.ogg", "pitch": 0.75, "volume": 0.8},
+    {"file": "sounds/fx/weapons/AL_deitygun_impact.ogg", "pitch": 0.65, "volume": 0.8},
+  ],
+  "AL_ultrabeam_fire": [
+    {"file": "sounds/fx/weapons/AL_ultrabeam_fire.ogg", "pitch": 1, "volume": 0.70}
+  ],
+  "AL_ultrabeam_charge": [
+    {"file": "sounds/fx/weapons/AL_ultrabeam_charge.ogg", "pitch": 1, "volume": 0.80}
+  ],
+  "AL_ultrabeam_loop": [
+    {"file": "sounds/fx/weapons/AL_ultrabeam_loop.ogg", "pitch": 1, "volume": 0.60}
+  ],
+  "AL_moonfire_as_shot": [
+    {"file": "sounds/fx/weapons/AL_moonfire_medium_shot.ogg", "pitch": 1.25, "volume": 0.5},
+  ],
+  "AL_moonfire_medium_shot": [
+    {"file": "sounds/fx/weapons/AL_moonfire_medium_shot.ogg", "pitch": 1, "volume": 0.8},
+    {"file": "sounds/fx/weapons/AL_moonfire_medium_shot.ogg", "pitch": 0.95, "volume": 0.8},
+    {"file": "sounds/fx/weapons/AL_moonfire_medium_shot.ogg", "pitch": 1.05, "volume": 0.8},
+  ],
+  "AL_moonfire_large_fire": [
+    {"file": "sounds/fx/weapons/AL_moonfire_large_fire.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/fx/weapons/AL_moonfire_large_fire.ogg", "pitch": 0.95, "volume": 1},
+    {"file": "sounds/fx/weapons/AL_moonfire_large_fire.ogg", "pitch": 1.05, "volume": 1},
+  ],
+  "AL_condemn_launch": [
+    {"file": "sounds/fx/weapons/AL_condemn_launch.ogg", "pitch": 1, "volume": 1.00},
+    {"file": "sounds/fx/weapons/AL_condemn_launch.ogg", "pitch": 0.95, "volume": 1.00},
+    {"file": "sounds/fx/weapons/AL_condemn_launch.ogg", "pitch": 1.05, "volume": 1.00}
+  ],
+  "AL_lighter_launch": [
+    {"file": "sounds/fx/weapons/AL_lighter_launch.ogg", "pitch": 1, "volume": 1.00},
+    {"file": "sounds/fx/weapons/AL_lighter_launch.ogg", "pitch": 0.95, "volume": 1.00},
+    {"file": "sounds/fx/weapons/AL_lighter_launch.ogg", "pitch": 1.05, "volume": 1.00}
+  ],
+  "AL_lighter_impact": [
+    {"file": "sounds/fx/weapons/AL_lighter_impact.ogg", "pitch": 1, "volume": 1.2},
+    {"file": "sounds/fx/weapons/AL_lighter_impact.ogg", "pitch": 0.95, "volume": 1.2},
+    {"file": "sounds/fx/weapons/AL_lighter_impact.ogg", "pitch": 1.05, "volume": 1.2},
+  ],
+  "AL_starimage_fire": [
+    {"file": "sounds/fx/weapons/AL_starimage_fire.ogg", "pitch": 1, "volume": 1.0},
+    {"file": "sounds/fx/weapons/AL_starimage_fire.ogg", "pitch": 0.95, "volume": 1.0},
+    {"file": "sounds/fx/weapons/AL_starimage_fire.ogg", "pitch": 1.05, "volume": 1.0}
+  ],
+  "AL_bladeofcleavingfire_shoot": [
+    {"file": "sounds/fx/weapons/bosf/AL_bladeofcleavingfire_shoot.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_bladeofcleavingfire_explosion": [
+    {"file": "sounds/fx/weapons/bosf/AL_bladeofcleavingfire_explosion.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/fx/weapons/bosf/AL_bladeofcleavingfire_explosion.ogg", "pitch": 1.05, "volume": 1},
+    {"file": "sounds/fx/weapons/bosf/AL_bladeofcleavingfire_explosion.ogg", "pitch": 1.1, "volume": 1}
+  ],
+  "AL_bladeofcleavingfire_charge": [
+    {"file": "sounds/fx/weapons/bosf/AL_bladeofcleavingfire_charge.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_bladeofcleavingfire_afterloop": [
+    {"file": "sounds/fx/weapons/bosf/AL_bladeofcleavingfire_afterloop.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_hos_pulsecannon_fire": [
+    {"file": "sounds/fx/weapons/hopc/AL_hos_pulsecannon_fire.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_hov_pulsecannon_fire": [
+    {"file": "sounds/fx/weapons/hopc/AL_hov_pulsecannon_fire.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_ho_pulsecannon_hit_entity": [
+    {"file": "sounds/fx/weapons/hopc/AL_ho_pulsecannon_hit_entity1.ogg", "pitch": 1, "volume": 0.3},
+    {"file": "sounds/fx/weapons/hopc/AL_ho_pulsecannon_hit_entity2.ogg", "pitch": 1, "volume": 0.3},
+  ],
+  "AL_ho_pulsecannon_hit_shield": [
+    {"file": "sounds/fx/weapons/hopc/AL_ho_pulsecannon_hit_shield1.ogg", "pitch": 1, "volume": 0.5},
+    {"file": "sounds/fx/weapons/hopc/AL_ho_pulsecannon_hit_shield2.ogg", "pitch": 1, "volume": 0.5},
+  ],
+  "AL_respectbeam_loop": [
+    {"file": "sounds/fx/weapons/AL_respectbeam_loop.ogg", "pitch": 1, "volume": 0.50}
+  ],
+  "AL_refusingpulse_fire": [
+    {"file": "sounds/fx/weapons/AL_refusingpulse_fire.ogg", "pitch": 1, "volume": 0.50}
+  ],
+  "AL_railgun_fire": [
+    {"file": "sounds/fx/weapons/AL_railgun_fire.ogg", "pitch": 1, "volume": 0.50}
+  ],
+  "AL_railgun_accelerate": [
+    {"file": "sounds/fx/weapons/AL_railgun_accelerate.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_respectorcannon_shot": [
+    {"file": "sounds/fx/weapons/AL_respectorcannon_shot.ogg", "pitch": 1, "volume": 0.70},
+  ],
+  "AL_respectorcannon_charge": [
+    {"file": "sounds/fx/weapons/AL_respectorcannon_charge.ogg", "pitch": 1, "volume": 0.70},
+  ],
+  "AL_explodebeam_loop": [
+    {"file": "sounds/fx/weapons/AL_explodebeam_loop.ogg", "pitch": 1, "volume": 0.40}
+  ],
+  "AL_precollimation_charge": [
+    {"file": "sounds/fx/weapons/AL_precollimation_charge.ogg", "pitch": 1, "volume": 0.5}
+  ],
+  "AL_precollimation_fire": [
+    {"file": "sounds/fx/weapons/AL_precollimation_fire.ogg", "pitch": 1, "volume": 0.5}
+  ],
+  "AL_precollimation_loop": [
+    {"file": "sounds/fx/weapons/AL_precollimation_loop.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_lightscohesion_charge": [
+    {"file": "sounds/fx/weapons/AL_lightscohesion_charge.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_lightscohesion_fire": [
+    {"file": "sounds/fx/weapons/AL_lightscohesion_fire.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_lightscohesion_loop": [
+    {"file": "sounds/fx/weapons/AL_lightscohesion_loop.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_firesbless_loop": [
+    {"file": "sounds/fx/weapons/AL_firesbless_loop.ogg", "pitch": 1, "volume": 0.6}
+  ],
+  "AL_originflux_loop": [
+    {"file": "sounds/fx/systems/AL_originflux_loop.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_originflux_activate": [
+    {"file": "sounds/fx/systems/AL_originflux_activate.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_originflux_deactivate": [
+    {"file": "sounds/fx/systems/AL_originflux_deactivate.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_tornlight_use": [
+    {"file": "sounds/fx/systems/AL_tornlight/AL_tornlight_use.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_tornlight_loop": [
+    {"file": "sounds/fx/systems/AL_tornlight/AL_tornlight_loop.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_tornlight_end": [
+    {"file": "sounds/fx/systems/AL_tornlight/AL_tornlight_end.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_arclight_use": [
+    {"file": "sounds/fx/systems/AL_arclight/AL_arclight_use.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_arclight_loop": [
+    {"file": "sounds/fx/systems/AL_arclight/AL_arclight_loop.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_arclight_end": [
+    {"file": "sounds/fx/systems/AL_arclight/AL_arclight_end.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_freezingwatch_loop": [
+    {"file": "sounds/fx/systems/AL_freezingwatch/AL_freezingwatch_loop.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_freezingwatch_activate": [
+    {"file": "sounds/fx/systems/AL_freezingwatch/AL_freezingwatch_activate.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_sob_activate": [
+    {"file": "sounds/fx/systems/AL_separationofobsession/AL_sob_activate.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_sob_deactivate": [
+    {"file": "sounds/fx/systems/AL_separationofobsession/AL_sob_deactivate.ogg", "pitch": 1, "volume": 0.4}
+  ],
+  "AL_sob_loop": [
+    {"file": "sounds/fx/systems/AL_separationofobsession/AL_sob_loop.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_fluxtransferarray_use": [
+    {"file": "sounds/fx/systems/AL_fluxtransferarray/AL_fluxtransferarray_use.ogg", "pitch": 1, "volume": 1.00},
+  ],
+  "AL_atomscratch_activate": [
+    {"file": "sounds/fx/systems/AL_atomscratch/AL_atomscratch_activate.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_atomscratch_flash": [
+    {"file": "sounds/fx/systems/AL_atomscratch/AL_atomscratch_flash.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_atomscratch_mine_explosion": [
+    {"file": "sounds/fx/systems/AL_atomscratch/AL_atomscratch_mine_explosion1.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/fx/systems/AL_atomscratch/AL_atomscratch_mine_explosion2.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/fx/systems/AL_atomscratch/AL_atomscratch_mine_explosion3.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/fx/systems/AL_atomscratch/AL_atomscratch_mine_explosion4.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_atomscratch_mine_windup": [
+    {"file": "sounds/fx/systems/AL_atomscratch/AL_atomscratch_mine_windup1.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/fx/systems/AL_atomscratch/AL_atomscratch_mine_windup2.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/fx/systems/AL_atomscratch/AL_atomscratch_mine_windup3.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/fx/systems/AL_atomscratch/AL_atomscratch_mine_windup4.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_purpledimand_explode": [
+    {"file": "sounds/fx/systems/AL_purpledimand_explode.ogg", "pitch": 1, "volume": 1.00},
+  ],
+  "AL_blastcountdown_loop": [
+    {"file": "sounds/fx/systems/AL_blastcountdown_loop.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_crystalblast_charge": [
+    {"file": "sounds/fx/systems/AL_crystalblast_charge.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_deu_trigger": [
+    {"file": "sounds/fx/hullmods/deu/AL_deu_trigger.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_deu_prepare": [
+    {"file": "sounds/fx/hullmods/deu/AL_deu_prepare.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_deu_cooldown": [
+    {"file": "sounds/fx/hullmods/deu/AL_deu_cooldown.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_deu_trigger_failed": [
+    {"file": "sounds/fx/hullmods/deu/AL_deu_trigger_failed.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_deu_trigger_vent": [
+    {"file": "sounds/fx/hullmods/deu/AL_deu_trigger_vent.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_eddydisplacer_activate": [
+    {"file": "sounds/fx/hullmods/eddydisplacer/AL_eddydisplacer_activate.ogg", "pitch": 1, "volume": 1.00},
+  ],
+  "AL_eddydisplacer_explode": [
+    {"file": "sounds/fx/hullmods/eddydisplacer/AL_eddydisplacer_explode.ogg", "pitch": 1, "volume": 1.00},
+  ],
+  "AL_mdshield_loop": [
+    {"file": "sounds/fx/hullmods/mdshield/AL_mdshield_loop.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_mdshield_activate": [
+    {"file": "sounds/fx/hullmods/mdshield/AL_mdshield_activate.ogg", "pitch": 1, "volume": 1}
+  ],
+  "AL_reentrantcirculation_loop": [
+    {"file": "sounds/fx/systems/AL_reentrantcirculation_loop.ogg", "pitch": 1, "volume": 1},
+  ],
+  "AL_explosion_ship": {
+    "sounds": [
+      {"file": "sounds/fx/ships/AL_explode01.ogg", "pitch": 1, "volume": 1.0},
+      {"file": "sounds/fx/ships/AL_explode02.ogg", "pitch": 1, "volume": 1.0},
+      {"file": "sounds/sfx_impacts/explosion_03_fighter.ogg", "pitch": 1, "volume": 1.0},
+      {"file": "sounds/fx/ships/AL_explode03.ogg", "pitch": 1, "volume": 1.0},
+    ],
+    "FIGHTER": {"sounds": [2], "pitch": 1, "volume": 1.0},
+    "FRIGATE": {"sounds": [0, 1, 3], "pitch": 1.0, "volume": 0.8},
+    "DESTROYER": {"sounds": [0, 1, 3], "pitch": 1.0, "volume": 0.9},
+    "CRUISER": {"sounds": [0, 1, 3], "pitch": 1.0, "volume": 1.0},
+    "CAPITAL_SHIP": {"sounds": [0, 1, 3], "pitch": 0.8, "volume": 1.0},
+  },
+  "AL_flux_loop": {
+    "sounds": [
+      {"file": "sounds/fx/ships/AL_flux_loop.ogg", "pitch": 1, "volume": 0.8},
+    ],
+    "FIGHTER": {"sounds": [0], "pitch": 1, "volume": 0.4},
+    "FRIGATE": {"sounds": [0], "pitch": 1, "volume": 0.7},
+    "DESTROYER": {"sounds": [0], "pitch": 1, "volume": 0.8},
+    "CRUISER": {"sounds": [0], "pitch": 1, "volume": 0.9},
+    "CAPITAL_SHIP": {"sounds": [0], "pitch": 1, "volume": 1},
+  },
+  "AL_vent_flux": {
+    "sounds": [
+      {"file": "sounds/fx/ships/AL_flux_vent.ogg", "pitch": 1, "volume": 0.5},
+    ],
+    "FIGHTER": {"sounds": [0], "pitch": 1, "volume": 0.4},
+    "FRIGATE": {"sounds": [0], "pitch": 1, "volume": 0.7},
+    "DESTROYER": {"sounds": [0], "pitch": 1, "volume": 0.8},
+    "CRUISER": {"sounds": [0], "pitch": 1, "volume": 0.9},
+    "CAPITAL_SHIP": {"sounds": [0], "pitch": 1, "volume": 1},
+  },
+  "AL_overload_burnout": {
+    "sounds": [
+      {"file": "sounds/fx/ships/AL_overload_burnout.ogg", "pitch": 1, "volume": 1},
+    ],
+    "FIGHTER": {"sounds": [0], "pitch": 1, "volume": 0.4},
+    "FRIGATE": {"sounds": [0], "pitch": 1, "volume": 0.7},
+    "DESTROYER": {"sounds": [0], "pitch": 1, "volume": 0.8},
+    "CRUISER": {"sounds": [0], "pitch": 1, "volume": 0.9},
+    "CAPITAL_SHIP": {"sounds": [0], "pitch": 1, "volume": 1},
+  },
+  "AL_overload_loop": {
+    "sounds": [
+      {"file": "sounds/fx/ships/AL_overload_loop.ogg", "pitch": 1, "volume": 0.6},
+    ],
+    "FIGHTER": {"sounds": [0], "pitch": 1, "volume": 0.4},
+    "FRIGATE": {"sounds": [0], "pitch": 1, "volume": 0.7},
+    "DESTROYER": {"sounds": [0], "pitch": 1, "volume": 0.8},
+    "CRUISER": {"sounds": [0], "pitch": 1, "volume": 0.9},
+    "CAPITAL_SHIP": {"sounds": [0], "pitch": 1, "volume": 1},
+  },
+  "AL_lowtech_engine_loop": {
+    "sounds": [
+      {"file": "sounds/fx/ships/AL_lowtech_engine_loop.ogg", "pitch": 1, "volume": 1},
+    ],
+    "FIGHTER": {"sounds": [0], "pitch": 1, "volume": 0.4},
+    "FRIGATE": {"sounds": [0], "pitch": 1, "volume": 0.7},
+    "DESTROYER": {"sounds": [0], "pitch": 1, "volume": 0.7},
+    "CRUISER": {"sounds": [0], "pitch": 1, "volume": 0.7},
+    "CAPITAL_SHIP": {"sounds": [0], "pitch": 1, "volume": 1}
+  },
+}

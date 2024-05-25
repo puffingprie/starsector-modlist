@@ -1,0 +1,69 @@
+{
+    "displayName": "打击",
+    "fluxCapacitors": 25,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "AL_euclid_m",
+    "hullMods": [
+        "expanded_deck_crew",
+        "AL_airrightequipment",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_euclid_m_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "AL_spiderpulse",
+                "WS0007": "AL_spiderpulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "AL_thunderpod",
+                "WS0002": "AL_thunderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "AL_spiderpulse",
+                "WS0011": "AL_spiderpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "devastator"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "AL_defenderpd",
+                "WS0005": "AL_defenderpd",
+                "WS0016": "AL_refusingpulse",
+                "WS0017": "AL_refusingpulse",
+                "WS0018": "AL_defenderpd",
+                "WS0019": "AL_defenderpd",
+                "WS0020": "AL_defenderpd",
+                "WS0021": "AL_defenderpd",
+                "WS0022": "AL_defenderpd",
+                "WS0023": "AL_defenderpd"
+            }
+        }
+    ],
+    "wings": [
+        "AL_heavynail_wing",
+        "AL_damocleser_wing",
+        "AL_soulno_wing",
+        "AL_techno_wing",
+        "AL_heavynail_wing"
+    ]
+}

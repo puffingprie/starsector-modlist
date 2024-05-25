@@ -1,0 +1,7 @@
+commodity,group,freq
+nothing,ilfleet,55
+"item_ship_bp:{tags:[morph_time_bp, !no_drop]}",ilfleet,1
+AL_primecore,ilfleet,5
+AL_primematerial,ilfleet,5
+AL_primeperipheral,ilfleet,5
+AL_contaminated_wreck,ilfleet,45

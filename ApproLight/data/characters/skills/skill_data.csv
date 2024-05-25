@@ -1,0 +1,5 @@
+id,name,order,tier,description,author,combat officer,admiral,admin,tags,icon,
+AL_threadsynchronization,Thread Synchronization,5,5,"The officers who possess this skill are the products of the Council's genetic engineering, clones of the Council's leaders. The main goal of this project is to extract the current genome of the original, and to modify it with a wide range of genetic trimming and modifications to achieve the purpose of the clone's great versatility.
+Depending on the iterative cloning sequence and model, the cloned officers have different levels of bonus to the ship's flux attributes.","Anonymous developers of ""People from All Saints""",TRUE,,,npc_only,graphics/icons/skills/AL_threadsynchronization.png,
+AL_convictionfirewall,Conviction Firewall,5,5,"""For fuck's sakes, locked again!? Which one of you imbeciles gave Graven more freedom!? We're the crew, not a bunch of sinners!""
+",The Firewall's maintenance specialist,TRUE,,,npc_only,graphics/icons/skills/AL_convictionfirewall.png,

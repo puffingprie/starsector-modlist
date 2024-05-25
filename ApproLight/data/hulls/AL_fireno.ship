@@ -1,0 +1,74 @@
+{
+  "hullName": "AL_fireno",
+  "hullId": "AL_fireno",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/AL_fireno.png",
+  "style": "HIGH_TECH",
+  "height": 33,
+  "width": 50,
+  "center": [25, 15],
+  "collisionRadius": 31,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 31,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1.5, 15]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1.5, -15]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-3.5, 8.5],
+      "length": 12.429769,
+      "width": 5.657153,
+      "angle": 151,
+      "contrailSize": 5.657153,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-3.5, -8.5],
+      "length": 12.429769,
+      "width": 5.657153,
+      "angle": -151,
+      "contrailSize": 5.657153,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-5, -0],
+      "length": 17,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "APPRO_ENGINE"
+    }
+  ],
+  "bounds": [
+    -11, -5.5,
+    -2.5, -12.5,
+    -13, -23,
+    -2, -23,
+    16.5, -5.5,
+    11, -4,
+    11, 4,
+    16.5, 5.5,
+    -2, 23,
+    -13, 23,
+    -2.5, 12.5,
+    -11, 5.5
+  ]
+}

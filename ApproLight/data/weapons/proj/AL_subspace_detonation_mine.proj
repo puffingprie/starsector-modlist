@@ -1,0 +1,50 @@
+{
+	"id":"AL_subspace_detonation_mine",
+	"specClass":"missile",
+	"missileType":"PHASE_MINE",
+	"sprite":"graphics/missiles/stealth_mine2.png",
+	"glowSprite":"graphics/missiles/stealth_mine2_glow.png",
+	"glowColor":[150,50,255,255],
+	"size":[96,96],
+	"center":[48,48],
+	"collisionRadius":20,
+
+	"collisionClass":"MISSILE_NO_FF",
+	"flameoutTime":0.1, # total time from flameout to full fadeout
+	"fadeTime":0.1, # fadeout duration
+	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
+	"explosionColor":[148,100,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":450, # purely visual
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":150,
+				  "acc":500,
+				  "dec":500},
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"onExplosionEffect":"originem.al.scripts.weapons.proj.AL_SubspaceDetonationEffect",
+					"range":100,
+					"slowToMaxSpeed":true,
+					"delay":0.4,
+					"windupSound":"mine_windup_heavy",
+					"windupDelay":0,
+					"explosionSpec":{"duration":0.2f,
+									 "radius":150,
+									 "coreRadius":100, # full damage within core radius
+									 "collisionClass":MISSILE_NO_FF,
+									 "collisionClassByFighter":MISSILE_NO_FF,
+									 "particleSizeMin":3.0,
+									 "particleSizeRange":6.0,
+									 "particleDuration":0.5,
+									 "particleCount":60,
+									 "particleColor":[100,50,255,255],
+									 "explosionColor":[150,100,255,255],
+									 "useDetailedExplosion":true,
+                                     "detailedExplosionRadius": 300,
+                                     "detailedExplosionFlashDuration": 0.3,
+                                     "detailedExplosionFlashRadius": 450,
+                                     "detailedExplosionFlashColorCore": [100,100,100,255],
+									 "detailedExplosionFlashColorFringe": [255,100,150,255],
+									 "sound":"mine_explosion"},
+					}
+}
+
+

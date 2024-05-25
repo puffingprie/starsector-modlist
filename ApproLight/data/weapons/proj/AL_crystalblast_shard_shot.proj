@@ -1,0 +1,23 @@
+{
+  "id": "AL_crystalblast_shard_shot",
+  "specClass": "missile",
+  "missileType": "MISSILE",
+  "sprite": "graphics/missiles/AL_empty.png",
+  "size": [10, 10],
+  "center": [5, 5],
+  "collisionRadius": 16,
+  "collisionClass": "MISSILE_NO_FF",
+  "explosionColor": [255, 100, 100, 255], # purely visual, will get a white additively blended core on top of this color
+  "explosionRadius": 150, # purely visual
+  "engineSpec": {
+    "turnAcc": 360,
+    "turnRate": 180,
+    "acc": 1000,
+    "dec": 500
+  },
+  "noCollisionWhileFading": true,
+  "noDebrisWhenDestroyed": true,
+  "flameoutTime": 0.2, # total time from flameout to full fadeout
+  "noEngineGlowTime": 0.2, # time spent without the engine glow being rendered
+  "fadeTime": 0.2, # fadeout duration
+}

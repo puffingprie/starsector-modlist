@@ -1,0 +1,57 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 450,
+  "everyFrameEffect": "originem.al.scripts.weapons.AL_RodsChopperEveryFrameEffect",
+  "fireSoundOne": "AL_rodsfromchopper_charge",
+  "fireSoundTwo": "AL_rodsfromchopper_fire",
+  "glowColor": [
+    100,
+    100,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/AL_rodsfromchopper_hardpoint_glow.png",
+  "hardpointOffsets": [
+    12,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/AL_rodsfromchopper_hardpoint_base.png",
+  "id": "AL_rodsfromchopper",
+  "muzzleFlashSpec": {
+    "length": 80,
+    "particleColor": [
+      0,
+      100,
+      255,
+      255
+    ],
+    "particleCount": 15,
+    "particleDuration": 1,
+    "particleSizeMin": 20,
+    "particleSizeRange": 40,
+    "spread": 16
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "AL_rodschopfire_shot",
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/AL_rodsfromchopper_turret_glow.png",
+  "turretOffsets": [
+    11,
+    0
+  ],
+  "turretSprite": "graphics/weapons/AL_rodsfromchopper_turret_base.png",
+  "type": "ENERGY"
+}

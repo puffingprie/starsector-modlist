@@ -1,0 +1,19 @@
+{
+  "id": "AL_fake_precollimation_battery",
+  "specClass": "missile",
+  "missileType": "BOMB",
+  "sprite": "graphics/missiles/AL_fake_precollimation_battery.png",
+  "size": [6, 7],
+  "center": [3, 4],
+  "collisionRadius": 6,
+  "collisionClass": "MISSILE_NO_FF",
+  "explosionColor": [255, 165, 255, 255],
+  "explosionRadius": 60, # purely visual
+  "fadeTime": 0.5, # fadeout duration
+  "engineSpec": {
+    "turnAcc": 0,
+    "turnRate": 0,
+    "acc": 0,
+    "dec": 100
+  },
+}

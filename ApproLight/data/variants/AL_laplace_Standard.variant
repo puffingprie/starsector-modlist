@@ -1,0 +1,90 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 21,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "AL_laplace",
+    "hullMods": [
+        "AL_frequencybuffergrid",
+        "targetingunit",
+        "AL_airrightequipment"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_laplace_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0026": "AL_unstablemissile_array",
+                "WS0027": "AL_unstablemissile_array",
+                "WS0028": "AL_unstablemissile_array",
+                "WS0029": "AL_unstablemissile_array"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0021": "AL_thunderpod",
+                "WS0022": "AL_thunderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0024": "AL_fireflushpulse",
+                "WS0025": "AL_fireflushpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "AL_railgun",
+                "WS0012": "AL_railgun",
+                "WS0013": "AL_railgun",
+                "WS0014": "AL_railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd",
+                "WS0007": "AL_defenderpd",
+                "WS0008": "AL_defenderpd",
+                "WS0017": "AL_defenderpd",
+                "WS0018": "AL_defenderpd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_moonfire_small",
+                "WS0002": "AL_moonfire_small",
+                "WS0003": "AL_moonfire_small",
+                "WS0004": "AL_moonfire_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "AL_starflak_medium",
+                "WS0016": "AL_starflak_medium",
+                "WS0019": "AL_starflak_medium",
+                "WS0020": "AL_starflak_medium"
+            }
+        }
+    ],
+    "wings": [
+        "AL_techno_wing",
+        "AL_techno_wing",
+        "AL_firelink_wing"
+    ]
+}

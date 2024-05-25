@@ -1,0 +1,50 @@
+{
+  "id": "AL_spiderlaser",
+  "specClass": "projectile",
+  "projectileSpecId": "AL_spiderlaser_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "displayArcRadius": 450,
+  "turretSprite": "graphics/weapons/AL_spiderlaser_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/AL_spiderlaser_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/AL_spiderlaser_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/AL_spiderlaser_hardpoint_glow.png",
+  "glowColor": [
+    100,
+    100,
+    215,
+    215
+  ],
+  "turretOffsets": [
+    11,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    18.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 50,
+    "spread": 25,
+    "particleSizeMin": 10,
+    "particleSizeRange": 20,
+    "particleDuration": 0.5,
+    "particleCount": 20,
+    "particleColor": [
+      100,
+      100,
+      215,
+      215
+    ]
+  },
+  "fireSoundTwo": "AL_spiderlaser_fire"
+}

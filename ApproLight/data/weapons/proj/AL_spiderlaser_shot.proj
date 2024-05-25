@@ -1,0 +1,21 @@
+{
+  "id": "AL_spiderlaser_shot",
+  "specClass": "projectile",
+  "spawnType": "BALLISTIC_AS_BEAM",
+  "onHitEffect": "originem.al.scripts.weapons.proj.AL_SpiderLaserOnHitEffect",
+  "onFireEffect": "originem.al.scripts.weapons.proj.AL_SpiderLaserOnHitEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "length": 80.0,
+  "width": 8,
+  "fadeTime": 0.15,
+  "fringeColor": [100, 150, 235, 255],
+  "coreColor": [200, 200, 255, 200],
+  "glowColor": [10, 30, 60, 120],
+  "glowRadius": 120,
+  "hitGlowRadius": 30,
+  "textureType": "LASER", # now also used for "BALLISTIC_AS_BEAM", if specified
+  #"textureType": ["graphics/fx/emp_arcs.png", "graphics/fx/emp_arcs.png"],
+  "textureScrollSpeed": -256,
+  "pixelsPerTexel": 1.0,
+}

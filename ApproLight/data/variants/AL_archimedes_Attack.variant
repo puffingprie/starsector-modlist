@@ -1,0 +1,25 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 16,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "AL_archimedes",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_archimedes_Attack",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {
+            "MA_SLOT": "typhoon",
+            "WS0003": "gazer",
+            "WS0004": "gazer",
+            "WS0005": "gazer",
+            "WS0006": "gazer",
+            "WS0007": "AL_subspace_detonation_unit",
+            "WS0008": "ionpulser",
+            "WS0009": "cyclone"
+        }
+    }]
+}

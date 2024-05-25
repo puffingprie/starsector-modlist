@@ -1,0 +1,42 @@
+{
+    "displayName": "支援",
+    "fluxCapacitors": 12,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "AL_emptiness",
+    "hullMods": [
+        "AL_chainedmod",
+        "missleracks",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_emptiness_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "taclaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "AL_ruler_med",
+                "WS0002": "AL_ruler_med"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd",
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd",
+                "WS0007": "AL_defenderpd",
+                "WS0008": "AL_defenderpd"
+            }
+        }
+    ]
+}

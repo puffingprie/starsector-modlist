@@ -1,0 +1,14 @@
+{
+  "baseHullId": "AL_scholar",
+  "descriptionId":"AL_scholar",
+  "descriptionPrefix":"子时未到，神性已染",
+  "tags":["no_bp_drop"],
+  "tech":"永光之锋",
+  "baseValueMult": 1.5,
+  "ordnancePoints":145,
+  "hullName":"永光学者(I.L.S)",
+  "skinHullId": "AL_scholar_il",
+  "builtInMods":[],
+  "addHints":["HIDE_IN_CODEX"],
+  "spriteName": "graphics/ships/il/AL_scholar_il.png"
+}

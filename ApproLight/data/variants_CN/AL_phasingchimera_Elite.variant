@@ -1,0 +1,33 @@
+{
+    "displayName": "精英",
+    "fluxCapacitors": 0,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "AL_phasingchimera",
+    "hullMods": ["phase_anchor"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_phasingchimera_Elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "AL_electricalcannon",
+                "WS0006": "AL_electricalcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_refusingpulse",
+                "WS0002": "AL_refusingpulse",
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd",
+                "WS0010": "AL_defenderpd",
+                "WS0011": "AL_defenderpd"
+            }
+        }
+    ]
+}

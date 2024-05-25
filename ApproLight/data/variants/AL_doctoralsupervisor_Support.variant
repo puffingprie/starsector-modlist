@@ -1,0 +1,81 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 18,
+    "fluxVents": 40,
+    "goalVariant": true,
+    "hullId": "AL_doctoralsupervisor",
+    "hullMods": [
+        "AL_glittertargetingcore",
+        "missleracks",
+        "AL_chainedmod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_doctoralsupervisor_Support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0024": "heatseeker",
+                "WS0025": "heatseeker",
+                "WS0026": "heatseeker",
+                "WS0027": "heatseeker"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0021": "AL_ruler_med",
+                "WS0022": "AL_ruler_med",
+                "WS0023": "AL_ruler_med",
+                "WS0028": "AL_ruler_med"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "tachyonlance",
+                "WS0020": "tachyonlance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "AL_protoncollider",
+                "WS0008": "AL_protoncollider"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_explodebeam",
+                "WS0002": "AL_explodebeam",
+                "WS0003": "AL_respectbeam",
+                "WS0004": "AL_respectbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd",
+                "WS0009": "AL_defenderpd",
+                "WS0010": "AL_defenderpd",
+                "WS0011": "AL_defenderpd",
+                "WS0012": "AL_defenderpd",
+                "WS0013": "AL_defenderpd",
+                "WS0014": "AL_defenderpd",
+                "WS0015": "AL_defenderpd",
+                "WS0016": "AL_defenderpd",
+                "WS0017": "AL_defenderpd",
+                "WS0018": "AL_defenderpd"
+            }
+        }
+    ]
+}

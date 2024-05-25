@@ -1,0 +1,172 @@
+{
+  id: "immortallight",
+  "color": [150, 110, 255, 255],
+  "displayName": "永光之锋",
+  "displayNameWithArticle": "永光之锋",
+  "logo": "graphics/factions/immortallight.png",
+  "crest": "graphics/factions/crest_immortallight.png",
+  "showInIntelTab": false,
+  "shipNamePrefix": "IL",
+  "shipNameSources": {
+    "SPACE": 1,
+    "APPROS": 1,
+  },
+  "names": {
+    "future": 1,
+  },
+  "illegalCommodities": [
+  ],
+  "portraits": {
+    "standard_male": [
+      "graphics/portraits/portraits_immortallight.png",
+    ],
+    "standard_female": [
+      "graphics/portraits/portraits_immortallight.png",
+    ],
+  },
+  "variantOverrides": {
+  },
+  "hullFrequency": {
+    "tags": {
+    },
+    "hulls": {
+    },
+  },
+  "shipsWhenImporting": {
+    "tags": [],
+    "hulls": [
+    ],
+  },
+  "knownShips": {
+    "tags": ["alpj_spirit_bp", "alpj_ether_bp", "prime_flame_bp", "morph_time_bp"],
+    "hulls": [
+      "AL_penciller",
+      "AL_boson",
+      "AL_phasingchimera",
+      "AL_euclid_m",
+      "AL_doctor",
+      "AL_repairfactory",
+      "AL_klistamanas",
+    ],
+  },
+  "priorityShips": {
+    "tags": ["alpj_spirit_bp", "alpj_ether_bp", "prime_flame_bp", "morph_time_bp"],
+    "hulls": [
+      "AL_penciller",
+      "AL_boson",
+      "AL_phasingchimera",
+      "AL_euclid_m",
+      "AL_doctor",
+      "AL_repairfactory",
+      "AL_klistamanas",
+    ],
+  },
+  "knownFighters": {
+    "tags": ["alpj_spirit_bp", "alpj_ether_bp", "prime_flame_bp"],
+    "fighters": [
+    ],
+  },
+  "priorityFighters": {
+    "tags": ["alpj_spirit_bp", "alpj_ether_bp", "prime_flame_bp"],
+    "fighters": [
+    ],
+  },
+  "knownHullMods": {
+    "tags": ["base_bp", "alpj_spirit_bp", "alpj_ether_bp"],
+    "hullMods": [
+      "advancedshieldemitter",
+      "advancedoptics",
+      "turretgyros",
+      "augmentedengines",
+      "auxiliarythrusters",
+      "dedicated_targeting_core",
+      "eccm",
+      "missleracks",
+      "extendedshieldemitter",
+      "fluxcoil",
+      "fluxdistributor",
+      "hardenedshieldemitter",
+      "hardened_subsystems",
+      "pointdefenseai",
+      "targetingunit",
+      "adaptiveshields",
+      "fluxbreakers",
+      "stabilizedshieldemitter",
+      "expanded_deck_crew",
+      "recovery_shuttles",
+      "operations_center",
+      "ecm",
+      "AL_DeuStove",
+      "AL_airrightequipment",
+      "AL_filteredphasecoating",
+      "AL_dimensiongenerator",
+      "AL_chainedmod",
+      "AL_frequencybuffergrid",
+      "AL_antideuengine",
+      "AL_shadowblueprint",
+      "AL_glittertargetingcore"
+    ]
+  },
+  "knownWeapons": {
+    "tags": ["hightech_bp", "alpj_spirit_bp", "alpj_ether_bp", "prime_flame_bp"],
+    "weapons": [
+    ],
+  },
+  "priorityWeapons": {
+    "tags": ["alpj_spirit_bp", "alpj_ether_bp", "prime_flame_bp"],
+    "weapons": [
+    ],
+  },
+  "music": {
+    "encounter_neutral": "ImmortalLight_encounter_hostile",
+    "encounter_hostile": "ImmortalLight_encounter_hostile",
+    "encounter_friendly": "ImmortalLight_encounter_hostile"
+  },
+  "custom": {
+    "exemptFromFoodShortages": true,
+    "noPatrols": true,
+    "ignoreTradeWithEnemiesForReputation": true,
+    "postsNoBounties": true,
+    "engageWhenEvenStrength": true,
+    "offersCommissions": false,
+    "engagesInHostilities": false,
+    "fightToTheLast": true,
+    "patrolsHaveNoPatrolMemoryKey": true,
+    "pirateBehavior": true,
+    "buysAICores": false,
+  },
+  "factionDoctrine": {
+    "warships": 5,
+    "carriers": 5,
+    "phaseShips": 5,
+    "officerQuality": 3,
+    "shipQuality": 5,
+    "numShips": 5,
+    "shipSize": 5,
+    "aggression": 5,
+    "combatFreighterProbability": 0.1, # instead of some portion of the freighters in a fleet
+    "combatFreighterCombatUseFraction": 0, # as part of the normal combat lineup
+    "combatFreighterCombatUseFractionWhenPriority": 0.1, # as part of normal combat lineup, when marked as priority ship
+    "autofitRandomizeProbability": 0.1,
+    "commanderSkillsShuffleProbability": 0,
+    "commanderSkills": [
+      "coordinated_maneuvers",
+      "electronic_warfare",
+      "fighter_uplink",
+      "carrier_group",
+      "flux_regulation",
+      "crew_training",
+      "officer_management"
+    ],
+  },
+  "traits": {
+    "admiral": {
+    },
+    "captain": {
+      "timid": 0,
+      "cautious": 0,
+      "steady": 10,
+      "aggressive": 3,
+    },
+  },
+},

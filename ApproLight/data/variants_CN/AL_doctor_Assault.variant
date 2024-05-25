@@ -1,0 +1,80 @@
+{
+    "displayName": "突击",
+    "fluxCapacitors": 40,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "AL_doctor",
+    "hullMods": [
+        "targetingunit",
+        "AL_filteredphasecoating",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_doctor_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "AL_moonfire_large",
+                "WS0014": "AL_moonfire_large"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0023": "AL_deitygun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "AL_explodebeam",
+                "WS0008": "AL_explodebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavyneedler",
+                "WS0002": "heavyneedler",
+                "WS0003": "railgun",
+                "WS0004": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0021": "phasecl",
+                "WS0022": "phasecl",
+                "WS0024": "phasecl",
+                "WS0025": "phasecl"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "heavyburst",
+                "WS0010": "heavyburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "AL_moonfire_small",
+                "WS0006": "AL_moonfire_small",
+                "WS0011": "AL_defenderpd",
+                "WS0012": "AL_defenderpd",
+                "WS0015": "AL_defenderpd",
+                "WS0016": "AL_defenderpd",
+                "WS0017": "AL_moonfire_small",
+                "WS0018": "AL_moonfire_small"
+            }
+        }
+    ]
+}

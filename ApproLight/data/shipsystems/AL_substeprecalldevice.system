@@ -1,0 +1,18 @@
+{
+	"id":"AL_substeprecalldevice",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"originem.al.shipsystems.scripts.AL_SubstepRecallDeviceStats",
+	"aiScript":"originem.al.shipsystems.scripts.ai.AL_SubstepRecallDeviceAI",
+
+	"useSound":"system_recall_device",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

@@ -1,0 +1,63 @@
+{
+  "id": "AL_pulsecannon",
+  "specClass": "projectile",
+  "projectileSpecId": "AL_pulsecannon_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "displayArcRadius": 450,
+  "turretSprite": "graphics/weapons/AL_pulsecannon_turret_base.png",
+  "turretGunSprite": "graphics/weapons/AL_pulsecannon_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/AL_pulsecannon_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/AL_pulsecannon_hardpoint_recoil.png",
+  "renderAboveAllWeapons": 0,
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    29,
+    -10,
+    29,
+    10,
+    27,
+    -3,
+    27,
+    3
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    32,
+    -10,
+    32,
+    10,
+    30,
+    -3,
+    30,
+    3
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 34,
+    "spread": 30,
+    "particleSizeMin": 12,
+    "particleSizeRange": 18,
+    "particleDuration": 0.4,
+    "particleCount": 15,
+    "particleColor": [
+      255,
+      185,
+      215,
+      215
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "AL_pulsecannon_fire"
+}

@@ -1,0 +1,50 @@
+{
+    "displayName": "进攻",
+    "fluxCapacitors": 14,
+    "fluxVents": 6,
+    "hullId": "AL_frozenyard_il",
+    "hullMods": [
+        "missleracks",
+        "AL_glittertargetingcore",
+        "AL_antideuengine"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_frozenyard_il_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "dragon",
+                "WS0008": "dragon",
+                "WS0011": "dragon",
+                "WS0012": "dragon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "squall"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0016": "tachyonlance"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "AL_subspace_detonation_unit",
+                "WS0014": "AL_subspace_detonation_unit"
+            }
+        }
+    ],
+    "wings": [
+        "flash_wing",
+        "flash_wing",
+        "flash_wing",
+        "flash_wing"
+    ]
+}

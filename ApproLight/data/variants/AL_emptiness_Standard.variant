@@ -1,0 +1,37 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 14,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "AL_emptiness",
+    "hullMods": [
+        "AL_glittertargetingcore",
+        "AL_filteredphasecoating"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_emptiness_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd",
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd",
+                "WS0007": "AL_defenderpd",
+                "WS0008": "AL_defenderpd",
+                "WS0010": "AL_defenderpd"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "AL_thunderpod",
+                "WS0002": "AL_thunderpod"
+            }
+        }
+    ]
+}

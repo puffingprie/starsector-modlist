@@ -1,0 +1,74 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 18,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "AL_frozenyard",
+    "hullMods": [
+        "AL_glittertargetingcore",
+        "AL_airrightequipment",
+        "expanded_deck_crew"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_frozenyard_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "AL_ruler_med",
+                "WS0008": "AL_ruler_med",
+                "WS0011": "AL_ruler_med",
+                "WS0012": "AL_ruler_med"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "AL_spiderpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0016": "AL_spiderlaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "AL_explodebeam",
+                "WS0014": "AL_explodebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "gravitonbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd",
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_moonfire_small",
+                "WS0002": "AL_moonfire_small"
+            }
+        }
+    ],
+    "wings": [
+        "AL_soulno_wing",
+        "AL_firelink_wing",
+        "AL_techno_wing",
+        "AL_techno_wing"
+    ]
+}

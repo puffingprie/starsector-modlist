@@ -1,0 +1,7 @@
+name,id,demand class,base price,export value,price variability,utility,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnit,iconWidthMult,plugin,desc
+PRIME辉金核心,AL_primecore,AL_primecore,175000,,0,1,,"nonecon,no_loss_from_combat",5,10,graphics/icons/cargo/AL_primecore.png,ui_cargo_raremetals,ui_cargo_raremetals_drop,15.4,,,1,,
+PRIME熔金建材,AL_primematerial,AL_primematerial,150000,,0,1,,"nonecon,no_loss_from_combat",10,5,graphics/icons/cargo/AL_primematerial.png,ui_cargo_raremetals,ui_cargo_raremetals_drop,15.5,,,1,,
+PRIME艳金外设,AL_primeperipheral,AL_primeperipheral,125000,,0,1,,"nonecon,no_loss_from_combat",15,3,graphics/icons/cargo/AL_primeperipheral.png,ui_cargo_raremetals,ui_cargo_raremetals_drop,15.6,,,1,,
+,,,,,,,,,,,,,,,,,,,
+被神性浸染的残骸,AL_contaminated_wreck,AL_contaminated_wreck,25000,,0,1,,"nonecon,no_loss_from_combat",1000,1,graphics/icons/cargo/AL_contaminated_wreck.png,ui_cargo_raremetals,ui_cargo_raremetals_drop,15.7,,,1,,
+Graven AI 核心,AL_graven_ai,AL_graven_ai,500000,,0,200,,"nonecon,no_loss_from_combat, no_drop",1000,1,graphics/icons/cargo/AL_graven_ai.png,ai_core_pickup,ui_alpha_core_drop,50,,,1,,

@@ -1,0 +1,29 @@
+{
+	"id":"AL_pressurizeddriver",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE",
+	
+	"statsScript":"originem.al.shipsystems.scripts.AL_PressurizedDriverStats",
+	
+	"engineGlowLengthMult":2,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":1.5,
+
+	"flameoutOnImpactChance":0.5,
+
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	"useSound":"system_burn_drive_activate",
+	"loopSound":"system_burn_drive_loop",
+	"deactivateSound":"system_burn_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":100,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":100,
+	}
+}

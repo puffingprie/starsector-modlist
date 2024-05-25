@@ -1,0 +1,19 @@
+{
+  "id": "AL_moonlight_large_shot",
+  "specClass": "projectile",
+  #"spawnType": "BEAM",
+  "spawnType": "BALLISTIC_AS_BEAM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "onHitEffect": "originem.al.scripts.weapons.proj.AL_MoonLightLargeOnHit",
+  "onFireEffect": "originem.al.scripts.weapons.proj.AL_MoonLightLargeOnHit",
+  "length": 70.0,
+  "width": 30.0,
+  "hitGlowRadius": 60,
+  "fadeTime": 0.25,
+  "fringeColor": [100, 0, 255, 255],
+  "coreColor": [255, 255, 255, 200],
+  "textureType": "MEDIUM", # only needed for BEAM spawnType
+  "textureScrollSpeed": -256.0,
+  "pixelsPerTexel": 1.0
+}

@@ -1,0 +1,14 @@
+{
+  "baseHullId": "AL_scholar_s",
+  "descriptionId":"AL_scholar_s",
+  "descriptionPrefix":"Time not come, spirit is stained",
+  "tags":["no_bp_drop"],
+  "tech":"Immortal-Light",
+  "baseValueMult": 1.5,
+  "ordnancePoints":280,
+  "hullName":"I.L.S.S",
+  "skinHullId": "AL_scholar_ils",
+  "builtInMods":[],
+  "addHints":["HIDE_IN_CODEX"],
+  "spriteName": "graphics/ships/il/AL_scholar_ils.png"
+}

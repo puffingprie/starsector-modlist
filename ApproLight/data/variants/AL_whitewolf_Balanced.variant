@@ -1,0 +1,47 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 3,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "AL_whitewolf",
+    "hullMods": [
+        "advancedoptics",
+        "AL_glittertargetingcore",
+        "AL_filteredphasecoating",
+        "AL_penetrationarms"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_whitewolf_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "ionbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_explodebeam",
+                "WS0002": "AL_explodebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "taclaser",
+                "WS0004": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd"
+            }
+        }
+    ]
+}

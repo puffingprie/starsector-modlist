@@ -1,0 +1,31 @@
+1.1.1:
+	Ported over Appro 1.1.1
+	
+	Renamed Colorless Imagination to Monochrome Mantra
+	(tried to) fix ultra beam description (thanks ansari)
+	Removed duplicate portraits (making it save incompatible rip)
+	
+	My dumb ass failed to port over the person_missions.csv for 1.1.0, so now it's there and hopefully works
+	Related to the above: changed references to "Confidant" to "Seeker" (as it's meant to be the Dynasty Seeker)
+	
+	Corrects the following untranslated things:
+		Subtext for keel helping you repair the isomery
+		Corrosion Piercer Armament's category
+
+	Fixes several other minor things
+
+1.0.6-B5:
+
+Major:
+-Starting keeping a changelog file.
+-Fixed the inaccurate descriptions of the following things:
+	Tablet, Euclid, Pupil, Divine Knowledge, White Wolf, Euclid (M) ship systems
+	Deity Cannon, Purging Fire Pulse Cannon, PF - Respector Star-Cannon, and Respector Tri-Beam onhit effects
+-The Fire Corrosion clues are hopefully less confusing now (Thanks to TheDragn)
+-Julianne's role is now actually added
+
+Minor:
+
+-Made some relatively minor fixes to almost everything (whether due to errors or the translation needing updating to match the modern version). Planets, ship systems, weapons, etc.
+-Knowledge and Divine Knowledge are now "Divine Destroyer/Divine Cruiser" rather than "Core Ship/Expedition Cruiser"
+-References to Burst Fog and Breaking Mist are now consistent in favor of the latter

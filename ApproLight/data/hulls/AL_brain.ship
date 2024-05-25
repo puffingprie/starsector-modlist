@@ -1,0 +1,283 @@
+{
+  "hullName": "AL_brain",
+  "hullId": "AL_brain",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/AL_brain.png",
+  "style": "APPRO_TECH",
+  "height": 246,
+  "width": 190,
+  "center": [95, 138],
+  "collisionRadius": 155,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 150.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "AL_brainAI"
+  ],
+  "builtInWeapons": {
+    "D01": "AL_Decorative_brain",
+    "WS0001": "AL_defenderpd",
+    "WS0002": "AL_defenderpd",
+    "WS0003": "AL_defenderpd",
+    "WS0004": "AL_defenderpd",
+    "WS0005": "AL_defenderpd",
+    "WS0006": "AL_defenderpd"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 115,
+      "locations": [-21, 77]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": -115,
+      "locations": [-21, -77]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 180,
+      "locations": [-57, 42]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": -180,
+      "locations": [-57, -42]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 0,
+      "locations": [23, 22]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 0,
+      "locations": [23, -22]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 45,
+      "locations": [-23, 48]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -45,
+      "locations": [-23, -48]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [45, 44]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [45, -44]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [55, 19]
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [55, -19]
+    },
+    {
+      "id": "D01",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-12, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-75, 55],
+      "length": 42.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-75, -55],
+      "length": 42.5,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-60, 60],
+      "length": 30.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-60, -60],
+      "length": 30.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-57.5, 67],
+      "length": 33.808586,
+      "width": 6.994173,
+      "angle": 159.717438,
+      "contrailSize": 6.994173,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [-57.5, -67],
+      "length": 33.808586,
+      "width": 6.994173,
+      "angle": -159.717438,
+      "contrailSize": 6.994173,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [30.5, -68.5],
+      "length": 19.091883,
+      "width": 7.071068,
+      "angle": -135,
+      "contrailSize": 7.071068,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [30.5, 68.5],
+      "length": 19.091883,
+      "width": 7.071068,
+      "angle": 135,
+      "contrailSize": 7.071068,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [34.5, -70.5],
+      "length": 17.324116,
+      "width": 6.363961,
+      "angle": -135,
+      "contrailSize": 6.363961,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [34.5, 70.5],
+      "length": 17.324116,
+      "width": 6.363961,
+      "angle": 135,
+      "contrailSize": 6.363961,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [39, -73.5],
+      "length": 13.435029,
+      "width": 5.656854,
+      "angle": -135,
+      "contrailSize": 5.656854,
+      "style": "APPRO_ENGINE"
+    },
+    {
+      "location": [39, 73.5],
+      "length": 13.435029,
+      "width": 5.656854,
+      "angle": 135,
+      "contrailSize": 5.656854,
+      "style": "APPRO_ENGINE"
+    }
+  ],
+  "bounds": [
+    -55.5, -16.5,
+    -117, -43.5,
+    -58, -50,
+    -75, -58.5,
+    -46.5, -79.5,
+    -24, -88.5,
+    1.5, -66.5,
+    -10.5, -41.5,
+    9.5, -38.5,
+    12, -60,
+    38, -73,
+    55, -74.5,
+    93, -48.5,
+    76, -37.5,
+    103, -19,
+    93.5, -19,
+    60.5, -33,
+    69, -12,
+    47, -9.5,
+    47, 9.5,
+    69, 12,
+    60.5, 33,
+    93.5, 19,
+    103, 19,
+    76, 37.5,
+    93, 48.5,
+    55, 74.5,
+    38, 73,
+    12, 60,
+    9.5, 38.5,
+    -10.5, 41.5,
+    1.5, 66.5,
+    -24, 88.5,
+    -46.5, 79.5,
+    -75, 58.5,
+    -58, 50,
+    -117, 43.5,
+    -55.5, 16.5
+  ]
+}

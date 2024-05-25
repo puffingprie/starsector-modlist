@@ -1,0 +1,64 @@
+{
+  "id": "AL_respectbeam",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "beamEffect": "originem.al.scripts.weapons.AL_RespectBeamEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/AL_respectbeam_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/AL_respectbeam_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/AL_respectbeam_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/AL_respectbeam_hardpoint_glow.png",
+  "glowColor": [
+    255,
+    100,
+    100,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    8,
+    0,
+    12,
+    6,
+    12,
+    -6
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    13.5,
+    0,
+    17.5,
+    6,
+    17.5,
+    -6
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    0,
+    0,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 12,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 128,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundTwo": "AL_respectbeam_loop"
+}

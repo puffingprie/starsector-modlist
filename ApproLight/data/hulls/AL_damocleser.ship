@@ -1,0 +1,118 @@
+{
+    "hullName": "AL_damocleser",
+    "hullId": "AL_damocleser",
+    "hullSize": "FIGHTER",
+    "spriteName": "graphics/ships/damocleser/AL_damocleser.png",
+    "style": "APPRO_TECH",
+    "height": 58,
+    "width": 58,
+    "center": [
+        29,
+        26
+    ],
+    "collisionRadius": 35.5,
+    "shieldCenter": [
+        0,
+        0
+    ],
+    "shieldRadius": 34.5,
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "id": "WS0001",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 60,
+            "angle": 0,
+            "locations": [
+                -6,
+                14
+            ]
+        },
+        {
+            "id": "WS0002",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 60,
+            "angle": 0,
+            "locations": [
+                -6,
+                -14
+            ]
+        },
+        {
+            "id": "WS0003",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                -5,
+                0
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -16,
+                6
+            ],
+            "length": 20.085865,
+            "width": 7.15765,
+            "angle": 173,
+            "contrailSize": 7.15765,
+            "style": "APPRO_ENGINE"
+        },
+        {
+            "location": [
+                -16,
+                -6
+            ],
+            "length": 20.085865,
+            "width": 7.15765,
+            "angle": -173,
+            "contrailSize": 7.15765,
+            "style": "APPRO_ENGINE"
+        },
+        {
+            "location": [
+                -17,
+                2.5
+            ],
+            "length": 11.882862,
+            "width": 4.380675,
+            "angle": 166,
+            "contrailSize": 4.380675,
+            "style": "APPRO_ENGINE"
+        },
+        {
+            "location": [
+                -17,
+                -2.5
+            ],
+            "length": 11.882862,
+            "width": 4.380675,
+            "angle": -166,
+            "contrailSize": 4.380675,
+            "style": "APPRO_ENGINE"
+        }
+    ],
+    "bounds": [
+        -21,
+        -13,
+        6,
+        -13,
+        13.5,
+        -3.5,
+        13.5,
+        3.5,
+        6,
+        13,
+        -21,
+        13
+    ]
+}

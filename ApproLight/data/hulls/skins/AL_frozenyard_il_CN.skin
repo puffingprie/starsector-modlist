@@ -1,0 +1,14 @@
+{
+  "baseHullId": "AL_frozenyard",
+  "descriptionId":"AL_frozenyard",
+  "descriptionPrefix":"子时未到，神性已染",
+  "tags":["no_bp_drop"],
+  "tech":"永光之锋",
+  "baseValueMult": 1.5,
+  "ordnancePoints":280,
+  "hullName":"寒院(IL)",
+  "skinHullId": "AL_frozenyard_il",
+  "builtInMods":[],
+  "addHints":["HIDE_IN_CODEX"],
+  "spriteName": "graphics/ships/il/AL_frozenyard_il.png"
+}

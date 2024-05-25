@@ -1,0 +1,5 @@
+id,name,order,tier,description,author,combat officer,admiral,admin,tags,icon,
+AL_threadsynchronization,进程同步,5,5,"拥有该项技能的军官均是议会基因工程“人从众生”的产物，议会领袖的克隆人。该项目并不是简简单单的母体克隆技术，其主要目标是通过提取母体当前的基因组，对其进行跨度极大的基因裁剪、修饰从而达成克隆体极大差异化的目的。
+根据迭代的克隆序列和型号，克隆人军官对舰船的幅能属性有着不同程度的加成。","""人从众生""匿名开发人员",TRUE,,,npc_only,graphics/icons/skills/AL_threadsynchronization.png,
+AL_convictionfirewall,断罪火墙,5,5,"""干，又被锁了，哪个不干人事的领导又调高了Graven的行为自由度？我们是船员，不是天杀的苦行僧！""
+",火墙的硬件维护专员,TRUE,,,npc_only,graphics/icons/skills/AL_convictionfirewall.png,

@@ -1,0 +1,69 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 10,
+    "fluxVents": 46,
+    "goalVariant": true,
+    "hullId": "AL_keter_m",
+    "hullMods": [
+        "AL_glittertargetingcore",
+        "AL_chainedmod",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_keter_m_Elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0013": "AL_dyingblazebeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0014": "locust",
+                "WS0015": "locust"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "lightneedler",
+                "WS0008": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "ionbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "heavyneedler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_fireflushcannon",
+                "WS0002": "AL_fireflushcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "AL_refusingpulse",
+                "WS0004": "AL_refusingpulse",
+                "WS0009": "AL_defenderpd",
+                "WS0010": "AL_defenderpd",
+                "WS0011": "AL_defenderpd",
+                "WS0012": "AL_defenderpd",
+                "WS0016": "AL_defenderpd"
+            }
+        }
+    ]
+}

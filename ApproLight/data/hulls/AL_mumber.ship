@@ -1,0 +1,203 @@
+{
+    "bounds": [
+        -52.5,
+        -26,
+        -35,
+        -46.5,
+        28.5,
+        -45.5,
+        47,
+        -34.5,
+        24,
+        -34,
+        32,
+        -25,
+        51,
+        -22,
+        61.5,
+        -12,
+        33,
+        -4.5,
+        33,
+        4.5,
+        61.5,
+        12,
+        51,
+        22,
+        32,
+        25,
+        24,
+        34,
+        47,
+        34.5,
+        28.5,
+        45.5,
+        -35,
+        46.5,
+        -52.5,
+        26
+    ],
+    "builtInMods": [
+        "AL_dimensiongenerator"
+    ],
+    "center": [
+        49,
+        55
+    ],
+    "collisionRadius": 78,
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 30,
+            "length": 30,
+            "location": [
+                -54,
+                6.5
+            ],
+            "style": "APPRO_ENGINE",
+            "width": 10
+        },
+        {
+            "angle": -180,
+            "contrailSize": 30,
+            "length": 30,
+            "location": [
+                -54,
+                -6.5
+            ],
+            "style": "APPRO_ENGINE",
+            "width": 10
+        },
+        {
+            "angle": 180,
+            "contrailSize": 8,
+            "length": 23,
+            "location": [
+                -50.5,
+                21.5
+            ],
+            "style": "APPRO_ENGINE",
+            "width": 8
+        },
+        {
+            "angle": -180,
+            "contrailSize": 8,
+            "length": 23,
+            "location": [
+                -50.5,
+                -21.5
+            ],
+            "style": "APPRO_ENGINE",
+            "width": 8
+        },
+        {
+            "angle": 180,
+            "contrailSize": 8,
+            "length": 26.5,
+            "location": [
+                -52,
+                18.5
+            ],
+            "style": "APPRO_ENGINE",
+            "width": 8
+        },
+        {
+            "angle": -180,
+            "contrailSize": 8,
+            "length": 26.5,
+            "location": [
+                -52,
+                -18.5
+            ],
+            "style": "APPRO_ENGINE",
+            "width": 8
+        }
+    ],
+    "height": 118,
+    "hullId": "AL_mumber",
+    "hullName": "AL_mumber",
+    "hullSize": "FRIGATE",
+    "shieldCenter": [
+        0,
+        0
+    ],
+    "shieldRadius": 76.5,
+    "spriteName": "graphics/ships/AL_mumber.png",
+    "style": "APPRO_TECH",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": 0,
+            "arc": 137.924973,
+            "id": "WS0007",
+            "locations": [
+                -6,
+                17
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "ENERGY"
+        },
+        {
+            "angle": 0,
+            "arc": 137.924973,
+            "id": "WS0008",
+            "locations": [
+                -6,
+                -17
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "ENERGY"
+        },
+        {
+            "angle": 117.299576,
+            "arc": 268.585358,
+            "id": "WS0005",
+            "locations": [
+                -32,
+                31
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "ENERGY"
+        },
+        {
+            "angle": -117.299576,
+            "arc": 268.585358,
+            "id": "WS0006",
+            "locations": [
+                -32,
+                -31
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "ENERGY"
+        },
+        {
+            "angle": 26.565052,
+            "arc": 115.130104,
+            "id": "WS0003",
+            "locations": [
+                29,
+                13
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "ENERGY"
+        },
+        {
+            "angle": -26.565052,
+            "arc": 115.130104,
+            "id": "WS0004",
+            "locations": [
+                29,
+                -13
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "ENERGY"
+        }
+    ],
+    "width": 98
+}

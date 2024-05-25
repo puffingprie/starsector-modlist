@@ -1,0 +1,49 @@
+{
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 600,
+  "fireSoundTwo": "AL_moonfire_large_fire",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointGunSprite": "graphics/weapons/AL_moonfire_large_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    31,
+    8,
+    31,
+    -8
+  ],
+  "hardpointSprite": "graphics/weapons/AL_moonfire_large_hardpoint_base.png",
+  "id": "AL_moonfire_large",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 5.0,
+    "particleSizeRange": 24.0,
+    "cloudParticleCount": 20,
+    "cloudDuration": 0.5,
+    "cloudRadius": 10.0,
+    "blowbackParticleCount": 30,
+    "blowbackDuration": 1,
+    "blowbackLength": -30.0,
+    "blowbackSpread": 5.0,
+    "particleColor": [60, 30, 90, 64]
+  },
+  "projectileSpecId": "AL_moonlight_large_shot",
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/AL_moonfire_large_turret_recoil.png",
+  "turretOffsets": [
+    26,
+    8,
+    26,
+    -8
+  ],
+  "turretSprite": "graphics/weapons/AL_moonfire_large_turret_base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 7
+}

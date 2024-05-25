@@ -1,0 +1,47 @@
+{
+    "displayName": "打击",
+    "fluxCapacitors": 12,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "AL_archimedes",
+    "hullMods": [
+        "AL_glittertargetingcore",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "AL_archimedes_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "AL_lighter_large"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "MA_SLOT": "sabotpod",
+                "WS0003": "sabot",
+                "WS0004": "sabot",
+                "WS0005": "sabot",
+                "WS0006": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "ionbeam",
+                "WS0008": "ionbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_refusingpulse",
+                "WS0002": "AL_refusingpulse"
+            }
+        }
+    ]
+}

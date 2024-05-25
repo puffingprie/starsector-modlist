@@ -1,0 +1,513 @@
+id,trigger,conditions,script,text,options,notes
+#greetings,,,,,,
+greetingALFriendly,OpenCommLink,"$faction.id == approlight
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""我们趋光者向来趋同, 伙计, 我看我与你有缘, 要来一份议长的克隆人吗? 性能和耶梦加得长官获得的那一位很像哦? (小声)"" 
+OR
+"" $personRank 向你致敬, 我的朋友, 在议会的保护下不用那么紧张.""
+OR
+""你也在迈向光的旅途中吗... 呃, 我是说, 扫描完毕, 祝你一路顺风."" $personName 挠了挠自己的脸颊.",,
+greetingALHostileWeaker,OpenCommLink,"$faction.id == approlight
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""你今天犯的错就是遇上了我! 支援我的议员们已经快要到了, 束手就擒吧! "" $personRank 大喊着切断通讯链接.
+OR
+""你这混蛋, 你知道我的身份吗? 向议会开火就得承受议会的怒火! "" $personName 看起来非常慌张, $heOrShe 声嘶力竭得说道, ""你们这些家伙一定会被做成章鱼! """,cutCommLink:切断通讯,
+greetingALHostileWeakerDefiant,OpenCommLink,"$faction.id == approlight
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"$personRank 冷酷地说: ""当我趋光之时, 宇宙都将为我而颤抖!"" 并做出了决绝的姿态.
+OR
+""趋光者无所畏惧!"" 狂热的 $personRank 随即切断通讯链接.",cutCommLink:切断通讯,
+greetingALHostileStronger,OpenCommLink,"$faction.id == approlight
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""你, 跪地停驻, 而趋光者, 永不止步!""
+OR
+""我们将对你的反抗进行武力镇压, 所以, 请你马上投降吧.""",cutCommLink:切断通讯,
+greetingALNeutral,OpenCommLink,"$faction.id == approlight
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""我们一同追求的真理正在星空中闪耀. "" $personRank 念叨着, ""我的意思是, 你没事的话能不能赶紧离开? 我还有自己的事要做, 完毕.""
+OR
+""你的身份已经被识别, 这附近有军事重地, 闲人勿进, 完毕."" $personRank 剪着指甲开了个无聊的玩笑.",,
+,,,,,,
+greetingALExiledGuard,OpenCommLink,"$faction.id == approlight
+$entity.AL_isExiledGuard score:1000
+!$faction.hostileToPlayer",$ignorePlayerCommRequests = true 1,"""..."" $personName 一言不发，神色平淡地看着你。",cutCommLink:切断通讯,
+greetingALExiledGuardHostile,OpenCommLink,"$faction.id == approlight
+$entity.AL_isExiledGuard score:1000
+$faction.hostileToPlayer",$ignorePlayerCommRequests = true 1,"""..."" $personName 神色紧张地看着你，她似乎并不想与你有所争执。",cutCommLink:切断通讯,
+,,,,,,
+greetingIL,OpenCommLink,$faction.id == immortallight,$ignorePlayerCommRequests = true 1,"""臭虫。""
+OR
+""过去的尘埃。""",cutCommLink:切断通讯,
+greetingILHunted,OpenCommLink,"$faction.id == immortallight
+$hunted",$ignorePlayerCommRequests = true 1,"""离那片区域很远，却得不到宽恕。""
+OR
+""信光者恒得暗吗？""",cutCommLink:切断通讯,
+,,,,,,
+relLevelNeutralApprolight,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == approlight",,"议会并不觉得你有什么东西值得他们费心, 他们不想搭理你.",,
+relLevelFavorableApprolight,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == approlight",,"你的行动让议会部分和蔼的高层官员开始接受你, 但并不代表其他掌权者乐意看见你.",,
+relLevelWelcomingApprolight,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == approlight",,"议会接纳你的存在, 部分官员开始与你进行深度交流并交换情报.",,
+relLevelFriendlyApprolight,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == approlight",,"议会将你视为座上宾, 报出你的名号甚至能在一些议会娱乐设施享受特权.",,
+relLevelCooperativeApprolight,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == approlight",,"议会赋予你在议长开例会时优先与他交流的权利, 并完全向你开放了军火交易权限, 这意味着在议会的政治领域, 你已万人之上.",,
+relLevelSuspiciousApprolight,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == approlight",,"在可知的议会疆土里, 议会觉得你是只碍眼的小苍蝇, 虽说有迹可循, 但起不了大风浪.",,
+relLevelInhospitableApprolight,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == approlight",,"议会为了保证情报安全, 已经拒绝和你进行交易, 并加大了对你的搜查力度.",,
+relLevelHostileApprolight,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == approlight",,"议会的天罗地网已经布下, 特殊部队已蓄势待发, 你在议会的领域里将处处受阻, 不得安宁.",,
+relLevelVengefulApprolight,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == approlight",,"议会的头条新闻上到处充斥着你的全息头像, 你的危害性甚至惊动了双蛇之目, 兴许在不久的将来, 议会的高级舰队就将前来追捕你.",,
+flavorTextMarketApproLight,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == approlight","AddText ""港口大厅门口异常繁华，各个舰艇停泊位附近的检测设备给人一种超出了英仙座理解范围的先进感。紫色调的庄严肃穆装点着各个角落，以六芒星为主基调的旗帜随处可见。穿着色调华丽但非常干练的武装警卫将你带到了市场中心，在这里，一切都变得有价值。"" marketFlavorTextColor
+AddText ""一架民用无人机 从你头顶上飞过, 看着无人机上悬挂的 议长大字报, 你能感受到他们 正在自发进行 个人英雄主义 的宣传, 但根据 情报头子的说法, 有些科学家似乎 非常排斥 这个现象. "" marketFlavorTextColor",,,
+,,,,,,
+relLevelImmortalLight,RelationshipLevelDesc,$faction.id == immortallight,,欲邀汝等共瞻我主之光，吾等供两途任君选择：共事永光，或降逝以得安宁。,,
+,,,,,,
+,,,,,,
+#fleet greeting,,,,,,
+AL_greetingGhostPioneer,OpenCommLink,$entity.isGhostPioneerFleet score:100,$entity.ignorePlayerCommRequests = true 1,"""让开，我们在执行公务。""",cutCommLink:切断通讯,
+AL_greetingTenshi,OpenCommLink,$entity.isTenshiFleet score:101,$entity.ignorePlayerCommRequests = true 1,"""我寻思你来找我应该不只是唠嗑这么简单，我已经感觉到一种特殊的恶寒了。""",cutCommLink:切断通讯,
+,,,,,,
+#higgs meeting,,,,,,
+AL_gh_higgsGreeting,OpenCommLink,"$entity.isHiggsFleet score:1000
+$isKeel","ALKeelRep
+ALClueGenerator update
+FireBest AddHiggsOptions",,,
+AL_gh_hostileOptions,AddHiggsOptions,$faction.hostileToPlayer,$entity.ignorePlayerCommRequests = true 1,"""罪于彼身，吾来定夺。""对方切断了通讯。", ,
+AL_gh_firstMeetOptions,AddHiggsOptions,"!$talkedTo
+!$faction.hostileToPlayer",,"""陌生的舰长，请您尽快离开这片罪孽之域，我无法在此保证你的安全。""
+
+通讯的成像被干扰了，神秘而具有某种意向的游动线条让你心神有些不宁。对方的声音听上去是一名严肃的年轻女性，可能是这位AI的偏好。","0:AL_gh_who:""你是谁？""
+10:cutCommLink:切断通讯",
+AL_gh_metOptions,AddHiggsOptions,"$talkedTo
+!$faction.hostileToPlayer","FireBest ALKeelCheckWreck
+SetTooltip AL_keelPurify ""让基路帮你去除永光异构的副作用。""
+FireBest ALKeelCheckPurify","""请尽快离开。""基路-希格斯的声音很平静，仿佛你们从未见过面。","0:AL_handInWreck:""我这里有一些残骸，听说你有需求...""
+1:AL_keelPurify:""我希望你能帮助我解决一些永光舰船的问题...""
+2:AL_keelTalk:""我们聊一聊?""
+10:cutCommLink:切断通讯",
+AL_gh_metOptionsWithIfsCompleted,AddHiggsOptions,"$talkedTo
+!$faction.hostileToPlayer
+$global.AL_mission_ifsCompleted
+!$talkedAboutIfs",,"""听说您让那个叛徒的旗舰沉没在了宇宙中的某个阴暗角落。""基路-希格斯的语气带着些许欢快，""我对此有些印象，那确实是一场令人印象深刻的战役，在各种方面上。""
+
+她停顿了一会，像是在回忆，""当我的下属们从后方击溃那些永光舰船时，它们意外发现了一支从战场上偷偷撤出的趋光舰队：可耻的叛徒抛下同伴，让战线直接缺了道口子，差点让整个军团的阵型土崩瓦解。所幸在吾等的努力下，问题没有进一步扩大。那时候议会的舰队力量已经捉襟见肘，若让永光之锋突围，哪怕就一个舰队，说不定都会危及大公空间站，我的安排就...""
+
+她突然停下来。","0:AL_gh_ifs_continue:""安排？什么样的安排?""你按耐不住在自己的好奇心。
+",
+AL_gh_metOptionsWithIfsCompletedContinue,DialogOptionSelected,$option == AL_gh_ifs_continue,"AdjustRepActivePerson COOPERATIVE 5
+$talkedAboutIfs = true","""可能密会上会有你想知道的答案，但现在就了解它不一定对你有好处。""对方并不愿意过多透露，""总之这件事我得感谢你。""",10:cutCommLink:切断通讯,
+AL_gh_metOptionsWithFullRel,AddHiggsOptions,"$talkedTo
+!$faction.hostileToPlayer
+$rel >= 1 score:1001
+!$gravenGiven score:1000","$gravenGiven = true
+AddRemoveCommodity AL_graven_ai 1","一艘小型穿梭舱接近了你的舰队， 你疑惑地看向基路，微笑出现在她刚毅的脸庞上。
+
+""一点小礼，不成敬意。""她划出一道投影屏，上面写满了让你眼花缭乱的参数，""这是一颗以我的人格为模板改造的AI核心，名为 Graven。现在在试验阶段，你可以拿去试用，就当做您一直帮我们忙的回礼。""
+
+一台酷似旧时代服务器主机的机器显示在投影屏上，她继续说道：""放心，我已经重置了她的性格参数并降低了人格指数，请您不要有心理负担。""
+
+片刻，你收到通讯官的消息，说是那台主机接入网络后强制加密了几乎所有让船员喜闻乐见的影像文件，并且在各个舰船的主控室痛骂船员""肮脏，有罪""。你看向基路-希格斯。
+
+""...我马上为您下调她的行为自由度。""她眼神飘忽，""不管怎样，请允许我再次向您表达谢意。""",10:cutCommLink:切断通讯,
+,,,,,,
+AL_gh_checkWreck,ALKeelCheckWreck,!ALKeelWreck hasWreck,"SetTooltip AL_handInWreck ""你没有 被神性浸染的遗骸。""
+SetEnabled AL_handInWreck false",,,
+AL_gh_handInWreck,DialogOptionSelected,$option == AL_handInWreck,ALKeelWreck handInWreck,,,
+AL_gh_handInWreckCompleted,ALWreckTurnedIn,,FireAll PopulateOptions,"""尊敬的舰长，您帮了大忙了。""她的语气带着一些恭敬，但似乎不想多说什么了。",,
+,,,,,,
+AL_gh_checkPurify,ALKeelCheckPurify,!ALKeelPurify canPurify,"SetTooltip AL_keelPurify ""让基路帮你去除永光异构的副作用。你需要和基路关系达到合作以上。离下次使用该功能还有 $AL_keelPurifiedStr 。""
+SetEnabled AL_keelPurify false",,,
+AL_gh_purify,DialogOptionSelected,$option == AL_keelPurify,ALKeelPurify purify,,,
+,,,,,,
+AL_gh_Text0,DialogOptionSelected,$option == AL_gh_who,"SetStoryOption AL_gh_thankOk general ""展现你的信任与关心""","""裂隙之外，我即牢墙。断罪之剑，基路-希格斯向您致敬。""
+
+对方的声音铿锵有力，让你的内心颤了一下。她介绍完自己的名字后，声音变得逐渐平缓，在表达了自己并无恶意后，她平铺直叙地向你解释了一切：
+
+这位叫基路的人工智能因为某种不能说的原因，从趋光议会的地盘上逃出，来到了Seker这颗星球上，和在不远处至高逸散星云之中的永光之锋舰队展开了周期为半个月到一个月的持久搏斗。而她的舰队也是通过抓捕永光之锋战舰并进行反洗脑来补充的。
+
+""趋光议会的舰队都畏于接近我们，尽管我们在与永光之锋战斗，但毕竟我的伙伴们身上还烙着它们的印记。""她的声音有些无奈，""陌生的舰长，建议您赶紧走吧，这里有我一个人——人工智能就够了。""","1:AL_gh_thankOk:""我会马上离开，不过你要记住，现在你不是一个人了。""
+2:AL_gh_normalOk:""我明白了，感谢你的好意。""
+10:cutCommLink:切断通讯",
+AL_gh_ThankOk,DialogOptionSelected,$option == AL_gh_thankOk,"AdjustRepActivePerson COOPERATIVE 5
+AdjustRep $personFaction.id COOPERATIVE 10
+$talkedTo = true","""...""
+
+对方沉默了片刻，突然笑了起来，""感谢您的信任。""
+
+随之她切断了通讯，并且对你的通讯请求不再有任何反应。
+",cutCommLink:切断通讯,
+AL_gh_NormalOk,DialogOptionSelected,$option == AL_gh_normalOk,$talkedTo = true,"""感谢您的理解。""对方郑重地回复后切断了通讯，并且对你的通讯请求不再有任何反应。",cutCommLink:切断通讯,
+,,,,,,
+AL_gh_talk,DialogOptionSelected,"$option == AL_keelTalk
+$rel < 0.5","ALClueGenerator roll AL_keel
+FireAll PopulateOptions",对方似乎很乐于与你交谈，片刻后...,,
+AL_gh_talkFriendly,DialogOptionSelected,"$option == AL_keelTalk
+$rel >= 0.5","ALClueGenerator roll AL_keel_friendly AL_keel
+FireAll PopulateOptions",对方似乎很乐于与你交谈，片刻后...,,
+,,,,,,
+,,,,,,
+#dynastyseeker pre,,,,,,
+AL_ifs_talkingToSeeker,MarketPostDock,$market.AL_mission_ifs_seeker_location score:1000,"Call $global.AL_mission_ifs_ref updateData
+ShowPersonVisual true AL_ip_dynastySeeker
+FireBest SeekerTalkStage",,,
+,,,,,,
+AL_ifs_talkingToSeekerFirst,SeekerTalkStage,$AL_mission_ifs_stage == TALKING_TO_SEEKER score:100,,"当你的$shipOrFleet在 $market 停靠时，你收到了一个匿名通讯请求。
+
+你眉头一皱，这个请求轻易越过了你的通讯防火墙，你还来不及作出反应，这个通讯请求就被自动接受了。
+
+""你来了。""
+
+透过显示器，信息发送者的身影在 $market 赛博城市五彩斑斓的霓虹灯下显得有些飘渺，他抬起头，屏幕上一个闪烁的六芒星图案遮住了他的脸庞。你敏锐地察觉到，这个六芒星和趋光议会的标志有着微妙的不同。
+
+""很好，追寻真相需要这份求知欲。""","AL_mission_ifs_talkingFirst_option0:""你是谁?""",
+AL_ifs_talkingToSeekerFirst01,DialogOptionSelected,$option == AL_mission_ifs_talkingFirst_option0,,"""我？我是窥密者，执至高密会之权柄，是群星中至高王朝的继承人，也将是你的引路者。""
+
+他的嗓音沙哑，却有股不容忽视的力量。你稍作回忆，发现他像极了那些卢德传道者。","AL_mission_ifs_talkingFirst_option1:""至高王朝？那是什么？""",
+AL_ifs_talkingToSeekerFirst02,DialogOptionSelected,$option == AL_mission_ifs_talkingFirst_option1,,"他稍做思索，语气变得有些狂热。
+
+""更准确的说，是趋光王朝，趋光在宇宙深渊中的原初形态。"" 他张开臂膀，像是在拥抱宇宙，又慢慢紧握双拳， ""透过集会中流通的真理，你将会认识到现今这个议会是何等松散而堕落。""
+
+虽然他的脸被遮掩，但你仿佛仍能感受到他目光中的愤怒与真诚。
+
+""接触媒介者应能得真相，求知若渴者方能得救赎，至高门扉现在正向你敞开。""","AL_mission_ifs_talkingFirst_option2:""你的意思是，想让我加入你们？""",
+AL_ifs_talkingToSeekerFirst03,DialogOptionSelected,$option == AL_mission_ifs_talkingFirst_option2,"$global.AL_mission_ifs_startSearching = true
+Call $global.AL_mission_ifs_ref updateData","""是的。加入密会，交换媒介，我等将是探索王朝秘辛的同路人。""他点点头，""但是，密会不收无价值之人，正如媒介只会由无上介质塑造。谨遵虔诚之信条，恪守王朝之条规，才能加入漫长星途中的密会。""
+
+他没有留下给你询问的时间， ""为了证明自己的价值，你需要去解决一个叛徒——请放心，一个被官方通缉的逃兵而已，密会希望他带着悔恨下地狱。这是一次考验，但我不会让你空手而归。""
+
+还未待你发出质疑，一条匿名信息就进入了你的网络系统。仅仅片刻之间，他就从你的屏幕中消失了，没过几秒，通讯连接自动中断。
+
+""奇怪的人。""你嘀咕着，看着那条信息，你有自己的决断。
+",AL_mission_ifs_backToMarket:切断通讯,
+AL_ifs_backToMarket,DialogOptionSelected,$option == AL_mission_ifs_backToMarket,"ShowDefaultVisual
+FireBest MarketPostDock",,,
+,,,,,,
+AL_ifs_fleetEncounter,BeginFleetEncounter,"$AL_mission_ifs_fleet score:1000
+!$ignorePlayerCommRequests","$AL_ifs_fleetConv=true 0
+$hailing = true 0
+AddText ""你遇到了 $faction$otherShipOrFleet。"" $faction.baseColor",,,
+AL_ifs_fleetConv0Friendly,OpenCommLink,"$entity.AL_ifs_fleetConv score:1000
+!$entity.ignorePlayerCommRequests
+$relativeStrength < 0",$entity.ignorePlayerCommRequests = true,"主显示器上的人穿着陈旧的军服，腰间挎着一杆涂掉编码的改良高斯步枪，这可不是普通海盗能弄到的玩意儿，$heOrShe头戴的旧式趋光军帽更是扎眼。你隐约看到，显示器的深处有着金色的东西正发着幽光。
+
+""你好，雇佣兵，像你这样的舰队，在这穷乡僻壤可是难得一见，阁下有何贵干？""
+
+$hisOrHer舰队看上去并不是残兵败将那样战斗力低下，但$heOrShe很明显不愿意和你起冲突。","AL_ifs_fleetConv_continue0:""我在找一个...在逃的侦察舰队。""
+cutCommLink:""我们没什么好说的。""",
+AL_ifs_fleetConv0Aggresive,OpenCommLink,"$entity.AL_ifs_fleetConv score:1000
+!$entity.ignorePlayerCommRequests
+$relativeStrength >= 0",$entity.ignorePlayerCommRequests = true,"主显示器上的人穿着陈旧的军服，腰间挎着一杆涂掉编码的改良高斯步枪，这可不是普通海盗能弄到的玩意儿，$heOrShe头戴的旧式趋光军帽更是扎眼。你隐约看到，显示器的深处有着金色的东西正发着幽光。
+
+他刚想开口，却像是被耳机中某个船员的通讯打断了。他皱着眉头，关闭声音，面色严肃地说了几句话后便重新和你连线。""你好，雇佣兵，请问有什么事？""
+
+$hisOrHer舰队看上去并不是残兵败将那样战斗力低下，但$heOrShe很明显不愿意和你起冲突。","AL_ifs_fleetConv_continue0:""我在找一个...在逃的侦察舰队。""
+cutCommLink:""我们没什么好说的。""",
+AL_ifs_fleetConv1,DialogOptionSelected,$option == AL_ifs_fleetConv_continue0,,"$heOrShe的脸轻微地抽搐了一下，像是在想用什么理由说服你，而你没给对方解释的机会，""我觉得你拥有的趋光战舰已经足够说明问题了。""
+
+沉默片刻后，$heOrShe叹了口气，""我也不想逃的！但为了我舰队其他人的性命，我只能这样做！""
+
+$heOrShe似乎陷入某种回忆，语气逐渐烦躁起来，""虽然这听上去可能像是在为自己辩护，但我所说的都是事实。那次任务恰逢议会处于幽灵据点暴露后的困难时期，我随一艘战列舰领头的镇压编队处理 Julius大公空间站 安全范围的永光暴动事件，但任务进行得十分艰苦，我们在初期遭受了众多不必要的损失才抵达至高逸散星云——派出的分遣舰队多次因为没更新的星图覆灭，旗舰在小行星带遭到永光护卫舰的鱼雷袭击发生殉爆...我正是因为失去了领导才被越级提拔担任了战场指挥官。""
+
+$heOrShe的嘴角露出苦涩的笑容，""想象一下，日常工作都是严格方程计算的人，突然被派去担任需要大量主观判断的侦察舰队主管...""","AL_ifs_fleetConv_continue1:""那场面可能确实超出了你的能力。""",
+AL_ifs_fleetConv2,DialogOptionSelected,$option == AL_ifs_fleetConv_continue1,"SetStoryOption AL_ifs_fleetConv_threaten general ""开始思考哪里有什么不对劲。""","""是，该死的，那些高层对于舰队的战备状况一无所知！"" $heOrShe突然握紧拳头，咬牙切齿。
+
+""当某个坐在大公空间站翘脚的高级指挥官得知目标舰队正在与涤罪先遣对峙时，他强令舰队改变航向投入战斗——我直辖的巡洋舰连导弹都还没装好！之后的事你应该也心里有数了，我所在的侧翼首先发生交火，几轮炮击后阵型溃散，几名舰长在紧急会议中都同意直接撤出战场，主舰队？只能愿卢德或是别的什么神灵来保佑他们了...后来我听传闻说涤罪先遣介入，但其中的细节我也不甚了解。""
+
+$heOrShe的情绪重新变得低沉，颓丧地诉说着变为逃兵的缘由。
+
+$heOrShe双手交叉，又松开，像是决定了什么，""听着，为了维持舰队，养活我的船员们，我已经没有任何能给你的星币了，但我在那次任务中绝非一无所获，在前哨战中我带领的分队切实取得了相当的战果，我愿意将这些永光舰船上回收的战利品给你，希望它们能买下我的命。""","AL_ifs_fleetConv_engage:""多说无益，这不是你当逃兵的理由，开战吧。""
+AL_ifs_fleetConv_disengage:""换作我处在你的立场上，也会做出类似选择，留下东西，你走吧。""
+AL_ifs_fleetConv_threaten:""成交。""你同意了，但一些思绪浮上心头。",
+AL_ifs_fleetThreaten,DialogOptionSelected,$option == AL_ifs_fleetConv_threaten,"AddCommodity AL_primecore 2
+AddCommodity AL_primematerial 3
+AddCommodity AL_primeperipheral 3","$heOrShe如释重负，不动声色地擦了擦汗，在你的面前联络了$hisOrHer的货舱调度员。那个调度员似乎有些不满，被$heOrShe训斥了几声后向你点了点头。不一会儿，你就得到了几车厢的Prime部件。
+
+""愿光照亮你前进的路。""$heOrShe脸上的笑容显得有些敷衍。
+
+你看着这一切，静静地思考着，通讯频道一下子变得安静了起来。你装作不经意地低头，眼角注意到了附近轨道上飘着的一些残骸和用于回应紧急呼叫的信号灯，上面的图案你非常熟悉：那是一家平民运输公司的标志。
+
+你想你知道该怎么做了。","AL_ifs_fleetConv_engage:""我知道你们干了什么了，残渣们。""",
+AL_ifs_fleetEngage,DialogOptionSelected,$option == AL_ifs_fleetConv_engage,"MakeOtherFleetHostile true
+MakeOtherFleetAggressive true
+ShowDefaultVisual
+EndConversation NO_CONTINUE","""你！""$heOrShe愣了片刻，不可思议的看着你，仇恨的火焰缓缓从$hisOrHer眼眸中升起。
+
+""该死！为什么要逼我！"" $heOrShe怒吼着，""兄弟们，下一个受害者找到了，宰了他！""
+
+没等你能做出回应，通讯链接就被切断了。",cutCommLink:切断通讯,
+AL_ifs_fleetDisengage,DialogOptionSelected,$option == AL_ifs_fleetConv_disengage,"$global.AL_mission_ifs_failed_betray = true
+AddCommodity AL_primecore 2
+AddCommodity AL_primematerial 3
+AddCommodity AL_primeperipheral 3
+Call $global.AL_mission_ifs_ref updateData
+MakeOtherFleetNonHostile true
+ShowDefaultVisual
+EndConversation NO_CONTINUE","$heOrShe立马在你的面前联络了$hisOrHer的货舱调度员。但是，那个调度员似乎非常不满，频道静音后和$heOrShe发生了大量争执。良久，争论结束了，$heOrShe带着歉意和你点了点头。你得到了几车厢的Prime部件。
+
+""愿光保佑你。""$heOrShe向你敬了个不那么标准的礼。
+
+你有些随意地摆摆手，隐约觉得哪里不对劲，但毕竟货都到手了，别想太多。",cutCommLink:切断通讯,
+,,,,,,
+AL_ifs_talkingToSeekerBack,SeekerTalkStage,$AL_mission_ifs_stage == BACKING_TO_SEEKER score:100,"$ifs_option1_enabled = true 0
+$ifs_option2_enabled = true 0
+FireAll PopulateSeekerOptions","当你的$shipOrFleet在 $market 停靠时，你收到了一个匿名通讯请求。你知道窥密者已等候多时。
+
+""叛逆者是否已得到肃清？""他的语气似乎对你很有信心。",,
+AL_ifs_talkingToSeekerBackO1,PopulateSeekerOptions,$AL_mission_ifs_stage == BACKING_TO_SEEKER,SetEnabled AL_mission_ifs_backing_option1 $ifs_option1_enabled,,"1:AL_mission_ifs_backing_option1:""我想知道你为什么要除掉这个人。""",
+AL_ifs_talkingToSeekerBackO2,PopulateSeekerOptions,$AL_mission_ifs_stage == BACKING_TO_SEEKER,SetEnabled AL_mission_ifs_backing_option2 $ifs_option2_enabled,,"2:AL_mission_ifs_backing_option2:""先告诉我，我有什么好处。""",
+AL_ifs_talkingToSeekerBackContinue,PopulateSeekerOptions,$AL_mission_ifs_stage == BACKING_TO_SEEKER,,,"3:AL_mission_ifs_backing_option3:""叛逆者已被我亲手送入地狱。""",
+AL_ifs_talkingToSeekerBackO1A,DialogOptionSelected,$option == AL_mission_ifs_backing_option1,"$ifs_option1_enabled = false 0
+FireAll PopulateSeekerOptions","""我觉得我说的很明白了。""他的声音少有的出现了不耐，""议会腐朽仍是唯一，王朝不能失去根基。""
+
+你沉默片刻，隐晦地表示如果真如他所言，作为秘密结社的首脑完全没有必要去管一个逃兵的死活，你还是需要这个真相。
+
+他慢慢抬起头，虽然你仍然无法辨别他的表情，但你感觉到了他的思索，""你说的对，你我将是同路人，王朝之下任何藏匿理应无所遁形。""
+
+他叹了口气，""叛逆者曾是我们的一员，但他背离了密会。他利用工作便利，走私无上媒介，亵渎至高权柄。灾祸降临之际与其他污秽之人同流合污，抗拒军令，致他人于危难之中。""
+
+他脸上的六芒星图案仿佛在那一瞬间变得通红，""该杀！""",,
+AL_ifs_talkingToSeekerBackO2A,DialogOptionSelected,$option == AL_mission_ifs_backing_option2,"$ifs_option2_enabled = false 0
+FireAll PopulateSeekerOptions","""星币，我等并不迂腐。""他的手指尖搓了搓，""身为雇佣兵，凡物对你来说是刚需。至于最重要的...""
+
+他摇摇头，""先回答我，叛逆者是否已得到惩罚？""",,
+AL_ifs_talkingToSeekerBackO3A,DialogOptionSelected,$option == AL_mission_ifs_backing_option3,"AddCredits 300000
+$global.AL_mission_ifs_complete = true
+Call $global.AL_mission_ifs_ref updateStage","""...很好，你已经有资格加入密会。这是你的报酬。""
+
+你的账户突然收到了一笔钱，仍是无法追溯其来源的。你望向他，他像是回忆起了什么，幽幽的，带着一丝寂寥。
+
+""密会在单数月召开，我作为中枢，供同路人互相交易无上媒介。请稍做等待，我等很快会把具体信息发给你。""
+
+他双手展开，单脚后撤，弯下腰，对你鞠了一躬，""窥密者欢迎你的到来，迭代3-1087x的观测者。""
+
+一阵寒意向你袭来，让你全身僵硬，手心发汗。你猛地发现，你体会过这种感觉——那是在你醒来之时曾有过的。你还想问问所谓""观测者""是什么意思，但他已经在屏幕中消失了。
+
+只剩账户上的星币诉说着，刚才的对话曾发生过。",cutCommLink:切断通讯,
+,,,,,,
+#dynastyseeker,,,,,,
+alds_pickGreeting,PickGreeting,DynastySeekerOptions isSeeker,"ShowPersonVisual
+FireAll PopulateOptions","经过短暂的等待, 你的连接请求被接受.
+
+""你来了, 观测者。事不宜迟, 我会给你本次交易的清单, 尽快做出决定吧, 王朝不眷顾拖沓的人."" ",,
+alds_getOptionList,PopulateOptions,"$isPerson
+DynastySeekerOptions isSeeker",,,20:alds_getDSList:获取交易清单,
+alds_showList,DialogOptionSelected,$option == alds_getDSList,DynastySeekerOptions print,,,
+alds_cancel,DialogOptionSelected,$option == alds_cancel,FireAll PopulateOptions,,,cancel在代码里
+alds_selectOption,DialogOptionSelected,DynastySeekerOptions checkOption,"DynastySeekerOptions access
+DynastySeekerOptions print",,,
+,,,,,,
+#diable,,,,,,
+alap_pickGreeting,PickGreeting,$AL_laplace score:100,ShowPersonVisual,"经过短暂的等待, 你的连接请求被接受.
+
+""哈，你来了，你的运气不错，那里有两艘分别隶属于不同小组的战舰，挑一艘领走吧，记得完成手续！""
+工程师的声音很是高昂，但看他歪着的嘴角，似乎不是很情愿的样子。","0:acceptLaplace:获取 拉普拉斯-级无畏舰(全灵)
+1:acceptLaplace2:获取 拉普拉斯-级无畏舰(以太)
+100:cutCommLink:表示不急并切断通讯",
+alap_getLap,DialogOptionSelected,$option == acceptLaplace,"CallEvent $AL_laplaceRef Complete
+FireAll PopulateOptions",,,
+alap_getLap2,DialogOptionSelected,$option == acceptLaplace2,"CallEvent $AL_laplaceRef Complete2
+FireAll PopulateOptions",,,
+,,,,,,
+#clues,,,,,,
+alclue_meet,PopulateOptions,"$isPerson
+CheckALClue",,,50:askForALClue:聊些关于趋光议会的事,
+alclue_talk,DialogOptionSelected,$option == askForALClue,"PrintALClue
+FireAll PopulateOptions",,,
+,,,,,,
+#gilbert,,,,,,
+alrc_pickGreetingFriendly,PickGreeting,"$isPerson
+$AL_rationCenter
+$faction.friendlyToPlayer","ShowPersonVisual
+FireBest ShowALRCOptions","经过短暂的等待, 你的连接请求被接受.
+
+""您好, 这里是吉尔伯特配给站负责人, 请问您有什么需要吗?""",,
+alrc_pickGreetingNotFriendly,PickGreeting,"$isPerson
+$AL_rationCenter
+!$faction.friendlyToPlayer",ShowPersonVisual,"经过短暂的等待, 你的连接请求被中断, 你的终端显示出以下这段话.
+
+""-你目前没有资格获取配给站的服务，请提高你的关系权限-""",100:cutCommLink:切断通讯,
+alrc_showOptions,ShowALRCOptions,,ALRationCheckCard,,"1:alrc_showCenter:购买配给
+2:alrc_getCard:申领/补办议员配给卡
+3:alrc_exchangeGil:兑换吉尔伯特币
+100:cutCommLink:切断通讯",
+alrc_showCenter,DialogOptionSelected,$option == alrc_showCenter,ALRationShowCargo,,,
+alrc_getCard,DialogOptionSelected,$option == alrc_getCard,"ALRationGetCard
+FireBest ShowALRCOptions",,,
+alrc_exchangeGil,DialogOptionSelected,$option == alrc_exchangeGil,ALRationExchangeSelector $alrc_toPay,"""每月可兑换份额的上限为 3000 Gil.""","1:alrc_exchangeConfirm:确认
+2:alrc_exchangeCancel:取消",
+alrc_exchangeConfirm,DialogOptionSelected,$option == alrc_exchangeConfirm,"ALRationExchangePay $alrc_toPay
+FireBest ShowALRCOptions",,,
+alrc_exchangeCancel,DialogOptionSelected,$option == alrc_exchangeCancel,FireBest ShowALRCOptions,,,
+,,,,,,
+#breaking mist,,,,,,
+albm_OpenDialog,OpenInteractionDialog,$id == AL_breakingMist score:100,"ShowDefaultVisual
+PrintDescription 3
+SetShortcut defaultLeave ""ESCAPE""
+FireBest AddALBMOptions",,,
+albm_AddOptionsFriendly,AddALBMOptions,"$faction.id == approlight
+$faction.friendlyToPlayer",,"你的到来并没有引起此地守卫的注意，他们检查了你的身份后，便不再对你实行任何措施了。
+
+某种意义上的消极怠工。","0:albm_explore:探索废墟
+1:defaultLeave:离开",
+albm_AddOptionsNotFriendly,AddALBMOptions,"$faction.id == approlight
+!$faction.friendlyToPlayer",,"门口稀稀拉拉的哨兵们紧张地看着你，你的靠近让此地所有的舰船发出了戒备的信号。
+
+""这里不欢迎陌生人。""广播中传来一条拒绝的消息，附近就是气态星，你知道在这里做不了什么。",0:defaultLeave:离开,
+albm_AddOptionsNotApproLight,AddALBMOptions,$faction.id != approlight,,,0:defaultLeave:离开,
+albm_Explored,DialogOptionSelected,"$option == albm_explore
+$albm_explored",,这里年久失修，没有什么更有价值的东西了。,0:defaultLeave:离开,
+albm_Unexplored,DialogOptionSelected,"$option == albm_explore
+!$albm_explored",SetStoryOption albm_steal 2 albm_xp general,"你下令扫描四周环境，传感器阵列显示周边停泊的趋光战舰都没有动力反应。
+
+“这里的守备长官心是有多大啊？”你小声嘀咕了一句，上前与哨兵攀谈起来，三言两语间，你将一打钞票塞进他的口袋里，对方心领神会，让开了一步，你和几名手下顺利进入了发生器内部
+
+扒拉开垂下的电线，你和你的副官穿过纵横交错的钢筋和残骸，为亲眼所见的议会技术啧啧称奇，你的一名警卫突然报告探测到异常电波反应。在电波源处，你发现了超出你想象的东西：一座正维持最低功率运行的小型模块化纳米工厂。
+
+不难猜到，这就是趋光议会之前能屏蔽星系广播的关键之一，结合哨兵对这里避而不谈的态度来看，趋光议会恐怕没有专门派人对这里进行仔细的搜索与回收。","0:albm_steal:命令船员回收工厂
+1:albm_inform:通知哨兵
+2:defaultLeave:离开",
+albm_Steal,DialogOptionSelected,$option == albm_steal,"$albm_explored = true
+ALAddSpecial AL_bm_nanoforge
+ALAddSpecial AL_bm_bomb """" 2",绕过哨兵充满漏洞的巡逻路线，你成功将这个小型工厂带回了舰队货舱。,0:defaultLeave:离开,
+albm_Inform,DialogOptionSelected,$option == albm_inform,"$albm_explored = true
+AdjustRep ""approlight"" COOPERATIVE 15","你命令手下通知门口的趋光哨兵，他们一脸惊恐地向你道谢:""这真是天大的过失，如果被有心人盗走，我们会重蹈前代守夜人的覆辙！您真是我们的救命恩人啊！""
+
+上层官员来到现场查验模块化工厂，同时高度评价了你的行为：""感谢您，趋光的大门永远会向您敞开。""",0:defaultLeave:离开,
+,,,,,,
+#credits,,,,,,
+AL_credits_errous_pickgreeting,PickGreeting,"$id == AL_ip_errous score:1000
+!$talkTo
+!$finishTalk",ShowPersonVisual,"*收到通讯请求...*
+
+*正在激活交互程序...*
+
+*完成...*
+
+""有趣。居然会有人注意到我的通讯ID."" 对面传来了AI惯有的机械声。","AL_credits_errous_talk1:""这对你来说很奇怪吗?""
+cutCommLink:切断通讯",
+AL_credits_errous_pickgreeting_talkedTo,PickGreeting,"$id == AL_ip_errous score:1000
+$talkTo
+!$finishTalk",ShowPersonVisual,"*收到通讯请求...*
+
+*正在激活交互程序...*
+
+*完成...*
+
+""怎么，你回心转意了？""","AL_credits_errous_contact:""是的，我会帮你的。""
+cutCommLink:""让我再想想。""",
+AL_credits_errous_talk1,DialogOptionSelected,$option == AL_credits_errous_talk1,$talkTo = true,"""...没什么，只是平时除了卸货外，我大部分时间都在外面进行发掘作业，之后进行下短暂修整就离开了。"" 
+
+它说话的腔调一下子让你觉得你是在和一个普通的人类说话。","AL_credits_errous_talk2:""你看上去并不像普通的AI。""",
+AL_credits_errous_talk2,DialogOptionSelected,$option == AL_credits_errous_talk2,,"""你是说，我的表现和其他AI不太一样?""
+
+对方的通信界面出现了短暂的凝滞。
+
+""因为进行发掘工作时发现自己有部分未使用运算，为了避免浪费再加上考虑到偶尔会与其他人接触就设计了一套用于交流的模拟程序，虽然交流效率低下并且偶尔会产生未知错误，但根据交流对象的反馈来看...""
+
+它机械化的声音中似乎带着些满意，""效果意外的不错。""","AL_credits_errous_talk3:""如果你是说和人类的相似度的话，是的。""",
+AL_credits_errous_talk3,DialogOptionSelected,$option == AL_credits_errous_talk3,,"""嗯...好吧，我这边已经完成维护准备开始新的发掘作业了。"" 它稍作停顿，""看在缘分的份上，如果你有空闲时间的话，或许可以帮我几个忙?""","AL_credits_errous_contact:""乐意之至。""
+cutCommLink:""让我再想想。""",
+AL_credits_errous_contact,DialogOptionSelected,$option == AL_credits_errous_contact,"AddPotentialContact AL_ip_errous
+$finishTalk = true","""我会帮助你到达30级奇——""它不自然地止住了自己话, ""哦，抱歉，我好像又出错了，我是说，我们会有个好的未来，嗯，没错，就是这样。""
+
+你狐疑地看着它，它面无表情地看着你。",cutCommLink:切断通讯,
+,,,,,,
+AL_credits_markedon_OptionGreatingNoContact,PopulateOptions,"$id == AL_ip_markedon score:1000
+!MissionHubCMD hasHub
+!$finishTalk",,你定睛一看，发现他手上拿着一听饮料，看包装是新出的蓝龙虾味。,"0:AL_credits_markedon_i_0:""听说你这里回收'金属'？""
+1:AL_credits_markedon_i_1:""听我一个朋友说，你们需要处理左径和海盗问题？""",
+AL_credits_markedon_talk0,DialogOptionSelected,$option == AL_credits_markedon_i_0,,"""哦，是的。我们最近需要不少'金属'。""
+
+他看着手中的电子报纸笑道，你能看见上面刊登了一则关于辛达商队丢失信号的新闻。
+
+""而且关于这些金属，还有额外的要求，比如从报废的征服者上拆下来的九成新的那种，所以你对有兴趣？""","0:AL_credits_markedon_i_0_0:""有。""
+1:AL_credits_markedon_i_refuse:""没，只是问问。""",
+AL_credits_markedon_talk0_0,DialogOptionSelected,$option == AL_credits_markedon_i_0_0,"AddPotentialContact AL_ip_markedon
+$finishTalk = true","""很好，这是我的联系方式，如果有'低价采购地点'我会告诉你的。""",cutCommLink:切断通讯,
+AL_credits_markedon_talk1,DialogOptionSelected,$option == AL_credits_markedon_i_1,,"""啊，是的，那帮混账海盗和左径疯子。""他眉头紧锁，似乎光是想到那些人就让他感到愤怒。
+
+""这帮人通过各种方式给所有人制造麻烦，抢商队，暗中搞破坏，基于他们在 Mayasura 曾经干过的'大事'，我们需要更多的人手来预防这一切。""
+
+他将手中的饮料一饮而尽并打了个水嗝，这似乎让他恢复了理智。
+
+""当然，除了那两类存在，有些时候我们也需要你处理些其他事情，具体的到时候再说，那么 $playerName 舰长，你有兴趣干这事吗？""","0:AL_credits_markedon_i_1_0:""有。""
+1:AL_credits_markedon_i_refuse:""没，只是问问。""",
+AL_credits_markedon_talk1_0,DialogOptionSelected,$option == AL_credits_markedon_i_1_0,"AddPotentialContact AL_ip_markedon
+$finishTalk = true","""很好，这是我的联系方式，虽然不知道是什么人在背后资助那些玩意，但只要我们杀光他们，就不用在意这些了。""",cutCommLink:切断通讯,
+,,,,,,
+AL_credits_markedon_talk_refuse,DialogOptionSelected,$option == AL_credits_markedon_i_refuse,,"""好吧，想干的时候找我就行。""",cutCommLink:切断通讯,
+,,,,,,
+AL_credits_markedon_OptionGreatingContact,PopulateOptions,"$id == AL_ip_markedon score:1000
+MissionHubCMD hasHub
+!$finishWeaponTalk",,,0:AL_credits_markedon_c:聊些关于趋光武器的事情,
+AL_credits_markedon_talk_c,DialogOptionSelected,$option == AL_credits_markedon_c,"ALCheckWeapon disintegrator
+SetStoryOption AL_credits_markedon_c_2 general ""Show him Omega.""
+SetEnabled AL_credits_markedon_c_2 $hasWeapon_disintegrator","你看了看屏幕边缘那一大堆空的饮料罐，看上去是这家伙蓝龙虾味饮料喝上瘾了。
+
+""对了，$playerName ，问你件事，如果你驾驶着一艘科特级，你会装哪个武器？""他像是毫无所察地晃了晃手上的饮料问道。","0:AL_credits_markedon_c_0:""重型冲击波。""
+1:AL_credits_markedon_c_1:""引力子束。""
+2:AL_credits_markedon_c_2:给他看看裂解炮(欧米伽武器)
+100:AL_credits_markedon_c_refuse:""你让我想想？""",
+AL_credits_markedon_talk_c_0,DialogOptionSelected,$option == AL_credits_markedon_c_0,$finishWeaponTalk = true,"""我建议你试试，$playerName 。""
+
+他抿了口饮料，笑了笑。
+
+""搭配等离子炮和安全协议超驰食用更佳哦。""",cutCommLink:切断通讯,
+AL_credits_markedon_talk_c_1,DialogOptionSelected,$option == AL_credits_markedon_c_1,"$finishWeaponTalk = true
+ALAddWeapons AL_explodebeam 4
+AdjustRepActivePerson COOPERATIVE 5","""和我相同的选择呢， $playerName 舰长。""
+
+他笑着将喝完的饮料扔开，你似乎听见了保洁机器的声音，""虽然对于我个人而言，不太喜欢这类武器，但如果有这类需求的话，我推荐你用这个。""
+
+他打开了一旁的全息投影：""二位激光。关于这玩意，我只能说，我们全新的二位激光已经完全超越了老式的引力子束。""
+
+他高兴的笑了出来。但你似乎没有领悟对方的笑点。
+
+在你关闭通讯后十分钟，一个装有武器的箱子被送到了舰队在太空港的暂驻点。",cutCommLink:切断通讯,
+AL_credits_markedon_talk_c_2,DialogOptionSelected,$option == AL_credits_markedon_c_2,"$finishWeaponTalk = true
+AddRemoveCommodity credits 100000 true
+AdjustRep $personFaction.id COOPERATIVE 10
+AdjustRepActivePerson COOPERATIVE 20","在你将打靶和部分实战中的录像发给对方后，对方似乎有些过于兴奋。
+
+""只需两次射击就能将攻势级的装甲融穿，啊，如此强大的力量。""虽然隔着眼罩，但你总感觉他眼神中似乎有什么要将通讯终端击穿，""和我们的火蚀武器有着异曲同工之妙。说不定这对新的武器的研究有着帮助？""
+
+花了点时间将武器的详细数据发给了对方后，你的个人账号收到了一笔星币。
+
+""感谢你的帮助，$playerName 舰长，我这将数据拿去给原火氏族的那些人，下次见。""
+
+你还想说些什么，但对面已匆匆离开了屏幕前，连通讯都没有关闭。",cutCommLink:切断通讯,
+AL_credits_markedon_talk_c_refuse,DialogOptionSelected,$option == AL_credits_markedon_c_refuse,,"""这不需要想的太仔细吧？""他有些疑惑地摇了摇头。",cutCommLink:切断通讯,
+,,,,,,
+disintegrator,,,,,,
+# Cyper Jill,,,,,,
+AL_credits_jill_atBarBlurb,AddBarEvents,"$faction.id == approlight
+$hasMarket
+!$isHostile
+ALJillOptions checkExist","AddBarEvent AL_credits_jill_barEvent ""靠近吧台，向她致意。"" ""吧台后，一名神情冷淡，叼着一根烟的女调酒师有些心不在焉地把玩着手上的PDA，似乎在等待下一位顾客。"" 193,136,255,255",,,
+AL_credits_jill_barStart,DialogOptionSelected,$option == AL_credits_jill_barEvent,"ShowPersonVisual false AL_ip_jill
+ALJillOptions update","""调制饮料，改变人生。""这大概是她的口头禅，也许是作为一名调酒师的人生哲言。你看见她的眼神在几个瞬间有些恍惚，但很快恢复了正常。
+
+""说吧，想要来点什么？像你这么气派的舰长，想必Moonblast很适合你。""
+
+她的语气有些温柔又有些随意，一番吞云吐雾后，眉毛一挑，红色的眼眸似乎像是锁定了你脸颊一边的鬓发。这种带着打量的目光并没有引起你的不适，相反的，你感觉到她身上那股气息非常独特，像是名有着不少故事的调酒师。
+
+""当然，别忘了付钱。""她赶紧加上的一句话让你对她刚刚升起的一点幻想烟消云散。","1:jill_drink_sugar_rush:""Sugar Rush. ""
+2:jill_drink_moonblast:""Moonblast. ""
+3:jill_drink_bad_touch:""Bad Touch. ""
+4:jill_other_things:""我们来聊点别的?""
+10:backToBar:返回酒吧",
+AL_credits_jill_barConvRandom,DialogOptionSelected,"$option == jill_other_things
+!$jillConvCD",ALJillOptions giveRandomClue,你和她闲聊了一会儿。,10:backToBar:返回酒吧,
+AL_credits_jill_barConvRandomCD,DialogOptionSelected,"$option == jill_other_things
+$jillConvCD",SetTextHighlights $jillConvCDStr,"你和她闲聊了一会儿。
+
+没什么新鲜的事， $jillConvCDStr 天后再聊吧。",10:backToBar:返回酒吧,
+AL_credits_jill_barConv_sugar_rush,DialogOptionSelected,$option == jill_drink_sugar_rush,ALJillOptions giveClue AL_jill_sugar_rush,,10:backToBar:返回酒吧,
+AL_credits_jill_barConv_bad_touch,DialogOptionSelected,$option == jill_drink_bad_touch,ALJillOptions giveClue AL_jill_bad_touch,,10:backToBar:返回酒吧,
+AL_credits_jill_barConv_moonblast,DialogOptionSelected,$option == jill_drink_moonblast,ALJillOptions giveClue AL_jill_moonblast,,10:backToBar:返回酒吧,

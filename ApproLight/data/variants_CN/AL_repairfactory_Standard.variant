@@ -1,0 +1,75 @@
+{
+    "displayName": "标准",
+    "fluxCapacitors": 6,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "AL_repairfactory",
+    "hullMods": [
+        "AL_airrightequipment",
+        "AL_dimensiongenerator"
+    ],
+    "modules": [
+        {"WS0005": "AL_repairfactory_bot_left_variant"},
+        {"WS0006": "AL_repairfactory_bot_right_variant"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_repairfactory_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "AL_chopfire",
+                "WS0010": "AL_chopfire"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "hellbore",
+                "WS0012": "hellbore"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_explodebeam",
+                "WS0002": "AL_explodebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "AL_defenderpd",
+                "WS0014": "AL_defenderpd",
+                "WS0015": "AL_defenderpd",
+                "WS0016": "AL_defenderpd",
+                "WS0019": "AL_refusingpulse",
+                "WS0020": "AL_refusingpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "heavyburst",
+                "WS0004": "heavyburst"
+            }
+        }
+    ],
+    "wings": [
+        "AL_techno_wing",
+        "AL_heavynail_wing",
+        "AL_soulno_wing",
+        "AL_firelink_wing",
+        "AL_techno_wing",
+        "AL_techno_wing",
+        "AL_soulno_wing",
+        "AL_techno_wing",
+        "AL_techno_wing"
+    ]
+}

@@ -1,0 +1,395 @@
+{
+  "bounds": [
+    -104.5,
+    -13,
+    -85.5,
+    -31,
+    -136,
+    -26.5,
+    -137,
+    -38,
+    -172.5,
+    -42.5,
+    -174.5,
+    -60.5,
+    -142.5,
+    -73,
+    -171,
+    -127.5,
+    -110.5,
+    -129,
+    -59,
+    -90.5,
+    -21,
+    -107,
+    -25.5,
+    -123,
+    30,
+    -120.5,
+    167.5,
+    -68,
+    205,
+    -38.5,
+    154,
+    -23,
+    52.5,
+    -42,
+    79,
+    -20.5,
+    79,
+    20.5,
+    52.5,
+    42,
+    154,
+    23,
+    205,
+    38.5,
+    167.5,
+    68,
+    30,
+    120.5,
+    -25.5,
+    123,
+    -21,
+    107,
+    -59,
+    90.5,
+    -110.5,
+    129,
+    -171,
+    127.5,
+    -142.5,
+    73,
+    -174.5,
+    60.5,
+    -172.5,
+    42.5,
+    -137,
+    38,
+    -136,
+    26.5,
+    -85.5,
+    31,
+    -104.5,
+    13
+  ],
+  "builtInMods": [
+    "AL_boss_higgsworld",
+    "high_maintenance"
+  ],
+  "builtInWeapons": {
+	"B01":"AL_echoindicator",
+  },
+  "center": [
+    131,
+    189
+  ],
+  "collisionRadius": 227.233917,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 13,
+      "length": 36,
+      "location": [
+        -102,
+        8.5
+      ],
+      "style": "APPRO_ENGINE",
+      "width": 13
+    },
+    {
+      "angle": -180,
+      "contrailSize": 13,
+      "length": 36,
+      "location": [
+        -102,
+        -8.5
+      ],
+      "style": "APPRO_ENGINE",
+      "width": 13
+    },
+    {
+      "angle": 180,
+      "contrailSize": 19,
+      "length": 56,
+      "location": [
+        -134,
+        33
+      ],
+      "style": "APPRO_ENGINE",
+      "width": 19
+    },
+    {
+      "angle": -180,
+      "contrailSize": 19,
+      "length": 56,
+      "location": [
+        -134,
+        -33
+      ],
+      "style": "APPRO_ENGINE",
+      "width": 19
+    },
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 27.5,
+      "location": [
+        -14.5,
+        93
+      ],
+      "style": "APPRO_ENGINE",
+      "width": 18
+    },
+    {
+      "angle": -180,
+      "contrailSize": 18,
+      "length": 27.5,
+      "location": [
+        -14.5,
+        -93
+      ],
+      "style": "APPRO_ENGINE",
+      "width": 18
+    },
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 27.5,
+      "location": [
+        -16,
+        86
+      ],
+      "style": "APPRO_ENGINE",
+      "width": 18
+    },
+    {
+      "angle": -180,
+      "contrailSize": 18,
+      "length": 27.5,
+      "location": [
+        -16,
+        -86
+      ],
+      "style": "APPRO_ENGINE",
+      "width": 18
+    },
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 38.5,
+      "location": [
+        -142,
+        82.5
+      ],
+      "style": "APPRO_ENGINE",
+      "width": 11
+    },
+    {
+      "angle": -180,
+      "contrailSize": 11,
+      "length": 38.5,
+      "location": [
+        -142,
+        -82.5
+      ],
+      "style": "APPRO_ENGINE",
+      "width": 11
+    }
+  ],
+  "height": 399,
+  "hullId": "AL_boss_higgs",
+  "hullName": "AL_boss_higgs",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 243.07869,
+  "spriteName": "graphics/ships/boss/AL_boss_higgs.png",
+  "style": "APPRO_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 148.109207,
+      "id": "WS0001",
+      "locations": [
+        60.5,
+        91
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 148.109207,
+      "id": "WS0002",
+      "locations": [
+        60.5,
+        -91
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 223.602814,
+      "id": "WS0003",
+      "locations": [
+        10,
+        88
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 239.489761,
+      "id": "WS0004",
+      "locations": [
+        -21.5,
+        -27
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 239.489761,
+      "id": "WS0005",
+      "locations": [
+        -21.5,
+        27
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 223.602814,
+      "id": "WS0006",
+      "locations": [
+        10,
+        -88
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 198.924652,
+      "id": "WS0007",
+      "locations": [
+        -84,
+        96
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 198.924652,
+      "id": "WS0008",
+      "locations": [
+        -84,
+        -96
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 161.075363,
+      "id": "WS0009",
+      "locations": [
+        -134,
+        72.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -180,
+      "arc": 161.075363,
+      "id": "WS0010",
+      "locations": [
+        -134,
+        -72.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 46.080925,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        -69.5,
+        98
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -46.080925,
+      "arc": 0,
+      "id": "WS0012",
+      "locations": [
+        -69.5,
+        -98
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -46.080925,
+      "arc": 0,
+      "id": "WS0013",
+      "locations": [
+        -95.5,
+        -117
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 46.080925,
+      "arc": 0,
+      "id": "WS0014",
+      "locations": [
+        -95.5,
+        117
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "B01",
+      "locations": [
+        49,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 262
+}

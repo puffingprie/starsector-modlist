@@ -1,0 +1,24 @@
+{
+    "displayName": "精英",
+    "fluxCapacitors": 2,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "AL_emptiness",
+    "hullMods": [
+        "missleracks",
+        "converted_hangar",
+        "safetyoverrides"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_emptiness_Elite",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "dragon",
+            "WS0002": "dragon"
+        }
+    }],
+    "wings": ["sarissa_wing"]
+}

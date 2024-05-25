@@ -1,0 +1,20 @@
+{
+	"id":"AL_glowfluxjammer",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"originem.al.shipsystems.scripts.ai.AL_GlowFluxJammerAI",
+	"statsScript":"originem.al.shipsystems.scripts.AL_GlowFluxJammerStats",
+	
+	"jitterColor":[100,0,255,20],
+	"jitterCopies":8,
+	#"jitterRange":25,
+	"jitterRange":40,
+	"jitterRangeRadiusFraction":0,
+
+	"useSound":"system_emp_emitter_activate",
+	"loopSound":"system_emp_emitter_loop",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}

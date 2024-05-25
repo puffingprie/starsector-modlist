@@ -1,0 +1,37 @@
+{
+    "displayName": "Fuel",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "AL_granary",
+    "hullMods": [
+        "augmentedengines",
+        "AL_module_fuel"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_granary_Fuel",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "AL_starflak_medium"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "AL_ruler_med",
+                "WS0005": "AL_ruler_med"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pdburst",
+                "WS0002": "pdburst"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+	"id":"AL_godswilldriver",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"originem.al.shipsystems.scripts.AL_GodsWillDriverStats",
+	
+	#"engineGlowColor":[255,175,125,255],
+	#"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":1.2,
+	"engineGlowWidthMult":3,
+	"engineGlowGlowMult":1.5,
+	"jitterColor":[100,50,255,40],
+	"jitterCopies":8,
+	"jitterRange":30,
+
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"system_maneuvering_jets",
+	"loopSound":"AL_godswilldriver_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":25,
+	}
+}

@@ -1,0 +1,9 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+AL_IL_Header,永光之锋实时设置,Header,永光之锋实时设置,,,,,
+AL_IL_spawnRateMultiplier,永光之锋舰队生成频率系数,Double,1,,永光之锋每 [12] ~ [16] 天生成一支舰队守卫混沌裂隙(同一时间内最多 [4] 支)，提高/降低该值来降低/提高每次生成之间的时间间隔。,0.1,30,
+AL_IL_baseShipCount,永光之锋舰船基础数量,Int,10,,"永光之锋舰队生成时的基础舰船数量(不考虑难度系数)。
+
+需要注意的是，永光之锋的舰队规模不会超过玩家默认最大舰船数量的 [1.5] 倍。",1,100,
+AL_IL_difficultyMultiplier,永光之锋难度系数,Double,1,,永光之锋舰队总体质量随着各种因素提高的最终难度提升系数，总难度由舰队名字中带有的 [H.x] 体现( [x] 为一个代表难度的整数)。,0.1,5,
+AL_BOC_Header,断罪之剑实时设置,Header,断罪之剑实时设置,,,,,
+AL_BOC_encounterRateMultiplier,断罪之剑进攻频率系数,Double,1,,断罪之剑每 [15] ~ [30] 天进攻一次混沌裂隙，提高/降低该值来降低/提高每波进攻之间的时间间隔。,0.1,30,

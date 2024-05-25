@@ -1,0 +1,87 @@
+{
+    "displayName": "标准",
+    "fluxCapacitors": 21,
+    "fluxVents": 45,
+    "goalVariant": true,
+    "hullId": "AL_doctoralsupervisor",
+    "hullMods": [
+        "AL_glittertargetingcore",
+        "AL_frequencybuffergrid",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_doctoralsupervisor_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0022": "AL_ruler_med",
+                "WS0023": "AL_ruler_med"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0024": "atropos",
+                "WS0025": "atropos",
+                "WS0026": "atropos",
+                "WS0027": "atropos"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "AL_bladeofcleavingfire",
+                "WS0020": "AL_bladeofcleavingfire"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "AL_spiderpulse",
+                "WS0004": "AL_spiderpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_explodebeam",
+                "WS0002": "AL_explodebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0021": "phasecl",
+                "WS0028": "phasecl"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd",
+                "WS0007": "AL_subspace_detonation_unit",
+                "WS0008": "AL_subspace_detonation_unit",
+                "WS0009": "AL_defenderpd",
+                "WS0010": "AL_defenderpd",
+                "WS0011": "AL_defenderpd",
+                "WS0012": "AL_defenderpd",
+                "WS0013": "AL_defenderpd",
+                "WS0014": "AL_defenderpd",
+                "WS0015": "AL_defenderpd",
+                "WS0016": "AL_defenderpd",
+                "WS0017": "AL_defenderpd",
+                "WS0018": "AL_defenderpd"
+            }
+        }
+    ]
+}

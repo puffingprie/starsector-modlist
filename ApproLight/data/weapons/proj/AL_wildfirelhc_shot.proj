@@ -1,0 +1,39 @@
+{
+  "id": "AL_wildfirelhc_shot",
+  "specClass": "projectile",
+  "spawnType": "BALLISTIC_AS_BEAM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "onHitEffect": "originem.al.scripts.weapons.proj.AL_WildFireProjEffect",
+  "onFireEffect": "originem.al.scripts.weapons.proj.AL_WildFireProjEffect",
+  "length": 60.0,
+  "width": 12,
+  "fadeTime": 0.2,
+  "fringeColor": [100, 255, 255, 255],
+  "glowColor": [100, 150, 255, 75],
+  "glowRadius": 30,
+  "coreColor": [255, 255, 255, 200],
+  "hitGlowRadius": 45,
+  "textureType": "ROUGH", # now also used for "BALLISTIC_AS_BEAM", if specified
+  "textureScrollSpeed": -256,
+  "pixelsPerTexel": 0.5,
+  "behaviorSpec": {
+    "behavior": "PROXIMITY_FUSE",
+    "range": 10,
+    "onExplosionEffect": "originem.al.scripts.weapons.proj.AL_WildFireLHCOnExplosionEffect",
+    "explosionSpec": {
+      "duration": 0.1,
+      "radius": 30,
+      "coreRadius": 15,
+      "collisionClass": "PROJECTILE_NO_FF",
+      "collisionClassByFighter": "PROJECTILE_NO_FF",
+      "particleSizeMin": 6,
+      "particleSizeRange": 6,
+      "particleDuration": 0.4,
+      "particleCount": 40,
+      "particleColor": [155, 255, 255, 155],
+      "explosionColor": [100, 255, 255, 30],
+      "sound": "system_emp_emitter_impact"
+    },
+  }
+}

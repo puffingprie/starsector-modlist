@@ -1,0 +1,25 @@
+{
+  "defaultChannels": [
+    "approlight_public"
+  ],
+  "approlight_public": {
+    "name": "Appro-Light Broadcast Service",
+    "logo": "graphics/icons/intel/comms.png",
+    "icon": "graphics/icons/intel/comms.png",
+    "image": "graphics/factions/approlight.png",
+    "sound": "ui_channel_news",
+    "faction": "approlight",
+    "type": "News Report",
+    "shortType": "News"
+  },
+  "approlight_internal": {
+    "name": " Appro-Light Intelligence",
+    "logo": "graphics/icons/intel/secure_comms.png",
+    "icon": "graphics/icons/intel/secure_comms.png",
+    "image": "graphics/factions/approlight.png",
+    "sound": "ui_channel_comm_secure",
+    "faction": "approlight",
+    "type": "Intelligence Report",
+    "shortType": "Intel"
+  }
+}

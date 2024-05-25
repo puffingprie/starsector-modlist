@@ -1,0 +1,41 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 7,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "AL_crown",
+    "hullMods": ["expanded_deck_crew"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_crown_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "AL_thunderpod"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "swarmer",
+                "WS0005": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_refusingpulse",
+                "WS0002": "AL_refusingpulse",
+                "WS0006": "pdlaser",
+                "WS0007": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "AL_heavynail_wing",
+        "AL_techno_wing",
+        "AL_damocleser_wing"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "displayName": "标准",
+    "fluxCapacitors": 7,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "AL_boson",
+    "hullMods": [
+        "reinforcedhull",
+        "phase_anchor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_boson_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "AL_precollimation",
+                "WS0008": "AL_precollimation"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_defenderpd",
+                "WS0002": "AL_defenderpd",
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd",
+                "WS0005": "AL_defenderpd",
+                "WS0006": "AL_defenderpd"
+            }
+        }
+    ]
+}

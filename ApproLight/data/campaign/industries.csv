@@ -1,0 +1,2 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
+AL_planetaryshield,Condenser Shield,120,90,,3,,,"grounddefenses, structure",,graphics/icons/industry/AL_planetary_shield.png,originem.al.scripts.campaign.industry.AL_PlanetaryShield,A planetary scale electromagnetic shield that protects the planet from radioactive interference from space. The shielding unit can also suppress the attacks of incoming fleets by amplifying electromagnetic interference onto a single point.,2700

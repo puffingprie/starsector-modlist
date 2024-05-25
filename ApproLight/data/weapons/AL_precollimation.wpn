@@ -1,0 +1,62 @@
+{
+  "id": "AL_precollimation",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "beamEffect": "originem.al.scripts.weapons.AL_PrecollimationBeamEffect",
+  "everyFrameEffect": "originem.al.scripts.weapons.AL_PrecollimationEveryFrameEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/precollimation/AL_precollimation_turret00.png",
+  "hardpointSprite": "graphics/weapons/precollimation/AL_precollimation_hardpoint00.png",
+  "turretGlowSprite": "graphics/weapons/precollimation/AL_precollimation_turret_glow.png",
+  "hardpointGlowSprite": "graphics/weapons/precollimation/AL_precollimation_hardpoint_glow.png",
+  "numFrames": 10,
+  "frameRate": 0,
+  "alwaysAnimate": false,
+  "glowColor": [
+    100,
+    0,
+    255,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    1,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    2.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    100,
+    0,
+    255,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 25,
+  "textureType": [
+    "graphics/fx/AL_precollimation_fringe.png",
+    "graphics/fx/AL_precollimation_core.png"
+  ],
+  "textureScrollSpeed": 256,
+  "pixelsPerTexel": 2,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+}

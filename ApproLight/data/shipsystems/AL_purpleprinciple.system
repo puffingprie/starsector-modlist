@@ -1,0 +1,14 @@
+{
+    "id":"AL_purpleprinciple",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"originem.al.shipsystems.scripts.ai.AL_PurplePrincipleAI",
+
+    "statsScript":"originem.al.shipsystems.scripts.AL_PurplePrincipleStats",
+	"runScriptWhileIdle":true,
+
+    "outOfUsesSound":"gun_out_of_ammo",
+
+    "aiHints":{
+    }
+}

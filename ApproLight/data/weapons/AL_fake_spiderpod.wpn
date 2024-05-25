@@ -1,0 +1,22 @@
+{
+	"id":"AL_fake_spiderpod",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"SYSTEM",
+	"size":"SMALL",
+	"turretSprite":"graphics/blank.png",
+	"hardpointSprite":"graphics/blank.png",	
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":0,
+					   "particleSizeMin":0,
+					   "particleSizeRange":0,
+					   "particleDuration":0,
+					   "particleCount":0,
+					   "particleColor":[0,0,0,0]},	
+	"projectileSpecId":"AL_spiderpod_mirv",  # projectile that will be fired
+}

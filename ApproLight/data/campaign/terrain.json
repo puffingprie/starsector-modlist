@@ -1,0 +1,11 @@
+{
+  "AL_primenebula": {
+    "plugin": "originem.al.scripts.campaign.terrain.AL_PrimeNebulaTerrainPlugin",
+    "musicSuppression": 1,
+    "loopTwo": "terrain_nebula",  #"loopTwo": "terrain_hyperspace_deep",
+    "loopFour": "terrain_hyperspace_storm",
+    "custom": {
+      "stormSound": "terrain_hyperspace_lightning"
+    }
+  }
+}

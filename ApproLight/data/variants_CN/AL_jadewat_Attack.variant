@@ -1,0 +1,32 @@
+{
+    "displayName": "进攻",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "AL_jadewat",
+    "hullMods": ["reinforcedhull"],
+    "permaMods": [],
+    "variantId": "AL_jadewat_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "AL_lighter_single"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "sabot"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "AL_starflak_medium"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "AL_refusingpulse"}
+        }
+    ]
+}

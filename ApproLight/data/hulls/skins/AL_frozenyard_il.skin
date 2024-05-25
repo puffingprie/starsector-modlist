@@ -1,0 +1,14 @@
+{
+  "baseHullId": "AL_frozenyard",
+  "descriptionId":"AL_frozenyard",
+  "descriptionPrefix":"Time not come, spirit is stained",
+  "tags":["no_bp_drop"],
+  "tech":"Immortal-Light",
+  "baseValueMult": 1.5,
+  "ordnancePoints":280,
+  "hullName":"Frozen Yard(IL)",
+  "skinHullId": "AL_frozenyard_il",
+  "builtInMods":[],
+  "addHints":["HIDE_IN_CODEX"],
+  "spriteName": "graphics/ships/il/AL_frozenyard_il.png"
+}

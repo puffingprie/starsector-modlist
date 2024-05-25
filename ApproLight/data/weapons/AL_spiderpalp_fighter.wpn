@@ -1,0 +1,29 @@
+{
+	"id":"AL_spiderpalp_fighter",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretSprite":"",
+	"turretGlowSprite":"",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"",
+	"glowColor":[155,100,255,255],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":3.0,
+					   "particleSizeMin":6.0,
+					   "particleSizeRange":10.0,
+					   "particleDuration":0.1,
+					   "particleCount":10,
+					   "particleColor":[155,100,255,255]},	
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"requiresFullCharge":true,  # for pulse weapons - whether the weapon will fire at a lower strength partial charge
+	"projectileSpecId":"AL_spiderpalp_shot",  # projectile that will be fired
+	"fireSoundTwo":"AL_spiderpalp_fire",
+}

@@ -1,0 +1,53 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 450,
+  "everyFrameEffect": "originem.al.scripts.weapons.AL_ChopFireEveryFrameEffect",
+  "fireSoundOne": "AL_chopfire_charge",
+  "fireSoundTwo": "AL_chopfire_fire",
+  "glowColor": [
+    100,
+    100,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/AL_chopfire_hardpoint_glow.png",
+  "hardpointOffsets": [
+    16,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/AL_chopfire_hardpoint_base.png",
+  "id": "AL_chopfire",
+  "muzzleFlashSpec": {
+    "length": 60,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ],
+    "particleCount": 100,
+    "particleDuration": 2,
+    "particleSizeMin": 4,
+    "particleSizeRange": 6,
+    "spread": 30
+  },
+  "projectileSpecId": "AL_chopfire_shot",
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/AL_chopfire_turret_glow.png",
+  "turretOffsets": [
+    12,
+    0
+  ],
+  "turretSprite": "graphics/weapons/AL_chopfire_turret_base.png",
+  "type": "ENERGY"
+}

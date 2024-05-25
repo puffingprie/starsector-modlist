@@ -1,0 +1,74 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 6,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "AL_brain_attack",
+    "hullMods": [
+        "AL_glittertargetingcore",
+        "AL_frequencybuffergrid",
+        "AL_DeuStove"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "AL_brain_attack_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0021": "AL_firesbless",
+                "WS0022": "AL_firesbless"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "AL_lighter_single",
+                "WS0010": "AL_lighter_single"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "AL_ruler_med",
+                "WS0014": "AL_ruler_med"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0019": "AL_lightscohesion"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "AL_spiderpulse",
+                "WS0008": "AL_spiderpulse",
+                "WS0015": "heavyneedler",
+                "WS0016": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "ioncannon",
+                "WS0012": "ioncannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "AL_defenderpd",
+                "WS0002": "AL_defenderpd",
+                "WS0003": "AL_defenderpd",
+                "WS0004": "AL_defenderpd"
+            }
+        }
+    ]
+}

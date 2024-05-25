@@ -1,0 +1,55 @@
+{
+  "variantId": "AL_keter_H_Assualt",
+  "hullId": "AL_keter_H",
+  "displayName": "突击",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "AL_airrightequipment"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "AL_thunderpod",
+        "WS0004": "AL_thunderpod",
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser",
+        "WS0007": "pdlaser",
+        "WS0008": "pdlaser",
+        "WS0011": "AL_refusingpulse",
+        "WS0012": "AL_explodebeam",
+        "WS0013": "AL_refusingpulse",
+        "WS0018": "AL_starflak_medium"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "tachyonlance",
+        "WS00176": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "AL_moonfire_medium",
+        "WS0002": "AL_moonfire_medium"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
