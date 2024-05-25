@@ -1,0 +1,17 @@
+{
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "out\\vscode\\bin",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.7",
+      "path": "C:\\Program Files\\Java\\jdk1.7.0_80",
+      "default": true
+    }
+  ],
+  "java.project.referencedLibraries": [
+    "c:\\Program Files (x86)\\Fractal Softworks\\Starsector\\starsector-core\\starfarer.api.jar",
+    "c:\\Users\\arxbombus\\Desktop\\Programming\\lw_console\\jars\\lw_Console.jar"
+  ],
+  "java.project.exportJar.targetPath": "${workspaceFolder}/jars/arx-starsector.jar",
+  "cSpell.words": ["mult"]
+}

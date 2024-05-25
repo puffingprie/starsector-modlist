@@ -1,0 +1,9 @@
+{
+        "knownShips":{
+        "hulls":[
+            "BSC_Adventurer",
+            "BSC_Nadir",
+            "BSC_Atticus",
+        ],
+    },
+},

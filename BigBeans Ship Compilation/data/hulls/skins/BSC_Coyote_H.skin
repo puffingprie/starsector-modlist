@@ -1,0 +1,13 @@
+{
+  "baseHullId": "BSC_Coyote",
+  "baseValueMult": 1,
+  "descriptionId": "BSC_Coyote",
+  "descriptionPrefix": "This Ship has been given Hegemony markings and some minor hull adjustment. Actual specifications are the same as the original.",
+  "fpMod": 0,
+  "hullName": "Coyote (H)",
+  "restoreToBaseHull": false,
+  "skinHullId": "BSC_Coyote_H",
+  "spriteName": "graphics/hulls/BSC_Coyote_H.png",
+  	"tags":["rare_bp", "Hegemony",],
+	"tech":"Hegemony",
+}

@@ -1,0 +1,23 @@
+{
+        "knownShips":{
+        "hulls":[
+            "BSC_Aghast",
+            "BSC_Baldric",
+            "BSC_Cassina",
+            "BSC_Brave",
+        ],
+    },
+    # variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+        "BSC_Brave_Assault":5,
+        "BSC_Brave_Escort":3,
+        "BSC_Cassina_Armoured":5,
+	},
+        "hullFrequency":{
+        "hulls":{
+        "BSC_Aghast": 0.3, #Should be quite rare
+        "BSC_Cassina": 0.4, #Should be rare
+        "BSC_Brave": 0.5, #Avoid drowning out better frigates
+        },
+    },
+},

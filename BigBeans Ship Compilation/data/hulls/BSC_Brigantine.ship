@@ -1,0 +1,202 @@
+{
+  "hullName": "Brigantine",
+  "hullId": "BSC_Brigantine",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/BSC_Brigantine.png",
+  "style": "MIDLINE",
+  "height": 345,
+  "width": 102,
+  "center": [51, 170],
+  "collisionRadius": 220.5,
+  "shieldCenter": [-7, -0],
+  "shieldRadius": 208.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [133, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [150, -11]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [150, 11]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-95, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -80,
+      "locations": [-57, -31]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 80,
+      "locations": [-57, 31]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 125,
+      "locations": [-104, 35]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -125,
+      "locations": [-104, -35]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -125,
+      "locations": [-130, -35]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 125,
+      "locations": [-130, 35]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [-1, 26]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -90,
+      "locations": [-1, -26]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -22, 3.5,
+        -20, -0,
+        -22, -3.5
+      ]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 0,
+      "locations": [104, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-170, -0],
+      "length": 65,
+      "width": 31,
+      "angle": 180,
+      "contrailSize": 31,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-158, 26],
+      "length": 60,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-158, -26],
+      "length": 60,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -156, -13,
+    -154, -30,
+    -140, -30,
+    -114, -41,
+    -94, -41,
+    -74, -37,
+    -68, -40,
+    -48, -37,
+    -43, -20,
+    16, -17,
+    36, -33,
+    134, -33,
+    146, -21,
+    146, 21,
+    134, 33,
+    35, 33,
+    16, 17,
+    -43, 20,
+    -48, 37,
+    -68, 40,
+    -74, 37,
+    -94, 41,
+    -114, 41,
+    -140, 33,
+    -154, 30,
+    -156, 13,
+    -167, 11,
+    -167, -11
+  ]
+}

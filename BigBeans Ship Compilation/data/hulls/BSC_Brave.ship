@@ -1,0 +1,140 @@
+{
+  "hullName": "Brave",
+  "hullId": "BSC_Brave",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/BSC_Brave.png",
+  "style": "MIDLINE",
+  "height": 83,
+  "width": 70,
+  "center": [35, 36],
+  "collisionRadius": 87,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 73,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [31, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [41, -17]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [41, 17]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 180,
+      "locations": [-6, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-21, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-28, -8],
+      "length": 46,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-28, 8],
+      "length": 46,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-32, 19],
+      "length": 36,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-32, -19],
+      "length": 36,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-5, -31],
+      "length": 10.641419,
+      "width": 7.213929,
+      "angle": -129,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-5, 31],
+      "length": 10.641419,
+      "width": 7.213929,
+      "angle": 129,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [2, -32],
+      "length": 8.419789,
+      "width": 4.629104,
+      "angle": -129,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [2, 32],
+      "length": 8.419789,
+      "width": 4.629104,
+      "angle": 129,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    17, 32,
+    26, 26,
+    36, 25,
+    32, -0,
+    36, -25,
+    26, -26,
+    17, -32,
+    -9, -24,
+    -28, -29,
+    -28, 29,
+    -9, 24
+  ]
+}

@@ -1,0 +1,3 @@
+command,class,tags,syntax,help
+Arx_AddAlphaCoresToIndustries,data.commands.Arx_AddAlphaCoresToIndustries,"core,cheat,market",Arx_AddAlphaCoresToIndustries (no arguments),"Adds Alpha Cores to all applicable industries in the market."
+Arx_ImproveIndustries,data.commands.Arx_ImproveIndustries,"core,cheat,market",Arx_ImproveIndustries (no arguments),"Improves all applicable industries in the market."

@@ -1,0 +1,9 @@
+{
+    	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+        "BSC_Covetor_Overridden":4,
+        "BSC_Lockout_Overridden":3,
+        "BSC_Roamer_Overridden":3,
+        "BSC_Bitzer_Overridden":1,
+	},
+},

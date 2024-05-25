@@ -1,0 +1,21 @@
+{
+        "knownShips":{
+        "hulls":[
+            "BSC_Drudge",
+            "BSC_Coyote",
+            "BSC_Chrysaor",
+        ],
+    },
+            "knownWeapons":{
+        "weapons":[
+            "BSC_Sabot_MLMS",
+        ],
+    },
+        "hullFrequency":{
+        "hulls":{
+            "BSC_Coyote": 0.5, #Shouldn't replace wolf
+            "BSC_Chrysaor": 0.4, #Should be fairly rare
+            "BSC_Drudge": 0.3, #Should be rare
+        },
+    },
+},
