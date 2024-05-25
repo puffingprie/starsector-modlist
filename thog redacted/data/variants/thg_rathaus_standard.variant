@@ -1,0 +1,47 @@
+{
+  "variantId": "thg_rathaus_standard",
+  "hullId": "thg_rathaus",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 40,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "thg_starlight_double",
+        "WS 002": "locust",
+        "WS 003": "squall",
+        "WS 004": "locust",
+        "WS 007": "thg_starlight_double",
+        "WS 009": "thg_plaspulser",
+        "WS 012": "thg_starlight_single",
+        "WS 013": "taclaser",
+        "WS 014": "taclaser",
+        "WS 015": "thg_starlight_single",
+        "WS 018": "thg_plaspulser",
+        "WS0001": "ionbeam",
+        "WS0002": "ionbeam"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "SHIELD_CORE": "thg_shieldcore_extended"
+    },
+	],
+  "wings": [
+    "flash_wing",
+    "thg_solaris_fighter_wing",
+    "thg_gleam_variant_wing",
+    "thg_gleam_variant_wing",
+    "thg_gleam_variant_wing"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "variantId": "thg_revetment_siege",
+  "hullId": "thg_revetment",
+  "displayName": "Siege",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "thg_mallet",
+        "WS0002": "devastator",
+        "WS0003": "thg_thistle",
+        "WS0004": "thg_thistle",
+        "WS0005": "hellbore",
+        "WS0006": "hellbore",
+        "WS0007": "hveldriver",
+        "WS0008": "hveldriver",
+        "WS0009": "thg_laggard",
+        "WS0010": "thg_laggard"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "ARMOR_PLATE1": "thg_armormodule_variant"
+    },
+    {
+      "ARMOR_PLATE2": "thg_armormodule_variant"
+    },
+    {
+      "ARMOR_PLATE3": "thg_armormodule_variant"
+    },
+    {
+      "ARMOR_PLATE4": "thg_armormodule_variant"
+    },
+    {
+      "ARMOR_PLATE5": "thg_armormodule_variant"
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "thg_squalorftr",
+  "specClass": "projectile",
+  "projectileSpecId": "squall_rocket",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/squalor_turret_base.png",
+  "turretUnderSprite": "graphics/weapons/squalor_base.png",
+  "hardpointSprite": "graphics/weapons/squalor_hardpoint_base.png",
+  "hardpointUnderSprite": "graphics/weapons/squalor_hardpoint_basecover.png",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "turretOffsets": [
+    8,
+    -3.5,
+    8,
+    2.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    15,
+    2.5,
+    15,
+    -1.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 8,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1.5,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 0.45,
+    "blowbackLength": 16,
+    "blowbackSpread": 6,
+    "particleColor": [
+      190,
+      180,
+      160,
+      95
+    ]
+  },
+  "fireSoundTwo": "squall_fire"
+}

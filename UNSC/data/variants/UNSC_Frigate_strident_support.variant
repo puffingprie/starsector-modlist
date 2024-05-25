@@ -1,0 +1,53 @@
+{
+  "variantId": "UNSC_Frigate_strident_support",
+  "hullId": "UNSC_Frigate_strident",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "UNSC_Frigate_techmac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "UNSC_Frigate_unscpd",
+        "WS0002": "UNSC_Frigate_unscpd",
+        "WS0003": "UNSC_Frigate_unscpd",
+        "WS0004": "UNSC_Frigate_unscpd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sabre_wing"
+  ]
+}

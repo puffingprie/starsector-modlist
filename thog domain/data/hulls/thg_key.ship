@@ -1,0 +1,73 @@
+{
+  "hullName": "Key",
+  "hullId": "thg_key",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Key.png",
+  "style": "LOW_TECH",
+  "height": 28,
+  "width": 24,
+  "center": [12, 12.5],
+  "collisionRadius": 19,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 18.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "auxiliarythrusters"
+  ],
+  "builtInWeapons": {
+    "WS0001": "thg_thistle"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5.5, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-7, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11.5, -0],
+      "length": 11,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-9.5, 4.5],
+      "length": 7.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-9.5, -4.5],
+      "length": 7.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -12, -0,
+    2, 11,
+    14.5, -0,
+    1.5, -11.5
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "hullName": "Castellan",
+  "hullId": "thg_castellan",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/Castellan.png",
+  "style": "LOW_TECH",
+  "height": 320,
+  "width": 256,
+  "center": [137.5, 170.5],
+  "collisionRadius": 196,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 185,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "autorepair",
+    "bdeck",
+    "eccm",
+    "ecm",
+    "hiressensors",
+    "pointdefenseai",
+    "repair_gantry",
+    "rugged",
+    "solar_shielding",
+    "surveying_equipment",
+    "tow_cable"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 159.5,
+      "locations": [-103.5, 61.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -114.5,
+      "locations": [-98.5, -40.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, -14.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 60,
+      "locations": [-7.5, 68.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": -57.5,
+      "locations": [53.5, -42.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 273,
+      "angle": 0,
+      "locations": [121.5, 6.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-74.5, 53]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-40.5, 53.5]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-34.5, -58.5]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-78.5, -58.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-159.5, 55],
+      "length": 28.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-166, 34.5],
+      "length": 57,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-165, 11],
+      "length": 38.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-165, -10.5],
+      "length": 39,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-166, -35.5],
+      "length": 56,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-160, -55.5],
+      "length": 31.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -158.5, 61.5,
+    -165, 42,
+    -165, -42.5,
+    -159, -63,
+    -143.5, -84,
+    -99, -91,
+    -61, -117.5,
+    -5.5, -75.5,
+    33, -101,
+    129.5, -100,
+    142.5, -69,
+    142, 80.5,
+    129.5, 113,
+    59, 138,
+    -8, 123,
+    -57, 72.5,
+    -107.5, 122.5,
+    -145.5, 88.5
+  ]
+}

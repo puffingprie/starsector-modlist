@@ -1,0 +1,40 @@
+{
+  "variantId": "UNSC_Frigate_charon_logistics",
+  "hullId": "UNSC_Frigate_charon",
+  "displayName": "Logistics",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "breach"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "UNSC_Frigate_freightmac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "UNSC_Frigate_unscpd",
+        "WS0002": "UNSC_Frigate_unscpd",
+        "WS0003": "UNSC_Frigate_unscpd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

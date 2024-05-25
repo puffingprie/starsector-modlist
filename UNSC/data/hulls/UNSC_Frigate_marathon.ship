@@ -1,0 +1,203 @@
+{
+  "hullName": "Marathon",
+  "hullId": "UNSC_Frigate_marathon",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/Marathon.png",
+  "style": "MIDLINE",
+  "height": 582,
+  "width": 160,
+  "center": [80.5, 290.5],
+  "collisionRadius": 305,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 304,
+  "viewOffset": 0,
+  "builtInMods": [
+    "UNSC_hullconstruction",
+    "targetingunit"
+  ],
+  "builtInWeapons": {
+    "WS0012": "UNSC_Frigate_trimac"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-8, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [64.5, 25]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [64.5, -26]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [162.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-226, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 135,
+      "locations": [-234.5, 41.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": -135,
+      "locations": [-234.5, -41.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [117.5, 20.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [117.5, -21.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [213.5, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [260.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -93.5, 60,
+        -61.5, 60
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -94.5, -60.5,
+        -61.5, -60.5
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -30.5, -60.5,
+        -29.5, 60
+      ]
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [266, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-290.5, -0.5],
+      "length": 74.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-289.5, -26.5],
+      "length": 110,
+      "width": 31,
+      "angle": 180,
+      "contrailSize": 31,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-289.5, 26.5],
+      "length": 110,
+      "width": 31,
+      "angle": -180,
+      "contrailSize": 31,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    284, 2,
+    85.5, -20,
+    -263.5, -33,
+    -290.5, -22,
+    -290.5, 70,
+    -263.5, 81,
+    85.5, 68,
+    284, 46
+  ]
+}

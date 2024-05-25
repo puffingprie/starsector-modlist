@@ -1,0 +1,38 @@
+{
+  "variantId": "macahuitl_variant2",
+  "hullId": "thg_macahuitl",
+  "displayName": "Shielded",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 6,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "taclaser",
+        "WS0002": "lightmg",
+        "WS0003": "lightmg",
+        "WS0004": "harpoon_single",
+        "WS0005": "harpoon_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

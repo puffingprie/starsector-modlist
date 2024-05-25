@@ -1,0 +1,116 @@
+{
+  "hullName": "Hone",
+  "hullId": "thg_hone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/hone.png",
+  "style": "HIGH_TECH",
+  "height": 40,
+  "width": 38,
+  "center": [19, 21],
+  "collisionRadius": 31.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 31,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS 002": "thg_plaspulser",
+    "WS 003": "thg_plaspulser",
+    "WS0002": "atropos_single"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 6,
+      "angle": 0,
+      "locations": [-3, -15]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 6,
+      "angle": -0,
+      "locations": [-3, 15]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": -0,
+      "locations": [6.5, -0],
+      "renderOrderMod": -5
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20, 8],
+      "length": 8.257874,
+      "width": 2.868805,
+      "angle": 175.5,
+      "contrailSize": 2.868805,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-17, 8.5],
+      "length": 12.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-17, -8.5],
+      "length": 12.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-19, -12],
+      "length": 8.257874,
+      "width": 2.868805,
+      "angle": -175.5,
+      "contrailSize": 2.868805,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-19, 12],
+      "length": 8.257874,
+      "width": 2.868805,
+      "angle": 175.5,
+      "contrailSize": 2.868805,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15, -3.5],
+      "length": 7,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15, 3.5],
+      "length": 7,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -17, -20,
+    -17, 19,
+    25.5, 0.5
+  ]
+}

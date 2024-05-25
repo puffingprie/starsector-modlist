@@ -1,0 +1,32 @@
+{
+  "variantId": "thg_stockpile_standard",
+  "hullId": "thg_stockpile",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_cargo_holds"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "guardian",
+        "WS0001": "lrpdlaser",
+        "WS0002": "thg_remnant_swarmer",
+        "WS0003": "thg_remnant_swarmer",
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser",
+        "WS0006": "lrpdlaser",
+        "WS0007": "pdlaser",
+        "WS0008": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

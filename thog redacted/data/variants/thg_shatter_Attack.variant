@@ -1,0 +1,66 @@
+{
+  "variantId": "thg_shatter_Attack",
+  "hullId": "thg_shatter",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "shockrepeater",
+        "WS 005": "shockrepeater",
+        "WS 007": "resonatormrm",
+        "WS 008": "riftlance",
+        "WS0001": "resonatormrm",
+        "WS0002": "riftlance",
+        "WS0003": "amsrm",
+        "WS0004": "minipulser",
+        "WS0005": "minipulser",
+        "WS0006": "amsrm",
+        "WS0007": "amsrm",
+        "WS0008": "minipulser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "cryoflux",
+        "WS 010": "cryoflux"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "shockrepeater",
+        "WS 003": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

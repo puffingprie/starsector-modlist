@@ -1,0 +1,131 @@
+{
+  "hullName": "Charlatan",
+  "hullId": "thg_charlatan",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Charlatan.png",
+  "style": "LOW_TECH",
+  "height": 112,
+  "width": 92,
+  "center": [46, 58.5],
+  "collisionRadius": 76,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 72,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "automated",
+    "autorepair",
+    "unstable_coils"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [44.5, 38]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [44.5, -38]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 112,
+      "locations": [-42.5, 19]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -112,
+      "locations": [-42.5, -19]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [45, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 12,
+      "angle": 151,
+      "locations": [-19.5, 42.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 12,
+      "angle": -151,
+      "locations": [-19.5, -42.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-41.5, 29],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-41.5, -29],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-55, 5.5],
+      "length": 41,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-55, -5.5],
+      "length": 41,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    50, 44,
+    50, -44,
+    -19, -44,
+    -51.5, -25,
+    -51.5, -10.5,
+    -56.5, -10,
+    -56.5, 10,
+    -51.5, 10.5,
+    -51.5, 25,
+    -19, 44
+  ]
+}

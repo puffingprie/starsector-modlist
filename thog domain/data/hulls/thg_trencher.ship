@@ -1,0 +1,77 @@
+{
+  "hullName": "Trencher",
+  "hullId": "thg_trencher",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Trencher.png",
+  "style": "LOW_TECH",
+  "height": 35,
+  "width": 36,
+  "center": [18, 13],
+  "collisionRadius": 22.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 22,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "insulatedengine",
+    "unstable_coils"
+  ],
+  "builtInWeapons": {
+    "WS0001": "thg_laggard",
+    "WS0003": "lightdualmg",
+    "WS0004": "lightdualmg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6.5, 10]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [6.5, -10]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, 5],
+      "length": 13.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-12, -5],
+      "length": 13.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    -12.5, 6,
+    1.5, 17,
+    14, 6,
+    1, -5.5
+  ]
+}

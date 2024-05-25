@@ -1,0 +1,42 @@
+{
+  "id": "thg_rotarysmex",
+  "specClass": "projectile",
+  "projectileSpecId": "lightag_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/thgrotarysmall/sprinklerag_turret_base00.png",
+  "hardpointSprite": "graphics/weapons/thgrotarysmall/sprinklerag_hardpoint_base00.png",
+  "turretOffsets": [
+    11,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    15.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 4,
+  "frameRate": 20,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 6,
+    "particleSizeMin": 7,
+    "particleSizeRange": 9,
+    "particleDuration": 0.15,
+    "particleCount": 11,
+    "particleColor": [
+      255,
+      155,
+      105,
+      200
+    ]
+  },
+  "fireSoundTwo": "light_assault_gun_fire"
+}

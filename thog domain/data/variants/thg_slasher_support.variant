@@ -1,0 +1,39 @@
+{
+  "variantId": "thg_slasher_support",
+  "hullId": "thg_slasher",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "thg_cricket",
+        "WS 004": "thg_cricket",
+        "WS 005": "thg_thistle",
+        "WS 006": "thg_thistle",
+        "WS 007": "thg_rotarysmex",
+        "WS0001": "thg_thistle"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

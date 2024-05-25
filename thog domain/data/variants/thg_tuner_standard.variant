@@ -1,0 +1,43 @@
+{
+  "variantId": "thg_tuner_standard",
+  "hullId": "thg_tuner",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "efficiency_overhaul",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "thg_cricket",
+        "WS0007": "thg_cricket",
+        "WS0008": "harpoon",
+        "WS0009": "harpoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,179 @@
+{
+    "displayName": "Ragnorak",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "uaf_ai_roria_esvernia",
+    "hullMods": [
+        "ugh_improvisedbracing"
+    ],
+    "sMods": [
+        "advancedshieldemitter",
+        "additional_berthing",
+        "turretgyros",
+        "armoredweapons",
+        "augmentedengines",
+        "autorepair",
+        "auxiliary_fuel_tanks",
+        "auxiliarythrusters",
+        "blast_doors",
+        "eccm",
+        "efficiency_overhaul",
+        "expanded_cargo_holds",
+        "expanded_deck_crew",
+        "extendedshieldemitter",
+        "fluxcoil",
+        "fluxdistributor",
+        "hiressensors",
+        "insulatedengine",
+        "recovery_shuttles",
+        "frontemitter",
+        "adaptiveshields",
+        "solar_shielding",
+        "stabilizedshieldemitter",
+        "surveying_equipment",
+        "ugh_antiterminalbreakers",
+        "ugh_autostruct",
+        "ugh_reliantdrives",
+        "ugh_wingspec",
+        "ugh_sustainingmotivator",
+        "ugh_tachyonbroadcast",
+        "ugh_turboconductors",
+        "A_S-F_ElectroVent",
+        "AL_chainedmod",
+        "AL_repairFactory",
+        "AL_airrightequipment",
+        "AL_antideuengine",
+        "AL_amrefiningfactory",
+        "AL_deustove_auto",
+        "AL_DeuStove",
+        "AL_brainAI",
+        "AL_filteredphasecoating",
+        "AL_frequencybuffergrid",
+        "AL_glittertargetingcore",
+        "AL_moonarcslot",
+        "AL_mdshield",
+        "AL_shadowblueprint",
+        "AL_primus_arbore",
+        "AL_primeship",
+        "cmc_guardian",
+        "ix_entropy_arrester",
+        "nskr_demonic_core",
+        "XHAN_targeting_mast",
+        "CHM_xhanempire",
+        "xlu_heatflux_chamber",
+        "xlu_breezer_rounds",
+        "xlu_ultra_bulkheads",
+        "xlu_crew_hardyboys",
+        "xlu_crew_warshots",
+        "xlu_crew_waymakers",
+        "xlu_weapons_overhaul",
+    ],
+    "quality": 0.0,
+    "variantId": "uaf_ai_roria_esvernia_custom",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 031": "sw_flash",
+                "WS 030": "sw_flash",
+                "WS 012": "sw_flash",
+                "WS 016": "sw_flash",
+                "WS 017": "sw_flash",
+                "WS 013": "sw_flash"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 024": "sw_positronlens",
+                "WS 025": "sw_positronlens",
+                "WS 008": "sw_positronlens",
+                "WS0011": "sw_positronlens",
+                "WS 009": "sw_positronlens",
+                "WS0012": "sw_positronlens",
+                "WS0018": "sw_photonlense",
+                "WS0017": "sw_photonlense"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 014": "sw_tartarus",
+                "WS 010": "sw_tartarus",
+                "WS 015": "sw_tartarus",
+                "WS 011": "sw_tartarus",
+                "WS 035": "sw_gauss",
+                "WS 034": "sw_gauss",
+                "WS 006": "sw_lightspear",
+                "WS 007": "sw_lightspear"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "sw_lightning_storm",
+                "WS0001": "sw_lightning_storm",
+                "WS0005": "sw_lightning_storm",
+                "WS0006": "sw_lightning_storm",
+                "WS0004": "sw_lightning_storm",
+                "WS0002": "sw_lightning_storm"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 021": "sw_blackhole",
+                "WS 020": "sw_blackhole"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 052": "sw_annihilator",
+                "WS 053": "sw_annihilator",
+                "WS0016": "sw_annihilator",
+                "WS0015": "sw_annihilator",
+                "WS 004": "sw_annihilator",
+                "WS0014": "sw_annihilator",
+                "WS 005": "sw_annihilator",
+                "WS0013": "sw_annihilator"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0023": "sw_reflective_shield",
+                "WS0021": "sw_plasmastorm",
+                "WS0022": "sw_plasmastorm",
+                "WS0020": "sw_plasmastorm",
+                "WS0019": "sw_plasmastorm",
+                "WS0007": "sw_novax",
+                "WS0010": "sw_novax",
+                "WS0008": "sw_novax",
+                "WS0009": "sw_novax",
+                "WS 049": "sw_tesla_coil",
+                "WS 048": "sw_tesla_coil",
+                "WS 044": "sw_tesla_coil",
+                "WS 045": "sw_tesla_coil",
+                "WS 046": "sw_tesla_coil",
+                "WS 047": "sw_tesla_coil",
+                "WS 038": "sw_tesla_coil",
+                "WS 039": "sw_tesla_coil",
+                "WS 037": "sw_tesla_coil",
+                "WS 003": "sw_tesla_coil",
+                "WS 001": "sw_tesla_coil",
+                "WS 000": "sw_tesla_coil",
+                "WS 002": "sw_tesla_coil",
+                "WS 036": "sw_tesla_coil"
+            }
+        }
+    ]
+}

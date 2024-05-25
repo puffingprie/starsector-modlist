@@ -1,0 +1,136 @@
+{
+  "hullName": "Omniscience",
+  "hullId": "thg_omniscience",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Omniscience.png",
+  "style": "HIGH_TECH",
+  "height": 40,
+  "width": 54,
+  "center": [27, 23],
+  "collisionRadius": 33.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 33,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "pointdefenseai",
+    "hardenedshieldemitter",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0002": "thg_starlight_double",
+    "WS0003": "thg_plaspulser",
+    "WS0004": "thg_plaspulser"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 70,
+      "locations": [2, 14]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 197,
+      "angle": -70,
+      "locations": [2, -14]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [8.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 21,
+      "angle": 133.5,
+      "locations": [-10, 22]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 21,
+      "angle": -133.5,
+      "locations": [-10, -22]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17, 4],
+      "length": 11,
+      "width": 5,
+      "angle": 173.5,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-17, -4],
+      "length": 11,
+      "width": 5,
+      "angle": -173.5,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15, 20],
+      "length": 11,
+      "width": 5,
+      "angle": 172.5,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15, -20],
+      "length": 11,
+      "width": 5,
+      "angle": -172.5,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-17, 16],
+      "length": 15,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-17, -16],
+      "length": 15,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15, -0],
+      "length": 15,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    12, -24.5,
+    -15.5, -25,
+    -15.5, 25,
+    12, 24.5
+  ]
+}

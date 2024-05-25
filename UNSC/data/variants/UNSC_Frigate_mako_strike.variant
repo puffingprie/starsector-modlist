@@ -1,0 +1,39 @@
+{
+  "variantId": "UNSC_Frigate_mako_strike",
+  "hullId": "UNSC_Frigate_mako",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "UNSC_Frigate_laser"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "UNSC_Frigate_unscpd"
+    }
+    },
+	{
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "sabot",
+        "WS0004": "sabot"
+      }
+  }
+  ],
+  "modules": [],
+  "wings": []
+}

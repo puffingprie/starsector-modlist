@@ -1,0 +1,55 @@
+{
+  "variantId": "thg_leper_lower_variant",
+  "hullId": "thg_leper_lower",
+  "displayName": "Corrupt",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "locust",
+        "WS0002": "mark9",
+        "WS0003": "hephag",
+        "WS0004": "hellbore",
+        "WS0005": "flak",
+        "WS0006": "pilum",
+        "WS0007": "salamanderpod",
+        "WS0008": "pilum_large",
+        "WS0009": "dualflak",
+        "WS0010": "heavyac",
+        "WS0011": "hveldriver",
+        "WS0012": "jackhammer",
+        "WS0013": "annihilatorpod",
+        "WS0014": "pilum",
+        "WS0015": "vulcan",
+        "WS0016": "lightmortar",
+        "WS0017": "lightmg",
+        "WS0018": "thg_cricket",
+        "WS0019": "swarmer",
+        "WS0020": "railgun",
+        "WS0021": "lightmortar",
+        "WS0023": "vulcan",
+        "WS0024": "lightmg",
+        "WS0025": "vulcan",
+        "WS0026": "lightmortar",
+        "WS0027": "lightdualmg",
+        "WS0028": "pilum_large",
+        "WS0029": "breachpod",
+        "WS0030": "swarmer",
+        "WS0031": "swarmer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thg_key_variant_wing",
+    "thg_knuckle_variant_wing",
+    "thg_pachinko_variant_wing"
+  ]
+}

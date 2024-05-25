@@ -1,0 +1,147 @@
+{
+  "hullName": "Paris-class",
+  "hullId": "UNSC_Frigate_paris",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/UNSC_Frigate_paris.png",
+  "style": "MIDLINE",
+  "height": 321,
+  "width": 126,
+  "center": [63, 150.5],
+  "collisionRadius": 186,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 185,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pointdefenseai",
+    "UNSC_hullconstruction"
+  ],
+  "builtInWeapons": {
+    "WS0003": "UNSC_Frigate_lightmac"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 75,
+      "locations": [32.5, 25]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -75,
+      "locations": [32.5, -25]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 75,
+      "locations": [46.5, 25]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -75,
+      "locations": [46.5, -25]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-99.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [31, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [55.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [154, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-150.5, 42],
+      "length": 43,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-150.5, -42],
+      "length": 43,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-148.5, 34.5],
+      "length": 22,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-148.5, -34.5],
+      "length": 22,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    168.5, -12.5,
+    113.5, -16.5,
+    112.5, -36,
+    -33, -37.5,
+    -33, -62.5,
+    -147, -69.5,
+    -152.5, -32,
+    -115, -27.5,
+    -115, 24.5,
+    -152.5, 29,
+    -147, 66.5,
+    -33, 59.5,
+    -33, 34.5,
+    112.5, 33,
+    113.5, 13.5,
+    168.5, 9.5
+  ]
+}

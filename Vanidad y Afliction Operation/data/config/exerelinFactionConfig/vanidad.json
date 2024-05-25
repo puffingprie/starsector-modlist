@@ -1,0 +1,55 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    
+    "rebelFleetSuffix":"Liberador",
+    
+    "directoryUseShortName":true,
+    
+    "marketSpawnWeight":0.75,
+	
+
+     
+    "startRelationships":{ 
+		"hegemony": 1, 
+		"luddic_church":+0.5, 
+		"pirates":-0.6,
+		"luddic_path":-0.6,
+		},
+    "maxRelationships":{},
+    "diplomacyPositiveChance":{"hegemony":1.25},
+    "diplomacyNegativeChance":{"hegemony":0.75},
+    "morality":"neutral",
+    
+    "alignments":{
+        "corporate":-0.3,
+        "technocratic":0.8,
+		"diplomatic":0,
+		"militarist":0.5,
+		"ideological":0.3
+    },
+	
+    "diplomacyTraits":["submissive", "helps_allies", "temperamental", "lowprofile"],
+    
+    "freeMarket":false,
+    
+	    "vengeanceLevelNames":["Resentimiento", "Odio"],
+    "vengeanceFleetNames":["Ejecutor", "Sicario"],
+    "vengeanceFleetNamesSingle":["an Ejecutor fleet", "a Sicario Fleet"],
+	
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":1.1,	# flee the frozen motherland
+    "colonyTargetValuator":"exerelin.campaign.colony.LuddicColonyTargetValuator",
+    "startSpecialItems":[
+	[["vanidad_base_hull_package", ""]],
+	[["vanidad_laere_package", ""]],
+	],    
+	"startShipsSolo":[["vanidad_cazador_hunter"]],
+    "startShipsCombatSmall":[["vanidad_forrajeador_explorer", "vanidad_halcon_leader", "vanidad_cazador_hunter"],["vanidad_naveExplorar_player","vanidad_pazjoya_guardian","vanidad_cazador_elite"]],
+    "startShipsCarrierSmall":[["vanidad_forrajeador_explorer", "vanidad_invasor_standard", "vanidad_pazjoya_guardian"]],
+    "startShipsCombatLarge":[["vanidad_forrajeador_explorer", "vanidad_almadena_support", "vanidad_ionizador_support", "vanidad_halcon_leader"],["vanidad_dominator_balanced","vanidad_forrajeador_explorer","vanidad_pazjoya_interceptor","vanidad_cazador_elite"]],
+	"startShipsSuper":[
+		["vanidad_cargador_elite"],
+		["vanidad_forrajeador_support"]
+	],
+}

@@ -1,0 +1,19 @@
+{
+	"id":"UNSC", # internal id
+	"name":"United Nations Space Command v0.1d", # displayed to the player
+	"author":"AppleMarineXX",
+	"version":"0.2D",
+	"description":"Faction mod for the United Nations Space Command from the Halo Franchise. (WIP)",
+	"gameVersion":"0.97",
+	"modPlugin":"data.scripts.UNSCModPlugin",
+	    "jars": [
+        "jars/lw_Console.jar",
+		"jars/UNSC.jar"
+    ],
+    "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+        }
+    ],
+}

@@ -1,0 +1,59 @@
+{
+  "variantId": "thg_absolver_assault",
+  "hullId": "thg_absolver",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 13,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "annihilator",
+        "WS0004": "thg_thistle",
+        "WS0005": "thg_thistle"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thg_obligation_variant_wing"
+  ]
+}

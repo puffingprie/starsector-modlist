@@ -1,0 +1,69 @@
+{
+  "variantId": "thg_journy_variant",
+  "hullId": "thg_journy",
+  "displayName": "Balanced",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "thg_micropulse",
+        "WS 002": "dualflak",
+        "WS 003": "breachpod",
+        "WS 004": "lightdualac",
+        "WS 005": "jackhammer",
+        "WS 006": "annihilatorpod",
+        "WS 008": "jackhammer",
+        "WS 009": "lightac",
+        "WS 011": "heatseeker",
+        "WS 012": "mininglaser",
+        "WS 013": "mininglaser",
+        "WS 014": "mininglaser",
+        "WS 015": "mininglaser",
+        "WS 016": "thg_cricket",
+        "WS 017": "mininglaser",
+        "WS 018": "thg_cricket",
+        "WS0001": "lightdualmg",
+        "WS0002": "lightac",
+        "WS0003": "breachpod",
+        "WS0004": "thg_micropulse",
+        "WS0005": "thg_micropulse",
+        "WS0006": "lightdualmg",
+        "WS0007": "lightdualac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "longbow_wing",
+    "longbow_wing"
+  ]
+}

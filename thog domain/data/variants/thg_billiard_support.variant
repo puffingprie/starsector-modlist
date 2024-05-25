@@ -1,0 +1,35 @@
+{
+  "variantId": "thg_billiard_support",
+  "hullId": "thg_billiard",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 1,
+  "quality": 0.25,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "ecm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "locust"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

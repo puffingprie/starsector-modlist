@@ -1,0 +1,33 @@
+{
+  "hullName": "Shock Plate",
+  "hullId": "thg_armormodule",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/armorplate.png",
+  "style": "MIDLINE",
+  "height": 32,
+  "width": 71,
+  "center": [35.5, 13.5],
+  "collisionRadius": 44,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 44,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    -15,
+    0
+  ],
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    7, -30.5,
+    -7, -33,
+    -11, -29,
+    -11, 29,
+    -7, 33,
+    7, 30.5,
+    17, -0
+  ]
+}

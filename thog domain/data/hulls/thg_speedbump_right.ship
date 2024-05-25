@@ -1,0 +1,91 @@
+{
+  "hullName": "Right Hangar",
+  "hullId": "thg_speedbump_right",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Speedbump_right.png",
+  "style": "LOW_TECH",
+  "height": 142,
+  "width": 200,
+  "center": [139.5, 69.5],
+  "collisionRadius": 77,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 75,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "always_detaches",
+    "ecm",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-15.5, -0.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [39, -39.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": -90,
+      "locations": [-35.5, -23.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [40, -1.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-51.5, 11.5],
+      "length": 32.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-51.5, 32.5],
+      "length": 33,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -52, 42.5,
+    -52, 1.5,
+    -42, 1,
+    -42, -31,
+    -6.5, -31,
+    -6, -44.5,
+    47.5, -44.5,
+    47, 7,
+    37, 12.5,
+    37, 34.5,
+    18.5, 34.5,
+    -17, 45.5
+  ]
+}

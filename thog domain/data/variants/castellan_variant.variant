@@ -1,0 +1,29 @@
+{
+  "variantId": "castellan_variant",
+  "hullId": "thg_castellan",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pilum_large",
+        "WS0002": "vulcan",
+        "WS0003": "pilum",
+        "WS0004": "vulcan",
+        "WS0005": "vulcan",
+        "WS0006": "sabotpod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

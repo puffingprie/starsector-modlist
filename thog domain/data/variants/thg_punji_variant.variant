@@ -1,0 +1,22 @@
+{
+  "variantId": "thg_punji_variant",
+  "hullId": "thg_punji",
+  "displayName": "Drone Strike Fighter",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "thg_rotarysmex"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

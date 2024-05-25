@@ -1,0 +1,35 @@
+{
+  "variantId": "thg_billiard_shielded",
+  "hullId": "thg_billiard",
+  "displayName": "Shielded",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 0,
+  "quality": 0.25,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

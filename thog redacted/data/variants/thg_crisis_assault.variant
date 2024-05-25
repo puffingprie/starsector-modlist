@@ -1,0 +1,34 @@
+{
+  "variantId": "thg_crisis_assault",
+  "hullId": "thg_crisis",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 4,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "pdlaser",
+        "WS 003": "pdlaser",
+        "WS 004": "reaper",
+        "WS 005": "reaper",
+        "WS0001": "lightdualac",
+        "WS0002": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

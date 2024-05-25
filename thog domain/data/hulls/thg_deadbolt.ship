@@ -1,0 +1,154 @@
+{
+  "hullName": "Deadbolt",
+  "hullId": "thg_deadbolt",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Deadbolt.png",
+  "style": "LOW_TECH",
+  "height": 90,
+  "width": 120,
+  "center": [60, 38],
+  "collisionRadius": 61.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 61,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "armoredweapons"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [9, 27]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -45,
+      "locations": [9, -27]
+    },
+    {
+      "id": "WS 003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [13, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0.5,
+      "locations": [36, 36]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0.5,
+      "locations": [36, -36]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0.5,
+      "locations": [36, -22]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0.5,
+      "locations": [36, 22]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 123.5,
+      "locations": [-20.5, 19]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": -123.5,
+      "locations": [-20.5, -19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26.5, 48],
+      "length": 27.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26.5, -48],
+      "length": 27.5,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-33, 5.5],
+      "length": 34,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-33, -5.5],
+      "length": 34,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    19.5, -9,
+    42.5, -18,
+    42, -40.5,
+    24.5, -44.5,
+    5, -55,
+    -15.5, -57,
+    -26.5, -53.5,
+    -33, -10,
+    -33, 10,
+    -26.5, 53.5,
+    -15.5, 57,
+    5, 55,
+    24.5, 44.5,
+    42, 40.5,
+    42.5, 18,
+    19.5, 9
+  ]
+}

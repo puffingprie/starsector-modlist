@@ -1,0 +1,58 @@
+{
+    "displayName": "Pd",
+    "fluxCapacitors": 0,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "vanidad_halcon",
+    "hullMods": [
+        "advancedoptics",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vanidad_halcon_leader",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "vanidad_estarayo_medium",
+                "WS0016": "vanidad_estarayo_medium"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "reaper"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "heatseeker",
+                "WS0012": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "irpulse"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "lightac",
+                "WS0014": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "pdburst",
+                "WS0018": "pdburst"
+            }
+        }
+    ]
+}

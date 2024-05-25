@@ -1,0 +1,101 @@
+{
+  "hullName": "Billiard",
+  "hullId": "thg_billiard",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/billiard.png",
+  "style": "LOW_TECH",
+  "height": 90,
+  "width": 80,
+  "center": [40, 43],
+  "collisionRadius": 57,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 55.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged"
+  ],
+  "builtInWeapons": {
+    "WS0004": "lidardish"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 14,
+      "angle": 26,
+      "locations": [-11.5, 26.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 14,
+      "angle": -27.5,
+      "locations": [-12, -26]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [27, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-2, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-35, 21.5],
+      "length": 19.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-35, -21.5],
+      "length": 19.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, -0.5],
+      "length": 30,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    44, -16,
+    32.5, -17.5,
+    26.5, -27,
+    -11, -25,
+    -14.5, -29,
+    -33.5, -29,
+    -38, -9.5,
+    -38, 9.5,
+    -33.5, 29,
+    -14.5, 29,
+    -11, 25,
+    26.5, 27,
+    32.5, 17.5,
+    44, 16
+  ]
+}

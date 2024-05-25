@@ -1,0 +1,66 @@
+{
+  "variantId": "thg_annex_specialist",
+  "hullId": "thg_annex",
+  "displayName": "Specialist",
+  "goalVariant": true,
+  "fluxCapacitors": 36,
+  "fluxVents": 35,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector",
+    "missleracks",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "thg_plaspulser",
+        "WS 004": "thg_plaspulser",
+        "WS0001": "typhoon",
+        "WS0002": "typhoon",
+        "WS0003": "mark9",
+        "WS0004": "tachyonlance",
+        "WS0005": "ionbeam",
+        "WS0006": "hurricane",
+        "WS0007": "squall",
+        "WS0008": "gravitonbeam",
+        "WS0009": "thg_plaspulser",
+        "WS0010": "thg_plaspulser",
+        "WS0011": "taclaser",
+        "WS0012": "taclaser",
+        "WS0013": "thg_plaspulser",
+        "WS0014": "thg_plaspulser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,48 @@
+{
+  "variantId": "thg_jury_support",
+  "hullId": "thg_jury",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "thg_thistle",
+        "WS0002": "thg_thistle",
+        "WS0003": "flak",
+        "WS0004": "breachpod",
+        "WS0005": "hammer",
+        "WS0006": "hammer",
+        "WS0007": "hellbore"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thg_pachinko_variant_wing"
+  ]
+}

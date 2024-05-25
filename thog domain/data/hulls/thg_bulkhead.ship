@@ -1,0 +1,113 @@
+{
+  "hullName": "Bulkhead",
+  "hullId": "thg_bulkhead",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Bulkhead.png",
+  "style": "LOW_TECH",
+  "height": 103,
+  "width": 100,
+  "center": [50, 52.5],
+  "collisionRadius": 55,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 55,
+  "viewOffset": 0,
+  "builtInMods": [
+    "drive_field_stabilizer",
+    "automated",
+    "rugged",
+    "delicate"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 25,
+      "locations": [37, 16]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -25,
+      "locations": [37, -16]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 90,
+      "locations": [-13.5, 36]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -90,
+      "locations": [-13.5, -36]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-26, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-45.5, 25.5],
+      "length": 24.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-45.5, -25.5],
+      "length": 24.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50, 13.5],
+      "length": 38,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50, -13.5],
+      "length": 38,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    47.5, -28.5,
+    2, -36,
+    -15, -48,
+    -43, -34,
+    -50.5, -19.5,
+    -50.5, 19.5,
+    -43, 34,
+    -15, 48,
+    2, 36,
+    47.5, 28.5
+  ]
+}

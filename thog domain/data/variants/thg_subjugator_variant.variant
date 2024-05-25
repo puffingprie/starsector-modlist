@@ -1,0 +1,60 @@
+{
+  "variantId": "thg_subjugator_variant",
+  "hullId": "thg_subjugator",
+  "displayName": "Fire Superiority",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "dedicated_targeting_core",
+    "armoredweapons",
+    "reinforcedhull",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "thg_thistle",
+        "WS 003": "thg_thistle",
+        "WS 004": "thg_thistle",
+        "WS 005": "thg_thistle",
+        "WS 006": "thg_thistle",
+        "WS 010": "thg_zhuge",
+        "WS 011": "thg_zhuge",
+        "WS 012": "hephag",
+        "WS 013": "hephag",
+        "WS 014": "jackhammer",
+        "WS 016": "jackhammer",
+        "WS0001": "thg_thistle",
+        "WS0002": "thg_thistle"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

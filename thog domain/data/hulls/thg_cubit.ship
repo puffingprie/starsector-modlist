@@ -1,0 +1,81 @@
+{
+  "hullName": "Cubit",
+  "hullId": "thg_cubit",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/cubit.png",
+  "style": "LOW_TECH",
+  "height": 65,
+  "width": 52,
+  "center": [26, 32.5],
+  "collisionRadius": 55,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 52,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [27.5, 14]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [27.5, -14]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-32.5, -0],
+      "length": 23,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32.5, 14],
+      "length": 23,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32.5, -14],
+      "length": 23,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    32, -17.5,
+    23, -23,
+    -32.5, -23,
+    -32.5, 23,
+    23, 23,
+    32, 17.5
+  ]
+}

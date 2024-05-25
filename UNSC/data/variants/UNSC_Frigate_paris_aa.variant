@@ -1,0 +1,48 @@
+{
+  "variantId": "UNSC_Frigate_paris_aa",
+  "hullId": "UNSC_Frigate_paris",
+  "displayName": "AA",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pilum",
+        "WS0002": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "UNSC_Frigate_lightmac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "UNSC_Frigate_goal",
+        "WS0006": "UNSC_Frigate_goal",
+        "WS0007": "UNSC_Frigate_goal",
+        "WS0008": "UNSC_Frigate_goal",
+        "WS0009": "UNSC_Frigate_goal"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

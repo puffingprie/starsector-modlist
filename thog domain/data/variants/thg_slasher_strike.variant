@@ -1,0 +1,39 @@
+{
+  "variantId": "thg_slasher_strike",
+  "hullId": "thg_slasher",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "reaper",
+        "WS 004": "reaper",
+        "WS 005": "thg_laggard",
+        "WS 006": "thg_laggard",
+        "WS 007": "thg_cricket",
+        "WS0001": "lightdualac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

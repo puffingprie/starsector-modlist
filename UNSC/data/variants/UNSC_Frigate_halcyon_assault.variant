@@ -1,0 +1,54 @@
+{
+  "variantId": "UNSC_Frigate_halcyon_assault",
+  "hullId": "UNSC_Frigate_halcyon",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 44,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "UNSC_Frigate_trimac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "squall"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "harpoonpod",
+        "WS0004": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "UNSC_Frigate_unscpd",
+        "WS0002": "UNSC_Frigate_unscpd",
+        "WS0005": "UNSC_Frigate_unscpd",
+        "WS0006": "flak",
+        "WS0009": "UNSC_Frigate_unscpd",
+        "WS0010": "UNSC_Frigate_unscpd",
+        "WS0011": "flak",
+		"WS0007": "UNSC_Frigate_goal"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

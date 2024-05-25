@@ -1,0 +1,68 @@
+{
+  "id": "thg_plaspulserbig",
+  "specClass": "projectile",
+  "projectileSpecId": "autopulse_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/Chaplain.png",
+  "turretGlowSprite": "graphics/weapons/Chaplain_Glow.png",
+  "hardpointSprite": "graphics/weapons/Chaplain.png",
+  "hardpointGlowSprite": "graphics/weapons/Chaplain_Glow.png",
+  "glowColor": [
+    25,
+    100,
+    100,
+    255
+  ],
+  "turretOffsets": [
+    25,
+    18.5,
+    25,
+    -18.5,
+    13,
+    -12.5,
+    13,
+    12.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    29,
+    12.5,
+    29,
+    -12,
+    41,
+    -18.5,
+    40,
+    19
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "requiresFullCharge": false,
+  "muzzleFlashSpec": {
+    "length": 16,
+    "spread": 4,
+    "particleSizeMin": 7,
+    "particleSizeRange": 9,
+    "particleDuration": 0.12,
+    "particleCount": 10,
+    "particleColor": [
+      55,
+      100,
+      115,
+      255
+    ]
+  },
+  "fireSoundTwo": "ir_pulse_laser_fire"
+}

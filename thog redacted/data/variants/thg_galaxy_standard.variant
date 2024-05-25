@@ -1,0 +1,58 @@
+{
+  "variantId": "thg_galaxy_standard",
+  "hullId": "thg_galaxy",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 17,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "missleracks",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "thg_starlight_single",
+        "WS0002": "annihilatorpod",
+        "WS0003": "thg_plaspulserbig",
+        "WS0004": "thg_plaspulserbig",
+        "WS0005": "annihilatorpod",
+        "WS0006": "thg_starlight_single",
+        "WS0007": "lrpdlaser",
+        "WS0008": "lrpdlaser",
+        "WS0009": "thg_starlight_single",
+        "WS0010": "thg_starlight_single",
+        "WS0011": "lrpdlaser",
+        "WS0012": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "CORE": "thg_galaxy_core_standard"
+    },
+    {
+      "REAR_LEFT": "thg_galaxy_left_standard"
+    },
+    {
+      "REAR_RIGHT": "thg_galaxy_right_standard"
+    },    
+	{
+      "FRONT_LEFT": "thg_galaxy_front_left_standard"
+    },
+    {
+      "FRONT_RIGHT": "thg_galaxy_front_right_standard"
+    },
+    {
+      "FRONT": "thg_galaxy_front_standard"
+    },
+	],
+  "wings": [
+    "thg_gleam_variant_wing"
+  ]
+}

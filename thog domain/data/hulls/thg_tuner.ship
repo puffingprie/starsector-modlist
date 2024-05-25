@@ -1,0 +1,152 @@
+{
+  "hullName": "Tuner",
+  "hullId": "thg_tuner",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/tuner.png",
+  "style": "LOW_TECH",
+  "height": 130,
+  "width": 161,
+  "center": [80.5, 73],
+  "collisionRadius": 117,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 115,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "missile_autoloader",
+    "repair_gantry"
+  ],
+  "builtInWings": [
+    "thg_pachinko_variant_wing",
+    "thg_pachinko_variant_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [43, 57.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [43, -57.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [43, 71.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [43, -71.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        30, 22.5,
+        32.5, 6.5,
+        30, 32.5
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        30, -21.5,
+        32.5, -5.5,
+        30, -33
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-60, 53.5],
+      "length": 36,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 42,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64, 30.5],
+      "length": 46,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 52,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64, -31],
+      "length": 42,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 40,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-65, -54],
+      "length": 36,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 42,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64, -9.5],
+      "length": 54.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64, 9.5],
+      "length": 54.5,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    35, -47.5,
+    48, -52.5,
+    47.5, -79,
+    -4, -79,
+    -10, -65.5,
+    -60.5, -62,
+    -60.5, 62,
+    -10, 65.5,
+    -4, 79,
+    47.5, 79,
+    48, 52.5,
+    35, 47.5
+  ]
+}

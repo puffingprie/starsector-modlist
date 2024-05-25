@@ -1,0 +1,77 @@
+{
+  "variantId": "thg_Century_bombardier",
+  "hullId": "thg_Century",
+  "displayName": "Bombardier",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "annihilatorpod",
+        "WS0002": "annihilatorpod",
+        "WS0003": "arbalest",
+        "WS0004": "arbalest",
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "lightac",
+        "WS0008": "lightac",
+        "WS0009": "flak",
+        "WS0010": "flak",
+        "WS0011": "shredder",
+        "WS0012": "locust",
+        "WS0013": "locust",
+        "WS0014": "shredder",
+        "WS0015": "vulcan",
+        "WS0016": "lightac",
+        "WS0017": "lightac",
+        "WS0018": "lightac",
+        "WS0019": "vulcan",
+        "WS0020": "lightac",
+        "WS0022": "lightac",
+        "WS0023": "vulcan",
+        "WS0024": "lightac",
+        "WS0025": "hammerrack",
+        "WS0026": "hellbore",
+        "WS0027": "hellbore",
+        "WS0028": "reaper",
+        "WS0029": "reaper",
+        "WS0030": "reaper",
+        "WS0031": "reaper",
+        "WS0032": "thg_cricket",
+        "WS0033": "thg_cricket",
+        "WS0034": "thg_cricket",
+        "WS0035": "thg_cricket"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

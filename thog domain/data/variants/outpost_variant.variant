@@ -1,0 +1,49 @@
+{
+  "variantId": "outpost_variant",
+  "hullId": "thg_outpost",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "ecm",
+    "frontshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "thg_thistle",
+        "WS0002": "thg_thistle",
+        "WS0003": "swarmer",
+        "WS0004": "pilum",
+        "WS0005": "swarmer",
+        "WS0006": "swarmer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thg_bumblebee_variant_wing",
+    "thg_barracuda_variant_wing"
+  ]
+}

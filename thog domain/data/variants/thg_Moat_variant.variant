@@ -1,0 +1,64 @@
+{
+  "variantId": "thg_Moat_variant",
+  "hullId": "thg_Moat",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 37,
+  "fluxVents": 35,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "pointdefenseai",
+    "nav_relay",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pilum_large",
+        "WS0002": "pilum_large",
+        "WS0003": "pilum_large",
+        "WS0004": "pilum_large",
+        "WS0005": "flak",
+        "WS0006": "flak",
+        "WS0007": "pilum",
+        "WS0008": "thg_thistle",
+        "WS0009": "thg_thistle",
+        "WS0010": "thg_thistle",
+        "WS0011": "thg_thistle",
+        "WS0012": "thg_thistle",
+        "WS0013": "thg_thistle",
+        "WS0014": "thg_thistle"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thg_bumblebee_variant_wing",
+    "thg_bumblebee_variant_wing",
+    "thg_bumblebee_variant_wing"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "variantId": "canteen_variant",
+  "hullId": "thg_canteen",
+  "displayName": "Fighter Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "thg_thistle",
+        "WS0002": "locust",
+        "WS0003": "thg_thistle"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thg_chamberlain_variant_wing"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "thg_rotaryklrg",
+  "specClass": "projectile",
+  "projectileSpecId": "heavymg_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/thgrotarylarge/thgrotary2_cannon_turret_base00.png",
+  "hardpointSprite": "graphics/weapons/thgrotarylarge/thgrotary2_cannon_hardpoint_base00.png",
+  "turretOffsets": [
+    25,
+    -10,
+    25,
+    10
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    34,
+    10,
+    34,
+    -10
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 4,
+  "frameRate": 20,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 6,
+    "particleSizeMin": 7,
+    "particleSizeRange": 9,
+    "particleDuration": 0.15,
+    "particleCount": 11,
+    "particleColor": [
+      255,
+      120,
+      105,
+      250
+    ]
+  },
+  "fireSoundTwo": "chaingun_fire"
+}

@@ -1,0 +1,74 @@
+{
+  "hullName": "Longsword",
+  "hullId": "UNSC_Frigate_longsword",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/longsword.png",
+  "style": "MIDLINE",
+  "height": 60,
+  "width": 62,
+  "center": [31, 30],
+  "collisionRadius": 36,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 35,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "sabreac",
+    "WS0002": "UNSC_Frigate_longswordbomb",
+    "WS0003": "UNSC_Frigate_longswordbomb"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [26, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [19.5, 6]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -0,
+      "locations": [19.5, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, 10.5],
+      "length": 30.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-15, -10.5],
+      "length": 30.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    30.5, -2,
+    -4, -31,
+    -29, -1,
+    -29, 1,
+    -4, 31,
+    30.5, 2
+  ]
+}

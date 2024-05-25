@@ -1,0 +1,53 @@
+{
+  "variantId": "kilt_variant",
+  "hullId": "thg_kilt",
+  "displayName": "Hunter Killer",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun",
+        "WS0002": "thg_thistle",
+        "WS0005": "lightdualmg",
+        "WS0006": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jackhammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sabot_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "swarmer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,25 @@
+{
+    "id":"TouchOfVanilla_vri", # For the convenience of troubleshooters, include your name and the mod name, not just an acronym.
+	"name":"Volantian Reclamation Initiative", # Displayed to the player
+	"author":"TouchofVanilla",
+    "utility":"false",
+	"version":"0.5.1",
+	"description":"The VRI is a relatively new faction built atop the ruins of the old Volantian Empire.",
+    "gameVersion": "0.97a-RC6",
+  	"jars":["jars/vri.jar"],
+    "modPlugin": "data.scripts.VRI_ModPlugin",
+    "dependencies": [
+      {
+        "id": "lw_lazylib",
+        "name": "LazyLib"
+      },
+      {
+        "id": "MagicLib",
+        "name": "MagicLib"
+      },
+      {
+        "id": "shaderLib",
+        "name": "GraphicsLib"
+      }
+    ]
+}

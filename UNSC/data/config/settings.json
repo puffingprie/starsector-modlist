@@ -1,0 +1,13 @@
+
+{
+	"graphics":{
+		"blueprint_packages":{
+			"unsc_package_bp":"graphics/icons/cargo/unsc_package_bp.png",
+		},
+		"illustrations":{
+			"unscnewharvest":"graphics/illustrations/unscnewharvest.jpg",
+			"unscordelia":"graphics/illustrations/unscordelia.jpg",
+			"unscostia":"graphics/illustrations/unscostia.jpg",
+		},
+	}
+}

@@ -1,0 +1,34 @@
+{
+  "variantId": "thg_crisismkii_assault",
+  "hullId": "thg_crisismkii",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 3,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "pdlaser",
+        "WS 003": "pdlaser",
+        "WS 004": "sabot_single",
+        "WS 005": "sabot_single",
+        "WS0001": "ioncannon",
+        "WS0002": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

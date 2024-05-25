@@ -1,0 +1,38 @@
+{
+  "variantId": "thg_fisticuff_shielded",
+  "hullId": "thg_fisticuff",
+  "displayName": "Shielded",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 4,
+  "quality": 0.25,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "arbalest",
+        "WS 002": "heavymortar",
+        "WS 003": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "thg_thistle"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

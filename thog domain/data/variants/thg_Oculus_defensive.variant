@@ -1,0 +1,33 @@
+{
+  "variantId": "thg_Oculus_defensive",
+  "hullId": "thg_Oculus",
+  "displayName": "Defensive",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "turretgyros",
+    "frontshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightdualac",
+        "WS 002": "lightdualac",
+        "WS 005": "thg_thistle",
+        "WS 006": "thg_thistle",
+        "WS 014": "thg_thistle",
+        "WS 015": "thg_thistle",
+        "WS0001": "thg_cricket",
+        "WS0002": "thg_cricket",
+        "WS0003": "devastator"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

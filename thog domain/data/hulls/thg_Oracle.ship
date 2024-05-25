@@ -1,0 +1,176 @@
+{
+  "hullName": "Oracle",
+  "hullId": "thg_Oracle",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/oralce.png",
+  "style": "LOW_TECH",
+  "height": 140,
+  "width": 164,
+  "center": [82, 66],
+  "collisionRadius": 107,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 107,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "unstable_coils"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 30,
+      "locations": [54, 23]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -30,
+      "locations": [54, -23]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [-18, -51]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 90,
+      "locations": [-18, 51]
+    },
+    {
+      "id": "WS 009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 0,
+      "locations": [34, 0]
+    },
+    {
+      "id": "WS 012",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 145,
+      "locations": [-25.5, 36]
+    },
+    {
+      "id": "WS 013",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 215,
+      "locations": [-27.5, -36]
+    },
+    {
+      "id": "WS 014",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 165,
+      "locations": [-53, 23]
+    },
+    {
+      "id": "WS 015",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 195,
+      "locations": [-54, -23]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 1,
+      "locations": [42, 39]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -1,
+      "locations": [42, -39]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1, -0],
+      "renderOrderMod": 1
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-54, 9],
+      "length": 35,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-54, -9],
+      "length": 35,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -54, -14.5,
+    -61, -17.5,
+    -60.5, -29.5,
+    -30.5, -37.5,
+    -26.5, -60,
+    -12.5, -60,
+    -2, -46.5,
+    35.5, -48,
+    46.5, -45,
+    47.5, -34.5,
+    64.5, -27,
+    63, -14.5,
+    36, -10,
+    36, 10,
+    63, 14.5,
+    64.5, 27,
+    47.5, 34.5,
+    46.5, 45,
+    35.5, 48,
+    -2, 46.5,
+    -12.5, 60,
+    -26.5, 60,
+    -30.5, 37.5,
+    -60.5, 29.5,
+    -61, 17.5,
+    -54, 14.5
+  ]
+}

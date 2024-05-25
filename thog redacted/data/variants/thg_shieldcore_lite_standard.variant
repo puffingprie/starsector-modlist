@@ -1,0 +1,16 @@
+{
+  "variantId": "thg_shieldcore_lite_standard",
+  "hullId": "thg_shieldcore_lite",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedshieldemitter"
+  ],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,39 @@
+{
+  "variantId": "thg_fisticuff_assault",
+  "hullId": "thg_fisticuff",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "quality": 0.25,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "thg_zhuge",
+        "WS 002": "thg_zhuge"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "thg_thistle"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

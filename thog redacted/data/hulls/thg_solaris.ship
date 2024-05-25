@@ -1,0 +1,126 @@
+{
+  "hullName": "Solaris",
+  "hullId": "thg_solaris",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/solaris.png",
+  "style": "HIGH_TECH",
+  "height": 26,
+  "width": 36,
+  "center": [18, 15],
+  "collisionRadius": 31.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 31,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS 002": "taclaser",
+    "WS 003": "thg_remnant_swarmer_fighter",
+    "WS0002": "thg_starlight_single"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 6,
+      "angle": -0,
+      "locations": [3, -10]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 6,
+      "angle": 0,
+      "locations": [3, 10]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": -0,
+      "locations": [7, -0],
+      "renderOrderMod": -5
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 7],
+      "length": 8.257874,
+      "width": 2.868805,
+      "angle": 175.5,
+      "contrailSize": 2.868805,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-14, -7],
+      "length": 8.257874,
+      "width": 2.868805,
+      "angle": -175.5,
+      "contrailSize": 2.868805,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-9.5, 15.5],
+      "length": 8.571942,
+      "width": 3.47667,
+      "angle": 160.5,
+      "contrailSize": 3.47667,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-9.5, -15.5],
+      "length": 8.571942,
+      "width": 3.47667,
+      "angle": -160.5,
+      "contrailSize": 3.47667,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-12, 3],
+      "length": 12,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-12, -3],
+      "length": 12,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-7.5, 17],
+      "length": 6.010407,
+      "width": 3.535534,
+      "angle": 135,
+      "contrailSize": 3.535534,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-7.5, -17],
+      "length": 6.010407,
+      "width": 3.535534,
+      "angle": -135,
+      "contrailSize": 3.535534,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -8, -17.5,
+    -14, -8,
+    -14, 8,
+    -8, 17.5,
+    16.5, 0
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "variantId": "macahuitl_variant",
+  "hullId": "thg_macahuitl",
+  "displayName": "Gunfighter",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 5,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "missile_autoloader"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "lightneedler",
+        "WS0002": "thg_thistle",
+        "WS0003": "thg_thistle",
+        "WS0004": "harpoon_single",
+        "WS0005": "harpoon_single",
+        "WS0006": "lightmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,187 @@
+{
+  "hullName": "Lout",
+  "hullId": "thg_lout",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/lout.png",
+  "style": "LOW_TECH",
+  "coversColor": "255,255,255,255",
+  "height": 160,
+  "width": 140,
+  "center": [70, 89],
+  "collisionRadius": 106,
+  "shieldCenter": [-14, -0],
+  "shieldRadius": 106,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "defensive_targeting_array",
+    "repair_gantry",
+    "rugged"
+  ],
+  "builtInWings": [
+    "thg_pachinko_variant_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "pusherplate_lt_small"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 004",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [
+        18, 48,
+        18, -49,
+        -19, 25,
+        -19, -27
+      ]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-73, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-70.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [-54, 46]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [-54, -48]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-35.5, 63]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-35.5, -63]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [-1, 36.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -90,
+      "locations": [-1, -35.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 25,
+      "locations": [50, 16]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -25,
+      "locations": [50, -16]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-79, 60],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-79, 33],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-79, -34],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-79, -61],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    46.5, -6,
+    60, -9.5,
+    60, -27.5,
+    26, -34.5,
+    23.5, -51.5,
+    7, -51,
+    -26, -38,
+    -29, -69,
+    -78.5, -69,
+    -78.5, 69,
+    -29, 69,
+    -26, 38,
+    7, 51,
+    23.5, 51.5,
+    26, 34.5,
+    60, 27.5,
+    60, 9.5,
+    46.5, 6
+  ]
+}

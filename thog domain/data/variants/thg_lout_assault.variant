@@ -1,0 +1,33 @@
+{
+  "variantId": "thg_lout_assault",
+  "hullId": "thg_lout",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "armoredweapons",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "thg_zhuge",
+        "WS0003": "thg_zhuge",
+        "WS0004": "breach",
+        "WS0005": "thg_thistle",
+        "WS0006": "thg_thistle",
+        "WS0007": "thg_laggard",
+        "WS0008": "thg_laggard",
+        "WS0010": "breach"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

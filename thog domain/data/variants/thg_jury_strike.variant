@@ -1,0 +1,47 @@
+{
+  "variantId": "thg_jury_strike",
+  "hullId": "thg_jury",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 1,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "thg_thistle",
+        "WS0002": "thg_laggard",
+        "WS0003": "thg_zhuge",
+        "WS0004": "jackhammer",
+        "WS0005": "sabot_single",
+        "WS0006": "sabot_single",
+        "WS0007": "hellbore"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thg_chamberlain_variant_wing"
+  ]
+}

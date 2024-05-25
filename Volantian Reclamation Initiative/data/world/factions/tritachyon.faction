@@ -1,0 +1,26 @@
+{
+
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+			"volantian_cressida":1
+
+		},
+	},
+
+	"knownShips":{
+		"tags":["base_bp", "midline_bp", "hightech_bp", "tritachyon"],
+		"hulls":[
+			"volantian_cressida"
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+
+		],
+	}
+}

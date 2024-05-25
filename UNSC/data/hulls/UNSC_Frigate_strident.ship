@@ -1,0 +1,126 @@
+{
+  "hullName": "Strident",
+  "hullId": "UNSC_Frigate_strident",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/UNSC_Frigate_strident.png",
+  "style": "HIGH_TECH",
+  "height": 378,
+  "width": 88,
+  "center": [44, 189],
+  "collisionRadius": 205,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 202.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "UNSC_hullconstruction"
+  ],
+  "builtInWeapons": {
+    "WS0006": "UNSC_Frigate_techmac"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 45,
+      "locations": [160, 10]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": -45,
+      "locations": [160, -10]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 90,
+      "locations": [-62, 22]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -90,
+      "locations": [-62, -22]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [47, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [151.5, 1]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        0.5, 23,
+        1.5, 23,
+        0, -23,
+        1, -23
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-185.5, 20.5],
+      "length": 68,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-185.5, -20.5],
+      "length": 68,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-189, -0],
+      "length": 43.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    187, -19,
+    -24.5, -30.5,
+    -166.5, -44,
+    -189, -33,
+    -189, 33,
+    -166.5, 44,
+    -24.5, 30.5,
+    187, 19
+  ]
+}

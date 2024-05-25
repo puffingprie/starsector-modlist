@@ -1,0 +1,41 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "volantian_cressida_vri",
+    "hullMods": [
+        "adaptive_coils",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "volantian_cressida_vri_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ionpulser",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "vol_katti",
+                "WS0002": "vol_katti",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "vol_halonMK1",
+                "WS0004": "vol_halonMK1",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

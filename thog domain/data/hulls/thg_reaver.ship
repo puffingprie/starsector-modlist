@@ -1,0 +1,136 @@
+{
+  "hullName": "Reaver",
+  "hullId": "thg_reaver",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Reaver.png",
+  "style": "HIGH_TECH",
+  "height": 120,
+  "width": 135,
+  "center": [68, 64],
+  "collisionRadius": 103.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 101.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phasefield",
+    "advancedcore",
+    "automated",
+    "adaptive_coils"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [36, 47]
+    },
+    {
+      "id": "WS 003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [36, -46]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 120,
+      "locations": [10, 46]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 240,
+      "locations": [10, -45]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [25, 30]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": -0,
+      "locations": [25, -30]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-60, 28.5],
+      "length": 44,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 44,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-60, 13],
+      "length": 46,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 46,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-60, -29],
+      "length": 44,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 44,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-60, -13],
+      "length": 46,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 46,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    55, -4.5,
+    31.5, -26,
+    42.5, -39,
+    42.5, -55,
+    32.5, -56.5,
+    28.5, -68,
+    14.5, -58,
+    0, -57.5,
+    -6, -52,
+    -6, -40.5,
+    -35.5, -42,
+    -59.5, -34,
+    -59.5, 34,
+    -35.5, 42,
+    -6, 40.5,
+    -6, 52,
+    0, 57.5,
+    14.5, 58,
+    28.5, 68,
+    32.5, 56.5,
+    42.5, 55,
+    42.5, 39,
+    31.5, 26,
+    55, 4.5
+  ]
+}

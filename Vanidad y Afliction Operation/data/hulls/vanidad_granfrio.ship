@@ -1,0 +1,308 @@
+{
+  "hullName": "Granfrio",
+  "hullId": "vanidad_granfrio",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/vanidad/ships/vanidad_granfrio.png",
+  "style": "HIGH_TECH",
+  "height": 231,
+  "width": 143,
+  "center": [71, 117.5],
+  "collisionRadius": 135.5,
+  "shieldCenter": [-3, -0],
+  "shieldRadius": 124.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-58, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 16,
+      "angle": 0,
+      "locations": [77, 28.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 16,
+      "angle": -0,
+      "locations": [77, -28.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 16,
+      "angle": -0,
+      "locations": [77.5, -55.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 16,
+      "angle": 0,
+      "locations": [77.5, 55.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 121,
+      "angle": -90,
+      "locations": [-13.5, -34]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 121,
+      "angle": 90,
+      "locations": [-13.5, 34]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 151,
+      "angle": -105,
+      "locations": [-62.5, -45]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 151,
+      "angle": 105,
+      "locations": [-62.5, 45]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 124,
+      "angle": -105.5,
+      "locations": [42.5, -38.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 124,
+      "angle": 105.5,
+      "locations": [42.5, 38.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [50.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -85, -0,
+        -83, -8,
+        -83, 9
+      ]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-85, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-87.5, -42.5],
+      "length": 40.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-87.5, 42.5],
+      "length": 40.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-110.5, -24.5],
+      "length": 35.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-110.5, 24.5],
+      "length": 35.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-110, -29],
+      "length": 23,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-110, 29],
+      "length": 23,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-107, -34],
+      "length": 23,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-107, 34],
+      "length": 23,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-86, -50],
+      "length": 23,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-86, 50],
+      "length": 23,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-86, -56],
+      "length": 23,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-86, 56],
+      "length": 23,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-24.5, -36.5],
+      "length": 23,
+      "width": 6,
+      "angle": -158.5,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-24.5, 36.5],
+      "length": 23,
+      "width": 6,
+      "angle": 158.5,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-111, -0],
+      "length": 19.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -110, 0,
+    -107.5, 34,
+    -89.5, 36,
+    -77, 67.5,
+    -59.5, 67.5,
+    -51.5, 34.5,
+    -32.5, 26.5,
+    -23.5, 31.5,
+    -25, 67,
+    -16, 66.5,
+    -1, 26.5,
+    6.5, 26,
+    52.5, 55,
+    87.5, 56,
+    106.5, 46,
+    106.5, 37.5,
+    90, 29,
+    68.5, 28,
+    62, 12.5,
+    62, -12.5,
+    68.5, -28,
+    90, -29,
+    106.5, -37.5,
+    106.5, -46,
+    87.5, -56,
+    52.5, -55,
+    6.5, -26,
+    -1, -26.5,
+    -16, -66.5,
+    -25, -67,
+    -23.5, -31.5,
+    -32.5, -26.5,
+    -51.5, -34.5,
+    -59.5, -67.5,
+    -77, -67.5,
+    -89.5, -36,
+    -107.5, -34,
+    -110, -0
+  ]
+}

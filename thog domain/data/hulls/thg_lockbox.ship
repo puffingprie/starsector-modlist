@@ -1,0 +1,107 @@
+{
+  "hullName": "Lockbox",
+  "hullId": "thg_lockbox",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/lockbox.png",
+  "style": "LOW_TECH",
+  "height": 52,
+  "width": 63,
+  "center": [31.5, 28.5],
+  "collisionRadius": 44.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 43,
+  "viewOffset": 0,
+  "builtInMods": [
+    "insulatedengine",
+    "pointdefenseai"
+  ],
+  "builtInWeapons": {
+    "WS0001": "thg_laggard",
+    "WS0002": "thg_laggard"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 15,
+      "angle": 0,
+      "locations": [16.5, 20.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 15,
+      "angle": -0,
+      "locations": [16.5, -20.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 15,
+      "angle": 0,
+      "locations": [-7, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22.5, 16],
+      "length": 19.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-22.5, -16],
+      "length": 19.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26.5, 3],
+      "length": 11,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26.5, -3],
+      "length": 11,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-27.5, 8.5],
+      "length": 13.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-27.5, -8.5],
+      "length": 13.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    9, -20,
+    -25.5, -20.5,
+    -25.5, 29.5,
+    9, 29
+  ]
+}

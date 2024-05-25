@@ -1,0 +1,71 @@
+{
+  "variantId": "thg_PParadigm_variant",
+  "hullId": "thg_PParadigm",
+  "displayName": "Burster",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "magazines",
+    "heavyarmor",
+    "adaptive_coils",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "breachpod",
+        "WS0006": "breachpod",
+        "WS0007": "autopulse",
+        "WS0008": "thg_micropulse",
+        "WS0009": "thg_micropulse",
+        "WS0010": "thg_thistle",
+        "WS0011": "thg_thistle",
+        "WS0012": "thg_thistle",
+        "WS0013": "thg_thistle",
+        "WS0014": "railgun",
+        "WS0015": "railgun",
+        "WS0016": "thg_laggard",
+        "WS0017": "thg_laggard",
+        "WS0018": "railgun",
+        "WS0019": "railgun",
+        "WS0020": "hammer",
+        "WS0021": "hammer",
+        "WS0022": "hammer",
+        "WS0023": "hammer",
+        "WS0024": "hammer",
+        "WS0025": "hammer",
+        "WS0026": "thg_cricket"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thg_trencher_variant_wing"
+  ]
+}

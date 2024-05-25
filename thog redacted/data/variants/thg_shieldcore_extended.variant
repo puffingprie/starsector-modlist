@@ -1,0 +1,16 @@
+{
+  "variantId": "thg_shieldcore_extended",
+  "hullId": "thg_shieldcore",
+  "displayName": "Extended",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "extendedshieldemitter"
+  ],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,40 @@
+{
+  "variantId": "thg_reaver_strike",
+  "hullId": "thg_reaver",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 14,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "typhoon",
+        "WS 003": "thg_micropulse",
+        "WS 004": "thg_cricket",
+        "WS 005": "thg_cricket",
+        "WS0001": "ioncannon",
+        "WS0002": "ioncannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

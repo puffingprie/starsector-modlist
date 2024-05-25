@@ -1,0 +1,26 @@
+{
+  "variantId": "thg_sacrophagusmkii_defensive",
+  "hullId": "thg_sacrophagusmkii",
+  "displayName": "Defensive",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "pdlaser",
+        "WS 003": "pdlaser",
+        "WS0001": "thg_starlight_double"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

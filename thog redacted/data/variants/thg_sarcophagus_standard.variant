@@ -1,0 +1,29 @@
+{
+  "variantId": "thg_sarcophagus_standard",
+  "hullId": "thg_sarcophagus",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "thg_starlight_single",
+        "WS 003": "thg_starlight_single",
+        "WS0001": "sabot_single",
+        "WS0002": "sabot_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thg_gleam_variant_wing"
+  ]
+}

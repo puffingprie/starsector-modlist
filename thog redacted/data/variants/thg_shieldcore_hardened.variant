@@ -1,0 +1,16 @@
+{
+  "variantId": "thg_shieldcore_hardened",
+  "hullId": "thg_shieldcore",
+  "displayName": "Hardened",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

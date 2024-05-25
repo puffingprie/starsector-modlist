@@ -1,0 +1,104 @@
+{
+  "hullName": "Front Left Gunnary Module",
+  "hullId": "thg_galaxy_front_left",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/galaxy_front_left.png",
+  "style": "HIGH_TECH",
+  "height": 194,
+  "width": 106,
+  "center": [48, 97],
+  "collisionRadius": 119.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 117,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches",
+    "advancedcore"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [-65, 31]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 75,
+      "locations": [18, -9]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -33.5, -71,
+        0, -71
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        65.5, -32,
+        38.5, 6
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 106.5,
+      "locations": [-11, 41.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [-41, 31]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [37, 31]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -83.5, 39,
+    -98, 24,
+    -65, -24.5,
+    -10.5, -36,
+    98, -26,
+    60.5, -12.5,
+    68.5, -1,
+    53.5, 11,
+    52, 46.5,
+    15, 47.5,
+    -31, 37.5
+  ]
+}

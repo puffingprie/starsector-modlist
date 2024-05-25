@@ -1,0 +1,135 @@
+{
+  "hullName": "Fisticuff",
+  "hullId": "thg_fisticuff",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/fisticuff.png",
+  "style": "LOW_TECH",
+  "height": 54,
+  "width": 110,
+  "center": [55, 26],
+  "collisionRadius": 57,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 55.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "armoredweapons"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [18.5, 23]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [18.5, -23]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [13, -0]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-1, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 14,
+      "angle": 26,
+      "locations": [5.5, 41.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 14,
+      "angle": -26,
+      "locations": [5.5, -41.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26, 37],
+      "length": 21.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26, -37],
+      "length": 21.5,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25, 24.5],
+      "length": 25,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25, -24.5],
+      "length": 25,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25, 13.5],
+      "length": 21.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25, -13.5],
+      "length": 21.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    26.5, -32.5,
+    5.5, -44,
+    -12.5, -45,
+    -26, -42.5,
+    -26, 42.5,
+    -12.5, 45,
+    5.5, 44,
+    26.5, 32.5
+  ]
+}

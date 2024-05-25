@@ -1,0 +1,26 @@
+{
+  "variantId": "thg_charlatan_fighterkiller",
+  "hullId": "thg_charlatan",
+  "displayName": "Anti-Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "swarmer",
+        "WS0002": "swarmer",
+        "WS0003": "thg_cricket",
+        "WS0004": "thg_cricket",
+        "WS0005": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

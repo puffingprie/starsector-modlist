@@ -1,0 +1,49 @@
+{
+  "id": "thg_micropulse",
+  "specClass": "projectile",
+  "projectileSpecId": "autopulse_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/micropulse_laser_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/pulse_laser_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/micropulse_laser_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/pulse_laser_hardpoint_glow.png",
+  "glowColor": [
+    100,
+    100,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    18.5,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    27.5,
+    -0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 5,
+    "particleSizeMin": 15,
+    "particleSizeRange": 20,
+    "particleDuration": 0.12,
+    "particleCount": 10,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "autopulse_laser_fire"
+}

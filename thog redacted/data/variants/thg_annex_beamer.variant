@@ -1,0 +1,68 @@
+{
+  "variantId": "thg_annex_beamer",
+  "hullId": "thg_annex",
+  "displayName": "Beamer",
+  "goalVariant": true,
+  "fluxCapacitors": 38,
+  "fluxVents": 38,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "pointdefenseai",
+    "turretgyros",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "taclaser",
+        "WS0001": "ionbeam",
+        "WS0002": "ionbeam",
+        "WS0003": "hil",
+        "WS0004": "hil",
+        "WS0005": "gravitonbeam",
+        "WS0006": "locust",
+        "WS0007": "locust",
+        "WS0008": "gravitonbeam",
+        "WS0009": "taclaser",
+        "WS0010": "taclaser",
+        "WS0011": "pdburst",
+        "WS0012": "pdburst",
+        "WS0013": "pdburst",
+        "WS0014": "pdburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

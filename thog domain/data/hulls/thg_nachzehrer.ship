@@ -1,0 +1,172 @@
+{
+  "hullName": "Nachzehrer",
+  "hullId": "thg_nachzehrer",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Nachzehrer.png",
+  "style": "HIGH_TECH",
+  "height": 172,
+  "width": 178,
+  "center": [88, 78.5],
+  "collisionRadius": 112.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 111.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore",
+    "automated",
+    "fluxbreakers"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 65,
+      "locations": [-14.5, 45]
+    },
+    {
+      "id": "WS 003",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": 0,
+      "locations": [31, 0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -65,
+      "locations": [-14.5, -45]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 180,
+      "locations": [-69.5, 23]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -180,
+      "locations": [-69.5, -23]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 45,
+      "locations": [32.5, 49]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -45,
+      "locations": [32.5, -49]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-73, 40],
+      "length": 40,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-73, -40],
+      "length": 40,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-69.5, -9],
+      "length": 30.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-69.5, 9],
+      "length": 30.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-69.5, 57],
+      "length": 32.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-69.5, -57],
+      "length": 32.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-66.5, 66],
+      "length": 25,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-66.5, -66],
+      "length": 25,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    90, -6,
+    70, -23.5,
+    55.5, -23,
+    48.5, -45,
+    44.5, -60,
+    20.5, -69.5,
+    0.5, -59,
+    -46, -79.5,
+    -60, -73,
+    -74, -47,
+    -74, 47,
+    -60, 73,
+    -46, 79.5,
+    0.5, 59,
+    20.5, 69.5,
+    44.5, 60,
+    48.5, 45,
+    55.5, 23,
+    70, 23.5,
+    90, 6
+  ]
+}

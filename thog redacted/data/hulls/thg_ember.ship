@@ -1,0 +1,67 @@
+{
+  "hullName": "Ember",
+  "hullId": "thg_ember",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/ember.png",
+  "style": "HIGH_TECH",
+  "height": 18,
+  "width": 22,
+  "center": [11, 9],
+  "collisionRadius": 13,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 12.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0001": "thg_plaspulser"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 6,
+      "angle": 0,
+      "locations": [4, -0],
+      "renderOrderMod": -5
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 6,
+      "angle": 180,
+      "locations": [-4, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7, -5],
+      "length": 9.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-7, 5],
+      "length": 9.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    5, -9,
+    -8, -8,
+    -8, 8,
+    5, 9,
+    8, -0
+  ]
+}

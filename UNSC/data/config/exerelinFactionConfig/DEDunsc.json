@@ -1,0 +1,73 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":false,
+    
+    "rebelFleetSuffix":"Rebels",
+    
+    "directoryUseShortName":true,
+    
+    "marketSpawnWeight":0.75,
+	
+	#"factionIdForHqResponse":"scalartech_elite",	
+    #"specialForcesNamerClass":"data.scripts.campaign.nexerelin.tahlan_ScalartechNamer",
+     
+    "startRelationships":{ 
+		"hegemony": -0.2, 
+		"luddic_church":-0.2, 
+		"pirates":-0.6,
+		"luddic_path":-0.6,
+		},
+    "maxRelationships":{},
+    "diplomacyPositiveChance":{},
+    "diplomacyNegativeChance":{},
+    "morality":"good",
+    
+    "alignments":{
+        "technocratic":0.5,
+	"diplomatic":1,
+	"militarist":1,
+    },
+	
+    "diplomacyTraits":["helps_allies", "stalwart", "likes_ai", "envious", "law_and_order"],
+    
+    "freeMarket":false,
+    
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":0.8,	# Spread
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+        
+    "startShipsSolo":[
+		["UNSC_Frigate_paris_escort"]
+	],
+    "startShipsCombatSmall":[
+      ["UNSC_Frigate_paris_escort", "UNSC_Frigate_strident_support", "buffalo_Standard"]
+    ],
+    #"startShipsTradeSmall":[],
+    "startShipsCombatLarge":[
+      ["UNSC_Frigate_paris_escort", "UNSC_Frigate_paris_escort", "UNSC_Frigate_strident_support", "UNSC_Frigate_halberd_assault"]
+    ],
+    #"startShipsExplorerLarge":[],
+    #"startShipsTradeLarge":[],
+    #"startShipsCarrierSmall":[],
+    #"startShipsCarrierLarge":[],
+    #"startShipsSuper":[],
+    
+    #"startSpecialItems":[],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_corrupted", "count":1},
+        {"id":"aiCore_station", "count":2, "mult":0.4},
+        {"id":"aiCore_military", "mult":0.6},
+        {"id":"aiCore_heavyindustry", "count":1.2},
+        {"id":"aiCore_any", "mult":1.2},
+    ],
+}

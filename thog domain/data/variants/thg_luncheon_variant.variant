@@ -1,0 +1,33 @@
+{
+  "variantId": "luncheon_variant",
+  "hullId": "thg_luncheon",
+  "displayName": "Auxillary",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliary_fuel_tanks",
+    "nav_relay"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "swarmer",
+        "WS0004": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

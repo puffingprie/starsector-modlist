@@ -1,0 +1,47 @@
+{
+  "variantId": "thg_rathaus_strike",
+  "hullId": "thg_rathaus",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 40,
+  "fluxVents": 34,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "ionpulser",
+        "WS 002": "squall",
+        "WS 003": "thg_plaspulserbig",
+        "WS 004": "squall",
+        "WS 007": "heavyburst",
+        "WS 009": "swarmer",
+        "WS 012": "taclaser",
+        "WS 013": "taclaser",
+        "WS 014": "taclaser",
+        "WS 015": "taclaser",
+        "WS 018": "swarmer",
+        "WS0001": "salamanderpod",
+        "WS0002": "salamanderpod"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "SHIELD_CORE": "thg_shieldcore_extended"
+    }
+  ],
+  "wings": [
+    "thg_omniscience_variant_wing",
+    "thg_ember_variant_wing",
+    "thg_ember_variant_wing",
+    "thg_hone_variant_wing",
+    "thg_hone_variant_wing"
+  ]
+}

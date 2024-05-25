@@ -1,0 +1,98 @@
+{
+  "hullName": "Speedbump",
+  "hullId": "thg_speedbump_core",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Speedbump_core.png",
+  "style": "LOW_TECH",
+  "height": 142,
+  "width": 200,
+  "center": [76, 74],
+  "collisionRadius": 98,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 96.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "do_not_back_off",
+    "shared_flux_sink",
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "SPEEDBUMP_RIGHT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-5, -65]
+    },
+    {
+      "id": "SPEEDBUMP_LEFT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0.5,
+      "locations": [2.5, 35.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [14.5, 12],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [41, -16]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [16, -22]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [45, 8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-57, -14],
+      "length": 34,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -38.5, 16.5,
+    -41.5, -4,
+    -55.5, -4,
+    -58, -23,
+    31.5, -29.5,
+    48, -25,
+    50, 13,
+    42.5, 28.5
+  ]
+}

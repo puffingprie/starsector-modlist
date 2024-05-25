@@ -1,0 +1,69 @@
+{
+  "hullName": "Shield Core",
+  "hullId": "thg_galaxy_core",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/galaxy_core.png",
+  "style": "HIGH_TECH",
+  "height": 145,
+  "width": 145,
+  "center": [72, 73],
+  "collisionRadius": 347.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 349.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches",
+    "anchorrotation",
+    "shield_always_on"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": 45,
+      "locations": [23, 15]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": -45,
+      "locations": [23, -15]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": -135,
+      "locations": [-23, -15]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": 135,
+      "locations": [-23, 15]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    62.5, -30.5,
+    29.5, -64,
+    -32, -63.5,
+    -64.5, -30.5,
+    -64.5, 30.5,
+    -32, 63.5,
+    29.5, 64,
+    62.5, 30.5
+  ]
+}

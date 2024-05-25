@@ -1,0 +1,53 @@
+{
+  "variantId": "thg_desultory_Attack",
+  "hullId": "thg_desultory",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "realitydisruptor",
+        "WS 004": "cryoflux",
+        "WS 007": "amsrm",
+        "WS 008": "shockrepeater",
+        "WS0001": "minipulser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "riftlance",
+        "WS 002": "riftlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

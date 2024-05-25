@@ -1,0 +1,22 @@
+{
+  "variantId": "thg_speedbump_left_variant",
+  "hullId": "thg_speedbump_left",
+  "displayName": "Gunner",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

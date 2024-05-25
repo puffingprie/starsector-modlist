@@ -1,0 +1,53 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 8,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "vanidad_almadena",
+    "hullMods": [
+        "targetingunit",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vanidad_almadena_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "vanidad_estarayo_heavy"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "heavyburst",
+                "WS0006": "heavyburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "gravitonbeam",
+                "WS0013": "pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "gravitonbeam",
+                "WS0012": "pdburst"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "hveldriver",
+                "WS0002": "hveldriver"
+            }
+        }
+    ]
+}

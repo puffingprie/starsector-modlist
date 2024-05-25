@@ -1,0 +1,54 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+sabre_wing,sabre_fighter,"unsc_bp, unsc",3,,10,15,V,5000,500,,2,FIGHTER,Fighter,15,9000,,,,,,,,,,,,,
+UNSC_Frigate_longsword_wing,UNSC_Frigate_longsword_bomber,"unsc_bp, unsc",3,,10,15,V,6000,2000,,1,BOMBER,Bomber,15,11000,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#lux_wing,lux_Fighter,"no_sell, fighter, remnant, fighter5, auto_fighter, merc",3,,6,10,V,4000,500,,4,FIGHTER,Fighter Drone,15,6000,,,,,,,,,,,,,23
+#talon_wing,talon_Interceptor,"interceptor1, interceptor, low, base_bp, merc",0,,3,2,V,4000,200,600,4,INTERCEPTOR,Interceptor,5,2000,,,,,,,,,,,,,6
+#broadsword_wing,broadsword_Fighter,"fighter4, fighter, low, lowtech_bp, merc",0,,6,8,V,4000,500,,3,FIGHTER,Heavy Fighter,10,6000,,,,,,,,,,,,,1
+#xyphos_wing,xyphos_Fighter,"support3, fighter, high, rare_bp, hist1t, merc",3,0.5,7,15,V,0,500,,2,SUPPORT,Support,15,10000,,,,,,,,,,,,,2
+#gladius_wing,gladius_Fighter,"fighter4, fighter, mid, midline_bp, merc",2,,6,6,V,4000,500,300,2,FIGHTER,Fighter,10,10000,,,,,,,,,,,,,3
+#warthog_wing,warthog_Fighter,"fighter3, fighter, mid, midline_bp, merc",1,,8,12,CLAW,2000,500,-400,3,FIGHTER,Heavy Fighter,10,9000,,,,,,,,,,,,,4
+#thunder_wing,thunder_Fighter,"fighter2, interceptor, mid, rare_bp, merc",2,,6,10,V,6000,500,900,2,FIGHTER,Fighter,15,7000,,,,,,,,,,,,,5
+#trident_wing,trident_Bomber,"bomber6, bomber, high, rare_bp, hist1t, merc",3,0.25,8,25,V,4000,2000,600,2,BOMBER,Bomber,25,14000,,,,,,,,,,,,,13
+#longbow_wing,longbow_Support,"bomber3, bomber, high, rare_bp, merc",1,,5,12,V,4000,2000,0,2,BOMBER,Bomber,18,9000,,,,,,,,,,,,,15
+#dagger_wing,dagger_Bomber,"bomber4, bomber, high, hightech_bp, merc",2,,5,18,V,4000,2000,600,3,BOMBER,Bomber,18,9000,,,,,,,,,,,,,11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,15
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,16
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,18
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,19
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,20
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,21
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,24
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,26
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,27
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,28
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,29
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,30
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,31
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,32
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,33
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,34
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,35
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,36
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,37
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,38
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,39
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,40
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,41
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,42
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,43
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,44
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,45
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,46
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,47
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,48
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,49
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,50

@@ -1,0 +1,95 @@
+{
+  "hullName": "Phantasm",
+  "hullId": "thg_phantasm",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/phantasm.png",
+  "style": "LOW_TECH",
+  "height": 34,
+  "width": 38,
+  "center": [19, 15],
+  "collisionRadius": 22.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 22,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "insulatedengine",
+    "unstable_coils"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ioncannon_fighter",
+    "WS0003": "thg_plaspulser",
+    "WS0004": "thg_plaspulser"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12, 15]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [12, -15]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 8],
+      "length": 10.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-14, -8],
+      "length": 10.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-12, 12],
+      "length": 10.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-12, -12],
+      "length": 10.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    0.5, -18.5,
+    -12, -14,
+    -12, 14,
+    0.5, 18.5,
+    20, -0
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "variantId": "thg_ember_variant",
+  "hullId": "thg_ember",
+  "displayName": "Hunter-Killer",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "thg_plaspulser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

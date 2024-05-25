@@ -1,0 +1,98 @@
+{
+  "hullName": "Bumblebee",
+  "hullId": "thg_bumblebee",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Bumblebee.png",
+  "style": "LOW_TECH",
+  "height": 44,
+  "width": 40,
+  "center": [20, 20.5],
+  "collisionRadius": 34,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 33,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pointdefenseai",
+    "automated"
+  ],
+  "builtInWeapons": {
+    "WS0001": "thg_thistle",
+    "WS0002": "thg_cricket_fighter"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 0,
+      "locations": [12.5, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-11, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18, 8.5],
+      "length": 14,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-18, -8.5],
+      "length": 14,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-16, 13],
+      "length": 12,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-16, -13],
+      "length": 12,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-15, 16.5],
+      "length": 9.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-15, -16.5],
+      "length": 9.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    22, -7,
+    -18, -18.5,
+    -18, 18.5,
+    22, 7
+  ]
+}

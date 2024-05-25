@@ -1,0 +1,58 @@
+{
+  "hullName": "Knuckle",
+  "hullId": "thg_knuckle",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Knuckle.png",
+  "style": "LOW_TECH",
+  "height": 34,
+  "width": 29,
+  "center": [14.5, 15],
+  "collisionRadius": 19,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 18.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "armoredweapons"
+  ],
+  "builtInWeapons": {
+    "WS0001": "lightmortar",
+    "WS0002": "lightmg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, -2.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, 4.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12.5, -0],
+      "length": 24,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -12.5, -14,
+    -12.5, 14,
+    19, -0.5
+  ]
+}

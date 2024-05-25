@@ -1,0 +1,41 @@
+{
+  "variantId": "thg_pickle_broadsider",
+  "hullId": "thg_pickle",
+  "displayName": "Broadsider",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymauler",
+        "WS0002": "swarmer",
+        "WS0003": "swarmer",
+        "WS0004": "thg_thistle",
+        "WS0005": "thg_thistle",
+        "WS0006": "annihilator",
+        "WS0007": "annihilator",
+        "WS0008": "heavymauler",
+        "WS0009": "arbalest",
+        "WS0010": "sabotpod",
+        "WS0011": "shredder",
+        "WS0012": "arbalest",
+        "WS0013": "heavymauler",
+        "WS0014": "thg_thistle",
+        "WS0015": "thg_thistle",
+        "WS0016": "heavymauler",
+        "WS006": "thg_thistle",
+        "WS007": "thg_thistle",
+        "WS008": "thg_thistle",
+        "WS009": "thg_thistle"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

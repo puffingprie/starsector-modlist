@@ -1,0 +1,29 @@
+{
+  "variantId": "thg_phantasm_variant",
+  "hullId": "thg_phantasm",
+  "displayName": "Phase Drone",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "thg_plaspulser",
+        "WS0003": "thg_plaspulser",
+        "WS0004": "thg_plaspulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

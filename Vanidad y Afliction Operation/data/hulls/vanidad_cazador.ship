@@ -1,0 +1,180 @@
+{
+  "hullName": "Cazador",
+  "hullId": "vanidad_cazador",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/vanidad/ships/vanidad_cazador.png",
+  "style": "HIGH_TECH",
+  "height": 113,
+  "width": 90,
+  "center": [45, 58],
+  "collisionRadius": 69.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 62,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0002": "vanidad_cazador_decothruster",
+    "WS0003": "vanidad_cazador_decothruster",
+    "WS0009": "vanidad_cazador_decothruster",
+    "WS0010": "vanidad_cazador_decothruster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 21,
+      "angle": 0,
+      "locations": [21.5, -20]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 310,
+      "angle": 0,
+      "locations": [4, -0.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 274,
+      "angle": 180,
+      "locations": [-33.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 21,
+      "angle": -0,
+      "locations": [21.5, 20]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 9,
+      "angle": 0,
+      "locations": [21, -33]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 9,
+      "angle": -0,
+      "locations": [21, 33]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-44, -34]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": -180,
+      "locations": [-44, 34]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-46, -0],
+      "length": 33,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-46, -8.5],
+      "length": 12,
+      "width": 6,
+      "angle": -158,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-46, 8.5],
+      "length": 12,
+      "width": 6,
+      "angle": 158,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [21.5, -33],
+      "length": 1,
+      "width": 4,
+      "angle": -158,
+      "contrailSize": 1,
+      "style": "CUSTOM",
+      "styleId": "VanidadFlare",
+    },
+    {
+      "location": [21.5, 33],
+      "length": 1,
+      "width": 4,
+      "angle": 158,
+      "contrailSize": 1,
+      "style": "CUSTOM",
+      "styleId": "VanidadFlare",
+    },
+    {
+      "location": [-43, -34],
+      "length": 1,
+      "width": 4,
+      "angle": -158,
+      "contrailSize": 1,
+      "style": "CUSTOM",
+      "styleId": "VanidadFlare",
+    },
+    {
+      "location": [-43, 34],
+      "length": 1,
+      "width": 4,
+      "angle": 158,
+      "contrailSize": 1,
+      "style": "CUSTOM",
+      "styleId": "VanidadFlare",
+    }
+  ],
+  "bounds": [
+    -43.5, 7.5,
+    -37, 17.5,
+    -40, 36,
+    -25, 28,
+    -18, 15,
+    -2.5, 14.5,
+    1, 28.5,
+    18.5, 35,
+    22, 8,
+    35.5, 7.5,
+    48, 2,
+    48, -2,
+    35.5, -7.5,
+    22, -8,
+    18.5, -35,
+    1, -28.5,
+    -2.5, -14.5,
+    -18, -15,
+    -25, -28,
+    -40, -36,
+    -37, -17.5,
+    -43.5, -7.5
+  ]
+}

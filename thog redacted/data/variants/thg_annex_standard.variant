@@ -1,0 +1,66 @@
+{
+  "variantId": "thg_annex_standard",
+  "hullId": "thg_annex",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 35,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sabotpod",
+        "WS0002": "sabotpod",
+        "WS0003": "plasma",
+        "WS0004": "plasma",
+        "WS0005": "hveldriver",
+        "WS0006": "squall",
+        "WS0007": "squall",
+        "WS0008": "hveldriver",
+        "WS0009": "taclaser",
+        "WS0010": "taclaser",
+        "WS0011": "thg_starlight_single",
+        "WS0012": "thg_starlight_single",
+        "WS0013": "thg_starlight_single",
+        "WS0014": "thg_starlight_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "taclaser",
+        "WS 004": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

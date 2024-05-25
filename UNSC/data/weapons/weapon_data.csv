@@ -1,0 +1,41 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+#MACS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mark II MAC,UNSC_Frigate_lightmac,5,,100000,1300,,2400,,450,15,999,,,,KINETIC,3000,,0.7,12,1,,,,,,,1400,,,5000,,,"SYSTEM, STRIKE, USE_VS_FRIGATES",kinetic20,,,,Anti Shield,,,,,,,,,,
+Mark II Rapid-Fire MAC,UNSC_Frigate_trimac,5,,100000,1300,,2000,,450,15,999,,,,KINETIC,3000,,0.7,14,3,0.5,0,0,0,0,,1400,,,5000,,,"SYSTEM, STRIKE, USE_VS_FRIGATES",kinetic20,,,,Anti Shield,,,,,,,,,,
+Mark II Dual MAC,UNSC_Frigate_duallightmac,5,,100000,1300,,2400,,450,15,999,2,0.12,,KINETIC,3000,,0.7,0.5,1,,0,0,0,0,,1400,,,5000,,,"SYSTEM, STRIKE, USE_VS_FRIGATES",kinetic20,,,,Anti Shield,,,,,,,,,,
+Mark II Light MAC,UNSC_Frigate_freightmac,5,,100000,1300,,2000,,400,15,999,,,,KINETIC,3000,,0.7,14,1,,,,,,,1400,,,5000,,,"SYSTEM, STRIKE, USE_VS_FRIGATES",kinetic20,,,,Anti Shield,,,,,,,,,,
+Mark IV MAC,UNSC_Frigate_techmac,5,,100000,1300,,2000,,400,15,999,,,,KINETIC,2000,,0.7,10,1,,,,,,,1400,,,5000,,,"SYSTEM, STRIKE, USE_VS_FRIGATES",kinetic20,,,,Anti Shield,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Other Guns,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rampart PD Coilguns,UNSC_Frigate_unscpd,2,,750,600,,55,,4,60,5,,,,KINETIC,30,,0,1.4,6,0.15,0,3,1,15,,1200,,,20,,,PD,"unsc_bp, pd7, kinetic4",,,,Point Defense,,,,,,,,,,
+Goalkeeper PD Chaingun,UNSC_Frigate_goal,2,,750,400,,20,,1,160,5,,,,FRAGMENTATION,0.5,,0,0.4,1,,0,10,0.5,30,,1000,,,10,,,PD,"unsc_bp, pd7, SR",,,,Point Defense,,,,,,,,,,1
+"""Spartan"" DEW",UNSC_Frigate_laser,3,,2000,700,4400,,,0,8,12,,,,ENERGY,,1800,1.6,1.8,0.2,8,,,,,20000,,,,,,,"USE_VS_FRIGATES, STRIKE","energy20, beam15, unsc_bp",,,,General,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Small Craft Weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ASW/AC Light Autocannon,sabreac,5,,0,400,,20,,2,20,,,,,KINETIC,1,,0,0.8,4,0.1,0,5,1,15,,850,,,25,,,"SYSTEM, PD","pd7, kinetic4",,,,Point Defense,,,,,,,,,,2
+ASGM-10 Strike Missile,UNSC_Frigate_longswordbomb,5,,0,1200,,1000,,40,10,,2,,,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,0,0,0,,400,150,3.5,450,,,"SYSTEM, GUIDED_POOR","strike7, missile0",,,,Torpedo,Fast,Good,,,,,,,TRUE,9.75
+ST/Medusa A2A Missile,breachfighter,5,,0,1200,,100,,10,10,,,,,FRAGMENTATION,0,,0,15,2,0.5,0,0,0,,,600,100,2.5,300,,,"SYSTEM, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE",missile7,,,,Anti Armor,Medium,Excellent,,,Each missile deals an additional %s damage to armor. This damage is not reduced by armor.,200,,,TRUE,11.7
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#References,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Light Dual Autocannon,lightdualac,1,,300,600,,50,,3,20,5,,,,KINETIC,50,,0,0.6,2,0.1,0,20,3,9,,800,,,20,,,,"kinetic7, lowtech_bp, midline_bp, merc",,,,Anti Shield,,,,,,,,,,2.5
+#Atropos-class Torpedo (Single),atropos_single,2,0.5,300,1200,,1000,,40,10,2,1,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,400,150,3.5,300,,,GUIDED_POOR,"strike7, missile0, base_bp",,,,Torpedo,Fast,Good,,,,,,,TRUE,9.75
+#Hypervelocity Driver,hveldriver,3,0.3,2250,1000,,275,400,40,10,13,,,,KINETIC,350,,0,2,1,,,,,,,1000,,,300,,,,"kinetic15, LR, remnant, rare_bp, merc",,,,Anti Shield,,,,,,,,,,5.5
+#Heavy Needler,heavyneedler,3,0.3,2500,750,,50,,1,15,15,,,,KINETIC,40,,0,4.55,30,0.05,1,10,0.5,5,,1200,,,10,,,,"kinetic15, remnant, rare_bp, hist1t, merc",,,,Anti Shield,,,,,,,,,,5.75
+#Gauss Cannon,gauss,3,,5000,1200,,700,,300,3,25,,,,KINETIC,1200,,1,1,,,,,,,,1200,,,400,,,,"kinetic20, LR, remnant, rare_bp, hist1t, merc",,,,Anti Shield,,,,,,,,,,6
+#Hephaestus Assault Gun,hephag,1,,4000,900,,120,,5,20,20,,,,HIGH_EXPLOSIVE,120,,0,0.25,1,,0,10,2,10,,800,,,50,,,,"he18, lowtech_bp, midline_bp, merc",,,,Anti Armor,,,,,,,,,,7
+#Mark IX Autocannon,mark9,0,,3000,900,,200,,20,10,18,,,,KINETIC,200,,0,2,4,0.1,0,15,2,10,,800,,,100,,,,"kinetic18, base_bp, merc",,,,Anti Shield,,,,,,,,,,7.25
+#Devastator Cannon,devastator,1,,3500,900,,150,,40,12,20,,,,HIGH_EXPLOSIVE,75,,0,2,12,0.1,5,30,5,5,,700,,,100,,,"PD,PD_ALSO","he16, pd14, lowtech_bp, merc",,,,Anti Fighter (Area),,,,,"Each shell has a fuse set to explode at a random distance, resulting in a barrage that's increasingly more deadly at closer ranges.
+
+Will target missiles if no other targets are in range.",,,,,7.4
+#Mjolnir Cannon,mjolnir,2,0.4,6000,900,,400,200,10,25,24,,,,ENERGY,500,,0,0.75,1,,0,5,1,10,,900,,,75,,,,"energy18, he17, kinetic17, remnant, rare_bp, hist1t, merc",,,,General,,,,,,,,,,7.5
+#Hellbore Cannon,hellbore,0,,3000,900,,750,,200,5,16,,,,HIGH_EXPLOSIVE,750,,0,3,1,,0,10,5,10,,500,,,400,,,,"he18, lowtech_bp, merc",,,,Anti Armor,,,,,,,,,,8
+#Thermal Pulse Cannon,tpc,0,,100000,1000,,250,,0,0,,20,1,,ENERGY,150,,0,0.2,1,,0,10,2,5,,1000,,,,,,"SYSTEM,SHOW_IN_CODEX",,TPC_only,,,General,,,,,,,,,,40
+#Harpoon MRM Pod,harpoonpod,1,,1200,2500,,750,,15,10,10,12,,,HIGH_EXPLOSIVE,0,,0,8.25,4,0.25,0,0,0,,,300,100,12.5,150,,,DO_NOT_AIM,"missile12, strike9, missile_bp, merc",,,,Finisher,Medium,Medium,,,,,,,TRUE,12
+#Squall MLRS,squall,2,,4000,2500,,250,100,15,20,20,100,,,KINETIC,0,,0,10,20,0.5,0,0,0,0,,600,100,4.75,300,,,"DO_NOT_AIM, CONSERVE_3, STRIKE, USE_VS_FRIGATES, MISSILE_SPREAD","missile19, strike15, rare_bp, merc",,,,Suppression,Very Fast,Special,,,Unguided after a brief initial aiming stage.,,,,,16.2
+#Vulcan Cannon,vulcan,1,,200,250,,25,,1,75,4,,,,FRAGMENTATION,1,,0,0.05,1,,0,15,1,15,,800,,,10,,,PD,"pd7, SR, lowtech_bp, merc",,,,Point Defense,,,,,,,,,,1
+#Light Dual Machine Gun,lightdualmg,2,,400,300,,25,,1,50,5,,,,KINETIC,3,,0,0.2,5,0.1,0,5,1,15,,600,,,10,,,PD,"pd7, kinetic4, SR, lowtech_bp, merc",,,,Point Defense,,,,,,,,,,0.7
+#Light Autocannon,lightac,0,,125,600,,50,,3,20,4,,,,KINETIC,50,,0,0.5,1,,0,8,2,15,,800,,,20,,,,"kinetic6, base_bp",,,,Anti Shield,,,,,,,,,,2
+#Swarmer SRM Launcher,swarmer,1,,250,1000,,100,,15,50,3,60,,,HIGH_EXPLOSIVE,0,,0,5,4,0.2,0,0,0,0,,300,100,5,50,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp, merc",,,,Anti Small Craft,Fast,Excellent,,,,,,,,10
+#Harpoon Battery,harpooncell,3,,4500,2500,,750,,15,10,24,24,,,HIGH_EXPLOSIVE,0,,0,8.25,4,0.25,0,0,0,0,,300,100,12.5,150,,,DO_NOT_AIM,"missile19, strike15, rare_bp, merc, unsc_bp",,,,Finisher,Medium,Medium,,,,,,,TRUE,12
+#Phase Lance,phasebeam,1,,1500,600,1000,,,0,20,10,,,,ENERGY,,1200,0.25,0.5,1,4,,,,,3200,,,,,,,,"energy14, beam10, rare_bp, merc",,,,General,,,,,,,,,,20
+#Tachyon Lance,tachyonlance,3,0.5,8000,1000,1500,,1000,0,7,25,,,,ENERGY,,2000,0.5,1,1,4,,,,,10000,,,,,,,FIRE_WHEN_INEFFICIENT,"energy20, beam15, LR, rare_bp, hist1t, merc",,,,Suppression,,,,,"Hits on hull or armor frequently arc to weapons and engines, dealing extra EMP and energy damage. Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.",,,,,27

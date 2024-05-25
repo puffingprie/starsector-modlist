@@ -1,0 +1,28 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "vri_remnant_station",
+    "hullMods": [],
+    "quality": 0.5,
+    "variantId": "vri_remnant_station_standard",
+    "weaponGroups": [],
+    "modules": {
+        "WS 024": "vri_remnant_armor3_standard",
+        "WS 027": "vri_remnant_armor3_standard",
+        "WS 001": "vri_remnant_weapon_platform_1_standard",
+        "WS 030": "vri_remnant_armor3_standard",
+        "WS 007": "vri_remnant_weapon_platform_1_standard",
+        "WS 016": "vri_remnant_weapon_platform_1_standard",
+        "WS 035": "vri_remnant_weapon_platform_2_standard",
+        "WS 036": "vri_remnant_weapon_platform_2_standard",
+        "WS 037": "vri_remnant_weapon_platform_2_standard",
+        "WS 038": "vri_remnant_weapon_platform_2_standard",
+        "WS 039": "vri_remnant_hangar1_standard",
+        "WS 040": "vri_remnant_hangar1_standard",
+        "WS 033": "vri_remnant_shield1_standard",
+        "WS 034": "vri_remnant_shield1_standard",
+        "WS 032": "vri_remnant_shield1_standard"
+    }
+}

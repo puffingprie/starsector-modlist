@@ -1,0 +1,52 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 20,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "volantian_gauntlet",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "volantian_gauntlet_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "heavyblaster",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "annihilatorpod",
+                "WS 001": "annihilatorpod",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "gravitonbeam",
+                "WS 003": "gravitonbeam",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "heavyburst",
+            }
+        },
+    ],
+    "wings": [
+        "broadsword_wing",
+        "xyphos_wing",
+    ],
+    "modules": [],
+}

@@ -1,0 +1,37 @@
+{
+  "variantId": "thg_cyclopian_antifighter",
+  "hullId": "thg_cyclopian",
+  "displayName": "Anti Fighter",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "turretgyros",
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "locust",
+        "WS0002": "heavyac",
+        "WS0003": "heavyac",
+        "WS0004": "devastator",
+        "WS0005": "devastator",
+        "WS0006": "thg_thistle",
+        "WS0007": "thg_thistle",
+        "WS0008": "thg_thistle",
+        "WS0009": "thg_thistle"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "EMPDISH": "thg_empdish_variant"
+    }
+  ],
+  "wings": []
+}

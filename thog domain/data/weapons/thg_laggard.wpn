@@ -1,0 +1,47 @@
+{
+  "id": "thg_laggard",
+  "specClass": "projectile",
+  "projectileSpecId": "lightmortar_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 400,
+  "turretSprite": "graphics/weapons/laggard_automortar_base.png",
+  "turretGunSprite": "graphics/weapons/laggard_automortar_barrel.png",
+  "hardpointSprite": "graphics/weapons/laggard_automortar_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/laggard_automortar_barrel_hardpoint.png",
+  "visualRecoil": 6,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    10,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    15,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 27,
+    "spread": 18,
+    "particleSizeMin": 13,
+    "particleSizeRange": 16,
+    "particleDuration": 0.45,
+    "particleCount": 14,
+    "particleColor": [
+      255,
+      155,
+      105,
+      255
+    ]
+  },
+  "fireSoundTwo": "light_mortar_fire"
+}

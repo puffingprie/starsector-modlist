@@ -1,0 +1,24 @@
+{
+  "variantId": "UNSC_Frigate_longsword_bomber",
+  "hullId": "UNSC_Frigate_longsword",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sabreac",
+        "WS0002": "UNSC_Frigate_longswordbomb",
+        "WS0003": "UNSC_Frigate_longswordbomb"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

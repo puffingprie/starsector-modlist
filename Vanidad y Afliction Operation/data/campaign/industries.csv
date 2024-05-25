@@ -1,0 +1,10 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
+vanidad_autarky,Autarky Habitat,80,180,,4,,,structure,,graphics/vanidad/icons/industry/autarky.png,data.scripts.campaign.vanidad_autarky_industry,"Vast subterranean chambers supported by complex machinery. Their hydroponic farms and a custom nanoforge ensure survival for their inhabitants as long as sufficient raw and refined materials are procured.
+
+
+
+These structures protect the inhabitants from the effects of low light, darkness, cold, and extreme cold while improving the defensive strength of the planet. The underground habitats also increase the isolation and despondence of the citizenry, reducing accessibility and population growth.",2030
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,

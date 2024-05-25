@@ -1,0 +1,12 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+thg_knuckle_variant_wing,thg_knuckle_variant,"fighter4, fighter, low, rare_bp, derelict, drone, auto_fighter,",0,,2,3,V,4000,200,600,3,FIGHTER,Drone Fighter,6,3000,,,,,,,,,,,,,6
+thg_obligation_variant_wing,thg_obligation_variant,"no_sell, fighter3, fighter, drone, low, derelict, auto_fighter, rare_bp",1,,4,8,BOX,6000,600,0,1,FIGHTER,Heavy Drone Fighter,15,3000,,,,,,,,,,,,,
+thg_bumblebee_variant_wing,thg_bumblebee_variant,"interceptor1, interceptor, low, rare_bp, derelict, auto_fighter",0,,0,10,BOX,7500,500,0,2,INTERCEPTOR,Rocket Drone Interceptor,10,2000,,,,,,,,,,,,,
+thg_key_variant_wing,thg_key_variant,"derelict, auto_fighter, rare_bp, fighter",0,,0,1,CLAW,5500,500,0,6,FIGHTER,Fighter,3,2000,,,,,,,,,,,,,
+thg_rumble_variant_wing,thg_rumble_variant,"no_sell, bomber3, bomber, drone, low, derelict, auto_fighter, rare_bp",2,,5,18,BOX,5000,600,100,1,BOMBER,Drone Phase Bomber,25,7000,,,,,,,,,,,,,
+thg_pachinko_variant_wing,thg_pachinko_variant,"no_sell, support, drone, low, derelict, auto_fighter, rare_bp",0,,0,0,CLAW,4000,500,0,4,SUPPORT,Support,10,750,,,,,,,,,,,,,
+thg_trencher_variant_wing,thg_trencher_variant,"auto_fighter, derelict, rare_bp",1,,3,12,V,4000,350,,3,FIGHTER,Fighter,7,5000,,,,,,,,,,,,,
+thg_chamberlain_variant_wing,thg_chamberlain_variant,"bomber, bomber4, rare_bp, derelict, drone, auto_fighter,",1,,3,15,BOX,5000,1000,600,2,BOMBER,Drone Bomber,15,6500,,,,,,,,,,,,,6
+thg_barracuda_variant_wing,thg_barracuda_variant,"bomber, bomber3, rare_bp, derelict, drone, auto_fighter,",1,,5,12,BOX,4000,600,300,2,BOMBER,Bomber,12,7500,,,,,,,,,,,,,12
+thg_punji_variant_wing,thg_punji_variant,"fighter4, fighter, low, rare_bp, derelict, drone, auto_fighter,",0,,2,5,V,6000,500,750,3,ASSAULT,Strike Fighter,10,4500,,,,,,,,,,,,,6
+thg_lockbox_variant_wing,thg_lockbox_variant,"no_sell, fighter3, fighter, drone, low, derelict, auto_fighter, rare_bp",1,,4,10,BOX,8000,650,0,1,FIGHTER,Drone Carrier Fighter,15,3000,,,,,,,,,,,,,

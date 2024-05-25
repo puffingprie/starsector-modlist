@@ -1,0 +1,27 @@
+{
+  "variantId": "thg_cubit_shielded",
+  "hullId": "thg_cubit",
+  "displayName": "Shielded",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "frontshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sabot",
+        "WS0002": "sabot",
+        "WS0003": "thg_zhuge"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

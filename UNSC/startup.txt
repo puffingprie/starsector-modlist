@@ -1,0 +1,14 @@
+addship atlas
+addship starliner
+addsupplies 1000
+addcrew 3000
+addship unsc_frigate_paris 4
+addship unsc_frigate_strident 2
+addship unsc_frigate_halberd 2
+addship unsc_frigate_marathon 2
+addweapon unsc_frigate_unscpd 100
+addweapon harpoon 100
+addweapon harpoonpod 100
+addweapon harpooncell 100
+addweapon flak 100
+addwing sabre_wing 100

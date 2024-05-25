@@ -1,0 +1,27 @@
+{
+  "variantId": "thg_key_variant",
+  "hullId": "thg_key",
+  "displayName": "Saturation Drone Fighter",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

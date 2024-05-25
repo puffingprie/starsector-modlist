@@ -1,0 +1,208 @@
+{
+  "hullName": "Chromatic",
+  "hullId": "volantian_chromatic",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Chromatic.png",
+  "style": "HIGH_TECH",
+  "height": 299,
+  "width": 302,
+  "center": [151, 137],
+  "collisionRadius": 223,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 215,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 141,
+      "angle": 0,
+      "locations": [0, 59]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 141,
+      "angle": -0,
+      "locations": [0, -59]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 126,
+      "angle": 0,
+      "locations": [-24, 98]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 126,
+      "angle": -0,
+      "locations": [-24, -98]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -60.5,
+      "locations": [57, -69]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 60.5,
+      "locations": [57, 69]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 269,
+      "angle": -128,
+      "locations": [-47, -76.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 269,
+      "angle": 128,
+      "locations": [-47, 76.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 132,
+      "angle": 0,
+      "locations": [23.5, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 0,
+      "locations": [94, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 18,
+      "angle": 0,
+      "locations": [148, 0]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 292,
+      "angle": 110,
+      "locations": [-33.5, 60]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 302,
+      "angle": -110,
+      "locations": [-34, -60]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-95, -24],
+      "length": 91.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-94, 23.5],
+      "length": 91.5,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-88.5, 44.5],
+      "length": 137.5,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-87, -44.5],
+      "length": 137.5,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -103.5, -8,
+    -90, -17.5,
+    -86, -56.5,
+    -133.5, -61,
+    -107.5, -68,
+    -100.5, -98,
+    -119, -101.5,
+    -127.5, -116.5,
+    -107, -134,
+    -51.5, -151.5,
+    -5, -145,
+    3, -136.5,
+    -11, -130.5,
+    31, -93.5,
+    69.5, -93,
+    94, -74,
+    83, -53,
+    149, -31.5,
+    149, 28.5,
+    83, 50,
+    94, 71,
+    69.5, 90,
+    31, 90.5,
+    -11, 127.5,
+    3, 133.5,
+    -5, 142,
+    -51.5, 148.5,
+    -107, 131,
+    -127.5, 113.5,
+    -119, 98.5,
+    -100.5, 95,
+    -107.5, 65,
+    -133.5, 58,
+    -86, 53.5,
+    -90, 14.5,
+    -103.5, 5
+  ]
+}

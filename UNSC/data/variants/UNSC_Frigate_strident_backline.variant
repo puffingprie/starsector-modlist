@@ -1,0 +1,51 @@
+{
+  "variantId": "UNSC_Frigate_strident_backline",
+  "hullId": "UNSC_Frigate_strident",
+  "displayName": "Backline",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "UNSC_Frigate_techmac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "UNSC_Frigate_goal",
+        "WS0002": "UNSC_Frigate_goal",
+        "WS0003": "UNSC_Frigate_goal",
+        "WS0004": "UNSC_Frigate_goal"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sabre_wing"
+  ]
+}

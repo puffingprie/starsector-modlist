@@ -1,0 +1,29 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "volantian_caelum_vri",
+    "hullMods": [
+        "additional_berthing",
+        "augmentedengines",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "volantian_caelum_vri_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "vol_halon",
+                "WS0003": "vol_halon",
+                "WS0002": "vol_halon",
+                "WS0004": "vol_halon",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

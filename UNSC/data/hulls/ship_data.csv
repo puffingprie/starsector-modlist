@@ -1,0 +1,35 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
+#Ships,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Charon,UNSC_Frigate_charon,Support Frigate,UNSC,maneuveringjets,8,6500,650,6000,,250,40,,65,30,22,20,25,650,OMNI,,42,0.4,1.2,,,90,160,250,100,3,33,9,70000,5,12,400,0.25,12,12,,,,,,,,"unsc_bp, unsc",,0.8,2,3,,16769
+Paris,UNSC_Frigate_paris,Heavy Frigate,UNSC,maneuveringjets,10,7000,700,6700,,280,75,,65,30,22,22,25,700,OMNI,,42,0.4,1.2,,,110,200,120,90,3,33,9,70000,5,12,420,0.25,13,13,,,,,,,,"unsc_bp, unsc",,0.8,2,3,,11769
+Halberd,UNSC_Frigate_halberd,Heavy Destroyer,UNSC,damper,16,9000,1000,8250,,425,95,,50,25,20,16,16,1400,OMNI,,42,0.4,1.2,,,180,250,150,100,4,33,9,100000,4,14,480,0.25,21,21,,,,,,,,"unsc_bp, unsc",,0.7,2,3,,12769
+Punic-II,UNSC_Frigate_punic,Battle Carrier,UNSC,targetingfeed,18,10000,1000,9000,,500,130,2,45,20,15,14,10,2750,OMNI,,42,0.4,1,,,400,700,160,120,7,33,8,160000,3,14,520,0.25,22,22,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT","unsc_bp, unsc",,0.5,2,3,,17769
+Marathon,UNSC_Frigate_marathon,Heavy Cruiser,UNSC,ammofeed,30,12500,1300,13000,,700,240,3,35,15,10,5,5,3000,OMNI,,42,0.4,1,,,600,1100,275,325,10,33,8,300000,3,16,660,0.25,50,50,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT","unsc_bp, unsc",,0.5,2,3,,13769
+Halcyon,UNSC_Frigate_halcyon,Heavy Cruiser,UNSC,ammofeed,24,12000,1300,11000,,650,200,,40,20,10,5,5,3200,OMNI,,42,0.5,1.2,,,600,1000,250,250,10,33,8,285000,3,16,660,0.25,40,40,,,,,,,,"unsc_bp, unsc",,0.5,2,3,,19769
+Strident,UNSC_Frigate_strident,Light Frigate,UNSC,maneuveringjets,11,6000,700,7000,,400,65,1,65,30,24,24,30,600,OMNI,,40,0.3,0.6,,,70,130,60,40,3,33,9,80000,4,14,420,0.25,14,14,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT","unsc_bp, unsc",,0.6,2,3,,15769
+Mako,UNSC_Frigate_mako,Heavy Corvette,UNSC,maneuveringjets,6,3200,400,5000,,275,50,,95,80,80,55,110,350,OMNI,,75,0.4,1.2,,,40,75,50,35,1.5,33,10,56000,8,8,360,0.25,8,8,,,,,,,,"unsc_bp, unsc",,0.8,2,3,,20769
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Fighters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Longsword Strategic Bomber,UNSC_Frigate_longsword,Strategic Bomber,UNSC,flarelauncher_fighter,,1100,200,600,,120,0,,200,300,300,90,150,60,OMNI,,180,0,1,,,4,4,,,,,,,,,,,,,,,,,,,,,,0.5,,,,18769
+Sabre Space-Superiority Fighter,UNSC_Frigate_sabre,Space Superiority Fighter,UNSC,flarelauncher_fighter,,900,140,400,,80,0,,225,350,350,100,160,40,OMNI,,150,0,1,,,2,2,,,,,,,,,,,,,,,,,,,,,,0.5,,,,14769
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Falcon,falcon,Light Cruiser,Midline,maneuveringjets,12,6000,750,7000,7000,350,125,,75,50,30,20,25,650,FRONT,,270,0.4,0.8,,,100,180,120,100,3,33,9,80000,4,12,480,0.25,15,15,,,,,,,,"midline_bp, merc",,0.5,2,3,,400
+#Eagle,eagle,Cruiser,Midline,maneuveringjets,14,8000,1000,10000,10500,525,155,,50,30,20,15,20,1200,FRONT,,270,0.4,0.8,,,150,250,150,100,3,33,8,120000,3,12,480,0.25,22,22,,,,,,,,"rare_bp, merc",,0.5,2,3,,401
+#Fury,fury,Light Cruiser,High Tech,microburn,14,5000,600,9000,12000,600,120,,90,100,80,30,60,650,OMNI,,180,0.3,0.7,,,60,120,60,80,3,27,9,75000,4,12,420,0.25,15,15,,,,,,,,"rare_bp, merc",,0.7,2,3,,414
+#Halbmond,tahlan_halbmond,Support Carrier,Rosenritter,targetingfeed,24,12000,800,11000,12500,400,220,4,40,30,24,10,10,3200,OMNI,,180,0.3,1,,,500,1200,600,600,9,50,8,400000,5,15,720,0.25,40,40,,,,,,,"CARRIER, NO_AUTO_ESCORT, HIDE_IN_CODEX",tahlan_halbmond_bp,,0.4,2,4,,12121
+#Midi,tahlan_midi,Cruiser,ScalarTech Solutions,tahlan_magminestrike,15,8000,550,12000,,600,130,,70,60,50,25,30,1400,OMNI,,120,0.4,0.9,,,70,160,150,90,3,30,8,180000,4,20,480,0.25,24,24,,,,,,,,"rare_bp, hist2t",,0.6,2,3,,405
+#Hammerhead,hammerhead,Destroyer,Midline,ammofeed,10,5000,500,4200,4167,250,95,,90,60,40,30,60,400,FRONT,,300,0.4,0.8,,,50,100,100,60,2,30,9,40000,5,12,360,0.25,10,10,,,,,,,,"midline_bp, merc",,0.5,2,3,,300
+#Sunder,sunder,Destroyer,Midline,highenergyfocus,10,4000,250,7500,8333,500,105,,90,80,60,30,30,350,FRONT,,300,0.4,1.2,,,50,70,80,50,2,25,9,45000,5,15,300,0.25,11,11,,,,,,,,"midline_bp, merc",,0.5,2,3,,301
+#Enforcer,enforcer,Destroyer,Low Tech,burndrive,10,6000,900,4000,3333,200,110,,60,40,20,30,20,500,OMNI,,150,0.4,1,,,60,100,90,90,3,30,9,38000,5,12,420,0.25,9,9,,,,,,,,"lowtech_bp, merc",,0.4,2,3,,303
+#Shrike,shrike,Light Destroyer,High Tech,microburn,9,2800,250,5400,5833,350,85,,100,100,80,35,80,250,OMNI,,150,0.3,0.7,,,20,40,40,60,2,30,10,20000,5,15,300,0.25,8,8,,,,,,,,"hightech_bp, merc",,0.7,2,3,,319
+#Hound,hound,Combat Freighter,Low Tech,flarelauncher,3,2000,400,750,1250,100,38,,180,175,100,90,120,200,NONE,,0,0,0,,,10,40,75,30,1,30,10,7500,5,10,240,0.25,3,3,25,75,,,,,,base_bp,,0.4,2,2,,201
+#Onslaught,onslaught,Battleship,Low Tech,burndrive,28,20000,1750,17000,15000,600,360,,25,10,10,4,4,3500,FRONT,,180,0.4,1,,,750,1500,300,400,15,27,7,350000,3,12,720,0.25,40,40,,,,,,,,"rare_bp, merc",,0.4,2,4,,500
+#Conquest,conquest,Battlecruiser,Midline,maneuveringjets,24,12000,1200,20000,30000,1200,315,,45,20,15,6,4,2500,OMNI,,90,0.4,1.4,,,400,500,300,300,10,30,8,300000,3,15,600,0.25,40,40,,,,,,,,"rare_bp, merc",,0.5,2,4,,503
+#Talon,talon,,Low Tech,,,200,25,400,,100,0,,325,400,300,150,300,10,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,,,,,,,0,,,,100
+#Broadsword,broadsword,,Low Tech,flarelauncher_fighter,,750,100,80,,10,0,,200,400,350,90,180,30,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,,,,,,,0,,,,104
+#Lux,lux,,Remnant,flarelauncher_fighter,,400,60,350,,50,0,,220,350,350,100,240,30,OMNI,,160,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,115
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Heron,heron,Fast Carrier,Midline,targetingfeed,14,6000,750,5000,6000,300,100,3,80,60,40,20,25,800,OMNI,,180,0.5,0.8,,,150,250,90,60,3,20,8,120000,3,12,360,0.25,20,20,,,,,,,CARRIER,"midline_bp, merc",,0.5,2,3,,407
+#Mora,mora,Carrier,Low Tech,damper,15,10000,1250,4000,4000,200,115,3,45,20,10,10,10,2000,OMNI,,150,0.4,1,,,200,300,100,60,4,15,8,125000,4,12,420,0.25,20,20,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT","lowtech_bp, merc",,0.4,2,3,,410
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Arleigh-Burke,UNSC_Frigate_arleigh,DDG,USN,flarelauncher,10,5000,400,7000,10000,300,100,1,70,40,35,25,25,600,NONE,,0,0,0,,,140,300,100,90,3,33,9,50000,5,12,420,0.25,9,9,,,,,,,,"midline_bp, merc",,0.6,2,3,,17760

@@ -1,0 +1,154 @@
+{
+  "hullName": "Macuahuitl",
+  "hullId": "thg_macahuitl",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Macahuitl.png",
+  "style": "MIDLINE",
+  "height": 62,
+  "width": 76,
+  "center": [38, 30],
+  "collisionRadius": 64,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 58,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "unstable_injector",
+    "ground_support"
+  ],
+  "builtInWeapons": {
+    "WS0004": "harpoon_single",
+    "WS0005": "harpoon_single",
+    "WS0006": "lightmg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 265,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 115,
+      "locations": [-16, 29]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -115,
+      "locations": [-16, -29]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [7.5, 17]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7.5, -17]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [19, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27.5, -16],
+      "length": 29,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-27.5, 16],
+      "length": 29,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-23, 6.5],
+      "length": 24,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-23, -6.5],
+      "length": 24,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-24.5, 26],
+      "length": 19,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-24.5, -26],
+      "length": 19,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-24.5, -32.5],
+      "length": 12.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-24.5, 32.5],
+      "length": 12.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    15, -31,
+    -24, -37,
+    -24, 37,
+    15, 31,
+    31, -0
+  ]
+}

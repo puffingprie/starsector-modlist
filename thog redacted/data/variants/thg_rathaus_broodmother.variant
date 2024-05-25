@@ -1,0 +1,46 @@
+{
+  "variantId": "thg_rathaus_broodmother",
+  "hullId": "thg_rathaus",
+  "displayName": "Broodmother",
+  "goalVariant": true,
+  "fluxCapacitors": 26,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "ionbeam",
+        "WS 002": "autopulse",
+        "WS 003": "tachyonlance",
+        "WS 004": "autopulse",
+        "WS 007": "thg_plaspulser",
+        "WS 009": "thg_dragonsingle",
+        "WS 012": "thg_plaspulser",
+        "WS 013": "thg_plaspulser",
+        "WS 014": "thg_plaspulser",
+        "WS 015": "thg_plaspulser",
+        "WS 018": "thg_dragonsingle",
+        "WS0001": "annihilatorpod",
+        "WS0002": "annihilatorpod"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "SHIELD_CORE": "thg_shieldcore_extended"
+    }
+  ],
+  "wings": [
+    "thg_hone_variant_wing",
+    "thg_hone_variant_wing",
+    "thg_hone_variant_wing",
+    "thg_hydra_variant_wing",
+    "thg_hydra_variant_wing"
+  ]
+}

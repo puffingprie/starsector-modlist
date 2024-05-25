@@ -1,0 +1,59 @@
+{
+  "variantId": "castellan_support",
+  "hullId": "thg_castellan",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pilum",
+        "WS0002": "thg_thistle",
+        "WS0003": "pilum_large",
+        "WS0004": "thg_thistle",
+        "WS0005": "thg_thistle",
+        "WS0006": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thg_bumblebee_variant_wing",
+    "thg_knuckle_variant_wing",
+    "thg_knuckle_variant_wing",
+    "thg_pachinko_variant_wing"
+  ]
+}

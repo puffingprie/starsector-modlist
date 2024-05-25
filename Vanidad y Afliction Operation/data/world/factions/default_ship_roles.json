@@ -1,0 +1,52 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"vanidad_cazador_hunter":4,
+		"vanidad_cazador_elite":1,
+		"vanidad_pazjoya_guardian":5,
+		"vanidad_pazjoya_interceptor":5,
+	},
+	"combatSmall":{
+		"vanidad_cazador_hunter":6,
+		"vanidad_cazador_elite":4,
+		"vanidad_pazjoya_guardian":5,
+		"vanidad_pazjoya_interceptor":5,
+		"vanidad_halcon_leader":6,
+	},
+	"combatMedium":{
+		"vanidad_halcon_leader":7,
+		"vanidad_halcon_pd":3,
+		"vanidad_ionizador_support":10,
+		"vanidad_cargador_elite":2,
+		"vanidad_enforcer_pd":5,
+		"vanidad_enforcer_escort":5,
+		"vanidad_naveExplorar_escort":7,
+		"vanidad_naveExplorar_support":3
+	},
+	"combatLarge":{
+		
+		"vanidad_almadena_support":6,
+		"vanidad_almadena_assault":4,
+		"vanidad_cargador_elite":2,
+		"vanidad_cargador_spiral":3,
+		"vanidad_comandante_offensive":5,
+		"vanidad_dominator_balanced":3,
+		"vanidad_dominator_anchor":7,
+	},
+
+	"combatFreighterSmall":{
+		"vanidad_forrajeador_explorer":6,
+		"vanidad_forrajeador_support":4,		
+	},
+
+	# carriers
+	"carrierMedium":{
+		"vanidad_invasor_standard":7,
+		"vanidad_invasor_pursuit":3,
+	},
+	"freighterMedium":{
+		"vanidad_fisgon_comerciante":10,
+	},
+	
+}

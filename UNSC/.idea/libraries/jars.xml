@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jars">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jars/UNSC.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/lw_Console.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

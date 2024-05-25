@@ -1,0 +1,37 @@
+{
+  "variantId": "thg_accretion_support",
+  "hullId": "thg_accretion",
+  "displayName": "Support",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "advancedoptics",
+    "turretgyros",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lrpdlaser",
+        "WS0003": "heatseeker",
+        "WS0004": "heatseeker",
+        "WS0005": "pdburst",
+        "WS0006": "pdburst",
+        "WS0009": "hil",
+        "WS0010": "hil"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "spark_wing",
+    "spark_wing",
+    "thg_omniscience_variant_wing"
+  ]
+}

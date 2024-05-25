@@ -1,0 +1,44 @@
+{
+  "variantId": "thg_Moat_specialist",
+  "hullId": "thg_Moat",
+  "displayName": "Specialist",
+  "goalVariant": false,
+  "fluxCapacitors": 2,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "heavyarmor",
+    "fluxbreakers",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "locust",
+        "WS0002": "gauss",
+        "WS0003": "hellbore",
+        "WS0004": "hellbore",
+        "WS0005": "dualflak",
+        "WS0006": "shredder",
+        "WS0007": "heavymg",
+        "WS0008": "thg_thistle",
+        "WS0009": "lightmg",
+        "WS0010": "thg_thistle",
+        "WS0011": "lightmg",
+        "WS0012": "thg_thistle",
+        "WS0013": "lightmg",
+        "WS0014": "thg_thistle"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thg_trencher_variant_wing",
+    "thg_trencher_variant_wing",
+    "thg_rumble_variant_wing"
+  ]
+}

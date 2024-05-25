@@ -1,0 +1,28 @@
+{
+  "hullName": "Shield Core",
+  "hullId": "thg_shieldcore",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/shieldcore.png",
+  "style": "HIGH_TECH",
+  "height": 18,
+  "width": 18,
+  "center": [9, 9],
+  "collisionRadius": 9.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 321.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    4, -8.5,
+    -4.5, -8.5,
+    -9.5, -0,
+    -4.5, 8.5,
+    4, 8.5,
+    9, -0
+  ]
+}

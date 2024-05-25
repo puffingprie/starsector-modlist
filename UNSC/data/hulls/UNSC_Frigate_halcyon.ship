@@ -1,0 +1,169 @@
+{
+  "hullName": "Halcyon",
+  "hullId": "UNSC_Frigate_halcyon",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/UNSC_Frigate_halcyon.png",
+  "style": "MIDLINE",
+  "height": 557,
+  "width": 145,
+  "center": [72, 278.5],
+  "collisionRadius": 281,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 290,
+  "viewOffset": 0,
+  "builtInMods": [
+    "UNSC_hullconstruction",
+    "targetingunit"
+  ],
+  "builtInWeapons": {
+    "WS0012": "UNSC_Frigate_trimac"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 80,
+      "locations": [67.5, 36]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -80,
+      "locations": [67.5, -37]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [87.5, 16.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": -0,
+      "locations": [87.5, -17.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [141.5, -0.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [220, -0.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [265.5, -0.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [173.5, -0.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 100,
+      "locations": [-161.5, 48]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -100,
+      "locations": [-161.5, -49]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -180,
+      "locations": [-158, -0.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [241.5, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-278.5, -0.5],
+      "length": 130.5,
+      "width": 71,
+      "angle": 180,
+      "contrailSize": 71,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-237.5, 48],
+      "length": 89.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-237.5, -48],
+      "length": 89.5,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    274.5, 1,
+    83.5, -27.5,
+    -113.5, -39,
+    -229, -40,
+    -279, 10,
+    -279, 22,
+    -229, 72,
+    -113.5, 71,
+    83.5, 59.5,
+    274.5, 31
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "variantId": "canteen_assault",
+  "hullId": "thg_canteen",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "thg_thistle",
+        "WS0002": "pilum_large",
+        "WS0003": "thg_thistle"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thg_obligation_variant_wing"
+  ]
+}

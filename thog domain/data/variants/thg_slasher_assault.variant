@@ -1,0 +1,40 @@
+{
+  "variantId": "thg_slasher_assault",
+  "hullId": "thg_slasher",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hammer",
+        "WS 004": "hammer",
+        "WS 005": "thg_thistle",
+        "WS 006": "thg_thistle",
+        "WS 007": "sabot",
+        "WS0001": "thg_rotarysmex"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

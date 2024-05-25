@@ -1,0 +1,49 @@
+{
+  "variantId": "UNSC_Frigate_paris_multirole",
+  "hullId": "UNSC_Frigate_paris",
+  "displayName": "Multirole",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "UNSC_Frigate_lightmac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "UNSC_Frigate_unscpd",
+        "WS0006": "UNSC_Frigate_unscpd",
+        "WS0009": "UNSC_Frigate_unscpd",
+		"WS0007": "UNSC_Frigate_goal",
+        "WS0008": "UNSC_Frigate_goal"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

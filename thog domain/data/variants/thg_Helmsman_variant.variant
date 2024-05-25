@@ -1,0 +1,65 @@
+{
+  "variantId": "thg_Helmsman_variant",
+  "hullId": "thg_Helmsman",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 6,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightdualac",
+        "WS0005": "lightdualac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hammerrack",
+        "WS0002": "jackhammer",
+        "WS0003": "jackhammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "sabot_single",
+        "WS0009": "sabot_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "swarmer",
+        "WS0007": "swarmer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
