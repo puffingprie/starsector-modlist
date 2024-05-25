@@ -1,0 +1,28 @@
+{
+  "id": "sa_dewpoint",
+  "specClass": "projectile",
+  "projectileSpecId": "sa_dewpoint_missile",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/sa_dewpoint_base.png",
+  "turretGlowSprite": "graphics/weapons/sa_dewpoint_glow.png",
+  "hardpointSprite": "",
+  "glowColor": [156,44,166,255],
+  "turretOffsets": [
+    -4.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW",
+	"fireSoundTwo":"amsrm_fire",
+}

@@ -1,0 +1,50 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "goat_whorehouse",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_whorehouse_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0028": "all_goat_boostinvasion"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "harpoonpod",
+                "WS0010": "harpoonpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "all_goat_gloomy_l"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "vulcan",
+                "WS0003": "vulcan",
+                "WS0005": "vulcan",
+                "WS0006": "vulcan",
+                "WS0007": "vulcan",
+                "WS0008": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "lpc_goat_turbulent_wing",
+        "lpc_goat_turbulent_wing",
+        "lpc_goat_turbulent_wing",
+        "lpc_goat_turbulent_wing",
+        "lpc_goat_turbulent_wing"
+    ]
+}

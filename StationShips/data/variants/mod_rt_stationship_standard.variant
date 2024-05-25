@@ -1,0 +1,85 @@
+{
+  "variantId": "mod_rt_stationship_standard",
+  "hullId": "mod_rt_stationship",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "solar_shielding"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "rifttorpedo",
+        "WS0022": "rifttorpedo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "riftcascade",
+        "WS0020": "riftcascade",
+        "WS0025": "riftcascade"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "realitydisruptor",
+        "WS0023": "vpdriver",
+        "WS0024": "vpdriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "cryoflux",
+        "WS0003": "cryoflux",
+        "WS0004": "cryoflux"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "cryoflux",
+        "WS0006": "cryoflux",
+        "WS0007": "cryoflux",
+        "WS0008": "cryoflux"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "riftlance",
+        "WS0011": "riftlance",
+        "WS0013": "riftlance",
+        "WS0015": "riftlance",
+        "WS0017": "riftlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "riftlance",
+        "WS0012": "riftlance",
+        "WS0014": "riftlance",
+        "WS0016": "riftlance",
+        "WS0018": "riftlance"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

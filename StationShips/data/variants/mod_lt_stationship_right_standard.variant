@@ -1,0 +1,67 @@
+{
+  "variantId": "mod_lt_stationship_right_standard",
+  "hullId": "mod_lt_stationship_right",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mjolnir",
+        "WS0002": "mjolnir",
+        "WS0003": "mjolnir",
+        "WS0004": "mjolnir"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyac",
+        "WS0006": "heavyac",
+        "WS0009": "heavyac",
+        "WS0010": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "dualflak",
+        "WS0008": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "vulcan",
+        "WS0012": "vulcan",
+        "WS0013": "lightdualmg",
+        "WS0014": "lightdualmg",
+        "WS0015": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "swarmer",
+        "WS0017": "swarmer",
+        "WS0018": "swarmer",
+        "WS0019": "swarmer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

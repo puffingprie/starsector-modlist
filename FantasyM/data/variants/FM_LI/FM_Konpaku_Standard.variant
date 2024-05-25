@@ -1,0 +1,51 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 21,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "FM_Konpaku",
+    "hullMods": [
+        "FantasyBorderMod",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Konpaku_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ionpulser",
+                "WS0006": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Blade_ac",
+                "WS0005": "FM_Blade_ac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightmg",
+                "WS0004": "lightmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "mininglaser",
+                "WS0008": "mininglaser",
+                "WS0009": "mininglaser",
+                "WS0010": "mininglaser"
+            }
+        }
+    ],
+    "wings": []
+}

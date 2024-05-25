@@ -1,0 +1,45 @@
+{
+  "variantId": "rampart_hell",
+  "hullId": "rampart",
+  "displayName": "Hellbore",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 19,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "hellbore",
+        "WS 001": "hellbore",
+        "WS 003": "heavyac",
+        "WS 004": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "hurricane"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

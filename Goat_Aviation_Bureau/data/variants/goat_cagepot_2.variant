@@ -1,0 +1,22 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "goat_cagepot",
+    "hullMods": ["additional_berthing"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_cagepot",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "all_goat_grasp",
+            "WS0002": "all_goat_grasp",
+            "WS0003": "all_goat_grasp",
+            "WS0004": "all_goat_grasp",
+            "WS0005": "all_goat_grasp"
+        }
+    }]
+}

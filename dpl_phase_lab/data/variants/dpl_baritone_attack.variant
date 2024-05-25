@@ -1,0 +1,35 @@
+{
+  "variantId": "dpl_baritone_attack",
+  "hullId": "dpl_baritone",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 30,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ionpulser",
+        "WS0006": "ionpulser",
+        "WS0009": "heavyblaster",
+        "WS0010": "heavyblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pdburst",
+        "WS0004": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

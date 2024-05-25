@@ -1,0 +1,90 @@
+{
+  "hullName": "M3 Payload",
+  "hullId": "DEX_m3payload",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Fighters/derelict_m3a1.png",
+  "style": "LOW_TECH",
+  "height": 44,
+  "width": 37,
+  "center": [18.5, 22],
+  "collisionRadius": 25,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 23.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22, 10.5],
+      "length": 22,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-22, -10.5],
+      "length": 22,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-22.5, 6.5],
+      "length": 22,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-22.5, -6.5],
+      "length": 22,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-22, 3],
+      "length": 22,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-22, -3],
+      "length": 22,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    20.5, -14.5,
+    4, -14.5,
+    -13, -19.5,
+    -22, -13.5,
+    -22, 13.5,
+    -13, 19.5,
+    4, 14.5,
+    20.5, 14.5
+  ]
+}

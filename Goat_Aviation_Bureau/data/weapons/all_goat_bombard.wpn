@@ -1,0 +1,60 @@
+{
+  "id": "all_goat_bombard",
+  "specClass": "projectile",
+  "projectileSpecId": "goat_bombard_ass",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 900,
+  "turretSprite": "graphics/goat/weapons/ballistic/goat_bombard/goat_bombard_turret.png",
+  "turretGunSprite": "graphics/goat/weapons/ballistic/goat_bombard/goat_bombard_turret_recoi.png",
+  "hardpointSprite": "graphics/goat/weapons/ballistic/goat_bombard/goat_bombard_hardpoint.png",
+  "hardpointGunSprite": "graphics/goat/weapons/ballistic/goat_bombard/goat_bombard_hardpoint_recoi.png",
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    25,
+    7.5,
+    25,
+    -7.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    39.5,
+    5.5,
+    39.5,
+    -5.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  
+  #"barrelMode": "DUAL",
+  
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 15,
+    "cloudParticleCount": 10,
+    "cloudDuration": 2.8,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 40,
+    "blowbackDuration": 1,
+    "blowbackLength": -65,
+    "blowbackSpread": 20,
+    "particleColor": [
+      40,
+      35,
+      35,
+      215
+    ]
+  },
+  
+  "fireSoundTwo": "all_goat_bombard_fire1"
+}

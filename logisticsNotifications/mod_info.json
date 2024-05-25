@@ -1,0 +1,11 @@
+{
+  "id": "logisticsNotifications",
+  "name": "Logistics Notifications",
+  "author": "SafariJohn",
+  "utility": "true",
+  "version": { "major": 1, "minor": 4, "patch": 5 },
+  "description": "Provides fuel and supply notifications in human-friendly form.",
+  "gameVersion": "0.97",
+  "jars": ["jars/LogisticsNotifications.jar"],
+  "modPlugin": "scripts.LogisticsNotifications_ModPlugin"
+}

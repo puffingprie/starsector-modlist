@@ -1,0 +1,50 @@
+{
+  "id": "all_goat_induced",
+  "specClass": "projectile",
+  "projectileSpecId": "all_goat_induced_ass",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "graphics/goat/weapons/missile/all_goat_induced/all_goat_induced.png",
+  "hardpointSprite": "graphics/goat/weapons/missile/all_goat_induced/all_goat_induced.png",
+  "turretOffsets": [
+    5.5,
+    -1.5,
+    5.5,
+    1.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    8.5,
+    -1.5,
+    8.5,
+    1.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 5,
+    "particleSizeRange": 5,
+    "cloudParticleCount": 5,
+    "cloudDuration": 1,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 0,
+    "blowbackDuration": 0,
+    "blowbackLength": 0,
+    "blowbackSpread": 0,
+    "particleColor": [
+      50,
+      50,
+      50,
+      100
+    ]
+  },
+  "fireSoundTwo": "swarmer_fire",
+  "mountTypeOverride": "COMPOSITE"
+}

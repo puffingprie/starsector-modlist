@@ -1,0 +1,50 @@
+{
+    "displayName": "攻击",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "goat_midnight_book",
+	"goalVariant": true,
+    "hullMods": [
+        "targetingunit",
+        "converted_hangar",
+        "ballistic_rangefinder"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_midnight_book_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0018": "all_goat_howl"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0020": "all_goat_gloomy_m",
+                "WS0024": "all_goat_gloomy_m",
+                "WS0025": "all_goat_gloomy_m",
+                "WS0028": "all_goat_gloomy_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0029": "all_goat_gnaw",
+                "WS0030": "all_goat_gnaw"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "all_goat_grasp",
+                "WS0002": "all_goat_grasp",
+                "WS0003": "all_goat_grasp"
+            }
+        }
+    ],
+    "wings": ["sarissa_wing"]
+}

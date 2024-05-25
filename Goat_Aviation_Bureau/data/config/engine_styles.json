@@ -1,0 +1,255 @@
+{
+	
+	"GOAT_TECH_long":{
+		"engineColor":[182,061,24,255],
+		#"engineCampaignColor":[222,071,24,255],
+		"engineCampaignColor":[29,200,29,255],
+		"contrailColor":[108,103,89,0],
+		"contrailCampaignColor":[47,41,24,0],
+		"contrailParticleSizeMult":1,
+		"contrailParticleDuration":1.3,
+		"contrailParticleFinalSizeMult":1.5,
+		"contrailMaxSpeedMult":0.2,
+		"contrailAngularVelocityMult":0.25,
+		"type":"GLOW", 
+		"glowSprite":"graphics/goat/fx/engineflame32-orig_move.png",
+		"glowOutline":"graphics/goat/fx/engineflame32-orig.png",
+		"omegaMode":true,
+		"glowSizeMult":0.6,
+		"glowAlternateColor":[214,049,36,90],
+	},
+	"GOAT_TECH_crystal":{
+	
+		"engineColor":[215,110,240,255],
+		"engineCampaignColor":[215,114,249,255],
+		
+		
+		"contrailParticleSizeMult":4.5,
+		"contrailParticleDuration":1.8,
+		"contrailParticleFinalSizeMult":1.1,
+		"contrailMaxSpeedMult":0.3,
+		"contrailAngularVelocityMult":3.1,
+		"contrailMinSeg":0.9,
+		
+		"contrailDuration":6,
+		
+		"contrailColor":[121,127,166,40],
+		"contrailCampaignColor":[105,42,137,60],
+		
+		"type":"GLOW",
+		
+		"glowSprite":"graphics/goat/fx/engineflame_crystal_move.png",
+		"glowOutline":"graphics/goat/fx/engineflame32_crystal.png",
+		
+		#"omegaMode":true,
+		#"glowSizeMult":1,
+		"glowSizeMult":1.6,
+		"glowAlternateColor":[140,63,43,190],
+	},
+	"GOAT_TECH_crystal_omg":{
+		
+		"mode":"QUAD_STRIP",
+	    "contrailWidthMult":0.70,
+	
+		"engineColor":[239,150,240,255],
+		"engineCampaignColor":[229,154,159,255],
+		
+		"contrailParticleSizeMult":3.5,
+		"contrailParticleDuration":1.1,
+		"contrailParticleFinalSizeMult":1.1,
+		"contrailMaxSpeedMult":0.4,
+		"contrailAngularVelocityMult":3.1,
+		"contrailMinSeg":12.9,
+		
+		"contrailDuration":0.4,
+		
+		"contrailColor":[239,150,240,40],
+		"contrailCampaignColor":[140,163,243,90],
+		
+		"type":"GLOW",
+		
+		"glowSprite":"graphics/goat/fx/engineflame_crystal_move.png",
+		"glowOutline":"graphics/goat/fx/engineflame32_crystal.png",
+		
+		#"omegaMode":true,
+		#"glowSizeMult":1,
+		"glowSizeMult":0.6,
+		"glowAlternateColor":[140,163,243,90],
+	},
+	"GOAT_TECH_crystal_out":{
+	
+		"engineColor":[227,130,62,235],
+		"engineCampaignColor":[229,154,59,255],
+		
+		"contrailParticleSizeMult":1.0,
+		"contrailParticleDuration":3.1,
+		"contrailParticleFinalSizeMult":0.8,
+		"contrailMaxSpeedMult":1.1,
+		"contrailAngularVelocityMult":2.0,
+		
+		"contrailMinSeg":6,
+		
+		"contrailDuration":5,
+		
+		"contrailColor":[60,42,42,110],
+		"contrailCampaignColor":[125,42,37,111],
+		
+		"type":"SMOKE",
+		
+		"glowSprite":"graphics/goat/fx/engineflame_crystal_move.png",
+		"glowOutline":"graphics/goat/fx/engineflame32_crystal.png",
+		
+		#"omegaMode":true,
+		#"glowSizeMult":1,
+		"glowSizeMult":0.1,
+		"glowAlternateColor":[140,163,243,10],
+	},
+	
+	"GOAT_TECH_crystal_out_omg":{
+		
+		"mode":"QUAD_STRIP",
+	    "contrailWidthMult":0.70,
+	
+		"engineColor":[177,130,162,135],
+		"engineCampaignColor":[229,154,159,55],
+		
+		"contrailParticleSizeMult":7.5,
+		"contrailParticleDuration":3.5,
+		"contrailParticleFinalSizeMult":0.2,
+		"contrailMaxSpeedMult":2.5,
+		"contrailAngularVelocityMult":4.5,
+		
+		"contrailMinSeg":5,
+		
+		"contrailDuration":2,
+		
+		"contrailColor":[30,22,122,180],
+		"contrailCampaignColor":[33,42,137,111],
+		
+		"type":"GLOW",
+		
+		"glowSprite":"graphics/goat/fx/engineflame_crystal_move.png",
+		"glowOutline":"graphics/goat/fx/engineflame32_crystal.png",
+		
+		"omegaMode":true,
+		"glowSizeMult":1.6,
+		"glowAlternateColor":[78,147,226,90],
+	},
+	
+		"GOAT_TECH_FLY":{
+			
+		"mode":"QUAD_STRIP",
+	    "contrailWidthMult":0.70,
+	
+		"engineColor":[78,147,226,225],
+		"engineCampaignColor":[85,78,226,185],
+		
+		"contrailParticleSizeMult":3.5,
+		"contrailParticleDuration":1.5,
+		"contrailParticleFinalSizeMult":0.2,
+		"contrailMaxSpeedMult":2.5,
+		"contrailAngularVelocityMult":15.5,
+		
+		"contrailMinSeg":5,
+		
+		"contrailDuration":2,
+		
+		"contrailColor":[85,78,226,40],
+		"contrailCampaignColor":[78,147,226,41],
+		
+		"type":"SMOKE",
+		
+		"glowSprite":"graphics/goat/fx/engineflame32_FLY.png",
+		"glowOutline":"graphics/goat/fx/engineflame32_crystal.png",
+		
+		"omegaMode":true,
+		"glowSizeMult":0.6,
+		"glowAlternateColor":[78,147,226,90],
+		
+		
+	},
+	
+	"GOAT_TECH_MISSILE":{
+		"mode":"QUAD_STRIP",
+		"contrailWidthMult":3,
+		"contrailDuration":15,
+		"engineColor":[000,000,000,000],
+		"engineCampaignColor":[000,000,000,000],
+		"contrailColor":[182,061,24,100],
+		"contrailCampaignColor":[222,071,24,255],
+		"contrailParticleSizeMult":0,
+		"contrailParticleDuration":0,
+		"contrailParticleFinalSizeMult":0,
+		"contrailMaxSpeedMult":0,
+		"contrailAngularVelocityMult":0,
+		"glowSizeMult":0,
+		"type":"SMOKE"
+	},
+	"GOAT_TECH_LONG":{
+		"engineColor":[000,000,000,000],
+		"engineCampaignColor":[000,000,000,000],
+		"contrailColor":[108,103,89,10],
+		"contrailCampaignColor":[47,41,24,5],
+		"contrailParticleSizeMult":7,
+		"contrailParticleDuration":6,
+		"contrailParticleFinalSizeMult":1.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.25,
+		"glowSizeMult":0.5,
+		"type":"SMOKE"
+	},
+	
+	"GOAT_TECH_high":{
+		"engineColor":[000,000,000,000],
+		"engineCampaignColor":[000,000,000,000],
+		"contrailColor":[108,103,89,20],
+		"contrailCampaignColor":[47,41,24,30],
+		"contrailParticleSizeMult":6,#数量
+		"contrailParticleDuration":5,#最远长度
+		"contrailParticleFinalSizeMult":1,#消失体积
+		"contrailMaxSpeedMult":0.05,#喷发速度
+		"contrailAngularVelocityMult":0.15,
+		"type":"SMOKE"
+	},
+	"GOAT_TECH_light":{
+	"mode":"QUAD_STRIP",
+	"contrailWidthMult":0.70,
+	"contrailDuration":6,
+		"engineColor":[000,000,000,000],
+		"engineCampaignColor":[000,000,000,000],
+		"contrailColor":[182,061,24,100],
+		"contrailCampaignColor":[222,071,24,255],
+		"contrailParticleSizeMult":0,
+		"contrailParticleDuration":0,
+		"contrailParticleFinalSizeMult":0,
+		"contrailMaxSpeedMult":0,
+		"contrailAngularVelocityMult":0,
+		"type":"SMOKE"
+	},
+	"GOAT_TECH_light_LPC":{
+	"mode":"QUAD_STRIP",
+	"contrailWidthMult":0.70,
+	"contrailDuration":2,
+		"engineColor":[000,000,000,000],
+		"engineCampaignColor":[000,000,000,000],
+		"contrailColor":[182,061,24,100],
+		"contrailCampaignColor":[222,071,24,255],
+		"contrailParticleSizeMult":0,
+		"contrailParticleDuration":0,
+		"contrailParticleFinalSizeMult":0,
+		"contrailMaxSpeedMult":0,
+		"contrailAngularVelocityMult":0,
+		"type":"SMOKE"
+	},
+	
+	"GOAT_Flare":{
+		"engineColor":[255,95,45,255],
+		"contrailParticleSizeMult":8,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":0.5,
+		"contrailMaxSpeedMult":0.1,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[25,25,25,180],
+		"type":"SMOKE" # GLOW or SMOKE
+	},
+}

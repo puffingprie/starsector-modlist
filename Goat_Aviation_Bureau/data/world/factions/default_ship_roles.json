@@ -1,0 +1,149 @@
+{
+
+   "combatSmallForSmallFleet": {
+ "goat_arson_bird_Assault": 3,
+	"goat_arson_bird_Fire_Support": 3,
+	"goat_arson_bird_Strike": 2,
+	"goat_arson_bird_Super": 2,
+	"goat_fliegender_stern_Assault":3,
+	"goat_fliegender_stern_Fire_Support":3,
+	"goat_fliegender_stern_Strike":2,
+	"goat_fliegender_stern_Super":2,
+	"goat_harebell_Fire_Support":10,	
+	"goat_arson_bird_x_mix":5,
+	"goat_ferrysnow_Assault":8,
+	"goat_ferrysnow_Fire_Support":5,
+	"goat_ferrysnow_Strike":3
+  },
+  
+  "combatSmall": {
+    "goat_arson_bird_Assault": 3,
+	"goat_arson_bird_Fire_Support": 3,
+	"goat_arson_bird_Strike": 2,
+	"goat_arson_bird_Super": 2,
+    "goat_pathogenic_wind_Assault": 3,
+    "goat_pathogenic_wind_Fire_Support": 3,
+    "goat_pathogenic_wind_Strike":2,
+    "goat_pathogenic_wind_Super":2,
+	"goat_fliegender_stern_Assault":3,
+	"goat_fliegender_stern_Fire_Support":3,
+	"goat_fliegender_stern_Strike":2,
+	"goat_fliegender_stern_Super":2,
+	"goat_harebell_Fire_Support":10,	
+	"goat_warhook_Assault":1,
+	"goat_warhook_Fire_Support":3,
+	"goat_warhook_Strike":3,
+	"goat_ferrysnow_Assault":6,
+	"goat_ferrysnow_Fire_Support":5,
+	"goat_ferrysnow_Strike":3,
+	"goat_rhizome_Assault":5,
+	"goat_redaugust_Fire_Support":3,
+	"goat_redaugust_Strike":3,
+	"goat_redaugust_Assault":3
+	
+  },
+  
+   "combatMedium": {
+    "goat_rainfarewell_Assault":3,
+	"goat_rainfarewell_Fire_Support":3,
+	"goat_rainfarewell_Strike":2,
+	"goat_rainfarewell_Super":2,
+	"goat_gentiles_Strike":5,
+    "goat_gentiles_Assault":5,
+	"goat_fastboxer_Assault":5,
+	"goat_fastboxer_Fire_Support":5,
+	"goat_fastboxer_Strike":3,
+	"goat_forgotten_Assault":4,
+	"goat_forgotten_Super":8,
+	"goat_forgotten_Fire_Support":5,
+	"goat_birdwatching_Assault":4,
+	"goat_birdwatching_Strike":8,
+	"goat_birdwatching_Fire_Support":5,
+	"goat_whiteone_Fire_Support":3,
+	"goat_whiteone_Strike":6,
+	"goat_whiteone_Assault":5,
+	"goat_hillshade_Assault":8,
+	"hammerhead_Nature":5
+	
+  },
+  
+  "combatLarge": {
+   "goat_midnight_book_Assault": 4,
+    "goat_midnight_book_Strike": 5,
+	"goat_midnight_tea_Assault": 5,
+    "goat_midnight_tea_Strike": 4,
+	"goat_flowertide_Assault": 4,
+	"goat_flowertide_fire_Support": 6,
+	"goat_goatbone_scholar_Assault":3,
+	"goat_goatbone_scholar_Fire_Support":3,
+	"goat_goatbone_scholar_Strike":4,
+	"goat_forgotten_sun_Assault":10,
+	"goat_forgotten_sun_Fire_Support":7,
+	"goat_sails_Assault": 7,
+    "goat_sails_Strike": 6,
+
+	"falcon_goat_painting_nature": 3,
+    "eagle_goat_painting_nature": 3,
+
+	"goat_AI_ship_Assault": 1,
+	"goat_AI_ship_s_Strike": 1
+  },
+  
+   "combatCapital": {
+	"paragon_Nature":1,
+  
+    "goat_immortality_Assault":1,
+    "goat_immortality_Strike":1,
+    "goat_immortality_Super":1,
+    "goat_immortality_Fire_Support":2,
+	"goat_immortality_mod_Assault":6,
+    "goat_immortality_mod_Strike":2,
+    "goat_immortality_mod_Super":2,
+	"goat_sword_power_smart_mind_of_aris_pro_supermax_NB01_Assault":3,
+    "goat_sword_power_smart_mind_of_aris_pro_supermax_NB01_Strike":5,
+    "goat_sword_power_smart_mind_of_aris_pro_supermax_NB01_Fire_Support":2,
+	
+	"goat_evil_gaze_Assault":1
+	
+  },
+
+  "linerSmall":{
+	  "goat_arson_bird_h_m":5
+  },
+
+  "carrierMedium":{
+	"goat_hillshade_Assault":2,
+	"goat_hillshade_Strike":2,
+	"goat_hillshade_Fire_Support":4
+},
+  
+  "carrierLarge":{
+	   "goat_ironpavilion_Assault":10,
+	   "goat_whorehouse_Assault":10,
+	   "goat_whorehouse_Strike":10,
+	   "goat_whorehouse_Fire_Support":10
+	   
+  },
+  
+  "phaseSmall":{
+		"goat_stormlight_variant":5,
+		  "goat_shutter_Assault":10,
+	"goat_shutter_Strike":10
+	},
+  
+  
+  "tankerMedium":{
+	"goat_stringwind":10
+		
+  },
+  
+  "linerLarge":{
+     "goat_cagepot":0.1
+	},
+	
+	"utility":{
+		"goat_insulator_variant":1
+	}
+  
+  
+}

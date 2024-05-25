@@ -1,0 +1,44 @@
+{
+  "id": "all_goat_gnaw1",
+  "specClass": "projectile",
+  "projectileSpecId": "goat_gnaw1_fire",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  #"everyFrameEffect": "data.scripts.weapons.goat_GnawDecoEffect",
+  "turretSprite": "",
+  "hardpointSprite": "",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    14,
+    0,
+  ],
+  "turretAngleOffsets": [
+    0,
+  ],
+  "hardpointOffsets": [
+    20.5,
+    0,
+  ],
+  "hardpointAngleOffsets": [
+    0,
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 12,
+    "particleSizeMin": 3,
+    "particleSizeRange": 20,
+    "particleDuration": 0.75,
+    "particleCount": 3,
+    "particleColor": [
+      225,
+      164,
+      48,
+      225
+    ]
+  },
+  "fireSoundTwo": "autocannon_fire"
+}

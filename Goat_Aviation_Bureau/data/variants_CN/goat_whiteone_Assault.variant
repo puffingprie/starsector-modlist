@@ -1,0 +1,33 @@
+{
+    "displayName": "攻击",
+    "fluxCapacitors": 8,
+    "fluxVents": 20,
+    "hullId": "goat_whiteone",
+	"goalVariant": true,
+    "hullMods": [
+        "targetingunit",
+        "ballistic_rangefinder",
+        "goat_pointdefense"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_whiteone_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "tpc",
+                "WS0006": "tpc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "flak",
+                "WS0004": "flak"
+            }
+        }
+    ]
+}

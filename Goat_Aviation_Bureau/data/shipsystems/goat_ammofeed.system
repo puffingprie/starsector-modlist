@@ -1,0 +1,25 @@
+{
+	"id":"goat_ammofeed",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.goat_AmmoFeedStats",
+	
+	"weaponGlowColor":[255,200,50,155],
+	"weaponTypes":[BALLISTIC],
+
+	"jitterUnderColor":[255,115,90,155],
+	"jitterUnderCopies":6,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":5,
+	"jitterUnderRangeRadiusFraction":0.2,
+	
+	"jitterColor":[155,75,30,15],
+	"jitterCopies":3,
+	"jitterMinRange":0,
+	"jitterRange":15,
+	"jitterRangeRadiusFraction":0.2,
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

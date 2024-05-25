@@ -1,0 +1,233 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+#Built-in hullmods,,,,,,,,,,,,,,,,,,,
+Reinforced Turrets,goat_armoredweapons,,,Goathead Aviation,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_ArmoredWeapons,"An old, reliable design that applies heavy armor to turrets to protect them from damage.
+
+Weapon health increased by %s.",Reinforced weapon health,,graphics/hullmods/armored_weapon_emplacements.png
+Overpressure Drive Field Stabilizer,goat_drive_field_stabilizer,,,Goathead Aviation,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_DriveFieldStabilizer,"The use of a more elaborate U-shaped stabilizer to keep the drive bubble stable while the fleet is underway will increase the burn level of the fleet by %s. The effect of multiple stabilizers can be cumulative.
+
+However, it increases the fleet's sensor profile by %s.",Reduce fleet fuel consumption,,graphics/goat/hullmods/goat_drive_field_stabilizer.png
+Hidden Drive Field Stabilizer,goat_drive_field,,,Goathead Aviation,,,,FALSE,TRUE,TRUE,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DriveFieldStabilizer,"Stabilizes the fleet's drive bubble, increasing the maximum burn of the fleet by %s. The effect of multiple stabilizers is cumulative.
+
+Increases the ship's sensor profile by %s.",Reduce fleet fuel consumption,,graphics/goat/hullmods/goat_drive_field_stabilizer.png
+Goathead Shield,goat_hullstyle,,,Goathead Aviation,,,,FALSE,TRUE,TRUE,0,0,0,0,data.hullmods.goat_HullStyle,,Reduce fleet fuel consumption,,graphics/hullmods/augmented_drive_field.png
+Saxton Shield,goat_hullstyle_sax,,,Saxton,,,,FALSE,TRUE,TRUE,0,0,0,0,data.hullmods.goat_HullStyleSax,,Reduce fleet fuel consumption,,graphics/hullmods/augmented_drive_field.png
+Goathead Paint,goat_painting,,,Goathead Aviation,,,,FALSE,TRUE,,1,1,1,1,data.hullmods.goat_SolarShielding,"The Goathead factory's special paintjob incorporates a stellar-protective coating. This allows it to reduce the impact of being in a star's corona on combat readiness by %s on top of the custom paint job, and has the same effect on storms in hyperspace.
+
+Reduces energy damage taken by %s while in combat.",Reduces corona penalty and energy damage,,graphics/goat/hullmods/goat_painting.png
+Tidal Grid,goat_state_tidal,,,Saxton,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_StateTidal,"A unique power grid layout creates a new paradigm in allocating ship energy. This technology allows for reactors to produce a greater concentration of energy, thus increasing energy weapon output to unprecedented levels: giving ships using it significant advantages in combat. This particular version focuses more on the increased-damage aspect.
+
+Energy weapons generate %s more flux.
+Energy weapons get %s additional range.
+Energy weapons deal %s additional damage.
+Energy weapons cost %s additional ordnance points to install.
+All beam weapons will generate arcs when hitting armor or hull.
+
+When the ship's peak performance time has expired, the rate of combat readiness decay is increased by %s.",Energy enhancement,,graphics/goat/hullmods/goat_state_tidal.png
+Lunar Grid,goat_state_lunar,,,Saxton,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_StateLunar,"A unique power grid layout creates a new paradigm in allocating ship energy. This technology allows for reactors to produce a greater concentration of energy, thus increasing energy weapon output to unprecedented levels: giving ships using it significant advantages in combat. This particular version focuses more on the increased-range aspect.
+
+Energy weapons generate %s more flux.
+Energy weapons get %s additional range.
+Energy weapons deal %s additional damage.
+Energy weapons cost %s additional ordnance points to install.
+All beam weapons will generate arcs when hitting armor or hull.
+
+When the ship's peak performance time has expired, the rate of combat readiness decay is increased by %s.",Energy enhancement,,graphics/goat/hullmods/goat_state_lunar.png
+Blackbox Spiral Horns,goat_dhelix,,,Goathead Aviation,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_Dhelix,"The Spiral Horn Device is a peculiar energy generator that begins to output massive amounts of energy from the moment it's defined as completed and usable; it cannot be shut down without complete disassembly. Engineers were unable to explain this phenomenon, resulting in it becoming a black-box device with a very uncooperative mode of operation.
+
+This device always attempts to ""ascend"": it constantly tries to raise the dimensional state of both itself, and all entities connected to it; and is then stopped by the built-in inhibitor. Since there is no engineer who can understand its blueprint, it is impossible to tell if such behavior is normal.
+
+Its behavior is not all bad; the tendency to raise the dimension makes radiation near the ship become turbulent, which succeeds in helping the ship conceal itself. The ship's sensor profile is reduced by %s.
+
+Large weapons with a base range of less than %s will have it increased by %s, to a maximum of %s.",Stealth and range boost,,graphics/goat/hullmods/goat_dhelix.png
+Parallel Manufacturing,goat_parallel_assembly_line,,,Goathead Aviation,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_ParallelAssemblyLine,"A massive assembly line is built into the hull, allowing for the manufacture of missiles during combat.
+
+The assembly line requires proper nanoforge initialization, only activating when at least %s of the ship's flight decks are carrying fighter wings of at least %s craft each.
+
+While the assembly line is active, the ship fully regenerates the ammunition of its missiles after it has launched a number of fighters equal to three times the total number of fighters it carries.",All the missiles,,graphics/goat/hullmods/goat_parallel_assembly_line.png
+Stardust Accumulation,goat_parallel_assembly_line2,,,Saxton,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_ParallelAssemblyLine2,"The method by which a large number of drones can be carried in such a narrow hull is to have inactive drones function as hull reinforcement.
+
+Every fighter launch damages this ship for %s of its current hull value.",Accelerated replacement,,graphics/goat/hullmods/goat_parallel_assembly_line1.png
+Integrated Missile Racks,goat_missleracks,,,Goathead Aviation,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.ExpandedMissileRacks,"Plenty of space remains in the hull for micro-missiles to be stored, with no adverse affects on performance.
+
+Missile weapons gain an additional %s ammunition capacity.",More missiles,,graphics/goat/hullmods/goat_missile_racks.png
+Launcher Mode switch,goat_missile_switching,,,Goathead Aviation,,,,FALSE,TRUE,TRUE,0,0,0,0,data.hullmods.goat_MissileSwitching,,,,graphics/goat/hullmods/goat_missileswitching_h.png
+Launcher Mode indicator,goat_missile_switching_mark,,,Goathead Aviation,,,,FALSE,TRUE,TRUE,0,0,0,0,data.hullmods.goat_ZZZ,,,,graphics/goat/hullmods/goat_missileswitching_h.png
+Launcher Mode - LRM,goat_missile_switching_h,,,Goathead Aviation,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_MissileSwitchingH,"Enables the ship to fire its LRM launchers, while disabling the MRM launchers.",Missile swapper,,graphics/goat/hullmods/goat_missileswitching_h.png
+Launcher Mode - MRM,goat_missile_switching_k,,,Goathead Aviation,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_MissileSwitchingK,"Enables the ship to fire its MRM launchers, while disabling the LRM launchers.",Missile swapper,,graphics/goat/hullmods/goat_missileswitching_k.png
+Dimensional Tower,goat_dimension_tower_t,,,Goathead Aviation,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_DimensionTower,"Another application for the Spiral Horn Device is to encourage its ""dimensional ascension"" properties. Constructing dimensional towers allows the ship's drive to initiate dimensional tremors, which supports various types of operations involving dimensional switching.
+
+These tremors lead to an increase in the ship's stealth.
+
+Reduces the ship's sensor profile by %s.",Stealth boy,,graphics/goat/hullmods/goat_dimension_tower.png
+,,,,,,,,,,,,,,,,,,,
+#Modular hullmods,,,,,,,,,,,,,,,,,,,
+Chrono-Oscillation Shields,goat_oscillating,,,Goathead Aviation,"shields, defensive, merc",Shields,2000,,,,12,20,30,45,data.hullmods.goat_Oscillating,"Alters the shield generator's connection to the flux grid to better resist impacts via temporal manipulation; however, stronger impacts are less affected. Furthermore, the large number of timeline changes caused by the shield produces anomalous thermal arcs that lock onto the temporal registers required for its function.
+
+#Reduces the damage taken by the ship's shields depending on the strength of the hit:
+#Damage above %s is reduced by at most %s.
+#Damage above %s is reduced by at most %s.
+#Damage above %s is reduced by at most %s.
+
+#For beam damage, the damage reduction is fixed at %s.
+
+#The total damage reduction will be converted into arcs targeting the ship, dealing %s energy and %s EMP damage.",Enhanced shields,"Reduces the turn rate of the ship's shields by %s, and the raise rate by %s.",graphics/goat/hullmods/goat_oscillating.png
+Pressurized Thrusters,goat_auxiliarythrusters,1,,Goathead Aviation,"engines, merc",Engines,5000,,,,5,10,15,25,data.hullmods.goat_AuxiliaryThrusters,"Adding a pressurized thruster module to the engine block sacrifices some maneuvering capability in exchange for greatly improving a ship's forward thrust. However, engines that are too large, or have too little capacity for the pressurized storage, do not benefit as much. Furthermore, the large amount of waste heat generated by the additional thrusters necessitates the removal of engine armor in order to ensure heat regulation. Interestingly, when properly integrated into a ship, the thrusters can function as flux valves which improve the effectiveness of a vent and even speed while venting.
+
+#Increases top speed by %s/%s/%s/%s, depending on the ship's size class.
+
+#Reduces the ship's maneuverability (such as turn rate and acceleration/deceleration) by %s.
+
+#Increases the repair rate of damaged engines in combat by %s.",Full speed ahead,"Increases the effectiveness of active venting by an additional %s.
+Ships gain an additional %s/%s/%s/%s increase in top speed while actively venting, depending on hull size.",graphics/goat/hullmods/goat_auxiliarythrusters.png
+Temporal Weapon Mounts,goat_pointdefense,,,Goathead Aviation,"offensive, merc",Weapons,3000,,,,4,8,12,20,data.hullmods.goat_PointDefense,"An optimization of weapon repair systems, utilizing temporally-registered weapon mounts that are able to restore the ship's hull to an earlier state when a weapon is repaired. Repeated attempts to prevent the loss of temporal data in the registers has proved futile, forcing the system to be used frequently lest it be rendered useless.
+
+#When a weapon is successfully repaired, the ship's hull is repaired by %s/%s/%s, depending on weapon size.
+
+#Increases recoil of all weapons by %s.
+
+#If %s seconds have passed since the last weapon repair, the hull repair effect from this hullmod will be disabled for the rest of the battle.",Hull repair,Increases the amount of hull repaired by %s.,graphics/goat/hullmods/goat_pointdefense.png
+Overloaded Circuits,goat_overloadcircuit,1,,Goathead Aviation,"offensive, merc",Weapons,6500,,,,5,10,15,25,data.hullmods.goat_OverloadCircuit,"A modification allowing weapon mounts to be better integrated with a ship's flux grid, and more importantly its temporal registers. This allows a weapon to ""import"" its firing state from alternate timelines while it is being repaired, resulting in an apparent increase in its rate of fire after repairs are completed.
+
+#When a weapon is repaired, its rate of fire is increased by %s for %s seconds.
+
+#Increases the repair rate of damaged weapons in combat by %s.",Reduced repair time,Reduces the durability of the ship's weapons by %s.,graphics/goat/hullmods/goat_overloadcircuit.png
+,,,,,,,,,,,,,,,,,,,
+#Built-in hullmods,,,,,,,,,,,,,,,,,,,
+Stress Dispersion Ring,goat_stress_dispersion,,,Goathead Aviation,,,,FALSE,TRUE,,1,1,1,1,data.hullmods.goat_StressDispersion,"The specially assembled ringed stress countermeasure allows the ship to turn at high speed without causing overstress to the ship's structure, preventing possible hull fractures that would otherwise arise from such maneuvers.
+
+The stress unit can also actively excite and counterbalance the ship's drive field, making the ship acceleration and deceleration faster and smoother while improving the strength of the ship's perimeter concealment field.
+
+The ship's sensor profile is reduced by %s.",I can SPEEEEN,,graphics/goat/hullmods/goat_stress_dispersion.png
+Overcrowded Berthing,goat_increased_maintenance,,,Goathead Aviation,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_IncreasedMaintenance,"Due to the overcrowded berthing design, monthly maintenance consumes %s more supplies and lowers the maximum combat readiness by %s.
+
+It is worth noting, however, that even with this overstuffed design, there is still room for refit for the insatiable captain.
+
+However, the supplies required to recover from combat are increased by %s.","Increased maintenance, reduced CR",,graphics/goat/hullmods/goat_increased_maintenance.png
+Stringwind Dynamic Graphics,goat_stringwind_dynamic_sprite,,,Goathead Aviation,,,,FALSE,TRUE,TRUE,0,0,0,0,data.hullmods.goat_StringwindDynamicSprite,,,,
+Compact Bays,goat_compact_cabin,,,Goathead Aviation,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_CompactCabin,"Due to the overly compact design, only one type of Aviation Bureau drone can be installed when performing deck modifications. Therefore, when the refit is completed, the drone will automatically be built in.",Converted Hangar restrictions,,graphics/goat/hullmods/goat_compact_cabin.png
+Dimensional Tower,goat_dimension_tower,,,Goathead Aviation,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_DimensionTower,"Another application for the Spiral Horn Device is to encourage its ""dimensional ascension"" properties. Constructing dimensional towers allows the ship's drive to initiate dimensional tremors, which supports various types of operations involving dimensional switching.
+
+These tremors lead to an increase in the ship's stealth.
+
+Reduces the ship's sensor profile by %s.",enhance ship stealth,,graphics/goat/hullmods/goat_dimension_tower.png
+Temporal Disruption,goat_time_mix,,,Goathead Aviation,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_TimeMix,"This ship's time-disruption capabilities allow its targeting computers to work at a higher rate than normal, increasing its effective range to %s of the normal value.
+
+However, the increased timeflow causes confusion in gunnery AIs. Autofiring weapons get the worst possible target leading.",nerf,,graphics/goat/hullmods/goat_time_mix.png
+Autonomous Bridge,goat_automated,,,Sprouting Dockyards,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.DelicateMachinery,"Fully-integrated AI controls greatly reduce the necessary amount of crew. But due to regulations prohibiting the number of AIs that can be utilized in one design, redundant bridge systems results in ship systems that require constant maintenance and lack combat endurance.
+
+The rate of combat readiness decay after peak performance time has expired is increased by %s.",Delicate Machinery,,graphics/goat/hullmods/goat_automated.png
+Induction Thrusters,goat_auxiliarythrusters1,1,,Goathead Aviation,,,,FALSE,TRUE,,5,10,15,25,data.hullmods.goat_AuxiliaryThrusters1,"A special engine injector utilizing precise pneumatic technology, massively improving engine reliability while retaining high levels of thrust.
+
+Increases the health of the ship's engines by %s.",Engine durability,Increases the rate at which the ship's engines are repaired by %s.,graphics/goat/hullmods/goat_auxiliarythrusters1.png
+Flexible Structure,goat_sword,,,Goathead Aviation,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_Sword,"This ship has been designed with structural replacement in mind, allowing plenty of room for more extensive modifications: the net result is an increased effect from such modifications.
+
+When Converted Hangar is installed, the ship gains %s additional fighter bay(s).
+When Expanded Missile Racks is installed, the ship gains %s additional missile ammunition.",Hullmod buffs,,graphics/goat/hullmods/goat_sword.png
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,

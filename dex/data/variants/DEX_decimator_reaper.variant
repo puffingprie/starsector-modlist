@@ -1,0 +1,60 @@
+{
+  "variantId": "DEX_decimator_reaper",
+  "hullId": "DEX_decimator",
+  "displayName": "Thor",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 14,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mjolnir",
+        "WS0002": "mjolnir",
+        "WS0003": "mjolnir",
+        "WS0004": "mjolnir",
+        "WS0005": "mjolnir"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "typhoon",
+        "WS0015": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "lightdualmg",
+        "WS0011": "lightdualmg",
+        "WS0012": "lightdualmg",
+        "WS0013": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "heavyac",
+        "WS0009": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "hveldriver",
+        "WS0007": "hveldriver"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

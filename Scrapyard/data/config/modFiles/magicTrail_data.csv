@@ -1,0 +1,12 @@
+trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn,colorOut,opacity,textLength,textScroll,distance,dispersion,drift,fadeOnFadeOut,angleAdjustment,additive,velocityIn,velocityOut,randomVelocity,angle,rotationIn,rotationOut,randomRotation,renderBelowExplosions
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sa_solace_shot1,sa_solace_shot,base_trail_smoke,15,0,0,0.4,10,4,"[198,181,255,255]","[67,59,239,255]",0.5,300,500,0,30,1,TRUE,FALSE,TRUE,60,30,0,0,0,0,FALSE,FALSE
+sa_solace_shot2,sa_solace_shot,base_trail_smooth,20,0,0,0.4,10,5,"[198,181,255,255]","[67,59,239,255]",0.6,350,500,0,35,1,TRUE,FALSE,TRUE,60,30,0,0,0,0,FALSE,FALSE
+sa_solace_shot3,sa_solace_shot,base_trail_zap,25,0,0,0.2,10,3,"[143,146,251,255]","[67,59,239,255]",0.6,370,600,0,40,1,TRUE,FALSE,TRUE,0,0,0,0,90,90,TRUE,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sa_infernium_wake1,sa_wave_shot,base_trail_heavyBurn,50,0.1,1,0.5,58,58,"[71,149,34,255]","[47,109,19,255]",0.7,400,300,0,50,1,TRUE,FALSE,TRUE,0,0,0,0,,,FALSE,FALSE
+sa_infernium_wake2,sa_wave_shot,base_trail_zap,30,0,0.3,0.4,40,40,"[156,255,89,255]","[110,209,63,255]",1,900,800,0,20,1,TRUE,FALSE,TRUE,0,0,0,0,180,300,TRUE,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sa_earthshaker_trail,sa_gaia_shot,base_trail_smoke,70,0,1,0.4,24,20,"[245,131,70,255]","[245,131,70,255]",0.6,800,600,30,0,0,TRUE,TRUE,TRUE,0,0,0,0,0,0,FALSE,FALSE
+sa_earthshaker_trail_2,sa_gaia_shot,base_trail_heavyBurn,90,0,1,0.6,30,24,"[85,90,80,255]","[85,90,80,255]",1,800,600,40,0,0,TRUE,TRUE,TRUE,0,0,0,0,0,0,FALSE,FALSE

@@ -1,0 +1,65 @@
+{
+  "id": "all_goat_grasp",
+  "specClass": "projectile",
+  "projectileSpecId": "vulcan_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/goat/weapons/ballistic/goat_grasp/goat_grasp.png",
+  "turretGunSprite": "graphics/goat/weapons/ballistic/goat_grasp/goat_grasp_turret_recoi.png",
+  "hardpointSprite": "graphics/goat/weapons/ballistic/goat_grasp/goat_grasp.png",
+  "hardpointGunSprite": "graphics/goat/weapons/ballistic/goat_grasp/goat_grasp_hardpoint_recoi.png",
+  "visualRecoil": 5,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    10.5,
+    1.5,
+    10.5,
+    -1.5,
+    9.5,
+    3.5,
+    9.5,
+    -3.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    15,
+    1.5,
+    15,
+    -1.5,
+    13,
+    3.5,
+    13.5,
+    -4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 3,
+    "spread": 20,
+    "particleSizeMin": 1,
+    "particleSizeRange": 1,
+    "particleDuration": 0.5,
+    "particleCount": 8,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "vulcan_cannon_fire"
+}

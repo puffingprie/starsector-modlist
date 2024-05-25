@@ -1,0 +1,75 @@
+{
+  "id": "all_goat_artichoke_k_R",
+  "specClass": "projectile",
+  "projectileSpecId": "goat_artichoke_mrm",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "everyFrameEffect": "data.scripts.weapons.goat_FramedLauncherAnimation",
+  "turretSprite": "graphics/goat/weapons/missile/goat_artichoke/goat_artichoke_R_00.png",
+  "hardpointSprite": "graphics/goat/weapons/missile/goat_artichoke/goat_artichoke_R_00.png",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    -6.5,
+    2.5,
+    -6.5,
+    -2.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    28,
+    18.5,
+    24.5,
+    17,
+    22,
+    16,
+    19.5,
+    15,
+    17,
+    14,
+    9,
+    11,
+    6,
+    10,
+    3,
+    9,
+    0,
+    8
+  ],
+  "hardpointAngleOffsets": [
+    -6.5,
+    -8,
+    -22,
+    -16,
+    -18.5,
+    -8,
+    -18.5,
+    -18.5,
+    -18.5
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 12,
+  "frameRate": 12,
+  "alwaysAnimate":"false",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 25,
+    "spread": 32,
+    "particleSizeMin": 6,
+    "particleSizeRange": 10,
+    "particleDuration": 0.25,
+    "particleCount": 20,
+    "particleColor": [
+      90,
+      57,
+      220,
+      255
+    ]
+  },
+  "fireSoundTwo": "sabot_srm_fire"
+}

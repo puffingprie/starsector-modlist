@@ -1,0 +1,44 @@
+{
+
+	"names":{
+		"SA_NAMES":1,
+	},
+  "variantOverrides": {},
+  "hullFrequency": {
+    "hulls": {
+    "sa_cast": "0.48",
+    "sa_ceudar": "0.50",
+    "sa_chandelier": "0.15", #really meant to be super rare
+
+    },
+  },
+  "shipsWhenImporting": {
+    "hulls": [],
+  },
+  "knownShips": {
+    "hulls":[ 
+    "sa_perigee",
+    "sa_ceudar",
+    "sa_cast",
+    "sa_chandelier",
+    "sa_monarque",
+    ],
+  },
+  "priorityShips": {
+    "hulls": []
+  },
+"knownFighters":{
+		"tags":[],
+		"fighters":[
+			"sa_grunder_wing",
+                        "sa_shilage_wing",
+		],
+	},
+"knownWeapons":{
+		"tags":[],
+		"weapons":[
+			"sa_erbe",
+			"sa_hypermatter"
+		],
+	},
+}

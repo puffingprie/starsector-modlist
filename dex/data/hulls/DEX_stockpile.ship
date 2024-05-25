@@ -1,0 +1,152 @@
+{
+  "hullName": "Stockpile",
+  "hullId": "DEX_stockpile",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/DEX_stockpile.png",
+  "style": "LOW_TECH",
+  "height": 225,
+  "width": 184,
+  "center": [93, 117.5],
+  "collisionRadius": 153,
+  "shieldCenter": [0, 0.5],
+  "shieldRadius": 134.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "automated",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -116.5,
+      "locations": [40, -65.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 116.5,
+      "locations": [40, 65.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -132.5,
+      "locations": [-64.5, -55]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 132.5,
+      "locations": [-64.5, 55]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-40, -64.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-40, 64.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [88.5, 70]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [88.5, -64]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [88.5, 56]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [88.5, -50]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-109, 34],
+      "length": 72.5,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-109, -16],
+      "length": 72.5,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-109, 10],
+      "length": 72.5,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-108, -37],
+      "length": 72.5,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    80, 72.5,
+    103, -1,
+    79, -68.5,
+    -110, -68.5,
+    -111, 72.5
+  ]
+}

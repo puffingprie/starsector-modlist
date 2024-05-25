@@ -1,0 +1,339 @@
+{
+    id:"Goat_Aviation_Bureau",
+
+    "color":[165,101,91,255],
+    "baseUIColor":[200,80,40,200],
+    "darkUIColor":[30,50,98,175],
+    "gridUIColor":[30,50,98,75],
+
+    "displayName":"羊头航务局",
+    "displayNameWithArticle":"羊头航务局",	
+    "displayNameLong":"骷髅羊头航务局",
+    "displayNameLongWithArticle":"骷髅羊头航务局",
+
+    "logo":"graphics/goat/factions/flag.png",
+    "crest":"graphics/goat/factions/flag_c.png",
+	
+    "shipNamePrefix":"GAB",
+	
+    "shipNameSources":{
+        "LAW":1,
+		"GREEK":1,
+		"GENERAL":1,
+		"MERCANTILE":1,
+		"SPACE":1,
+		"KNIGHTS":1,
+		"CARZY":1,
+		"HEGEMONY":1,
+		"BRITISH_NAVY":1,
+		"ROMAN":2,
+    },	
+    "names":{
+        "crazy":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+    },
+
+    "hullFrequency":{
+        "tags":{
+        },
+        "hulls":{
+		   "goat_stormlight":0.1,
+		   "goat_midnight_book":1,
+		   "goat_gentiles":1,
+		   "goat_pathogenic_wind":0.6,
+		   "goat_arson_bird":0.6,
+		   "goat_fastboxer":1,
+		   "goat_stringwind":1,
+		   "goat_insulator":1,
+		   "goat_cagepot":0.7,
+		   "goat_flowertide":0.8,
+		   "colossus_goat_painting":1.1,
+		   "hammerhead_goat_painting":1,
+		   "goat_rainfarewell":1.1,
+		   
+		    "goat_evil_gaze":0.5,
+		   "goat_immortality":0.5,
+		   "goat_whorehouse":1.1,
+		    "goat_ironpavilion":1,
+		   "goat_forgotten_sun":1.5,
+		   "goat_birdwatching":1.8,
+		    "goat_forgotten":0.8,
+		   "goat_ferrysnow":1.1,
+		   "goat_rhizome":0.8,
+		              
+        },
+    },
+
+    # ships the faction gets access to when importing S&W out-of-faction
+    "shipsWhenImporting":{
+        "tags":["base_bp","goat_bp"],
+        "hulls":[
+			"goat_midnight_book",
+		    "goat_gentiles",
+		    "goat_pathogenic_wind",
+			"goat_rainfarewell",
+        ],
+    },
+
+    "knownShips":{
+        "tags":["base_bp","goat_bp","goat_openbp"],
+        "hulls":[
+		   "hammerhead",
+		   "paragon",
+           "goat_midnight_book",
+		   "goat_gentiles",
+		   "goat_pathogenic_wind",
+		   "goat_arson_bird",
+		   "goat_stringwind",
+		   "goat_insulator",
+		   "goat_cagepot",
+		   "goat_stormlight",
+		   "goat_rainfarewell",
+		   "goat_harebell",
+		   "goat_warhook",
+		   
+		   "colossus_goat_painting",
+		   "hammerhead_goat_painting",
+		   "paragon_goat_painting",
+		   "goat_flowertide",
+		   
+		   "goat_AI_ship",
+		   "goat_FLY",
+		   "goat_CROWN",
+		   
+        ],
+    },
+
+    # listing ships here will make the faction mostly use them even if other hulls become available
+    "priorityShips":{
+        "tags":["goat_bp","goat_openbp"],
+        "hulls":[
+        ],
+    },
+
+    "knownFighters":{
+        "tags":[
+           "base_bp", "lowtech_bp", "midline_bp", "persean"
+            ],
+        "fighters":[
+            "lpc_goat_lick_wing",
+            "lpc_goat_fortress_wing",
+			"lpc_goat_nibble_wing",
+			"lpc_goat_turbulent_wing",
+			"lpc_goat_hunter_wing",
+			"lpc_goat_ironstone_wing",
+			"lpc_goat_rottenleaf_wing",
+			"lpc_goat_redroof_wing",
+        ],
+    },
+
+    "priorityFighters":{
+          "tags":[
+           
+            ],
+        "fighters":[
+            "lpc_goat_lick_wing",
+            "lpc_goat_fortress_wing",
+            "lpc_goat_nibble_wing",
+        ],
+    },
+
+    "knownWeapons":{
+        "tags":[
+		"goat_bp_w",
+         ],
+        "weapons":[
+          "all_goat_giant_halberd_l",
+			"all_goat_gloomy_l",
+			"all_goat_gloomy_l",
+			"all_goat_fire_fire_m",
+			"all_goat_fire_fire_m",
+			"all_goat_gloomy_s",
+			"all_goat_giant_halberd_s",
+			"all_goat_diiscipline",
+			"all_goat_admonish",
+			"all_goat_punish",
+			"all_goat_implement",
+			"all_goat_rhythm",
+			"all_goat_invasion",
+			"all_goat_howl",
+			"all_goat_bombard",
+			"all_goat_zeal",
+			"all_goat_gnaw",
+			"all_goat_lash",
+			"all_goat_dash",
+			"all_goat_punch",
+			"all_goat_grasp",
+			"all_goat_lash_s",
+        ],
+    },
+
+    "priorityWeapons":{
+         "tags":[
+         ],
+        "weapons":[
+        ],
+    },
+
+    "knownHullMods":{
+        "tags":["base_bp", "tritachyon"],
+        "hullMods":[
+          "advancedshieldemitter", # accelerated
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+			"hiressensors",
+			"efficiency_overhaul",
+			"converted_fighterbay",
+        ],
+    },
+
+    "factionDoctrine":{
+        "warships":4,
+        "carriers":2,
+        "phaseShips":1,
+
+        "officerQuality":1,
+        "shipQuality":1,
+        "numShips":5,
+
+        "shipSize":3,
+        "aggression":5,
+
+        "combatFreighterProbability":0.1,     				
+        "combatFreighterCombatUseFraction":0.1,  				
+        "combatFreighterCombatUseFractionWhenPriority":0.2,
+        "autofitRandomizeProbability":0.6,
+
+        "commanderSkillsShuffleProbability":0.5,
+        "commanderSkills":[
+			"coordinated_maneuvers",
+			"crew_training",
+			"helmsmanship",
+			"electronic_warfare",
+			"ballistic_mastery",
+			"point_defense",
+			"missile_specialization",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+        ],
+    },
+
+    "illegalCommodities":[
+	    "drugs",
+    ],
+
+    "music":{
+		"theme":"music_goat_market_neutral",
+		"market_neutral":"music_goat_market_neutral",
+		"market_hostile":"music_goat_market_hostile",
+		"market_friendly":"music_goat_market_friendly",
+		"encounter_neutral":"music_luddite_encounter_neutral",
+		"encounter_hostile":"music_luddite_encounter_hostile",
+		"encounter_friendly":"music_luddite_encounter_friendly",
+	},
+
+    "internalComms":"GoatAB_internal",	
+
+    #"tariffFraction":0.13,
+    #"tollFraction":0,
+    #"fineFraction":0.5,		
+
+    "portraits":{
+        "standard_male":[
+			"graphics/goat/portraits/bot1.png",
+			"graphics/goat/portraits/bot2.png",
+			"graphics/goat/portraits/bot3.png",
+			"graphics/goat/portraits/bot4.png",
+			"graphics/goat/portraits/bot5.png",
+			"graphics/goat/portraits/bot6.png",
+			"graphics/goat/portraits/bot7.png",
+			"graphics/goat/portraits/bot8.png",
+			"graphics/goat/portraits/bot9.png",
+			"graphics/goat/portraits/man1.png",
+			"graphics/goat/portraits/man2.png",
+        ],
+        "standard_female":[
+			"graphics/goat/portraits/woman1.png",
+			"graphics/goat/portraits/woman2.png",
+			"graphics/goat/portraits/woman3.png",
+			"graphics/goat/portraits/woman4.png",
+			"graphics/goat/portraits/woman5.png",
+			"graphics/goat/portraits/AI_girl.png",
+			"graphics/goat/portraits/AI_girl1.png",
+        ],
+    },
+
+    "ranks":{
+            "ranks":{
+                    "spaceCommander":{"name":"航务局首席"},
+            },
+            "posts":{
+                    "patrolCommander":{"name":"巡逻指挥官"},
+                    "fleetCommander":{"name":"舰队指挥官"},
+                    "baseCommander":{"name":"基地指挥官"},
+			        "administrator":{"name":"分部首席"},
+			        "genericMilitary":{"name":"军用舰队指挥官"},
+			        "portmaster":{"name":"治安队队长"},
+			        "quartermaster":{"name":"事务长"},
+            },
+    },
+
+    "custom":{
+        "offersCommissions":true,
+        "engagesInHostilities":true,
+        "buysAICores":true,
+        "AICoreValueMult":0.5,
+        "AICoreRepMult":3,
+        "buysSurveyData":true,
+        "hostilityImpactOnGrowth":true,
+	    "caresAboutAtrocities":false,
+        "punitiveExpeditionData":{
+            "vsCompetitors":true,
+            "vsFreePort":false,
+            "canBombard":true,
+            "territorial":true,
+        },
+    },
+
+    "fleetTypeNames":{
+        "trade":"商队",
+
+        "tradeLiner":"客运舰队",
+        "tradeSmuggler":"走私舰队",
+        "smallTrader":"补给舰队",
+
+        "patrolSmall":"治安舰队",
+        "patrolMedium":"巡查舰队",
+        "patrolLarge":"守卫舰队",
+
+        "inspectionFleet":"监察队",
+        "taskForce":"战事军团",
+
+        "foodReliefFleet":"救援舰队",
+    },
+},

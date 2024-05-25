@@ -1,0 +1,29 @@
+{
+  "variantId": "dpl_innovator_standard",
+  "hullId": "dpl_innovator",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "locust",
+        "WS0002": "pdburst",
+        "WS0003": "pdburst",
+        "WS0004": "pdburst",
+        "WS0005": "locust",
+        "WS0006": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

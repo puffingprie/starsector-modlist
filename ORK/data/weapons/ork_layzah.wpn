@@ -1,0 +1,65 @@
+{
+  "id": "ork_layzah",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "data.scripts.weapons.bultach_fuadian",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/gestalt/ork_layzah_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/gestalt/ork_layzah_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/gestalt/ork_layzah_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/gestalt/ork_layzah_hardpoint_glow.png",
+  "glowColor": [
+    255,
+    30,
+    0,
+    200
+  ],
+  "hitGlowRadius": 45,
+  "turretOffsets": [
+    28,
+    8,
+    28,
+    -8
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    30,
+    -8,
+    30,
+    8
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "beamFireOnlyOnFullCharge": true,
+  "fringeColor": [
+    255,
+    30,
+    0,
+    200
+  ],
+  "coreColor": [
+    255,
+    255,
+    245,
+    255
+  ],
+  "width": 15,
+  "textureType": LASER,
+  "textureScrollSpeed": 250,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "beem_loop"
+}

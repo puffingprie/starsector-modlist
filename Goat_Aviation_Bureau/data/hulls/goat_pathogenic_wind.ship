@@ -1,0 +1,318 @@
+{
+  "hullName": "pathogenic_wind",
+  "hullId": "goat_pathogenic_wind",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/goat/ships/Pathogenic_Wind/Pathogenic_Wind.png",
+  "style": "GOAT_TECH",
+  "height": 212,
+  "width": 108,
+  "center": [54, 67],
+  "collisionRadius": 108.5,
+  "shieldCenter": [-14, -0],
+  "shieldRadius": 98.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "goat_hullstyle",
+    "eccm",
+    "ecm",
+    "goat_oscillating",
+    "goat_compact_cabin"
+  ],
+  "builtInWings": [
+    "lpc_goat_lick_wing"
+  ],
+  "builtInWeapons": {
+    "WS0003": "blinker_goat_white",
+    "WS0004": "blinker_goat_white_fast",
+    "WS0005": "blinker_goat_white",
+    "WS0006": "goat_engine_longer",
+    "WS0007": "goat_engine_longer1",
+    "WS0008": "blinker_goat_green",
+    "WS0009": "goat_fire_smoke_ironpavilion",
+    "WS0010": "goat_breathing",
+    "WS0011": "goat_Pathogenic_Wind_1",
+    "WS0012": "blinker_goat_white",
+    "WS0013": "blinker_goat_white",
+    "WS0014": "blinker_goat_white",
+    "WS0015": "blinker_goat_white",
+    "WS0016": "blinker_goat_white",
+    "WS0017": "blinker_goat_white_fast",
+    "WS0018": "blinker_goat_white_fast",
+    "WS0019": "goat_fire_smoke",
+    "WS0020": "goat_fire_smoke",
+    "WS0021": "goat_fire_smoke_ironpavilion"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [23, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [5, -0],
+      "renderOrderMod": 60
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -108.5,
+      "locations": [-0.5, -44.5],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -153.5,
+      "locations": [-0.5, 44.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-64, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-64, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 113,
+      "locations": [-6.5, 13.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-45, 28]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-43, 25.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -35,
+      "locations": [78, -38.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 35,
+      "locations": [78, 40.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -35,
+      "locations": [88.5, -38.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 35,
+      "locations": [88.5, 40.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -35,
+      "locations": [98, -39.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 35,
+      "locations": [98, 41.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -35,
+      "locations": [144.5, -41.5]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 35,
+      "locations": [144.5, 43.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-16, -10]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [27, -0],
+      "renderOrderMod": 50
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 126.5,
+      "locations": [37, 29]
+    },
+    {
+      "id": "WS0020",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -126.5,
+      "locations": [37, -29]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [52, 22]
+    },
+    {
+      "id": "WS0021",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [52, -22]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21, 22],
+      "length": 33,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "GOAT_TECH_crystal_out"
+    },
+    {
+      "location": [-21, -22],
+      "length": 33,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "GOAT_TECH_crystal_out"
+    },
+    {
+      "location": [-23.5, 22],
+      "length": 80.044952,
+      "width": 9.603335,
+      "angle": 180,
+      "contrailSize": 9.603335,
+      "style": "GOAT_TECH_crystal"
+    },
+    {
+      "location": [-23.5, -22],
+      "length": 80.044952,
+      "width": 9.603335,
+      "angle": -180,
+      "contrailSize": 9.603335,
+      "style": "GOAT_TECH_crystal"
+    }
+  ],
+  "bounds": [
+    -51, 20,
+    -51, 25.5,
+    -58.5, 27.5,
+    -58.5, 37,
+    -42, 41.5,
+    -31.5, 55,
+    -20, 54.5,
+    6, 40,
+    6, 35,
+    40, 30,
+    40.5, 22,
+    34.5, 20.5,
+    33.5, 0,
+    16, -0.5,
+    10.5, -7.5,
+    2, -4,
+    -1, -13.5,
+    -9, -14.5,
+    -7, -19,
+    -27, -24,
+    -66.5, -8,
+    -66, 3.5,
+    -49, 7.5,
+    -45, 13
+  ]
+}

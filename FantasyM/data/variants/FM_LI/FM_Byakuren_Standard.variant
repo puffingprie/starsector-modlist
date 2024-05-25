@@ -1,0 +1,57 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 40,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "FM_Byakuren",
+    "hullMods": [
+        "converted_hangar",
+        "missleracks",
+        "targetingunit",
+        "FantasyBorderMod",
+        "hardenedshieldemitter",
+        "eccm"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Byakuren_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "annihilatorpod",
+                "WS0006": "annihilatorpod",
+                "WS0007": "annihilatorpod",
+                "WS0008": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "reaper",
+                "WS0018": "reaper"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "plasma",
+                "WS0010": "plasma"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "mininglaser",
+                "WS0013": "mininglaser",
+                "WS0014": "mininglaser",
+                "WS0015": "mininglaser"
+            }
+        }
+    ],
+    "wings": ["sarissa_wing"]
+}

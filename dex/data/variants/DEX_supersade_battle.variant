@@ -1,0 +1,33 @@
+{
+  "variantId": "DEX_supersade_battle",
+  "hullId": "DEX_supersade",
+  "displayName": "Battle",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun",
+        "WS0002": "sabotpod",
+        "WS0003": "lightdualac",
+        "WS0004": "lightdualac",
+        "WS0005": "lightag",
+        "WS0006": "lightag",
+        "WS0007": "sabot",
+        "WS0008": "harpoon_single",
+        "WS0009": "harpoon_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

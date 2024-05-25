@@ -1,0 +1,22 @@
+{
+    "displayName": "Derelict",
+    "fluxCapacitors": 0,
+    "fluxVents": 30,
+    "hullId": "goat_TOWER",
+    "hullMods": ["fluxdistributor"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_TOWER_Assault",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "goat_pdlr",
+            "WS0002": "goat_pdlr",
+            "WS0005": "goat_pdlr",
+            "WS0006": "goat_pdlr",
+            "WS0007": "goat_pdlr"
+        }
+    }],
+    "wings": []
+}

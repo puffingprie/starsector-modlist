@@ -1,0 +1,24 @@
+{
+  "variantId": "DEX_pallisade_p_assault",
+  "hullId": "DEX_pallisade_p",
+  "displayName": "Assault\r",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "breach",
+        "WS0002": "heavyac",
+        "WS0003": "lightag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

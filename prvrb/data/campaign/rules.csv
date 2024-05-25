@@ -1,0 +1,121 @@
+id,trigger,conditions,script,text,options,notes
+# relationship level descriptions,,,,,,
+# RUST BELT,,,,,,
+relLevelCooperativeRusters,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == rb",FireAll RelLevelMoreDescription,"You're familiar to some of the movers and shakers of the Great Belt Alliance, and there is talk of extending the membership charter to include your fleet.",,
+relLevelFriendlyRusters,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == rb",FireAll RelLevelMoreDescription,"A dear friend of fringe spacers, you find yourself greeted warmly in any Ruster port, and you rarely need to pay for your own drinks.",,
+relLevelWelcomingRusters,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == rb",FireAll RelLevelMoreDescription,"You've gained a measure of notoriety among the major syndicates, and know who to bribe and whom to bully to get what you want.",,
+relLevelFavorableRusters,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == rb",FireAll RelLevelMoreDescription,"You've been around belt salvors, smugglers, syndicate enforcers and other types of Rusters often enough, and know how to act so they see you as one of their own.",,
+relLevelNeutralRusters,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == rb",FireAll RelLevelMoreDescription,"At ease with life in the belts, you’ve learned enough about Ruster habits to pass unnoticed as you go about your business.",,
+relLevelSuspiciousRusters,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == rb",FireAll RelLevelMoreDescription,"While still considered an outsider, Rusters understand that you’re not as bad as most core-dwellers.",,
+relLevelInhospitableRusters,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == rb",FireAll RelLevelMoreDescription,"Rusters immediately figure you for an outsider and are unlikely to offer you much hospitality. As long as you’re discrete your credits are still welcome, however.",,
+relLevelHostileRusters,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == rb",FireAll RelLevelMoreDescription,"You’ve left a mark on the GBA, who in turn have put a mark on your head. Rusters consider you an enemy and are likely to attack you on sight.",,
+relLevelVengefulRusters,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == rb",FireAll RelLevelMoreDescription,"Worse than even the prv, Rusters curse your name for your countless crimes against their life and liberty and will go out of their way to cause you the slightest bit of harm.",,
+,,,,,,
+,,,,,,
+# RB COMMISSION,,,,,,
+CMSNTextRejectHostile_rb,CMSNTextRejectHostile,$faction.id == rb,,"""How about you come over here and ask that again face to face? I’ll show you how Rusters deal with your kind.""",,
+CMSNTextHasOther_rb,CMSNTextHasOther,$faction.id == rb,,"""I don’t even want to talk to you while you work for $theOtherCommissionFaction, throw off those shackles and maybe we can do business.""",,
+CMSNTextUnsuited_rb,CMSNTextUnsuited,$faction.id == rb,,"""I’m all business, and you kid? You’re a liability. Tighten up your ship and maybe we can come to an agreement.""",,
+CMSNTextSuitedPart1_rb,CMSNTextSuitedPart1,$faction.id == rb,,"""Oh yeah I’ve heard of you, you’re alright kid. Yeah I can set you up with a commission - are you ready to become a true spacer?
+
+I hope you don’t like your transponder, because you won’t be welcome in many ports while you’re sending out a Great Belt Alliance IFF. In fact many state thugs will shoot you on sight.
+
+If this should be too much for you, you could always resign the commission, though certainly most old boots would be less than impressed by such a thing.""",,
+CMSNTextSuitedPart2_rb,CMSNTextSuitedPart2,$faction.id == rb,,"""Can you hack it, kid? I offer you rust, rock, peril, persecution - and freedom and fellowship.""",,
+CMSNTextWelcomePart1_rb,CMSNTextWelcomePart1,$faction.id == rb,,"""Good choice! Welcome to the Great Belt Alliance, fellow traveller.""",,
+CMSNTextWelcomePart2_rb,CMSNTextWelcomePart2,$faction.id == rb,,"""Your union dues will be automatically subtracted from your stipend, and I’ll be sending a rep over to help you get your crew handling up to regulations - no, don’t worry too much about it, he’ll respond well to a modest contribution to the widows’ fund.""",,
+CMSNTextChangeMind_rb,CMSNTextChangeMind,$faction.id == rb,,"""The life’s not for everyone. Should you find yourself with a thirst for freedom, do come back here. Door’s open for any decent man.
+
+Anything else?""",,
+CMSNResignAskToConfirm_rb,CMSNResignAskToConfirm,$faction.id == rb,,"""I thought you were better than that, kid. But, if you can’t hack it I suppose it’s best that you leave. Are you sure?""",,
+CMSNResignConfirmed_rb,CMSNResignConfirmed,$faction.id == rb,,"""Ok, I’ve removed you from the rolls. You’re on your own now - I hope you haven’t made too many enemies lately. Stay alive, friend.""",,
+CMSNResignCancelled_rb,CMSNResignCancelled,$faction.id == rb,,"""That’s right, tough it out. We’re all gonna make it.""",,
+,,,,,,
+# AI CORES,,,,,,
+aiCores_turnInOptionSell_rb,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == rb",FireAll PopulateCoresTurnInOptions,"""Oh you managed to dredge up a core? Not too many of those around. I’ll set you up with the finder’s fee. Well done, friend.""",,
+aiCores_turnInResponse_rb,AICoresTurnedIn,$faction.id == rb,FireAll PopulateOptions,"$personName smiles heartily and taps on his terminal a few times. ""I’ve got a retrieval team heading over right now. It’s been a pleasure, $firstName.""",,
+,,,,,,
+bar_desc_rb,BarPrintDesc,$faction.id == rb,ShowImageVisual pirate_bar,"Large booths line the walls, most underneath the banner of some particular syndicate crew or union department. The locals sit in groups which largely keep to themselves, some glum, others cheerful, all according to how well business has been going lately. In the poorly-lit back intimidating figures eye all newcomers, but do little more than sneer. A self-serve beer tap seems to attract the majority of the business, with the youngest member at each table being responsible for service. More transient guests drink at the bar, under the dour eye of the proprietor.",,
+,,,,,,
+# GREETINGS,,,,,,
+# Ruster fleet greeting lines,,,,,,
+greetingRusterFriendly,OpenCommLink,"$faction.id == rb
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Good to see you, buddy. Found anything interesting?""
+OR
+""ID received and acknowledged, friend. Burn bright.""
+OR
+""Hey take a shuttle over if you’ve got time, I’ve got a bottle from Eventide and I need an excuse to open it.""
+OR
+""Comm open. Seen anything spooky, captain?""
+OR
+""I’ve seen some strange blips lately. Be careful, kid.""
+OR
+""Transponder on today, eh? You be careful out there.""",,
+greetingRusterHostileWeaker,OpenCommLink,"$faction.id == rb
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""Let’s just try to get along now, what do you say? Live and let live?"" The $personRank looks more than a little worried.
+OR
+""Well shit, you got me. Hey, how about you let me go? No need to get your fine ships scratched now.""",,
+greetingRusterHostileWeakerDefiant,OpenCommLink,"$faction.id == rb
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""I’m just the bait, you better get out of here while you still can."" You can’t tell if the $personRank believes what $HeOrShe is saying.
+OR
+""My crew, they’re good boys. They’ll put up one hell of a fight if I ask. Please, don’t hold it against them."" The Ruster looks defiant and despondent in equal measure.",,
+greetingRusterHostileStronger,OpenCommLink,"$faction.id == rb
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""I will be taking your fleet as a prize. Your cooperation would be appreciated, but is not neccessary.""
+OR
+""Do you have any idea how large the bounty on your fleet is? You must have been very busy to make this many enemies.""
+OR
+""Fe & Ox will pay good money for your hulls. Nothing personal, buddy.""
+OR
+""This is for free spacers everywhere!""
+OR
+The commlink is filled with a low-quality holo-vid of what you believe to be a recent hit record from Fikenhild.",,
+greetingRusterNeutral,OpenCommLink,"$faction.id == rb
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""I see you. Let’s just keep our distance and go about our own business, shall we?""
+OR
+""Greetings, stranger. Good salvage in these parts.""
+OR
+The Ruster $personRank answers your hail with a curt ""Yes?""",,
+,,,,,,
+,,,,,,
+# Trade panel flavor text,,,,,,
+flavorTextMarketRBSmall,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == rb","AddText ""The port concourse is filled with industrial starcraft of every size. There is a marked lack of the usual speculators, and instead of the sussurations of impromptu trade the air is filled with the acrid smell of chemthruster exhaust and the occasional rattle of metal as salvage loads are shifted."" marketFlavorTextColor
+AddText ""The back wall of the concourse has a terraced plantation of various oxygrasses. Aside from the dockworkers it is the only thing you can see that is not made out of plastic or metal."" marketFlavorTextColor",,,
+flavorTextMarketRBLarge,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == rb
+$marketSize >= 5 score: 25","AddText ""The port concourse is filled with starcraft of every size, mercantile, industrial, even a few warships. There is a marked lack of the usual speculators, and instead of the sussurations of impromptu trade the air is filled with the acrid smell of chemthruster exhaust and the clanging of metal striking against metal as heavy salvage loads are shifted."" marketFlavorTextColor
+AddText ""A squad of grizzled dock workers start hooking your ship up to the local amenities with the routine of men who have done this a thousand times before."" marketFlavorTextColor",,,
+flavorTextMarketRBUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == rb
+$stability < 4","AddText ""The port concourse contains a few ships, mostly run down industrial craft. There is a marked lack of the usual speculators, and instead of the sussurations of impromptu trade the air is filled with the acrid smell of chemthruster exhaust and the clanging of metal striking against metal as salvage loads are shifted."" marketFlavorTextColor
+AddText ""A group of youths, most barely teens, crowd you for a moment, asking for work and trying to offer you all kinds of services before your guards shoo them off."" marketFlavorTextColor",,,
+flavorTextMarketRBSneak,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == rb
+$player.transponderOn == false
+$faction.relValue <= -0.25 score: 50","AddText ""Your adjutant has arranged docking permission at, of all things, a local pirate syndicate, whose dockyard is a busy mess of smaller vessels undergoing repairs and refits in the shadow of a larger ship of a class you can’t quite recognize."" marketFlavorTextColor
+AddText ""From a patio a motley crew of pirates watch you with the lazy restraint of a resting pride, with CP-carbines and heavier armaments strewn about but not hefted. Your bodyguards meet this examination with a somewhat uneasy swagger."" marketFlavorTextColor",,,
+,,,,,,
+greetingDefaultTOffNormalRb,OpenCommLink,"!$player.transponderOn
+$faction.id == rb
+$entity.relativeStrength >= 0",,"$PersonRank $personName looks unconcerned. ""Gonna need your callsign, chief. Flip on that transponder.""","turnOnTransponder:Turn your transponder on
+cutCommLink:Cut the comm link",
+greetingDefaultTOffWeakerRb,OpenCommLink,"!$player.transponderOn
+$faction.id == rb
+$entity.relativeStrength < 0",,"$PersonRank $personName looks glum. ""Activate your transponder so I know who I’m dealing with.""","turnOnTransponder:Turn your transponder on
+cutCommLink:Cut the comm link",

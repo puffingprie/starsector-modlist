@@ -1,0 +1,103 @@
+{
+  "hullName": "Gaia Rightbay",
+  "hullId": "sa_gaia_rightbay",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/gaia/sa_gaia_bayright.png",
+  "style": "LOW_TECH",
+  "height": 193,
+  "width": 138,
+  "center": [21.5, 96.5],
+  "collisionRadius": 102.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 100,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sa_refined_targeting_core",
+    "reduced_explosion",
+    "always_detaches"
+  ],
+
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -25.5, -7.5,
+        -22, -9,
+        -18, -9,
+        -29, -9,
+        -32, -9
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -44, -14.5,
+        -39, -14.5,
+        -50, -14.5,
+        -41.5, -14.5,
+        -46.5, -14.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 143,
+      "angle": -57,
+      "locations": [65.5, -38.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 143,
+      "angle": -57,
+      "locations": [49.5, -56.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 143,
+      "angle": -78.5,
+      "locations": [29.5, -60.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -90,
+      "locations": [0.5, -82.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -84.5, -22.5,
+    -64.5, -52.5,
+    -2.5, -91.5,
+    18.5, -71.5,
+    72.5, -55.5,
+    88.5, -33.5,
+    90.5, -20.5,
+    40.5, -18.5,
+    33.5, -4.5,
+    18.5, -4,
+    18.5, -0.5,
+    -42.5, -0.5
+  ]
+}

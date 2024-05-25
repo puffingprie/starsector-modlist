@@ -1,0 +1,204 @@
+{
+  "hullName": "Castle Side Right",
+  "hullId": "DEX_castlesideR",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/DEX_castlesideR.png",
+  "style": "LOW_TECH",
+  "height": 320,
+  "width": 152,
+  "center": [63.5, 161.5],
+  "collisionRadius": 200.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 177.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hbi",
+    "always_detaches",
+    "reduced_explosion",
+    "heavyarmor",
+    "rugged",
+    "advancedcore",
+    "missleracks"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -120,
+      "locations": [74.5, -74.5]
+    },
+    {
+      "id": "WS 015",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 300,
+      "angle": 0,
+      "locations": [
+        -30.5, -45.5,
+        -107.5, -30.5,
+        -123.5, -68.5,
+        -17.5, -32.5
+      ]
+    },
+    {
+      "id": "WS 016",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 300,
+      "angle": 0,
+      "locations": [
+        -120.5, -21.5,
+        -40.5, -33.5,
+        4.5, -57.5,
+        -18.5, -57.5
+      ]
+    },
+    {
+      "id": "WS 017",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 300,
+      "angle": 0,
+      "locations": [
+        -108.5, -64.5,
+        -121.5, -34.5,
+        -7.5, -44.5,
+        -46.5, -53.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -90,
+      "locations": [-41.5, -61.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -89,
+      "locations": [23.5, -81.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -90,
+      "locations": [39.5, -81.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 50,
+      "angle": 0,
+      "locations": [126.5, -80.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 50,
+      "angle": 0,
+      "locations": [126.5, -66.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [154.5, -6.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 50,
+      "angle": 0,
+      "locations": [136.5, -49.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -64.5,
+      "locations": [30.5, 7.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-151, -37],
+      "length": 64,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-152, 23.5],
+      "length": 64,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-157, -7.5],
+      "length": 108,
+      "width": 53,
+      "angle": 180,
+      "contrailSize": 53,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -157.5, 11,
+    -157.5, -23.5,
+    -153, -44,
+    -114.5, -57.5,
+    -54, -57.5,
+    -52.5, -68.5,
+    -17.5, -67.5,
+    -2.5, -76,
+    18, -75,
+    20, -87.5,
+    52.5, -86.5,
+    54.5, -76,
+    70.5, -75.5,
+    80, -88.5,
+    133.5, -89,
+    134.5, -60.5,
+    147, -58,
+    147, -41,
+    130, -40,
+    137.5, -17,
+    165, -16,
+    164.5, 3.5,
+    107.5, 5.5,
+    106.5, 59,
+    -19, 62.5,
+    -66.5, 62.5,
+    -103.5, 57,
+    -151, 37
+  ]
+}

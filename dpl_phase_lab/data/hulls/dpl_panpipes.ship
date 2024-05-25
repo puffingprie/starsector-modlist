@@ -1,0 +1,171 @@
+{
+  "hullName": "Panpipes",
+  "hullId": "dpl_panpipes",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/phase/dpl_panpipes.png",
+  "style": "HIGH_TECH",
+  "height": 196,
+  "width": 116,
+  "center": [58, 89.5],
+  "collisionRadius": 170,
+  "shieldCenter": [0, 0.5],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInMods": [
+    "delicate",
+    "phasefield",
+    "dpl_integratedcoils"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [94, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [94, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [94, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-25, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-84, 50.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-84, -50.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-86.5, 40],
+      "length": 77.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-86.5, -40],
+      "length": 77.5,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-86.5, 22.5],
+      "length": 72,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-86.5, -22.5],
+      "length": 72,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-88, 12],
+      "length": 81,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-88, -12],
+      "length": 81,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-86.5, 4.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-86.5, -4.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-85, 30.5],
+      "length": 35.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-85, -30.5],
+      "length": 35.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    105, -26,
+    80.5, -46,
+    38.5, -48,
+    6.5, -57,
+    -47, -58,
+    -81.5, -57.5,
+    -90, -21.5,
+    -90, 21.5,
+    -81.5, 57.5,
+    -47, 58,
+    6.5, 57,
+    38.5, 48,
+    80.5, 46,
+    105, 26
+  ]
+}

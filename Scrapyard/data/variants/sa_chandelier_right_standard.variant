@@ -1,0 +1,41 @@
+{
+  "variantId": "sa_chandelier_right_standard",
+  "hullId": "sa_chandelier_right",
+  "displayName": "Right Wing",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "phasebeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pdburst",
+        "WS0004": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "claw_wing"
+  ]
+}

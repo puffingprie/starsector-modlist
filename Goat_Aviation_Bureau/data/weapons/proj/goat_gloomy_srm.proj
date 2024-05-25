@@ -1,0 +1,44 @@
+{
+	"id":"goat_gloomy_srm",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/goat/missiles/goat_gloomy_srm.png",
+	"size":[4,14],	
+	"center":[2,7],
+	"collisionRadius":12,
+	
+	"hitGlowRadius":50,
+	
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":40, # purely visual
+	
+	"engineSpec":{"turnAcc":1720,
+				  "turnRate":440,
+				  "acc":2500,
+				  "dec":2500},			
+				  
+	"engineSlots":[{"id":"GOAT_TECH_light",
+					"loc":[-7, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[182,061,24,255],
+						"contrailDuration":0.5,
+						"contrailWidthMult":0.5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.1f,
+						"contrailSpawnDistMult":0.1, # how far away from engine it starts
+						"contrailColor":[160,50,50,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":9.0,
+				    "length":45.0,
+				    "angle":180.0},
+					
+					],
+						
+}

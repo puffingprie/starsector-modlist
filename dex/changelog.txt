@@ -1,0 +1,103 @@
+Version 0.0.11-
+-Slight buff to the Celestial's speed and flux capacity, should keep up with other remnant ships now
+-Added automated ship and rugged tags to several Derelicts that were lacking it
+-Fixed the Poltergeist having more armor than the Onslaught
+-Severely reduced the frequency of Lunar, and most mutant drone spawns
+-Significantly reduced spawns of Pirate Derelicts
+-Increased DP cost of the Rampart(P), fortress shields shouldn't come that cheap
+-Removed the non-functional borer wing from the Trojan
+-Half-assed unfinished integration with HMI and SOTF
+
+Version 0.0.12
+-Decimator nerfed, large mounts are no longer composites. I am sorry for ruining your fun, but it has now been moved to the pseudo-capital spawnlist to compensate.
+-Marche removed from normal spawnlists for now, felt underpowered and not particularly distinctive
+-Fixed a capitalization error that caused crashes on Linex
+-Forts and Decimators will no longer appear in Cryosleeper encounters, no more easy fights.
+-The Silo(P) has been sigificantly reworked, it should now be a bit more balanced and significantly less ugly.
+-The Berserker(P) is probably more ugly, but a lot less undercosted now. It has had its' ill-gotten fighter bay taken away and isn't allowed to go 'oops all missiles' anymore (what was I thinking with this anyway???)
+-The Stockpile(P) is also significantly less ugly now.
+-Changed name of Poltergeist to Ghost.
+-Disabled Derelict Pirate Bases for the time being, ATDD+ does this better anyway, may re-activate later when there is an appropriate station for them to use
+-Fixed several ships who's mounts became misaligned.
+-Catapult's DP was raised by 1, this is more significant than it sounds.
+-Arsenal should hopefully no longer be in the pool for the Indevo BP lotteries
+-Changed shield efficiency on Dreadnought from 1 to .8, this is a massive buff I swear
+-Added another gun to the Bore, it is uglier but should be modestly less of a meme now.
+-Reduced the angle on the Lunar's rearmost set of large guns, it can no longer converge all six of its weapons at once, and its' system was changed from temporal shell to plasma jets. It is no longer a press button to win ship hopefully.
+
+-Partial implimentation of HMI integration. This was delayed due to a desire to get above changes out, sorry.
+
+-Began work on a small submod containing SOTF-based content. This technically does not (currently) require DEX as a prerequisite, but it does require SOTF. This is not yet avalible because as of right now it is litterally just one ship of dubious quality.
+
+Version 0.0.13
+-Compatability for Version .96
+-1 (one) new ship: the Redstone, an Orion Drive-powered explorer with a suspiciously good armiment.
+-Decimator now uses LIDAR instead of Accelerated Ammo Feeder.
+-Catapult now uses LIDAR instead of Accelerated Ammo Feeder.
+-Several capital/boss ships now have special defensive systems
+
+Version 0.0.14
+-WARNING PROBABLY NOT SAVE COMAPTIBLE IF YOU HAVE DERELICTS IN YOUR FLEET
+-Reworked the Redstone, less gun but now the guns are less awkard.
+-Experimental changes with the Castle, now uses Extended Missile Racks instead of Autoforge. This will probably be eventually replaced with a custom hullmod.
+-Reworked the Arsenal, it is now a three-part modular ship, and should hopefully hit hard enough to justify its' DP.
+-Reworked the Trepart, less gun but its hopefully much more interesting now
+-Guardsman now has Manuvering rather than Plasma jets, as originally intended. The same has been done with the Pallisade and Fullisade. Oops.
+-Reduced attack range on the Legionary and Spartan, which should hopefully make the AI more able to deal with them.
+-Reduced spawn frequency for the Derelict (P) hulls, also reduced shield efficiency for the lot of them to 1 instead of .8. More nerfs may follow.
+-Fixed a variety of oversights with the Derelict(P) hulls that should generally resolve their more egregious absurdities.
+-Added a new Derelict (P) hull (yaaay), a hacked capital-scale Battlement equipped with high-tech energy weapons and a powerful energy shield.
+-Lowered spawn frequency of the Torus, it should now be the unicorn hull it was meant to be instead of a regular annoyance.
+-Removed a significant number of composite mounts from many hulls, these are now ballistic mounts. Should reduce the amount of missile spam derelicts bring to fights.
+-Reduced defensive stats of the Dreadnought somewhat across the board, should be more in-line with its' prototype status now instead of just 'onslaught but better'
+-Retouched the sprites on most of the carriers, the last of the Explorarium's lightbulbs burnt out, so all the bays are pitch-black now.
+-Dummied out the Remnant BP. It was never really within this mod's scope, and Nex provides a similar utility. This can be undone by simply uncommenting the BP in sepcial_items.csv
+-Removed the Arsenal, Castle, Guardian and Survey Mothership from the Derelict BP. This uses a few vanilla overwrites to work, and may disrupt some spawning mechanics. Please report if any issues appear.
+-Since ATDD+ has not been updated to .96, the still very much placeholder 'Derelict Base" mechanic has been re-enabled, just as before, this can be disabled by simply changing "makesPirateBases" from "true" to "false" in the derelict faction file.
+
+Version 0.0.14c
+-The majority of sprites have been swept for floaters. Please report any floaters you discover in your playthroughs.
+-An error in the variant file for the Redstone's bow plate has been corrected, preventing crashes when mousing over the ship.
+-Capitalization errors that caused crashes on Linuex have been fixed (hopefully).
+
+Version 0.0.14d
+-Fixed a missing weapon slot on the Tartar that caused crashes for some users.
+
+Version 0.0.14e
+-Nerfs to the cost, DP, monthly mantinence, and cargo space of Pirate derelicts, in an effort to bring them more in line with vanilla non-AI ships of similar capability. These are mostly experimental changes In Persuit Of A More Perfect Balance, please report any balance considerations you have.
+
+Verison 0.0.15- Christmas Update
+-Added the Viaduct drone, a massive capital-scale fuel tanker meant to keep massive superships flying over extreme distances. Found extremely rarely in derelict fleets, and infrequently stolen by independents and scavengers.
+-Reimplemented the Marche drone, a frigate with big dreams of being a heavy destroyer. Packs a major punch and can show up even in light derelict fleets, look out!
+-Added the new Blockade drone, a tough destroyer that is effectively an upscaling of the same 'flying armor plate' concept seen in the Barrier
+-Fixed several mounts on the Arsenal being considered hardpoints despite... not being hardpoints.
+-Fixed missing hullmods on the Bore (I swear I did this one before)
+-Buffed the Decimator, it now has enough flux capacity and dissapation to fire most weapons it can be fitted with almost continuously, making it far more formidable
+-Added the Galaxia, a massive transport ship that was used to carry tens of thousands of colonists to the Sector before the collapse, but was all but erased from history due to the unpleasant political implications it created for Domain successors. Found in similar circumstances as the Viaduct.
+-Added the Antephaylax, an exotic experimental drone designed to counter early phase ships. It's dangerous to more than just phase ships, be careful!
+
+Version 0.0.16- Gaze Into The Abyss
+-These change notes are reconstructed as the originals were lost, keep that in mind if you find undocumented features.
+-Compatability with version 0.97 of Starsector
+-Updated the sprite of the Fort
+-Updated the sprite of most Mutant drones, less kitbash, more trash.
+-Added the Evergreen, a massive megafreighter found in similar circumstances to other super-supply ships.
+-Added Heavy Ballistic Integration to the Battlement, a small band-aid to help it with its' OP problems
+-Reworked the Berserker 2, now with added support missiles.
+-Reworked the Bersillion, now with heavy ballistic capability.
+-Added the Penitent, a Pather-modified Redstone with a taste for triple hammer barrages.
+
+Version 0.0.17- Fair and Balanced
+-Added the Wendigo, an unhinged AI-controlled phase ship based on the Grendel.
+-Reworked the Barracks, now with a dramatically updated sprite, and large missile capability. The DP is now higher, to more accurately represent the ship's value.
+-Raised the DP of the Viaduct, Evergreen and Galaxia to more accurately represent their combat power. Also reduced the likelyhood of these ships to appear in an independent fleet significantly.
+-Increased the armor of the Battlement, Trepart and Dreadnought, to give them more survivability.
+-Significantly reduced the base speed of the Redstone (to 55) and the Penance (to 45) in an effort to cut down on the number of capital ships wiped out by hyper-effective torpedo ram manuvers, also made the core module of both ships significantly less armored to encourage daring flanks around the armored prow. Also removed the Redstone from the Guardian encounter spawn list.
+-Raised the DP of the Silo to 18, reduced hull HP to 7000 (was 8500), armor to 600 (was 675) and speed to 45 (was 65). All in an effort to put this monster back in its' intended role as a support ship.
+-The Barracks(P) has recieved an update to mirror its' source hull.
+-The Pallisade(P) has FINALLY had it's phase coil fixed. You will never belive what the issue was.
+
+Version 0.0.17.1- Fairer and More Balanced
+-Changed the ship-system of the Homestead from Reserve Deployment to Active Flares. No ship this cheap should be able to pull that many fighters from its' ass.
+-Reworked the Siegetower, with a new updated sprite, better weapon mounts, and with a DP more befitting of a cruiser of its' status.
+-Fixed an issue with certain high-end ships having free-spawning BPs. As these ships were never intended to have BPs at all, this has been fixed. No more [CLASSIFIED] in patrol fleets.

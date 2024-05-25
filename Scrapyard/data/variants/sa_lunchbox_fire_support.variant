@@ -1,0 +1,51 @@
+{
+  "variantId": "sa_lunchbox_fire_support",
+  "hullId": "sa_lunchbox",
+  "displayName": "Fire Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sa_rhino"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "railgun",
+        "WS0002": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "lightmg",
+        "WS0011": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "longbow_wing",
+    "longbow_wing",
+    "warthog_wing"
+  ]
+}

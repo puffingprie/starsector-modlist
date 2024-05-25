@@ -1,0 +1,48 @@
+{
+  "id": "all_goat_lash_s",
+  "specClass": "projectile",
+  "projectileSpecId": "goat_lash_ass",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 200,
+  "turretSprite": "graphics/goat/weapons/ballistic/goat_lash_s/goat_lash_s.png",
+  #"turretGunSprite": "graphics/goat/weapons/ballistic/goat_lash/goat_lash_turret_recoi.png",
+  "hardpointSprite": "graphics/goat/weapons/ballistic/goat_lash_s/goat_lash_s.png",
+  #"hardpointGunSprite": "graphics/goat/weapons/ballistic/goat_lash/goat_lash_hardpoint_recoi.png",
+  #"visualRecoil": 10,
+  #"renderHints": [
+  #  #RENDER_BARREL_BELOW
+  #],
+  "turretOffsets": [
+    10.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    14,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 25,
+    "spread": 8,
+    "particleSizeMin": 5,
+    "particleSizeRange": 20,
+    "particleDuration": 0.75,
+    "particleCount": 8,
+    "particleColor": [
+      255,
+      120,
+      50,
+      205
+    ]
+  },
+   "fireSoundTwo": "all_goat_lash_fire1"
+}

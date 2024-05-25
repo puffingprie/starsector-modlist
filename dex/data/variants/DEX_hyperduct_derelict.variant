@@ -1,0 +1,78 @@
+{
+  "variantId": "DEX_hyperduct_derelict",
+  "hullId": "DEX_hyperduct",
+  "displayName": "Derelict",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 43,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "converted_fighterbay"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator",
+        "WS0002": "devastator",
+        "WS0008": "lightmg",
+        "WS0009": "lightmg",
+        "WS0011": "gazerpod",
+        "WS0026": "lightmg",
+        "WS0027": "lightmg",
+        "WS0028": "lightmg",
+        "WS0029": "lightmg",
+        "WS0030": "lightmg",
+        "WS0031": "lightmg",
+        "WS0032": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "dualflak",
+        "WS0004": "dualflak",
+        "WS0005": "dualflak",
+        "WS0006": "dualflak",
+        "WS0007": "heavymg",
+        "WS0010": "heavymg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "gazerpod",
+        "WS0013": "gazerpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "swarmer",
+        "WS0015": "swarmer",
+        "WS0016": "swarmer_fighter",
+        "WS0017": "swarmer_fighter",
+        "WS0018": "swarmer_fighter",
+        "WS0019": "swarmer_fighter",
+        "WS0020": "swarmer_fighter",
+        "WS0021": "swarmer_fighter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0022": "gazerpod",
+        "WS0023": "gazerpod",
+        "WS0024": "gazerpod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

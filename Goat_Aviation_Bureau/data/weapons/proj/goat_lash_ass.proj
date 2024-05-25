@@ -1,0 +1,46 @@
+{
+	"id":"goat_lash_ass",
+	"specClass":"projectile",
+	
+	"spawnType":"BALLISTIC",
+	
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	
+	"onFireEffect": "data.scripts.weapons.goat_LashOnFireEffect",
+	
+	"length":11.0,
+	
+	"hitGlowRadius":50,
+	
+	"width":4.0,
+	"fadeTime":0.3,
+	
+	"fringeColor":[228,140,46,205],
+	"coreColor":[228,140,46,205],
+	"glowColor":[251,255,156,120],
+	
+	"glowRadius":9,
+	
+	"textureScrollSpeed":4.0,
+	"pixelsPerTexel":1.0,
+	
+	"bulletSprite":"graphics/goat/missiles/goat_lash_ass.png",
+	
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"shotRangeVariance":0.5,
+					"range":1,
+					"explosionSpec":{"duration":0.12f,
+									 "radius":55,
+									 "coreRadius":45, 
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":2.0,
+									 "particleSizeRange":4.0,
+									 "particleDuration":2,
+									 "particleCount":10,
+									 "particleColor":[160,61,34,100],
+									 "explosionColor":[228,140,46,60],
+									 "sound":"devastator_explosion"},
+					},
+}

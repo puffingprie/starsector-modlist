@@ -1,0 +1,31 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "goat_redaugust",
+    "hullMods": [
+        "missleracks",
+        "heavyarmor",
+        "shield_shunt"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_redaugust_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "all_goat_heavyfist"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "all_goat_gloomy_s",
+                "WS0018": "all_goat_gloomy_s",
+                "WS0019": "all_goat_gloomy_s",
+                "WS0023": "all_goat_gloomy_s"
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "sa_rhino",
+  "specClass": "projectile",
+  "projectileSpecId": "hellbore_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/sa_rhino_turret.png",
+  "hardpointSprite": "graphics/weapons/sa_rhino_hardpoint.png",
+  "turretOffsets": [
+    43,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    49,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 20,
+    "particleSizeRange": 30,
+    "cloudParticleCount": 10,
+    "cloudDuration": 1,
+    "cloudRadius": 30,
+    "blowbackParticleCount": 10,
+    "blowbackDuration": 2,
+    "blowbackLength": 10,
+    "blowbackSpread": 10,
+    "particleColor": [
+      85,
+      90,
+      80,
+      245
+    ]
+  },
+  "fireSoundTwo": "shaker_fire"
+}

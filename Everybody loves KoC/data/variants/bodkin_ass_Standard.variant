@@ -1,0 +1,32 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 16,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "bodkin_ass",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "bodkin_ass_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "heavyburst"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "xpulse",
+                "WS0002": "xpulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "madmaiden"}
+        }
+    ],
+    "wings": ["4m_pulse_wing"]
+}

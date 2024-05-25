@@ -1,0 +1,17 @@
+{
+	"id":"cmutils",
+	"name":"Combat Misc Utils",
+	"author":"tomatopaste",
+	"version":"0.4.1",
+	"description":"Collection of miscellaneous utilities for combat modding.",
+	"gameVersion":"0.97a-RC7",
+	"modPlugin":"cmu.ModPlugin",
+	"jars": ["jars/CMUtils.jar"],
+	"utility": true,
+	"dependencies": [
+		{
+			"id": "lw_lazylib",
+			"name": "LazyLib",
+		},
+	]
+}

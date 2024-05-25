@@ -1,0 +1,28 @@
+{
+  "variantId": "DEX_fighterwarden_variant",
+  "hullId": "DEX_fighterwarden",
+  "displayName": "Defense",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "chaingun",
+        "WS 002": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

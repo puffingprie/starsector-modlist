@@ -1,0 +1,61 @@
+{
+  "hullName": "Agolo",
+  "hullId": "dpl_agolo_I",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/dpl_agolo_I.png",
+  "style": "HIGH_TECH",
+  "height": 43,
+  "width": 24,
+  "center": [12, 12],
+  "collisionRadius": 40,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 37,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0001": "dpl_phase_pdair"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [19, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10.5, 6.5],
+      "length": 16.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-10.5, -6.5],
+      "length": 16.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    22.5, -4.5,
+    14, -5,
+    4.5, -12.5,
+    1, -12.5,
+    -11, -8.5,
+    -11, 8.5,
+    1, 12.5,
+    4.5, 12.5,
+    14, 5,
+    22.5, 4.5
+  ]
+}

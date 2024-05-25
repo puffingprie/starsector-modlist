@@ -1,0 +1,164 @@
+{
+  "hullName": "Tenoroon",
+  "hullId": "dpl_tenoroon",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/phase/dpl_tenoroon.png",
+  "style": "HIGH_TECH",
+  "height": 238,
+  "width": 116,
+  "center": [58, 119],
+  "collisionRadius": 170,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInMods": [
+    "delicate",
+    "phasefield",
+    "dpl_integratedcoils"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-7, 35]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-7, -35]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [101, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-113.5, 50.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-113.5, -50.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-116, 40],
+      "length": 77.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-116, -40],
+      "length": 77.5,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-116, 22.5],
+      "length": 72,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-116, -22.5],
+      "length": 72,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-117.5, 12],
+      "length": 81,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-117.5, -12],
+      "length": 81,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-116, 4.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-116, -4.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-114.5, 30.5],
+      "length": 35.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-114.5, -30.5],
+      "length": 35.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    113.5, -19.5,
+    75.5, -26,
+    51, -46,
+    9, -48,
+    -23, -57,
+    -76.5, -58,
+    -111, -57.5,
+    -119.5, -21.5,
+    -119.5, 21.5,
+    -111, 57.5,
+    -76.5, 58,
+    -23, 57,
+    9, 48,
+    51, 46,
+    75.5, 26,
+    113.5, 19.5
+  ]
+}

@@ -1,0 +1,461 @@
+2023 12 30
+#content
+redid modular hullmod sprites and effects
+
+#bugfixes & optimizations
+added the missing small slot sprites to the Falcon/Eagle(GP)
+
+#balance adjustments
+Dazzle MRM Pod ammo 7->13
+Shattercannon base range 500>600
+
+
+2023 12 5
+Hullmods reworked, moved smod bonuses to regular
+
+2023 12 3
+#Content changes
+Goatbell renamed to Flametongue
+#bugfixes and optimizations
+fixed the issue that the Grandeur cannot install Converted Hangar
+fixed the issue where Pressurized Thrusters had double effect.
+fixed the bug that the medium Gloom's submunitions last too long.
+#balancing adjustments
+Missiles have been adjusted to be more realistic
+Hellgiver Torpedo Launcher: dph 6000>6660, burst size 3>2, HP 666>66
+Powerfist Autocannon: dph 100>130, dps 200>130, turn speed reduced
+
+Illwind: DP 6>9
+Hurdle: top speed 300>100, burn speed 12>15
+Butcherbird: DP 3>6, monthly supply cost different
+Drunkard: Armor 1100>700, reduced maneuverability
+Shadowcast: Hull 7500>5000, armor 1350>1050
+Overtuned tracking: no longer decreases weapon durability.
+Overloaded circuits: no longer decreases weapon durability.
+
+2023 10 6
+
+#bugfixes
+Removed the Saxton blueprint package which was not meant to be found yet people/NPCs got a hold of it anyways
+fixed some text errors
+
+#balancing
+Constellation-class frigate: system changed to Flare fortress
+Dragonfist-class destroyer: flares are now tracking
+
+Noon-class Deconstructivist Frigate hull/armor 1700/800->2700/1000
+Starlight-class Deconstructivist Frigate speed 80->95
+
+2023 10 4
+#New content
+Updated to .96_rc10
+new illustrations
+
+New ships:
+Desolation-class battleship
+Blademaster-class battlecruiser
+Shadowcast-class armored cruiser
+Hurdle-class scout frigate
+Butcherbird-class combat freighter
+
+Ships resprited:
+Nostalgia-class battleship (WIP, not implemented yet)
+Settler-class salvage destroyer
+Illwind-class frigate
+Phoenix-class frigate
+Autumn-class frigate
+Shootingstar-class frigate
+
+Ship reworks:
+Lunacy-class cruiser replaces Midnight Book
+Goatbell-class destroyer replaces Winter
+Constellation-class frigate replaces Hooksword
+
+New weapons:
+Powerfist Autocannon
+Convection LRM Launcher
+
+New hullmods:
+Overtuned Tracking
+Overloaded Circuits
+
+Saxton Shipyards' products are available* now!
+Including:
+Lightray-class deconstructivist destroyer
+Luminary-class undeconstructivist cruiser
+Noon-class deconstructivist frigate
+Umbra-class deconstructivist cruiser
+Amore-class deconstructivist cruiser
+Starlight-class deconstructivist frigate
+Gravitic Laser small energy PD
+
+Sprouting Dockyards ships are available* now!
+Savage-class intelligent destroyer
+Mangler-class intelligent destroyer
+
+#bugfixes and optimizations
+
+Changed a number different names
+
+Optimized the graphics for a number of ship systems
+
+Fixed a bug where Rotten Leaf bombers had an incorrect attack run range
+Fixed a bug where weapon mount locations were inaccurate to the ship sprites
+Fixed a bug where the Nostalgia would frequently fire its system into its allies
+Fixed some edge-case bugs with the Infallible
+Fixed the Sunset being too fast in reversing
+
+Optimized a lot of ship maps
+
+#Balancing
+Adjusted the effect of the Pressurized Thrusters
+Adjusted some energy/ballistic weapons to be Hybrid mounts with some special range increases if placed in hybrid slots
+Megahalberd LRM range 4000->3500
+All ballistic weapons have reduced accuracy
+Increased artichoke MRM health and speed
+Decreased artichoke LRM speed
+Decreased health of Scorchfire/Dazzle/Megahalberd missiles
+Scorchfire MRM Launcher ammo 60->20
+Cloudcover Chaingun OP cost 20->26, damage/shot 100->160
+Rising Tide Superheavy Mortar OP cost 22->20, greatly increased turret traversal
+adjusted some fighters' hull/armor values
+
+Nostalgia-class battleshiP: DP 44->46, flux 15,000/980->12,000/780, hull 25,000->27,000, armor 1,850->1,000, special hullmod added
+Immortality-class battleship: top speed 50->25
+Infallible-class fast carrier: missile regen requirements 4x->3x
+
+Thousandsails-class cruiser: shield changed to 320 degree Front Shield, armor 1700->1900, hull 8000->6000, flux 7000/450->6000/650
+Midnight Tea-class cruiser OP 100->130, renamed Snub
+Sunset-class cruiser's haphazard armor is now a module
+Flowertide-class cruiser: increased maneuverability, shield arc 120->160, shield efficiency 1.2->1.6, flux 15000/750->23000/1050, DP 32->28
+Windchime-class tanker: shields removed, top speed 40->20, reduced maneuverability
+
+Drunkard-class destroyer: hull 6600->8600, dissipation 300->500, armor 750->900
+Waterwheel-class survey ship: flux grid now 4000/400, DP 9->8, module's flux changed to 4000/300
+Dragonfist-class destroyer: speed 95->105, hull 4500->3500, armor 250->150, flux 5000/250->3000/150
+Birdwatcher-class destroyer: speed 70->60
+
+Snowcross-class frigate: armor 200->50, shields changed to omni, top speed 165->195
+Shootingstar-class frigate: armor 1000->1300, DP 6->5
+Autumn-class frigate: hull 1500->3500
+Phoenix-class frigate: armor 280->380, skeleton crew 15->3
+3/1/2023
+#Content added
+Implement Polarity Repeater added to the Aviation Bureau's blueprint
+
+#Bugs and optimization
+Fixed the Ribosome's module not increasing fleet burn level
+Fixed that the range and damage displayed for the Scorchfire was incorrect
+Optimize all missile trails
+
+#balance adjustment
+DPH of Gloom-series launchers reduced by 15%, burst size reduced by 50%
+Scorchfire MRM Launcher range 1000->2500
+Roar Driver DPH 600->550
+Megahalberd Series: Gain two-stage guidance capability
+
+Infallible-class fast carrier: Parallel Manufacturing now requires four times the number of fighter launches to regenerate missiles
+
+Replaced some of these ships' mounts with hybrid or synergy types:
+   Nighttime Book
+   Insulator
+   Ribosome
+   Thousandsails
+   Rainaway
+
+Increased DP of Nighttime Book from 14->16
+Speed: 95 to 75, all missile slots removed, dissipation halved, shield efficiency 1.2->1.0, hull 9500->8000, maneuverability reduced.
+Birdwatcher-class DP 15 to 17, dissipation 300->280, armor 600->400
+Remove some ships' built-in fighters
+
+Reduced maneuverability of most ships by 10% to 20%.
+
+2/22/2023
+#New content
+Winter-class destroyer has been added to the Aviation Bureau's production line
+Autumn-class frigate has been added to the Aviation Bureau's production line
+Goathead markets now have their own music
+
+#bugfixes and optimizations
+Fixed the collision issues on Birdwatcher's LRMs and bombard/pounder cannons
+
+#Balance adjustment
+Heavy Burnout Oilgun dps 650->330
+2/19/2023
+#New Content
+R&D has finished the new Rising Tide Superheavy Mortar
+#bugfixes and optimizations
+Fixed a bug in the immortality's spiral horns range buff
+Optimized bombard/pounder sfx
+Optimized oilgun sfx
+Optimized oilgun AI behavior
+
+#balans
+Turmoil-class bomber's glitter bombs do kinetic damage instead of HE 
+Thousandsails flux capacity/dissipation 7000/700 to 6000/600, replace some composite slots with ballistic
+Photon Deathray range 400->500
+2/15/2023
+
+#New content
+Crematorium-class salvage cruiser new system: Flame Burst
+Ribosome-class is now a module ship
+Night Tea-class Cruiser has been added to the Aviation Bureau's production line
+Thousandsails-class Cruiser has been added to the Aviation Bureau's production line
+Roar Driver - breach onhit
+Eagle (GP) refit is now available
+Falcon (GP) refit is now available
+
+#balance pendulum
+Marstina's Spear hull 990->1000, flux capacity 600->1000
+Midnight Letter hull 9000->8500, armor 900->1150, renamed Night Book
+Meltbore Cannon range 1800->1500
+
+#bugfixes and optimizations
+Fixed that some male portraits and male-identified robot portraits were always labelled as female
+Fixed the bug of unbalanced ship refresh rate
+
+*I promise to fix the Nostalgia's tendency for friendly fire next time*
+
+2/8/2023
+Hot Fixes
+Fix the bug that some ship descriptions are missing
+Fix the bug that Megahalberd lifetime does not match the listed range
+Fix the bug that Ribosome was classified as frigate and not destroyer
+Adjusted some weapon effects
+
+#Balance adjustment
+Gnaw Clustergun changed to burstfire
+Oilgun series explosion radius 25->55
+
+#Content added
+Sunset-class Heavy Armor Cruiser has been added to the Bureau's production line.
+Settler- Class Salvage Destroyer has been added to the Bureau's production line.
+Birdwatcher - Class Destroyer has been added to the Bureau's production line.
+Ribosome- Class Survey Destroyer has been added to the Bureau's production line.
+Sleigh-class frigate has been added to the Bureau's production line.
+
+2/6/2023
+#bug and optimization
+Beautification of tail trail and tail flame effects
+Fixed the error in the crew data for Windchime
+Fix the bug that the built-in fighter can be selected in the battle
+Shadowsoul - Class Phase Destroyer Grid 7500/450 to 9000/300, number Malstina Spear craft 3-> 4
+Fix the bug that some missiles cannot fire normally
+Fix the bug that the oilgun series projectiles are over-penetrated
+
+#Balance adjustment
+Illwind-class frigate, 9 to 8 deployment
+Cagepot-class personnel carrier max crew 4500 to 6000
+Gloom SRM launcher refire delay 2->4
+Gloom SRM launcher ammo 30 to 24
+Pounder compact cannon dph 300 to 450, dps 160 to 113, range 700 to 800, only fires a 1-shot burst
+oilgun series dph 300 to 150, range 550 to 650
+Prism Bastion-IX wing count 4 to 3, refit time 5 to 4
+
+1/29/2023
+Hot Fix
+Nostalgia - Class Battleship 
+	speed 50 to 45 
+	reduced maneuverability 
+	main gun damage 70 to 60 
+	structure 22000 to 300000 
+	armor 1800 to 1850,
+Shadowsoul - Class Phase Destroyer 
+	Lance of Marstina refit time 21 to 12 
+	ordnance points 90 to 70 
+	speed 110 to 90
+
+#Content added
+Shadowsoul-class Phase Destroyer new built-in hullmod and drone wing
+Nostalgia - Class Battleship has been added to the Aviation Bureau line
+
+#Balance adjustment
+Infallible - Class Fast Carrier 
+	Ordnance point 360 to 210 
+	built-in hullmod effect adjustment.
+Heavy Burnout Oilgun dph 250 to 300
+Gnaw Clustergun flux/shot 0.9 to 1.15
+Thunderfist Coilgun 
+	dph 200 to 80 
+	now fires a six-shot burst
+Punishment Collider Lance
+	dps 540 to 416 
+	flux/damage ratio 0.9 to 1.2
+Lantern - Class Phase Frigate 
+	system multiplier reduced to +300% 
+	Temporal Disruptor adjusted to increase range by 30% (disclaimer: does not seem to actually do this)
+1/23/2024
+# Balance Adjustment
+Immortality - Class Battleship
+	Ordnance Points 350->310
+	Armor 1600->1400
+	Speed 30->45
+	Hull 22,000->20,000
+	Shield Efficiency 1.4->1.2
+	Dissipation 900->700
+Infallible-class Fast Carrier 
+	Flux Capacity/dissipation 16000/900->14000/600 
+	Ordnance Points 300->260
+	Armor 1000->1200
+Windchime-class tanker: Fuel capacity 1800->2200
+Shadowsoul-class phase destroyer: flux capacity 5600->7500
+
+Punishment Collider Lance: flux/damage ratio 0.75->0.9
+Dazzle MRM Launcher: now fires 3 missiles in a burst.
+
+1/21/2023
+
+Bugfixes
+Fix the bug of breathing engine jumping out in the case of ultra-high magnification timeflow alteration
+Fix the problem of irregularity in the hullmod description for Immortality-class
+
+Heavy Graviton Beam (Built-in on Infallible-class fast carrier): range 1500->1300
+
+1/21/2023
+#Content added
+16 new captains have been added to the Aviation Bureau's staff
+16 new sound effects have been introduced
+
+3 new system backgrounds have been added
+
+New main menu mission: The End of Torment
+New main menu mission: Silent Butcher
+
+The Aviation Bureau proudly announces their acquisition of Saxton Shipyards (side note: not available to the public yet)
+Crown-Class Ceremonial Ship has joined the production line of the Aviation Bureau
+Robe-Class ceremonial ship has joined the production line of the Aviation Bureau
+Theater-Class ceremonial ship has joined the production line of the Aviation Bureau
+Imperious-Class ceremonial ship has joined the production line of the Aviation Bureau
+Maingauche-Class Ceremonial ship has been added to the production line of the Aviation Bureau
+Tidal Configuration built-in hullmod has been added to the production line of the Aviation Bureau
+
+Infallible-Class fast carrier has joined the production line of the Aviation Bureau
+Dragonfist-Class destroyer has joined the production line of the Aviation Bureau
+Shadowsoul-Class Phase Destroyer has joined the production line of the Aviation Bureau
+Prism-Class Interceptor Drones have joined the production line of the Aviation Bureau
+
+#bug and optimization
+Turmoil-class Bomber Optimized resource usage
+Discipline Accelerator Special effects 
+Punishment Collider Lance Special Effects
+Admonishment TPC Special Effects
+Gnaw Clustergun Special Effects
+Meltbore Cannon Special Effects
+
+Added normal mapping for Cruiser and Destroyer class ships
+Midnight Book - class map adjustment
+Starfish - class - texture adjustment
+Drunkard - Class Mapping Adjustment
+Flowertide - Saturation adjustment
+Immortality - saturation adjustment
+
+Fix a few description bugs
+
+#Balance Adjustment
+
+Insulator-class tug Fuel consumption 22 to 12 Supply 44 to 22
+
+Illwind-class frigate: 
+	shield efficiency 1.1->1.4 
+	medium hybrid changed to universal
+	flux capacity 2800->4000
+Shootingstar-class frigate: 
+	Armor 750->1000 
+	top speed 100->280 
+	system replaced with Torrent Drive
+Firebird-class frigate: 
+	flux capacity/dissipation 2400/180->2800/220 
+	shield efficiency 1.0->1.2 
+	DP 5->3
+Bluebell-class frigate: 
+	hull 3000->4000 
+	armor 600->450
+Stormlight-class frigate: 
+	Renamed to Skylantern
+	Armor 500->600 
+	Top Speed 100->210 
+	Hull 1400->1800 
+	System greatly enhanced 
+	DP 16 to 14 
+	Increased effect of Temporal Disruption hullmod
+Warhook-class frigate: 
+	(WOULD have been renamed to Wuhook, but I decided that would have been weird in the translated version)
+	flux capacity/dissipation 3500/200->3900/400 
+	DP 13->7
+	Shield efficiency 1.2->1.0 
+	small energy replaced by medium ballistic
+Rainaway-class destroyer:
+	Top Speed 110->130
+Drunkard-class Destroyer: 
+	Armor 420->650 
+	Flux capacity/dissipation 5500/350 to 6500/400 
+	Deployment 10 to 8, Gain Composite Slot
+Flowertide-class Cruiser: 
+	System changed to pressurized jets 
+	Built-in fighter Lick to Prism
+Crematorium-class salvage carrier: 
+	Meltbore Cannon refire delay 8->3, 
+	Flame Furnace no longer regenerates missiles, cooldown 25 to 28 
+	Shield Efficiency 1.2 to 1.4
+Goatbone Scholar-class Light Cruiser 
+	Flux capacity/dissipation 19,000/800->10,000/950 
+	Shield efficiency 1.6 to 1.2 
+	System enhanced 
+	DP 30->28 
+	Built-In Weapon Refire Delay 25->30
+	Some slots changed to Hybrid
+Midnight Letter-Class Cruiser: 
+	DP 22->16 
+	Armor 800->900 
+	Hull 8000->9000 
+	Shield efficiency 1.2->1.0 
+	system replaced with Torrent Drive
+	Now has Armored Weapon Mounts built-in
+Immortality-class battleship: 
+	ordnance points 330->360
+	Blackbox spiral horns hullmod enhanced 
+	flux capacity/dissipation 22000/1200->20000/900 
+	armor 1600->1800 
+	hull 18000->22000
+	Shield must now be disabled to activate system
+Cagepot - class personnel carrier armor 1600 to 2000
+
+Zeal Rotary Cannon: redesigned
+Discipline Accelerator: 
+	DPS 450(180)->600(300) 
+	Range 700->800
+Admonishment Plasma Pulse: 
+	changed from "plasma pulse" to "TPC"
+	dps 500->1000 
+	dph 550->450 
+	range 700->550
+	flux/damage ratio adjusted to 1.2
+Gnaw Clustergun: 
+	Range 650->750
+Heavy Burnout Oilgun:
+	range 650->550
+	dph 150->250 
+Thunderfist Coilgun: 
+	Range 600->800
+	flux/damage ratio changed to 1.5
+Light Burnout Oilgun:
+	dph 100->150 
+	dps 90->214 
+	range 600->550
+Pounder Compact Cannon:
+	Burst size 4->2 
+	dph 200->300 
+	dps 133->120
+Roar Driver: 
+	Range 1000->1200 
+	dph 550->600 
+	flux/damage ratio 1.1->1.5
+Bombard Cannon:
+	Range 900->800 
+	flux/damage ratio 1.1->1.4 
+	dps 314->350
+Meltbore Cannon: 
+	dph 850->1000 
+	magazine 2->4
+Megahalberd LRT OP cost 30->25
+Gloom SRM series: increased ammunition capacity

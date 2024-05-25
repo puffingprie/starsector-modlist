@@ -1,0 +1,137 @@
+{
+  "hullName": "FLY",
+  "hullId": "goat_FLY",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/goat/ships/Saxton/FIY.png",
+  "style": "GOAT_TECH_blue",
+  "height": 260,
+  "width": 170,
+  "center": [85, 130.5],
+  "collisionRadius": 174.5,
+  "shieldCenter": [2, -0],
+  "shieldRadius": 165,
+  "viewOffset": 0,
+  "builtInMods": [
+    "goat_hullstyle_sax",
+	"goat_state_tidal"
+  ],
+  "builtInWings": [
+    "lpc_goat_star2_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 63,
+      "angle": 27.5,
+      "locations": [18, 24]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 63,
+      "angle": -27.5,
+      "locations": [18, -24]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 73,
+      "angle": 167,
+      "locations": [-60, 20.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 73,
+      "angle": -167,
+      "locations": [-60, -20.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 293,
+      "angle": 0,
+      "locations": [53.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 208,
+      "angle": 0,
+      "locations": [118, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-98, -0],
+      "length": 73,
+      "width": 58,
+      "angle": 180,
+      "contrailSize": 58,
+      "style": "GOAT_TECH_FLY"
+    },
+    {
+      "location": [-102.5, -0],
+      "length": 104,
+      "width": 35,
+      "angle": -179.5,
+      "contrailSize": 35,
+      "style": "GOAT_TECH_FLY"
+    },
+    {
+      "location": [-78.5, 36.5],
+      "length": 12.879671,
+      "width": 9.871995,
+      "angle": -154.5,
+      "contrailSize": 9.871995,
+      "style": "GOAT_TECH_FLY"
+    },
+    {
+      "location": [-78.5, -36.5],
+      "length": 12.879671,
+      "width": 9.871995,
+      "angle": 154.5,
+      "contrailSize": 9.871995,
+      "style": "GOAT_TECH_FLY"
+    }
+  ],
+  "bounds": [
+    -125, -1.5,
+    -71.5, -23,
+    -89.5, -50,
+    -37, -31.5,
+    -10.5, -67,
+    6, -56,
+    -2, -36,
+    17, -53,
+    27.5, -42.5,
+    19, -31,
+    31.5, -22,
+    126, -8,
+    126, 8,
+    31.5, 22,
+    19, 31,
+    27.5, 42.5,
+    17, 53,
+    -2, 36,
+    6, 56,
+    -10.5, 67,
+    -37, 31.5,
+    -89.5, 50,
+    -71.5, 23,
+    -125, 1.5
+  ]
+}

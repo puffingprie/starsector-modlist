@@ -1,0 +1,59 @@
+{
+	"id":"all_goat_induced_ass",
+	"specClass":"missile",	
+	"missileType":"FLARE",
+	"sprite":"graphics/missiles/bomblet0.png",
+	"size":[4,4],	
+	"center":[2,2],
+	"collisionRadius":7,
+	"collisionClass":"MISSILE_NO_FF",
+	
+	"explosionColor":[255,125,75,255], 
+	
+	"explosionRadius":75, # purely visual
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration
+	
+	"behaviorSpec":{"behavior":"CUSTOM",
+					"effectRange":200,
+					"effectChance":0.1,
+				   },	
+				   
+	"engineSpec":{"turnAcc":600,
+				  "turnRate":400,
+				  #"maxSpeed":150,
+				  "acc":150,
+				  "dec":0},
+				  
+	"engineSlots":[
+					{"id":"ES1",
+					"loc":[0, 0],
+				    "style":"CUSTOM",
+				    "styleId":"midlineFlare",
+				    "width":3.0,
+				    "length":8.0,
+				    "angle":180.0},
+					
+					{"id":"GOAT_TECH_light",
+					"loc":[0, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[182,061,24,5],
+						"contrailDuration":.85,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":1.1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0.2, # how far away from engine it starts
+						"contrailColor":[255,125,75,55],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4,
+				    "length":4,
+				    "angle":180.0}
+				   ],
+}

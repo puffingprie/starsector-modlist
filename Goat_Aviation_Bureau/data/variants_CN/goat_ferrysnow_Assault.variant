@@ -1,0 +1,38 @@
+{
+    "displayName": "突击",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "hullId": "goat_ferrysnow",
+    "goalVariant": true,
+    "hullMods": [
+        "targetingunit",
+        "auxiliarythrusters",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_ferrysnow_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "all_goat_punch",
+                "WS0012": "all_goat_punch"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "all_goat_gloomy_s",
+                "WS0002": "all_goat_gloomy_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "vulcan"}
+        }
+    ]
+}

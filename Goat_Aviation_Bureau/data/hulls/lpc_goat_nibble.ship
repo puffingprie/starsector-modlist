@@ -1,0 +1,103 @@
+{
+  "hullName": "lpc_goat_nibble",
+  "hullId": "lpc_goat_nibble",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/goat/ships/A_LPC/lpc_goat_nibble.png",
+  "style": "GOAT_TECH",
+  "height": 28,
+  "width": 38,
+  "center": [19, 14],
+  "collisionRadius": 28,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 25,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0004": "blinker_goat_white_fast",
+    "WS0005": "blinker_goat_white_fast"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, 10.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7, 18.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [7, -18.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14.5, 10.5],
+      "length": 34.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "GOAT_TECH_crystal"
+    },
+    {
+      "location": [-14.5, -10.5],
+      "length": 34.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "GOAT_TECH_crystal"
+    },
+    {
+      "location": [6.5, 18.5],
+      "length": 2,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "GOAT_TECH_light_LPC"
+    },
+    {
+      "location": [6.5, -18.5],
+      "length": 2,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "GOAT_TECH_light_LPC"
+    },
+    {
+      "location": [-11, 15.5],
+      "length": 34.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "GOAT_TECH_crystal"
+    },
+    {
+      "location": [-11, -15.5],
+      "length": 34.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "GOAT_TECH_crystal"
+    }
+  ],
+  "bounds": [
+    -12.5, -15,
+    10, -19.5,
+    10, 19.5,
+    -12.5, 15
+  ]
+}

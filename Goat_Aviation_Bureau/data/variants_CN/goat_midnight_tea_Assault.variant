@@ -1,0 +1,41 @@
+{
+    "displayName": "攻击",
+    "fluxCapacitors": 0,
+    "fluxVents": 11,
+    "hullId": "goat_midnight_tea",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "adaptiveshields",
+        "converted_hangar"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_midnight_tea_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "all_goat_punch",
+                "WS0004": "all_goat_punch",
+                "WS0008": "all_goat_punch",
+                "WS0009": "all_goat_punch"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "all_goat_howl"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "all_goat_grasp",
+                "WS0002": "all_goat_grasp"
+            }
+        }
+    ],
+    "wings": ["lpc_goat_redroof_wing"]
+}

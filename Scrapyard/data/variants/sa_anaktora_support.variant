@@ -1,0 +1,83 @@
+{
+  "variantId": "sa_anaktora_support",
+  "hullId": "sa_anaktora",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 22,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxdistributor",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "hurricane",
+        "WS0006": "hurricane"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "lightag",
+        "WS0014": "lightag",
+        "WS0015": "lightag",
+        "WS0016": "lightag",
+        "WS0019": "railgun",
+        "WS0020": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pdlaser",
+        "WS0008": "pdlaser",
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser",
+        "WS0012": "vulcan",
+        "WS0013": "vulcan",
+        "WS0017": "vulcan",
+        "WS0018": "vulcan",
+        "WS0021": "vulcan",
+        "WS0022": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

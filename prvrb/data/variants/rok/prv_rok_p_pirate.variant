@@ -1,0 +1,79 @@
+{
+  "variantId": "prv_rok_p_pirate",
+  "hullId": "prv_rok_p",
+  "displayName": "Pirate",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 50,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "ballistic_rangefinder"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "pilum",
+        "WS0014": "harpoon",
+        "WS0015": "harpoon",
+        "WS0016": "harpoon",
+        "WS0017": "harpoon",
+        "WS0018": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "hurricane"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightag",
+        "WS0007": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "lightag",
+        "WS0019": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "mininglaser",
+        "WS0009": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightdualmg",
+        "WS0005": "heavymg",
+        "WS0010": "pdlaser",
+        "WS0012": "flak",
+        "WS0013": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

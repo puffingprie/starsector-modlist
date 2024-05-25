@@ -1,0 +1,43 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 4,
+    "hullId": "goat_hillshade",
+	"goalVariant": true,
+    "hullMods": [
+        "goat_oscillating",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_hillshade_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "all_goat_punch"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "phasecl",
+                "WS0004": "phasecl"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "all_goat_grasp",
+                "WS0005": "all_goat_grasp",
+                "WS0006": "all_goat_grasp",
+                "WS0007": "all_goat_grasp"
+            }
+        }
+    ],
+    "wings": [
+        "lpc_goat_redroof_wing",
+        "lpc_goat_redroof_wing"
+    ]
+}

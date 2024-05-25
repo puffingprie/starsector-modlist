@@ -1,0 +1,52 @@
+{
+  "variantId": "dpl_cimbasso_assult",
+  "hullId": "dpl_cimbasso",
+  "displayName": "Assult",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 49,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "plasma",
+        "WS0002": "plasma",
+        "WS0005": "dpl_phase_pd",
+        "WS0006": "dpl_phase_pd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "dpl_phase_pd",
+        "WS0009": "dpl_phase_pd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "dpl_phase_pd",
+        "WS0010": "dpl_phase_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "dpl_marimba_II_wing",
+    "dpl_marimba_II_wing",
+    "dpl_marimba_II_wing",
+    "dpl_marimba_II_wing",
+    "dpl_marimba_I_wing",
+    "dpl_marimba_I_wing",
+    "dpl_marimba_I_wing",
+    "dpl_marimba_I_wing"
+  ]
+}

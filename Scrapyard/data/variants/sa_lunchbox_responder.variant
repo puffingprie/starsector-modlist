@@ -1,0 +1,55 @@
+{
+  "variantId": "sa_lunchbox_responder",
+  "hullId": "sa_lunchbox",
+  "displayName": "Responder",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "augmentedengines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pilum_large",
+        "WS0013": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightmg",
+        "WS0007": "lightmg",
+        "WS0008": "lightmg",
+        "WS0009": "lightmg",
+        "WS0010": "lightmg",
+        "WS0011": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing",
+    "talon_wing",
+    "talon_wing"
+  ]
+}

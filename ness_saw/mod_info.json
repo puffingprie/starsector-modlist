@@ -1,0 +1,18 @@
+{
+	"id":"ness_saw", # internal id
+	"name":"Nes's ship and weapon", # displayed to the player
+	"author":"Nes",
+	"version":{
+		"major":1, 
+		"minor":10, 
+		"patch":"SSS"
+	},
+	"description":"Ships with cosmetic skins. Splendid!",
+	"gameVersion":"0.97a-RC11",
+	"jars":["jars/Nes's SAW.jar"],
+	"dependencies": [
+		{"id": "lw_lazylib", "name": "LazyLib"},
+		{"id": "MagicLib", "name": "MagicLib"},
+	],
+    "modPlugin":"data.scripts.NES_ModPlugin",
+}

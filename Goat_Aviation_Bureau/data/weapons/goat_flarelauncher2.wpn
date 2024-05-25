@@ -1,0 +1,44 @@
+{
+	"id":"goat_flarelauncher2",
+	"specClass":"projectile",
+	"type":"SYSTEM",
+	"size":"SMALL",
+	"turretSprite":"",
+	"hardpointSprite":"",
+	"hardpointOffsets":[0, 0],
+	
+	"everyFrameEffect": "data.scripts.weapons.goat_flarelaunchertrail",
+	
+	"turretOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"turretAngleOffsets":[0],
+	"barrelMode":"ALTERNATING",
+	"animationType":"SMOKE",
+	"interruptibleBurst":false,
+	"smokeSpec":{"particleSizeMin":10.0,
+				 "particleSizeRange":10.0,
+				 "cloudParticleCount":3,
+				 "cloudDuration":1.0,
+				 "cloudRadius":10.0,
+				 "blowbackParticleCount":0,
+				 "blowbackDuration":2.0,
+				 "blowbackLength":30.0,
+				 "blowbackSpread":10.0,
+				 "particleColor":[100,100,100,150]},
+
+			"explosionRadius":30, # purely visual
+	
+			"explosionSpec":{"duration":0.1f, # not visual
+								 "radius":15,
+								 "coreRadius":25, # full damage within core radius
+								 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+								 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+								 "particleSizeMin":8.0,
+								 "particleSizeRange":3.0,
+								 "particleDuration":1,
+								 "particleCount":150,
+								 "particleColor":[222,27,26,205]},
+
+	"projectileSpecId":"goat_flare_standard",
+	"fireSoundTwo":"launch_flare_1",
+}

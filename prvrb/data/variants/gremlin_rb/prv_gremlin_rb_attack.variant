@@ -1,0 +1,50 @@
+{
+  "displayName": "Attack",
+  "fluxCapacitors": 7,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "prv_gremlin_rb",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 1,
+  "variantId": "prv_gremlin_rb_attack",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "prv_hfl_array"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "hammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "prv_blaster_charge_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "vulcan",
+        "WS 001": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mininglaser"
+      }
+    }
+  ],
+  "wings": []
+}

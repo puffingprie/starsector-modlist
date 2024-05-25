@@ -1,0 +1,46 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 12,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Hearn",
+    "hullMods": [
+        "targetingunit",
+        "FantasyBorderMod",
+        "expanded_deck_crew"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Hearn_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavymauler",
+                "WS0002": "heavymauler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "cyclone"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "mininglaser",
+                "WS0004": "mininglaser",
+                "WS0005": "mininglaser",
+                "WS0006": "mininglaser",
+                "WS0007": "mininglaser",
+                "WS0008": "mininglaser"
+            }
+        }
+    ],
+    "wings": [
+        "broadsword_wing",
+        "broadsword_wing"
+    ]
+}

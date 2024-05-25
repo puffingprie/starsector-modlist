@@ -1,0 +1,44 @@
+{
+  "id": "all_goat_punch_fighter",
+  "specClass": "projectile",
+  "projectileSpecId": "goat_punch_fire",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  
+  "displayArcRadius": 400,
+   "visualRecoil": 4,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  
+  "turretSprite": "graphics/goat/weapons/ballistic/goat_punch/goat_punch.png",
+  "turretGunSprite": "graphics/goat/weapons/ballistic/goat_punch/goat_punch_recoi.png",
+  "hardpointSprite": "graphics/goat/weapons/ballistic/goat_punch/goat_punch_hardpoint.png",
+  "hardpointGunSprite": "graphics/goat/weapons/ballistic/goat_punch/goat_punch_recoi_hardpoint.png",
+  
+  "turretOffsets": [
+    11,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    10,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo":"railgun_fire",
+  "animationType":"MUZZLE_FLASH", 
+	"muzzleFlashSpec":{"length":25.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":10,
+					   "particleSizeMin":8.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.4,
+					   "particleCount":30,
+					   "particleColor":[228,140,46,180]},
+}

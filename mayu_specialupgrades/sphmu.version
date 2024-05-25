@@ -1,0 +1,16 @@
+{
+    "masterVersionFile":"https://raw.githubusercontent.com/CremeDeFramboise/VersionChecker/main/sphmu.version",
+    "modName":"Special Hullmod Upgrades",
+    "modThreadId":"25424",
+    "modVersion":
+    {
+        "major":1,
+        "minor":5,
+        "patch":0 # Can be a number, character or string (1, 2, a, b, "-RC2", etc)
+    },
+	"starsectorVersion":"0.97a-RC11",
+	"directDownloadURL":"https://github.com/CremeDeFramboise/Special-Hullmod-Upgrades/releases/download/v1.5/Special.Hullmod.Upgrades.zip",
+	
+	#Link towards a directly accessible text file, which can be used to display a changelog ingame, is fetched from the online version file.
+	"changelogURL":"https://raw.githubusercontent.com/CremeDeFramboise/Special-Hullmod-Upgrades/main/Special%20Hullmod%20Upgrades/Changelog.txt",
+}

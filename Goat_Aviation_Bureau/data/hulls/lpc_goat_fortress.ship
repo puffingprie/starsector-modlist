@@ -1,0 +1,94 @@
+{
+  "hullName": "lpc_goat_fortress",
+  "hullId": "lpc_goat_fortress",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/goat/ships/A_LPC/lpc_fortress_lick.png",
+  "style": "GOAT_TECH",
+  "height": 28,
+  "width": 26,
+  "center": [13, 12],
+  "collisionRadius": 18.5,
+  "shieldCenter": [1, 0],
+  "shieldRadius": 19,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 233,
+      "angle": 90,
+      "locations": [5, 8.5]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 233,
+      "angle": -90,
+      "locations": [5, -8.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12.5, 9],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "GOAT_TECH_crystal"
+    },
+    {
+      "location": [-12.5, -9],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "GOAT_TECH_crystal"
+    },
+    {
+      "location": [10, 11.5],
+      "length": 4,
+      "width": 4,
+      "angle": 58,
+      "contrailSize": 4,
+      "style": "GOAT_TECH_crystal"
+    },
+    {
+      "location": [10, -11.5],
+      "length": 4,
+      "width": 4,
+      "angle": -58,
+      "contrailSize": 4,
+      "style": "GOAT_TECH_crystal"
+    },
+    {
+      "location": [-12, 12],
+      "length": 1,
+      "width": 1,
+      "angle": 164,
+      "contrailSize": 1,
+      "style": "GOAT_TECH_light_LPC"
+    },
+    {
+      "location": [-12, -12],
+      "length": 1,
+      "width": 1,
+      "angle": -164,
+      "contrailSize": 1,
+      "style": "GOAT_TECH_light_LPC"
+    }
+  ],
+  "bounds": [
+    -11.5, -6.5,
+    -6.5, -18.5,
+    2.5, -18.5,
+    7, -6,
+    7, 0,
+    2.5, 12.5,
+    -6.5, 12.5,
+    -11.5, 0.5
+  ]
+}

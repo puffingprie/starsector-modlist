@@ -1,0 +1,34 @@
+{
+  "variantId": "DEX_battlement_standard",
+  "hullId": "DEX_battlement",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mark9",
+        "WS0003": "heavyac",
+        "WS0004": "sabotpod",
+        "WS0005": "harpoonpod",
+        "WS0006": "locust",
+        "WS0007": "hellbore",
+        "WS0008": "heavymg",
+        "WS0009": "heavymg",
+        "WS0011": "heavyac",
+        "WS0012": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "DEX_spartan_wing",
+    "DEX_skystar_wing"
+  ]
+}

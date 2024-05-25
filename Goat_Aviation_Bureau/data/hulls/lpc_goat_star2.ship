@@ -1,0 +1,72 @@
+{
+  "hullName": "lpc_goat_star2",
+  "hullId": "lpc_goat_star2",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/goat/ships/Saxton/lpc_goat_star2.png",
+  "style": "GOAT_TECH_blue",
+  "height": 59,
+  "width": 32,
+  "center": [16, 34.5],
+  "collisionRadius": 57,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 47,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 236,
+      "angle": 67.5,
+      "locations": [2.5, 12.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 236,
+      "angle": -67.5,
+      "locations": [2.5, -12.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 216,
+      "angle": 118.5,
+      "locations": [-11, 11]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 216,
+      "angle": -118.5,
+      "locations": [-11, -11]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, -0],
+      "length": 45.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "GOAT_TECH_crystal_omg"
+    }
+  ],
+  "bounds": [
+    -12.5, -12,
+    2.5, -14.5,
+    20, -2.5,
+    20, 2.5,
+    2.5, 14.5,
+    -12.5, 12,
+    -7, 3,
+    -7, -3
+  ]
+}

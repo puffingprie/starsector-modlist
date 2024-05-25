@@ -1,0 +1,66 @@
+{
+  "id": "all_goat_rhythm",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "beamEffect": "data.scripts.weapons.goat_RhythmEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/goat/weapons/energy/goat_rhythm/goat_rhythm.png",
+  "turretGlowSprite": "graphics/goat/weapons/energy/goat_rhythm/goat_rhythm_glow.png",
+  "turretUnderSprite": "graphics/goat/weapons/energy/goat_rhythm/goat_rhythm_base.png",
+  
+  "hardpointSprite": "graphics/goat/weapons/energy/goat_rhythm/goat_rhythmh.png",
+  "hardpointGlowSprite": "graphics/goat/weapons/energy/goat_rhythm/goat_rhythm_glowh.png",
+  "hardpointUnderSprite": "graphics/goat/weapons/energy/goat_rhythm/goat_rhythm_baseh.png",
+  "glowColor": [
+    160,
+    61,
+    34,
+    250
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    17,
+    0,
+    17,
+    -2.5,
+    17,
+    2.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    26.5,
+    0,
+    26.5,
+    2.5,
+    26.5,
+    -2.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "fringeColor": [
+    223,
+    85,
+    37,
+    105
+  ],
+  "coreColor": [
+    255,
+    195,
+    0,
+    80
+  ],
+  "width": 5,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 26,
+  "pixelsPerTexel": 1,
+  "fireSoundOne":"guardian_pd_fire",
+}

@@ -1,0 +1,59 @@
+{
+  "hullName": "Nomad Drone",
+  "hullId": "DEX_nomad_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/DEX_nomad_drone.png",
+  "style": "LOW_TECH",
+  "height": 62,
+  "width": 32,
+  "center": [16, 31],
+  "collisionRadius": 36.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 32,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux",
+    "terminator_core"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ionpulser",
+    "WS0002": "pdburst"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13, -2]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-6, 5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-29, 4.5],
+      "length": 35,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -28, -5,
+    -27.5, 13.5,
+    -2, 15,
+    25, 2.5,
+    11, -14
+  ]
+}

@@ -1,0 +1,43 @@
+{
+	"id":"goat_giant_halberd_mrm1",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/goat/missiles/goat_giant_halberd_mrm1.png",
+	"size":[9,33],	
+	"center":[4.5,16.5],
+	"collisionRadius":18,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,155,100,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":250, # purely visual
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"armingTime":0,
+	"glowColor":[255,100,100,75],
+	"glowRadius":75,
+	"engineSpec":{"turnAcc":150,
+				  "turnRate":150,
+				  "acc":350,
+				  "dec":50},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-14, 0],
+#				    "style":"GOAT_TECH_MISSILE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[182,061,24,255],
+						"contrailColor":[108,103,89,15],
+						"contrailDuration":30,
+						"contrailWidthMult":0.50,
+						"contrailWidthAddedFractionAtEnd":0.1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":1000, # min segment length, in pixels
+						"contrailMaxSpeedMult":1f,
+						"contrailAngularVelocityMult":1f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"glowSizeMult":2.5,
+						"glowAlternateColor":[255,0,0,255],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":10.0,
+				    "length":80.0,
+				    "angle":180.0}]
+}

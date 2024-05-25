@@ -1,0 +1,44 @@
+{
+  "variantId": "DEX_bore_mining",
+  "hullId": "DEX_bore",
+  "displayName": "Mining",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hil",
+        "WS0003": "harpoon_single",
+        "WS0004": "harpoon_single",
+        "WS0005": "harpoon_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "heavyac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,26 @@
+{
+  "variantId": "DEX_picket_p_strike",
+  "hullId": "DEX_picket_p",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "atropos_single",
+        "WS 002": "lightac",
+        "WS 003": "lightac",
+        "WS0001": "annihilator",
+        "WS0002": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

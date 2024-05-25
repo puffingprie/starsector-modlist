@@ -1,0 +1,34 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "google_defender",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "google_defender_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 000": "kineticblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "irpulse",
+                "WS 003": "irpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdlaser",
+                "WS 004": "pdlaser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+  "variantId": "DEX_wendigo_assault",
+  "hullId": "DEX_wendigo",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "sabotpod",
+        "WS 002": "swarmer_fighter",
+        "WS 005": "harpoon",
+        "WS 006": "swarmer_fighter",
+        "WS 007": "lightdualac",
+        "WS 008": "lightdualac",
+        "WS 009": "heavyac",
+        "WS 010": "chaingun",
+        "WS 011": "chaingun",
+        "WS 012": "chaingun",
+        "WS 013": "mark9",
+        "WS 014": "harpoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

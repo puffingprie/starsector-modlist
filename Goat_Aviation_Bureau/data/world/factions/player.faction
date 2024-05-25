@@ -1,0 +1,13 @@
+{
+	"portraits":{
+		"standard_female":[
+		    "graphics/goat/portraits/bot1.png",
+			"graphics/goat/portraits/bot4.png",
+			"graphics/goat/portraits/bot5.png",
+			"graphics/goat/portraits/bot8.png",
+			"graphics/goat/portraits/bot9.png",
+			"graphics/goat/portraits/AI_girl.png",
+			"graphics/goat/portraits/AI_girl1.png",
+		],
+	},
+},				

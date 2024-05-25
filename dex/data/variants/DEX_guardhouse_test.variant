@@ -1,0 +1,31 @@
+{
+  "variantId": "DEX_guardhouse_test",
+  "hullId": "DEX_guardhouse",
+  "displayName": "Test Platform",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "shredder",
+        "WS0002": "vulcan",
+        "WS0003": "pilum",
+        "WS0004": "heatseeker",
+        "WS0005": "heatseeker"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "DEX_spartan_wing",
+    "DEX_legionary_wing"
+  ]
+}

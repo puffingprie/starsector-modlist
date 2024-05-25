@@ -1,0 +1,58 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "google_bastillon_b",
+    "hullMods": ["automated"],
+    "permaMods": ["automated"],
+    "sMods": [],
+    "variantId": "google_bastillon_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"LB 1": "gigacannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "xpulse",
+                "WS 008": "xpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdlaser",
+                "WS 002": "pdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdlaser",
+                "WS 006": "pdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "pdlaser",
+                "WS 005": "pdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 014": "pdlaser",
+                "WS 015": "pdlaser"
+            }
+        }
+    ]
+}

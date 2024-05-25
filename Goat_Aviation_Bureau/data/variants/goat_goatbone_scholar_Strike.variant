@@ -1,0 +1,48 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 17,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "goat_goatbone_scholar",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_goatbone_scholar_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0030": "all_goat_purgatory_reprimand",
+                "WS0035": "all_goat_purgatory_reprimand"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "breachpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "devastator"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "heavymg",
+                "WS0005": "heavymg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "all_goat_grasp",
+                "WS0002": "all_goat_grasp"
+            }
+        }
+    ],
+    "wings": []
+}

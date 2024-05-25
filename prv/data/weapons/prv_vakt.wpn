@@ -1,0 +1,67 @@
+{
+  "id": "prv_vakt",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "prv.corp.weapons.prv_vakt_BeamEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/prv/weapons/prv_vakt_turret_main.png",
+  "turretGlowSprite": "graphics/prv/weapons/prv_vakt_turret_glow.png",
+  "turretUnderSprite": "graphics/prv/weapons/prv_vakt_turret_under.png",
+  "hardpointSprite": "graphics/prv/weapons/prv_vakt_hardpoint_main.png",
+  "hardpointGlowSprite": "graphics/prv/weapons/prv_vakt_hardpoint_glow.png",
+  "hardpointUnderSprite": "graphics/prv/weapons/prv_vakt_hardpoint_under.png",
+  "glowColor": [
+    153,
+    102,
+    255,
+    255
+  ],
+  "hitGlowRadius": 20,
+  "turretOffsets": [
+    20,
+    5.5,
+    20,
+    -5.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    22.5,
+    4.5,
+    22.5,
+    -4.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "fringeColor": [
+    153,
+    102,
+    255,
+    255
+  ],
+  "coreColor": [
+    34,
+    0,
+    128,
+    128
+  ],
+  "width": 48,
+  "textureType": [
+    "graphics/prv/fx/prv_beam_interrupted_fringe.png",
+    "graphics/prv/fx/prv_beam_interrupted_core.png"
+  ],
+  "textureScrollSpeed": 0,
+  "pixelsPerTexel": 1,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundTwo": "phase_beam_loop"
+}

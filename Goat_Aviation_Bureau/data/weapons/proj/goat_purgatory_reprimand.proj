@@ -1,0 +1,64 @@
+{
+	"id":"goat_purgatory_reprimand",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/goat/missiles/goat_purgatory_reprimand.png",
+	"size":[20,24],	
+	"center":[10,12],
+	"collisionRadius":14,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":40, # purely visual
+	
+	"engineSpec":{"turnAcc":5000,
+				  "turnRate":3500,
+				  "acc":1050,
+				  "dec":1205},	
+				  
+	"engineSlots":[{"id":"GOAT_TECH_light",
+					"loc":[-7, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[150,77,159,85],
+						"contrailDuration":0.5,
+						"contrailWidthMult":0.5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.1f,
+						"contrailSpawnDistMult":0.1, # how far away from engine it starts
+						"contrailColor":[150,77,159,200],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":10.0,
+				    "length":65.0,
+				    "angle":180.0},
+					
+					{"id":"GOAT_TECH_crystal_out",
+					"loc":[0, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[59,158,184,55],
+						"contrailDuration":0.5,
+						"contrailWidthMult":0.5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":9, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.1f,
+						"contrailSpawnDistMult":0.1, # how far away from engine it starts
+						"contrailColor":[60,50,50,20],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":20.0,
+				    "length":15.0,
+				    "angle":0.0},
+					
+					
+					
+					],
+						
+}

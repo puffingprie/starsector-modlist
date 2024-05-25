@@ -1,0 +1,53 @@
+{
+  "id": "prv_skata",
+  "everyFrameEffect": "prv.corp.weapons.prv_skata_EveryFrameEffect",
+  "specClass": "projectile",
+  "projectileSpecId": "prv_skata_lrm",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "turretSprite": "graphics/prv/weapons/prv_skata_turret.png",
+  "hardpointSprite": "graphics/prv/weapons/prv_skata_hardpoint.png",
+  "renderAboveAllWeapons": 0,
+  "turretOffsets": [
+    14,
+    -12,
+    20,
+    0,
+    14,
+    12
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    19,
+    12,
+    25,
+    0,
+    19,
+    -12
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "separateRecoilForLinkedBarrels": true,
+  "animationType": "NONE",
+  "muzzleFlashSpec": {
+    "length": 8,
+    "spread": 9,
+    "particleSizeMin": 6,
+    "particleSizeRange": 12,
+    "particleDuration": 1,
+    "particleCount": 11,
+    "particleColor": [
+	165,225,100,196
+    ]
+  },
+  "textureType": ROUGH,
+  #"fireSoundTwo": "salamander_fire"
+}

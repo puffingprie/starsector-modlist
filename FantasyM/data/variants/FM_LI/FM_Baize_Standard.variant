@@ -1,0 +1,23 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 8,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "FM_Baize",
+    "hullMods": [
+        "militarized_subsystems",
+        "assault_package"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Baize_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "irpulse",
+            "WS0002": "irpulse"
+        }
+    }],
+    "wings": ["FM_Amanojyak_wing"]
+}

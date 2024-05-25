@@ -1,0 +1,74 @@
+{
+  "id": "all_goat_punish",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.goat_PunishEveryFrameEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/goat/weapons/energy/goat_punish/all_goat_punish_recoi.png",
+  "turretUnderSprite": "graphics/goat/weapons/energy/goat_punish/all_goat_punish_hardpoint.png",
+  "hardpointSprite": "graphics/goat/weapons/energy/goat_punish/all_goat_punish_recoi.png",
+  "hardpointUnderSprite": "graphics/goat/weapons/energy/goat_punish/all_goat_punish_turret.png",
+  
+  "turretGlowSprite": "graphics/goat/weapons/energy/goat_punish/all_goat_punish_glow.png",
+  "hardpointGlowSprite": "graphics/goat/weapons/energy/goat_punish/all_goat_punish_glow.png",
+  
+  "glowColor": [
+    169, 45, 23,
+    255
+  ],
+  
+  "hitGlowRadius": 160,
+  
+  "turretOffsets": [
+    7.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    19.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "beamFireOnlyOnFullCharge": true,
+  "fringeColor": [
+   255, 100, 27,
+    255
+  ],
+  "coreColor": [
+    249, 45, 23,
+    205
+  ],
+  #"coreColor": [
+   # 252,
+   # 121,
+   # 75,
+   # 255
+  #],
+  "width": 29,
+  "darkCore":false,
+  "textureType": [
+    "graphics/goat/fx/goatbeamfringec_invasion1.png",
+    "graphics/goat/fx/goatbeamfringec.png"
+  ],
+  
+   
+   "animationType": "GLOW",
+  
+  "textureScrollSpeed": 2900,
+  "pixelsPerTexel": 1,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+ 
+  "fireSoundTwo": "all_goat_punish_fire1"
+}

@@ -1,0 +1,13 @@
+{
+	"knownShips":{
+        "hulls":[
+			"nes_voltaire",	
+        ],
+    },
+	
+	"knownWeapons":{
+        "weapons":[
+            "nes_assault_mjolnir",
+        ],
+    },
+},			

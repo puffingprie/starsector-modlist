@@ -1,0 +1,34 @@
+{
+  "variantId": "DEX_battlement_hammer",
+  "hullId": "DEX_battlement",
+  "displayName": "Barrage",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hellbore",
+        "WS0003": "chaingun",
+        "WS0004": "sabotpod",
+        "WS0005": "sabotpod",
+        "WS0006": "hurricane",
+        "WS0007": "mjolnir",
+        "WS0008": "arbalest",
+        "WS0009": "flak",
+        "WS0011": "chaingun",
+        "WS0012": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "DEX_spartan_wing",
+    "DEX_spartan_wing"
+  ]
+}

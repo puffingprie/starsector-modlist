@@ -1,0 +1,50 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 18,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "furykoc",
+    "hullMods": ["frontemitter"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "furykoc_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "gravburst",
+                "WS 001": "gravburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "maidenpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "xpulse",
+                "WS 004": "xpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightdualmg",
+                "WS 006": "lightdualmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "lightdualmg",
+                "WS 008": "lightdualmg"
+            }
+        }
+    ]
+}

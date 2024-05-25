@@ -1,0 +1,91 @@
+package data.hullmods;
+
+import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.ShipAPI.HullSize;
+import com.fs.starfarer.api.combat.listeners.DamageTakenModifier;
+import org.lazywizard.lazylib.VectorUtils;
+import org.lwjgl.util.vector.Vector2f;
+
+public class goat_Oscillating extends BaseHullMod {
+
+	public static final float BEAM_REDUCE_PERCENT = 10f;
+	public static final float MAX_DAMAGE_REDUCE_PERCENT = 60f;
+	public static final float DAMAGE_REDUCE_TEST = 128f;
+	public static final float DAMAGE_THRESHOLD_TO_SPAWN_EFFECT = 10f;
+
+	public static final goat_OscillatingListener L = new goat_OscillatingListener();
+
+	@Override
+	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
+		stats.getBeamDamageTakenMult().modifyMult(id, 1f - BEAM_REDUCE_PERCENT * 0.01f);
+	}
+
+	@Override
+	public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
+		ship.addListener(L);
+	}
+
+	public static class goat_OscillatingListener implements DamageTakenModifier {
+
+		public static final String id = "goat_Oscillating1";
+
+		public static final float getReduceInPercent(float damageAmount) {
+			return (float) Math.exp(-0.014f * damageAmount + 4.1f);
+		}
+
+		@Override
+		public String modifyDamageTaken(Object param, CombatEntityAPI target, DamageAPI damage, Vector2f point, boolean shieldHit) {
+
+			if (!shieldHit) return null;
+
+			float damageAmount = 0f;
+			if (param instanceof BeamAPI) {
+				//要减伤光束吗?
+				//damageAmount = damage.computeDamageDealt(130);
+			} else if (param != null) {
+				damageAmount = damage.getDamage();
+			}
+
+			float y = getReduceInPercent(damageAmount);
+			if (y > MAX_DAMAGE_REDUCE_PERCENT) y = MAX_DAMAGE_REDUCE_PERCENT;
+			if (y < 1f) y = 0f;
+
+			if (y > 0f) {
+
+				if (y > DAMAGE_THRESHOLD_TO_SPAWN_EFFECT) {
+					ShipAPI ship = (ShipAPI)target;
+					new goat_OscillatingVisual(ship, VectorUtils.getAngle(ship.getShieldCenterEvenIfNoShield(), point));
+
+				}
+
+				float reduced = 1f - y * 0.01f;
+				damage.getModifier().modifyMult(id, reduced);
+				return id;
+			}
+			return null;
+		}
+	}
+
+	@Override
+	public String getDescriptionParam(int index, HullSize hullSize) {
+		if (index == 0) return (int)DAMAGE_THRESHOLD_TO_SPAWN_EFFECT + "%";
+		if (index == 1) return (int)DAMAGE_REDUCE_TEST + "";
+		if (index == 2) return (int)goat_OscillatingListener.getReduceInPercent(DAMAGE_REDUCE_TEST) + "%";
+		if (index == 3) return (int)BEAM_REDUCE_PERCENT + "%";
+		return null;
+	}
+
+	@Override
+	public boolean isApplicableToShip(ShipAPI ship) {
+		return ship != null && ship.getShield() != null && ship.getHullSpec().getHullId().startsWith("goat_");
+	}
+
+	@Override
+	public String getUnapplicableReason(ShipAPI ship) {
+		if (ship == null) return "";
+		if (ship.getHullSpec().getHullId().startsWith("goat_")) return "仅限 羊头航务局 舰船安装";
+		if (ship.getShield() != null) return "该舰没有护盾";
+		return "该舰没有护盾 且 仅限 羊头航务局 舰船安装";
+	}
+}
+

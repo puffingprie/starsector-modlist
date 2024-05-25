@@ -1,0 +1,40 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 15,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "eridani_mule",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "eridani_mule_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "heavymininglaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "jackhammer",
+                "WS 002": "jackhammer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "mininglaser",
+                "WS 006": "mininglaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "pdlaser"}
+        }
+    ],
+    "wings": []
+}

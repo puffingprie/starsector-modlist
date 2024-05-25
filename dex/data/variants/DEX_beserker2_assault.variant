@@ -1,0 +1,56 @@
+{
+  "variantId": "DEX_berserker2_assault",
+  "hullId": "DEX_berserker2",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "chaingun",
+        "WS0005": "lightdualac",
+        "WS0006": "lightdualac",
+        "WS0007": "lightag",
+        "WS0008": "lightag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lightmg",
+        "WS0010": "lightdualmg",
+        "WS0011": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

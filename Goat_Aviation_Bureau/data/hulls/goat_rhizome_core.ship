@@ -1,0 +1,54 @@
+{
+  "hullName": "rhizome_core",
+  "hullId": "goat_rhizome_core",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/goat/ships/rhizome/rhizome_core.png",
+  "style": "GOAT_TECH",
+  "height": 55,
+  "width": 62,
+  "center": [31.5, 27],
+  "collisionRadius": 132,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 120,
+  "viewOffset": 0,
+  "builtInMods": [
+    "goat_hullstyle",
+    "drive_field_stabilizer",
+    "high_maintenance",
+    "goat_oscillating",
+    "frontshield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-5, 5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-3, 2.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -20, -19.5,
+    -7.5, -27,
+    4, -27,
+    9.5, -16.5,
+    25, -14,
+    25, 14,
+    9.5, 16.5,
+    4, 27,
+    -7.5, 27,
+    -20, 19.5
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "variantId": "DEX_fullisade_chimera",
+  "hullId": "DEX_fullisade",
+  "displayName": "Chimerric",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector",
+    "reinforcedhull",
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun",
+        "WS0004": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightac",
+        "WS0003": "lightmortar",
+        "WS0006": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "harpoon_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

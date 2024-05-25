@@ -1,0 +1,36 @@
+{
+    "displayName": "Pulsar",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "eridani_cerberus",
+    "hullMods": [
+        "fluxdistributor",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "eridani_cerberus_Pulsar",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "ionpulser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "taclaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "pdlaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "pdlaser"}
+        }
+    ]
+}

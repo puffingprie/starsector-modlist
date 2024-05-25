@@ -1,0 +1,152 @@
+{
+  "hullName": "Piccolo",
+  "hullId": "dpl_piccolo",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/phase/dpl_piccolo.png",
+  "style": "HIGH_TECH",
+  "height": 144,
+  "width": 72,
+  "center": [36, 72],
+  "collisionRadius": 95,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 85,
+  "viewOffset": 0,
+"builtInMods": [
+    "delicate",
+    "phasefield",
+    "dpl_integratedcoils"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [37, 23.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [37, -23.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [49, 11]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [49, -11]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [29, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-64, 3],
+      "length": 39,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-64, -3],
+      "length": 39,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-62.5, 10],
+      "length": 16.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-62.5, -10],
+      "length": 16.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-63.5, 13],
+      "length": 16.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-63.5, -13],
+      "length": 16.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-64.5, 16],
+      "length": 16.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-64.5, -16],
+      "length": 16.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    60, -9.5,
+    54.5, -17.5,
+    44.5, -22,
+    42, -31.5,
+    12.5, -34,
+    -10.5, -36,
+    -19, -25.5,
+    -68, -20.5,
+    -64.5, -9,
+    -64.5, 9,
+    -68, 20.5,
+    -19, 25.5,
+    -10.5, 36,
+    12.5, 34,
+    42, 31.5,
+    44.5, 22,
+    54.5, 17.5,
+    60, 9.5
+  ]
+}

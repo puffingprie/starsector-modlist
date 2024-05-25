@@ -1,0 +1,49 @@
+{
+	"baseHullId":"prv_flock",
+	"skinHullId":"prv_flock_midline",
+	"hullName":"Flock (League)",
+	"descriptionId":"prv_flock_midline",
+	"descriptionPrefix":"Export model of the Flock which is produced without any integrated systems, opening up a large missile hardpoint for any compatible launcher.",
+	"tags":["prv_midline_bp","merc"],
+	"tech":"Midline",
+	"restoreToBaseHull":false,
+	"ordnancePoints":130,
+	"suppliesToRecover":20,
+	"suppliesPerMonth":20,
+	"spriteName":"graphics/prv/ships/prv_flock_midline.png",
+	"systemId":"fastmissileracks",
+	"removeBuiltInMods":["eccm","prv_ramshield"],
+	"removeBuiltInWeapons":[
+		"BI01",		#autolauncher
+	],
+	"weaponSlotChanges":{
+	   "BI01":{
+		  "mount": "HARDPOINT",
+		  "type": "MISSILE",
+	   },
+	   "WS0001":{
+		  "type": "MISSILE",
+	   },
+	   "WS0002":{
+		  "type": "MISSILE",
+	   },
+	   "WS0003":{
+		  "type": "BALLISTIC",
+	   },
+	   "WS0004":{
+		  "type": "BALLISTIC",
+	   },
+    },
+	"builtInMods":["missleracks","prv_ramshield_modular"],
+	"builtInWeapons":{
+	},
+	"engineSlotChanges":{
+		"0":{"style":"MIDLINE"},
+		"1":{"style":"MIDLINE"},
+		"2":{"style":"MIDLINE"},
+		"3":{"style":"MIDLINE"},
+		"4":{"style":"MIDLINE"},
+		"5":{"style":"MIDLINE"},
+		"6":{"style":"MIDLINE"},
+	},    
+}

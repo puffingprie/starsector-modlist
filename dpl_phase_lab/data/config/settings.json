@@ -1,0 +1,33 @@
+{
+	"designTypeColors": {
+		"Domain Phase Lab": [150,120,200,255],
+		"DPL Classified": [110,30,230,255],
+		"Vengeance":[200,10,30,255]
+	},
+	"graphics": {
+		"blueprint_packages": {
+			"dpl_experimental_pkg": "graphics/icons/cargo/package_phase_lab.png",
+			"dpl_navy_pkg": "graphics/icons/cargo/package_phase_lab.png",
+			"dpl_commercial_pkg": "graphics/icons/cargo/package_phase_lab.png",
+			"dpl_domain_pkg": "graphics/icons/cargo/package_phase_lab.png",
+		},
+		"characters": {
+			"eliza_lovelace": "graphics/portraits/characters/eliza_lovelace.png",
+			"elly_lovelace": "graphics/portraits/characters/elly_lovelace.png",
+			"ross_higgs": "graphics/portraits/characters/ross_higgs.png",
+			"banach_salazar": "graphics/portraits/characters/banach_salazar.png",
+			"nelson_bonaparte": "graphics/portraits/characters/nelson_bonaparte.png",
+			"vladimir_vassiliev": "graphics/portraits/characters/vladimir_vassiliev.png"
+		},
+		"illustrations":{
+			"dpl_hymn_figure":"graphics/illustrations/dpl_hymn_figure.png",
+			"dpl_mote_figure":"graphics/illustrations/dpl_mote_figure.png",
+			"dpl_bunker_figure":"graphics/illustrations/dpl_bunker_figure.png",
+			"dpl_orchestra_figure": "graphics/illustrations/dpl_orchestra_figure.png",
+			"dpl_classified_pod": "graphics/illustrations/dpl_classified_pod.png"
+		},
+	},
+	"ruleCommandPackages":[
+ 		"data.campaign.rulecmd",
+ 	],
+}

@@ -1,0 +1,64 @@
+{
+  "variantId": "mod_ht_stationship_left_standard",
+  "hullId": "mod_ht_stationship_left",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "advancedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "kineticblaster",
+        "WS0007": "kineticblaster",
+        "WS0008": "kineticblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tachyonlance",
+        "WS0003": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "guardian"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ionbeam",
+        "WS0005": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "taclaser",
+        "WS0010": "taclaser",
+        "WS0011": "taclaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

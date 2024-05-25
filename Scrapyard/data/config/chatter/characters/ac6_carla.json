@@ -1,0 +1,60 @@
+{
+	"name":"ac6_carla",
+	"personalities":["steady", "aggressive"],
+	"gender":["f"],
+	"chance":0.4,
+	"talkativeness":0.6,
+	"categoryTags":["game", "othermedia"],
+	
+	"lines":{
+		"start":[
+			{"text":"You'd better make it worth it."}
+		],
+		"start_boss":[
+			{"text":"Let's get our laughs while we can!"}
+		],		
+		"retreat":[
+			{"text":"...Well, nowhere to hide now."}
+		],
+		"out_of_missiles":[
+			{"text":"Hope you got room for more, I brough a full course meal!"}
+		],
+		"engaged":[
+			{"text":"Don't mind if I do."},
+			{"text":"You'd better make it worth it."},
+		],
+		"need_help":[
+			{"text":"Looks like you made a friend of your own."},
+		],
+		"pursuing":[
+			{"text":"Hey Tourists, having a little trouble?!"},
+			{"text":"At least stay for dessert, tourists!"}
+		],
+		"running":[
+			{"text":"Crap... We're in trouble now!"}
+		],
+		"hull_90":[
+			{"text":"You're a smart cookie aren't you?"},
+		],
+		"hull_50":[
+			{"text":"Is that all you've got?! Come on!"},
+			{"text":"Times like this... I can't help but laugh!"},
+		],
+		"hull_30":[
+			{"text":"The ship's pretty roughed up..."},
+			{"text":"You've done it now, Tourists."}
+		],
+		"overload":[
+			{"text":"You've done it now, Tourists."},
+		],
+		"death":[
+			{"text":"Gotta face the music..."},
+			{"text":"Captain... It's all you.."}
+		],
+		"victory":[
+			{"text":"...Pathetic."},
+			{"text":"Nice moves, Captain."},
+			{"text":"Oh, finished already?"}
+		]
+	}
+}

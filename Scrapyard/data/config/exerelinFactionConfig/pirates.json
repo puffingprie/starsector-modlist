@@ -1,0 +1,4 @@
+{	
+	"startShipsSuper":[["sa_twilight_custom"], ["sa_eclipse_custom"], ["sa_shoggoth_standard"]],
+    "startShipsGrandFleet":[["sa_eclipse_custom", "sa_cavern_hunter", "sa_cavern_hunter", "sa_twilight_custom", "sa_twilight_custom", "sa_penumbra_assault", "sa_murk_standard", "sa_murk_standard", "sa_gloaming_assault", "sa_gloaming_assault",]],
+}

@@ -1,0 +1,49 @@
+{
+  "variantId": "sa_monarque_beamer",
+  "hullId": "sa_monarque",
+  "displayName": "Beamer",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sa_dewpoint",
+        "WS0006": "sa_dewpoint"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "taclaser",
+        "WS0002": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "pdlaser",
+        "WS0007": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "sa_earthshaker",
+  "specClass": "projectile",
+  "projectileSpecId": "sa_gaia_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/sa_earthshaker_turret.png",
+  "turretGunSprite": "graphics/weapons/sa_earthshaker_recoil.png",
+  "hardpointSprite": "",
+  "visualRecoil": 20,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    99,
+    21,
+    99,
+    -21
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    172.5,
+    20,
+    172.5,
+    -20
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 20,
+    "particleSizeRange": 60,
+    "cloudParticleCount": 10,
+    "cloudDuration": 1,
+    "cloudRadius": 30,
+    "blowbackParticleCount": 10,
+    "blowbackDuration": 2,
+    "blowbackLength": 10,
+    "blowbackSpread": 10,
+    "particleColor": [
+      85,
+      90,
+      80,
+      245
+    ]
+  },
+  "fireSoundTwo": "shaker_fire"
+}

@@ -1,0 +1,26 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "eridani_mercury",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "eridani_mercury_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "xpulse",
+                "WS 002": "xpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "atropos"}
+        }
+    ]
+}

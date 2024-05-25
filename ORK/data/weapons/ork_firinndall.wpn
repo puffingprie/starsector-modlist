@@ -1,0 +1,49 @@
+{
+  "id": "ork_firinndall",
+  "specClass": "projectile",
+  "projectileSpecId": "ork_firinndall_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.bt_firinndall_everyframe",
+  "turretSprite": "graphics/weapons/ork_firinndall_base.png",
+  "turretGunSprite": "graphics/weapons/ork_firinndall_base_recoil.png",
+  "hardpointSprite": "graphics/weapons/ork_firinndall_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/ork_firinndall_hardpoint_recoil.png",
+  "visualRecoil": 20,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    34,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    41,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 60,
+    "particleSizeMin": 10,
+    "particleSizeRange": 30,
+    "particleDuration": 0.3,
+    "particleCount": 5,
+    "particleColor": [
+      255,
+      50,
+      50,
+      255
+    ]
+  },
+  "fireSoundOne": "beem_charge",
+  "fireSoundTwo": "melta_fire"
+}

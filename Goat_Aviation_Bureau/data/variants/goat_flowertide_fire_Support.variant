@@ -1,0 +1,48 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 2,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "goat_flowertide",
+    "hullMods": [
+        "auxiliarythrusters",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_flowertide_fire_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "autopulse"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "sabot",
+                "WS0010": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "all_goat_punish"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "all_goat_dash"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "vulcan",
+                "WS0005": "vulcan"
+            }
+        }
+    ],
+    "wings": []
+}

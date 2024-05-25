@@ -1,0 +1,51 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+Subspace Charge,prv_subspace_charge,,,prv Starworks,,,,,TRUE,TRUE,0,0,0,0,prv.corp.hullmods.prv_fragsoup_death,"A subspace-tearing charge will rip and warp space around the fighter if it is destroyed or disabled, each particle cloud dealing %s fragmentation damage per second for %s-%s seconds.",Leaks dangerous particles on death.,,graphics/prv/hullmods/prv_intangible.png
+Volatile Drive Core,prv_volatiledrivecore,,,prv Starworks,,,,,TRUE,TRUE,0,0,0,0,prv.corp.hullmods.prv_deathcloud,"Drive core breaches will tear space around the ship if it is destroyed or disabled, each particle cloud dealing %s fragmentation damage per second for %s-%s seconds.",Leaks dangerous particles on death.,,graphics/prv/hullmods/prv_intangible.png
+Gravsensor Array,prv_gudtar,,,prv Starworks,,,,,TRUE,,0,0,0,0,prv.corp.hullmods.prv_gudtar,Extends the range of ballistic and energy weapons by %s.,Extends the range of ballistic and energy weapons.,,graphics/hullmods/quantum_disruptor.png
+Ramshield,prv_ramshield,,,prv Starworks,,,,,TRUE,,0,0,0,0,prv.corp.hullmods.prv_ramshield,"Shield deployment is %s and %s wider, but quickly shrinks to its normal maximum.",Instant shield deployment.,,graphics/prv/hullmods/prv_ramshield.png
+Flux Compressor,prv_fluxcompressor,,,prv Starworks,,,,,TRUE,,0,0,0,0,prv.corp.hullmods.prv_fluxcompressor,"Firing flux-generating weapons builds compression, increasing the rate of fire of all energy weapons on the ship by up to %s. ",Increases energy weapon cost and damage.,,graphics/prv/hullmods/prv_fluxcompressor.png
+Intangible,prv_intangible,,,prv Starworks,,,,,TRUE,,0,0,0,0,prv.corp.hullmods.prv_intangible,"This ship is an integrated swarm system. Its distributed command core is %s and almost entirely %s.
+
+The nanobot cloud is very difficult to hit directly and any damage done will be absorbed as %s, only dealing physical damage if the swarm’s flux capacity is entirely used up.",This ship is not made out of solid matter.,,graphics/prv/hullmods/prv_intangible.png
+Swarm Host,prv_swarm_host,,,prv Starworks,,,,,TRUE,,0,0,0,0,prv.corp.hullmods.prv_swarm_host,This ship is a dispersed nanite cloud maintained by its fighter wings.,This ship is actually a swarm of fighters.,,graphics/prv/hullmods/prv_swarm_host.png
+prv Auxiliary,prv_auxiliary,,,prv Starworks,,,,,TRUE,,0,0,0,0,prv.corp.hullmods.prv_auxiliary,"This ship has been refit by the prv to better handle the dangers of the sector. A drive system rebuild done at the Kratul II spacewharf has minimized emissions and optimized fuel efficiency, giving an improvement of %s to both and a %s improvement to overall performance. Core power systems have also been upgraded to military standards resulting in a %s increase in flux capacity, as well as a %s increase in flux dissipation.",Improves engine and generator performance.,,graphics/prv/hullmods/prv_auxiliary.png
+Lean Hangar,prv_leanhangar,,,prv Starworks,,,,,TRUE,,0,0,0,0,prv.corp.hullmods.prv_leanhangar,Increases the rate at which the fighter replacement rate both depletes and recovers by %s.,Makes fighter replacement rate more volatile.,,graphics/prv/hullmods/prv_lean_hangar.png
+Companion Integration,prv_companion_integration,,,prv Starworks,,,,,TRUE,,0,0,0,0,prv.corp.hullmods.prv_companion_integration,Specialized command and control facilities reduce the ordnance point cost of support fighter wings by %s.,Reduces ordnance point cost of support fighters.,,graphics/prv/hullmods/prv_companion_integration.png
+Hypergenerators,prv_hypergenerators,,,prv Starworks,,,,,TRUE,,0,0,0,0,prv.corp.hullmods.prv_hypergenerators,"Adds charges equal to %s of their normal charge rate to all energy weapons once every %s seconds. 
+
+Energy weapons which do not normally recharge regain %s of their charges and a minimum of %s charge.",Periodically reloads a portion of charges for all energy weapons.,,graphics/prv/hullmods/prv_hypergenerators.png
+Irregular Axial Rotation,prv_axialrotation,,,prv Starworks,,,,,TRUE,,0,0,0,0,prv.corp.hullmods.prv_axialrotation_var,This structure constantly rotates around its axis at a varying rate and direction.,Rotates at a varied rate and direction.,,graphics/prv/hullmods/prv_axialrotation_var.png
+Gravity Minefield,prv_gravityminefield,,,prv Starworks,,,,,TRUE,,0,0,0,0,prv.corp.hullmods.prv_gravityminefield,Gravity mines attack enemy ships during battle.,Gravity mines attack enemy ships during battle.,,graphics/prv/hullmods/prv_gravity_mines.png
+Sensitive Shield Core,prv_damage_on_overload,,,prv Starworks,,,,,TRUE,,0,0,0,0,prv.corp.hullmods.prv_damage_on_overload,"Takes %s energy damage when overloaded. Overload duration is increased by up to %s, based on current hull integrity.","Takes damage when overloaded, and takes longer to recover.",,graphics/hullmods/faulty_power_grid.png
+,,,,,,,,,,,,,,,,,,,
+### Rare,,,,,,,,,,,,,,,,,,,
+Shock Detonators,prv_shockdetonators,2,,prv Starworks,"prv_lab_bp, offensive, merc",Weapons,7000,,,,3,6,9,15,prv.corp.hullmods.prv_shockdetonators,"Explosive shells fired by the ship and its fighters will deal %s damage to shields, but only inflict %s flux damage.",Explosive shells cause soft-flux energy damage to shields.,Increases the damage that affected weapons deal to shields by an additional %s.,graphics/prv/hullmods/prv_shockdetonators.png
+Gengångare Reversion Core,prv_gengangare,3,,prv Starworks,"prv_lab_bp, special",Special,11500,,,,5,10,15,25,prv.corp.hullmods.prv_gengangare,If the ship is disabled or destroyed it will perform an emergency recall of all fighters and generate %s to support them for the rest of the battle.,Spawns an integrated swarm on when disabled.,,graphics/prv/hullmods/prv_swarm_host.png
+Ramshield Adjunct,prv_ramshield_modular,3,0,prv Starworks,"prv_lab_bp, defensive",Shields,12000,,,,4,8,12,20,prv.corp.hullmods.prv_ramshield_modular,"Shield deployment is %s and %s wider, but quickly shrinks to its normal maximum.
+
+Increases the damage taken by the shield by %s.",Near-instant shield deployment.,Negates the shield damage penalty.,graphics/prv/hullmods/prv_ramshield_modular.png
+Plasma Agitators,prv_agiplasma,2,0.5,prv Starworks,"prv_lab_bp, offensive",Weapons,9000,,,,3,6,9,15,prv.corp.hullmods.prv_agiplasma,"Disharmonic guidevanes are installed in the %s of the ship and its fighters, giving much more precise control over the plasma’s discharge behavior.
+
+Instead of burning, %s agglomerations will %s after %s seconds. This %s explosion applies %s of the stored energy damage.",Spatterplasma will now explode instead of burning.,Improves the conversion rate to %s.,graphics/prv/hullmods/prv_agiplasma.png
+4D-Lensing,prv_4dlensing,2,0.5,prv Starworks,"prv_lab_bp, offensive",Weapons,7500,,,,2,4,6,10,prv.corp.hullmods.prv_4dlensing,"Enhances the effect of %s and %s-type weapons mounted on the ship and its fighters, increasing anomaly size and duration by %s and periodic damage by %s.",Improves Fräsare anomalies,"Increases periodic damage further, for a total increase of %s.",graphics/prv/hullmods/prv_4dlensing.png
+,,,,,,,,,,,,,,,,,,,
+### Standard,,,,,,,,,,,,,,,,,,,
+Arcfault Ejector,prv_arcfault_insulator,1,,prv Starworks,"defensive, merc",Defenses,3000,,,,4,8,15,25,prv.corp.hullmods.prv_arcfault_ejector,"Flux overloads are ejected as a graviton burst, reducing overload duration by %s and violently displacing targets within %s/%s/%s/%s range of the ship, depending on hull size, dealing up to %s/%s/%s/%s energy damage. 
+
+The ship will also unleash a %s more powerful graviton burst when it is destroyed.",Overloads are shortened and trigger a gravitic burst.,,graphics/prv/hullmods/prv_arcfault_insulator.png
+Hallbar Missile Plating,prv_missile_plating,2,,prv Starworks,"offensive, merc",Weapons,4500,,,,3,6,9,15,prv.corp.hullmods.prv_missile_plating,Light and hardy alloys increase the durability of all missiles launched from this ship by %s points and their top speed by %s.,Increases missile speed and durability.,Increases the durability of all missiles by an additional %s.,graphics/prv/hullmods/prv_missile_plating.png
+Flicker Core,prv_flickercore,2,,prv Starworks,"phase, merc",Phase,6000,,,,6,12,24,35,prv.corp.hullmods.prv_flickercore,"A dedicated AI is installed to manage phase coil reflux, letting the ship take advantage of an up to %s stronger time dilation effect over %s seconds on entering or leaving p-space, reduced by the current hard flux level of the ship. 
+
+The ship must remain unphased for %s seconds for the system to reset.",Increases time dilation on entering or leaving p-space.,Increases the cooldown period to %s seconds.,graphics/prv/hullmods/prv_flickercore.png
+Gravitic Anchor,prv_gravanchor,3,,prv Starworks,"special, merc",Special,9000,,,,5,10,15,25,prv.corp.hullmods.prv_gravanchor,"By generating a graviton field the ship increases its apparent mass by %s, ensuring that it has little need to fear direct contact with other ships.
+
+Additionally the ship will direct a gravitational pull towards hostile ships within %s/%s/%s range of the ship, depending on its hull size, making it more difficult for them to escape its presence. 
+
+Enemy fighter craft may be crushed against the ship’s hull.",Increases ship mass. Crushes fighters.,,graphics/prv/hullmods/prv_gravanchor.png
+,,,,,,,,,,,,,,,,,,,
+### Commissioned Crew,,,,,,,,,,,,,,,,,,,
+Command Implants,prv_comimplants,,,prv Starworks,,,,,TRUE,,0,0,0,0,prv.corp.hullmods.prv_comimplants,"Integrated cybernetics among the ship’s officers allow for instant leadership, increasing the top speed of the ship by %s, and the top speed of other ships in the fleet by %s.
+
+The implants are somewhat unstable, and officers equipped with them have been known to be irrationally timid and cautious, or, more often, aggressive and reckless. 
+
+These personality swings occur at uneven intervals with an average period of %s between shifts.",Increases fleet speed in combat and induces personality shifts.,,graphics/prv/hullmods/prv_comimplants.png

@@ -1,0 +1,63 @@
+{
+  "variantId": "prv_station3_standard",
+  "hullId": "prv_station3",
+  "displayName": "Star Fortress",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0002": "prv_module_battery1a_energy"
+    },
+    {
+      "WS0001": "prv_module_shield_center_standard"
+    },
+    {
+      "WS 007": "prv_module_hangar4_standard"
+    },
+    {
+      "WS 002": "prv_module_battery2_standard"
+    },
+    {
+      "WS 005": "prv_module_bastion1a_ballistic"
+    },
+    {
+      "WS 004": "prv_module_bastion1b_missile"
+    },
+    {
+      "WS0004": "prv_module_shield_center_standard"
+    },
+    {
+      "WS0003": "prv_module_battery1b_energy"
+    },
+    {
+      "WS0005": "prv_module_strut_standard"
+    },
+    {
+      "WS0006": "prv_module_strut_standard"
+    },
+    {
+      "WS0007": "prv_module_armor_v_standard"
+    },
+    {
+      "WS0008": "prv_module_armor_v_standard"
+    },
+    {
+      "WS0009": "prv_module_shield_center_standard"
+    },
+    {
+      "WS0010": "prv_module_armor_v_standard"
+    },
+    {
+      "WS0011": "prv_module_armor_short_standard"
+    },
+    {
+      "WS0012": "prv_module_armor_short_standard"
+    }
+  ],
+  "wings": []
+}

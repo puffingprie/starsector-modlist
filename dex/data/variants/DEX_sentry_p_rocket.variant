@@ -1,0 +1,26 @@
+{
+  "variantId": "DEX_sentry_p_rocket",
+  "hullId": "DEX_sentry_p",
+  "displayName": "Rocket",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "harpoon",
+        "WS 002": "annihilator_fighter",
+        "WS 003": "annihilator"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

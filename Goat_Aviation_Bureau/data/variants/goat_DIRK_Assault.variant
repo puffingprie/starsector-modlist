@@ -1,0 +1,25 @@
+{
+    "displayName": "Derelict",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "hullId": "goat_DIRK",
+    "hullMods": ["goat_oscillating"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_DIRK_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "amblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "goat_pdlr",
+                "WS0005": "pdburst"
+            }
+        }
+    ]
+}

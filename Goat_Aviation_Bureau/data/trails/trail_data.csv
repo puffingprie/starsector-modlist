@@ -1,0 +1,148 @@
+trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn,colorOut,opacity,textLength,textScroll,distance,dispersion,drift,fadeOnFadeOut,angleAdjustment,additive,velocityIn,velocityOut,randomVelocity,angle,rotationIn,rotationOut,randomRotation
+,,,,#淡入,#停留时间,#淡出,#靠近弹体的宽度,#反之,,,#透明度,#材质,#材质 竖直滚动速度,#提前量,#扭曲,#随机偏移宽度,#淡入淡出,#角度调整,无用,#速度,#速度,#随机速度倍数,,#波动大小,#波动大小,
+goat_pd_bashmode_trail,goat_pd_bashmode_shot,base_trail_heavySmoke,12,0.8,0.1,0.5,10,15,"[204,157,122]","[245,90,37]",0.33,0,0,150,0,0,FALSE,FALSE,TRUE,0,0,1,0,0,5,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,base_trail_smoke,6,0.2,0.1,0.6,20,20,"[227,94,63]","[249,206,90]",0.5,1000,0.5,35,5,0.9,TRUE,FALSE,TRUE,0,0,0.5,0,200,200,FALSE
+,,base_trail_weave,6,0.2,55,0.1,20,20,"[227,94,63]","[249,206,90]",0.5,1000,50,35,5,5,TRUE,FALSE,TRUE,2000,-2000,0,0,140,-280,FALSE
+,,base_trail_weave,6,0.2,0.6,0.1,20,20,"[227,94,63]","[249,206,90]",0.5,1000,50,35,5,5,TRUE,FALSE,TRUE,200,-200,0,90,400,400,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_dazzle_warhead_trail_1,goat_dazzle_warhead,base_trail_weave,6,0,0.1,0.5,5,5,"[14,189,110]","[14,189,110]",0.8,100,50,10,5,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,FALSE
+goat_dazzle_warhead_trail_2,goat_dazzle_warhead,base_trail_heavySmoke,6,0,0.1,0.8,60,20,"[26,164,182]","[26,164,182]",0.2,200,5,10,0,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,FALSE
+goat_dazzle_warhead_trail_3,goat_dazzle_warhead,base_trail_heavySmoke,6,0,0.05,0.4,40,20,"[137,238,126]","[137,238,126]",0.4,200,5,10,0,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,FALSE
+goat_dazzle_warhead_trail_4,goat_dazzle_warhead,base_trail_weave,6,0,0.05,0.1,20,15,"[42,231,26]","[42,231,26]",0.6,50,100,10,0,0,FALSE,FALSE,TRUE,0,0,0,0,20,20,FALSE
+goat_dazzle_warhead_trail_5,goat_dazzle_warhead,base_trail_heavySmoke,6,0,0.05,0,10,40,"[137,238,126]","[137,238,126]",0.9,200,5,20,0,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,FALSE
+goat_dazzle_warhead_trail_6,goat_dazzle_warhead,base_trail_smooth,6,0,0.02,0,40,30,"[238,238,238]","[238,238,238]",0.9,60,50,5,0,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_gloomy_srm_M_shoot_trail_9,goat_gloomy_srm_M_shoot,base_trail_weave,5,0.1,0.1,0.4,12,6,"[23,94,112]","[231,14,112]",0.14,100,100,0,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_dazzle_warhead_trail_1,goat_dazzle_srm,base_trail_zap,6,0,0.05,0.3,40,10,"[38,208,188]","[88,228,88]",0.9,360,50,5,0,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,FALSE
+goat_dazzle_warhead_trail_2,goat_dazzle_srm,base_trail_zap,6,0,0.05,0.1,70,40,"[238,38,188]","[208,28,208]",0.4,460,250,5,0,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,FALSE
+goat_dazzle_warhead_trail_2,goat_dazzle_srm,base_trail_weave,6,0,0.05,0.1,40,80,"[238,38,188]","[208,28,208]",0.4,460,250,5,0,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_implement_ass_trail_1,goat_implement_ass,base_trail_weave,6,0.03,0.1,0.03,15,5,"[38,38,138]","[38,138,38]",0.4,60,50,5,0,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,FALSE
+goat_implement_ass_trail_2,goat_implement_ass,base_trail_heavySmoke,6,0,0.08,0.02,25,15,"[138,38,38]","[38,38,138]",0.6,260,50,5,0,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_fire_fire_mrm1_trail_1,goat_fire_fire_mrm1,base_trail_weave,6,0,0.3,0.5,10,15,"[138,38,38]","[238,38,238]",0.3,260,50,5,0,0,FALSE,FALSE,TRUE,0,0,0.5,6,0.5,0.5,FALSE
+goat_fire_fire_mrm1_trail_2,goat_fire_fire_mrm1,base_trail_weave,6,0,0.3,0.1,15,15,"[138,38,238]","[138,38,138]",0.5,260,50,5,0,0,FALSE,FALSE,TRUE,2,2,0.5,6,3.5,3.5,FALSE
+goat_fire_fire_mrm1_trail_2,goat_fire_fire_mrm1,base_trail_zapWithCore,6,0,0.1,0.3,35,35,"[238,138,38]","[138,38,238]",0.6,260,50,5,0,0,FALSE,FALSE,TRUE,2,2,0.5,6,3.5,3.5,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_gloomy_srm_M_trail_1,goat_gloomy_srm_M,base_trail_mild,7,0,0.1,0.8,8,8,"[238,138,38]","[138,38,238]",0.2,160,50,5,40,1,FALSE,FALSE,TRUE,2,2,0.5,0,33.5,33.5,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_gloomy_srm_trail_1,goat_gloomy_srm,base_trail_zapWithCore,7,0,0.1,0.3,15,15,"[238,38,108]","[18,18,238]",0.3,460,40,5,60,0,FALSE,FALSE,TRUE,0,0,0.5,0,33.5,33.5,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_terminator_missile_proj_trail_1,goat_terminator_missile_proj,base_trail_zap,7,0,0.1,0.3,35,25,"[238,38,108]","[18,118,255]",0.4,160,40,5,0,0,FALSE,FALSE,TRUE,0,0,0.5,0,0.5,0.5,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_artichoke_mrm_trail_1,goat_artichoke_mrm,base_trail_mild,7,0,0.05,0.1,22,8,"[38,228,38]","[38,38,248]",0.3,160,50,5,80,0,FALSE,FALSE,TRUE,0,0,0.5,0,0.5,0.5,FALSE
+goat_artichoke_mrm_trail_2,goat_artichoke_mrm,base_trail_zapWithCore,7,0,0.1,0.2,8,8,"[38,38,238]","[238,38,48]",0.3,160,50,5,40,0,FALSE,FALSE,TRUE,0,0,0.5,0,0.5,0.5,FALSE
+goat_artichoke_lrm_trail_1,goat_artichoke_lrm,base_trail_heavySmoke,7,0,0.2,0.4,48,18,"[228,198,198]","[238,38,48]",0.7,160,50,5,3,0,FALSE,FALSE,TRUE,0,0,0.5,0,0.5,0.5,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_gnaw_fire_trail0,goat_gnaw1_fire,trail_encircle_goat,5,0,0.02,0.05,13,6,"[213,103,224]","[213,103,224]",1,15,20,0,0,0.2,FALSE,FALSE,TRUE,0,0,0.1,0,0,0,FALSE
+goat_gnaw_fire_trail1,goat_gnaw1_fire,base_trail_heavySmoke,5,0.01,0.01,0.04,20,10,"[255,201,212]","[192,57,221]",1,150,20,10,0,0.2,FALSE,FALSE,TRUE,0,0,0.1,0,0,0,FALSE
+goat_gnaw_fire_trail3,goat_gnaw1_fire,trail_encircle_goat,5,0,0.02,0.05,44,33,"[245,198,107]","[213,103,224]",0.6,15,20,0,0,0.2,FALSE,FALSE,TRUE,0,0,0.1,0,0,0,FALSE
+goat_gnaw_fire_trail2,goat_gnaw1_fire,base_trail_heavySmoke,5,0.01,0.02,0.01,11,11,"[145,198,207]","[75,98,237]",1,150,20,10,0,0.2,FALSE,FALSE,TRUE,0,0,0.1,0,0,0,FALSE
+goat_gnaw_fire_trail4,goat_gnaw1_fire,base_trail_weave,5,0,0.02,0.01,11,11,"[245,198,107]","[245,198,107]",1,150,20,0,0,0.2,FALSE,FALSE,TRUE,0,0,0.1,0,0,0,FALSE
+goat_gnaw_fire_trail5,goat_gnaw1_fire,base_trail_smooth,5,0.01,0.02,0.01,11,11,"[45,98,107]","[45,98,107]",0.1,150,20,0,0,0.2,FALSE,FALSE,TRUE,0,0,0.1,0,0,0,FALSE
+goat_gnaw_fire_trail6,goat_gnaw1_fire,base_trail_smooth,5,0.03,0.01,0.06,8,4,"[255,201,212]","[192,57,221]",0.5,150,20,10,0,0.2,FALSE,FALSE,TRUE,0,0,0.1,0,0,0,FALSE
+goat_gnaw_fire_trail7,goat_gnaw1_fire,base_trail_heavySmoke,5,0.03,0.01,0.14,8,4,"[255,141,212]","[222,57,71]",0.5,150,20,10,0,0.2,FALSE,FALSE,TRUE,0,0,0.1,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_bombard_ass_trail_5,goat_bombard_ass,base_trail_heavySmoke,10,0,0.1,0.008,20,2,"[238,64,62]","[236,53,17]",1,200,100,0,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_bombard_ass_trail_4,goat_bombard_ass,base_trail_heavySmoke,10,0,0.1,0.012,25,10,"[238,64,62]","[236,104,17]",0.7,50,50,0,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_bombard_ass_trail_3,goat_bombard_ass,base_trail_heavySmoke,10,0,0.1,0.1,30,15,"[236,53,17]","[72,72,72]",0.7,150,50,0,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_bombard_ass_trail_1,goat_bombard_ass,base_trail_heavySmoke,10,0,0.1,0.5,38,20,"[147,140,125]","[72,68,60]",0.3,100,50,0,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_bombard_ass_trail_2,goat_bombard_ass,base_trail_weave,5,0,0.1,0.2,10,10,"[204,157,122]","[245,90,37]",0.2,100,50,0,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_bombard_ass_trail_6,goat_bombard_ass,base_trail_weave,5,0,0.05,0,10,20,"[204,157,122]","[245,90,37]",0.9,200,50,30,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_bombard_ass_trail_7,goat_bombard_ass,trail_encircle_two_goat,5,0,0.2,0.2,25,15,"[236,53,17]","[72,72,72]",1,300,-1000,15,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_bombard_ass_trail_8,goat_bombard_ass,base_trail_heavySmoke,10,0,0.05,0,20,20,"[231,14,12]","[231,14,12]",0,200,100,0,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_bombard_ass_trail_9,goat_bombard_ass,base_trail_heavySmoke,5,0,0.1,0.4,90,60,"[231,54,12]","[231,14,12]",0.24,100,100,0,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_raise_ass_trail_1,goat_raise_ass,base_trail_heavySmoke,4,0,0.1,0.2,65,30,"[210,210,210]","[72,68,60]",0.4,200,200,10,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_raise_ass_trail_2,goat_raise_ass,base_trail_weave,4,0,0.05,0.1,15,20,"[140,150,110]","[120,120,110]",0.6,100,600,10,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_raise_ass_trail_3,goat_raise_ass,base_trail_smooth,4,0,0.1,0.2,55,110,"[140,240,210]","[72,68,60]",0.05,100,600,60,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_raise_ass_trail_4,goat_raise_ass,trail_liss_goat_2,4,0,0.1,0.1,40,25,"[140,240,210]","[140,240,210]",0.6,100,600,0,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_raise_ass_trail_5,goat_raise_ass,base_trail_smooth,4,0,0.1,0.2,95,170,"[140,240,210]","[72,68,60]",0.05,100,600,60,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_dash_ass_trail_1,goat_dash_ass,base_trail_heavySmoke,4,0,0.1,0.1,35,10,"[147,140,125]","[72,68,60]",0.3,100,200,10,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_dash_ass_trail_2,goat_dash_ass,base_trail_weave,2,0,0.1,0.05,5,2,"[113,37,191]","[113,37,191]",0.8,100,50,10,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_dash_ass_trail_3,goat_dash_ass,base_trail_heavySmoke,10,0,0.1,0.01,15,5,"[236,104,17]","[236,104,17]",0.4,50,50,10,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_dash_ass_trail_4,goat_dash_ass,base_trail_heavySmoke,10,0,0.04,0.04,22,20,"[191,37,48]","[191,37,48]",1,50,50,10,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_dash_ass_trail_5,goat_dash_ass,base_trail_heavySmoke,4,0,0.1,0.2,10,10,"[147,140,125]","[72,68,60]",0.5,100,200,-10,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_dash_ass_trail_6,goat_dash_ass,trail_encircle_two_goat,5,0,0.2,0.1,21,10,"[236,53,17]","[72,72,72]",0.7,200,100,15,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_dash_ass_trail_7,goat_dash_ass,base_trail_heavySmoke,5,0,0.2,0.1,61,40,"[213,37,91]","[72,72,72]",0.35,600,100,15,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_heavyfist_ass_1,goat_heavyfist_ass,base_trail_heavySmoke,4,0,0.05,0.2,45,10,"[247,40,225]","[72,168,160]",0.2,100,200,10,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_heavyfist_ass_2,goat_heavyfist_ass,base_trail_zapWithCore,2,0,0.04,0.06,12,6,"[213,217,251]","[213,37,221]",0.7,100,50,10,15,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_heavyfist_ass_5,goat_heavyfist_ass,trail_liss_goat_2,4,0,0.1,0.2,20,20,"[247,40,225]","[72,68,240]",0.6,100,400,-10,15,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_punch_fire_trail_1,goat_punch_fire,trail_clc_goat,6,0,0.02,0.03,15,8,"[132,49,157]","[132,49,157]",1,20,5,15,0,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,FALSE
+goat_punch_fire_trail_2,goat_punch_fire,trail_clc_goat,6,0,0.02,0.03,12,5,"[132,49,157]","[132,49,157]",1,20,5,15,0,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,FALSE
+goat_punch_fire_trail_3,goat_punch_fire,trail_clc_goat,6,0,0.02,0.03,12,5,"[132,49,250]","[132,49,157]",1,20,5,15,0,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,FALSE
+goat_punch_fire_trail_4,goat_punch_fire,trail_clc_goat,6,0,0.02,0.03,15,8,"[132,49,250]","[132,49,157]",0.5,20,5,15,0,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,FALSE
+goat_punch_fire_trail_5,goat_punch_fire,base_trail_heavySmoke,10,0,0.1,0.04,20,6,"[241,84,250]","[241,84,186]",0.1,200,50,-20,0,0.5,FALSE,FALSE,TRUE,0,0,0,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_howl_ass_trail_4,goat_howl_ass,base_trail_heavySmoke,10,0.01,0.03,0.02,20,20,"[241,84,86]","[241,84,86]",0.1,200,50,-20,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_howl_ass_trail_5,goat_howl_ass,base_trail_heavySmoke,10,0.01,0.03,0.02,22,20,"[241,84,86]","[241,84,86]",0.4,200,50,-45,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_howl_ass_trail_6,goat_howl_ass,base_trail_heavySmoke,5,0.02,0.03,0.23,22,5,"[176,62,95]","[176,62,95]",0.6,200,50,-80,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_howl_ass_trail_7,goat_howl_ass,base_trail_heavySmoke,10,0,0.03,0.05,22,15,"[118,178,171]","[118,178,171]",0.6,200,50,-20,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_howl_ass_trail_8,goat_howl_ass,base_trail_rough,10,0.03,0.1,0.18,30,5,"[133,60,79]","[133,60,79]",0.4,200,50,-55,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_howl_ass_trail_9,goat_howl_ass,base_trail_heavySmoke,10,0,0.04,0.08,45,25,"[100,106,122]","[100,106,122]",0.8,200,50,30,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_howl_ass_trail_10,goat_howl_ass,base_trail_heavySmoke,10,0,0.04,0,20,10,"[216,221,224]","[216,221,224]",1,200,50,0,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_howl_ass_trail_11,goat_howl_ass,base_trail_heavySmoke,10,0,0.04,0,20,10,"[216,221,224]","[216,221,224]",1,200,50,-10,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_howl_ass_trail_12,goat_howl_ass,trail_clc_goat,1,0.01,0.03,0.01,1,120,"[255,111,123]","[249,231,123]",0.3,8,-153,15,0,0,TRUE,TRUE,TRUE,0,0,0.1,0,0,0,FALSE
+goat_howl_ass_trail_13,goat_howl_ass,trail_clc_goat,6,0,0.01,0.21,20,20,"[249,231,123]","[133,60,79]",0.4,20,5,5,0,0,TRUE,TRUE,TRUE,0,0,0.1,0,0,0,FALSE
+goat_howl_ass_trail_14,goat_howl_ass,base_trail_heavySmoke,10,0.01,0.16,0,120,30,"[255,63,31]","[133,60,79]",0.26,200,50,10,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_purgatory_reprimand_1,goat_purgatory_reprimand,base_trail_heavySmoke,10,0,1,0.5,20,10,"[210,221,224]","[216,221,224]",0.2,200,50,0,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_purgatory_reprimand_2,goat_purgatory_reprimand,base_trail_heavySmoke,6,0,0.3,0.1,30,10,"[59,214,214]","[59,214,214]",0.5,50,5,0,0,0,TRUE,FALSE,TRUE,0,0,0.1,0,0,0,FALSE
+goat_purgatory_reprimand_3,goat_purgatory_reprimand,base_trail_weave,5,0,0.5,0.2,20,15,"[204,157,122]","[245,90,37]",0.5,100,50,20,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_purgatory_reprimand_3,goat_purgatory_reprimand,trail_clc_goat,5,0,0.2,0.5,40,10,"[223,85,37]","[223,85,37]",0.3,20,2000,20,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_purgatory_reprimand_4,goat_purgatory_reprimand,trail_encircle_two_goat,5,0,0.2,0.5,40,10,"[59,158,184]","[223,85,37]",1,200,500,20,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_purgatory_reprimand_5,goat_purgatory_reprimand,base_trail_heavySmoke,6,0,0.6,0.1,30,10,"[223,85,37]","[223,85,37]",0.5,200,50,0,0,0,TRUE,FALSE,TRUE,0,0,0.1,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_zeal_fire_trail1,goat_zeal_ass,base_trail_zapWithCore,3,0,0.03,0.35,15,10,"[106,198,132]","[106,198,132]",0.1,0,0,0,0,0.5,FALSE,FALSE,TRUE,100,100,0.2,0,0,0,FALSE
+goat_zeal_fire_trail,goat_zeal_ass,base_trail_heavySmoke,3,0,0.05,0.1,3,3,"[206,192,162]","[206,192,162]",0.9,0,0,20,0,0.5,FALSE,FALSE,TRUE,100,100,0.2,0,0,0,FALSE
+goat_zeal_fire_trai2,goat_zeal_ass,base_trail_weave,3,0.02,0.07,0,35,15,"[223,85,37]","[223,85,37]",0.4,0,0,20,0,0.5,FALSE,FALSE,TRUE,100,100,0.2,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_Pulse_detonation_trail_0,goat_Pulse_detonation,base_trail_heavySmoke,6,0.1,0.4,0.1,40,20,"[41,16,48]","[41,16,48]",0.7,200,5,-60,0,0,TRUE,FALSE,TRUE,0,0,0.5,0,0,0,FALSE
+goat_Pulse_detonation_trail_1,goat_Pulse_detonation,trail_heavySmoke_p_goat,6,0.1,0.2,0.1,70,30,"[63,24,29]","[63,24,29]",1,200,5,10,0,0,TRUE,FALSE,TRUE,0,0,0.1,0,0,0,FALSE
+goat_Pulse_detonation_trail_2,goat_Pulse_detonation,trail_heavySmoke_p_goat,6,0,0.08,0,40,70,"[63,24,29]","[63,24,29]",0.6,200,5,30,0,0,TRUE,FALSE,TRUE,0,0,0.1,0,0,0,FALSE
+goat_Pulse_detonation_trail_3,goat_Pulse_detonation,trail_clc_goat,6,0,0.01,0.05,30,30,"[240,122,60]","[240,122,60]",1,20,5,15,0,0,TRUE,FALSE,TRUE,0,0,0.1,0,0,0,FALSE
+goat_Pulse_detonation_trail_4,goat_Pulse_detonation,trail_heavySmoke_p_goat,6,0,0.1,0.2,40,20,"[253,136,69]","[210,71,16]",0.6,200,5,10,0,0,TRUE,FALSE,TRUE,0,0,0.1,0,0,0,FALSE
+goat_Pulse_detonation_trail_5,goat_Pulse_detonation,trail_wa_goat,5,0,0.1,0,25,15,"[240,122,60]","[253,127,76]",2,400,5,10,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_Pulse_detonation_trail_6,goat_Pulse_detonation,trail_liss_goat_1,5,0,0.05,0,30,30,"[240,122,60]","[253,127,76]",1,200,5,30,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_Pulse_detonation_trail_7,goat_Pulse_detonation,trail_wa_goat,5,0.05,0.02,0.05,25,15,"[144,59,90]","[100,48,60]",1,400,5,-25,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_Pulse_detonation_trail_8,goat_Pulse_detonation,trail_wa_goat,5,0.05,0.05,0.1,25,15,"[144,59,90]","[100,48,60]",1,400,5,-25,0,0.5,TRUE,FALSE,TRUE,0,0,0.8,0,0.01,0.01,FALSE
+goat_Pulse_detonation_trail_9,goat_Pulse_detonation,trail_clc_goat,6,0,0.01,0.05,30,30,"[249,231,123]","[249,231,123]",1,20,5,15,0,0,TRUE,TRUE,TRUE,0,0,0.1,0,0,0,FALSE
+goat_Pulse_detonation_trail_10,goat_Pulse_detonation,trail_clc_goat,6,0,0.01,0.05,30,30,"[249,231,123]","[249,231,123]",1,20,5,15,0,0,TRUE,TRUE,TRUE,0,0,0.1,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_lash_ass_trail,goat_lash_ass,trail_block_goat,3,0,0.09,0,10,10,"[245,90,37]","[245,90,37]",1,200,200,-50,200,20,FALSE,FALSE,TRUE,-2000,-500,0.2,0,-200,-200,FALSE
+goat_lash_ass_trail_1,goat_lash_ass,trail_block_goat,3,0,0.1,0.1,15,15,"[245,90,37]","[245,90,37]",1,100,200,20,0.1,1,FALSE,FALSE,TRUE,0,0,1,0,0,0,FALSE
+goat_lash_ass_trail_2,goat_lash_ass,trail_block_goat,3,0,0.1,0,20,20,"[245,90,37]","[245,90,37]",0.1,200,200,0,20,20,FALSE,FALSE,TRUE,-500,-500,0.2,0,200,200,FALSE
+goat_lash_ass_trail_3,goat_lash_ass,base_trail_heavySmoke,3,0,0.1,0.2,5,5,"[129,82,184]","[129,82,184]",0.6,200,200,0,0,1,FALSE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_lash_ass_trail_4,goat_lash_ass,base_trail_heavySmoke,3,0,0.06,0,10,55,"[41,36,56]","[41,36,56]",0.6,200,200,25,0,1,FALSE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_lash_ass_trail_5,goat_lash_ass,base_trail_heavySmoke,3,0,0.03,0.03,35,15,"[255,126,68]","[255,126,68]",1,200,200,0,0,1,FALSE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_lash_ass_trail_6,goat_lash_ass,trail_contrail_goat,3,0,0.05,0.1,11,5,"[255,126,68]","[129,82,184]",0.8,200,200,0,0,1,FALSE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_lash_ass_trail_7,goat_lash_ass,base_trail_heavySmoke,3,0,0.06,0,55,20,"[41,36,56]","[41,36,56]",0.6,200,200,0,0,1,FALSE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_lash_ass_trail_8,goat_lash_ass,base_trail_heavySmoke,3,0,0.1,,9,9,"[255,126,68]","[255,126,68]",1,200,200,0,0,1,FALSE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_fire_b_ass_trail,goat_fire_b_ass,base_trail_heavySmoke,10,0,0.1,0.008,10,2,"[236,53,17]","[236,53,17]",1,200,100,20,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_fire_b_ass_trail1,goat_fire_b_ass,base_trail_heavySmoke,10,0,0.1,0.012,15,5,"[236,53,17]","[236,104,17]",0.7,50,50,20,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_fire_b_ass_trail2,goat_fire_b_ass,base_trail_heavySmoke,10,0,0.1,0.1,20,10,"[236,53,17]","[72,72,72]",0.7,150,50,20,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_fire_b_ass_trail4,goat_fire_b_ass,base_trail_weave,5,0,0.1,0.2,5,8,"[204,157,122]","[245,90,37]",0.2,100,50,20,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_diiscipline_ass_trail,goat_diiscipline_ass,base_trail_heavySmoke,10,0,0.05,0.4,15,8,"[204,157,122]","[247,231,156]",0.7,200,100,20,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_diiscipline_ass_trail1,goat_diiscipline_ass,base_trail_heavySmoke,10,0,0.05,0.008,10,10,"[236,53,17]","[236,53,17]",1,200,100,0,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_diiscipline_ass_trail2,goat_diiscipline_ass,base_trail_heavySmoke,20,0,0.05,0.2,20,10,"[204,157,122]","[247,231,156]",1,200,100,20,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_diiscipline_ass_trail3,goat_diiscipline_ass,base_trail_weave,3,0,0.05,0.08,25,15,"[49,13,164]","[62,31,164]",0.9,200,200,30,0,1,FALSE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_diiscipline_ass_trail4,goat_diiscipline_ass,trail_clc_goat,6,0,0.01,0.05,45,30,"[49,13,164]","[62,31,164]",1,20,50,15,0,0,TRUE,TRUE,TRUE,0,0,0,0,0,0,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+goat_mjolnir_ass_trail,goat_mjolnir_ass,base_trail_heavySmoke,10,0,0.05,0.4,15,8,"[204,157,122]","[247,231,156]",0.7,200,100,20,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_mjolnir_ass_trail1,goat_mjolnir_ass,base_trail_heavySmoke,10,0,0.05,0.008,10,10,"[236,53,17]","[236,53,17]",1,200,100,0,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_mjolnir_ass_trail2,goat_mjolnir_ass,base_trail_heavySmoke,20,0,0.05,0.2,20,10,"[228,140,46]","[228,140,46]",1,200,100,20,0,0.5,TRUE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_mjolnir_ass_trail3,goat_mjolnir_ass,base_trail_weave,3,0,0.05,0.08,35,25,"[49,13,164]","[62,31,164]",0.9,200,200,30,0,1,FALSE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_mjolnir_ass_trail4,goat_mjolnir_ass,trail_clc_goat,6,0,0.01,0.05,45,30,"[49,13,164]","[62,31,164]",1,20,50,15,0,0,TRUE,TRUE,TRUE,0,0,0,0,0,0,FALSE
+goat_mjolnir_ass_trail5,goat_mjolnir_ass,base_trail_weave,3,0,0.05,0.08,35,25,"[49,13,164]","[62,31,164]",0.2,200,200,30,0,1,FALSE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_mjolnir_ass_trail6,goat_mjolnir_ass,base_trail_weave,3,0.1,0.05,0.1,45,15,"[228,140,46]","[228,140,46]",0.4,200,200,30,0,1,FALSE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE
+goat_mjolnir_ass_trail7,goat_mjolnir_ass,base_trail_weave,3,0,0.1,0,10,45,"[228,140,46]","[228,140,46]",0.4,200,200,60,0,1,FALSE,FALSE,TRUE,0,0,0.2,0,0,0,FALSE

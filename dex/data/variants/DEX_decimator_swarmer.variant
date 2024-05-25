@@ -1,0 +1,47 @@
+{
+  "variantId": "DEX_decimator_swarmer",
+  "hullId": "DEX_decimator",
+  "displayName": "Mass Fire",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "multineedler",
+        "WS0002": "multineedler",
+        "WS0003": "multineedler",
+        "WS0004": "multineedler",
+        "WS0005": "multineedler",
+        "WS0006": "flak",
+        "WS0007": "flak",
+        "WS0008": "flak",
+        "WS0009": "flak",
+        "WS0013": "lightdualmg",
+        "WS0014": "harpoonpod",
+        "WS0015": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "lightdualmg",
+        "WS0011": "lightdualmg",
+        "WS0012": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

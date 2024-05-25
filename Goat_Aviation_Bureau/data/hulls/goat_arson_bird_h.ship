@@ -1,0 +1,219 @@
+{
+  "hullName": "rson_bird_h",
+  "hullId": "goat_arson_bird_h",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/goat/ships/arson_bird/arson_bird_h.png",
+  "style": "GOAT_TECH",
+  "height": 116,
+  "width": 86,
+  "center": [43, 48],
+  "collisionRadius": 108,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 101.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "goat_hullstyle",
+	"civgrade"
+  ],
+  "builtInWeapons": {
+    "WS0007": "blinker_goat_white",
+    "WS0008": "blinker_goat_white",
+    "WS0009": "blinker_goat_white_fast",
+    "WS0010": "blinker_goat_white_fast"
+  },
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-26, 16.5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-24, 14]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 335,
+      "angle": 180,
+      "locations": [-15, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 28,
+      "angle": 139,
+      "locations": [-26.5, 29]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 28,
+      "angle": -139,
+      "locations": [-26.5, -29]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 28,
+      "angle": 88,
+      "locations": [-19, 31]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 28,
+      "angle": -88,
+      "locations": [-19, -31]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 28,
+      "angle": 65.5,
+      "locations": [-13.5, 31]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 28,
+      "angle": -65.5,
+      "locations": [-13.5, -31]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 28,
+      "angle": 71.5,
+      "locations": [2, 39.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 28,
+      "angle": 0,
+      "locations": [26, -27.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 28,
+      "angle": 0,
+      "locations": [67.5, -12.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 28,
+      "angle": 180,
+      "locations": [2.5, -39.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50.5, -0],
+      "length": 59.5,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "GOAT_TECH_crystal"
+    },
+    {
+      "location": [-48, -0],
+      "length": 46,
+      "width": 37,
+      "angle": 180,
+      "contrailSize": 37,
+      "style": "GOAT_TECH_crystal_out"
+    },
+    {
+      "location": [-43.5, 21],
+      "length": 28.5,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "GOAT_TECH_crystal_out"
+    },
+    {
+      "location": [-43.5, -21],
+      "length": 28.5,
+      "width": 32,
+      "angle": -180,
+      "contrailSize": 32,
+      "style": "GOAT_TECH_crystal_out"
+    },
+    {
+      "location": [-46.5, 21],
+      "length": 49.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "GOAT_TECH_crystal"
+    },
+    {
+      "location": [-46.5, -21],
+      "length": 49.5,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "GOAT_TECH_crystal"
+    }
+  ],
+  "bounds": [
+    -47.5, -15.5,
+    -29, -19,
+    -44, -23,
+    -44.5, -35.5,
+    -19.5, -38,
+    -19, -42.5,
+    -6, -42.5,
+    -4, -34,
+    3, -61,
+    39, -44,
+    45.5, -19,
+    42, -17.5,
+    42, 1.5,
+    45.5, 3,
+    39, 28,
+    3, 45,
+    -4, 18,
+    -6, 26.5,
+    -19, 26.5,
+    -19.5, 22,
+    -44.5, 19.5,
+    -44, 7,
+    -29, 3,
+    -47.5, -0.5
+  ]
+}

@@ -1,0 +1,65 @@
+{
+    "displayName": "火力支援",
+    "fluxCapacitors": 40,
+    "fluxVents": 24,
+	"goalVariant": true,
+    "hullId": "goat_sword_power_smart_mind_of_aris_pro_supermax_NB01",
+    "hullMods": [
+        "converted_hangar",
+        "goat_oscillating",
+        "goat_pointdefense",
+        "goat_overloadcircuit",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_sword_power_smart_mind_of_aris_pro_supermax_NB01_Fire_Support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0017": "squall"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "heatseeker",
+                "WS0002": "heatseeker",
+                "WS0007": "heatseeker",
+                "WS0008": "heatseeker",
+                "WS0009": "heatseeker",
+                "WS0010": "heatseeker"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "all_goat_dazzle_m",
+                "WS0014": "all_goat_dazzle_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "all_goat_lash",
+                "WS0012": "all_goat_lash",
+                "WS0018": "all_goat_lash"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "flak",
+                "WS0004": "flak"
+            }
+        }
+    ],
+    "wings": [
+        "lpc_goat_redroof_wing",
+        "lpc_goat_redroof_wing"
+    ]
+}

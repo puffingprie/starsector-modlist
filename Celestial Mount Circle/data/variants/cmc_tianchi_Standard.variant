@@ -1,0 +1,77 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 16,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "cmc_tianchi",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "missleracks",
+        "ballistic_rangefinder"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "cmc_tianchi_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0017": "cmc_dragonfly_launcher"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0018": "gorgon",
+                "WS0019": "gorgon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "squall",
+                "WS0014": "squall"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0020": "gorgon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "cmc_clarity_hellbore",
+                "WS0016": "cmc_clarity_hellbore"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightac",
+                "WS0002": "lightac",
+                "WS0003": "lightac",
+                "WS0004": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "mininglaser",
+                "WS0006": "mininglaser",
+                "WS0007": "mininglaser",
+                "WS0008": "mininglaser",
+                "WS0009": "mininglaser",
+                "WS0010": "mininglaser",
+                "WS0011": "mininglaser",
+                "WS0012": "mininglaser"
+            }
+        }
+    ],
+    "wings": ["xyphos_wing"]
+}

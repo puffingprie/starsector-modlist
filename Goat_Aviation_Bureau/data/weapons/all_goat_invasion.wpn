@@ -1,0 +1,73 @@
+{
+  "id": "all_goat_invasion",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "everyFrameEffect": "data.scripts.weapons.goat_InvasionEveryFrameEffect",
+  "turretSprite": "graphics/goat/weapons/energy/goat_invasion/goat_invasion.png",
+  "turretGlowSprite": "graphics/goat/weapons/energy/goat_invasion/goat_invasion_glow.png",
+  "turretUnderSprite": "graphics/goat/weapons/energy/goat_invasion/goat_invasion_base.png",
+  "hardpointSprite": "graphics/goat/weapons/energy/goat_invasion/goat_invasion.png",
+  "hardpointGlowSprite": "graphics/goat/weapons/energy/goat_invasion/goat_invasion_glow.png",
+  "hardpointUnderSprite": "graphics/goat/weapons/energy/goat_invasion/goat_invasion_base.png",
+  "glowColor": [
+    119,
+    98,
+    157,
+    210
+  ],
+  "hitGlowRadius": 60,
+  
+  "turretOffsets": [
+    14,
+    0
+  ],
+  
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    22.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    152,
+    128,
+    221,
+    185
+  ],
+  "coreColor": [
+    243,
+    248,
+    222,
+    205
+  ],
+  "width": 45,
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 80,
+    "spread": 48,
+    "particleSizeMin": 5,
+    "particleSizeRange": 8,
+    "particleDuration": 0.1,
+    "particleCount": 40,
+    "particleColor": [
+      60,
+      205,
+      190,
+      35
+    ]
+  },
+  "textureType": [
+    "graphics/goat/fx/goatbeamfringec_invasion.png",
+    "graphics/goat/fx/goatbeamfringec_invasion1.png"
+  ],
+  "textureScrollSpeed": 606,
+  "pixelsPerTexel": 1,
+  "fireSoundOne": "all_goat_invasion_fire1"
+}

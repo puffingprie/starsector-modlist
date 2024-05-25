@@ -1,0 +1,28 @@
+{
+  "variantId": "dpl_tenoroon_standard",
+  "hullId": "dpl_tenoroon",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "advancedoptics",
+    "dpl_energy_rangefinder"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "phasebeam",
+        "WS0002": "phasebeam",
+        "WS0003": "tachyonlance"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

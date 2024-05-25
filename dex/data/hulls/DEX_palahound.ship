@@ -1,0 +1,90 @@
+{
+  "hullName": "Palahound",
+  "hullId": "DEX_palahound",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/DEX_palahound.png",
+  "style": "LOW_TECH",
+  "height": 102,
+  "width": 71,
+  "center": [18.5, 46.5],
+  "collisionRadius": 40,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 61,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -45,
+      "locations": [-6.5, -18.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 55,
+      "angle": 0,
+      "locations": [40.5, -26.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [38.5, -11.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-23.5, -17.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-43.5, -16],
+      "length": 130,
+      "width": 37,
+      "angle": 180,
+      "contrailSize": 37,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-41.5, 5.5],
+      "length": 78,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-43.5, -44.5],
+      "length": 78,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    51, -36.5,
+    32, 12,
+    -44, 12.5,
+    -44, -52,
+    -2, -50.5,
+    1.5, -36
+  ]
+}

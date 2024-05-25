@@ -1,0 +1,28 @@
+{
+	"id":"dpl_hydraulis_notes",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"mountTypeOverride":"SYNERGY",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/weapons/dpl_hydraulis_notes_turret_base.png",
+	"hardpointSprite":"graphics/weapons/dpl_hydraulis_notes_hardpoint_base.png",
+	"renderHints":["RENDER_BARREL_BELOW"],
+	"turretOffsets":[10, 5.5, 10, 3.5, 10, 1.5, 10, -1.5, 10, -3.5, 10, -5.5],
+	"turretAngleOffsets":[0,0,0,0,0,0],
+	"hardpointOffsets":[6, 5.5, 6, 3.5, 6, 1.5, 6, -1.5, 6, -3.5, 6, -5.5],
+	"hardpointAngleOffsets":[0,0,0,0,0,0],
+	"specialWeaponGlowWidth":10,
+	"specialWeaponGlowHeight":30,
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"separateRecoilForLinkedBarrels":true,
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":0.0,
+					   "particleSizeMin":7.0,
+					   "particleSizeRange":7.0,
+					   "particleDuration":0.2,
+					   "particleCount":12,
+					   "particleColor":[255,255,255,175]},
+	"projectileSpecId":"dpl_note_shot",  # projectile that will be fired
+	"fireSoundTwo":"reaper_fire",
+}

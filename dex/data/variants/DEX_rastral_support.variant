@@ -1,0 +1,72 @@
+{
+  "variantId": "DEX_rastral_support",
+  "hullId": "DEX_rastral",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 28,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "ionbeam",
+        "WS0002": "ionbeam",
+        "WS0003": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "ioncannon",
+        "WS 008": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pdlaser",
+        "WS 002": "pdlaser",
+        "WS 003": "pdlaser",
+        "WS 004": "pdlaser",
+        "WS 005": "pdlaser",
+        "WS 015": "guardian"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 013": "pulselaser",
+        "WS 014": "pulselaser",
+        "WS 023": "pulselaser",
+        "WS 024": "pulselaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 011": "pilum_large",
+        "WS 012": "pilum_large"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "spark_wing",
+    "spark_wing",
+    "lux_wing",
+    "lux_wing",
+    "spark_wing",
+    "lux_wing"
+  ]
+}

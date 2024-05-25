@@ -1,0 +1,31 @@
+{
+    "displayName": "支援",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "goat_forgotten_sun",
+    "hullMods": [
+        "heavyarmor",
+        "targetingunit",
+        "goat_oscillating"
+    ],
+    "modules": [{"WS0002": "goat_forgotten_sun_a_variant"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_forgotten_sun_Fire_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "all_goat_diiscipline"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "all_goat_grasp",
+                "WS0003": "all_goat_grasp"
+            }
+        }
+    ]
+}

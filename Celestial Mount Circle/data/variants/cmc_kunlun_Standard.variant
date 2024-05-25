@@ -1,0 +1,87 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 26,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "cmc_kunlun",
+    "hullMods": [
+        "targetingunit",
+        "heavyarmor",
+        "missleracks",
+        "ballistic_rangefinder"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "cmc_kunlun_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0025": "cmc_tpc",
+                "WS0026": "cmc_tpc",
+                "WS0027": "cmc_tpc",
+                "WS0028": "cmc_tpc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0024": "cmc_dragonfly_launcher"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "gorgon",
+                "WS0004": "gorgon",
+                "WS0005": "gorgon",
+                "WS0006": "gorgon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0017": "heatseeker",
+                "WS0018": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightac",
+                "WS0002": "lightac",
+                "WS0009": "lightac",
+                "WS0010": "lightac",
+                "WS0021": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0022": "devastator",
+                "WS0023": "devastator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "mininglaser",
+                "WS0008": "mininglaser",
+                "WS0011": "mininglaser",
+                "WS0012": "mininglaser",
+                "WS0013": "mininglaser",
+                "WS0014": "mininglaser",
+                "WS0015": "vulcan",
+                "WS0016": "vulcan",
+                "WS0019": "vulcan",
+                "WS0020": "vulcan"
+            }
+        }
+    ],
+    "wings": []
+}

@@ -1,0 +1,224 @@
+id,type,text1,text2,text3,notes
+Goat_Aviation_Bureau,FACTION,"After a tortuous evacuation and difficult development, the Aviation Bureau finally settled in the periphery of the core worlds; restoring two ruined space stations to build up their strength. They don't know how far they can go, but the Aviation Bureau is confident that it will establish a foothold in the Sector.",,,
+,,,,,
+station_GAB11_suihen,CUSTOM,"A research station with a high-speed orbit. After Babel Station was reactivated, it was transformed into a defensive station in order to lessen overpopulation while also strengthening the system's defenses.",,,
+station_GAB11_yuanjiang,CUSTOM,"A large space station that was built before the Collapse, but was forced to shut down as a result of it. It was not until the Aviation Bureau arrived in the Sector that simple maintenance was performed, restoring the station to operation. However, the Aviation Bureau underestimated the impact of exceeding the population limit by an order of magnitude: in under 50 cycles, the station's ecosystem was all but destroyed. The life support was so polluted it was nigh-unbreathable, with inhabitants requiring to wear respirators even in their sleep. The large ring of debris surrounding the station also became problematic due to becoming a safe haven for pirates and other extralegal activities. All this and more has forced the authorities to deport the population, barely keeping the station afloat at the cost of Mindscar Station's self-sufficiency. For better or worse, the Luddic Church has declared this state of being a ""divine punishment"": sparing the station from the risk of being destroyed by a Luddic warfleet.",,,
+,,,,,
+planet_Huitzilopochtli,CUSTOM,"This celestial object was created during a nova event. When the blue giant began to react, it threw off a large amount of gas and formed this unstable object. It is close to critical mass and could react at any time to form a new star.",,,
+planet_Fomalhaut,CUSTOM,"A captured gas giant, its special color fascinated the aviation bureau and was planned as a tourist destination. After the Collapse, the plans were hastily terminated and the beautiful planet continued to silently rotate in the system.",,,
+,,,,,
+#Ships,,,,,
+,,,,,
+goat_CROWN,SHIP,"An incredibly versatile and powerful cruiser, the Luminary-class cruiser was intended as Saxton Shipyards' flagship design, capable of ruthlessly destroying fighters and warships alike. Thanks to its mighty reactor and efficient shields, it is a master of both offense and defense.
+
+The design team in charge of developing this cruiser carried out an in-depth analysis of the Tidal Grid and graviton technologies to further optimize the cruiser's performance, allowing it to boast a state-of-the-art flux grid even by pre-Collapse standards, giving it impressive combat performance. With high speed as well as precision long-range weaponry, it is able to strike quickly and ensure victory: simultaneously, sufficiently redundant subsystems provide reliability and safety for the ship's crew.
+
+The Brightcrown-class cruiser is undoubtedly a modern, high-quality ship that was the backbone of the Aviation Bureau's navy.
+",,,
+goat_TOWER,SHIP,"A highly capable and reliable battlefield bulwark. Its highly complex shield system, making extensive use of graviton technology, makes the Amore-class cruiser a nigh-invincible battlefield protector, with combat endurance and defense capabilities exceeding most capital ships.
+
+Although this cruiser requires a great deal of tedious maneuvering to break away from the battlefield to dissipate its built-up flux, it has plenty of space available for modification to alleviate this issue. Saxton also reccomended that fleets should have a sufficient number of other ships to cover the Amore while it vents.
+
+In addition to its powerful shields, the Amore posssesses a powerful set of defensive weapons capable of clearing out smaller targets by itself, making it less vulnerable to being caught alone. All of these traits make it a highly advanced and reliable ship, a master of defense with capable offense; an excellent choice for any fleet.",,,
+goat_FLY,SHIP,"The Lightray-class destroyer was a collaborative effort by both Saxton Shipyards and the Goathead Aviation Bureau. A high-speed ship designed for surgical strikes, the two companies' proprietary techonologies grant it improved shields and engines, while also being outstanding performance in assault and pursuit with its diverse weapon layout.
+
+A combination of Goathead's preference for high speed and firepowe with Saxton's doctrine of highly efficient heavy shielding, resulting in an all-purpose ship powerful in both attack and defense. Its flux grid is specially designed to provide sustained, powerful damage from its energy weapons. Its highly-tuned engines allow it to perform assault and pursuit at breakneck speed, making the Lightray very useful in a constantly-shifting battle.
+
+In short, the Lightray-class destroyer is an efficient, powerful, reliable, and versatile ship using advanced technologies to earn it an important role in modern fleets, while reflecting Saxton Shipyards' philosophy of designing high-quality ships that are individually powerful.",,,
+goat_DIRK,SHIP,"The Noon-class frigate is focused on drawing fire away from larger vessels, destroying other frigates, and responding to gaps in a battle line.
+
+Efficient shields and polarized offer the Noon heavy defenses, allowing it to draw enemy fire away from other ships while still being able to provide fire support. And unlike some other offensive/defensive-focused frigates, it still possesses excellent maneuverability, allowing it to quickly break through hostile formations in order to draw fire while attacking them, in addition to the speedy capture of battlefield objectives.",,,
+goat_THRONE,SHIP,"The Umbra-class cruiser is a top-of-the-line ship by the standards of the Sector, with mighty firepower and an aggressive flux grid, making it a considerable threat to even the largest targets.
+
+Like other Saxton Shipyards designs, the Umbra was designed as a high-quality, powerful single ship: a cruiser designed for ruthlessly efficient firepower, its high speed and flexible loadout allows it to quickly adapt to changing battle situations while retaining a reasonable maintenance profile. Its advanced flux grid allows it to provide a constant stream of devastating firepower.",,,
+goat_AWL,SHIP,"The Starlight-class frigate is a tiny carrier specializing in establishing air superiority, inhibiting enemy ships, and providing fire support.
+
+Its design is focused on protracted battles: armed with a powerful fire control system and a large number of drones, the Starlight can strike at long range while providing fighter superiority.",,,
+,,,,,
+goat_evil_gaze,SHIP,This class of battleship dates back to the founding of the Aviation Bureau and has been in service even longer than the ancient Onslaught. Goathead's engineers have retrofitted her with a number of modernizations to get this behemoth of old to fire up its engines once more.,,,
+goat_cagepot,SHIP,"A rugged troop carrier that provides efficient landing bays while transporting huge numbers of soldiers. Because of the removal of most superfluous facilities, the Cagepot-class has heavy armor, but captains who attempt to use it as a front-line ship will likely die when their marines rebel.",,,
+goat_insulator,SHIP,"As a superior replacement for the Ox, the Whalestone-class carries a huge and sophisticated drive field stabilizer, which allows it to constrain a more compatible polygonal drive bubble, providing a more stable drive environment while dampening drive bubble agitation accordingly.
+
+As a ship jointly developed by the Aviation Bureau and another corporation, it appears that a similar ship has also been released.",,,
+goat_immortality,SHIP,"""The long-lived has passed away, but lives on as the undead."" The sizeable armaments and efficient shipboard system possessed by the Immortality-class allows it to easily crush anything before it, while integrating a large number of proprietary Aviation Bureau technologies with multiple iterations of armor ratios. All of this has given her an unassailable position in the Goathead doctrine and even when compared to battleships Sector-wide.
+
+At the beginning of the Immortality's design, it was used as a bid against the Onslaught; and was redesigned after failing to prove itself superior. After re-adapting the Spiral Horn Device, reorganizing the weapon grid and introducing the dual-core system, the Immortality began to break away from the shadow of the Onslaught and became capable of ludicrous levels of firepower. To better serve this purpose, the designers completely abandoned the idea of efficient shields and maneuvering systems, making it a rugged, violent slaughterer.
+
+It has been used by the Aviation Bureau to this day, and despite the production of more specialized or generalist ships, or the turmoil within and outside the Bureau, the Immortality remains a solid and reliable fleet anchor in the Bureau's fleet.",,,
+goat_immortality_mod,SHIP,"""A silent wasteland filled with corpses."" The Desolation-class battleship inherits the same mighty firepower as its predecessor, and can quickly shred most ships with focused fire, but the removal of the Spiral Horns and a considerable amount of armor has resulted in considerably worsened flux statistics and durability, forcing it to rely on escorts.
+
+While appearing to be a modification of the Immortality-class battleship, the Desolation was actually developed alongside that ship. Unlike the Immortality's focus on massive firepower, the Desolation was designed with one thing in mind: the market's need for a low-cost heavy warship. As a result, most of the ""unnecessary"" subsystems utilized by the former were omitted: even such core technologies as sub-composite armor and phase generators, greatly reducing the ship's maintenance requirements.
+
+Despite this, the ship's designer Telfay-Deleph thought ahead and made sure that the Desolation retained adequate firepower and comprehensive redundant subsystems, so that the ship would not become excessively streamlined and thus rendered impractical to maintain, or vulnerable to some of the stronger ships it may face.
+
+
+It has been used by the Aviation Bureau to this day, and despite the production of more specialized or generalist ships, or the turmoil within and outside the Bureau, its predecessor remains a solid and reliable fleet anchor, and the Desolation-class battleship continues to be a sturdy, reliable mainstay of the Bureau's fleets.",,,
+goat_whorehouse,SHIP,"A huge combat carrier, the Infallible-class was the Aviation Bureau's earliest design, entering service when fighter-centric doctrine was on the rise. To this day, its fierce fighter deployment capabilities continue to prove that the sun has not yet set on it.",,,
+goat_sword_power_smart_mind_of_aris_pro_supermax_NB01,SHIP,"The Blademaster-class battlecruiser is highly mobile and powerful, with a special hull configuration that grants it impressive tactical flexibility. Many fleet commanders favor using one as their flagship.
+
+The Blademaster was created during the lead-up to the Aviation Bureau's fourth technological revolution, with clear ancestry to more streamlined hulls, and a combat style markedly different from older ships: with capacity for both heavy armament and heavy modification. But unsurprisingly, this once again came at the cost of defensive systems. While this makes the Blademaster falter when faced with other capital ships, it nonetheless tends to be much more oppressive on an enemy fleet than vice versa.",,,
+,,,,,
+goat_flowertide,SHIP,"The Flowertide is good at using its high speed to rush into the battlefield, destroying enemy ships, shattering young people's dreams of domination, and causing massive amounts of property damage; then retreating intact with its powerful tactical system. It is the unknown; making the fear of the unknown return to the world.
+
+It was billed as the most stable high-speed cruiser in the sector, but during the prototype's liftoff, a sudden shutdown of her drive stabilizers caused it to crash into the dockyard, resulting in a major safety incident that killed up to 300 people. Subsequently, the designer, Telfay-Deleph, was executed for revealing secrets: but that didn't stop it from going into mass production. It was put into battle as a cheap and fast line ship.
+
+There aren't many surviving Flowertides, but you can see them in some of the Bureau's elite fleets.
+",,,
+goat_Boxer,SHIP,"Brutal and destructive. As the prototype of the Dominator, the Ironfist-class was designed to use its high-speed burst of firepower to shred everything in its path. 
+
+As a product of the same design period as the Dominator, the early Ironfist prototypes underwent several modifications and received a number of extremely radical design iterations. The result is a commercially available one that is somewhat different from the current Dominator. Also, these modifications made it far more expensive than the Dominator, which resulted in it not being loved by the Hegemony military.
+
+Of course, that didn't stop it from being sold at Goathead's drydocks, because these stupid executives needed a warship that was fancy yet impractical...",,,
+goat_midnight_book,SHIP,"The highly integrated frontal weapons array coupled with an overbuilt propulsion unit foreshadows this ship's high burst potential. With its high speed, it can easily roam the battlefield to take care of annoying flies or save expensive assets that are about to be wrecked.
+
+Like its big brother, this extreme design is also the work of Telfay-Deleph: it's a relief to know that it has not had a single safety incident since the prototype's test flight.",,,
+goat_midnight_tea,SHIP,"A more range-focused counterpart to the Nighttime Book, it fills the exact opposite role of its sibling, with powerful long-range support provided by its targeting matrix while maintaing a powerful drive system, allowing it to strike at any target, from any distance.
+
+Like its big brother, this extreme design is also the work of Telfay-Deleph: it's a relief to know that it has not had a single safety incident since the prototype's test flight; in fact, this modified version has become synonymous with safety.",,,
+goat_stringwind,SHIP,"The Windchime-class was chosen to be a more stable solution for long-haul shipping. It maximizes its fuel storage at the cost of nearly everything, whether it be armoring, engines, or weapons; but still has sufficient flexibility for the insatiable captain to modify it further.",,,
+goat_ironpavilion,SHIP,"A tough and reliable carrier, based on an unmanned salvage ship design.",,,
+goat_goatbone_scholar,SHIP,"""Today's lesson; DEATH!"" This mad cruiser was designed around the Spiral Horn Device. Extremely flux-efficient and devastating ordnance allow it to easily tear apart anything that makes the mistake of lingering in front of it.",,,
+goat_forgotten_sun,SHIP,"This ship was originally in the process of being designed before the Collapse to provide a more heavily-armed alternative to the Dominator, but after its propulsion system was completed and the structural integrity was upgraded, the Collapse made it impossible for the designers to get further guidance: the Aviation Bureau had to complete this crazy sun-beast design by itself. This left it with a rather haphazard frontal armor loadout.",,,
+goat_sails,SHIP,"An older model of ship, its heavily-automated design allows it to benefit from both strong armor and minimal crew requirements. As the most rugged and easy-to-maintain cruiser utilized by the Aviation Bureau, it is frequently used as a defensive escort in transport fleets.",,,
+goat_hillshade,SHIP,"As an inaugural design of its design methodology, though it does not carry the iconic Induction Thrusters, its noteworthy armor levels and high cost effectiveness accurately portray the Aviation Bureau's new design philosophy. Furthermore, as one of the few dedicated carriers flying under the Goathead flag, the Shadowcast is often used to compensate for the lack of killing power in repeat engagements after a powerful attack.",,,
+,,,,,
+goat_spear_thrower,SHIP,"A competent standoff ship, yet a substandard destroyer. The atrocious speed of the Spearsmith makes it to struggle to catch up even with some cruisers, which made it almost impossible to engage in pursuit. But its oversized long-range armament ensured its defensive dominance.
+
+Many captains see it as a piece of junk; just as many call it as priceless. The price of this ship fluctuated so much that many factories did not want to produce it.
+
+""It was probably a bad night, a bad time, a bad person, with a bad idea, a bad drawing, a bad beer. An absolutely awesome result was created."" -------- blueprint header note",,,
+goat_machete,SHIP,"The Decapitator-class is quite flexible. A large number of missile mounts allow it to achieve rather ridiculous bursts of damage, and a built-in autofactory that can happily solve the endurance problem, making it a perfect ship!
+
+The designer, Telfay-Deleph, was proud to say that this ship would appear in the Goathead fleet in large numbers. And as it turned out later... she was wrong.
+",,,
+goat_gentiles,SHIP,"""Charge, charge, and charge again!"" As a ship designed for charging, it carries internal pressurized engine nozzles and a hardened armor configuration that makes it the most valiant warrior on the battlefield.",,,
+goat_rainfarewell,SHIP,"A battlefield ranger with a moderate weapon configuration makes this hull a mobile escort. This gives it the ability to traverse the entire battlefield to provide adequate reinforcements to weak positions, or to deliver swift strikes against high-risk enemies.",,,
+goat_fastboxer,SHIP,"A unique and beautiful design. Like a boxer, this ship forgoes protection in order to focus exclusively on attack: gaining high speed and massive missile firepower. In order to prevent loss of air superiority, it had the infamous Flare Fortress system installed, turning it into a ""sparkling"" missile platform.
+
+Rumors in the area that the bridge of the ship resembled some kind of genital organ led to the Dragonfist becoming a major point of criticism against its designer, Telfay-Deleph, for their bizarre cult-like reverence for reproduction.",,,
+goat_forgotten,SHIP,"The Settler-class, a reliable salvage ship. While still containing many civilian subsystems after its militarization, its versatile repair gantry was removed and adjusted to a large energy mount. Nowadays, it's capable as both a salvage vessel, and as a support ship during combat.",,,
+goat_birdwatching,SHIP,"Its massive Artichoke missile launchers make it quite notable: indeed, its missile output is very impressive for its size.",,,
+goat_rhizome,SHIP,"A tug comparable to the Ox, but also capable of mining operations.",,,
+goat_whiteone,SHIP,"The Goatbell-class destroyer is perhaps best described as a massive ammo feeder. Like the Autumn, its firepower gives it the ability to very quickly destroy ships in the same class or lower, its TPC shots ringing out like a bell on a frenzied goat.",,,
+,,,,,
+goat_pathogenic_wind,SHIP,"It has a rather peculiar design, which led to off-kilter combat and high maintenance costs.
+
+By the time it was officially launched, the strange design tendencies raised many questions and led to its sales being seriously lower than expected; but fortunately the production chief quickly introduced a new generation of warships: the Tempest-class, which recovered some of the lost profits.
+
+Until recently, the Tempest underwent one innovation after another, and eventually the technical property rights were acquired. Goathead Aviation Bureau could only restart this old production line and urgently add some drones to ensure the competitiveness of the frigate industry.
+
+As of now, the Illwind is more common in the market compared to the Tempest, as it is simply produced too much.",,,
+goat_arson_bird,SHIP,"""The bird of fire sends a message of death."" A semi-civilian design utilized by the Aviation Bureau, the Phoenix-class usually serves as a scout in transport fleets, or deployed en masse for fire support. Minimal crew requirements and low cost makes fleet commanders feel no regret sending them to their deaths; needless to say, the crews don't exactly agree.
+
+The ship's bridge is mostly occupied by a massive AI control system with a bulky external radiator: in order to comply with Domain regulations, this system must still be manned by at least three humans at any given time.
+
+Its aggressive weapons layout in spite of its relatively limited flux grid, combined with its violent systems, dictates that the Phoenix is only capable of supporting short bursts of high firepower, and once it exceeds its limits, the Phoenix will predictably transform into a pile of ash - just as its name suggests.",,,
+goat_fliegender_stern,SHIP,"""A fiery nova crosses the battlefield."" As a distinctive raid ship, the heavy and complex multi-layer ablative armor provides it with some of the best survivability in its class.
+
+The expertly-designed, powerful powertrain that the Shootingstar-class possesses allows it to make rapid course corrections with excellent strategic maneuverability, making it effective in both support and raid roles. Thanks to these advantages, the Shootingstar is an indispensable backbone of the Bureau's small and medium fleets.
+
+However, it should be noted that the firepower of the Starflyer is relatively weak and should be supplemented by fire support ships to be more effective in standoff battles.",,,
+goat_harebell,SHIP,"""A flower that accompanies a deadly warship."" The Bluebell-class frigate was designed as an escort: its long range and powerful flux grid allows it to provide close-range fire support against ships of any size when paired with other ships.",,,
+goat_stormlight,SHIP,"""The destructive light of a storm."" This insanely designed ship plays with time while destroying its enemies.",,,
+goat_warhook,SHIP,"""A killer in the shadows, a hunting hook serving Death."" Constellation-class frigates work best alongside stronger and more durable attack ships, to deliver destruction to all ships that dare to think their shields are strong.",,,
+goat_shutter,SHIP,"Known in the sector as the ""Silent Shadow"", this ship proves such a nickname is not hyperbole. Unlike its sister ship, the Windlantern, the Shadow Wraith is more inclined to execute its enemies in a flash. Its first-class missile output allows it to extinguish enemy ships in a matter of seconds.",,,
+goat_ferrysnow,SHIP,"A super-fast ship known for its high maneuverability. Its combat speed is comparable to that of an average fighter, giving it excellent combat ability versus other frigates and the ability to quickly carry out orders. The violent look of its propulsion sometimes leads to it being mistaken for a comet.
+
+In order to activate the overpressure jets, it requires the whole crew to strap themselves in and disables the gravity generators. This tendency to make its crews prisoners in their own ship has earned it an infamous nickname: the ""Styx Crossing"".",,,
+goat_redaugust,SHIP,"Based on the Brawler, this ship focuses on solid armor as its defense as opposed to the original version's mobility focus, giving it a role in the Aviation Bureau's fleets as a stalwart during light skirmishes.",,,
+goat_arson_bird_x,SHIP,"As the smallest freighter utilized by the Aviation Bureau, the Butcherbird-class frigate focuses on ensuring its cargo is delivered safely. Multi-layer armor and bursts of firepower make it an annoyingly difficult target for pirates, while the relatively large cargo bays allow it to still perform quite well as a freighter. ",,,
+goat_arson_bird_h,SHIP,"The ship most emblematic of the Aviation Bureau's design philosophy, designed by the company's founder, the Hurdle was updated many times over the course of the company's existence, resulting in a powerful scout vessel.",,,
+,,,,,
+goat_AI_ship,SHIP,"A ship both designed and largely controlled by artificial intelligence: with a powerful flux grid, high modularity, and advanced fire control, this ship truly is savage in the ruthless destruction of its enemies.
+
+When the Sprouting Dockyards were acquired by the Aviation Bureau, there was no real exchange of research information: a lot of the Dockyards' proprietary technologies remained classified. This made their ship models increasingly difficult to maintain after the Collapse due to a lack of information, ultimately leading to most of the aforementioned technologies being abandoned, with only the relatively simple ships remaining in production. As one of those relatively mundane ships, the Savage-class destroyer was officially put into production after a simple ""chip-hack"".",,,
+goat_AI_ship_s,SHIP,"A ship both designed and largely controlled by artificial intelligence, with a surprisingly hull structure. Compared to its more reserved counterpart, the Mangler-class destroyer focuses more on speed and firepower, making it better suited to performing strikes against isolated targets or using its mobility to quickly achieve battlefield objectives.
+
+When the Sprouting Dockyards were acquired by the Aviation Bureau, there was no real exchange of research information: a lot of the Dockyards' proprietary technologies remained classified. This made their ship models increasingly difficult to maintain after the Collapse due to a lack of information, ultimately leading to most of the aforementioned technologies being abandoned, with only the relatively simple ships remaining in production. As one of those relatively mundane ships, the Mangler-class destroyer was officially put into production after a simple ""chip-hack"".",,,
+,,,,,
+#Wings,,,,,
+lpc_goat_lick,SHIP,"Fast anti-fighter support drones, built into a wide range of ships where PD is scarce, in order to keep them from being overwhelmed in the face of enemies with powerful fighter or missile-based firepower.",,,
+lpc_goat_prism,SHIP,"Born late in the Bastion series, this derivative of the Lick has been modernized extremely thoroughly. These drones became known as highly threatening fighter killers with their unique melting beam.",,,
+lpc_goat_fortress,SHIP,"A tough and powerful close-in defense drone; its twin typewriters can shred almost any opponent in a matter of seconds. But all this comes at the cost of special landing gear, which is a disaster to attempt to use in modular hangars.",,,
+lpc_goat_nibble,SHIP,"Based on Goattripe Forts converted to manned operation, which unexpectedly became mass-produced as a full-fledged fighter class. Its explosive speed and uncompromising firepower output also proved that it lived up to its name.",,,
+lpc_goat_hunter,SHIP,"With its powerful engine configuration and efficient communication system, this fighter can engage at an insane range. It can cover ally bombers to help them deliver their devastating payload, or use its own weapon systems to quickly tear apart some defenseless ships.",,,
+lpc_goat_turbulent,SHIP,"An efficient maintenance design gives sustained strike power, a minimalist structure enhances survivability, and the large amount of craft in a formation increases the power of a single bombing run. These three factors combined give it the ability to deliver a truly destructive tidal wave of bombardment to any slow-moving target.",,,
+lpc_goat_ironstone,SHIP,Heavy armor and high firepower make it a reliable front-line fighter.,,,
+lpc_goat_rottenleaf,SHIP,"Precisely programmed drones with nearly non-existent structural strength, equipped with high-yield missiles. It was designed for the purpose of increasing strike potential at the cost of all else; becoming a deadly force on the battlefield when deployed in large numbers.",,,
+lpc_goat_redroof,SHIP,"A top of the line war machine, this is the quintessential fighter. This fighter is almost perfect; its only weakness is the high maintenance cost.",,,
+,,,,,
+lpc_goat_malstina,SHIP,"A hardened heavy fighter nicknamed the ""space arquebus"".",,,
+lpc_goat_AWL_side,SHIP,A rather bizarrely-shaped fighter that can produce a surprising powerful gravitic effect.,,,
+,,,,,
+#Weapons,,,,,
+all_goat_giant_halberd_l,WEAPON,"This large launcher is a veritable death machine; firing superheavy Megahalberd torpedoes, it can demolish even the heaviest armor with ease.
+
+The fracture warhead that was mounted on had to be fitted with a protective casing because it was too unstable. The overflow energy of the warhead also led to the instant collapse of any guidance mechanism, and even its thrusters could only use the form of collected energy from the warhead to propel the projectile. All of this was unreasonable, in exchange for an extremely powerful one-shot kill. The destructive power it possesses is definitely not comparable to that of any ordinary warheads, save perhaps the Reaper-class torpedo.",,,
+all_goat_gloomy_l,WEAPON,A large number of linked missile tubes gives the largest Gloom launcher insane saturation capability; which can quickly overwhelm hostile PD grids and even use its numbers to destroy some small targets.,,,
+,,,,,
+all_goat_gloomy_m,WEAPON,"Combining the characteristics of its predecessors, it can fire a large number of mid-mass warheads to achieve a suppressive effect. This model, with the insane levels of smoke it creates when firing, has earned it the name ""Dark Cloud of Death"" in the Gloom series.",,,
+all_goat_fire_fire_m,WEAPON,Firing a medium-sized missile directly filled with antimatter fuel allows this fiery machine to maintain superb anti-armor power for extended periods of time.,,,
+all_goat_dazzle_m,WEAPON,"Carrying a powerful kinetic warhead, it resembles a dazzling glare of light with unparalleled close-range breaching capabilities. The heavy plasma warhead allows it to not only break down tough shields, but also the pathetic armor behind those shields.",,,
+all_goat_purgatory_reprimand,WEAPON,"The turbulence generated during the spiral acceleration is creatively used in these missiles, being ""packed"" and then filled into the warhead. This gives the warhead a spatially overlapping nature, which makes it significantly more destructive to hull.",,,
+all_goat_hot,WEAPON,"A launcher firing massive missiles with armor rivaling some heavy fighters; at the cost of the ""payload"" consisting of a number of not exactly ""smart"" flares.",,,
+,,,,,
+all_goat_giant_halberd_s,WEAPON,"Due to improper modification, it requires additional fitting support and power supply; but it can still mount a full-size Megahalberd.",,,
+all_goat_gloomy_s,WEAPON,"By giving up a lot of spare ammunition, it gets the strongest single-shot warhead of its series, and can even penetrate some light armor to tear through the target's hull.",,,
+,,,,,
+,,,,,
+all_goat_diiscipline,WEAPON,This weapon is highly disruptive to shield systems by projecting particle clusters from the ultra-high pressure force chamber. It also imparts an extreme EMP effect due to the high electrical instability of the particles.,,,
+all_goat_admonish,WEAPON,"Its cyclic reactor provides consistent prolonged fire with excellent per-hit damage, making it effective against all targets. The relative flux efficiency is also a part of its versatility.",,,
+all_goat_punish,WEAPON,It can fire a devastating stream of high-energy particles that can shred most armor in a single attack. What distinguishes it from other similar weapons is that its beam is more unstable and has a higher probability of producing an explosion.,,,
+,,,,,
+all_goat_implement,WEAPON,"This polarity generator is primarily used for research. Unsurprisingly, its projectiles do not do much direct damage, but their powerful polarizing charges allow the weapon to quickly cripple the power grids of what it hits.",,,
+all_goat_rhythm,WEAPON,"It is equipped with a special magnetic axis mechanism, occupying a large amount of capacitor space while gaining powerful turning capability, which allows it to rotate at high speeds and use the beam's own magnetic particle impact to repel PD targets.",Gravitic effects slow and push target off-course. The effect is minor and is most noticeable vs fighters and missiles.,,
+all_goat_invasion,WEAPON,"A magnetic beam current which had high expectations; but ultimately failed to live up to them. Nonetheless, it possesses impressive shield disrupting abilities with high efficiency.",,,
+,,,,,
+all_goat_howl,WEAPON,"The extremely high-precision barrel stabilization technology allows it to hit ships at extreme distances, tearing through their armor without the opponent being able to fight back. But unfortunately, there is an excess of superfluous mechanisms, resulting in the fire rate being not as good as it could be.",,,
+all_goat_bombard,WEAPON,"This twin-barrel cannon is loaded with thermite rounds that can be fired quickly and cause severe armor damage. However, in order to ensure its high versatility, the firing mechanism generates more waste heat and is more demanding on the ship's flux grid.",,,
+all_goat_zeal,WEAPON,"This gun's elegant rotating barrel is like a gospel, shredding enemy hull and broadcasting its captain's beliefs; to take away their enemies' lives.",,,
+all_goat_raise,WEAPON,"An ancient ground-based artillery cannon: after replacing the normal shells with composite kinetic warheads, the weapon becomes a simple but efficient shield breaking option.",,,
+,,,,,
+all_goat_gnaw,WEAPON,"A miraculous energy recycling system gave this big gun the ability to fire bursts of cluster munitions, which led to its once intimidating status as the most famous anti-shield weapon in the Sector -  before the introduction of the Needler series.",,,
+all_goat_lash,WEAPON,"Loaded with heavy oil pellets, this weapon is like a fire-breathing dragon; frantically tearing at any armor that dares to stand in front of it.",,,
+all_goat_dash,WEAPON,"A compact version of the Bombard Cannon. This allows it to be mounted in a medium weapon slot. Although the boxed mount compresses its fire output capability and even leads to a lack of turret stability, this does not prevent it from quickly tearing through the opponent's armor.",,,
+all_goat_heavyfist,WEAPON,"A rapid-fire cannon with long range, its long barrel is the result of an attempt to mitigate the recoil that results from rapid firing, though the impact was negligible.",,,
+,,,,,
+all_goat_punch,WEAPON,"Its hypervelocity firing model allows for a much higher velocity than similar weapons, which gives the projectile tremendous kinetic energy and unparalleled accuracy.",,,
+all_goat_grasp,WEAPON,"It seems to have been designed to take on all the missiles: after all, a steady and strong typing sound is always built on the unsympathetic debris of countless missiles.",,,
+all_goat_lash_s,WEAPON,"As a lighter version of its big brother, it reduces the amount of charges while still maintaining a strong output capability.",,,
+,,,,,
+goat_pdlr,WEAPON,"An incredibly simplistic and thus easy to mount graviton emitter, at the cost of shocking inefficiency for such a small weapon.",,,
+,,,,,
+all_goat_mjolnir,WEAPON,"A crazed slag launcher. It fires the slag produced by the Iron Tower's smelter directly, acheiving an armor-melting effect not unlike heavy high explosive munitions: allowing this salvage ship to make a big difference in excavating both mineral-laden asteroids and enemy hulls.",,,
+goat_pdlaser_plus,WEAPON,"This weapon's strange optics allow it to produce extremely high-energy electromagnetic disturbances and melting effects when ""illuminating"" small targets.",,,
+goat_pdlaser,WEAPON,"An older model of energy weapon that was often coupled with other point defense, but due to its strict mounting requirements, was discarded in favor of more standard PD beams. Only remains in service due to being hard-wired on some older fighters and ships.",,,
+all_goat_boostinvasion,WEAPON,An improved Graviton Beam that relies on the heavy mass of the ship it's attached to to emit high-intensity gravitic effects.,,,
+goat_pd,WEAPON,Fires low-density shrapnel shells that create a barrage which violently destroys aircraft.,,,
+all_goat_artichoke_h,WEAPON,Long-range Artichoke missiles with reinforced propulsion can quickly shatter enemy armor.,,,
+all_goat_artichoke_k_R,WEAPON,Medium-range Artichoke missiles with reinforced propulsion can quickly break enemy shields. The unstable ions carried in the warhead can also interfere with a ship's power grid where it hits.,,,
+all_goat_artichoke_k_L,WEAPON,Medium-range Artichoke missiles with reinforced propulsion can quickly break enemy shields. The unstable ions carried in the warhead can also interfere with a ship's power grid where it hits.,,,
+,,,,,
+#Ship Systems,,,,,
+goat_overpressure_drift,SHIP_SYSTEM,Release the pressure storage to increase engine output very significantly for a short period of time.,Mobility,,
+goat_safepressure_drift,SHIP_SYSTEM,Releases the pressure storage in stages to steadily improve the ship's maneuverability and speed.,Mobility,,
+goat_lesspressure_drift,SHIP_SYSTEM,"Redirects exhaust gases to greatly improve engine thrust, allowing a heavy ship to quickly gain speed.",Mobility,,
+goat_call,SHIP_SYSTEM,Igniting the spiral horns and flooding the power grid while supercharging weapon loaders allows non-missile weapons to fire at a faster rate with reduced flux generation. Small/medium weapons will also get greatly increased range to match the current longest weapon range. ,Offensive,,
+goat_flare_wall,SHIP_SYSTEM,"An array of flares are fired in unison, forming a ring like a fortress wall around the ship. Holds a large number of charges that do not regenerate.",Defensive,,
+goat_torrent_drive,SHIP_SYSTEM,Significantly improves engine output.,Mobility,,
+goat_torrent_drive_l,SHIP_SYSTEM,"Significantly improves engine output, while continually firing powerful flares.",Mobility,,
+goat_storm_surge,SHIP_SYSTEM,"Agitating the phase coils to sink into the depths of time, progressively increasing weapons' rate of fire and greatly improving the ship's timeflow.",Defensive,,
+goat_fireblast_furnace,SHIP_SYSTEM,"Fire up the furnace, extend the heatsinks, and run the main cannon on overdrive.",Special,,
+goat_displacer,SHIP_SYSTEM,"Utilizing the dimension-raising tendency of the Spiral Horn Device to drive the whole ship up a dimension, the ship begins to travel through time: moving some distance forward and then descending to the original dimension, with a net effect similar to a Phase Skimmer.",Mobility,,
+goat_bash_mode,SHIP_SYSTEM,Load the Flak Arrays with three barrages of high-explosive shells.,Special,,
+goat_ammofeed,SHIP_SYSTEM,Overclock ammo feeders (and ignore wasted energy) for a violent increase to rate of fire.,Offensive,,
+goat_microburn,SHIP_SYSTEM,"Greatly improves flux dissipation and speed, while applying a Damper Field to reduce damage, over a short period.",Special,,
+goat_acausaldisruptor,SHIP_SYSTEM,Briefly overloads a nearby target.,Special,,
+,,,,,
+goat_wild_drift,SHIP_SYSTEM,"The ship invokes the dark side of the moon, gaining a massive increase in speed while taking less damage.",,,
+goat_damper,SHIP_SYSTEM,"The ship invokes the bright side of the moon, greatly reducing damage taken and increasing the repair rate for weapons and engines.",,,
+goat_fortressshield,SHIP_SYSTEM,"The ship invokes the dark side of the moon, greatly increasing its shield efficiency.",,,
+goat_drone_strike,SHIP_SYSTEM,"Generates flux to invoke the bright side of the moon in some of the Star Dust fighters, transforming them into a charged mass that fires itself at the enemy.",,,
+goat_highenergyfocus,SHIP_SYSTEM,"Invokes the dark side of the moon, allowing mysterious energy to protect the hull, while increasing the range and damage of its weapons.",,,
+goat_moon,SHIP_SYSTEM,"Incarnates the bright side of the moon to form a weak phase field around the ship, greatly increasing weapon damage dealt while reducing the damage taken, and greatly damaging enemies that enter the field.",,,
+,,,,,

@@ -1,0 +1,8 @@
+{
+	"combatCapital":{
+		"mod_ht_stationship_standard":3,
+		"mod_lt_stationship_standard":3,
+		"mod_mt_stationship_standard":3,
+		"mod_rt_stationship_standard":3,
+	},
+}

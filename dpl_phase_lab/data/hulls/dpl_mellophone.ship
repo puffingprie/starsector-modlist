@@ -1,0 +1,189 @@
+{
+  "hullName": "Mellophone",
+  "hullId": "dpl_mellophone",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/dpl_mellophone.png",
+  "style": "HIGH_TECH",
+  "height": 250,
+  "width": 112,
+  "center": [56, 125],
+  "collisionRadius": 178.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 165.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "dpl_megalinac",
+    "advancedoptics"
+  ],
+  "builtInWeapons": {
+    "WS0007": "dpl_tremolo",
+    "WS0008": "dpl_tremolo"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 112.5,
+      "locations": [-80, 35]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -112.5,
+      "locations": [-80, -35]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 90,
+      "locations": [6, 43]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -90,
+      "locations": [6, -43]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 60,
+      "locations": [70, 26]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -60,
+      "locations": [70, -26]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [109, 10]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [109, -10]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-113, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-117.5, 32],
+      "length": 48,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-117.5, -32],
+      "length": 48,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-121.5, 10.5],
+      "length": 55,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-121.5, -10.5],
+      "length": 55,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-111.5, 19],
+      "length": 30.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-111.5, -19],
+      "length": 30.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-109.5, 23.5],
+      "length": 29,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-109.5, -23.5],
+      "length": 29,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    115, -18.5,
+    69, -45.5,
+    6.5, -57.5,
+    -52.5, -49,
+    -61, -45,
+    -87, -45.5,
+    -116.5, -42,
+    -120.5, -19,
+    -120.5, 19,
+    -116.5, 42,
+    -87, 45.5,
+    -61, 45,
+    -52.5, 49,
+    6.5, 57.5,
+    69, 45.5,
+    115, 18.5
+  ]
+}

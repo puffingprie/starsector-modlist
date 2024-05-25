@@ -1,0 +1,63 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+	"goalVariant": true,
+    "hullId": "goat_warhook",
+    "hullMods": [
+        "missleracks",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_warhook_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "all_goat_lash_s",
+                "WS0004": "all_goat_lash_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "all_goat_gloomy_s"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0026": "goat_pdlaser_plus",
+                "WS0027": "goat_pdlaser_plus",
+                "WS0029": "goat_pdlaser_plus",
+                "WS0030": "goat_pdlaser_plus",
+                "WS0031": "goat_pdlaser_plus",
+                "WS0032": "goat_pdlaser_plus",
+                "WS0033": "goat_pdlaser_plus"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0020": "goat_pdlaser_plus",
+                "WS0021": "goat_pdlaser_plus",
+                "WS0022": "goat_pdlaser_plus",
+                "WS0023": "goat_pdlaser_plus",
+                "WS0024": "goat_pdlaser_plus",
+                "WS0025": "goat_pdlaser_plus",
+                "WS0028": "goat_pdlaser_plus"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0018": "goat_pdlaser_plus",
+                "WS0019": "goat_pdlaser_plus"
+            }
+        }
+    ]
+}

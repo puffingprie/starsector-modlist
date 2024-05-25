@@ -1,0 +1,16 @@
+{
+	"id":"goat_giant_halberd_mrm4",
+	"specClass":"missile",
+	"missileType":"BOMB",
+	"sprite":"graphics/goat/missiles/goat_giant_halberd_mrm4.png",
+	"size":[9,33],	
+	"center":[4.5,16.5],
+	"collisionRadius":18,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,155,100,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":250, # purely visual
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":500,
+				  "acc":0,
+				  "dec":0}
+}

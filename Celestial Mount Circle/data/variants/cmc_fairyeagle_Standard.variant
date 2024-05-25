@@ -1,0 +1,53 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 16,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "cmc_fairyeagle",
+    "hullMods": [
+        "targetingunit",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "cmc_fairyeagle_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "hammer",
+                "WS0009": "hammer",
+                "WS0010": "hammer"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "sabot",
+                "WS0012": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "cmc_clarity_aphrodite",
+                "WS0007": "cmc_clarity_aphrodite"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "mininglaser",
+                "WS0002": "mininglaser",
+                "WS0003": "mininglaser",
+                "WS0004": "mininglaser",
+                "WS0005": "mininglaser"
+            }
+        }
+    ],
+    "wings": []
+}

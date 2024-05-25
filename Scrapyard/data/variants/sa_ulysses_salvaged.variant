@@ -1,0 +1,79 @@
+{
+  "variantId": "sa_ulysses_salvaged",
+  "hullId": "sa_ulysses",
+  "displayName": "Salvaged",
+  "goalVariant": true,
+  "fluxCapacitors": 19,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "reinforcedhull",
+    "unstable_injector",
+    "fluxcoil"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "jackhammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "sa_radcannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "arbalest",
+        "WS0007": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavymg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mininglaser",
+        "WS0002": "mininglaser",
+        "WS0004": "mininglaser",
+        "WS0006": "mininglaser",
+        "WS0008": "mininglaser",
+        "WS0012": "mininglaser",
+        "WS0013": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing",
+    "mining_drone_wing"
+  ]
+}

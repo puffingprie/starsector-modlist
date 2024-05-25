@@ -1,0 +1,42 @@
+{
+	"id":"goat_gentiles_system_ass",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	
+	"sprite":"graphics/goat/missiles/goat_gentiles_system_ass.png",
+	
+	"size":[6,14],	
+	"center":[3,7],
+	"collisionRadius":12,
+	
+	#"hitGlowRadius":50,
+	
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":60, # purely visual
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":200,
+				  "dec":200},				  
+	#"engineSlots":[{"id":"GOAT_TECH_light",
+	#				"loc":[-7, 0],
+	#			    #"style":"MISSILE_MIDLINE",
+	#			    "style":"CUSTOM",
+	#				"styleSpec":{
+	#					"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+	#					"engineColor":[182,061,24,255],
+	#					"contrailDuration":.5,
+	#					"contrailWidthMult":2,
+	#					"contrailWidthAddedFractionAtEnd":2,
+	#					"contrailMinSeg":15, # min segment length, in pixels
+	#					"contrailMaxSpeedMult":.0f,
+	#					"contrailAngularVelocityMult":0.5f,
+	#					"contrailSpawnDistMult":.5, # how far away from engine it starts
+	#					"contrailColor":[60,60,60,190],
+	#					"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+	#				},
+	#			    "width":5.0,
+	#			    "length":45.0,
+	#			    "angle":180.0}],
+						
+}

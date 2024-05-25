@@ -1,0 +1,52 @@
+{
+  "variantId": "DEX_silo_p_dem",
+  "hullId": "DEX_silo_p",
+  "displayName": "DEM",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "dragon",
+        "WS0005": "dragon",
+        "WS0010": "dragon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "dragonpod",
+        "WS0007": "dragonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

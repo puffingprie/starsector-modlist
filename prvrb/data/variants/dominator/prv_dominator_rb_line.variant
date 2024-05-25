@@ -1,0 +1,62 @@
+{
+  "variantId": "prv_dominator_rb_line",
+  "hullId": "prv_dominator_rb",
+  "displayName": "Line",
+  "goalVariant": true,
+  "fluxCapacitors": 22,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "dedicated_targeting_core",
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "hil"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 014": "prv_blaster_charge_cluster",
+        "WS 015": "prv_blaster_charge_cluster",
+        "WS 016": "prv_blaster_charge_cluster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 013": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pdlaser",
+        "WS 002": "pdlaser",
+        "WS 004": "vulcan",
+        "WS 006": "vulcan",
+        "WS 007": "vulcan",
+        "WS 008": "vulcan",
+        "WS 009": "vulcan",
+        "WS 011": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

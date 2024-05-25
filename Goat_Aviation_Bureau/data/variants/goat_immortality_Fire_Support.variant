@@ -1,0 +1,59 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 39,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "goat_immortality",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "heavyarmor",
+        "ballistic_rangefinder"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_immortality_Fire_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "all_goat_howl",
+                "WS0006": "all_goat_howl"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "hveldriver",
+                "WS0004": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "railgun",
+                "WS0013": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0016": "all_goat_gloomy_l",
+                "WS0017": "all_goat_gloomy_l"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "flak",
+                "WS0003": "flak",
+                "WS0007": "flak"
+            }
+        }
+    ]
+}

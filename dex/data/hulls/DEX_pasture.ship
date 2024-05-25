@@ -1,0 +1,101 @@
+{
+  "hullName": "Pasture",
+  "hullId": "DEX_pasture",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/DEX_pasture.png",
+  "style": "LOW_TECH",
+  "height": 101,
+  "width": 82,
+  "center": [41, 50.5],
+  "collisionRadius": 47.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 44,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "surveying_equipment",
+    "repair_gantry"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 130,
+      "locations": [-26.5, 29]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -130,
+      "locations": [-26.5, -29]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": -90,
+      "locations": [-2.5, -24.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [33.5, -23]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        1.5, 12.5,
+        -2, 17.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-40.5, -15.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-40.5, 15.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    40, 11,
+    36.5, -34.5,
+    -36, -39.5,
+    -43, -15,
+    -34, -0.5,
+    -43, 16.5,
+    -36.5, 37,
+    -23, 37,
+    -5, 29,
+    8, 28.5,
+    30.5, 20.5
+  ]
+}

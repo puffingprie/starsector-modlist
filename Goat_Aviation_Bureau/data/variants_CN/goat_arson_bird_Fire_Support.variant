@@ -1,0 +1,46 @@
+{
+    "displayName": "火力支援",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "goat_arson_bird",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_arson_bird_Fire_Support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "all_goat_punch",
+                "WS0002": "all_goat_punch"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "all_goat_grasp"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0013": "all_goat_grasp"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0014": "all_goat_grasp"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "all_goat_punch"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0012": "all_goat_punch"}
+        }
+    ]
+}

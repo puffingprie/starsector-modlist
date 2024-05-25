@@ -1,0 +1,8 @@
+{
+  "id":"dex",
+	"name":"Domain Explorarium Expansion",
+	"author":"Sparranova",	
+	"version":"0.0.17.1",
+	"description":"The derelict drones are an underused vanilla faction that gets very little attention. This mod looks to expand them without being overly intrusive on normal gameplay. Currently adds some new ships and fighters, will hopefully add some lightweight campaign features in the future. Balance may be suspect, feel free to give feedback if you feel the bricks are overtuned.",
+	"gameVersion":"0.97",
+}

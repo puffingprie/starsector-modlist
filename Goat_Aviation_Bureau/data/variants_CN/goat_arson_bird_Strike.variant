@@ -1,0 +1,46 @@
+{
+    "displayName": "打击",
+    "fluxCapacitors": 0,
+    "fluxVents": 8,
+    "goalVariant": false,
+    "hullId": "goat_arson_bird",
+    "hullMods": [
+        "heavyarmor",
+        "blast_doors",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_arson_bird_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightag",
+                "WS0002": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "lightmortar",
+                "WS0014": "lightmortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "lightmg",
+                "WS0012": "lightmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "vulcan"}
+        }
+    ]
+}

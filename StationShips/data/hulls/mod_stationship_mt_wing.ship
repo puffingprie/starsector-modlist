@@ -1,0 +1,108 @@
+{
+  "hullName": "Station Battery",
+  "hullId": "mod_mt_stationship_wing",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mt/mt_wing.png",
+  "style": "MIDLINE",
+  "height": 130,
+  "width": 180,
+  "center": [90, 65],
+  "collisionRadius": 92,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 88,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "reduced_explosion",
+    "missile_reload",
+    "eccm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [13, 22]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -0,
+      "locations": [13, -22]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [-18, 47]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -0,
+      "locations": [-18, -47]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [25, 56]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -0,
+      "locations": [25, -56]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [38, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -46.5, -4,
+    -39, -19.5,
+    -44, -27.5,
+    -37, -50.5,
+    -15.5, -74.5,
+    24.5, -67,
+    31, -57,
+    24, -45,
+    35.5, -27.5,
+    41.5, -5.5,
+    41.5, 5.5,
+    35.5, 27.5,
+    24, 45,
+    31, 57,
+    24.5, 67,
+    -15.5, 74.5,
+    -37, 50.5,
+    -44, 27.5,
+    -39, 19.5,
+    -46.5, 4
+  ]
+}

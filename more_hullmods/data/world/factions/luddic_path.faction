@@ -1,0 +1,16 @@
+{
+    "knownHullMods":{
+        "hullMods":[
+		"mhmods_antiarmorgammunition",
+		"mhmods_bombardmentpackage",
+		"mhmods_emergencyventingsystem",
+		"mhmods_explorationrefit",
+		"mhmods_hullfoam",
+		"mhmods_integratedarmor",
+		"mhmods_splitChamber",
+		"mhmods_torpedospec",
+		"mhmods_unstableshields",
+		"mhmods_voltageregulationsystem",
+        ]
+    }
+}

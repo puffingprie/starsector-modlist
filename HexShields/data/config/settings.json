@@ -1,0 +1,10 @@
+{
+	"plugins":{
+	"HexShields_CombatPlugin":"data.scripts.plugins.HexShields_CombatPlugin",
+	},
+
+	"HexShields_HexMode":"nofill", # options are "default" "nofill" "vanilla"
+
+	"HexShields_Vert":"data/shaders/shield.vert",
+}
+

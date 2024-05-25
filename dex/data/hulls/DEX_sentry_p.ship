@@ -1,0 +1,88 @@
+{
+  "hullName": "Sentry(P_",
+  "hullId": "DEX_sentry_p",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/derelict_sentry_p.png",
+  "style": "LOW_TECH",
+  "height": 65,
+  "width": 70,
+  "center": [35.5, 33],
+  "collisionRadius": 44,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 43.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "tow_cable"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [21.5, 24.5]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [26.5, 6.5]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [26.5, -8.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-31.5, 23.5],
+      "length": 28,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 36,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32, -24],
+      "length": 28,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 36,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32, -19],
+      "length": 28,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 36,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-31.5, 18],
+      "length": 28,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 36,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    20.5, 32.5,
+    30.5, 10.5,
+    23.5, -31,
+    -32.5, -28,
+    -31.5, 28
+  ]
+}

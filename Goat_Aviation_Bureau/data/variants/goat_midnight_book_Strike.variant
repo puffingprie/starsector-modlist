@@ -1,0 +1,41 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "hullId": "goat_midnight_book",
+	"goalVariant": true,
+    "hullMods": [
+        "converted_hangar",
+        "eccm",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_midnight_book_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0018": "all_goat_howl"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0020": "all_goat_dazzle_m",
+                "WS0024": "all_goat_dazzle_m",
+                "WS0025": "all_goat_dazzle_m",
+                "WS0028": "all_goat_dazzle_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "all_goat_grasp",
+                "WS0002": "all_goat_grasp"
+            }
+        }
+    ],
+    "wings": ["lpc_goat_nibble_wing"]
+}

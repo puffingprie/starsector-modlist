@@ -1,0 +1,47 @@
+{
+  "variantId": "DEX_decimator_gauss",
+  "hullId": "DEX_decimator",
+  "displayName": "Gauss",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "gauss",
+        "WS0002": "gauss",
+        "WS0003": "gauss",
+        "WS0004": "gauss",
+        "WS0005": "gauss",
+        "WS0006": "flak",
+        "WS0007": "flak",
+        "WS0014": "harpoonpod",
+        "WS0015": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "dualflak",
+        "WS0009": "dualflak",
+        "WS0010": "lightdualmg",
+        "WS0011": "lightdualmg",
+        "WS0012": "lightdualmg",
+        "WS0013": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

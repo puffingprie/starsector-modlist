@@ -1,0 +1,21 @@
+{
+    "displayName": "通用",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "hullId": "goat_forgotten_sun_a",
+    "hullMods": [
+        "heavyarmor",
+        "reinforcedhull"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_forgotten_sun_a_variant",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "all_goat_fire_fire_m",
+            "WS0002": "all_goat_fire_fire_m"
+        }
+    }]
+}

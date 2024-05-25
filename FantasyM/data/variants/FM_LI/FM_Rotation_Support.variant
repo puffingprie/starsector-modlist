@@ -1,0 +1,23 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 2,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "FM_Rotation",
+    "hullMods": [
+        "FantasyTraditionalMod",
+        "FantasyBorderMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Rotation_Support",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "FM_Hailstorm",
+            "WS0002": "FM_Hailstorm"
+        }
+    }],
+    "wings": []
+}

@@ -1,0 +1,46 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 23,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "goat_immortality_mod",
+    "hullMods": [
+        "targetingunit",
+        "goat_pointdefense"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_immortality_mod_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "devastator",
+                "WS0005": "devastator",
+                "WS0006": "devastator"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "all_goat_giant_halberd_l",
+                "WS0016": "all_goat_giant_halberd_l",
+                "WS0017": "all_goat_giant_halberd_l"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "all_goat_grasp",
+                "WS0009": "all_goat_grasp",
+                "WS0010": "all_goat_grasp",
+                "WS0011": "all_goat_grasp",
+                "WS0012": "all_goat_grasp",
+                "WS0013": "all_goat_grasp"
+            }
+        }
+    ]
+}

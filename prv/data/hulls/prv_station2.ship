@@ -1,0 +1,140 @@
+{
+  "hullName": "Battlestation, prv",
+  "hullId": "prv_station2",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/prv/ships/stations/prv_station1.png",
+  "style": "PRV_MID",
+  "height": 512,
+  "width": 512,
+  "center": [256, 256],
+  "collisionRadius": 200,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 200,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vastbulk",
+    "supercomputer",
+    "shared_flux_sink",
+    "prv_axialrotation",
+    "prv_hypergenerators"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 15,
+      "locations": [40, 124]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": -15,
+      "locations": [38, -123]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 180,
+      "locations": [-57, -0]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 90,
+      "locations": [0, 215]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": -90,
+      "locations": [0, -215]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 0,
+      "locations": [39, 0]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 120,
+      "locations": [0, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 30,
+      "locations": [156, 158]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": -30,
+      "locations": [156, -158]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": -60,
+      "locations": [0, 0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 30,
+      "locations": [-76, 24]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": -30,
+      "locations": [-76, -24]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -52.5, 151,
+    -100, 192,
+    39, 191,
+    37, -192,
+    -100, -192,
+    -52.5, -151
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "variantId": "DEX_bersillion_mutant",
+  "hullId": "DEX_bersillion",
+  "displayName": "Mutant",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightmortar",
+        "WS0004": "hephag",
+        "WS0007": "lightac",
+        "WS0008": "lightag",
+        "WS0011": "railgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pilum",
+        "WS0003": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightac",
+        "WS0010": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lightmortar",
+        "WS0012": "lightmg",
+        "WS0013": "lightmg",
+        "WS0014": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "reaper"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

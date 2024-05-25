@@ -1,0 +1,82 @@
+{
+  "variantId": "DEX_unholy_2",
+  "hullId": "DEX_unholy",
+  "displayName": "Secondus",
+  "goalVariant": true,
+  "fluxCapacitors": 45,
+  "fluxVents": 39,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "guardian",
+        "WS0002": "guardian",
+        "WS0003": "tachyonlance",
+        "WS0004": "tachyonlance",
+        "WS0005": "hurricane",
+        "WS0006": "hurricane",
+        "WS0007": "phasebeam",
+        "WS0008": "phasebeam",
+        "WS0011": "heavyblaster",
+        "WS0012": "heavyblaster",
+        "WS0013": "amblaster",
+        "WS0014": "amblaster",
+        "WS0015": "irpulse",
+        "WS0016": "irpulse",
+        "WS0017": "irpulse",
+        "WS0018": "irpulse",
+        "WS0021": "pdburst",
+        "WS0022": "pdburst",
+        "WS0023": "pdburst",
+        "WS0024": "pdburst",
+        "WS0025": "irpulse",
+        "WS0026": "irpulse",
+        "WS0027": "amblaster",
+        "WS0028": "amblaster",
+        "WS0029": "heavyblaster",
+        "WS0030": "heavyblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "heavyburst",
+        "WS0010": "heavyburst",
+        "WS0019": "pdburst",
+        "WS0020": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "flash_wing",
+    "flash_wing",
+    "lux_wing",
+    "lux_wing",
+    "spark_wing",
+    "spark_wing"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "bultach_orbbeam_feregether",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamFireOnlyOnFullCharge":true,
+  "everyFrameEffect": "data.scripts.weapons.bultach_orbbeam_feregether",
+  "beamEffect": "data.scripts.weapons.bultach_orbbeam_feregether",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "",
+  "turretGlowSprite": "",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+255,246,172,255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    6,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    6.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+255,246,172,255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 20,
+  "textureType": [
+    "graphics/fx/beam_laser_fringe.png",
+    "graphics/fx/fusion_lance_fringe.png"
+  ],
+  "textureScrollSpeed": 72,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne": "bt_chorus_charge",
+  "fireSoundTwo": "bt_chorus_loop"
+}

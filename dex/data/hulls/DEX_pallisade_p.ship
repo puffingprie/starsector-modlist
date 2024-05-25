@@ -1,0 +1,65 @@
+{
+  "hullName": "Pallisade(P)",
+  "hullId": "DEX_pallisade_p",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/DEX_pallisade_p.png",
+  "style": "LOW_TECH",
+  "height": 94,
+  "width": 37,
+  "center": [18.5, 46.5],
+  "collisionRadius": 56.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 61,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "delicate",
+    "unstable_coils",
+    "phasefield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 55,
+      "angle": 0,
+      "locations": [38.5, -6.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [35.5, 8.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-34.5, -13.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-46, 3.5],
+      "length": 130,
+      "width": 37,
+      "angle": 180,
+      "contrailSize": 37,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    34.5, -18.5,
+    34.5, 19,
+    -46, 19,
+    -45.5, -18.5
+  ]
+}

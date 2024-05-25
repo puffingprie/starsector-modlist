@@ -1,0 +1,50 @@
+{
+    "displayName": "进攻",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "goat_goatbone_scholar",
+    "hullMods": ["auxiliarythrusters"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_goatbone_scholar_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0030": "all_goat_purgatory_reprimand",
+                "WS0035": "all_goat_purgatory_reprimand"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "all_goat_dazzle_m"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "all_goat_bombard"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "all_goat_gnaw",
+                "WS0005": "all_goat_gnaw"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "all_goat_grasp",
+                "WS0002": "all_goat_grasp",
+                "WS0006": "all_goat_grasp",
+                "WS0007": "all_goat_grasp"
+            }
+        }
+    ],
+    "wings": []
+}

@@ -1,0 +1,54 @@
+{
+  "variantId": "prv_fasklot_flicker",
+  "hullId": "prv_fasklot",
+  "displayName": "Flicker",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 20,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "prv_flickercore",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "amblaster",
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "prv_berguv_mirv"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "phasebeam"
+      }
+    },
+
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "prv_akc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "pdburst"
+      }
+    },
+  ],
+  "modules": [],
+  "wings": []
+}

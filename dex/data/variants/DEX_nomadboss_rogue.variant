@@ -1,0 +1,81 @@
+{
+  "variantId": "DEX_nomadboss_rogue",
+  "hullId": "DEX_nomadboss",
+  "displayName": "Rogue",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "typhoon",
+        "WS0002": "typhoon",
+        "WS0003": "lightdualac",
+        "WS0004": "lightdualac",
+        "WS0005": "hurricane",
+        "WS0006": "hurricane",
+        "WS0007": "plasma",
+        "WS0008": "plasma",
+        "WS0009": "dragon",
+        "WS0010": "dragon",
+        "WS0011": "hveldriver",
+        "WS0012": "hveldriver",
+        "WS0013": "breachpod",
+        "WS0014": "salamanderpod",
+        "WS0015": "sabotpod",
+        "WS0016": "sabotpod",
+        "WS0017": "amblaster",
+        "WS0018": "amblaster",
+        "WS0019": "breachpod",
+        "WS0020": "breachpod",
+        "WS0023": "lightneedler",
+        "WS0024": "lightneedler",
+        "WS0025": "lightdualac",
+        "WS0026": "lightdualac",
+        "WS0027": "lightdualac",
+        "WS0028": "lightdualac",
+        "WS0029": "lightmg",
+        "WS0030": "lightmg",
+        "WS0031": "lightmg",
+        "WS0032": "lightmg",
+        "WS0033": "locust",
+        "WS0034": "ioncannon",
+        "WS0035": "ioncannon",
+        "WS0036": "lightdualac",
+        "WS0037": "lightdualac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "railgun",
+        "WS0022": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

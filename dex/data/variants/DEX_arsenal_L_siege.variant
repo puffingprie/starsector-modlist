@@ -1,0 +1,58 @@
+{
+  "variantId": "DEX_arsenal_L_siege",
+  "hullId": "DEX_arsenal_L",
+  "displayName": "Siege",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hurricane",
+        "WS0003": "squall",
+        "WS0005": "heavyac",
+        "WS0007": "harpoonpod",
+        "WS0009": "harpoonpod",
+        "WS0011": "sabotpod",
+        "WS0013": "sabotpod",
+        "WS0030": "heavymg",
+        "WS0032": "locust",
+        "WS0035": "breachpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "DEX_legionary_wing",
+    "DEX_legionary_wing",
+    "DEX_skystar_wing",
+    "DEX_thunderstrike_wing",
+    "DEX_trojan_wing",
+    "DEX_guardsman_wing"
+  ]
+}

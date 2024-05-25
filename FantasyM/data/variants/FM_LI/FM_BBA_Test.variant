@@ -1,0 +1,16 @@
+{
+    "displayName": "Test",
+    "fluxCapacitors": 10,
+    "fluxVents": 1,
+    "hullId": "FM_BBA",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_BBA_Test",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS0003": "FM_BBA_built_in"}
+    }],
+    "wings": ["sarissa_wing"]
+}

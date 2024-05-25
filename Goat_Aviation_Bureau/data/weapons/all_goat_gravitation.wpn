@@ -1,0 +1,30 @@
+{
+	"specClass":"beam",
+	"id":"all_goat_gravitation",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"turretSprite":"graphics/weapons/pd_laser_turret_base.png",
+	"turretGlowSprite":"graphics/weapons/pd_laser_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/pd_laser_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/weapons/pd_laser_hardpoint_glow.png",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	
+	
+	"fringeColor":[121,79,146,115],
+	"coreColor":[25,25,25,255],
+	"glowColor":[171,29,226,155],
+	
+	
+	"width":22.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
+	"fireSoundOne":"laser_intro",
+	"fireSoundTwo":"pd_laser_loop",
+}

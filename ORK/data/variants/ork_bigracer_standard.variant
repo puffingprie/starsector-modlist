@@ -1,0 +1,74 @@
+{
+  "variantId": "ork_bigracer_standard",
+  "hullId": "ork_bigracer",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_thumpa",
+        "WS0013": "ork_thumpa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ork_shotgun",
+        "WS0007": "ork_shotgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ork_noshield_small",
+        "WS0005": "ork_noshield_small",
+        "WS0008": "ork_noshield_small",
+        "WS0011": "ork_noshield_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ork_rotary_pd_small",
+        "WS0009": "ork_rotary_pd_small",
+        "WS0010": "ork_rotary_pd_small",
+        "WS0012": "ork_rotary_pd_small",
+        "WS0014": "ork_rotary_pd_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "ork_slug",
+        "WS0016": "ork_slug"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ork_emp_torpedo_medium"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,40 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 20,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "buffalo_c",
+    "hullMods": [
+        "reinforcedhull",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "buffalo_c_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightmg",
+                "WS0002": "lightmg",
+                "WS0003": "lightmg",
+                "WS0004": "lightmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "maiden",
+                "WS0006": "maiden"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "flicker_pdl"}
+        }
+    ],
+    "wings": []
+}

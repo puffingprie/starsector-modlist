@@ -1,0 +1,87 @@
+{
+  "variantId": "ork_feregether_standard",
+  "hullId": "ork_feregether",
+  "displayName": "Judge",
+  "goalVariant": true,
+  "fluxCapacitors": 26,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ork_layzah",
+        "WS0021": "ork_layzah"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ork_bigplasma",
+        "WS0005": "ork_bigplasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ork_emp_torpedo",
+        "WS0007": "ork_emp_torpedo"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_noshield_small",
+        "WS0008": "ork_noshield_small",
+        "WS0009": "ork_noshield_small",
+        "WS0010": "ork_noshield_small",
+        "WS0012": "ork_noshield_medium",
+        "WS0013": "ork_noshield_medium",
+        "WS0014": "ork_noshield_medium",
+        "WS0015": "ork_noshield_medium",
+        "WS0022": "ork_noshield_small",
+        "WS0023": "ork_noshield_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ork_thumpa",
+        "WS0016": "ork_thumpa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "ork_layzah"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "ork_rotary_pd_small",
+        "WS0018": "ork_rotary_pd_small",
+        "WS0019": "ork_rotary_pd_small",
+        "WS0020": "ork_rotary_pd_small",
+        "WS0024": "ork_rotary_pd_small",
+        "WS0025": "ork_rotary_pd_small",
+        "WS0026": "ork_plasma",
+        "WS0027": "ork_rotary_pd_small",
+        "WS0028": "ork_rotary_pd_small"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

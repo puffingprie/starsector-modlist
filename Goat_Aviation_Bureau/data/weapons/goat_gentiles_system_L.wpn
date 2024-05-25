@@ -1,0 +1,46 @@
+{
+  "id": "goat_gentiles_system_L",
+  "specClass": "projectile",
+  "projectileSpecId": "goat_gentiles_system_ass",
+  "type": "DECORATIVE",
+  "size": "SMALL",
+  "everyFrameEffect": "data.scripts.weapons.goat_GentilesSystemAnimation",
+  "turretSprite": "graphics/goat/weapons/decorative/goat_gentiles_system_L/goat_gentiles_system00.png",
+  "hardpointSprite": "graphics/goat/weapons/decorative/goat_gentiles_system_L/goat_gentiles_system00.png",
+  "turretOffsets": [
+    -1,
+    4.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "numFrames": 35,
+  "frameRate": 20,
+  "autocharge": true,
+  "smokeSpec": {
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackSpread": 10,
+    "particleColor": [
+      85,
+      85,
+      85,
+      155
+    ]
+  }
+}

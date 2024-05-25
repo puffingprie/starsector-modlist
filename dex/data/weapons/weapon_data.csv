@@ -1,0 +1,8 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number,,,
+#GUARDSMAN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Guardsman Left Shoulder,DEX_guardsmanleftshoulder,,,,10000,0,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,999,,,
+Guardsman Right Shoulder,DEX_guardsmanrightshoulder,,,,10000,0,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,999,,,
+Guardsman Left Arm,DEX_guardsmanleftarm,,,,1000,0,100,,5,50,0,2,0.075,,HIGH_EXPLOSIVE,0,,0,5,2,0.2,0,0,0,0,,300,100,5,50,"ANTI_FTR, DO_NOT_AIM, SYSTEM,DO_NOT_CONSERVE","utility8, missile0",,Explorarium,,Anti Small Craft,Fast,Excellent,,,,,,,,10,,,
+Guardsman Right Arm,DEX_guardsmanrightarm,,,,700,0,100,7,10,30,0,,,,KINETIC,90,,0.6,0,1,,,,,,,1000,,,50,SYSTEM,"kinetic8, LR, restricted",,Explorarium,,Anti Shield,,,,,,,,,,3.75,,,
+Guardsman Head,DEX_guardsmanhead,,,,1000,20,,,0,20,0,,,,ENERGY,,75,0.1,0.1,,,,,,,2400,,,,,SYSTEM,"beam9, LR,",,Explorarium,,General,,,,,,,,,,18,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,999,,,

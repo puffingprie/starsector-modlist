@@ -1,0 +1,202 @@
+{
+  "hullName": "Castle Side",
+  "hullId": "DEX_castleside",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/DEX_castleside.png",
+  "style": "LOW_TECH",
+  "height": 320,
+  "width": 154,
+  "center": [94, 157],
+  "collisionRadius": 190.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 172.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "hbi",
+    "reduced_explosion",
+    "heavyarmor",
+    "rugged",
+    "advancedcore",
+    "missleracks"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 120,
+      "locations": [79, 79]
+    },
+    {
+      "id": "WS 015",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 300,
+      "angle": 0,
+      "locations": [
+        -26, -15,
+        -103, 0,
+        -119, -38,
+        -13, -2
+      ]
+    },
+    {
+      "id": "WS 016",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 300,
+      "angle": 0,
+      "locations": [
+        -116, 9,
+        -36, -3,
+        9, -27,
+        -14, -27
+      ]
+    },
+    {
+      "id": "WS 017",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 300,
+      "angle": 0,
+      "locations": [
+        -104, -34,
+        -117, -4,
+        -3, -14,
+        -42, -23
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 90,
+      "locations": [-37, 65]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 90,
+      "locations": [28, 85]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 90,
+      "locations": [44, 85]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 50,
+      "angle": 0,
+      "locations": [131, 85]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 50,
+      "angle": 0,
+      "locations": [131, 71]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 50,
+      "angle": 0,
+      "locations": [141, 54]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [159, 11]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 65,
+      "locations": [35, -2]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-148.5, 40],
+      "length": 78,
+      "width": 31,
+      "angle": 180,
+      "contrailSize": 31,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-150, -17.5],
+      "length": 75.5,
+      "width": 31,
+      "angle": 180,
+      "contrailSize": 31,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-154.5, 10.5],
+      "length": 115,
+      "width": 47,
+      "angle": 180,
+      "contrailSize": 47,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -153.5, -28.5,
+    -111, -40.5,
+    -100, -54,
+    109.5, -48,
+    107.5, -2.5,
+    143, -2,
+    167, 2.5,
+    167.5, 20,
+    139.5, 21.5,
+    133, 45.5,
+    148, 45.5,
+    148, 63,
+    136, 63.5,
+    133, 93,
+    80.5, 93.5,
+    73, 79.5,
+    55, 79.5,
+    54, 91.5,
+    21.5, 90.5,
+    21.5, 79.5,
+    -16, 73,
+    -54, 72.5,
+    -53.5, 63,
+    -131, 61.5,
+    -151, 49,
+    -154.5, 28
+  ]
+}

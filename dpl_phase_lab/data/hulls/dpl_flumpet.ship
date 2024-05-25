@@ -1,0 +1,194 @@
+{
+  "hullName": "Flumpet",
+  "hullId": "dpl_flumpet",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/dpl_flumpet.png",
+  "style": "HIGH_TECH",
+  "height": 174,
+  "width": 96,
+  "center": [48, 87],
+  "collisionRadius": 146.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 122,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": 122.5,
+      "locations": [-44.5, 34]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": -122.5,
+      "locations": [-44.5, -34]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 90,
+      "locations": [0, 29]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": -90,
+      "locations": [0, -29]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-5, 12.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-5, -12.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-77, 34],
+      "length": 21.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-77, -34],
+      "length": 21.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-78, 31],
+      "length": 21.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-78, -31],
+      "length": 21.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-79, 28],
+      "length": 21.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-79, -28],
+      "length": 21.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-80, 25],
+      "length": 21.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-80, -25],
+      "length": 21.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-81, 22],
+      "length": 21.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-81, -22],
+      "length": 21.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-84.5, 14],
+      "length": 31,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-84.5, -14],
+      "length": 31,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    87.5, -8,
+    81.5, -23,
+    20.5, -23,
+    9, -42.5,
+    -6, -44,
+    -16.5, -32.5,
+    -31, -49,
+    -39, -49.5,
+    -77, -37,
+    -85.5, -21,
+    -85.5, -6,
+    -75, -6,
+    -75, 6,
+    -85.5, 6,
+    -85.5, 21,
+    -77, 37,
+    -39, 49.5,
+    -31, 49,
+    -16.5, 32.5,
+    -6, 44,
+    9, 42.5,
+    20.5, 23,
+    81.5, 23,
+    87.5, 8
+  ]
+}

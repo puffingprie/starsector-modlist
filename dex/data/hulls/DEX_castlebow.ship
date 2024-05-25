@@ -1,0 +1,176 @@
+{
+  "hullName": "Castle Bow",
+  "hullId": "DEX_castlebow",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/DEX_castlebow.png",
+  "style": "LOW_TECH",
+  "height": 177,
+  "width": 420,
+  "center": [181, 66.5],
+  "collisionRadius": 205.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 309.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "heavyarmor",
+    "hbi",
+    "reduced_explosion",
+    "autorepair",
+    "armoredweapons",
+    "rugged",
+    "advancedcore",
+    "missleracks"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [78.5, 37]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -0,
+      "locations": [78.5, -51]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [78.5, -7]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 0,
+      "locations": [73.5, 80]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -0,
+      "locations": [74, -94]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 46,
+      "locations": [49.5, 125]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -46,
+      "locations": [49.5, -139]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [41.5, 152]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -0,
+      "locations": [42.5, -166]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [45.5, 168]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -0,
+      "locations": [45.5, -182]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 29.5,
+      "locations": [85.5, 121]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -29.5,
+      "locations": [85.5, -138]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    70.5, 50.5,
+    85, 70,
+    83, 102.5,
+    76, 135.5,
+    40.5, 150.5,
+    26.5, 151,
+    28, 179,
+    -34.5, 176.5,
+    -34.5, 138,
+    -61.5, 138,
+    -62.5, 69.5,
+    -31, 68,
+    -31, 14,
+    -25.5, 8.5,
+    -25.5, -10.5,
+    -30, -15.5,
+    -32.5, -71,
+    -63.5, -72,
+    -64.5, -139.5,
+    -43, -139.5,
+    -43, -179,
+    21.5, -179,
+    21.5, -150.5,
+    40.5, -150.5,
+    56, -141.5,
+    74, -140,
+    76, -116,
+    82, -105.5,
+    85, -81,
+    69, -51.5
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "id":"randomweapons", 
+	"name":"Random Weapon Collection", 
+	"author":"joebob73",
+    "utility":"false",
+	"version":"0.0.12",
+	"description":"Adds some random weapons I came up with",
+    "gameVersion": "0.97a-RC7", 
+  	"jars":["jars/randomweaponcollection.jar"],
+
+
+}

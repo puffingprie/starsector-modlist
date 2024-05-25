@@ -1,0 +1,24 @@
+{
+    "displayName": "彩绘",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "colossus_goat_painting",
+    "hullMods": [
+        "militarized_subsystems",
+        "augmentedengines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "colossus_goat_painting_nature",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "all_goat_grasp",
+            "WS 002": "all_goat_grasp",
+            "WS 003": "all_goat_grasp",
+            "WS 004": "all_goat_grasp"
+        }
+    }]
+}

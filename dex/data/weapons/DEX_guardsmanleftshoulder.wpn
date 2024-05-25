@@ -1,0 +1,48 @@
+{
+  "id": "DEX_guardsmanleftshoulder",
+  "specClass": "beam",
+  "type": "DECORATIVE",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/ships/Fighters/guardsman/DEX_GuardsmanLeftshoulder.png",
+  "hardpointSprite": "graphics/ships/Fighters/guardsman/DEX_GuardsmanLeftshoulder.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    0,
+    1
+  ],
+  "turretAngleOffsets": [
+    90
+  ],
+  "hardpointOffsets": [
+    3,
+    1
+  ],
+  "hardpointAngleOffsets": [
+    90
+  ],
+  "fringeColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 10,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 64,
+  "pixelsPerTexel": 1
+}

@@ -1,0 +1,62 @@
+{
+  "variantId": "DEX_poltergeist_elite",
+  "hullId": "DEX_poltergeist",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 13,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "phase_anchor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "phasebeam",
+        "WS0002": "phasebeam",
+        "WS0003": "gravitonbeam",
+        "WS0004": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "amblaster",
+        "WS0006": "amblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "taclaser",
+        "WS0009": "taclaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser",
+        "WS0012": "pdlaser",
+        "WS0013": "pdlaser",
+        "WS0014": "pdlaser",
+        "WS0015": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

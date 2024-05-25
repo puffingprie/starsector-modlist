@@ -1,0 +1,67 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 29,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "geist",
+    "hullMods": [
+        "phase_anchor",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "geist_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "cyclone"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lrpdlaser",
+                "WS0003": "lrpdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lrpdlaser",
+                "WS0006": "lrpdlaser",
+                "WS0007": "lrpdlaser",
+                "WS0008": "lrpdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "cyclone"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lrpdlaser",
+                "WS0003": "lrpdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lrpdlaser",
+                "WS0006": "lrpdlaser",
+                "WS0007": "lrpdlaser",
+                "WS0008": "lrpdlaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "ionpulser"}
+        }
+    ]
+}

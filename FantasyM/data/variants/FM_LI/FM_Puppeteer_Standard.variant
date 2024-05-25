@@ -1,0 +1,38 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 8,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "FM_Puppeteer",
+    "hullMods": [
+        "FantasyOptionsControlMod",
+        "expanded_deck_crew"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Puppeteer_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "mininglaser",
+                "WS0002": "mininglaser",
+                "WS0003": "mininglaser",
+                "WS0004": "mininglaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "sabot",
+                "WS0006": "sabot"
+            }
+        }
+    ],
+    "wings": [
+        "FM_Halfghost_wing",
+        "FM_Halfghost_wing"
+    ]
+}

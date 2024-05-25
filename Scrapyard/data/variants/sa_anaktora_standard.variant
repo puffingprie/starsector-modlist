@@ -1,0 +1,83 @@
+{
+  "variantId": "sa_anaktora_standard",
+  "hullId": "sa_anaktora",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 23,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxdistributor",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "hydra",
+        "WS0006": "hydra"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mjolnir"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "mjolnir"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "lightdualac",
+        "WS0013": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pdburst",
+        "WS0008": "pdburst",
+        "WS0009": "pdburst",
+        "WS0010": "pdburst",
+        "WS0011": "lightdualmg",
+        "WS0014": "lightdualmg",
+        "WS0015": "lightdualmg",
+        "WS0016": "lightdualmg",
+        "WS0017": "lightdualmg",
+        "WS0018": "lightdualmg",
+        "WS0019": "lightdualmg",
+        "WS0020": "lightdualmg",
+        "WS0021": "lightdualmg",
+        "WS0022": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,33 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 13,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "FM_Puppeteer",
+    "hullMods": [
+        "missleracks",
+        "expanded_deck_crew"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Puppeteer_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "irpulse"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "gorgon",
+                "WS0006": "gorgon"
+            }
+        }
+    ],
+    "wings": [
+        "thunder_wing",
+        "thunder_wing"
+    ]
+}

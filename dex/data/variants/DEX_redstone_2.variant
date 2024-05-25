@@ -1,0 +1,75 @@
+{
+  "variantId": "DEX_redstone_2",
+  "hullId": "DEX_redstone",
+  "displayName": "Type Three",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 18,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missile_autoloader",
+    "insulatedengine",
+    "missleracks",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "mark9",
+        "WS 011": "lightdualac",
+        "WS 012": "lightdualac",
+        "WS0001": "lightdualac",
+        "WS0002": "lightdualac",
+        "WS0003": "lightdualac",
+        "WS0004": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "cyclone",
+        "WS 001": "cyclone",
+        "WS 003": "harpoonpod",
+        "WS 004": "harpoonpod",
+        "WS 007": "harpoon_single",
+        "WS 008": "harpoon_single",
+        "WS 010": "harpoon_single",
+        "WS 020": "harpoon_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "sabotpod",
+        "WS 021": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "chaingun",
+        "WS 006": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 016": "dualflak",
+        "WS 017": "dualflak"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0005": "DEX_redstone_module_module"
+    }
+  ],
+  "wings": []
+}

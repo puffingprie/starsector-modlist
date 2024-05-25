@@ -1,0 +1,59 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 21,
+    "goalVariant": true,
+    "hullId": "goat_sails",
+    "hullMods": [
+        "heavyarmor",
+        "blast_doors",
+        "armoredweapons",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_sails_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "heavymauler",
+                "WS0006": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "all_goat_lash"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "flak",
+                "WS0009": "flak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0051": "goat_pdlaser",
+                "WS0052": "goat_pdlaser",
+                "WS0053": "goat_pdlaser",
+                "WS0054": "goat_pdlaser"
+            }
+        }
+    ]
+}

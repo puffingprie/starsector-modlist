@@ -1,0 +1,57 @@
+{
+  "hullName": "lpc_goat_malstina",
+  "hullId": "lpc_goat_malstina",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/goat/ships/A_LPC/lpc_goat_malstina.png",
+  "style": "GOAT_TECH_blue",
+  "height": 74,
+  "width": 34,
+  "center": [17, 49.5],
+  "collisionRadius": 57,
+  "shieldCenter": [-6.5, -0],
+  "shieldRadius": 37,
+  "viewOffset": 0,
+  "builtInMods": [
+    "goat_hullstyle",
+    "shield_always_on"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 263,
+      "angle": 0,
+      "locations": [18.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11, -0],
+      "length": 8.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "GOAT_TECH_crystal_omg"
+    },
+    {
+      "location": [-14.5, -0],
+      "length": 36,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "GOAT_TECH_crystal_omg"
+    }
+  ],
+  "bounds": [
+    -47.5, -0.5,
+    -14.5, -2.5,
+    -0.5, -12.5,
+    21, -1,
+    21, 1,
+    -0.5, 12.5,
+    -14.5, 2.5,
+    -47.5, 0.5
+  ]
+}

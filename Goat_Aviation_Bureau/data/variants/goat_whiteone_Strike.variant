@@ -1,0 +1,34 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 19,
+    "hullId": "goat_whiteone",
+    "hullMods": [
+        "targetingunit",
+        "ballistic_rangefinder",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_whiteone_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "tpc",
+                "WS0006": "tpc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "all_goat_implement"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "all_goat_implement"}
+        }
+    ]
+}

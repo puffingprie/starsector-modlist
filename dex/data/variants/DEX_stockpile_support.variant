@@ -1,0 +1,29 @@
+{
+  "variantId": "DEX_stockpile_support",
+  "hullId": "DEX_stockpile",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 13,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "expanded_cargo_holds",
+    "auxiliary_fuel_tanks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "swarmer",
+        "WS0008": "swarmer",
+        "WS0009": "swarmer",
+        "WS0010": "swarmer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

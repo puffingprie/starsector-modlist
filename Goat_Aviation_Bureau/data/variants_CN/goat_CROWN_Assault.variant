@@ -1,0 +1,33 @@
+{
+    "displayName": "遗骸",
+    "fluxCapacitors": 4,
+    "fluxVents": 0,
+    "hullId": "goat_CROWN",
+    "hullMods": [
+        "goat_oscillating",
+        "hardenedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_CROWN_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "all_goat_invasion"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "goat_pdlr",
+                "WS0002": "goat_pdlr",
+                "WS0003": "goat_pdlr",
+                "WS0004": "goat_pdlr",
+                "WS0006": "goat_pdlr"
+            }
+        }
+    ],
+    "wings": []
+}

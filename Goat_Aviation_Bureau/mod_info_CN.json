@@ -1,0 +1,24 @@
+{
+	"id":"Goat_Aviation_Bureau",
+	"name":"羊头航务局[Goat_Aviation_Bureau]",
+	"author":"\n\n主创: \n夜半魅魔\n\n代码协助：\nSaya39\nAnyIDElse\nOriginem\na111164\n\n贴图协助：\njayjay\nYkaris\n\n音乐协助：\n影之光\nhomejerry99",
+	"version":{"major":1, "minor":8, "patch":0},
+	"description":"大崩塌前就兴起的航务局，正在激进的发展，或者是恢复自己的军备实力。",
+	"gameVersion":"0.96a-RC10",
+	"jars":["jars/Goat_Aviation_Bureau_ss.jar"],
+	"dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+        },
+        {
+            "id": "shaderLib",
+            "name": "ZZ GraphicsLib",
+        },
+    	{
+    		"id": "MagicLib",
+    		"name": "MagicLib",
+    	}
+    ],
+	"modPlugin":"data.scripts.GoatModPlugin"
+}

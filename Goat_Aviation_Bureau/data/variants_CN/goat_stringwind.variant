@@ -1,0 +1,19 @@
+{
+    "displayName": "客制",
+    "fluxCapacitors": 2,
+    "fluxVents": 30,
+    "hullId": "goat_stringwind",
+	"goalVariant": true,
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_stringwind",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "all_goat_grasp",
+            "WS0002": "all_goat_grasp"
+        }
+    }]
+}

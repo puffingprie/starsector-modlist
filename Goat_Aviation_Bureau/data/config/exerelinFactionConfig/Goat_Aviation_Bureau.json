@@ -1,0 +1,94 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    
+    "rebelFleetSuffix":"Mutineers",
+
+    
+    "directoryUseShortName":true,
+
+    "asteroidMiningFleetName":"Miners",
+    "gasMiningFleetName":"Collectors",
+    "invasionFleetName":"Conquerors",
+    "responseFleetName":"Revanchists",
+    "invasionSupportFleetName":"Destroyers",
+    "defenceFleetName":"Defenders",
+    "stationName":"Fortress",
+    
+    "startRelationships":{ "luddic_church":-0.8, "luddic_path":-0.8 },
+    "maxRelationships":{ "luddic_church":-0.4, "luddic_path":-0.4 },
+	
+    "morality":"good",
+    
+   "alignments":{
+        "corporate":-0.5,
+        "technocratic":-1,
+        #"militarist":0.5,
+        "hierarchical":0.5,
+        "ideological":1,
+    },
+    "diplomacyTraits":["stalwart", "irredentist", "neutralist", "lowprofile"],
+    
+    # legacy invasion settings
+    "invasionStrengthBonusAttack":0.2,
+    "invasionStrengthBonusDefend":0.2,
+    
+    "groundBattleSettings":{
+        "attackMult":1.25,
+        "defenseMult":1.25,
+        "moraleDamageTakenMult":0.8,
+    },
+    #"invasionFleetSizeMod":-0.15,
+    "invasionPointMult":0.7,
+    
+    "dropPrisoners":false,
+    
+    "vengeanceLevelNames":["Vengeful", "Judgmental", "Murderous"],
+    "vengeanceFleetNames":["Avenger", "Judge", "Executioner"],
+    "vengeanceFleetNamesSingle":["an Avenger", "a Judge", "an Executioner"],
+	
+	
+    
+    "startShipsSolo":[
+        ["goat_pathogenic_wind_Strike"],
+		["goat_arson_bird_Strike"],
+		["goat_fliegender_stern_Assault"],
+    ],
+
+    "startShipsCombatSmall":[
+        ["goat_pathogenic_wind_Strike", "goat_fliegender_stern_Assault", "goat_arson_bird_Strike"],
+        ["goat_gentiles_Assault",  "goat_arson_bird_Fire_Support", "goat_pathogenic_wind_Super"],
+        [ "goat_rainfarewell_Super", "goat_fliegender_stern_Assault", "goat_fliegender_stern_Assault"],
+    ],
+
+   # "startShipsCombatLarge":[
+   #     ["", "", ""],
+   #     ["", "", ""],
+   # ],
+
+    "startShipsTradeSmall":[
+        ["buffalo_Standard", "goat_arson_bird_Fire_Support", "goat_arson_bird_Fire_Support"],
+    ],
+
+    "startShipsTradeLarge":[
+        ["mule_Standard", "mule_Standard", "goat_fliegender_stern_Super"],
+    ],
+
+    #"startShipsCarrierSmall":[
+    #    ["", "", ""],
+    #],
+
+    #"startShipsCarrierLarge":[
+    #    ["", "", ""],
+    #],
+	
+	#"startShipsExplorerLarge":[["", "", ""]],
+    #"startShipsSuper":[
+    #   ["",""],
+    #],
+	
+    "startSpecialItems":[
+        [["goat_openbp","goat_bp_w"]],
+    ],
+	
+}

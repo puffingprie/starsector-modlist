@@ -1,0 +1,39 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "hullId": "goat_hillshade",
+	"goalVariant": true,
+    "hullMods": [
+        "goat_auxiliarythrusters",
+        "goat_oscillating"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_hillshade_Fire_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "all_goat_grasp",
+                "WS0003": "all_goat_grasp",
+                "WS0005": "all_goat_grasp",
+                "WS0006": "all_goat_grasp",
+                "WS0007": "all_goat_grasp"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "all_goat_dazzle_m",
+                "WS0004": "all_goat_dazzle_m"
+            }
+        }
+    ],
+    "wings": [
+        "lpc_goat_hunter_wing",
+        "lpc_goat_hunter_wing"
+    ]
+}

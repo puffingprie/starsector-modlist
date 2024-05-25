@@ -1,0 +1,23 @@
+{
+	"combatLarge":{
+		"rwc_javelin_Standard": 5,
+		"rwc_polaris_Standard": 4,
+	},
+	# capital
+	"combatCapital":{
+		"test_conqueror_Standard": 5,
+		"onslaught_beam_Standard":2,
+		"onslaught_beam_Outdated":2,
+		"onslaught_beam_Elite":2,
+	},
+	# carriers
+	
+	
+	"carrierLarge":{
+		"rwc_egret_Standard":10,
+		
+	},
+
+	
+	
+}

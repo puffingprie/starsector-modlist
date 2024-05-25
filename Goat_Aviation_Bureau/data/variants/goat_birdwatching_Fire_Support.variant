@@ -1,0 +1,58 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 4,
+    "fluxVents": 20,
+    "hullId": "goat_birdwatching",
+    "hullMods": [
+        "targetingunit",
+        "converted_hangar",
+        "missleracks",
+        "goat_missile_switching_h",
+        "goat_missile_switching_mark",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_birdwatching_Fire_Support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "ARTICHOKE_K_L": "all_goat_artichoke_k_L",
+                "ARTICHOKE_K_R": "all_goat_artichoke_k_R"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "all_goat_dazzle_m",
+                "WS0004": "all_goat_dazzle_m"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "ARTICHOKE_H_L": "all_goat_artichoke_h",
+                "ARTICHOKE_H_R": "all_goat_artichoke_h"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "flak"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "vulcan",
+                "WS0007": "all_goat_grasp",
+                "WS0008": "all_goat_grasp"
+            }
+        }
+    ],
+    "wings": ["lpc_goat_nibble_wing"]
+}

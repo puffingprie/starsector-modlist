@@ -1,0 +1,33 @@
+{
+    "displayName": "打击",
+    "fluxCapacitors": 0,
+    "fluxVents": 13,
+    "hullId": "goat_fastboxer",
+    "hullMods": ["converted_hangar"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_fastboxer_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0030": "all_goat_fire_fire_m"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0029": "all_goat_dazzle_m"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "all_goat_punch"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "vulcan"}
+        }
+    ],
+    "wings": ["lpc_goat_turbulent_wing"]
+}

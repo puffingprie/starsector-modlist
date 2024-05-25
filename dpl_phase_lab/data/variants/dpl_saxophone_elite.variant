@@ -1,0 +1,36 @@
+{
+  "variantId": "dpl_saxophone_elite",
+  "hullId": "dpl_saxophone",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 49,
+  "fluxVents": 50,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "fluxdistributor",
+    "stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "dpl_hdpl",
+        "WS0012": "dpl_graviton_lance",
+        "WS0014": "dpl_hdpl",
+        "WS0015": "dpl_hdpl"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "dpl_hymn"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,26 @@
+{
+  "variantId": "DEX_stockpile_c_support",
+  "hullId": "DEX_stockpile_c",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 13,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "expanded_cargo_holds",
+    "auxiliary_fuel_tanks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

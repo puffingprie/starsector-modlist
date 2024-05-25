@@ -1,0 +1,37 @@
+{
+    "displayName": "攻击",
+    "fluxCapacitors": 2,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "goat_fastboxer",
+    "hullMods": [
+        "goat_oscillating",
+        "targetingunit",
+        "missleracks",
+        "converted_hangar"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_fastboxer_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0030": "heavymg"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0029": "phasecl"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "all_goat_grasp",
+                "WS0007": "all_goat_grasp"
+            }
+        }
+    ],
+    "wings": ["lpc_goat_redroof_wing"]
+}

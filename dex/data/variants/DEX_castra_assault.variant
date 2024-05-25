@@ -1,0 +1,80 @@
+{
+  "variantId": "DEX_castra_assault",
+  "hullId": "DEX_castra",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 39,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyac",
+        "WS0002": "heavyac",
+        "WS0003": "heavyac",
+        "WS0004": "lightac",
+        "WS0005": "lightac",
+        "WS0006": "lightmg",
+        "WS0007": "lightmg",
+        "WS0020": "locust",
+        "WS0021": "locust",
+        "WS0024": "harpoonpod",
+        "WS0025": "lightac",
+        "WS0026": "lightmg",
+        "WS0027": "lightmg",
+        "WS0028": "lightac",
+        "WS0029": "flak",
+        "WS0030": "flak",
+        "WS0033": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0034": "hellbore"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "sabotpod",
+        "WS0009": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "swarmer_fighter",
+        "WS0017": "swarmer_fighter",
+        "WS0018": "swarmer_fighter",
+        "WS0019": "swarmer_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0022": "flak",
+        "WS0023": "flak",
+        "WS0031": "flak",
+        "WS0032": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "DEX_spartan_wing",
+    "DEX_spartan_wing",
+    "DEX_spartan_wing"
+  ]
+}

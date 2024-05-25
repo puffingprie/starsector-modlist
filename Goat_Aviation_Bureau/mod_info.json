@@ -1,0 +1,24 @@
+{
+  "id": "Goat_Aviation_Bureau",
+  "name": "Goathead Aviation Bureau",
+  "author": "Creator: Mimeio \nCode Assistance：Saya39,AnyIDElse,Originem,a111164\nMapping Assistance：jayjay,Ykaris\nMusic Assistance:Shadow Light,homejerry99\n\nTranslation by MrMagolor",
+  "version": { "major": 1, "minor": 8, "patch": 0 },
+  "description": "The Aviation Bureau, which had sprung up before the Collapse, is aggressively developing - or perhaps restoring - its own armament strength.",
+  "gameVersion": "0.97",
+  "jars": ["jars/Goat_Aviation_Bureau_ss.jar"],
+  "dependencies": [
+    {
+      "id": "lw_lazylib",
+      "name": "LazyLib"
+    },
+    {
+      "id": "shaderLib",
+      "name": "ZZ GraphicsLib"
+    },
+    {
+      "id": "MagicLib",
+      "name": "MagicLib"
+    }
+  ],
+  "modPlugin": "data.scripts.GoatModPlugin"
+}

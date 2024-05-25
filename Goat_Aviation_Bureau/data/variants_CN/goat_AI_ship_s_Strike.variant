@@ -1,0 +1,21 @@
+{
+    "displayName": "打击",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "goat_AI_ship_s",
+    "hullMods": [
+        "safetyoverrides",
+        "auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_AI_ship_s_Strike",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0005": "all_goat_admonish",
+            "WS0020": "all_goat_admonish"
+        }
+    }]
+}

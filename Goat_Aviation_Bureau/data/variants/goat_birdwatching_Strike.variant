@@ -1,0 +1,65 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 16,
+    "hullId": "goat_birdwatching",
+	"goalVariant": true,
+    "hullMods": [
+        "targetingunit",
+        "converted_hangar",
+        "missleracks",
+        "goat_missile_switching_k"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_birdwatching_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "harpoonpod",
+                "WS0004": "harpoonpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "ARTICHOKE_K_L": "all_goat_artichoke_k_L",
+                "ARTICHOKE_K_R": "all_goat_artichoke_k_R"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "all_goat_dash",
+                "WS0006": "all_goat_dash"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "ARTICHOKE_H_L": "all_goat_artichoke_h",
+                "ARTICHOKE_H_R": "all_goat_artichoke_h"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "flak"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "vulcan",
+                "WS0007": "all_goat_grasp",
+                "WS0008": "all_goat_grasp"
+            }
+        }
+    ],
+    "wings": ["lpc_goat_ironstone_wing"]
+}

@@ -1,0 +1,92 @@
+{
+  "hullName": "Catapult",
+  "hullId": "DEX_catapult",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/DEX_catapult.png",
+  "style": "LOW_TECH",
+  "height": 56,
+  "width": 69,
+  "center": [39.5, 29.5],
+  "collisionRadius": 37.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 41.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "hbi"
+  ],
+  "builtInWeapons": {
+    "WS0003": "lidardish"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8.5, -2.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [14, 13.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1.5, 22.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13.5, 28.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-24.5, 18.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-24.5, 4.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-24.5, -9.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    25.5, 30.5,
+    -24.5, 30.5,
+    -24.5, -20.5,
+    25.5, -20.5
+  ]
+}

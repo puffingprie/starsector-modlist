@@ -1,0 +1,37 @@
+{
+    "displayName": "Derelict",
+    "fluxCapacitors": 0,
+    "fluxVents": 4,
+    "hullId": "goat_FLY",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_FLY_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "amblaster",
+                "WS0004": "amblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "taclaser",
+                "WS0006": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "goat_pdlr",
+                "WS0002": "goat_pdlr"
+            }
+        }
+    ],
+    "wings": []
+}

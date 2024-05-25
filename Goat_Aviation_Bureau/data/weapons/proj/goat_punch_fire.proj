@@ -1,0 +1,24 @@
+{
+	"id":"goat_punch_fire",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":42.0,
+	
+	"hitGlowRadius":50,
+	
+	"width":4,
+	"fadeTime":0.3,
+	
+	"fringeColor":[228,140,46,255],
+	"coreColor":[228,140,46,255],
+	"textureScrollSpeed":64.0,
+	
+	"glowColor":[148,110,196,90],
+	
+	"glowRadius":11,
+	
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"	
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "dpl_sousaphone_elite",
+  "hullId": "dpl_sousaphone",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 33,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "targetingunit",
+    "stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "dpl_graviton_lance",
+        "WS0004": "dpl_graviton_lance",
+        "WS0005": "dpl_hdpl",
+        "WS0006": "dpl_hdpl"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,30 @@
+{
+  "variantId": "DEX_warden_p_attack",
+  "hullId": "DEX_warden_p",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "chaingun",
+        "WS 002": "lightdualac",
+        "WS0001": "harpoon_single",
+        "WS0002": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

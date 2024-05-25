@@ -1,0 +1,21 @@
+{
+    "baseHullId":"falcon",
+    "skinHullId":"falcon_goat_painting",
+	
+	"hullName":"猎鹰 (GOP)",
+	"descriptionId":"falcon",
+	"tags":["midline_bp","goat_bp"],
+	"descriptionPrefix":"作为羊头涂装厂出品的特别版。她进行了专业化的重甲改良与镀层加装",
+  
+  "baseValueMult": 1.45,
+  
+  "hullDesignation": "轻型巡洋舰",
+
+  "restoreToBaseHull": false,
+  
+  "spriteName": "graphics/goat/ships/goat_painting/falcon_goat_painting.png",
+  
+  "tech": "羊头航务局",
+  
+  "builtInMods":["goat_painting","heavyarmor"],
+}

@@ -1,0 +1,25 @@
+{
+	"id":"goat_howl_ass",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM", 
+	"collisionClass":"RAY", 
+	"collisionClassByFighter":"RAY_FIGHTER", 
+	"onHitEffect":"data.scripts.weapons.goat_HowlOnHitEffect",
+	"onFireEffect": "data.scripts.weapons.goat_HowlOnFireEffect",
+	#"OnFireEffect": "data.scripts.weapons.goat_BombardOnFireEffect",
+	
+	"length":24.0,
+	"hitGlowRadius":80,
+	"width":10.0,
+	"fadeTime":0.1,
+	
+	"fringeColor":[224,203,131,175],
+	"coreColor":[254,143,131,205],
+	"glowColor":[255,63,31,80],
+	
+	"glowRadius":40,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/goat/missiles/goat_howl_ass.png"
+}

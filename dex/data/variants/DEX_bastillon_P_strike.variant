@@ -1,0 +1,34 @@
+{
+  "variantId": "DEX_bastillon_P_strike",
+  "hullId": "DEX_bastillon_P",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 5,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "annihilatorpod",
+        "WS 002": "annihilatorpod",
+        "WS 003": "lightdualmg",
+        "WS 004": "vulcan",
+        "WS 005": "lightag",
+        "WS 006": "lightag",
+        "WS 007": "lightdualac",
+        "WS 008": "lightdualac",
+        "WS 014": "lightmg",
+        "WS 015": "lightmg",
+        "WS0001": "DEX_guardsmanleftarm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,261 @@
+{
+	
+	"entityNamePrefix":"Explorarium",
+	"personNamePrefix":"Explorator",
+	"showInIntelTab":true,
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+			"DEX_nomadboss":0.0, #this isn't even in their spawnlist lol
+			"derelict_guardian":0.0, #this shouldn't actually affect cryosleeper spawns... actually testing shows this basically gets ignored so fuck me I guess
+			"DEX_haunt":0.4, #Its' a slippery little bastard even if it isn't threatening, and they seem to always show up with like 10 of the things if this isn't forcibly made rarer
+			"DEX_trepart":0.4, #this is supposed to be a rare hull and it ain't really all that good, so it gets to live in Oddy Jail
+			"DEX_terminal":.6, #High tech by Explorarium standards, needs to be rare.
+			"DEX_dreadnought":0.5, #This is supposed to be a special secret prototype hull, usually you should just see Forts
+			"DEX_castra":0.5, #Ditto
+			"DEX_castle":.5,
+			"DEX_arsenal":.5, #If you want to see less mega deathships, set these two to .4 or something.
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction. This never happens for the toasters so I've left it blank.
+	"shipsWhenImporting":{
+		"tags":["derelict, derelict_2"],
+		"hulls":[
+			"DEX_arsenal_core",
+			"DEX_castle",
+		],
+	},
+	"knownShips":{
+		"tags":["derelict, derelict_2"],
+		"hulls":[
+			"DEX_arsenal_core",
+			"DEX_barracks",
+			"DEX_battlement",
+			"DEX_castle",
+			"DEX_catapult",
+			"DEX_dreadnought",
+			"DEX_haunt",
+			"DEX_marche",
+			"DEX_seigetower",
+			"DEX_silo",
+			"DEX_stockpile",
+			"DEX_castle",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["derelict, derelict_2"],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["derelict"],
+		"fighters":[
+		"DEX_guardsman_wing",
+		"DEX_fighterwarden_wing",
+		"DEX_legionary_wing",
+		"DEX_spartan_wing",
+		"DEX_trojan_wing",
+		"DEX_m3payload_wing",
+		"mining_drone_wing", #this is here as a fallback because carriers kept crashing early-on.
+		],
+	},
+	"priorityFighters":{
+		"tags":["derelict"],
+		"fighters":[
+		],
+	"knownWeapons":{
+		"tags":["derelict", "base_bp", "lowtech_bp", "missile_bp"],
+		"weapons":[
+			"lightmg",
+			"lightdualmg",
+			"lightmortar",
+			"vulcan",
+			"lightac",
+			"lightdualac",
+			"lightag",
+			"railgun",
+			"shredder",
+			"heavymg",
+			"heavymortar",
+			"flak",
+			"arbalest",
+			"dualflak",
+			"chaingun",
+			"heavymauler",
+			"heavyac",
+			"hveldriver",
+			"gauss",
+			"hephag",
+			"mark9",
+			"devastator",
+			"hellbore",
+			"mjolnir",
+			"multineedler",
+			"reaper",
+			"atropos",
+			"atropos_single",
+			"hammer",
+			"hammer_single",
+			"swarmer",
+			"annihilator",
+			"heatseeker",
+			"harpoon",
+			"harpoon_single",
+			"sabot",
+			"sabot_single",
+			"harpoonpod",
+			"breachpod",
+			"sabotpod",
+			"salamanderpod",
+			"annihilatorpod",
+			"pilum",
+			"typhoon",
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			"hammerrack",
+			"mininglaser",
+			"pdlaser",
+			"irpulse",
+			"lrpdlaser",
+			"miningblaster",
+			"plasma",
+			"hil", #this is here for the Bore and nothing else basically
+		],
+	},
+	"priorityWeapons":{
+		"tags":["derelict"], #there shouldn't be any weapons with this tag, but if someone else adds them then the briccs should probably prefer them
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "lowtech_bp", "derelict"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar", #they don't need it, but it'll maybe cause a few nasty suprises sometimes
+			"eccm",
+			"ecm",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # they get makeshift shield for the ocasional suprise varient
+			"heavyarmor",
+			"insulatedengine",
+			"pointdefenseai",
+			"converted_hangar",
+			"nav_relay",
+			"fluxbreakers",
+			"solar_shielding",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+		],
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":3,
+		"phaseShips":1,
+		
+		"officerQuality":2, #Just gives them a few more gammas
+		"shipQuality":1, #they get like three different things to make d-mods not matter to them and they're like 1000 years old
+		"numShips":5, #because SPAM BABY!
+		
+		"shipSize":4,
+		
+		"aggression":4, #apparently doesn't matter, toasters do not fear death
+		
+		"combatFreighterProbability":0.4,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.1,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.2,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.5,
+
+		"commanderSkillsShuffleProbability":0, #I'm trying to make their officers matter a bit more, we'll see how this works
+		"commanderSkills":[			
+			"electronic_warfare",
+			#"crew_training",
+			"combat_endurance",
+			"ballistic_mastery",
+			#"gunnery_implants",
+			"missile_specialization",
+			"impact_mitigation",
+			"polarized_armor", #insert evil laugh here
+			"derelict_contingent", #I'm honestly not sure AI officers can even get this, but it seems fitting
+			"damage_control",
+		],
+	},
+
+	"illegalCommodities":[
+	],
+	"music":{
+		#"encounter_hostile":"music_default_encounter_hostile",
+		"theme":"derelict_theme", 
+		"market_neutral":"derelict_theme3",
+		"market_hostile":"derelict_theme2",
+		"market_friendly":"scavenge_music",
+		"encounter_neutral":"derelict_theme3",
+		"encounter_hostile":"derelict_theme",
+		"encounter_friendly":"scavenge_music",
+	},
+	"internalComms":"derelict_internal", #honestly I'm not even sure this does anything, but this may make them run on their own comm network seperate from everyone else.
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_ai1.png",
+			"graphics/portraits/portrait_ai1b.png",
+			"graphics/portraits/derelict_AI_portrait.png",
+			"graphics/portraits/derelict_AI_portrait2.png",
+			"graphics/portraits/rampart_portrait.png",
+			"graphics/portraits/bastillon_portrait.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_ai1.png",
+			"graphics/portraits/portrait_ai1b.png",
+			"graphics/portraits/derelict_AI_portrait.png",
+			"graphics/portraits/derelict_AI_portrait2.png",
+			"graphics/portraits/rampart_portrait.png",
+			"graphics/portraits/bastillon_portrait.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+		
+		},
+		"posts":{
+		},
+	},
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"allowsTransponderOffTrade":true, # to prevent cargoscan dialog from "patrols"
+		"postsNoBounties":false, #the toasters putting up bounties is funny and requires them to hold a market for it to matter anyway I'm pretty sure.
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+		"makesPirateBases":true, #test for later
+		"pirateBaseStationTypes":{
+			"derelictMothership":10, #NEED TO TEST THIS BEFORE PUBLIC RELEASE!!!
+		},
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+		},
+	},
+	"fleetTypeNames":{
+		"smallTrader":"Asset Transport",
+		"trade":"Asset Transport",
+		"tradeLiner":"Asset Transport",
+		"patrolSmall":"Section",
+		"patrolMedium":"Subdirectory",
+		"patrolLarge":"Directory",
+		"battlestation":"Foundry",
+		"taskForce":"Superdirectory",
+	},
+},
+}, #why does it want this help

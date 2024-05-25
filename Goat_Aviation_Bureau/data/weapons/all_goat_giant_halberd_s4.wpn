@@ -1,0 +1,16 @@
+{
+  "id": "all_goat_giant_halberd_s4",
+  "specClass": "projectile",
+  "projectileSpecId": "goat_giant_halberd_mrm4",
+  "type": "MISSILE",
+  "size": "SMALL",
+	"interruptibleBurst":false,
+  "turretSprite": "",
+  "hardpointSprite": "",
+  "turretOffsets": [0, 0],
+  "turretAngleOffsets": [0],
+  "hardpointOffsets": [0, 0],
+  "hardpointAngleOffsets": [0],
+  "barrelMode": "ALTERNATING",
+  "animationType": "NONE",
+}

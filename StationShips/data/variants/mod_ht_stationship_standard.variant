@@ -1,0 +1,93 @@
+{
+  "variantId": "mod_ht_stationship_standard",
+  "hullId": "mod_ht_stationship",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 43,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedshieldemitter",
+    "hardenedshieldemitter",
+    "solar_shielding",
+    "high_scatter_amp",
+    "autorepair",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "tachyonlance",
+        "WS0005": "tachyonlance",
+        "WS0006": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heavyblaster",
+        "WS0008": "heavyblaster",
+        "WS0009": "heavyblaster",
+        "WS0010": "heavyblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0024": "ionbeam",
+        "WS0025": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "taclaser",
+        "WS0012": "taclaser",
+        "WS0013": "taclaser",
+        "WS0014": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "guardian",
+        "WS0016": "ionbeam",
+        "WS0018": "gravitonbeam",
+        "WS0020": "taclaser",
+        "WS0023": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "guardian",
+        "WS0017": "ionbeam",
+        "WS0019": "gravitonbeam",
+        "WS0021": "taclaser",
+        "WS0022": "taclaser"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0001": "mod_ht_stationship_left_standard"
+    },
+    {
+      "WS0002": "mod_ht_stationship_right_standard"
+    }
+  ],
+  "wings": []
+}

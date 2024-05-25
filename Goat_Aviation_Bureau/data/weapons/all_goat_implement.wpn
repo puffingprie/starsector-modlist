@@ -1,0 +1,57 @@
+{
+  "id": "all_goat_implement",
+  "specClass": "projectile",
+  "projectileSpecId": "goat_implement_ass",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "displayArcRadius": 600,
+  "mountTypeOverride":"HYBRID",
+
+  "everyFrameEffect":"data.scripts.weapons.goat_HYBRID_imp_EveryFrameEffect",
+
+  "turretSprite": "graphics/goat/weapons/energy/goat_implement/goat_implement.png",
+  "turretGlowSprite": "graphics/goat/weapons/energy/goat_implement/goat_implement_glow.png",
+  "turretGunSprite": "graphics/goat/weapons/energy/goat_implement/goat_implement_recoi.png",
+  "hardpointSprite": "graphics/goat/weapons/energy/goat_implement/goat_implement.png",
+  "hardpointGlowSprite": "graphics/goat/weapons/energy/goat_implement/goat_implement_glow.png",
+  "hardpointGunSprite": "graphics/goat/weapons/energy/goat_implement/goat_implement_recoi.png",
+  "visualRecoil": 6,
+  "turretOffsets": [
+    16.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    26,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+   "glowColor": [
+      160,
+      205,
+      90,
+      205
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 80,
+    "spread": 48,
+    "particleSizeMin": 5,
+    "particleSizeRange": 8,
+    "particleDuration": 0.15,
+    "particleCount": 40,
+    "particleColor": [
+      60,
+      205,
+      190,
+      35
+    ]
+  },
+  "fireSoundTwo": "ion_pulser_fire"
+}

@@ -1,0 +1,2 @@
+id,name,value,maxlife,tags,foodCommodities,rarity,foodPerMonth,desc,natural_death,icon,hullmod
+honkbox,Honkbot,1,180,c_mech,"IndEvo_pet_food, IndEvo_parts, ",1,1,"Little more than a small cardboard box wielding a bike horn with a prosthetic arm, honkbots are infamous for their incessant honking and generation of floor wax at seemingly random, beloved by the assistants and maintenance staff, and a scourge upon security personnel.",Was cast into the reactor by an irate security officer.,graphics/icons/misc/pet_icon.png,IndEvo_petHullmod

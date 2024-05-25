@@ -1,0 +1,59 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 28,
+    "goalVariant": true,
+    "hullId": "goat_goatbone_scholar",
+    "hullMods": [
+        "targetingunit",
+        "eccm"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_goatbone_scholar_Fire_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "all_goat_howl"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0030": "all_goat_purgatory_reprimand",
+                "WS0035": "all_goat_purgatory_reprimand"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "hveldriver",
+                "WS0005": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "all_goat_punch",
+                "WS0002": "all_goat_punch"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "vulcan",
+                "WS0007": "vulcan"
+            }
+        }
+    ],
+    "wings": []
+}

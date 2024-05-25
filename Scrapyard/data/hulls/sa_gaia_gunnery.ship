@@ -1,0 +1,100 @@
+{
+  "hullName": "Gaia Gunnery",
+  "hullId": "sa_gaia_gunnery",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/gaia/sa_gaia_gunnery.png",
+  "style": "LOW_TECH",
+  "height": 118,
+  "width": 178,
+  "center": [89, 6],
+  "collisionRadius": 121,
+  "shieldCenter": [12, -0],
+  "shieldRadius": 101.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sa_refined_targeting_core",
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": 25.5,
+      "locations": [53, 38]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 45,
+      "locations": [23, 61]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [77, 33]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [90, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": -25.5,
+      "locations": [53, -38]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [77, -33]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -45,
+      "locations": [23, -61]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    101, 15,
+    92.5, 34.5,
+    26, 81,
+    3.5, 81.5,
+    6, 41.5,
+    21, 41,
+    -1, 0,
+    21, -41,
+    6, -41.5,
+    3.5, -81.5,
+    26, -81,
+    92.5, -34.5,
+    101, -15
+  ]
+}

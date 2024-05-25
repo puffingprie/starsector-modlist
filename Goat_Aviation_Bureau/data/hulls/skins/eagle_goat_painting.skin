@@ -1,0 +1,21 @@
+{
+    "baseHullId":"eagle",
+    "skinHullId":"eagle_goat_painting",
+	
+	"hullName":"Eagle (GP)",
+	"descriptionId":"falcon",
+	"tags":["goat_bp","rare_bp"],
+	"descriptionPrefix":"As a special edition from the Goathead painting facility, this ship received custom armor modifications, in addition to the standard stellar-reflective paint.",
+  
+  "baseValueMult": 1.45,
+  
+  "hullDesignation": "Cruiser",
+
+  "restoreToBaseHull": false,
+  
+  "spriteName": "graphics/goat/ships/goat_painting/eagle_goat_painting.png",
+  
+  "tech": "Goathead Aviation",
+  
+  "builtInMods":["goat_painting","heavyarmor"],
+}

@@ -1,0 +1,39 @@
+{
+    "displayName": "超级",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "goat_arson_bird",
+    "hullMods": [
+        "safetyoverrides",
+        "auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_arson_bird_Super",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "all_goat_lash_s",
+                "WS0002": "all_goat_lash_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "lightdualmg",
+                "WS0012": "lightdualmg",
+                "WS0013": "lightmg",
+                "WS0014": "lightmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "all_goat_grasp"}
+        }
+    ]
+}

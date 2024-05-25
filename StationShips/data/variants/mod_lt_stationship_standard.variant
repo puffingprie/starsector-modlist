@@ -1,0 +1,100 @@
+{
+  "variantId": "mod_lt_stationship_standard",
+  "hullId": "mod_lt_stationship",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "turretgyros",
+    "solar_shielding",
+    "advancedshieldemitter",
+    "fluxdistributor",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0029": "mjolnir",
+        "WS0030": "mjolnir",
+        "WS0031": "mjolnir",
+        "WS0032": "mjolnir"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyac",
+        "WS0002": "heavyac",
+        "WS0003": "heavyac",
+        "WS0004": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "dualflak",
+        "WS0006": "dualflak",
+        "WS0007": "dualflak",
+        "WS0008": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "railgun",
+        "WS0015": "railgun",
+        "WS0016": "railgun",
+        "WS0017": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "vulcan",
+        "WS0019": "vulcan",
+        "WS0020": "lightdualmg",
+        "WS0021": "lightdualmg",
+        "WS0022": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "dualflak",
+        "WS0011": "dualflak",
+        "WS0013": "heavyac",
+        "WS0023": "railgun",
+        "WS0026": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "dualflak",
+        "WS0012": "dualflak",
+        "WS0024": "railgun",
+        "WS0025": "railgun"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0027": "mod_lt_stationship_left_standard"
+    },
+    {
+      "WS0028": "mod_lt_stationship_right_standard"
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,49 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 9,
+    "fluxVents": 20,
+    "hullId": "goat_rainfarewell",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_rainfarewell_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "chaingun"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "hammer",
+                "WS0006": "hammer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "all_goat_lash_s"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "all_goat_grasp",
+                "WS0004": "all_goat_grasp"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightmg",
+                "WS0002": "lightmg"
+            }
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+	"name":"crosscode_lea",
+	"personalities":["cautious", "steady", "aggressive"],
+	"gender":["f"],
+	"chance":0.4,
+	"talkativeness":0.6,
+	"categoryTags":["game", "othermedia"],
+	
+	"lines":{
+		"start":[
+			{"text":"Hi!"}
+		],
+		"start_boss":[
+			{"text":"Hi, .$officerName!"}
+		],		
+		"retreat":[
+			{"text":"...?"}
+		],
+		"out_of_missiles":[
+			{"text":"..what?"}
+		],
+		"engaged":[
+			{"text":"...!!"},
+			{"text":"...HI!!!"},
+		],
+		"need_help":[
+			{"text":"...?!"},
+			{"text":"...Meet?"}
+		],
+		"pursuing":[
+			{"text":"...!"},
+			{"text":"... Wait!"}
+		],
+		"running":[
+			{"text":"..."}
+		],
+		"hull_90":[
+			{"text":"What?!"},
+		],
+		"hull_50":[
+			{"text":"WHY?!"},
+		],
+		"hull_30":[
+			{"text":"HOW?!"},
+			{"text":"Bye?"}
+		],
+		"overload":[
+			{"text":"...Sorry!"},
+		],
+		"death":[
+			{"text":"..."},
+			{"text":"...Bye."}
+		],
+		"victory":[
+			{"text":"..Bye!"},
+			{"text":"...!"},
+			{"text":"..Thanks!"}
+		]
+	}
+}

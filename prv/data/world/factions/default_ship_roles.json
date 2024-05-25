@@ -1,0 +1,197 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		###10
+		"prv_gnista_cs":5,
+		"prv_gnista_missile":5,
+		###10
+		"prv_flamma_standard":5,	
+		"prv_flamma_beam":5,
+	},
+	"combatSmall":{
+		###10
+		"prv_gnista_cs":5,
+		"prv_gnista_missile":5,
+		###10		
+		"prv_flamma_standard":3.75,
+		"prv_flamma_overdriven":3.75,		
+		"prv_flamma_beam":2.5,	
+		###10
+            "prv_ljus_pd":5,
+            "prv_ljus_strike":5,
+            ###10
+		"prv_gryning_attack":10,
+            ###10
+            "prv_sinne_adv":6,
+            "prv_sinne_ryak":4,
+	},
+	"combatMedium":{
+            ###10
+		"prv_eld_missile":4,
+		"prv_eld_overdriven":3,
+		"prv_eld_elite":4,
+		###10
+		"prv_ballebo_domain":5,
+		"prv_ballebo_legacy":5,
+            ###10
+            "prv_shrike_attack":4,
+            "prv_shrike_support":3,
+            "prv_shrike_overdriven":3,
+            ###10
+            "prv_brand_beam":5,
+            "prv_brand_standard":5,
+	},
+	"combatLarge":{
+		###10
+		"prv_flock_overdriven":2.5,
+		"prv_flock_strike":7.5,
+		###10
+		"prv_is_adv":6,
+		"prv_is_missile":4,
+		###10
+		"prv_aska_ryak":5,
+		"prv_aska_grav":3,
+		"prv_aska_overdriven":2,
+	},
+	"combatCapital":{
+		###10
+		"prv_morker_grav":5,
+		"prv_morker_domain":5,
+		###10
+		"prv_skymning_tensor":3,
+		"prv_skymning_advanced":5,
+		"prv_skymning_elite":2,
+		###10
+		"prv_rok_adv":4,
+		"prv_rok_grav":4,
+		"prv_rok_grav2":2,
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+	},
+	"combatFreighterMedium":{
+		###10
+		"prv_gemini_aux_i":4,
+		"prv_gemini_aux_s":3,
+		"prv_gemini_aux_b":3,
+		###4
+		"prv_ilbud_flicker":2,
+		"prv_ilbud_stealth":2,
+            ###8
+		"prv_tiger_aux_c":4,
+		"prv_tiger_support":4,
+	},
+	"combatFreighterLarge":{
+	},
+	
+	"civilianRandom":{
+	},
+
+	# carriers
+	"carrierSmall":{
+		###10
+            "prv_tystnad_stock":3,
+            "prv_tystnad_ryak":7,
+            ###6
+            "prv_ande_nav":3,
+            "prv_ande_reinforced":3,
+		###10
+		"prv_sorl_escort":5,
+		"prv_sorl_attack":5,
+		###10
+		"prv_condor_aux_f":5,
+		"prv_condor_aux_b":5,
+	},
+	"carrierMedium":{
+            ###4
+            "prv_gast_strike":2,
+            "prv_gast_grav":2,
+		###10
+		"prv_kakafoni_missile":5,
+		"prv_kakafoni_ryak":5,
+	},
+	"carrierLarge":{
+		#10
+		"prv_valljud_strike":5,
+		"prv_valljud_elite":5,
+		###3 note: bp is unavailable
+		"prv_valnad_sustained":1.5,
+		"prv_valnad_strike":1.5,
+	},
+
+	# phase ships
+	"phaseSmall":{
+		###10
+		"prv_fasnod_flicker":3,
+		"prv_fasnod_strike":7,
+	},
+	"phaseMedium":{
+            ###10
+            "prv_fasklot_attack":5,
+            "prv_fasklot_flicker":5,
+		###8
+		"prv_ilbud_flicker":4,
+		"prv_ilbud_stealth":4,
+
+	},
+	"phaseLarge":{
+		###10
+		"prv_fasvinge_flicker":5,
+		"prv_fasvinge_assault":5,
+	},
+	"phaseCapital":{
+
+	},
+
+	# freighters and such
+	"freighterSmall":{
+	},
+	"freighterMedium":{
+		###10
+		"prv_munsbit_armed":3,
+		"prv_munsbit_br":3,
+		"prv_munsbit_standard":4,
+		###10
+		"prv_tarsus_aux":10,
+	},
+	"freighterLarge":{
+	},
+	
+	"tankerSmall":{
+	},
+	"tankerMedium":{
+	},
+	"tankerLarge":{
+	},
+	
+	"personnelSmall":{
+	},
+	"personnelMedium":{
+	},
+	"personnelLarge":{
+	},
+	
+	"linerSmall":{
+	},
+	"linerMedium":{
+	},
+	"linerLarge":{
+	},
+	
+	# utility ships
+	"tug":{
+	},
+	"crig":{
+	},
+	"utility":{
+	},
+	
+	"orbitalStationLowTech":{
+	},
+	
+	"battlestationLowTech":{
+	},
+}

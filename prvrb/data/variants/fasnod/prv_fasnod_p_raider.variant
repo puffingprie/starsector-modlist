@@ -1,0 +1,33 @@
+{
+  "displayName": "Raider",
+  "fluxCapacitors": 10,
+  "fluxVents": 3,
+  "goalVariant": true,
+  "hullId": "prv_fasnod_p",
+  "hullMods": [
+    "missleracks",
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "prv_fasnod_p_raider",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hammer",
+        "WS0002": "hammer",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightag",
+        "WS0004": "lightag"
+      }
+    },
+  ],
+  "wings": []
+}

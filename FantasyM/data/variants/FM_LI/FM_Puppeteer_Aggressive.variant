@@ -1,0 +1,35 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 9,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "FM_Puppeteer",
+    "hullMods": ["expanded_deck_crew"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Puppeteer_Aggressive",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "mininglaser",
+                "WS0002": "mininglaser",
+                "WS0003": "mininglaser",
+                "WS0004": "mininglaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "heatseeker",
+                "WS0006": "heatseeker"
+            }
+        }
+    ],
+    "wings": [
+        "FM_Amanojyak_wing",
+        "FM_Amanojyak_wing"
+    ]
+}

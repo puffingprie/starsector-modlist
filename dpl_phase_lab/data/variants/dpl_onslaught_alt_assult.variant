@@ -1,0 +1,54 @@
+{
+    "displayName": "Assult",
+    "fluxCapacitors": 50,
+    "fluxVents": 49,
+    "goalVariant": true,
+    "hullId": "dpl_onslaught_alt",
+    "hullMods": [
+        "fluxdistributor",
+        "dpl_energy_rangefinder",
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "dpl_onslaught_alt_assult",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyac",
+                "WS 003": "heavyac",
+                "WS 007": "heavyblaster",
+                "WS 016": "dpl_tpl",
+                "WS 017": "dpl_tpl",
+                "WS 019": "dpl_phase_pd",
+                "WS 021": "annihilatorpod",
+                "WS 022": "annihilatorpod",
+                "WS 023": "annihilatorpod",
+                "WS 024": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "heavyneedler",
+                "WS 013": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "lrpdlaser",
+                "WS 009": "lrpdlaser",
+                "WS 010": "flak",
+                "WS 011": "flak",
+                "WS 018": "devastator",
+                "WS 020": "devastator"
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+  "variantId": "sa_chandelier_bow_standard",
+  "hullId": "sa_chandelier_bow",
+  "displayName": "Bow",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sa_dewpoint",
+        "WS0008": "sa_dewpoint"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "autopulse",
+        "WS0002": "autopulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ioncannon",
+        "WS0006": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lrpdlaser",
+        "WS0004": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

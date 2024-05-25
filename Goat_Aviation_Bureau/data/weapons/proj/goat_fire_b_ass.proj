@@ -1,0 +1,21 @@
+{
+	"id":"goat_fire_b_ass",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM", 
+	"collisionClass":"RAY", 
+	"collisionClassByFighter":"RAY_FIGHTER", 
+	"length":6.0,
+	"hitGlowRadius":50,
+	"width":5.0,
+	"fadeTime":0.1,
+	
+	"fringeColor":[255,115,33,175],
+	"coreColor":[255,241,231,205],
+	"glowColor":[228,140,46,120],
+	
+	"glowRadius":10,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/goat/missiles/goat_fire_b_ass.png"
+}

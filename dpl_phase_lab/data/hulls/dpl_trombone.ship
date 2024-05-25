@@ -1,0 +1,181 @@
+{
+  "hullName": "Trombone",
+  "hullId": "dpl_trombone",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/dpl_trombone.png",
+  "style": "HIGH_TECH",
+  "height": 250,
+  "width": 118,
+  "center": [59, 125],
+  "collisionRadius": 160,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 148,
+  "viewOffset": 0,
+  "builtInMods": [
+    "dpl_special_hanger"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 90,
+      "locations": [-62, 35]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -90,
+      "locations": [-62, -35]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 90,
+      "locations": [21, 47]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -90,
+      "locations": [21, -47]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [44.5, 38]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [44.5, -38]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [35, 21]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [35, -21]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-99, 32.5],
+      "length": 53.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-99, -32.5],
+      "length": 53.5,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-103, 10],
+      "length": 69.5,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-103, -10],
+      "length": 69.5,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-92, 18],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-92, -18],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-90, 23],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-90, -23],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    110.5, -6,
+    96, -15.5,
+    98.5, -45.5,
+    94, -54,
+    46, -59.5,
+    13.5, -59.5,
+    10.5, -53.5,
+    -37.5, -46,
+    -71, -46,
+    -98, -41.5,
+    -103, -18,
+    -103, 18,
+    -98, 41.5,
+    -71, 46,
+    -37.5, 46,
+    10.5, 53.5,
+    13.5, 59.5,
+    46, 59.5,
+    94, 54,
+    98.5, 45.5,
+    96, 15.5,
+    110.5, 6
+  ]
+}

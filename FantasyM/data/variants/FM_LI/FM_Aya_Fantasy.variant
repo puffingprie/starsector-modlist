@@ -1,0 +1,24 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 12,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Aya",
+    "hullMods": [
+        "FantasyBorderMod",
+        "missleracks",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Aya_Fantasy",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "dragon",
+            "WS0002": "dragon"
+        }
+    }],
+    "wings": []
+}

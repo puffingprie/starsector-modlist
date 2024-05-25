@@ -1,0 +1,45 @@
+{
+    "displayName": "攻击",
+    "fluxCapacitors": 8,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "goat_flowertide",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_flowertide_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "all_goat_punish"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "all_goat_giant_halberd_s",
+                "WS0010": "all_goat_giant_halberd_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "all_goat_diiscipline"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "all_goat_grasp",
+                "WS0005": "all_goat_grasp"
+            }
+        }
+    ],
+    "wings": []
+}

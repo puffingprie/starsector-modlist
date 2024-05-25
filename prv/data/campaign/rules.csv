@@ -1,0 +1,145 @@
+id,trigger,conditions,script,text,options,notes
+# relationship level descriptions,,,,,,
+# PRV,,,,,,
+relLevelCooperativePrv,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == prv",FireAll RelLevelMoreDescription,"Stories of your exploits inspire young blood across the prv into ever more reckless ambition, while the various houses move mercilessly against each other as they try to be the ones to guide your hand.",,
+relLevelFriendlyPrv,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == prv",FireAll RelLevelMoreDescription,"You seem to have become a focal point in the political scheming inside the prv, with several houses trying to use you to further their latest plots. Few doors are closed to you.",,
+relLevelWelcomingPrv,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == prv",FireAll RelLevelMoreDescription,"You’ve found yourself on the good side of a few nobles, who see you as a charming rogue and a reliable agent. You can expect to get away with some minor indescretions.",,
+relLevelFavorablePrv,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == prv",FireAll RelLevelMoreDescription,"You’ve picked up a swagger and a sense of how things are done in the prv, a whiff of the winds of power. You find yourself bothering less and less with formal avenues, and meeting less resistance in turn.",,
+relLevelNeutralPrv,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == prv",FireAll RelLevelMoreDescription,"The prv care little for you one way or another, and are unlikely to involve you in their schemes.",,
+relLevelSuspiciousPrv,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == prv",FireAll RelLevelMoreDescription,"An unreliable agent, a less-than-charming rogue, and a killer for hire; you are not respected in the prv, but you are tolerated. For now.",,
+relLevelInhospitablePrv,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == prv",FireAll RelLevelMoreDescription,"Having offended more than a few officials, your existence inside the prv sphere of influence is decidedly fragile. You are the very definition of a disposable asset.",,
+relLevelHostilePrv,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == prv",FireAll RelLevelMoreDescription,"Intractable, arrogant, impossible, rude, crude, there is no end to the epithets you find used to describe your conduct. Having given up any hope of advantageously deploying your special talents against each other, the prv power brokers have decided that you are best eliminated.",,
+relLevelVengefulPrvSF,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == prv
+$player.fleetPoints >= 160",FireAll RelLevelMoreDescription,"You are nemesis, the bringer of divine punishment that has struck down the prv for their impudent arrogance. You are the rider on the pale horse, the bringer of death. You are the end of hope.",,
+relLevelVengefulPrvLF,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == prv
+$player.fleetPoints < 160",FireAll RelLevelMoreDescription,"In the war of assassins your exploits have left you as the one feared and hated the most. Seen as an almost metaphysical evil sent to mar the prv, a dark spirit that cannot be reasoned with, you are hunted at every turn.",,
+,,,,,,
+# PRV COMMISSION,,,,,,
+CMSNTextRejectHostile_prv,CMSNTextRejectHostile,$faction.id == prv,,"""Oh, I like your attitude. Hah. No, those sins of yours do not wash away so easily.""",,
+CMSNTextHasOther_prv,CMSNTextHasOther,$faction.id == prv,,"""We’re not currently looking for additional agents inside $theOtherCommissionFaction, so you’ll have to resign that commission before we can make use of you.",,
+CMSNTextUnsuited_prv,CMSNTextUnsuited,$faction.id == prv,,"""I don’t really see what you’d be good for. Come back when you’ve shown some worth.""",,
+CMSNTextSuitedPart1_prv,CMSNTextSuitedPart1,$faction.id == prv,,"""You’ve been useful to us so far, and we can make further use of you.
+
+Working under a formal commission would entitle you do a monthly stipend, but you would lose any deniability as an independent operator, and anyone hostile to the corporation would regard you as an enemy.
+
+If this should become inconvenient for our work you can request to be striken from the rolls at any time, and we will make up some suitable excuse for terminating your commission.""",,
+CMSNTextSuitedPart2_prv,CMSNTextSuitedPart2,$faction.id == prv,,"""Will you walk the path of knives with us?""",,
+CMSNTextWelcomePart1_prv,CMSNTextWelcomePart1,$faction.id == prv,,"""Very well, welcome to the official fraction of Pariabyrån, $playerName. Your service resumes immediately.""",,
+CMSNTextWelcomePart2_prv,CMSNTextWelcomePart2,$faction.id == prv,,"""You will be granted an honorary knighthood, and my adjutant will supply you with all the information you will need on the formal terms of commissioning. Is there anything else I can help you with?""",,
+CMSNTextChangeMind_prv,CMSNTextChangeMind,$faction.id == prv,,"""As you wish. We’ll… remain in touch, $playerName.""",,
+CMSNResignAskToConfirm_prv,CMSNResignAskToConfirm,$faction.id == prv,,"""What are you up to now? No, I suspect you won’t answer that. Do you wish for me to formally erase you from the list of commissioned operators?""",,
+CMSNResignConfirmed_prv,CMSNResignConfirmed,$faction.id == prv,,"""It is done. We look forward to hearing of your future undertakings, former agent.""",,
+CMSNResignCancelled_prv,CMSNResignCancelled,$faction.id == prv,,"""Very well, you will remain on the rolls, agent.""",,
+,,,,,,
+# AI CORES,,,,,,
+aiCores_turnInOptionSell_prv,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == prv",FireAll PopulateCoresTurnInOptions,"""Dangerous stuff you’ve got there. You can’t trust those damn things, you know. Did you hear about the alpha at the HEL that was disguising itself as a gamma? Who knows what trouble that one could have caused if it was plugged in.
+
+Anyway, I can give you a respectable bounty for any cores you’ve gotten your hands on, no questions asked.""
+OR
+""Those things always creep me out. Never understood what’s supposed to motivate them.
+
+Anyway, I can give you a respectable bounty for any cores you’ve gotten your hands on, no questions asked.""
+OR
+""Fascinating things. Have you ever touched one directly, $playerLastName? You can feel the sheer power through the metal, it's something more than a mere mechanism.
+
+Anyway, I can give you a respectable bounty for any cores you’ve gotten your hands on, no questions asked.""",,
+aiCores_turnInResponse_prv,AICoresTurnedIn,$faction.id == prv,FireAll PopulateOptions,"""We’ll take the goods into custody, I’m clearing the transfer contract as we speak."" $personName finishes entering a few commands and looks up. ""It’s our problem now.""",,
+,,,,,,
+# BAR ENTRY,,,,,,
+bar_desc_prv,BarPrintDesc,$faction.id == prv,ShowImageVisual space_bar,"You find yourself in a corporate lounge, expensively but tastelessly decorated and full of what you suspect are largely fakes, dead-end suits with neither talent nor connections. A group of men by a game table shuffle around piles of chips representing either very large or very small amounts of money, while sharply-dressed men and women prowl around the bar, looking for other predators of similar inclination. Fake smiles and giggles stand in for sincere emotion, and a quiet soundtrack does its best to escape notice.",,
+bar_desc_prv_nedan,BarPrintDesc,"$faction.id == prv
+$market.id == prv_stjarngard_ymer_moon2 score: 100",ShowImageVisual pirate_bar,"Seeking out the only bar in the settlement that actually welcomes spacers, you enter a circular room that surrounds a roaring flame, several meters tall and open to the dark nighttime sky through an oculus at the center of the domed roof. Booths and benches oriented towards the center line the outer wall, letting each patron choose his level of comfort between the freezing cold of the walls and the scorching heat of the flame geyser.",,
+bar_desc_prv_utbo_planet,BarPrintDesc,"$faction.id == independent
+$market.id == prv_stjarngard_utbo score: 100",ShowImageVisual teahouse,"Decorated with fine wood, intricate textiles, and a real fireplace, the värdshus - inn - you enter offers weary spacers food, lodging, and, of course, drink. A group of boisterous young nobles are playing a cardgame by a table in the back, with most of the serving girls hovering close-by, hoping to catch an eye. In the central parts of the room serious merchant-captains enjoy rich meals with thick cuts of meat, mounds of boiled tubers, and thick gravy, while a few men by the bar slowly sip amber spirits while in quiet conversation. In spite of the youthful energy in the back the overall feeling of the bar is calm and collected, almost muted.",,
+bar_desc_prv_utbo_station,BarPrintDesc,"$faction.id == prv
+$market.id == prv_stjarngard_utbo score: 100",ShowImageVisual teahouse,"Decorated with fine wood, intricate textiles, and a real fireplace, the värdshus - inn - you enter offers weary spacers food, lodging, and, of course, drink. A group of boisterous young nobles are playing a cardgame by a table in the back, with most of the serving girls hovering close-by, hoping to catch an eye. In the central parts of the room serious merchant-captains enjoy rich meals with thick cuts of meat, mounds of boiled tubers, and thick gravy, while a few men by the bar slowly sip amber spirits while in quiet conversation. In spite of the youthful energy in the back the overall feeling of the bar is calm and collected, almost muted.",,
+bar_desc_prv_kratul,BarPrintDesc,"$faction.id == prv
+$market.id == prv_kratul_kratul score: 100",ShowImageVisual space_bar,"You find yourself in a back-street club, assaulted by intense music bordering on noise. A large agrav plate is slowly spinning in the middle of the room, serving as a dance floor, or possibly ceiling, full of sweaty youths in color-shifting clothing dancing the night away in a daze of stimulants. By the bar in the back you find a calmer environment, where dark figures sit around underlit tables, enjoying quiet drinks and quieter conversations. A metered acousto-suppressive device by each table renders the music muted, and conversations private.",,
+,,,,,,
+# GREETINGS,,,,,,
+# prv fleet greeting lines,,,,,,
+greetingPRVFriendly,OpenCommLink,"$faction.id == prv
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Identity confirmed. Still alive, I see.""
+OR
+""Good to see you, colleague. Killed anyone exciting lately?""
+OR
+""I’ve got some strange hypertopo reads, how’s your data?""
+OR
+""The vidlink shows a clean and sharp captain who seems equal measures high-strung and nervous, with every last detail on the bridge in impeccable shape.""
+
+""How can I be of assistance,  $playerSirOrMadam?""
+OR
+The vidlink shows a wearied captain, somewhat dishelved, lounged back in a well-worn command seat.
+
+""What’s new, $playerLastName?""",,
+greetingPRVHostileWeaker,OpenCommLink,"$faction.id == prv
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"Attention. Your vessel has been scanned and identified as hostile. Further attempts at aggression will be repaid sevenfold.
+OR
+""You’ve got me at a disadvantage, captain. But I will fight as a lion if I have to.""",,
+greetingPRVHostileWeakerDefiant,OpenCommLink,"$faction.id == prv
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"The prv $personRank looks proud and resigned. ""So this is where it ends? Very well. I’ve served my house proudly.""
+OR
+""I will not go quietly into the long night. I will make this bloody and vicious. Choose wisely.""
+OR
+""Do you believe in luck, $playerFirstName? It always runs out eventually, but you never know for who, or when.""",,
+greetingPRVHostileStronger,OpenCommLink,"$faction.id == prv
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"Your signals are ignored, quietly swallowed by the static void created by opposing ECM.
+OR
+Your comms are replied to with a mirrored copy, pointless gibberish.
+OR
+As soon as you send your comm request your ship is assaulted by EM effectors trying to jam your comm systems. At this distance the effect is annoying, but largely harmless.",,
+greetingPRVNeutral,OpenCommLink,"$faction.id == prv
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Well met, $playerSirOrMadam.""
+OR
+""Hallå där $playerSirOrMadam! Can we be of assistance?""
+OR
+""ID acknowledged. Is there a problem, $playerSirOrMadam?""
+OR
+""For your own safety please maintain tactical distance.""
+OR
+""You are required not to interfere with prv operations in this volume, $playerSirOrMadam. Go about your business.""",,
+,,,,,,
+,,,,,,
+,,,,,,
+# Trade panel flavor text,,,,,,
+flavorTextMarketPrv,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == prv","AddText ""The meticulously orderly port concourse is filled with trader starcraft of every size. In spite of the busy dockworkers and traders there is a muted atmosphere in the port, and men feel more inclined to whisper than to raise their voice."" marketFlavorTextColor
+AddText ""A few small gardens have been planted throughout the concourse, with benches and pergolas adding a shade of privacy for those who desire it."" marketFlavorTextColor",,,
+flavorTextMarketPrvUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == prv
+$stability < 3","AddText ""The meticulously orderly port concourse is largely empty. What few ships and traders there are conduct their business in hushed tones."" marketFlavorTextColor
+AddText ""A few small gardens have been planted throughout the concourse, but appear to be very poorly maintained - half overgrown and half shriveled."" marketFlavorTextColor",,,
+flavorTextMarketPrvVeryUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == prv
+$stability == 0 score: 25","AddText ""The port concourse is largely empty, with shuttles and cargo loaders parked haphazardly. What few ships and traders there are conduct their business in hushed tones."" marketFlavorTextColor
+AddText ""A few small gardens had been planted throughout the concourse. Most are dead and dried up, but a water leak has turned one of the larger plots into a foul-smelling swamp."" marketFlavorTextColor",,,
+flavorTextMarketPrvSneak,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == prv
+$player.transponderOn == false","AddText ""Landing at the private dock of a petty noble, you find yourself personally greeted by the man as you disembark. Your lack of proper docking clearance doesn't bother him - he seems to consider the whole thing a thrilling caper."" marketFlavorTextColor
+AddText ""You’re guided through the man’s small estate and leave through the servants’ entrance, at the ransom of a promise to tell the man a story about your adventures once you return."" marketFlavorTextColor",,,
+,,,,,,
+greetingDefaultTOffNormalPrv,OpenCommLink,"!$player.transponderOn
+$faction.id == prv
+$entity.relativeStrength >= 0",,"$PersonRank $personName looks exasperated. ""Turn on your transponder if you want to talk.""","turnOnTransponder:Turn your transponder on
+cutCommLink:Cut the comm link",
+greetingDefaultTOffWeakerPrv,OpenCommLink,"!$player.transponderOn
+$faction.id == prv
+$entity.relativeStrength < 0",,"$PersonRank $personName looks concerned. ""If you want to talk, identify yourself first.""","turnOnTransponder:Turn your transponder on
+cutCommLink:Cut the comm link",

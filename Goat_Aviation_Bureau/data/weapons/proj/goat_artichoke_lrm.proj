@@ -1,0 +1,83 @@
+{
+	"id":"goat_artichoke_lrm",
+	"specClass":"missile",	
+	"missileType":"MIRV",
+	"sprite":"graphics/goat/missiles/goat_artichoke_lrm.png",
+	"size":[8,40],	
+	"center":[4,10],
+	"collisionRadius":12,
+	
+	"hitGlowRadius":80,
+	
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":40, # purely visual
+	
+	"engineSpec":{"turnAcc":520,
+				  "turnRate":140,
+				  "acc":300,
+				  "dec":400},			
+				  
+	"engineSlots":[{"id":"GOAT_TECH_light",
+					"loc":[-7, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[219,126,58,255],
+						"contrailDuration":1.0,
+						"contrailWidthMult":0.8,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.1f,
+						"contrailSpawnDistMult":0.9, # how far away from engine it starts
+						"contrailColor":[219,92,58,110],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":11.0,
+				    "length":55.0,
+				    "angle":180.0},
+					
+					
+					
+					],
+					
+	"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":400,
+					"splitRangeRange":100,
+					"minTimeToSplit":0.5,
+					"canSplitEarly":true,
+					"splitSound":"sabot_srm_split",
+					"numShots":1,
+					"damage":900,
+					"damageType":HIGH_EXPLOSIVE,
+					"hitpoints":10,
+					"evenSpread":false,
+					"arc":2,
+					"emp":0,
+					"spreadInaccuracy":5,
+					#"spreadSpeed":300,
+					"spreadSpeed":1100,
+					"spreadSpeedRange":10,
+					"projectileRange":600, # only needed if not a missile
+					
+					"projectileSpec":"goat_bombard_ass",
+					
+					"noDebrisWhenDestroyed":true,
+					"debrisSmall":0,
+					"debrisLarge":0,
+					"debrisMedium":0,
+					"smokeSpec":{"particleSizeMin":10.0,
+								 "particleSizeRange":40.0,
+								 "cloudParticleCount":35,
+								 "cloudDuration":0.4,
+								 "cloudRadius":40.0,
+								 "blowbackParticleCount":45,
+								 "blowbackDuration":0.6,
+								 "blowbackLength":-250,
+								 "blowbackSpread":5,
+								 "particleColor":[55,50,50,240]}
+					},		
+						
+}

@@ -1,0 +1,45 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 2,
+    "fluxVents": 0,
+	    "goalVariant": true,
+    "hullId": "goat_gentiles",
+    "hullMods": [
+        "heavyarmor",
+        "goat_overloadcircuit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_gentiles_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "all_goat_fire_fire_m"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "all_goat_dazzle_m"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "all_goat_dash"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "all_goat_heavyfist"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "all_goat_grasp",
+                "WS0006": "all_goat_grasp"
+            }
+        }
+    ],
+    "wings": []
+}

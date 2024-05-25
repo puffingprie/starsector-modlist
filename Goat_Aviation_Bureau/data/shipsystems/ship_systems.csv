@@ -1,0 +1,25 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Slammer Barrage,goat_bash_mode,,,,5000,,,,2,0.05,0.6,0.6,1.6,1.0,,,,TRUE,,TRUE,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+Overpressure Jets,goat_overpressure_drift,,,,,,,,2,0.07,0.6,0.9,1,1.5,,,,,,,,,,,,,graphics/goat/icons/hullsys/goat_overpressure_drift.png
+Pressurized Jets,goat_safepressure_drift,,,,,,,,,,0.5,2.5,0.8,6,,,,,,,,,,,,,graphics/goat/icons/hullsys/goat_overpressure_drift.png
+Underpressure Jets,goat_lesspressure_drift,,,,,,,,,,1,4,1.5,7,,,,,,,,,,,,,graphics/goat/icons/hullsys/goat_overpressure_drift.png
+Death Spiral Horns,goat_call,,,,,,,,,,1,7,1.5,19.5,,,,,,,,,TRUE,,,,graphics/goat/icons/hullsys/goat_call.png
+Torrent Drive,goat_torrent_drive,,,,,,,,,,1.0,4,1.1,15,TRUE,,,,,TRUE,,,,,,,graphics/goat/icons/hullsys/goat_overpressure_drift.png
+Deflagration Booster,goat_torrent_drive_l,,,,,,,,,,2.0,7,1.5,25,TRUE,,,,,TRUE,,,,,,,graphics/goat/icons/hullsys/goat_overpressure_drift.png
+Flare Fortress,goat_flare_wall,,,,,,,,25,,0.01,0.5,0.01,6.5,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Storm Surge,goat_storm_surge,,,,2000,,,,,,0.4,8,0.2,20.4,,,,,,,,,,,,,graphics/icons/hullsys/entropy_amplifier.png
+Flame Burst,goat_fireblast_furnace,,,,1000,,,,,,2,8,4,25,,,,,,,,,,,,,graphics/icons/hullsys/missile_autoforge.png
+Phase Lunge,goat_displacer,,,,1000,,,,,,3,0.01,0.01,11,TRUE,TRUE,,,TRUE,,TRUE,TRUE,,TRUE,TRUE,,graphics/icons/hullsys/entropy_amplifier.png
+Overloaded Ammo Feeder,goat_ammofeed,,,,,,,,,,1,4,2,13,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+Escape Protocol,goat_microburn,-4500,,,4000,,,,3,0.07,0.5,1.2,0.5,,,,,TRUE,,,TRUE,TRUE,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Focused Disruptor,goat_acausaldisruptor,,,,,,0.4,,,,0.5,,2,12,,,,,,,,,,,,,graphics/icons/hullsys/quantum_disruptor.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Crow's Flight,goat_wild_drift,,,,1000,,,,,,1.0,1.2,0.8,7,,,,,,,,,TRUE,,,,graphics/goat/icons/hullsys/goat_overpressure_drift.png
+Moonlight,goat_damper,200,,,,,,,,,4.0,6,1.0,12,TRUE,,,,,,,,TRUE,,,,graphics/icons/hullsys/ammo_feeder.png
+Penumbral Cloak,goat_fortressshield,,,0.025,,,,,,,3.5,,1.1,0,TRUE,,,TRUE,TRUE,,,,,,,,graphics/icons/hullsys/fortress_shield.png
+Star Shooter,goat_drone_strike,,,,300,,,,,,,0.05,0.2,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Lamp Lighting,goat_highenergyfocus,,,0.02,,,,,2,0.02,0.5,3.0,0.5,,,,,,,,,,TRUE,,,,graphics/icons/hullsys/high_energy_focus.png
+Lucid Dreaming,goat_moon,,,,,,,,,,3,9,2,22,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Goathead Phase Cloak,goat_phasecloak,,,,,,,,,,0.5,,0.5,2,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,,graphics/icons/hullsys/phase_cloak.png

@@ -1,0 +1,38 @@
+{
+    "displayName": "攻击",
+    "fluxCapacitors": 1,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "goat_rainfarewell",
+    "hullMods": [
+        "targetingunit",
+        "ballistic_rangefinder"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_rainfarewell_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "heavymauler"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "harpoon",
+                "WS0006": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "railgun",
+                "WS0002": "railgun",
+                "WS0007": "railgun"
+            }
+        }
+    ]
+}

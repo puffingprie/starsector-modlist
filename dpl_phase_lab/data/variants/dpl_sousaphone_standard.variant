@@ -1,0 +1,29 @@
+{
+  "variantId": "dpl_sousaphone_standard",
+  "hullId": "dpl_sousaphone",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 42,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "targetingunit",
+    "stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "dpl_graviton_lance",
+        "WS0004": "dpl_graviton_lance",
+        "WS0005": "tachyonlance",
+        "WS0006": "tachyonlance"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

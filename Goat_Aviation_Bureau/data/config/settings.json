@@ -1,0 +1,110 @@
+{
+	"plugins":{
+		"goat_ProjEveryFramePlugin":"data.scripts.plugins.goat_ProjEveryFramePlugin",
+		"goat_ShipEveryFramePlugin":"data.scripts.plugins.goat_ShipEveryFramePlugin",
+		"goat_RenderEveryFramePlugin":"data.scripts.plugins.goat_RenderEveryFramePlugin"
+	},
+	"graphics":{
+	    "illustrations":{
+		"suihen_illustrations":"graphics/goat/illustrations/AI_illustrations_yuanjiang.png",
+		"farways_illustrations":"graphics/goat/illustrations/AI_illustrations_farways.png",
+		},
+        "blueprint_packages": {
+         "goat_openbp":"graphics/goat/icons/cargo/blueprint_GOAT_in.png",
+		 "goat_bp":"graphics/goat/icons/cargo/blueprint_GOAT_in2.png",
+		 "goat_openbp_w":"graphics/goat/icons/cargo/blueprint_GOAT_in.png",
+		 "goat_bp_w":"graphics/goat/icons/cargo/blueprint_GOAT_in2.png",
+	    },
+		"misc":{
+			"goat_breathing_glow":"graphics/goat/weapons/decorative/goat_breathing/goat_breathing_glow.png",
+			"goat_dazzle_m_r":"graphics/goat/weapons/missile/goat_dazzle/goat_dazzle_m_r_deco.png",
+			"goat_dazzle_m_r_t":"graphics/goat/weapons/missile/goat_dazzle/goat_dazzle_m_r_t.png",
+			"goat_stringwind_T": "graphics/goat/ships/stringwind/stringwind_T.png",
+			"goat_sword_D": "graphics/goat/ships/sword/sword_power_smart_mind_deck.png",
+			"goat_immortality_glow00": "graphics/goat/weapons/decorative/goat_immortality_glow/goat_immortality_glow00.png",
+			"goat_immortality_glow01": "graphics/goat/weapons/decorative/goat_immortality_glow/goat_immortality_glow01.png",
+			"goat_immortality_glow02": "graphics/goat/weapons/decorative/goat_immortality_glow/goat_immortality_glow02.png",
+			"goat_immortality_glow03": "graphics/goat/weapons/decorative/goat_immortality_glow/goat_immortality_glow03.png",
+			"goat_immortality_glow04": "graphics/goat/weapons/decorative/goat_immortality_glow/goat_immortality_glow04.png",
+			"goat_immortality_glow05": "graphics/goat/weapons/decorative/goat_immortality_glow/goat_immortality_glow05.png",
+			"goat_immortality_glow06": "graphics/goat/weapons/decorative/goat_immortality_glow/goat_immortality_glow06.png",
+			"goat_immortality_glow07": "graphics/goat/weapons/decorative/goat_immortality_glow/goat_immortality_glow07.png",
+			"goat_immortality_glow08": "graphics/goat/weapons/decorative/goat_immortality_glow/goat_immortality_glow08.png",
+			"goat_immortality_glow09": "graphics/goat/weapons/decorative/goat_immortality_glow/goat_immortality_glow09.png",
+			"goat_immortality_glow10": "graphics/goat/weapons/decorative/goat_immortality_glow/goat_immortality_glow10.png",
+			"goat_immortality_glow11": "graphics/goat/weapons/decorative/goat_immortality_glow/goat_immortality_glow11.png",
+			"goat_immortality_glow12": "graphics/goat/weapons/decorative/goat_immortality_glow/goat_immortality_glow12.png",
+			"goat_immortality_glow13": "graphics/goat/weapons/decorative/goat_immortality_glow/goat_immortality_glow13.png",
+			"goat_immortality_glow14": "graphics/goat/weapons/decorative/goat_immortality_glow/goat_immortality_glow14.png",
+			"goat_ironpavilion_glow": "graphics/goat/weapons/decorative/goat_ironpavilion/glow.png"
+		},
+		"fx":{
+            "trail_contrail_goat":"graphics/goat/fx/trail_contrail_goat.png",
+			"trail_contrail_harf_goat":"graphics/goat/fx/neutrino_detector.png",
+			"trail_clc_goat":"graphics/goat/fx/trail_clc_goat.png",
+			"trail_encircle_goat":"graphics/goat/fx/trail_encircle_goat.png",
+            "trail_encircle_two_goat":"graphics/goat/fx/trail_encircle_two_goat.png",
+			"trail_liss_goat_1":"graphics/goat/fx/trail_liss_goat_1.png",
+			"trail_liss_goat_2":"graphics/goat/fx/trail_liss_goat_2.png",
+			"trail_liss_goat_3":"graphics/goat/fx/trail_liss_goat_3.png",
+			"trail_block_goat":"graphics/goat/fx/trail_block_goat.png",
+			"trail_implement_goat":"graphics/goat/fx/trail_implement_goat.png",
+			"trail_heavySmoke_p_goat":"graphics/goat/fx/trail_heavySmoke_p_goat.png",
+			"trail_heavySmoke_s_goat":"graphics/goat/fx/trail_heavySmoke_s_goat.png",
+			"trail_wa_goat":"graphics/goat/fx/trail_wa_goat.png",
+
+			"goat_beam_weave_core":"graphics/fx/beam_weave_core.png",
+			"goat_beam_weave_fringe":"graphics/fx/beam_weave_fringe.png",
+			
+			"goat_oscillating":"graphics/goat/fx/oscillating_circle.png",
+
+			#goat_beamfringec
+			#"base_trail_smooth
+            #"base_trail_contrail
+            #"base_trail_mild
+            #"base_trail_fuzzy
+            #"base_trail_rough
+            #"base_trail_smoke
+            #"base_trail_heavySmoke
+            #"base_trail_heavyBurn
+            #"base_trail_weave
+            #"base_trail_aura
+            #"base_trail_zap
+            #"base_trail_zapWithCore
+		},
+		
+		"GOAT_TECH":{
+			"GOAT_shield_inner":"graphics/goat/fx/shield_inner.png",
+			"GOAT_shield_inner_s":"graphics/goat/fx/shield_inner_s.png",
+			"GOAT_shield_outer":"graphics/goat/fx/shield_outer.png",
+			"GOAT_saxshield_inner":"graphics/goat/fx/shield_inner_sax.png",
+			"GOAT_saxshield_outer":"graphics/goat/fx/shield_outer.png",
+			"GOAT_TheMoon":"graphics/goat/fx/TheMoon.png",
+			"GOAT_TheVortex":"graphics/goat/fx/TheVortex.png",
+		},
+		
+	},
+	"designTypeColors":
+	{
+		"GOA":[165,101,91,255],
+		"羊头航务局":[165,101,91,255],
+		"Goathead Aviation":[165,101,91,255],
+		"骷髅羊头航务局":[165,101,91,255],
+		"Goat's Skull":[165,101,91,255],
+		"萨克斯顿":[107,202,235,255],
+		"Saxton":[107,202,235,255],
+		"新芽船坞":[71,179,106,255],
+		"Sprouting Dockyards":[71,179,106,255]
+
+	},
+
+	
+	"mountYellowColor":[255,5,0,255],
+	"mountGreenColor":[155,25,0,255],
+	"mountBlueColor":[70,20,255,255],
+	"mountGrayColor":[255,25,255,255],
+	"mountOrangeColor":[255,15,0,255],
+	"mountCyanColor":[0,255,20,255],
+	"mountCompositeColor":[215,25,0,255],
+
+}

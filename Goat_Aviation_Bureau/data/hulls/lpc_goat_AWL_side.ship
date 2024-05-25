@@ -1,0 +1,61 @@
+{
+  "hullName": "lpc_goat_AWL_side",
+  "hullId": "lpc_goat_AWL_side",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/goat/ships/Saxton/AWL_side.png",
+  "style": "GOAT_TECH_blue",
+  "height": 50,
+  "width": 42,
+  "center": [17, 26],
+  "collisionRadius": 57,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 51.5,
+  "viewOffset": 0,
+  "builtInMods": [
+
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 263,
+      "angle": 0,
+      "locations": [18.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 263,
+      "angle": 118.5,
+      "locations": [-9.5, 15.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 263,
+      "angle": -118.5,
+      "locations": [-9.5, -15.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [0.5, 0.5],
+      "length": 45.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "GOAT_TECH_crystal_omg"
+    }
+  ],
+  "bounds": [
+    -6.5, -10,
+    13.5, 0.5,
+    -6.5, 10
+  ]
+}

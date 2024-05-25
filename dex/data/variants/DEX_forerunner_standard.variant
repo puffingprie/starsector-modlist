@@ -1,0 +1,56 @@
+{
+  "variantId": "DEX_forerunner_standard",
+  "hullId": "DEX_forerunner",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hellbore",
+        "WS0006": "locust"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightdualac",
+        "WS0011": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "heavymg",
+        "WS0012": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "DEX_spartan_wing",
+    "DEX_spartan_wing"
+  ]
+}

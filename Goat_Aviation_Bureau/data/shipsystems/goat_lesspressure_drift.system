@@ -1,0 +1,27 @@
+{
+	"id":"goat_lesspressure_drift",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.scripts.goat_LesspressureDriftStats",
+	
+	"useSound":"goat_lesspressure_drift_active",
+	"loopSound":"goat_lesspressure_drift_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"engineGlowLengthMult":2.6,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":2.5,
+	
+	"jitterUnderColor":[255,115,90,155],
+	"jitterUnderCopies":1,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":15,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[255,165,90,35],
+	"jitterCopies":1,
+	"jitterMinRange":0,
+	"jitterRange":5,
+	"jitterRangeRadiusFraction":0,
+}

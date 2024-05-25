@@ -1,0 +1,24 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "goat_pathogenic_wind",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_pathogenic_wind_Fire_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "all_goat_invasion"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavyblaster"}
+        }
+    ],
+    "wings": []
+}

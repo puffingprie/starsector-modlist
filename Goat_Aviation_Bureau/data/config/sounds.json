@@ -1,0 +1,164 @@
+{
+	"goat_storm_surge_use": [
+    {"file": "sounds/goat_systems/goat_storm_surge_use.ogg",  "pitch": 1,"volume": 0.8}
+	],
+	"goat_storm_surge_end": [
+    {"file": "sounds/goat_systems/goat_storm_surge_end.ogg",  "pitch": 1,"volume": 1.6}
+	],
+	#时钟声，1与2为两种不同的时钟声，分别为1：嘀2：哒
+	"goat_storm_surge_time1": [
+    {"file": "sounds/goat_systems/goat_storm_surge_time1.ogg",  "pitch": 1,"volume": 1}
+	],
+	"goat_storm_surge_time2": [
+    {"file": "sounds/goat_systems/goat_storm_surge_time2.ogg",  "pitch": 1,"volume": 1}
+	],
+	#loop，build为渐强init为渐弱，build在第二秒开始播放
+	"goat_storm_surge_loop_build": [
+    {"file": "sounds/goat_systems/goat_storm_surge_loop_build.ogg",  "pitch": 1,"volume": 1}
+	],
+  "goat_storm_surge_loop_build_0": [
+    {"file": "sounds/goat_systems/goat_storm_surge_loop_build_0.ogg",  "pitch": 1,"volume": 1}
+	],
+  "goat_storm_surge_loop_build_1": [
+    {"file": "sounds/goat_systems/goat_storm_surge_loop_build_1.ogg",  "pitch": 1,"volume": 1}
+	],
+  "goat_storm_surge_loop_build_2": [
+    {"file": "sounds/goat_systems/goat_storm_surge_loop_build_2.ogg",  "pitch": 1,"volume": 1}
+	],
+  "goat_storm_surge_loop_build_3": [
+    {"file": "sounds/goat_systems/goat_storm_surge_loop_build_3.ogg",  "pitch": 1,"volume": 1}
+	],
+  "goat_storm_surge_loop_build_4": [
+    {"file": "sounds/goat_systems/goat_storm_surge_loop_build_4.ogg",  "pitch": 1,"volume": 1}
+	],
+  "goat_storm_surge_loop_build_5": [
+    {"file": "sounds/goat_systems/goat_storm_surge_loop_build_5.ogg",  "pitch": 1,"volume": 1}
+	],
+
+	"goat_storm_surge_loop_init": [
+    {"file": "sounds/goat_systems/goat_storm_surge_loop_init.ogg",  "pitch": 1,"volume": 1}
+	],
+	
+  "goat_gentiles_system": [
+    {"file": "sounds/weapon/goat_gentiles_system.ogg",  "pitch": 1,"volume": 1}
+	],
+
+  "all_goat_zeal_fire1": [
+    {"file": "sounds/goat_wpn_guns/all_goat_zeal_fire1.ogg",  "pitch": 1,"volume": 1}
+	],
+	
+  "all_goat_howl_fire1": [
+    {"file": "sounds/goat_wpn_guns/all_goat_howl_fire1.ogg",  "pitch": 1,"volume": 1}
+	],
+  
+  "all_goat_howl_charge": [
+    {"file": "sounds/goat_wpn_guns/all_goat_howl_charge.ogg",  "pitch": 1,"volume": 1}
+	],
+
+  "all_goat_bombard_fire1": [
+    {"file": "sounds/goat_wpn_guns/all_goat_bombard_fire1.ogg",  "pitch": 0.8,"volume": 1}
+	],
+
+  "all_goat_gnaw_fire1": [
+    {"file": "sounds/goat_wpn_guns/all_goat_gnaw_fire1.ogg",  "pitch": 1,"volume": 0.6}
+	],
+
+  "all_goat_lash_fire1": [
+    {"file": "sounds/goat_wpn_guns/all_goat_lash_fire1.ogg",  "pitch": 1,"volume": 0.6}
+	],
+
+  "all_goat_dash_fire1": [
+    {"file": "sounds/goat_wpn_guns/all_goat_dash_fire1.ogg",  "pitch": 1,"volume": 0.6}
+	],
+
+  "all_goat_invasion_fire1": [
+    {"file": "sounds/goat_wpn_guns/all_goat_invasion_fire1.ogg",  "pitch": 1,"volume": 0.6}
+	],
+
+  "all_goat_mjolnir_fire1": [
+    {"file": "sounds/goat_wpn_guns/all_goat_mjolnir_fire1.ogg",  "pitch": 1,"volume": 0.9}
+	],
+
+
+  "all_goat_punish_fire1": [
+    {"file": "sounds/goat_wpn_energy/all_goat_punish_fire1.ogg",  "pitch": 0.7,"volume": 1.5}
+	],
+  
+  "all_goat_punish_charge": [
+    {"file": "sounds/goat_wpn_energy/all_goat_punish_charge.ogg",  "pitch": 0.8,"volume": 0.2}
+	],
+
+  "all_goat_purgatory_reprimand": [
+    {"file": "sounds/goat_wpn_missiles/all_goat_purgatory_reprimand.ogg",  "pitch": 0.6,"volume": 0.8}
+	],
+	
+	"launch_flare_goat": [
+    {"file": "sounds/goat_wpn_missiles/launch_flare_goat.ogg",  "pitch": 1.0,"volume": 1.0}
+	],
+
+  "all_goat_diiscipline_fire1": [
+    {"file": "sounds/goat_wpn_energy/all_goat_diiscipline_fire1.ogg",  "pitch": 1,"volume": 0.7}
+	],
+
+  "all_goat_admonish_fire1": [
+    {"file": "sounds/goat_wpn_energy/all_goat_admonish_fire1.ogg",  "pitch": 0.4,"volume": 0.6}
+	],
+  
+  "goat_displacer": [
+    {"file": "sounds/goat_systems/goat_displacer.ogg",  "pitch": 1,"volume": 1.8}
+	],
+
+  "goat_call_active": [
+    {"file": "sounds/goat_systems/goat_call_active.ogg",  "pitch": 1,"volume": 1.5}
+	],
+
+  "goat_call_loop": [
+    {"file": "sounds/goat_systems/goat_call_loop.ogg",  "pitch": 1,"volume": 1.0}
+	],
+	
+	"goat_lesspressure_drift_active": [
+    {"file": "sounds/goat_systems/goat_lesspressure_drift_active.ogg",  "pitch": 1.0,"volume": 0.8}
+	],
+	"goat_lesspressure_drift_loop": [
+    {"file": "sounds/goat_systems/goat_lesspressure_drift_loop.ogg",  "pitch": 1.2,"volume": 3.0}
+	],
+	"all_goat_pd_bashmode_fire1": [
+    {"file": "sounds/goat_wpn_guns/all_goat_pd_bashmode_fire1.ogg",  "pitch": 0.7,"volume": 0.3}
+	],
+  "music": {
+  "music_goat_market_neutral":[
+    {
+      "source":"sounds/music/",
+      "volume":0.2,
+      "files":[
+        "Goat_neutral.ogg"
+      ],
+      "randomStart":true
+    }
+  ],
+  "music_goat_market_hostile":[
+    {
+      "source":"sounds/music/",
+      "volume":0.15,
+      "files":[
+        "Goat_hostile.ogg"
+      ],
+      "randomStart":true
+    }
+  ],
+  "music_goat_market_friendly":[
+    {
+      "source":"sounds/music/",
+      "volume":0.1,
+      "files":[
+        "Goat_friendly.ogg"
+      ],
+      "randomStart":true
+    }
+  ]
+}
+}
+
+
+
+

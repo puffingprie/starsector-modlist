@@ -1,0 +1,220 @@
+{
+  "hullName": "Ceudar",
+  "hullId": "sa_ceudar",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/sa_ceudar.png",
+  "style": "HIGH_TECH",
+  "height": 357,
+  "width": 152,
+  "center": [76, 178.5],
+  "collisionRadius": 231,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 188,
+  "viewOffset": 0,
+  "builtInMods": [
+    "coherer"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 146,
+      "angle": -90,
+      "locations": [-11.5, -59]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 146,
+      "angle": 90,
+      "locations": [-11.5, 59]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": -53,
+      "locations": [10.5, -56]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": 53,
+      "locations": [10.5, 56]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 106,
+      "angle": -33.5,
+      "locations": [114.5, -24]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 106,
+      "angle": 33.5,
+      "locations": [114.5, 24]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 132,
+      "angle": -64.5,
+      "locations": [36.5, -43]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 132,
+      "angle": 64.5,
+      "locations": [36.5, 43]
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 0,
+      "locations": [55.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        3, -22.5,
+        4, -24.5,
+        2, -24.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        3, 22,
+        4, 23.5,
+        2, 23.5
+      ]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 122,
+      "angle": 123,
+      "locations": [-56.5, 40]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 122,
+      "angle": -123,
+      "locations": [-56.5, -40]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 142,
+      "angle": 121,
+      "locations": [-30.5, 53]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 142,
+      "angle": -121,
+      "locations": [-30.5, -53]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-112.5, -11],
+      "length": 37,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "High_Tech_Darker"
+    },
+    {
+      "location": [-112.5, 11],
+      "length": 37,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "High_Tech_Darker"
+    },
+    {
+      "location": [-118.5, 5],
+      "length": 64,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "High_Tech_Darker"
+    },
+    {
+      "location": [-118.5, -5],
+      "length": 64,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "High_Tech_Darker"
+    }
+  ],
+  "bounds": [
+    -165.5, 17,
+    -86.5, 37,
+    -25.5, 73,
+    1.5, 73,
+    22.5, 58,
+    45.5, 57,
+    56.5, 44,
+    152, 28,
+    171.5, -0,
+    152, -28,
+    56.5, -44,
+    45.5, -57,
+    22.5, -58,
+    1.5, -73,
+    -25.5, -73,
+    -86.5, -37,
+    -165.5, -17,
+    -176.5, -0
+  ]
+}

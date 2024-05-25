@@ -1,0 +1,21 @@
+{
+  "variantId": "DEX_galaxia_SD",
+  "hullId": "DEX_galaxia",
+  "displayName": "Self Defense",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0001": "DEX_galaxia_left_SD"
+    },
+    {
+      "WS0002": "DEX_galaxia_right_SD"
+    }
+  ],
+  "wings": []
+}

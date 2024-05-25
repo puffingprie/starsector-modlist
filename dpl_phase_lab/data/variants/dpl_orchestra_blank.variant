@@ -1,0 +1,19 @@
+{
+    "displayName": "Hull",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "dpl_orchestra",
+    "hullMods": [
+    ],
+    "modules": [
+        {"WS0013": "dpl_shield_side_general"},
+        {"WS0014": "dpl_shield_side_general"},
+        {"WS0015": "dpl_shield_frontal_general"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "dpl_orchestra_blank",
+    "weaponGroups": [
+    ]
+}

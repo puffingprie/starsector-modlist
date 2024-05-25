@@ -1,0 +1,34 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 9,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "google_shade",
+    "hullMods": ["adaptive_coils"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "google_shade_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "phasecl",
+                "WS 002": "phasecl"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdlaser",
+                "WS 005": "pdlaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "pdlaser"}
+        }
+    ]
+}

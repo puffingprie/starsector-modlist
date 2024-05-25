@@ -1,0 +1,141 @@
+{
+  "hullName": "Hydraulis",
+  "hullId": "dpl_hydraulis",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/dpl_hydraulis.png",
+  "style": "HIGH_TECH",
+  "height": 234,
+  "width": 105,
+  "center": [52.5, 117],
+  "collisionRadius": 155,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 145,
+  "viewOffset": 0,
+  "builtInMods": [
+    "dpl_tcsshieldemitter",
+    "dpl_entangled_systems",
+  ],
+  "builtInWeapons": {
+    "WS0003": "dpl_hydraulis_notes",
+    "WS0004": "dpl_hydraulis_notes",
+    "WS0005": "dpl_hydraulis_notes",
+    "WS0006": "dpl_hydraulis_notes"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 75,
+      "locations": [-31, 32]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -75,
+      "locations": [-31, -32]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [35, 0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [96.5, 30]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [96.5, -30]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [96.5, 14.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [96.5, -14.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-108.5, 33.5],
+      "length": 62.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-108.5, -33.5],
+      "length": 62.5,
+      "width": 21,
+      "angle": -180,
+      "contrailSize": 21,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-107.5, 16.5],
+      "length": 62.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-107.5, -16.5],
+      "length": 62.5,
+      "width": 21,
+      "angle": -180,
+      "contrailSize": 21,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-109, -0.5],
+      "length": 86.5,
+      "width": 39,
+      "angle": 180,
+      "contrailSize": 39,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -111.5, -45,
+    -95.5, -55,
+    -45, -41,
+    116, -39.5,
+    116, 39.5,
+    -45, 41,
+    -95.5, 55,
+    -111.5, 45
+  ]
+}

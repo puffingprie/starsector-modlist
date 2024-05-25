@@ -1,0 +1,44 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 1,
+    "hullId": "goat_hillshade",
+    "hullMods": [
+        "eccm",
+        "goat_oscillating"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_hillshade_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "all_goat_lash_s",
+                "WS0006": "all_goat_lash_s",
+                "WS0007": "all_goat_lash_s"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "all_goat_fire_fire_m",
+                "WS0004": "all_goat_fire_fire_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "all_goat_grasp",
+                "WS0005": "all_goat_grasp"
+            }
+        }
+    ],
+    "wings": [
+        "lpc_goat_rottenleaf_wing",
+        "lpc_goat_rottenleaf_wing"
+    ]
+}

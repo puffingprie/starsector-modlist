@@ -1,0 +1,27 @@
+{
+	"id":"goat_Pulse_detonation",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	
+	"collisionClass":"RAY", 
+	"collisionClassByFighter":"RAY_FIGHTER", 
+	
+	
+	
+	"length":6,
+	
+	"hitGlowRadius":60,
+	
+	"width":6,
+	"fadeTime":0.4,
+	
+	"fringeColor":[253,226,147,25],
+	"coreColor":[213,84,34,255],#[253,226,147,250],
+	"glowColor":[213,84,34,200],
+	
+	"glowRadius":22,
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":0.0,
+	
+	"bulletSprite":"graphics/goat/missiles/goat_Pulse_detonation.png",
+}

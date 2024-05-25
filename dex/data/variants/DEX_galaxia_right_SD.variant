@@ -1,0 +1,59 @@
+{
+  "variantId": "DEX_galaxia_right_SD",
+  "hullId": "DEX_galaxia_right",
+  "displayName": "Self Defense",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyac",
+        "WS0002": "heavyac",
+        "WS0003": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "harpoonpod",
+        "WS0005": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "lightdualac",
+        "WS0013": "lightdualac",
+        "WS0014": "lightdualac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "vulcan",
+        "WS0011": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

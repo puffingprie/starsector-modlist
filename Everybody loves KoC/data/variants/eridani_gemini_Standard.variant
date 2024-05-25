@@ -1,0 +1,27 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 15,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "eridani_gemini",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "eridani_gemini_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "gustmlrs"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyburst",
+                "WS 002": "heavyburst"
+            }
+        }
+    ],
+    "wings": ["4c_pulse_wing"]
+}

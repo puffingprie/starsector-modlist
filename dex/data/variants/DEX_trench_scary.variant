@@ -1,0 +1,49 @@
+{
+  "variantId": "DEX_trench_scary",
+  "hullId": "DEX_trench",
+  "displayName": "Terminator",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun",
+        "WS0005": "flak",
+        "WS0006": "mjolnir",
+        "WS0007": "heavymauler",
+        "WS0008": "lightmg",
+        "WS0009": "swarmer",
+        "WS0010": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "typhoon",
+        "WS0003": "typhoon",
+        "WS0004": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

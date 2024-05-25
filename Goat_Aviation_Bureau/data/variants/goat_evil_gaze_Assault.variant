@@ -1,0 +1,75 @@
+{
+    "displayName": "Tactical",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "goat_evil_gaze",
+    "hullMods": [
+        "targetingunit",
+        "heavyarmor",
+        "reinforcedhull",
+        "blast_doors"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_evil_gaze_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "squall"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0013": "harpoonpod"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0012": "all_goat_dazzle_m"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "all_goat_dash"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "all_goat_gnaw"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012_L": "goat_pd",
+                "WS0013_R": "goat_pd",
+                "WS0014_L": "goat_pd",
+                "WS0015_R": "goat_pd",
+                "WS0016_L": "goat_pd",
+                "WS0017_R": "goat_pd",
+                "WS0018_L": "goat_pd",
+                "WS0019_R": "goat_pd",
+                "WS0020_L": "goat_pd",
+                "WS0021_R": "goat_pd",
+                "WS0022_L": "goat_pd",
+                "WS0023_R": "goat_pd",
+                "WS0024_L": "goat_pd",
+                "WS0025_R": "goat_pd",
+                "WS0026_L": "goat_pd",
+                "WS0027_R": "goat_pd",
+                "WS0028_L": "goat_pd",
+                "WS0029_R": "goat_pd",
+                "WS0030_L": "goat_pd",
+                "WS0031_R": "goat_pd",
+                "WS0032_L": "goat_pd",
+                "WS0033_R": "goat_pd"
+            }
+        }
+    ],
+    "wings": [
+        "wasp_wing",
+        "wasp_wing"
+    ]
+}

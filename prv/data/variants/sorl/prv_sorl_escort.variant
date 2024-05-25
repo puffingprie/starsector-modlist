@@ -1,0 +1,43 @@
+{
+  "variantId": "prv_sorl_escort",
+  "hullId": "prv_sorl",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "prv_heavyspattergun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "prv_kraka",
+        "WS0006": "prv_kraka"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "prv_sipdlaser",
+        "WS0002": "prv_sipdlaser",
+        "WS0003": "prv_sipdlaser",
+        "WS0004": "prv_sipdlaser"
+      }
+    },
+  ],
+  "modules": [],
+  "wings": [
+    "prv_diskordant_wing",
+    "prv_diskordant_wing"
+  ]
+}

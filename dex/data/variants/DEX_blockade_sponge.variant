@@ -1,0 +1,34 @@
+{
+  "variantId": "DEX_blockade_sponge",
+  "hullId": "DEX_blockade",
+  "displayName": "Vanguard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "chaingun",
+        "WS0006": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "annihilator",
+        "WS0003": "annihilator"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

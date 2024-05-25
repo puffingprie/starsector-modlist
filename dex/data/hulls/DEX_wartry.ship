@@ -1,0 +1,98 @@
+{
+  "hullName": "Wartry",
+  "hullId": "DEX_wartry",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/DEX_wartry.png",
+  "style": "LOW_TECH",
+  "height": 63,
+  "width": 82,
+  "center": [36, 27],
+  "collisionRadius": 55,
+  "shieldCenter": [1, 0],
+  "shieldRadius": 52,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [20, 14]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [31, -4]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [31, -19]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [25, -37]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-25.5, 6.5],
+      "length": 48.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25, -13],
+      "length": 28,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25, -21.5],
+      "length": 28.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-24, -30.5],
+      "length": 29.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    34, 13,
+    4.5, 31,
+    -9, 20,
+    -25, 12,
+    -23.5, -35,
+    32, -36
+  ]
+}

@@ -1,0 +1,7 @@
+{
+	"graphics":{
+		"blueprint_packages":{
+			"derelict_package":"graphics/icons/cargo/derelict_package_bp.png",
+			},
+		}
+}

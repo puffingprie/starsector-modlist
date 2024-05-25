@@ -1,0 +1,31 @@
+v1.5
+-Compatible with 0.96a
+-Lots of changes...
+
+v1.4
+-Compatible with 0.95a
+-Home-For-Spirits System has a threshold of 30% on the performance reduction.
+-Peach Garden Guardian now increases the armor value too.
+
+v1.3
+-Added Peach Garden Guardians, like XIV, special skins.
+-Clarity-Aphrodite Gun
+
+v1.2
+-Added Helan-class Super Battle Cruiser
+-Added Kaishan-class Destroyer
+-Fixed wrong descriptions of planets.
+
+v1.1
+-Added BaXia-class Heavy Cruiser
+-Fixed Tianchi-class can't produced.
+-Nex Compatible.
+
+v1.0.1:
+-Fix empty sprite blueprint package.
+-Replace FairyEagle's sprite.
+
+v1.0:
+-0.9 published
+-add version file
+-add license file

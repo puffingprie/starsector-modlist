@@ -1,0 +1,58 @@
+{
+    "displayName": "攻击",
+    "fluxCapacitors": 7,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "goat_sails",
+    "hullMods": [
+        "heavyarmor",
+        "blast_doors"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_sails_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "all_goat_dash",
+                "WS0009": "all_goat_dash"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "all_goat_lash",
+                "WS0004": "all_goat_lash"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "all_goat_dash",
+                "WS0002": "all_goat_dash"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "dualflak",
+                "WS0007": "dualflak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0051": "goat_pdlaser",
+                "WS0052": "goat_pdlaser",
+                "WS0053": "goat_pdlaser",
+                "WS0054": "goat_pdlaser"
+            }
+        }
+    ]
+}

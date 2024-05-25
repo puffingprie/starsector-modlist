@@ -1,0 +1,46 @@
+{
+  "variantId": "DEX_gangway_breach",
+  "hullId": "DEX_gangway",
+  "displayName": "Hotdrop",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "breachpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightag",
+        "WS0003": "lightag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightac",
+        "WS0005": "lightac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightmg",
+        "WS0007": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

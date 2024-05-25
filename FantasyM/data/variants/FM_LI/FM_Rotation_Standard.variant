@@ -1,0 +1,23 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 5,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Rotation",
+    "hullMods": [
+        "FantasyTraditionalMod",
+        "FantasyBorderMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Rotation_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "FM_AdministratorPD",
+            "WS0002": "FM_AdministratorPD"
+        }
+    }],
+    "wings": []
+}

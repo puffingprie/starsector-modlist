@@ -1,0 +1,23 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "hullId": "goat_whiteone",
+    "hullMods": [
+        "targetingunit",
+        "reinforcedhull",
+        "insulatedengine",
+        "autorepair"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_whiteone_Fire_Support",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0005": "tpc",
+            "WS0006": "tpc"
+        }
+    }]
+}

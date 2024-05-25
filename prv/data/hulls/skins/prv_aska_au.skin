@@ -1,0 +1,29 @@
+{
+	"baseHullId": "prv_aska",
+	"descriptionPrefix":"This Aska has had its phase teleporter adapted into a deadly assault weapon. The pyrite coating is a bit of a mystery - perhaps it's required for the system to function?",
+	"systemId":"prv_phasechainer",
+	"baseValueMult": 1.33,
+	"ordnancePoints":120,
+	"addHints":[HIDE_IN_CODEX],
+	"builtInMods":["safetyoverrides"],
+	"descriptionId": "prv_aska",
+	"hullName": "Aska (Au)",
+	"restoreToBaseHull": false,
+	"skinHullId": "prv_aska_au",
+	"spriteName": "graphics/prv/ships/rare/prv_aska_au.png",
+	"weaponSlotChanges":{
+		"WS0001":{
+		  "type": "BALLISTIC",
+		  "arc": 60,
+		},
+		"WS0002":{
+		  "type": "SYNERGY",
+		},
+		"WS0003":{
+		  "type": "SYNERGY",
+		},
+		"WS0004":{
+		  "type": "SYNERGY",
+		},
+	},
+}

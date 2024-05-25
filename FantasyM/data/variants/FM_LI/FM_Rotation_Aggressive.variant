@@ -1,0 +1,27 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 7,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "FM_Rotation",
+    "hullMods": [
+        "FantasyTraditionalMod",
+        "FantasyBorderMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Rotation_Aggressive",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ionpulser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ionpulser"}
+        }
+    ],
+    "wings": []
+}

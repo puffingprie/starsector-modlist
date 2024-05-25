@@ -1,0 +1,63 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 16,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "cmc_baxia",
+    "hullMods": [
+        "targetingunit",
+        "ballistic_rangefinder"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "cmc_baxia_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "cmc_clarity_hellbore",
+                "WS0016": "cmc_clarity_hellbore"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "heatseeker",
+                "WS0008": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightac",
+                "WS0002": "lightac",
+                "WS0003": "lightac",
+                "WS0004": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "heatseeker",
+                "WS0010": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "cmc_oip",
+                "WS0006": "cmc_oip",
+                "WS0011": "cmc_oip",
+                "WS0012": "cmc_oip",
+                "WS0013": "lightmg",
+                "WS0014": "lightmg"
+            }
+        }
+    ],
+    "wings": []
+}

@@ -1,0 +1,41 @@
+{
+	"id":"goat_gloomy_srm_M_shoot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":22.0,
+	
+	"hitGlowRadius":10,
+	"glowRadius":60,
+	"glowColor":[195, 66, 110,10],
+	
+	"width":3,
+	"fadeTime":0.1,
+	
+	"fringeColor":[182,061,24,155],
+	"coreColor":[182,091,24,155],
+	"textureScrollSpeed":64.0,
+	
+	"noDebrisWhenDestroyed":true,
+
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"shotRangeVariance":0.2,
+					"range":1,
+					"explosionSpec":{"duration":0.12f,
+									 "radius":45,
+									 "coreRadius":15, 
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":1.0,
+									 "particleSizeRange":4.0,
+									 "particleDuration":0.2,
+									 "particleCount":10,
+									 "particleColor":[143, 89, 33,20],
+									 "explosionColor":[168, 53, 59,20],
+									 "sound":"devastator_explosion"},
+					},
+	
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"	
+}

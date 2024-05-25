@@ -1,0 +1,39 @@
+{
+		
+	"knownShips":{
+		"hulls":[
+		"DEX_rampart_p",
+		"DEX_barracks_p",
+		"DEX_berserker_p",
+		"DEX_warden_p",
+		"DEX_sentry_p",
+		"DEX_defender_p",
+		"DEX_bastillon_P",
+		"DEX_bailey_p",
+		],
+	},
+	"knownFighters":{
+		"fighters":[
+		],
+	},
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		"DEX_rampart_p":0.6, #This thing is absolutely evil, let's make everyone sick of it!
+		"DEX_barracks_p":0.6,
+		"DEX_berserker_p":0.6,
+		"DEX_warden_p":0.6,
+		"DEX_sentry_p":0.6,
+		"DEX_defender_p":0.6,
+		"DEX_bastillon_P":0.6,
+		"DEX_bailey_p":0.6,
+		"DEX_stockpile_p":0.8,
+		},
+		"fighters":{
+			
+		},
+	},
+	
+},
+

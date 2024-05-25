@@ -1,0 +1,53 @@
+{
+  "variantId": "sa_gaia_gunnery_standard",
+  "hullId": "sa_gaia_gunnery",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "eccm",
+    "blast_doors",
+    "armoredweapons",
+    "fluxdistributor",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "locust"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyac",
+        "WS0002": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightdualmg",
+        "WS0006": "lightdualmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "flak",
+        "WS0005": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,35 @@
+{
+  "variantId": "DEX_stockpile_p_attack",
+  "hullId": "DEX_stockpile_p",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 13,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "expanded_cargo_holds",
+    "auxiliary_fuel_tanks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "chaingun",
+        "WS0008": "harpoonpod",
+        "WS0009": "harpoonpod",
+        "WS0010": "chaingun",
+        "WS0011": "lightag",
+        "WS0012": "lightdualac",
+        "WS0013": "lightdualmg",
+        "WS0014": "lightac",
+        "WS0015": "lightdualmg",
+        "WS0016": "harpoon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

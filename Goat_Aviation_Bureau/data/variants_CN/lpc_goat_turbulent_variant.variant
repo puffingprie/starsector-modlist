@@ -1,0 +1,22 @@
+{
+  "variantId": "lpc_goat_turbulent_variant",
+  "hullId": "lpc_goat_turbulent",
+  "displayName": "轰炸机",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "all_goat_bomb"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

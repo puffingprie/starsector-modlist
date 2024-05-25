@@ -1,0 +1,42 @@
+{
+  "variantId": "prv_munsbit_standard",
+  "hullId": "prv_munsbit",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_cargo_holds",
+    "efficiency_overhaul"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "prv_sipdlaser",
+        "WS0002": "prv_sipdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "prv_sipdlaser",
+        "WS0004": "prv_sipdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "prv_sipdlaser",
+        "WS0011": "prv_sipdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

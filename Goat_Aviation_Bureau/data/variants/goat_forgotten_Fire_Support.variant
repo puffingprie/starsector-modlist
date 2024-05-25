@@ -1,0 +1,35 @@
+{
+    "displayName": "Suppression",
+    "fluxCapacitors": 0,
+    "fluxVents": 14,
+    "hullId": "goat_forgotten",
+	"goalVariant": true,
+    "hullMods": [
+        "militarized_subsystems",
+        "advancedoptics",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_forgotten_Fire_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "hil"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0018": "all_goat_dazzle_m"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "all_goat_grasp",
+                "WS0016": "all_goat_grasp"
+            }
+        }
+    ]
+}

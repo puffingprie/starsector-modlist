@@ -1,0 +1,20 @@
+{
+	"id":"prv_bounder_shot",
+	"onHitEffect":"prv.corp.weapons.prv_bounder_OnHitEffect",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":75.0, 	#350
+	"width":6.5, 		#13
+	"center":[3.25,-8],
+	"fadeTime":0.15,
+	"fringeColor":[255,128,0,196],	#pskd cluster angry orange
+	"coreColor":[255,255,255,255],
+	"hitGlowRadius":40,
+	"glowColor":[255,128,0,127],
+	"glowRadius":10, #20
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/prv/missiles/prv_shell_bounder.png",
+}

@@ -1,0 +1,23 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "goat_ferrysnow",
+    "hullMods": [
+        "missleracks",
+        "auxiliarythrusters",
+        "surveying_equipment"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_ferrysnow_Fire_Support",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "ALTERNATING",
+        "weapons": {
+            "WS0001": "all_goat_giant_halberd_s",
+            "WS0002": "all_goat_giant_halberd_s"
+        }
+    }]
+}

@@ -1,0 +1,22 @@
+{
+  "variantId": "DEX_catapult_gauss",
+  "hullId": "DEX_catapult",
+  "displayName": "Mass Driver",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gauss"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

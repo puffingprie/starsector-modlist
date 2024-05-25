@@ -1,0 +1,99 @@
+{
+  "variantId": "mod_mt_stationship_standard",
+  "hullId": "mod_mt_stationship",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 49,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "turretgyros",
+    "solar_shielding",
+    "advancedshieldemitter",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "hurricane",
+        "WS0006": "hurricane",
+        "WS0009": "hurricane"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag",
+        "WS0002": "hephag",
+        "WS0003": "hephag",
+        "WS0004": "hephag",
+        "WS0007": "hephag",
+        "WS0008": "hephag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "heavyneedler",
+        "WS0011": "heavyneedler",
+        "WS0012": "heavyneedler",
+        "WS0013": "heavyneedler",
+        "WS0014": "heavyneedler",
+        "WS0015": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "ioncannon",
+        "WS0017": "ioncannon",
+        "WS0018": "ioncannon",
+        "WS0019": "ioncannon",
+        "WS0020": "ioncannon",
+        "WS0021": "ioncannon",
+        "WS0022": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0025": "hveldriver",
+        "WS0026": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0023": "dualflak",
+        "WS0024": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0027": "ioncannon",
+        "WS0028": "ioncannon",
+        "WS0029": "ioncannon",
+        "WS0030": "ioncannon"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0031": "mod_mt_stationship_wing_standard"
+    },
+    {
+      "WS0032": "mod_mt_stationship_wing_standard"
+    }
+  ],
+  "wings": []
+}

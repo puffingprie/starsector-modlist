@@ -1,0 +1,52 @@
+{
+  "id": "all_goat_heavyfist",
+  "specClass": "projectile",
+  "projectileSpecId": "goat_heavyfist_ass",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "displayArcRadius": 600,
+  "turretSprite": "graphics/goat/weapons/ballistic/goat_heavyfist/goat_heavyfist_turret.png",
+  "turretGunSprite": "graphics/goat/weapons/ballistic/goat_heavyfist/goat_heavyfist_recoi.png",
+  "hardpointSprite": "graphics/goat/weapons/ballistic/goat_heavyfist/goat_heavyfist_hardpoint.png",
+  "hardpointGunSprite": "graphics/goat/weapons/ballistic/goat_heavyfist/goat_heavyfist_recoi.png",
+  "visualRecoil": 14,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    29,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    40,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "autocharge": true,
+  "smokeSpec": {
+    "particleSizeMin": 8,
+    "particleSizeRange": 15,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.95,
+    "cloudRadius": 9,
+    "blowbackParticleCount": 20,
+    "blowbackDuration": 0.6,
+    "blowbackLength": -30,
+    "blowbackSpread": 30,
+    "particleColor": [
+      195,
+      195,
+      205,
+      185
+    ]
+  },
+  "fireSoundOne": "autocannon_fire",
+  "fireSoundTwo": "swarmer_fire"
+}

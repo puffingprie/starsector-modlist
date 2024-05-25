@@ -1,0 +1,197 @@
+{
+  "hullName": "forgotten_sun_a",
+  "hullId": "goat_forgotten_sun_a",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/goat/ships/forgotten/forgotten_sun_a.png",
+  "style": "GOAT_TECH",
+  "height": 106,
+  "width": 278,
+  "center": [138, 73.5],
+  "collisionRadius": 185,
+  "shieldCenter": [7, -0],
+  "shieldRadius": 171,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+	"reduced_explosion"
+  ],
+  "builtInWeapons": {
+    "WS0003": "blinker_goat_white_fast",
+    "WS0004": "blinker_goat_white_fast",
+    "WS0005": "blinker_goat_white_fast",
+    "WS0006": "blinker_goat_white_fast",
+    "WS0007": "blinker_goat_white",
+    "WS0008": "blinker_goat_white",
+    "WS0009": "blinker_goat_white",
+    "WS0010": "blinker_goat_white",
+    "WS0011": "blinker_goat_white",
+    "WS0012": "blinker_goat_white",
+    "WS0013": "blinker_goat_green",
+    "WS0014": "blinker_goat_green"
+  },
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-51.5, 111.5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-49.5, 109]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, 81]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [5, -81]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-9, 130.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-9, -130.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1.5, 130.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [1.5, -130.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [21, 126]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [21, -126]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-21.5, 109]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-21.5, -109]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-13.5, 109.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-13.5, -109.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [23, 70.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [23, -70.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    9, -21.5,
+    -6.5, -21.5,
+    -6.5, -42.5,
+    -24.5, -50.5,
+    -23, -97,
+    -2.5, -127.5,
+    5.5, -85.5,
+    24, -68,
+    24, 68,
+    5.5, 85.5,
+    -2.5, 127.5,
+    -23, 97,
+    -24.5, 50.5,
+    -6.5, 42.5,
+    -6.5, 21.5,
+    9, 21.5
+  ]
+}

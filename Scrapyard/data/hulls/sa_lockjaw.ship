@@ -1,0 +1,224 @@
+{
+  "hullName": "Lockjaw",
+  "hullId": "sa_lockjaw",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/sa_lockjaw.png",
+  "style": "LOW_TECH",
+  "height": 250,
+  "width": 135,
+  "center": [67.5, 125],
+  "collisionRadius": 157.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 151,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 310,
+      "angle": 0,
+      "locations": [-7, -0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 144,
+      "angle": -38.5,
+      "locations": [41, -40.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": -0,
+      "locations": [25, 39.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 198,
+      "angle": -116.5,
+      "locations": [-68, -27.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 143,
+      "angle": -90,
+      "locations": [-3, -32.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [104, 11.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -55, -31.5,
+        -53, -32.5,
+        -56.5, -32.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -36, 43,
+        -36, 48,
+        -36, 39
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -40, -31.5,
+        -41.5, -32.5,
+        -38.5, -32.5
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 90,
+      "locations": [68, 19.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 90,
+      "locations": [71, 19.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 90,
+      "locations": [74, 19.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-116, -26],
+      "length": 50,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-117, -4.5],
+      "length": 59.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-122, 20.5],
+      "length": 58.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-122.5, 20.5],
+      "length": 45.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "Pirate"
+    },
+    {
+      "location": [-118, -4.5],
+      "length": 45.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "Pirate"
+    },
+    {
+      "location": [-116.5, -26],
+      "length": 32.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "Pirate"
+    }
+  ],
+  "bounds": [
+    97, -19.5,
+    103, -11.5,
+    103.5, 11.5,
+    88, 26.5,
+    44, 26.5,
+    34, 32.5,
+    46, 39.5,
+    23, 55.5,
+    -71, 55.5,
+    -80, 47.5,
+    -92, 46.5,
+    -102.5, 35,
+    -121, 25.5,
+    -122, 9.5,
+    -109, 4,
+    -115.5, -1,
+    -113, -33.5,
+    -96, -33.5,
+    -79, -43.5,
+    -69, -43.5,
+    -66, -59.5,
+    -30, -60.5,
+    -26, -55.5,
+    -11, -54.5,
+    -6.5, -47.5,
+    33, -47.5,
+    41, -50.5,
+    52, -42.5,
+    66, -20.5,
+    46, -26.5,
+    60, -11,
+    75, -10.5,
+    85, -19.5
+  ]
+}

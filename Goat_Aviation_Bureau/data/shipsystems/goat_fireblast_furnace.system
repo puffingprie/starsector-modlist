@@ -1,0 +1,13 @@
+{
+	"id":"goat_fireblast_furnace",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+
+	"statsScript":"data.shipsystems.scripts.goat_FireblastFurnaceStats",
+	
+	"weaponTypes":[ENERGY],
+	"minFractionToReload":0.75,
+	
+	"useSound":"system_forgevats",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

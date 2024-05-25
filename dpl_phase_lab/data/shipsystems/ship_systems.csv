@@ -1,0 +1,9 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Phase Burst Disruptor,dpl_fluxdisruptor,,,,,,0.3,,,,0.5,,1,20,,,,,,,,,,,,,graphics/icons/hullsys/quantum_disruptor.png
+Phase Lightning,dpl_phase_lightning,2.5,,,,,0.25,,,,1,5,1,5,,,,,,,,,,,,,graphics/icons/hullsys/emp_emitter.png
+Energy Injector,dpl_energyfeed,,,,,,,,,,1,8,1,15,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+GR Targeting System,dpl_relativity_targeting,,,0.015,,,,,,,1,,1,10,TRUE,,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+Phase Enhanced Shield,dpl_phase_enhanced_shield,,,0.02,,,,,,,1.5,,1.5,0,TRUE,,,TRUE,TRUE,,,,,,,,graphics/icons/hullsys/fortress_shield.png
+Phase Light Strike,dpl_mote_strike,,,,,,0.1,,5,0.12,1,,1,0,,,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+Eternal Instant,dpl_eternal_instant,1,,,,,0.25,,,,1,6,2,15,,TRUE,TRUE,,TRUE,,,,,TRUE,,,graphics/icons/hullsys/temporal_shell.png
+Experimental Attractor,dpl_mote_device,,,,,,0,,,,0.1,,0.4,,,,,,,,,,,,,restricted,graphics/icons/hullsys/reserve_deployment.png

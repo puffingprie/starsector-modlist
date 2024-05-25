@@ -1,0 +1,65 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 8,
+    "fluxVents": 50,
+	"goalVariant": true,
+    "hullId": "goat_sword_power_smart_mind_of_aris_pro_supermax_NB01",
+    "hullMods": [
+        "converted_hangar",
+        "missleracks",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_sword_power_smart_mind_of_aris_pro_supermax_NB01_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "all_goat_heavyfist",
+                "WS0012": "all_goat_heavyfist",
+                "WS0015": "all_goat_heavyfist",
+                "WS0016": "all_goat_heavyfist",
+                "WS0018": "all_goat_heavyfist"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "all_goat_dazzle_m",
+                "WS0014": "all_goat_dazzle_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0017": "all_goat_gloomy_l"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "all_goat_gloomy_s",
+                "WS0002": "all_goat_gloomy_s",
+                "WS0007": "all_goat_gloomy_s",
+                "WS0008": "all_goat_gloomy_s",
+                "WS0009": "all_goat_gloomy_s",
+                "WS0010": "all_goat_gloomy_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "dualflak",
+                "WS0004": "dualflak"
+            }
+        }
+    ],
+    "wings": [
+        "broadsword_wing",
+        "broadsword_wing"
+    ]
+}

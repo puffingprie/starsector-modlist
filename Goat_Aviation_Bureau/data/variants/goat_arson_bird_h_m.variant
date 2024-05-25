@@ -1,0 +1,21 @@
+{
+    "displayName": "Delivery",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "hullId": "goat_arson_bird_h",
+    "hullMods": [
+        "augmentedengines",
+        "expanded_cargo_holds",
+        "hardened_subsystems",
+        "nav_relay",
+        "goat_auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_arson_bird_h_m",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS0015": "vulcan"}
+    }]
+}

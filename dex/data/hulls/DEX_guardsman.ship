@@ -1,0 +1,124 @@
+{
+  "hullName": "Guardsman",
+  "hullId": "DEX_guardsman",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Fighters/guardsman/DEX_GuardsmanTorso.png",
+  "style": "LOW_TECH",
+  "height": 30,
+  "width": 51,
+  "center": [25.5, 15],
+  "collisionRadius": 26,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 23,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "ground_support",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0001": "DEX_guardsmanhead",
+    "WS0002": "DEX_guardsmanleftarm",
+    "WS0003": "DEX_guardsmanrightarm",
+    "WS0004": "DEX_guardsmanleftshoulder",
+    "WS0005": "DEX_guardsmanrightshoulder"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-3.5, 16.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-3.5, -16.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": -0,
+      "locations": [-3.5, 15.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-3.5, -15.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": -0,
+      "locations": [10, 5.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [10, -5.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 6],
+      "length": 6,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-14, -6],
+      "length": 6,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    11.5, 0,
+    5, 10,
+    5, 23.5,
+    -7.5, 23.5,
+    -7.5, 9.5,
+    -14, 7,
+    -14, -7,
+    -7.5, -9.5,
+    -7.5, -23.5,
+    5, -23.5,
+    5, -10,
+    11.5, -0
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "hullName": "GRANDEUR",
+  "hullId": "goat_GRANDEUR",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/goat/ships/Saxton/GRANDEUR.png",
+  "style": "GOAT_TECH_blue",
+  "height": 230,
+  "width": 188,
+  "center": [94, 121.5],
+  "collisionRadius": 170,
+  "shieldCenter": [-2, -0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInMods": [
+    "goat_hullstyle_sax",
+    "goat_state_tidal",
+	"automated"
+  ],
+  "builtInWeapons": {
+    "WS0001": "all_goat_invasion",
+    "WS0002": "all_goat_invasion",
+    "WS0004": "all_goat_invasion"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 293,
+      "angle": 0,
+      "locations": [30, 0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [66.5, 12]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [66.5, -12]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [67.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-74.5, 51],
+      "length": 8.449871,
+      "width": 5.234379,
+      "angle": -170,
+      "contrailSize": 5.234379,
+      "style": "GOAT_TECH_FLY"
+    },
+    {
+      "location": [-74.5, -51],
+      "length": 8.449871,
+      "width": 5.234379,
+      "angle": 170,
+      "contrailSize": 5.234379,
+      "style": "GOAT_TECH_FLY"
+    },
+    {
+      "location": [-59, 47.5],
+      "length": 8.449871,
+      "width": 5.234379,
+      "angle": -170,
+      "contrailSize": 5.234379,
+      "style": "GOAT_TECH_FLY"
+    },
+    {
+      "location": [-59, -47.5],
+      "length": 8.449871,
+      "width": 5.234379,
+      "angle": 170,
+      "contrailSize": 5.234379,
+      "style": "GOAT_TECH_FLY"
+    },
+    {
+      "location": [-62.5, 0.5],
+      "length": 76,
+      "width": 87,
+      "angle": 180,
+      "contrailSize": 87,
+      "style": "GOAT_TECH_FLY"
+    },
+    {
+      "location": [-68.5, 0.5],
+      "length": 112.5,
+      "width": 58,
+      "angle": 180,
+      "contrailSize": 58,
+      "style": "GOAT_TECH_FLY"
+    }
+  ],
+  "bounds": [
+    -40, -15.5,
+    -106, -5,
+    -58.5, -46.5,
+    -125, -65,
+    -49.5, -66,
+    -86.5, -84.5,
+    -33.5, -74,
+    2.5, -94,
+    108, -23,
+    14.5, -34,
+    26, -16.5,
+    67, -17,
+    67, 17,
+    26, 16.5,
+    14.5, 34,
+    108, 23,
+    2.5, 94,
+    -33.5, 74,
+    -86.5, 84.5,
+    -49.5, 66,
+    -125, 65,
+    -58.5, 46.5,
+    -106, 5,
+    -40, 15.5
+  ]
+}

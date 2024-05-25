@@ -1,0 +1,28 @@
+{
+    "displayName": "超级",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "hullId": "goat_fliegender_stern",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+   "variantId": "goat_fliegender_stern_Super",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "all_goat_lash_s",
+                "WS0012": "all_goat_lash_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightmg",
+                "WS0002": "lightmg"
+            }
+        }
+    ]
+}

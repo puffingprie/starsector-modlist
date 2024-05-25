@@ -1,0 +1,3 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Matcha Makers,dpl_matcha_makers,TRUE,TRUE,data.scripts.campaign.econ.dpl_MatchaDepositsCondition,"There is a large population in the Phase Lab that enjoys tea, and many of them are living on Research Site V. They make Matcha, a finely ground powder made from tea leaves, and they love to share this treat to others.",graphics/icons/markets/dpl_matcha_makers.png,137
+Unmotivated Cadets,dpl_unmotivated_cadets,TRUE,FALSE,data.scripts.campaign.econ.dpl_UnmotivatedCadetsCondition,"People on this planet are in general unmotivated to join marines, making the marine production here diminished.",graphics/icons/markets/respite40.png,138

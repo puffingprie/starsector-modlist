@@ -1,0 +1,27 @@
+{
+  "variantId": "DEX_larder_standard",
+  "hullId": "DEX_larder",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliary_fuel_tanks"
+	],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "swarmer",
+        "WS0002": "swarmer_fighter",
+        "WS0003": "lightdualmg",
+        "WS0004": "swarmer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

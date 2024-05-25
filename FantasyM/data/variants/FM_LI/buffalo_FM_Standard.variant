@@ -1,0 +1,19 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 1,
+    "fluxVents": 0,
+    "hullId": "buffalo_FM",
+    "hullMods": [
+        "converted_hangar",
+        "FantasyBorderMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "buffalo_FM_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "mininglaser"}
+    }],
+    "wings": ["talon_wing"]
+}

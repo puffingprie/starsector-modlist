@@ -1,0 +1,33 @@
+{
+	"id":"goat_pd",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/goat/weapons/goat_pd/goat_pd_00.png",
+	"turretGunSprite":"",
+	"hardpointSprite":"graphics/goat/weapons/goat_pd/goat_pd_00.png",
+	"hardpointGunSprite":"",	
+	"visualRecoil":0.0,  # the gun sprites are only used if this is non-0
+	
+	"numFrames":9,
+	"frameRate":0,
+	"alwaysAnimate":"false",
+	"autocharge":true,
+	
+	#"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[5, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[5, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode": "DUAL", # LINKED or ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":95.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":10,
+					   "particleSizeMin":5.0,
+					   "particleSizeRange":22.0,
+					   "particleDuration":0.4,
+					   "particleCount":8,
+					   "particleColor":[228,140,46,180]},
+	"projectileSpecId":"goat_pd_fire",  # projectile that will be fired
+	"fireSoundTwo":"devastator_fire",	
+}

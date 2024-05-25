@@ -1,0 +1,57 @@
+{
+    "displayName": "博弈",
+    "fluxCapacitors": 29,
+    "fluxVents": 50,
+    "hullId": "goat_immortality",
+    "hullMods": [
+        "ballistic_rangefinder",
+        "targetingunit",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_immortality_Super",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "heavymauler",
+                "WS0003": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "flak",
+                "WS0004": "flak",
+                "WS0007": "flak",
+                "WS0009": "all_goat_grasp",
+                "WS0010": "all_goat_grasp",
+                "WS0012": "all_goat_grasp",
+                "WS0013": "all_goat_grasp"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0016": "all_goat_raise"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0017": "all_goat_raise"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "all_goat_bombard"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "devastator"}
+        }
+    ]
+}

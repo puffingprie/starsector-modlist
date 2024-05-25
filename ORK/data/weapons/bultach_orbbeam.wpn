@@ -1,0 +1,64 @@
+{
+  "id": "bultach_orbbeam",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.bultach_orbbeam",
+  "beamEffect": "data.scripts.weapons.bultach_orbbeam",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "",
+  "turretGlowSprite": "",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    100,
+    100,
+    255,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    6,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    6.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    0,
+    0,
+    255,
+    225
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 20,
+  "textureType": [
+    "graphics/fx/beam_laser_fringe.png",
+    "graphics/fx/fusion_lance_fringe.png"
+  ],
+  "textureScrollSpeed": 72,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne": "laser_intro",
+  "fireSoundTwo": "laser_loop"
+}

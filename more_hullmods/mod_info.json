@@ -1,0 +1,9 @@
+{
+	"id":"more_hullmods",
+	"name":"More HullMods",
+	"author":"PureTilt",
+	"version":"1.12.0",
+	"description":"Adds more hullmods",
+	"gameVersion":"0.97a-RC11",
+	"jars":["jars/More HullMods.jar"],
+}

@@ -1,0 +1,36 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 5,
+    "fluxVents": 7,
+    "hullId": "goat_fastboxer",
+    "hullMods": [
+        "converted_hangar",
+        "goat_oscillating",
+        "hardenedshieldemitter",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_fastboxer_Fire_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0030": "all_goat_gnaw"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0029": "annihilatorpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "vulcan",
+                "WS0007": "vulcan"
+            }
+        }
+    ],
+    "wings": ["lpc_goat_hunter_wing"]
+}

@@ -1,0 +1,104 @@
+{
+"portraits":{
+		"standard_male":[
+			"graphics/portraits/sa_plasmaman.png",
+			"graphics/portraits/sa_syndie.png",
+		],
+		},
+	"names":{
+		"SA_NAMES":1,
+	},
+  "variantOverrides": {},
+"hullFrequency":{
+        "tags":{
+            "sa_corrupted_bp":0.6,
+        },
+	"hulls": {
+	"sa_penumbra": 0.5,
+    "sa_aberration": 0.4,
+    "sa_shoggoth": 0.4,
+    "sa_almas": 0.4,
+    "sa_cavern": 0.4,
+    "sa_eclipse": 0.3,
+    "sa_box": 0.5,
+    "sa_brace": 0.4,
+    "sa_candela": 0.6,
+    "sa_gangster": 0.8,
+    "sa_scrapship": 0.8,
+    "sa_splint": 0.4,
+    "sa_splintXIV": 0.2,
+    "sa_trocar":0.6,
+    "sa_hugin": 0.5,
+    "sa_mobster": 0.6,
+    "sa_gaia": 0.3,
+    "sa_twilight": 0.4,
+    "sa_murk": 0.4,
+    "sa_gloaming": 0.4,
+    "sa_ulysses": 0.3,
+    "sa_lockjaw":0.4,
+    },
+  },
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["sa_corrupted_bp"],
+		"hulls":[
+			"sa_twilight",
+			"sa_brace",
+			"sa_almas",
+			"sa_penumbra",
+			"sa_eclipse",
+			"sa_cavern",
+			"sa_shoggoth",
+			"sa_lockjaw",
+		],
+	},
+  "knownShips": {
+        "tags":["sa_corrupted_bp"],
+    "hulls": [
+	"sa_penumbra",
+    "sa_shoggoth",
+    "sa_almas",
+    "sa_cavern",
+    "sa_eclipse",
+    "sa_box",
+    "sa_candela",
+    "sa_gangster",
+    "sa_mobster",
+    "sa_brace",
+    "sa_scrapship",
+    "sa_splint",
+    "sa_splintXIV",
+    "sa_trocar",
+    "sa_hugin",
+    "sa_gaia",
+    "sa_twilight",
+    "sa_murk",
+    "sa_gloaming",
+    "sa_ulysses",
+    ]
+  },
+  "priorityShips": {
+    "hulls": []
+  },
+"knownFighters":{
+		"tags":[],
+		"fighters":[
+			"sa_kilo_wing",
+			"sa_grunder_wing",
+			"sa_panoptes_wing",
+			"sa_grendel_wing",
+		],
+	},
+"knownWeapons":{
+		"tags":[],
+		"weapons":[
+			"sa_rhino",
+			"sa_radcannon",
+		],
+	},	
+	"custom":{
+		"pirateBaseStationTypes":{
+			"sa_orbital":2,
+		},
+	},
+}

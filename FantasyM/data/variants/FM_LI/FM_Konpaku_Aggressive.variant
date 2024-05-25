@@ -1,0 +1,45 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 10,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "FM_Konpaku",
+    "hullMods": [
+        "FantasyBorderMod",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Konpaku_Aggressive",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Blade_ac",
+                "WS0002": "ionpulser",
+                "WS0005": "FM_Blade_ac",
+                "WS0006": "ionpulser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightneedler",
+                "WS0004": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "mininglaser",
+                "WS0008": "mininglaser",
+                "WS0009": "mininglaser",
+                "WS0010": "mininglaser"
+            }
+        }
+    ],
+    "wings": []
+}

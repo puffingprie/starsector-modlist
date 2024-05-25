@@ -1,0 +1,31 @@
+{
+  "variantId": "dpl_tuba_elite",
+  "hullId": "dpl_tuba",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyblaster",
+        "WS0004": "heavyblaster",
+        "WS0005": "dpl_gamma_blaster",
+        "WS0006": "dpl_gamma_blaster",
+        "WS0009": "dpl_gamma_blaster",
+        "WS0010": "dpl_gamma_blaster",
+        "WS0011": "ionpulser",
+        "WS0012": "ionpulser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

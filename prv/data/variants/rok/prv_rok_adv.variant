@@ -1,0 +1,71 @@
+{
+  "variantId": "prv_rok_adv",
+  "hullId": "prv_rok",
+  "displayName": "Advanced",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "prv_berguv_rack",
+        "WS0015": "prv_berguv_rack",
+        "WS0016": "prv_berguv_rack",
+        "WS0017": "prv_berguv_rack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "prv_kraka",
+        "WS0005": "prv_kraka"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "prv_siege_akers",
+        "WS0002": "prv_siege_akers"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "prv_heavygravkan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "prv_sipdlaser",
+        "WS0009": "prv_sipdlaser",
+        "WS0010": "prv_sipdlaser",
+        "WS0011": "prv_sipdlaser",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "prv_pskd",
+        "WS0007": "prv_pskd",
+        "WS0012": "prv_pskd",
+        "WS0013": "prv_pskd"
+      }
+    },
+  ],
+  "modules": [],
+  "wings": []
+}

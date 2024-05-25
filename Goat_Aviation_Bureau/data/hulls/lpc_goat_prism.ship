@@ -1,0 +1,86 @@
+{
+  "hullName": "lpc_goat_prism",
+  "hullId": "lpc_goat_prism",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/goat/ships/A_LPC/lpc_goat_prism.png",
+  "style": "GOAT_TECH",
+  "height": 46,
+  "width": 18,
+  "center": [9, 23.5],
+  "collisionRadius": 30,
+  "shieldCenter": [3, -0],
+  "shieldRadius": 26,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 136,
+      "angle": 127,
+      "locations": [-2.5, 5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 136,
+      "angle": -127,
+      "locations": [-2.5, -5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 93,
+      "angle": 37,
+      "locations": [4.5, 3.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 93,
+      "angle": -37,
+      "locations": [4.5, -3.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 119,
+      "angle": -63.5,
+      "locations": [2.5, -8]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 119,
+      "angle": 63.5,
+      "locations": [2.5, 8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8, -0],
+      "length": 43,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "GOAT_TECH_long"
+    }
+  ],
+  "bounds": [
+    -21.5, -3,
+    21.5, -2,
+    21.5, 2,
+    -21.5, 3
+  ]
+}

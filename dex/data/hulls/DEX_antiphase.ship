@@ -1,0 +1,140 @@
+{
+  "hullName": "Antephalyx",
+  "hullId": "DEX_antiphase",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/DEX_antiphase.png",
+  "style": "LOW_TECH",
+  "height": 276,
+  "width": 212,
+  "center": [82, 70],
+  "collisionRadius": 90.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 94.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 253,
+      "angle": 53,
+      "locations": [24, 42]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 253,
+      "angle": 90,
+      "locations": [-11, 65]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 253,
+      "angle": -90,
+      "locations": [26, -92]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 253,
+      "angle": 0,
+      "locations": [50, 36]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 253,
+      "angle": 0,
+      "locations": [114, 18]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [75, -74]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-34, 11.5],
+      "length": 72,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32.5, -69],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32.5, -83],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32, 38],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32.5, 52.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-34, -42],
+      "length": 72,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -37, 30,
+    -34.5, 64.5,
+    13.5, 83.5,
+    65, 68,
+    98.5, 36,
+    205.5, 19,
+    103, -3.5,
+    62.5, -52,
+    87, -58,
+    87.5, -88,
+    56.5, -95,
+    8.5, -99,
+    -32.5, -91.5,
+    -37, -59
+  ]
+}

@@ -1,0 +1,264 @@
+{
+    ###########################################################################
+    "prv_ballebo_lease":{
+	  "required_mods_id": ["prvrb"], # Default: no values. List the required mods for this bounty
+	  
+        #TRIGGERS (ALL OPTIONAL)
+        "trigger_min_fleet_size": 75,
+        "trigger_marketFaction_any": ["prv"],
+        
+        #BOUNTY DESCRIPTION        
+        "job_name": "Lost Property",
+        "job_description": "Your prv contact pops up on your viewscreen, lounged back in an upholstered chair and sipping on a tall glass of... could that be cow's milk? He addresses you: \"A... contractor... we've been employing has stopped paying the lease on some equipment he's been using. Deprive him of it, so no one else gets any similar ideas. Oh, and remember to do this discretely - legally this is a merely civil matter.\"\nHe pauses, noticing your quizzical look at the glass he's holding. \"It's great stuff, captain. Expensive, but very pleasant. Clear this mess up for me and I'll buy you a glass the next time you stop by Kompaniet.\"",
+        "job_comm_reply": "A dishelved man with a ragged blonde beard replies to your hails:\n\"Oh, it's the repo man? Or are you the reaper man? You know I don't have any money, so just leave me alone.\"",
+        "job_intel_success": "A job well done, you consider if you're brave enough to take up that offer for a drink.",
+        #"job_intel_failure": "",
+        "job_intel_expired": "Ultimately you decide to leave the matter of unpaid debts to the courts.",
+        "job_forFaction": "prv",
+        "job_deadline": 180,
+        "job_credit_reward": 70000,
+        "job_reward_scaling": 1,
+        "job_reputation_reward":5,
+        "job_type":"neutralisation",
+        "job_show_type": true,
+        "job_show_captain": true,
+        "job_show_fleet": "vanilla",
+        "job_show_distance": "vanilla",
+        "job_show_arrow": false,
+        "job_difficultyDescription": "auto",
+
+        #TARGET COMMANDER (OPTIONAL)        
+        "target_first_name":"Peter",
+        "target_last_name":"Stålkrok",
+        "target_portrait":"graphics/portraits/portrait_corporate08.png",
+        "target_gender":"MALE",
+        "target_rank": "spaceCaptain",
+        "target_post": "spacer",
+        "target_personality": "steady",
+        "target_level": 4,
+        "target_elite_skills":2,
+        "target_skill_preference": "NO_ENERGY_NO_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+    
+        #TARGET FLEET
+        "fleet_name":"Stålkroksflottiljen",
+        "fleet_faction": "independent",
+        "fleet_flagship_variant":"prv_ballebo_experimental",
+        "fleet_flagship_name":"Viljan",
+        "fleet_flagship_recoverable": true,
+        "fleet_flagship_autofit": false,
+        "fleet_preset_ships": {"prv_ballebo_p_pirate":2,"prv_ballebo_legacy":1,},
+        "fleet_preset_autofit": true,
+        "fleet_scaling_multiplier": 0.8,
+        "fleet_min_FP": 60,
+        "fleet_composition_faction": "prv",
+        "fleet_composition_quality": 1,
+        "fleet_transponder": false,
+	  "fleet_no_retreat": false,
+        "fleet_behavior": "GUARDED",
+        
+        #LOCATION
+        "location_distance": "CLOSE",
+        "location_themes": ["procgen_no_theme", "procgen_no_theme_pulsar_blackhole",],
+        "location_themes_blacklist": ["theme_already_occupied", "theme_already_colonized", "theme_hidden", "no_pulsar_blackhole"],
+        "location_prioritizeUnexplored": true,
+        "location_defaultToAnyEntity": false,
+    },
+    "prv_agni_roamers":{
+	  "required_mods_id": ["prvagni"], # Default: no values. List the required mods for this bounty
+	  
+        #TRIGGERS (ALL OPTIONAL)
+        "trigger_min_fleet_size": 100,
+        "trigger_playerRelationship_atLeast": {
+            "prv":0.5,
+        },
+        "trigger_marketFaction_any": ["prv"],
+        
+        #BOUNTY DESCRIPTION        
+        "job_name": "Precariously Precocious",
+        "job_description": "Your prv contact, unusually clear-eyed and habitually clean-shaven, seems uncomfortable. \"We have a sensitive matter that we believe you are well-suited for resolving. There is a group of... well, aliens, stellar animals, that are roaming close to the sector core. We want them driven off or destroyed before someone stumbles across them. Our attempts to simply shepherd them into a more suitable system have failed, which leaves total destruction as our best option. These creatures are dangerous, captain. Do not take them lightly.\"\nHe pauses and looks at his notes, before continuing. \"Of course, discretion is paramount here. Make sure to destroy any combat recordings, and do your best to keep your crew quiet.\"",
+        "job_comm_reply": "Sending a variety of tightbeam transmissions at the creatures has them respond with an assortment of strange calls spread over the EM spectrum. You can't get anything legible out of them. Your comm officer remarks that \"It's like trying to talk to a whale - they don't understand you, and you don't understand them.\"",
+        "job_intel_success": "Strange things, no doubt. Why does the prv work so hard to keep their existence secret?",
+        #"job_intel_failure": "",
+        "job_intel_expired": "A message from your prv bounty ombudsman informs you that the shoal has luckily returned to wherever it was it came from, and that your services will no longer be needed. \"Dangerous\" secret aliens? It may be just as well that you failed to find them in time.",
+        "job_forFaction": "prv",
+        "job_deadline": 180,
+        "job_credit_reward": 170000,
+        "job_reward_scaling": 0.6,
+        "job_reputation_reward":10,
+        "job_type":"obliteration",
+        "job_show_type": true,
+        "job_show_captain": false,
+        "job_show_fleet": "none",
+        "job_show_distance": "vanillaDistance",
+        "job_show_arrow": false,
+        "job_difficultyDescription": "auto",
+
+        #TARGET COMMANDER (OPTIONAL)        
+        "target_first_name":"Agni-Ax-03",
+        "target_last_name":"Roamer",
+        "target_portrait":"graphics/prv/portraits/prv_agni_u_1.png",
+        "target_gender":"UNDEFINED",
+        "target_rank": "spaceCommander",
+        "target_post": "spacer",
+        #"target_personality": "steady",
+        "target_level": 7,
+        "target_elite_skills":7,
+        "target_skill_preference": "YES_ENERGY_NO_BALLISTIC_NO_MISSILE_YES_DEFENSE",
+    
+        #TARGET FLEET
+        "fleet_name":"Roaming Shoal",
+        "fleet_faction": "agni",
+        "fleet_flagship_variant":"prv_agni_buck_male",
+        "fleet_flagship_name":"Agni-Ax-03 Roamer",
+        "fleet_flagship_recoverable": false,
+        "fleet_flagship_autofit": true,
+        "fleet_scaling_multiplier": 0.9,
+        "fleet_min_FP": 130,
+        "fleet_composition_faction": "agni",
+        "fleet_composition_quality": 1,
+        "fleet_transponder": false,
+	  "fleet_no_retreat": false,
+        "fleet_behavior": "ROAMING",
+        
+        #LOCATION
+        "location_distance": "CLOSE",
+        "location_themes": ["theme_ruins_main","theme_derelict_probes","theme_derelict_survey_ship"],
+        "location_themes_blacklist": ["theme_remnant","theme_prv_agni","theme_already_occupied", "theme_already_colonized", "theme_hidden", "no_pulsar_blackhole"],
+        "location_entities": [ # Default: PLANET + JUMP_POINT + STABLE_LOCATION. Possible entities to spawn the fleet around.
+            "gate",
+            "station",
+            "wreck",
+            "debris",
+            "planet",
+        ],
+        "location_prioritizeUnexplored": true,
+        "location_defaultToAnyEntity": false,
+    },
+    ###########################################################################
+    "prv_aska_au_rare":{
+        #TRIGGERS (ALL OPTIONAL)
+        "trigger_min_fleet_size": 100,
+        "trigger_marketFaction_any": ["pirates","independent","rb","persean","sindrian_diktat"],
+        
+        #BOUNTY DESCRIPTION        
+        "job_name": "Fool's Gold",
+        "job_description": "Your good old buddy Douglar - a man about as trustworthy as a snake, but fun to drink with - has told you an intriguing story about a cruiser \"made out of solid gold, I swear on my mother\". Never one to distrust the fair and honorable, you summarily dismissed the claim - until Douglar produced a video of the ship leaving an anonymous spacedock. The quality is poor, but it did indeed suggest a golden sheen. Your curiousity piqued, you started an investigation which now not only confirms the video as plausible, but has also yielded a set of coordinates that could lead to the ship. You might owe Douglar an apology.",
+        "job_comm_reply": "A dark-haired man in a prv officer’s uniform decorated with a pained grin on his face, adresses you:\n\"There are no choices. Nothing but a straight line. The illusion comes afterwards, when you ask ’why me?’ and ’what if?’. When you look back and see the branches, like a pruned bonsai tree, or forked lightning. If you had done something differently, it wouldn't be you, it would be someone else looking back, asking a different set of questions. And here you are. Asking questions. Are you ready to crack the gilding of the mask, to see the rot underneath?\"",
+        "job_intel_success": "Pyrite! You should have known nothing good would come out of listening to Douglar.",
+        #"job_intel_failure": "",
+        "job_intel_expired": "Unable to locate the ship, you're forced to conclude that you've spent the last half-cycle on a wild goose chase. Douglar must be having a good laugh at your expense just about now.",
+        "job_forFaction": "pirates",
+        "job_deadline": 180,
+        "job_credit_reward": 0,
+        "job_reward_scaling": 0,
+        "job_reputation_reward":10,
+        "job_type":"assassination",
+        "job_show_type": false,
+        "job_show_captain": false,
+        "job_show_fleet": "none",
+        "job_show_distance": "vanilla",
+        "job_show_arrow": false,
+        "job_difficultyDescription": "auto",
+        "job_pick_option": "Search for the ship",
+
+        #TARGET COMMANDER (OPTIONAL)        
+        "target_first_name":"Max",
+        "target_last_name":"Liid",
+        "target_portrait":"graphics/prv/portraits/prv_m_1.png",
+        "target_gender":"MALE",
+        "target_rank": "spaceCaptain",
+        "target_post": "spacer",
+        "target_personality": "reckless",
+        "target_level": 5,
+        "target_elite_skills":1,
+        "target_skill_preference": "YES_ENERGY_YES_BALLISTIC_NO_MISSILE_NO_DEFENSE",
+    
+        #TARGET FLEET
+        "fleet_name":"Trial Group",
+        "fleet_faction": "prv",
+        "fleet_flagship_variant":"prv_aska_au_experimental",
+        "fleet_flagship_name":"prv Berätta",
+        "fleet_flagship_recoverable": true,
+        "fleet_flagship_autofit": false,
+        "fleet_preset_ships": {
+		"prv_ballebo_experimental":2, "prv_ljus_ambush":1, "prv_ljus_pd":1
+		},
+        "fleet_preset_autofit": true,
+        "fleet_scaling_multiplier": 0.9,
+        "fleet_min_FP": 75,
+        "fleet_composition_quality": 1,
+        "fleet_transponder": true,
+	  "fleet_no_retreat": false,
+        "fleet_behavior": "AGGRESSIVE",
+        
+        #LOCATION
+        "location_themes": ["procgen_no_theme", "procgen_no_theme_pulsar_blackhole",],
+        "location_themes_blacklist": ["theme_already_occupied", "theme_already_colonized", "theme_hidden", "no_pulsar_blackhole"],
+        "location_prioritizeUnexplored": true,
+        "location_defaultToAnyEntity": true,
+    },
+    ###########################################################################
+    "prv_morker_rare":{
+        #TRIGGERS (ALL OPTIONAL)
+        "trigger_min_fleet_size": 150,
+        "trigger_marketFaction_any": ["hegemony"],
+        
+        #BOUNTY DESCRIPTION        
+        "job_name": "Andra Perseiska Kompaniet",
+        "job_description": "While idly browsing the underground bounty boards on an open terminal, you hear the chime of a new message arriving on your personal PDA. Which is curious, since it was turned off. It reads:\n\"Hey check this out - the Heg’s are putting up an outrageously high internal bounty for the destruction of some secret battlegroup operated by the prv. In return for a small fee on the bounty, I’ve made sure that you’re eligible for it. Go blow up that ship!\"\nThe message is unsigned, but you have your suspicions about who it might be. COMSEC must be livid.",
+        "job_comm_reply": "I see that Pariabyrån has failed us again. Before you do anything rash, you should know that my fleet has never been defeated in battle. Weigh your chances carefully.",
+        "job_intel_success": "Pride goes before the fall, and fallen the prv's trump card now has. You wonder what this will mean for the balance of power in the sector.",
+        #"job_intel_failure": "",
+        "job_intel_expired": "While you comb through your correspondence you notice that you're no longer cleared for the bounty on the Second Persean prv Fleet. COMSEC must've finally noticed you had been snuck onto the list.",
+        "job_forFaction": "hegemony",
+        "job_deadline": 240,
+        "job_credit_reward": 250000,
+        "job_reward_scaling": 1,
+        "job_reputation_reward":10,
+        "job_type":"assassination",
+        "job_show_type": true,
+        "job_show_captain": true,
+        "job_show_fleet": "vanilla",
+        "job_show_distance": "vanilla",
+        "job_show_arrow": false,
+        "job_difficultyDescription": "auto",
+        "job_pick_option": "Pursue the bounty",
+
+        #TARGET COMMANDER (OPTIONAL)        
+        "target_first_name":"Gustav",
+        "target_last_name":"Adolphus",
+        "target_portrait":"graphics/portraits/portrait_hegemony05.png",
+        "target_gender":"MALE",
+        "target_rank": "spaceCommander",
+        "target_post": "spacer",
+        "target_personality": "cautious",
+        "target_level": 3,
+        "target_elite_skills":1,
+        "target_skill_preference": "YES_ENERGY_NO_BALLISTIC_YES_MISSILE_NO_DEFENSE",
+    
+        #TARGET FLEET
+        "fleet_name":"Andra Perseiska Kompaniet",
+        "fleet_faction": "prv",
+        "fleet_flagship_variant":"prv_morker_grav",
+        "fleet_flagship_name":"prv Sista Dagen",
+        "fleet_flagship_recoverable": true,
+        "fleet_flagship_autofit": false,
+        "fleet_preset_ships": {
+		"prv_is_ryak":1, "prv_flamma_strike":2, "prv_flamma_beam":1,
+		},
+        "fleet_preset_autofit": false,
+        "fleet_scaling_multiplier": 1,
+        "fleet_min_FP": 150,
+        "fleet_composition_quality": 2,
+        "fleet_transponder": true,
+	  "fleet_no_retreat": false,
+        "fleet_behavior": "AGGRESSIVE",
+        
+        #LOCATION
+        "location_distance": "CLOSE",
+        "location_themes": ["procgen_no_theme", "procgen_no_theme_pulsar_blackhole",],
+        "location_themes_blacklist": ["theme_already_occupied", "theme_already_colonized", "theme_hidden", "no_pulsar_blackhole"],
+        "location_prioritizeUnexplored": true,
+        "location_defaultToAnyEntity": true,
+    },
+}

@@ -1,0 +1,2 @@
+command,class,tags,syntax,help
+ShuffleDoctrine,prv.corp.console.prvConsoleShuffleDoctrine,"prv,campaign",shuffledoctrine all|<factionId>,Scrambles the faction’s doctrine.

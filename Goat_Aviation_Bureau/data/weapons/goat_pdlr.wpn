@@ -1,0 +1,32 @@
+{
+	"specClass":"beam",
+	"id":"goat_pdlr",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"turretSprite":"graphics/goat/weapons/energy/goat_pdlr/pd_main.png",
+	"turretGlowSprite":"graphics/weapons/pd_laser_turret_glow.png",
+	"turretGunSprite": "graphics/goat/weapons/energy/goat_pdlr/pd.png",
+	"hardpointSprite":"graphics/goat/weapons/energy/goat_pdlr/pd_main.png",
+	"hardpointGlowSprite":"graphics/weapons/pd_laser_hardpoint_glow.png",
+	"hardpointGunSprite": "graphics/goat/weapons/energy/goat_pdlr/pd.png",
+	"turretOffsets":[-4, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	
+	
+	"fringeColor":[111,79,246,95],
+	"coreColor":[5,5,5,255],
+	"glowColor":[171,89,226,255],
+	
+	
+	"width":25.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
+	"fireSoundOne":"laser_intro",
+	"fireSoundTwo":"pd_laser_loop",
+}

@@ -1,0 +1,25 @@
+{
+    "baseHullId":"paragon",
+    "skinHullId":"paragon_goat_painting",
+	
+	"hullName":"典范 (GOP)",
+	"descriptionId":"paragon",
+	
+	"descriptionPrefix":"作为羊头涂装厂出品的特别版。她被涂上了星区少见的半兰掺白涂装，并且得到了一些简单的镀层改造",
+  
+  "baseValueMult": 1.25,
+  
+  "hullDesignation": "战列舰",
+
+  
+  
+  "restoreToBaseHull": false,
+  
+  
+  
+  "spriteName": "graphics/goat/ships/goat_painting/paragon_goat_painting.png",
+  
+  "tech": "羊头航务局",
+  
+  "builtInMods":["goat_painting"],
+}

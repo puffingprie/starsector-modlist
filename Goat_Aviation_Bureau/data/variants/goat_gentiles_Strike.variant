@@ -1,0 +1,41 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "hullId": "goat_gentiles",
+	"goalVariant": true,
+    "hullMods": [
+        "goat_overloadcircuit",
+        "goat_oscillating"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_gentiles_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "all_goat_heavyfist",
+                "WS0004": "all_goat_heavyfist"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "phasecl",
+                "WS0003": "phasecl"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "mininglaser",
+                "WS0006": "mininglaser"
+            }
+        }
+    ],
+    "wings": []
+}

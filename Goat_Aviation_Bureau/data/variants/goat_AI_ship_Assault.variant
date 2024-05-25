@@ -1,0 +1,28 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 1,
+    "hullId": "goat_AI_ship",
+    "hullMods": [
+        "targetingunit",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_AI_ship_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "all_goat_punish"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "all_goat_diiscipline",
+                "WS0002": "all_goat_diiscipline"
+            }
+        }
+    ]
+}

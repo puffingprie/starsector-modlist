@@ -1,0 +1,25 @@
+{
+	"id":"goat_mjolnir_ass",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	
+	"onFireEffect": "data.scripts.weapons.goat_mjolnirOnFireEffect",
+	
+	#"OnFireEffect": "data.scripts.weapons.goat_HowlOnFireEffect",
+	
+	"length":12.0,
+	"hitGlowRadius":90,
+	"width":9.5,
+	"fadeTime":0.3,
+	"fringeColor":[228,140,46,255],
+	"coreColor":[228,140,46,255],
+	
+	"glowColor":[228,140,46,120],
+	"glowRadius":45,
+	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/goat/missiles/goat_mjolnir_ass.png"
+}

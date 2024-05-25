@@ -1,0 +1,109 @@
+{
+  "hullName": "DIRK",
+  "hullId": "goat_DIRK",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/goat/ships/Saxton/DIRK.png",
+  "style": "GOAT_TECH_blue",
+  "height": 120,
+  "width": 120,
+  "center": [60, 62],
+  "collisionRadius": 92.5,
+  "shieldCenter": [1.5, -0],
+  "shieldRadius": 79.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "goat_hullstyle_sax",
+    "goat_state_tidal"
+  ],
+  "builtInWings": [
+    ""
+  ],
+  "builtInWeapons": {
+    "WS0001": "goat_pdlr"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 293,
+      "angle": 0,
+      "locations": [-1.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [14, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-12, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38, -0],
+      "length": 38,
+      "width": 34,
+      "angle": 180,
+      "contrailSize": 34,
+      "style": "GOAT_TECH_FLY"
+    },
+    {
+      "location": [-46, -0],
+      "length": 49,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "GOAT_TECH_FLY"
+    },
+    {
+      "location": [-19, 22],
+      "length": 8.449871,
+      "width": 5.234379,
+      "angle": -170,
+      "contrailSize": 5.234379,
+      "style": "GOAT_TECH_FLY"
+    },
+    {
+      "location": [-19, -22],
+      "length": 8.449871,
+      "width": 5.234379,
+      "angle": 170,
+      "contrailSize": 5.234379,
+      "style": "GOAT_TECH_FLY"
+    }
+  ],
+  "bounds": [
+    -60.5, -3.5,
+    -17.5, -12.5,
+    -19, -25.5,
+    -7.5, -29,
+    10, -59.5,
+    21.5, -57,
+    11, -25.5,
+    20.5, -31.5,
+    41, -4,
+    55.5, -1.5,
+    55.5, 1.5,
+    41, 4,
+    20.5, 31.5,
+    11, 25.5,
+    21.5, 57,
+    10, 59.5,
+    -7.5, 29,
+    -19, 25.5,
+    -17.5, 12.5,
+    -60.5, 3.5
+  ]
+}

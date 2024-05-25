@@ -1,0 +1,67 @@
+{
+    "displayName": "Painted",
+    "fluxCapacitors": 42,
+    "fluxVents": 50,
+    "hullId": "paragon_goat_painting",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "hardenedshieldemitter",
+        "fluxdistributor",
+        "magazines",
+        "advancedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "paragon_Nature",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "reaper",
+                "WS 014": "reaper",
+                "WS 018": "reaper",
+                "WS 020": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "autopulse",
+                "WS 002": "autopulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "tachyonlance",
+                "WS 004": "tachyonlance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "all_goat_implement",
+                "WS 006": "all_goat_implement",
+                "WS 007": "heavyneedler",
+                "WS 008": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "all_goat_rhythm",
+                "WS 010": "all_goat_rhythm",
+                "WS 011": "pdlaser",
+                "WS 016": "pdlaser",
+                "WS 017": "pdlaser",
+                "WS 022": "pdlaser",
+                "WS 023": "pdlaser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+  "hullName": "Haunt(DomRes)",
+  "hullId": "DEX_haunt_domres",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/HMI/DEX_haunt_domres.png",
+  "style": "LOW_TECH",
+  "height": 140,
+  "width": 164,
+  "center": [82, 70],
+  "collisionRadius": 106,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 95.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "high_maintenance",
+    "phasefield",
+    "auxiliarythrusters",
+    "phase_anchor",
+    "unstable_injector",
+    "armoredweapons",
+    "adaptive_coils"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": 0,
+      "locations": [57, 35]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": -0,
+      "locations": [57, -35]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": 0,
+      "locations": [60, 21]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": -0,
+      "locations": [60, -21]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": 0,
+      "locations": [60, 6]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": -0,
+      "locations": [60, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-54, -63],
+      "length": 90,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-54, 63],
+      "length": 90,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-54.5, -38.5],
+      "length": 90,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-54.5, 38.5],
+      "length": 90,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-55.5, -16.5],
+      "length": 90,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-55.5, 16.5],
+      "length": 90,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    63, 49.5,
+    -55.5, 82,
+    -55.5, -82,
+    63, -49.5
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "variantId": "DEX_luddstone_suicide",
+  "hullId": "DEX_luddstone",
+  "displayName": "Sacrificial",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missile_autoloader",
+    "armoredweapons",
+    "insulatedengine",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "hammerrack",
+        "WS 001": "hammerrack",
+        "WS 002": "hammerrack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "lightac",
+        "WS 005": "heavyac",
+        "WS 006": "heavyac",
+        "WS 011": "lightdualac",
+        "WS 020": "lightdualac",
+        "WS0001": "lightdualac",
+        "WS0002": "lightdualac",
+        "WS0003": "lightdualac",
+        "WS0004": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "sabotpod",
+        "WS 009": "sabotpod",
+        "WS 012": "sabotpod",
+        "WS 021": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 016": "dualflak",
+        "WS 017": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "breach",
+        "WS 008": "breach",
+        "WS 010": "breach"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0005": "DEX_redstone_module_module"
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,25 @@
+{
+    "baseHullId":"hammerhead",
+    "skinHullId":"hammerhead_goat_painting",
+	
+	"hullName":"Hammerhead (GP)",
+	"descriptionId":"hammerhead",
+	
+	"descriptionPrefix":"As a special edition from the Goathead painting facility, it was painted with a stellar-reflective finish that's hard to find in the Sector, and received some simple armor modifications.",
+  
+  "baseValueMult": 1.25,
+  
+  "hullDesignation": "Destroyer",
+
+  
+  
+  "restoreToBaseHull": false,
+  
+  "coversColor":[137,133,122,205],
+  
+  "spriteName": "graphics/goat/ships/goat_painting/hammerhead_base_goat_painting.png",
+  
+  "tech": "Goathead Aviation",
+  
+  "builtInMods":["goat_painting"],
+}

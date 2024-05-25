@@ -1,0 +1,16 @@
+{
+  "id":"prv",
+	"name":"prv Starworks",
+	"author":"Prav",	
+	"version":"v28.2",
+	"description":"Adds the prv Starworks faction.",
+	"modPlugin":"prv.corp.PRVModPlugin",
+	"gameVersion":"0.97a-RC6",
+	"dependencies": [
+		{
+			"id": "prvlib",
+			"name": "prv Library",
+		},
+	],
+	"jars":["jar/prv.jar"],
+}

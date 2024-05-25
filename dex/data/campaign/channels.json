@@ -1,0 +1,25 @@
+{
+	"defaultChannels":[
+		"DEX_public",
+	],	
+	"DEX_internal":{
+		"name":"Exploratorium Telemetry",
+		"logo":"graphics/icons/intel/DEX_internal.png",
+		"icon":"graphics/icons/intel/DEX_internal.png",
+		"image":"graphics/factions/domain_explorarium.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"derelict",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+	"DEX_public":{
+		"name":"Exploratorium Adress",
+		"logo":"graphics/icons/intel/DEX_public.png",
+		"icon":"graphics/icons/intel/DEX_public.png",
+		"image":"graphics/factions/domain_explorarium.png",
+		"sound":"ui_channel_news",
+		"faction":"derelict",
+		"type":"News Report",
+		"shortType":"News",
+	},
+}

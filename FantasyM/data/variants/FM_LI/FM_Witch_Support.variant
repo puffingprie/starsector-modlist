@@ -1,0 +1,41 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 20,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "FM_Witch",
+    "hullMods": [
+        "converted_hangar",
+        "FantasyBorderMod",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Witch_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "FM_Masterspark"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "sabotpod",
+                "WS0004": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "mininglaser",
+                "WS0003": "mininglaser",
+                "WS0005": "mininglaser",
+                "WS0006": "mininglaser"
+            }
+        }
+    ],
+    "wings": ["talon_wing"]
+}

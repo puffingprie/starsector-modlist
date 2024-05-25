@@ -1,0 +1,84 @@
+{
+  "variantId": "DEX_arsenal_type2",
+  "hullId": "DEX_arsenal",
+  "displayName": "Type-2",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 42,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "squall",
+        "WS0002": "locust",
+        "WS0003": "squall",
+        "WS0004": "locust",
+        "WS0005": "heavymg",
+        "WS0006": "flak",
+        "WS0007": "harpoonpod",
+        "WS0008": "harpoonpod",
+        "WS0009": "harpoonpod",
+        "WS0010": "harpoonpod",
+        "WS0011": "harpoonpod",
+        "WS0012": "harpoonpod",
+        "WS0013": "harpoonpod",
+        "WS0014": "harpoonpod",
+        "WS0015": "flak",
+        "WS0024": "flak",
+        "WS0025": "flak",
+        "WS0026": "heavyac",
+        "WS0027": "heavyac",
+        "WS0028": "heavyac",
+        "WS0029": "heavyac",
+        "WS0030": "flak",
+        "WS0031": "flak",
+        "WS0032": "squall",
+        "WS0033": "squall",
+        "WS0034": "breachpod",
+        "WS0035": "breachpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "shredder",
+        "WS0017": "shredder",
+        "WS0018": "lightdualmg",
+        "WS0019": "lightdualmg",
+        "WS0020": "lightdualmg",
+        "WS0021": "lightdualmg",
+        "WS0022": "vulcan",
+        "WS0023": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "DEX_guardsman_wing",
+    "DEX_trojan_wing",
+    "DEX_thunderstrike_wing",
+    "DEX_skystar_wing",
+    "DEX_legionary_wing",
+    "DEX_legionary_wing"
+  ]
+}

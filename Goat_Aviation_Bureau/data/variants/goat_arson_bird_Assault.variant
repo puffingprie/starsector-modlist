@@ -1,0 +1,36 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "goat_arson_bird",
+    "hullMods": ["unstable_injector"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_arson_bird_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "all_goat_punch",
+                "WS0002": "all_goat_punch"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "all_goat_lash_s",
+                "WS0012": "all_goat_lash_s",
+                "WS0013": "all_goat_lash_s",
+                "WS0014": "all_goat_lash_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "all_goat_grasp"}
+        }
+    ]
+}

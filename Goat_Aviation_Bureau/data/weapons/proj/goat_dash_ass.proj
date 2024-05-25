@@ -1,0 +1,23 @@
+{
+	"id":"goat_dash_ass",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM", 
+	"collisionClass":"RAY", 
+	"collisionClassByFighter":"RAY_FIGHTER", 
+	"length":6.0,
+	"hitGlowRadius":80,
+	"width":5.0,
+	"fadeTime":0.1,
+	
+	"onFireEffect": "data.scripts.weapons.goat_DashOnFireEffect",
+	
+	"fringeColor":[255,115,33,175],
+	"coreColor":[255,241,231,205],
+	"glowColor":[253,117,81,90],
+	
+	"glowRadius":30,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/goat/missiles/goat_dash_ass.png"
+}

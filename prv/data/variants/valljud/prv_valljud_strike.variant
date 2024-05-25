@@ -1,0 +1,72 @@
+{
+  "variantId": "prv_valljud_strike",
+  "hullId": "prv_valljud",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 19,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "prv_svepfrasare"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0015": "typhoon",
+        "WS0016": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "pulselaser",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "irpulse",
+        "WS0014": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "prv_akers_nova",
+        "WS0012": "prv_akers_nova"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "prv_sipdlaser",
+        "WS0004": "prv_sipdlaser",
+        "WS0005": "prv_sipdlaser",
+        "WS0006": "prv_sipdlaser",
+        "WS0007": "pdburst",
+        "WS0008": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "prv_jammer_wing",
+    "prv_jammer_wing",
+    "prv_jammer_wing",
+    "longbow_wing"
+  ]
+}

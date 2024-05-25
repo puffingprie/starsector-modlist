@@ -1,0 +1,35 @@
+{
+	"id":"goat_damper",
+	"type":"STAT_MOD",
+	"aiType":"DAMPER_FIELD",
+	
+	"statsScript":"data.shipsystems.scripts.goat_Damper",
+	
+	"jitterUnderColor":[185,195,250,255],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":12,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	
+	"weaponGlowColor":[255,165,90,0],
+	"weaponTypes":[ENERGY],
+	
+	#"engineGlowColor":[255,90,255,255],
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.25,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper",
+	"loopSound":"system_damper_loop",
+	"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+

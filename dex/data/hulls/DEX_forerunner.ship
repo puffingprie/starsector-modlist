@@ -1,0 +1,161 @@
+{
+  "hullName": "Marathon",
+  "hullId": "DEX_forerunner",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/DEX_forerunner.png",
+  "style": "LOW_TECH",
+  "height": 283,
+  "width": 145,
+  "center": [77, 150],
+  "collisionRadius": 161.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 181.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "surveying_equipment",
+    "hiressensors",
+    "ecm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 50,
+      "angle": -90,
+      "locations": [-32, -60]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 320,
+      "angle": 0,
+      "locations": [63, -33]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 325,
+      "angle": 180,
+      "locations": [-46, 47]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [120.5, -32]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 90,
+      "locations": [32, 55]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [104, 54]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        113.5, -1,
+        113, 12,
+        121.5, -5.5,
+        112.5, 6.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        118, 31,
+        118, 23.5,
+        114, 17
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [56, 30]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-144, 33.5],
+      "length": 81,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-144.5, -27.5],
+      "length": 78.5,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-149.5, 4],
+      "length": 114,
+      "width": 47,
+      "angle": 180,
+      "contrailSize": 47,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    128.5, 34.5,
+    112, 39,
+    111, 69.5,
+    33.5, 69,
+    20.5, 76.5,
+    9.5, 62.5,
+    -61.5, 62,
+    -104, 57,
+    -144.5, 40,
+    -151, 15,
+    -151, -15,
+    -144.5, -40,
+    -94, -56,
+    -55.5, -57.5,
+    -46.5, -68,
+    -16, -67.5,
+    -0.5, -52,
+    76, -50.5,
+    79, -43,
+    129.5, -39.5
+  ]
+}

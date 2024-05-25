@@ -1,0 +1,42 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+dpl_agolo_I_wing,dpl_agolo_I_Interceptor,"interceptor3, interceptor, high, dpl_commercial_bp, merc, dpl_wing",2,,5,15,CLAW,4000,450,600,6,INTERCEPTOR,Interceptor,5,6000,,,,,,,,,,,,,6
+dpl_agolo_II_wing,dpl_agolo_II_Interceptor,"interceptor3, interceptor, high, dpl_commercial_bp, merc, dpl_wing",2,,8,21,CLAW,4000,450,700,3,INTERCEPTOR,Interceptor,12,12500,,,,,,,,,,,,,7
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,9
+dpl_marimba_I_wing,dpl_marimba_I_Attacker,"bomber5, bomber, high, dpl_commercial_bp, merc, dpl_wing",2,,6,16,V,4000,1000,600,1,BOMBER,Bomber,20,10000,,,,,,,,,,,,,10
+dpl_marimba_II_wing,dpl_marimba_II_Attacker,"bomber5, bomber, high, dpl_commercial_bp, merc, dpl_wing",2,,6,18,V,4000,1000,600,1,BOMBER,Bomber,20,12000,,,,,,,,,,,,,10
+dpl_choir_wing,dpl_choir_Attacker,"bomber5, bomber, high, dpl_commercial_bp, merc",2,,6,25,V,4000,1000,600,3,BOMBER,Bomber,10,10000,,,,,,,,,,,,,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dpl_silence_drone_wing,dpl_silence_drone_standard,"no_drop, no_sell, high",3,,5,0,V,0,500,,2,SUPPORT,Point Defence,15,10000,,,,,,,,,,,,,19
+dpl_gunboat_wing,dpl_gunboat_standard,"no_drop, no_sell, high",3,,5,30,V,0,500,,2,SUPPORT,Point Defence,30,10000,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,30
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,31
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,32
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,33
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,34
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,35
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,36
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,37
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,38
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,39
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,40
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,41
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,42
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,43
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,44
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,45
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,46
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,47
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,48
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,49
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,50

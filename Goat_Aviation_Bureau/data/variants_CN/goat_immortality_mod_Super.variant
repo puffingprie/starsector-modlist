@@ -1,0 +1,53 @@
+{
+    "displayName": "超级",
+    "fluxCapacitors": 0,
+    "fluxVents": 12,
+    "hullId": "goat_immortality_mod",
+    "hullMods": [
+        "targetingunit",
+        "advancedoptics",
+        "insulatedengine",
+        "fluxbreakers",
+        "reinforcedhull",
+        "shield_shunt"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_immortality_mod_Super",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "all_goat_raise",
+                "WS0006": "all_goat_raise"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "squall",
+                "WS0016": "squall",
+                "WS0017": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "hil"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "all_goat_grasp",
+                "WS0009": "all_goat_grasp",
+                "WS0010": "all_goat_grasp",
+                "WS0011": "all_goat_grasp",
+                "WS0012": "all_goat_grasp",
+                "WS0013": "all_goat_grasp"
+            }
+        }
+    ]
+}

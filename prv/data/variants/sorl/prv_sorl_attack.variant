@@ -1,0 +1,49 @@
+{
+  "variantId": "prv_sorl_attack",
+  "hullId": "prv_sorl",
+  "displayName": "Attack",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pulselaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "typhoon",
+        "WS0006": "typhoon",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "irpulse",
+        "WS0002": "irpulse",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "prv_sipdlaser",
+        "WS0004": "prv_sipdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "prv_skran_wing",
+    "prv_skran_wing"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+	"knownShips":{
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"fighters":[
+		],
+	},
+	"hullFrequency":{		
+		"hulls":{
+		"DEX_unholy":1 #Its' an unholy abomination, make it rare
+		},
+		"fighters":{
+			
+		},
+	},
+	
+},
+

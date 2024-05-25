@@ -1,0 +1,126 @@
+{
+  "hullName": "Flute",
+  "hullId": "dpl_flute",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/phase/dpl_flute.png",
+  "style": "HIGH_TECH",
+  "height": 140,
+  "width": 70,
+  "center": [35, 70],
+  "collisionRadius": 95,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 85,
+  "viewOffset": 0,
+  "builtInMods": [
+    "delicate",
+    "phasefield",
+    "dpl_torpedoreserve"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [39, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [39, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [50, 11]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [50, -11]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [31, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-55.5, 21],
+      "length": 30,
+      "width": 10,
+      "angle": 160,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-55.5, -21],
+      "length": 30,
+      "width": 10,
+      "angle": -160,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-60, 12],
+      "length": 30,
+      "width": 10,
+      "angle": 160,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-60, -12],
+      "length": 30,
+      "width": 10,
+      "angle": -160,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-62, -0],
+      "length": 53,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    60, -9.5,
+    56.5, -16.5,
+    42, -35,
+    -3.5, -33.5,
+    -12, -23.5,
+    -36.5, -22.5,
+    -53, -23,
+    -61.5, -12,
+    -61.5, 12,
+    -53, 23,
+    -36.5, 22.5,
+    -12, 23.5,
+    -3.5, 33.5,
+    42, 35,
+    56.5, 16.5,
+    60, 9.5
+  ]
+}

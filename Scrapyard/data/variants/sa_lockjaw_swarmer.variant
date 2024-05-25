@@ -1,0 +1,53 @@
+{
+  "variantId": "sa_lockjaw_swarmer",
+  "hullId": "sa_lockjaw",
+  "displayName": "Swarmer",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "missleracks",
+    "missile_autoloader",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "phasecl"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "swarmer",
+        "WS0005": "swarmer",
+        "WS0006": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sa_grunder_wing",
+    "sa_grunder_wing"
+  ]
+}

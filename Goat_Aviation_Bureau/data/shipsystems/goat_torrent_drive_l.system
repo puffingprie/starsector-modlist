@@ -1,0 +1,37 @@
+{
+	"id":"goat_torrent_drive_l",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE_TOGGLE",
+	
+	"statsScript":"data.shipsystems.scripts.goat_TorrentDriveStats",
+	
+	"engineGlowColor":[245,95,75,215],
+	"engineGlowContrailColor":[110,65,55,25],
+	"engineGlowLengthMult":5.5,
+	"engineGlowWidthMult":2.5,
+	"engineGlowGlowMult":2.5,
+
+
+	"jitterUnderColor":[250, 133, 14,115],
+	"jitterUnderCopies":9,
+	"jitterUnderMinRange":0.1,
+	"jitterUnderRange":0.5,
+	"jitterUnderRangeRadiusFraction":0.03,
+	
+	"flameoutOnImpactChance":1.0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	"useSound":"system_burn_drive_activate",
+	"loopSound":"system_burn_drive_loop",
+	"deactivateSound":"system_burn_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":100,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":100,
+	}
+}

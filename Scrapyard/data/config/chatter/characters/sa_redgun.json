@@ -1,0 +1,64 @@
+{
+	"name":"Redgun",
+	"personalities":["aggressive","reckless"],
+	"gender":["m","f"],
+	"chance":0.4,
+	"talkativeness":1,
+	"categoryTags":["custom"],
+	
+	"lines":{
+		"start":[
+			{"text":"Attack! Get in there, you maggots!"},
+			{"text":"Move out maggots! Time to die!"}
+		],
+		"start_boss":[
+			{"text":"Listen up, maggots! This field trip is now a hunting expedition!"}
+		],		
+		"retreat":[
+			{"text":"The mission's a failure! All units, retreat!"}
+		],
+		"out_of_missiles":[
+			{"text":"what?! you didnt bring it?! Captain your ability to ruin my field trips is uncanny!"}
+		],
+		"engaged":[
+			{"text":"Whoever kills this one gets a Hegemon Cobalt Star!"},
+			{"text":"...They're good you know, go real far when you throw em!"},
+		],
+		"need_help":[
+			{"text":"We gotta deal with those pesky shields first."},
+			{"text":"Finally, someone with their head screwed on straight. Ever thought about switchin sides?"},
+			{"text": "Captain! what are you doing?!"}
+		],
+		"pursuing":[
+			{"text":"You beg for your mother, we'll give you another!"},
+			{"text":"We'll be good to go soon! Keep the target busy!"},
+			{"text":"Finally! I damn near missed the show!"}
+		],
+		"running":[
+			{"text":"Those of you who withdrew, keep your lousy asses low!"}
+		],
+		"hull_90":[
+			{"text":"Return fire! Looks like they're playing dirty now!"},
+		],
+		"hull_50":[
+			{"text":"You've ruined our little field trip Captain!"},
+		],
+		"hull_30":[
+			{"text":"You better keep the emerjency eject primed!"},
+			{"text":"You can go home now, or follow me if you have a death wish!"}
+		],
+		"overload":[
+			{"text":"watch and learn maggots, Ill show you how to slug it out!"},
+		],
+		"death":[
+			{"text":"Captain! Are you normally this incompetent or do you have to try?!"},
+			{"text":"Get clear! It's gonna blow!"},
+			{"text":"Maggots! Do you read me? You can tell this to posterity: mean old $officerName died of a bad fall!"}
+		],
+		"victory":[
+			{"text":"Looks like my good-for-nothings were good for somethin afterall. Field trip's over!"},
+			{"text":"You're gonna need more training... Put that in your diaries!"},
+			{"text":"We bagged the big one! Relief team, to the front!"}
+		]
+	}
+}

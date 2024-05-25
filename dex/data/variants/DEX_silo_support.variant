@@ -1,0 +1,53 @@
+{
+  "variantId": "DEX_silo_support",
+  "hullId": "DEX_silo",
+  "displayName": "Missile Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "arbalest",
+        "WS0002": "dualflak",
+        "WS0003": "arbalest",
+        "WS0004": "sabotpod",
+        "WS0005": "sabotpod",
+        "WS0006": "squall",
+        "WS0007": "squall",
+        "WS0008": "breach",
+        "WS0009": "breach",
+        "WS0010": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,64 @@
+{
+	### Blueprint colors ###
+	"designTypeColors":{
+		"prv Starworks":[102,255,153,255],
+		"Sindrian Diktat":[160,0,95,255],
+	},
+	### Graphics ###
+	"graphics":{
+		"fighterSkinsPlayerAndNPC":{	},
+		"fighterSkinsPlayerOnly":{
+			"prv_ovasen_PRV_HIGH":"graphics/prv/ships/fighters/prv_ovasen.png",
+			"prv_ovasen_PRV_MID":"graphics/prv/ships/fighters/prv_ovasen.png",
+			"prv_ovasen_PRV_LOW":"graphics/prv/ships/fighters/prv_ovasen_rb.png",
+			"prv_ovasen_HIGH_TECH":"graphics/prv/ships/fighters/prv_ovasen_high.png",
+			"prv_ovasen_MIDLINE":"graphics/prv/ships/fighters/prv_ovasen_mid.png",
+			"prv_ovasen_LOW_TECH":"graphics/prv/ships/fighters/prv_ovasen_low.png",
+			"sarissa_PRV_HIGH":"graphics/prv/ships/fighters/prv_sarissa_prv.png",
+			"sarissa_PRV_MID":"graphics/prv/ships/fighters/prv_sarissa_prv.png",
+			"xyphos_PRV_HIGH":"graphics/prv/ships/fighters/prv_xyphos_prv.png",
+			"xyphos_PRV_MID":"graphics/prv/ships/fighters/prv_xyphos_prv.png",
+			"mining_drone_PRV_HIGH":"graphics/prv/ships/fighters/prv_mining_drone_prv.png",
+			"mining_drone_PRV_MID":"graphics/prv/ships/fighters/prv_mining_drone_prv.png",
+		},
+		
+		# Unless listed in fighterSkinsExcludeFromSharing, fighter skins may show up on
+		# ships of other tech types that do not have a fighter skin defined specifically for them.
+		# In that case, the closest average-color matching scheme is used.
+		"fighterSkinsExcludeFromSharing":{
+		},
+	
+		"blueprint_packages":{
+			"prv_stjarngard_package":"graphics/prv/icons/cargo/prv_stjarngard_bp.png",
+			"prv_hel_package":"graphics/prv/icons/cargo/prv_hel_bp.png",
+			"prv_kratul_package":"graphics/prv/icons/cargo/prv_kratul_bp.png",
+			"prv_midline_package":"graphics/prv/icons/cargo/prv_export_bp.png",
+			"prv_aux_package":"graphics/prv/icons/cargo/prv_aux_bp.png",
+			"prv_lp_package":"graphics/prv/icons/cargo/prv_lp_bp.png",
+		},
+		"status":{
+			"prv_swarm_host": "graphics/prv/icons/status/prv_swarm_host.png",
+			"prv_flickercore_status":"graphics/prv/icons/hullsys/prv_flickercore.png",
+			"prv_timefreeze_status":"graphics/prv/icons/hullsys/prv_timefreeze.png",
+		},
+		"planets":{
+			#"prv_utbo":"graphics/prv/planets/planet_utbo.png",
+			"prv_strand":"graphics/prv/planets/prv_planet_strand.png",
+		},
+		"fx":{
+			"prv_app":"graphics/fx/particlealpha64sq.png",
+			#"prv_tcore":"graphics/prv/fx/prv_tcore.png",
+			"prv_beam_ljungeld_core":"graphics/prv/fx/prv_beam_ljungeld_core.png",
+			"prv_beam_ljungeld_fringe":"graphics/prv/fx/prv_beam_ljungeld_fringe.png",
+			#"prv_diamond_beam_core_cut":"graphics/prv/fx/prv_diamond_beam_core_cut.png",
+			"prv_overlay_indicator_circle":"graphics/prv/fx/prv_overlay_indicator_circle.png",
+			"prv_overlay_spatterfire":"graphics/prv/fx/prv_overlay_spatterfire.png",
+			"prv_overlay_spatterfire_border":"graphics/prv/fx/prv_overlay_spatterfire_border.png",
+			"prv_overlay_diszone":"graphics/prv/fx/prv_overlay_diszone.png",
+			"prv_overlay_rift":"graphics/prv/fx/prv_overlay_rift.png",
+		},
+		"illustrations":{
+			"prv_strand_embassy":"graphics/illustrations/corporate_lobby.jpg",
+		},
+	},	
+}

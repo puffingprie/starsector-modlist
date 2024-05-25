@@ -1,0 +1,239 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+#内置船插,,,,,,,,,,,,,,,,,,,
+加强炮塔装甲,goat_armoredweapons,,,羊头航务局,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_ArmoredWeapons,"老旧的设计也有可靠之处，沉重的炮塔装甲的的确确的提高了炮塔强度。
+
+提升 %s 的炮塔装甲",加强武器装甲,,graphics/hullmods/armored_weapon_emplacements.png
+复合驱动力场稳定器,goat_drive_field_stabilizer,,,羊头航务局,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_DriveFieldStabilizer,"采用更加繁复的U形稳定器来保持舰队航行时的驱动泡呈稳定，将提高 %s 的舰队最高航速。多个稳定器的效果可以累加。
+
+但提高 %s 被侦测范围。",降低整支舰队的燃料消耗。,,graphics/goat/hullmods/goat_drive_field_stabilizer.png
+被隐藏的驱动力场稳定器,goat_drive_field,,,羊头航务局,,,,FALSE,TRUE,TRUE,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DriveFieldStabilizer,"保持舰队航行时的驱动泡呈稳定，将提高 %s 的舰队最高航速。多个稳定器的效果可以累加。
+
+但提高 %s 被侦测范围。",降低整支舰队的燃料消耗。,,graphics/goat/hullmods/goat_drive_field_stabilizer.png
+羊头护盾,goat_hullstyle,,,羊头航务局,,,,FALSE,TRUE,TRUE,0,0,0,0,data.hullmods.goat_HullStyle,,降低整支舰队的燃料消耗。,,graphics/hullmods/augmented_drive_field.png
+萨克斯顿护盾,goat_hullstyle_sax,,,萨克斯顿,,,,FALSE,TRUE,TRUE,0,0,0,0,data.hullmods.goat_HullStyleSax,,降低整支舰队的燃料消耗。,,graphics/hullmods/augmented_drive_field.png
+羊头涂装,goat_painting,,,羊头航务局,,,,FALSE,TRUE,,1,1,1,1,data.hullmods.goat_SolarShielding,"羊头厂的特殊涂装，结合了恒星防护镀层。这让它在自定义涂装的基础上可以降低{%s}日冕对战备值的影响力，对超空间内的风暴也有同样的作用。
+
+战斗时，减少{%s}舰船所受到的能量伤害。",降低日冕惩罚与所受能量武器的伤害。,,graphics/goat/hullmods/goat_painting.png
+潮汐位态,goat_state_tidal,,,萨克斯顿,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_StateTidal,"别出心裁的电网配送方案，将全新的能源分配方式带入船体能量管理领域。这种技术可以使反应堆的能量更加集中，从而使能量武器功率输出提高到空前的水平，使舰船战斗中更具优势。此分配方案更关注伤害方面的提升。
+
+能量武器 幅能产生 增加{%s}。
+能量武器 射程 增加{%s}。
+能量武器 伤害 增加{%s}。
+能量武器 装配点 增加{%s}。
+光束武器击中船体时，产生电弧。
+
+当峰值时间耗尽后，战备值 (CR) 衰减的速率提高 %s。",加强船体,,graphics/goat/hullmods/goat_state_tidal.png
+满月位态,goat_state_lunar,,,萨克斯顿,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_StateLunar,"别出心裁的电网配送方案，将全新的能源分配方式带入船体能量管理领域。这种技术可以使反应堆的能量更加集中，从而使能量武器功率输出提高到空前的水平，使舰船战斗中更具优势。此分配方案更关注射程方面的提升。
+
+能量武器 幅能产生 增加{%s}。
+能量武器 射程 增加{%s}。
+能量武器 伤害 增加{%s}。
+能量武器 装配点 增加{%s}。
+光束武器击中船体时，产生电弧。
+
+当峰值时间耗尽后，战备值 (CR) 衰减的速率提高 %s。",加强船体,,graphics/goat/hullmods/goat_state_lunar.png
+黑箱螺角,goat_dhelix,,,羊头航务局,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_Dhelix,"螺角装置是一种奇特的能量输出器，从被定义为竣工可使用的一瞬间，就开始疯狂的能量输出，不进行大规模拆解无法停止。工程师们无法对此现象进行解释，导致在投入运行时，它成为了一个运行模式十分蹩脚的黑箱装置。
+
+这种装置总倾向于升维，它不断的尝试提升自己的维度乃至与他相连的一切实体，而随即被内置的抑制器阻止。由于目前并没有工程师可以理解它的蓝图，所以它出现这种行为是否正常无法判断。
+
+它的行为但也不全是坏处，抬升维度倾向使得舰船船舱周围射线路径变得紊乱多变，更进一步的应用成功提升了舰船隐蔽性，被探测距离减少 %s。
+
+低于 %s 射程的大型武器射程增加 %s，但不超过 %s 。
+",提升船舱隐蔽性,,graphics/goat/hullmods/goat_dhelix.png
+并联流水线,goat_parallel_assembly_line,,,羊头航务局,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_ParallelAssemblyLine,"搭载了庞大的流水线，战时运行状态可以生产导弹。
+
+当至少{%s}个甲板搭载了战机数至少为{%s}的联队时，流水线被激活。
+
+流水线被激活时，每当累计起飞战机的数量达到本舰船所有甲板的总战机数 四倍 时，为所有导弹武器恢复所有弹药。",加速整备,,graphics/goat/hullmods/goat_parallel_assembly_line.png
+闪烁碎片,goat_parallel_assembly_line2,,,萨克斯顿,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_ParallelAssemblyLine2,"以极狭窄的船体搭载大量无人机的办法，就是将无人机作为船体结构填充在舰体中。
+
+每次起飞战机，都将损伤当前船体结构值的 %s 。",加速整备,,graphics/goat/hullmods/goat_parallel_assembly_line1.png
+内置弹仓,goat_missleracks,,,羊头航务局,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.ExpandedMissileRacks,"船体内部微导弹留出了大量空间，可以在不影响发射架的情况下存放更多的快装导弹。
+
+额外提高导弹武器 %s 备弹量。",提高导弹武器的备弹量。,,graphics/goat/hullmods/goat_missile_racks.png
+发射模式切换,goat_missile_switching,,,羊头航务局,,,,FALSE,TRUE,TRUE,0,0,0,0,data.hullmods.goat_MissileSwitching,,,,graphics/goat/hullmods/goat_missileswitching_h.png
+发射模式标记,goat_missile_switching_mark,,,羊头航务局,,,,FALSE,TRUE,TRUE,0,0,0,0,data.hullmods.goat_ZZZ,,,,graphics/goat/hullmods/goat_missileswitching_h.png
+发射模式 - LRM,goat_missile_switching_h,,,羊头航务局,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_MissileSwitchingH,解除 LRM 使用限制,切换导弹,,graphics/goat/hullmods/goat_missileswitching_h.png
+发射模式 - MRM,goat_missile_switching_k,,,羊头航务局,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_MissileSwitchingK,解除 MRM 使用限制,切换导弹,,graphics/goat/hullmods/goat_missileswitching_k.png
+维度塔,goat_dimension_tower_t,,,羊头航务局,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_DimensionTower,"对于螺角的另外一种应用，即关注其升维特性。构筑维度塔，带动整条船开始维度震颤。以支持各类涉及维度切换的操作。
+
+这种震颤导致舰船隐蔽性提高。
+
+被探测距离减少 %s。",提升船舱隐蔽性,,graphics/goat/hullmods/goat_dimension_tower.png
+,,,,,,,,,,,,,,,,,,,
+#正常船插,,,,,,,,,,,,,,,,,,,
+轴差护盾,goat_oscillating,,,羊头航务局,"shields, defensive, merc",护盾,2000,,,,8,15,25,35,data.hullmods.goat_Oscillating,"使护盾系统并网时轴寄存器，在护盾承受冲击时可采取时间震颤措施缓解力度，维持稳定性。但冲击力度越大，缓解程度越不明显。与此同时，大量的时轴变更导致的时间空泡将产生剧烈的热电弧，它们将锁定最近的寄存器进行释放。
+
+#根据伤害大小降低护盾所受到的伤害.
+#对于超出 %s 的伤害，减伤效果将低于 %s 。
+#对于超出 %s 的伤害，减伤效果将低于 %s 。
+#对于超出 %s 的伤害，减伤效果将低于 %s 。
+
+#对于光束伤害，固定降低 %s 。
+
+#对于降低的总伤害，将转化为 %s 能量 %s EMP的电弧击打自身。",加强护盾,额外降低舰船护盾 %s 的转向速度以及 %s 的展开速度。,graphics/goat/hullmods/goat_oscillating.png
+加压模块,goat_auxiliarythrusters,1,,羊头航务局,"engines, merc",引擎,5000,,,,5,10,15,25,data.hullmods.goat_AuxiliaryThrusters,"为引擎组加装增压推流模组，加强矢量变化能力的同时，极大提升了引擎正向出力。加压器的大量余热产生导致引擎不得不减少装甲保护以保证散热稳定。有趣的是，当与船机系统协调时，加压器在强制排散时可以大放光彩。
+
+#根据舰船级别，提高 %s/%s/%s/%s 的最高航速。
+
+#增加舰船 %s 机动性，如加速度/减速度/转向加速/转向角速。
+
+#降低 %s 在战斗中修复受损发动机的时间。",提高舰船的航速。,"额外提高 %s 强制排幅的速率。 
+
+在强制排幅时，根据船体大小额外提高 %s/%s/%s/%s 的最高航速",graphics/goat/hullmods/goat_auxiliarythrusters.png
+时轴系统,goat_pointdefense,,,羊头航务局,"offensive, merc",武器,3000,,,,4,8,12,20,data.hullmods.goat_PointDefense,"一种针对武器的优化方案，进行了时流整合的武器槽位的修复模型被保存到时轴寄存器内，每次修复时进行时间读取，进而甚至可以连带周围的船体结构也一同复原。但缺憾是当前的舰队工程师不能解决寄存器存储反常丢失的问题，因而须保持寄存器持续使用，否则需要大量时间重新录入。
+
+#当一武器成功修复后，同时修复 %s/%s/%s 的船体结构。
+
+#提升 所有 武器 %s 的后坐力。
+
+#在上一次武器修复后 %s 秒内没有武器被修复，则本次战斗无法再修复船体结构。",修复船体,修复额度增加 %s ,graphics/goat/hullmods/goat_pointdefense.png
+环路超载,goat_overloadcircuit,1,,羊头航务局,"offensive, merc",武器,6500,,,,3,6,9,15,data.hullmods.goat_OverloadCircuit,"此插件让武器能量回路全部并入主电网并与其时轴同步，这让武器在电网出现电涌后进行时间下载时被同步下载而不被回溯，由此，武器整体时轴将出现褶皱，可观测表现为出现短暂的时流抬升，输出火力大幅度提高。
+
+#当一武器成功修复后，此武器射速提升 %s ，持续 %s 秒。
+
+#降低 %s 在战斗中修复受损武器的时间。",减少维修时间,减少 %s 的武器耐久度,graphics/goat/hullmods/goat_overloadcircuit.png
+,,,,,,,,,,,,,,,,,,,
+#设定补充船插,,,,,,,,,,,,,,,,,,,
+环形应力分散组,goat_stress_dispersion,,,羊头航务局,,,,FALSE,TRUE,,1,1,1,1,data.hullmods.goat_StressDispersion,"特别装配的环化应力对抗装置，使舰船高速转向时不会导致舰船结构应力过激，防止舰船可能发生的断裂现象。
+
+同时，应力组也可以主动激发，反向用引擎平衡其产生的场，使得舰船加减速更快更顺滑的同时，提高舰船周身隐蔽场强度。
+
+被探测距离减少 %s。",加强船体强度,,graphics/goat/hullmods/goat_stress_dispersion.png
+超标船舱,goat_increased_maintenance,,,羊头航务局,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_IncreasedMaintenance,"由于过于拥挤的船舱设计，每月维护消耗的补给提高 %s，并降低 %s 战备值 (CR) 上限。
+
+但值得注意点是，即使设计如此繁复但依旧为贪得无厌的舰长预留了改装空间。
+
+但部署所需补给下降 %s。",提高维护成本，并降低战备值 (CR) 上限。,,graphics/goat/hullmods/goat_increased_maintenance.png
+风弦动态贴图,goat_stringwind_dynamic_sprite,,,羊头航务局,,,,FALSE,TRUE,TRUE,0,0,0,0,data.hullmods.goat_StringwindDynamicSprite,,,,
+紧凑甲板,goat_compact_cabin,,,羊头航务局,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_CompactCabin,"由于设计结构过于紧凑，进行甲板改装时不得不压缩甲板整备空间。
+
+提高 %s 战机损失时整备下降速率，降低 %s 整备恢复速率。
+",限制改装甲板,,graphics/goat/hullmods/goat_compact_cabin.png
+仿制维度塔,goat_dimension_tower,,,羊头航务局,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_DimensionTower,"对于螺角的另外一种应用，即关注其升维特性。构筑维度塔，带动整条船开始维度震颤。以支持各类涉及维度切换的操作。但由于原版维度塔的建造方式并无蓝图，只能安装简化版本。
+
+
+这种震颤导致舰船隐蔽性提高。
+被探测距离减少 %s。",提升船舱隐蔽性,,graphics/goat/hullmods/goat_dimension_tower.png
+时间扰乱,goat_time_mix,,,羊头航务局,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_TimeMix,"非导弹武器射程被扰乱为 %s 。
+
+并且提高武器散射。",调整武器射程,,graphics/goat/hullmods/goat_time_mix.png
+集成智能舰桥,goat_automated,,,新芽船坞,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.DelicateMachinery,"高度集成的智能管理极大降低了舰船人员需求，但由于现行法规对AI算量的限制，冗杂的舰桥智能模块同时导致了船只系统需要巨量维护，且无法长期在战斗下维持良好运转。
+
+当峰值时间耗尽后，战备值 (CR) 衰减的速率提高 %s。",提高维护成本,,graphics/goat/hullmods/goat_automated.png
+导流动力单元,goat_auxiliarythrusters1,1,,羊头航务局,,,,FALSE,TRUE,,5,10,15,25,data.hullmods.goat_AuxiliaryThrusters1,"采用气尖模型的导流动力单元，与舰体的高度整合让他能在保持优秀推力的同时极大幅度增加可靠性。
+
+增加 %s 舰船发动机的耐久。
+",提高舰船的航速。,降低 %s 在战斗中修复受损发动机的时间。,graphics/goat/hullmods/goat_auxiliarythrusters1.png
+高兼容舰体模型,goat_sword,,,羊头航务局,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.goat_Sword,"出厂是针对性优化的舰体构成，为深度改装预留了大量空间。由此使得部分改装方案获得更好的效果。
+
+此型号的战舰在安装 改装甲板 时，可额外获得 %s 个甲板。
+此型号的战舰在安装 拓展发射架 时，可额外获得 %s 的备弹量提升。",舰体设计,,graphics/goat/hullmods/goat_sword.png
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,

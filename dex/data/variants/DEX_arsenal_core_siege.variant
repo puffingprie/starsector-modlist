@@ -1,0 +1,70 @@
+{
+  "variantId": "DEX_arsenal_core_siege",
+  "hullId": "DEX_arsenal_core",
+  "displayName": "Siege",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 18,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "flak",
+        "WS0017": "flak",
+        "WS0021": "lightdualmg",
+        "WS0024": "flak",
+        "WS0025": "flak",
+        "WS0026": "dualflak",
+        "WS0027": "dualflak",
+        "WS0028": "dualflak",
+        "WS0029": "dualflak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "lightdualmg",
+        "WS0019": "lightdualmg",
+        "WS0020": "lightdualmg",
+        "WS0022": "vulcan",
+        "WS0023": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [
+    {
+      "WS0003": "DEX_arsenal_R_siege"
+    },
+    {
+      "WS0002": "DEX_arsenal_L_siege"
+    }
+  ],
+  "wings": [
+    "DEX_legionary_wing",
+    "DEX_legionary_wing",
+    "DEX_skystar_wing",
+    "DEX_thunderstrike_wing",
+    "DEX_trojan_wing",
+    "DEX_guardsman_wing"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "goat_pathogenic_wind",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_pathogenic_wind_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "phasecl"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "all_goat_implement"}
+        }
+    ],
+    "wings": []
+}

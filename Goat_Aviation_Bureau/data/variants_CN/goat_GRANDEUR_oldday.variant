@@ -1,0 +1,29 @@
+{
+    "displayName": "往日",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "hullId": "goat_GRANDEUR",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "goat_oscillating"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_GRANDEUR_oldday",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "all_goat_invasion",
+                "WS0002": "all_goat_invasion",
+                "WS0004": "all_goat_invasion"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "pdburst"}
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/nes_Chalco VI.png", #the belovedst one
+						],
+	},
+	
+	# multiplier for how often hulls show up in the faction's fleets
+    "hullFrequency":{
+        "hulls":{
+			"nes_hammerfall":0.2, #rare
+			#"nes_hermitaur":0.25,
+        },
+    },
+	
+	"knownShips":{
+        "hulls":[
+			"nes_hamter",
+			#"nes_hermitaur", #no, LC
+			"nes_hammerfall",
+        ],
+    },
+},			

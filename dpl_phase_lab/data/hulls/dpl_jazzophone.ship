@@ -1,0 +1,176 @@
+{
+  "hullName": "Jazzophone",
+  "hullId": "dpl_jazzophone",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/dpl_jazzophone.png",
+  "style": "HIGH_TECH",
+  "height": 368,
+  "width": 150,
+  "center": [75, 176],
+  "collisionRadius": 300,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 287.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hardened_subsystems",
+    "targetingunit"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 015",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 260,
+      "locations": [-88, -41]
+    },
+    {
+      "id": "WS 016",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 100,
+      "locations": [-88, 41]
+    },
+    {
+      "id": "WS 017",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 170,
+      "locations": [-122, 35]
+    },
+    {
+      "id": "WS 018",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 190,
+      "locations": [-122, -35]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-64, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-12, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [100, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [152, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-173.5, 23],
+      "length": 90,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-174, 11],
+      "length": 110,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-174, -0],
+      "length": 70,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-174, -11],
+      "length": 110,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-174, -23],
+      "length": 90,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-166, -40],
+      "length": 90,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-166, 40],
+      "length": 90,
+      "width": 22,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    193.5, -6.5,
+    166, -33,
+    108.5, -49,
+    39.5, -50,
+    -16, -34.5,
+    -48, -50,
+    -112.5, -50,
+    -115.5, -67,
+    -132, -76,
+    -177.5, -54.5,
+    -166.5, -42,
+    -172.5, -32,
+    -172.5, 32,
+    -166.5, 42,
+    -177.5, 54.5,
+    -132, 76,
+    -115.5, 67,
+    -112.5, 50,
+    -48, 50,
+    -16, 34.5,
+    39.5, 50,
+    108.5, 49,
+    166, 33,
+    193.5, 6.5
+  ]
+}

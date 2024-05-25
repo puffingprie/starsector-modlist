@@ -1,0 +1,43 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 18,
+    "fluxVents": 22,
+    "goalVariant": true,
+    "hullId": "FM_Miracle",
+    "hullMods": [
+        "FantasyBorderMod",
+        "converted_hangar",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Miracle_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "hil"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Seal",
+                "WS0002": "FM_Seal",
+                "WS0003": "FM_Seal",
+                "WS0004": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "mininglaser",
+                "WS0007": "mininglaser",
+                "WS0008": "mininglaser",
+                "WS0009": "mininglaser"
+            }
+        }
+    ],
+    "wings": ["broadsword_wing"]
+}

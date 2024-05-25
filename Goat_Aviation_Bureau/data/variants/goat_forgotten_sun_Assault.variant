@@ -1,0 +1,38 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "goat_forgotten_sun",
+    "hullMods": [
+        "targetingunit",
+        "heavyarmor"
+    ],
+    "modules": [{"WS0002": "goat_forgotten_sun_a_variant"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_forgotten_sun_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "all_goat_dash",
+                "WS0010": "all_goat_dash"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "devastator"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "vulcan",
+                "WS0003": "vulcan"
+            }
+        }
+    ]
+}

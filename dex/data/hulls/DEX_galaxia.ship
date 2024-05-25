@@ -1,0 +1,114 @@
+{
+  "hullName": "Galaxia",
+  "hullId": "DEX_galaxia",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/DEX_galaxia.png",
+  "style": "LOW_TECH",
+  "height": 507,
+  "width": 328,
+  "center": [164.5, 229.5],
+  "collisionRadius": 352,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 309.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vast_hangar",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [10, 111]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [10, -107]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-228, -36.5],
+      "length": 116,
+      "width": 50,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-228, 37.5],
+      "length": 116,
+      "width": 50,
+      "angle": -180,
+      "contrailSize": 50,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-226, -102.5],
+      "length": 136.5,
+      "width": 31,
+      "angle": 180,
+      "contrailSize": 31,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-226, 103.5],
+      "length": 136.5,
+      "width": 31,
+      "angle": -180,
+      "contrailSize": 31,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-225.5, -65],
+      "length": 131,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-225.5, 66],
+      "length": 131,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    273.5, 44.5,
+    241, 70,
+    248.5, 94,
+    242, 103.5,
+    230, 79.5,
+    200, 93,
+    201, 112,
+    78.5, 162,
+    32.5, 102.5,
+    -50, 105,
+    -90, 167.5,
+    -226, 120,
+    -226, -119,
+    -90, -166.5,
+    -50, -104,
+    32.5, -101.5,
+    78.5, -161,
+    201, -111,
+    200, -92,
+    230, -78.5,
+    242, -102.5,
+    248.5, -93,
+    241, -69,
+    273.5, -43.5
+  ]
+}

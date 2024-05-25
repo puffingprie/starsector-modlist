@@ -1,0 +1,275 @@
+{
+  "hullName": "AI_ship_s",
+  "hullId": "goat_AI_ship_s",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/goat/ships/ban/AI_ship_s.png",
+  "style": "GOAT_TECH_blue",
+  "height": 208,
+  "width": 238,
+  "center": [119, 82.5],
+  "collisionRadius": 196.5,
+  "shieldCenter": [1.5, -0],
+  "shieldRadius": 178,
+  "viewOffset": 0,
+  "builtInMods": [
+    "goat_hullstyle",
+    "goat_automated"
+  ],
+  "builtInWings": [
+    "lpc_goat_lick_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "blinker_goat_green",
+    "WS0002": "blinker_goat_green",
+    "WS0003": "blinker_goat_white",
+    "WS0004": "blinker_goat_white",
+    "WS0006": "blinker_goat_white",
+    "WS0007": "blinker_goat_white",
+    "WS0008": "blinker_goat_white_fast",
+    "WS0009": "blinker_goat_white_fast",
+    "WS0010": "blinker_goat_white_fast",
+    "WS0011": "blinker_goat_white_fast"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": 0,
+      "locations": [75, 37]
+    },
+    {
+      "id": "WS0020",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -0,
+      "locations": [75, -37]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": 0,
+      "locations": [15, 100.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -0,
+      "locations": [15, -100.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -77,
+      "locations": [-3.5, 106.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": 77,
+      "locations": [-3.5, -106.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": 0,
+      "locations": [32, 84]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -0,
+      "locations": [32, -84]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": 0,
+      "locations": [-28.5, 102.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -0,
+      "locations": [-28.5, -102.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": 0,
+      "locations": [126, 19.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -0,
+      "locations": [126, -19.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23.5, 69.5],
+      "length": 42.925774,
+      "width": 14.405237,
+      "angle": 168.5,
+      "contrailSize": 14.405237,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-23.5, -69.5],
+      "length": 42.925774,
+      "width": 14.405237,
+      "angle": -168.5,
+      "contrailSize": 14.405237,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-40, 38],
+      "length": 53.217064,
+      "width": 12.521003,
+      "angle": 176.5,
+      "contrailSize": 12.521003,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-40, -38],
+      "length": 53.217064,
+      "width": 12.521003,
+      "angle": -176.5,
+      "contrailSize": 12.521003,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-34, 43.5],
+      "length": 37.291931,
+      "width": 11.757889,
+      "angle": 171,
+      "contrailSize": 11.757889,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-34, -43.5],
+      "length": 37.291931,
+      "width": 11.757889,
+      "angle": -171,
+      "contrailSize": 11.757889,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-40, 32],
+      "length": 37.291931,
+      "width": 11.757889,
+      "angle": -177,
+      "contrailSize": 11.757889,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-40, -32],
+      "length": 37.291931,
+      "width": 11.757889,
+      "angle": 177,
+      "contrailSize": 11.757889,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-23, 65],
+      "length": 37.291931,
+      "width": 11.757889,
+      "angle": 176.5,
+      "contrailSize": 11.757889,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-23, -65],
+      "length": 37.291931,
+      "width": 11.757889,
+      "angle": -176.5,
+      "contrailSize": 11.757889,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16, 73.5],
+      "length": 37.291931,
+      "width": 11.757889,
+      "angle": 158.5,
+      "contrailSize": 11.757889,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16, -73.5],
+      "length": 37.291931,
+      "width": 11.757889,
+      "angle": -158.5,
+      "contrailSize": 11.757889,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -72, -8,
+    -41, -23.5,
+    -55, -31.5,
+    -33, -80,
+    -14, -87,
+    -25, -106,
+    -5, -115,
+    35, -63,
+    96, -50.5,
+    96, -24,
+    74, -19,
+    71, -33.5,
+    48.5, -49,
+    27.5, -43,
+    42, -16,
+    55.5, -3,
+    55.5, 3,
+    42, 16,
+    27.5, 43,
+    48.5, 49,
+    71, 33.5,
+    74, 19,
+    96, 24,
+    96, 50.5,
+    35, 63,
+    -5, 115,
+    -25, 106,
+    -14, 87,
+    -33, 80,
+    -55, 31.5,
+    -41, 23.5,
+    -72, 8
+  ]
+}

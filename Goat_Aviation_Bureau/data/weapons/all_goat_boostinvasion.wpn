@@ -1,0 +1,55 @@
+{
+  "id": "all_goat_boostinvasion",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/goat/weapons/energy/goat_invasion/goat_boostinvasionlook.png",
+  "turretGlowSprite": "graphics/goat/weapons/energy/goat_invasion/goat_boostinvasion_glow.png",
+  "turretUnderSprite": "graphics/goat/weapons/energy/goat_invasion/goat_invasion_base.png",
+  "hardpointSprite": "graphics/goat/weapons/energy/goat_invasion/goat_boostinvasion.png",
+  "hardpointGlowSprite": "graphics/goat/weapons/energy/goat_invasion/goat_boostinvasion_glow.png",
+  "hardpointUnderSprite": "graphics/goat/weapons/energy/goat_invasion/goat_invasion_base.png",
+  "glowColor": [
+    119,
+    98,
+    157,
+    210
+  ],
+  "hitGlowRadius": 90,
+  "turretOffsets": [
+    -5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    252,
+    68,
+    51,
+    125
+  ],
+  "coreColor": [
+    73,
+    78,
+    32,
+    255
+  ],
+  "width": 65,
+  "textureType": [
+    "graphics/goat/fx/goatbeamfringec_invasion.png",
+    "graphics/goat/fx/goatbeamfringec_invasion1.png"
+  ],
+  "textureScrollSpeed": 606,
+  "pixelsPerTexel": 1,
+  "fireSoundOne": "laser_intro"
+}

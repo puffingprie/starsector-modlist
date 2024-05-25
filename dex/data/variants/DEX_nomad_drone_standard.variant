@@ -1,0 +1,29 @@
+{
+  "variantId": "DEX_nomad_drone_standard",
+  "hullId": "DEX_nomad_drone",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

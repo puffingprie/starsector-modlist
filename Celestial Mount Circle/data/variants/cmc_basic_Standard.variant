@@ -1,0 +1,31 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 3,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "cmc_basic",
+    "hullMods": [
+        "reinforcedhull",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "cmc_basic_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "cmc_oip"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "gorgon",
+                "WS0003": "gorgon",
+                "WS0004": "gorgon"
+            }
+        }
+    ],
+    "wings": []
+}

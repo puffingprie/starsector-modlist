@@ -1,0 +1,60 @@
+{
+  "variantId": "DEX_trepart_chaotic",
+  "hullId": "DEX_trepart",
+  "displayName": "Mutant",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0002": "heavyac",
+        "WS0004": "heavyac",
+        "WS0005": "hellbore",
+        "WS0006": "heavymortar",
+        "WS0008": "lightmg",
+        "WS0009": "dualflak",
+        "WS0012": "devastator",
+        "WS0013": "lightmg",
+        "WS0017": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "locust",
+        "WS0014": "sabotpod",
+        "WS0015": "breachpod",
+        "WS0016": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

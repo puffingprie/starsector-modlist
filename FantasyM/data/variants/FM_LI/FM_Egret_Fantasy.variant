@@ -1,0 +1,44 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 3,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Egret",
+    "hullMods": [
+        "missleracks",
+        "eccm"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Egret_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "dragon"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "gorgon",
+                "WS0003": "gorgon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "mininglaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "mininglaser"}
+        }
+    ],
+    "wings": [
+        "dagger_wing",
+        "dagger_wing",
+        "longbow_wing"
+    ]
+}

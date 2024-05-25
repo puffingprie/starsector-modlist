@@ -1,0 +1,39 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 18,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "FM_Konpaku",
+    "hullMods": [
+        "magazines",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Konpaku_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Seal",
+                "WS0002": "FM_Seal",
+                "WS0005": "FM_Seal",
+                "WS0006": "FM_Seal",
+                "WS0009": "FM_Seal"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "mininglaser",
+                "WS0004": "mininglaser",
+                "WS0007": "mininglaser",
+                "WS0008": "mininglaser",
+                "WS0010": "mininglaser"
+            }
+        }
+    ],
+    "wings": []
+}

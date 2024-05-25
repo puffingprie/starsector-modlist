@@ -1,0 +1,180 @@
+{
+  "hullName": "Berserker M2",
+  "hullId": "DEX_berserker2",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/DEX_berserkerM2.png",
+  "style": "LOW_TECH",
+  "height": 150,
+  "width": 145,
+  "center": [81, 75],
+  "collisionRadius": 107.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 98.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "hbi",
+    "rugged",
+    "do_not_back_off"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [42, 36]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [50, 12]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [65, -2]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [67, -36]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [73, -18]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [73, -52]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 35,
+      "angle": 0,
+      "locations": [39, 58]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 35,
+      "angle": 0,
+      "locations": [39, 72]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 203,
+      "angle": 90,
+      "locations": [-11, 64]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 90,
+      "locations": [-3, -8]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 119,
+      "angle": 0,
+      "locations": [-6, -30]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-74, -1],
+      "length": 74.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-73.5, -22],
+      "length": 74.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-74, -42.5],
+      "length": 74.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-75, 22.5],
+      "length": 95.5,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-67, 53.5],
+      "length": 89,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -57.5, -59,
+    -76, -51,
+    -76, 32.5,
+    -56.5, 41.5,
+    -68.5, 43.5,
+    -68.5, 65,
+    -24.5, 67.5,
+    -5, 80,
+    38.5, 81.5,
+    42, 55,
+    53.5, 53,
+    57.5, 8.5,
+    73.5, 7,
+    77, -58.5,
+    56, -63.5
+  ]
+}

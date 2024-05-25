@@ -1,0 +1,145 @@
+{
+  "hullName": "Dragontooth",
+  "hullId": "DEX_supersade",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/DEX_supersade.png",
+  "style": "LOW_TECH",
+  "height": 139,
+  "width": 96,
+  "center": [51, 68],
+  "collisionRadius": 83,
+  "shieldCenter": [0.5, -0],
+  "shieldRadius": 77,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 45,
+      "locations": [16.5, 18.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 65,
+      "angle": -90,
+      "locations": [16, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [62, 25]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -0,
+      "locations": [62, -19]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -0,
+      "locations": [62, -5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [62, 11]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": -90,
+      "locations": [-26, -25]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": 90,
+      "locations": [-7, 35]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        47, -14,
+        47, -22
+      ]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": 90,
+      "locations": [-22, 35]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-66.5, -17.5],
+      "length": 80,
+      "width": 34,
+      "angle": 180,
+      "contrailSize": 34,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-66.5, 23.5],
+      "length": 80,
+      "width": 34,
+      "angle": -180,
+      "contrailSize": 34,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-66.5, 3],
+      "length": 80,
+      "width": 34,
+      "angle": 180,
+      "contrailSize": 34,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -67.5, -29,
+    -67.5, 34.5,
+    56, 34,
+    56, -29
+  ]
+}

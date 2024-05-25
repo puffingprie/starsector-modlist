@@ -1,0 +1,10 @@
+name,id,tags,tech/manufacturer,rarity,base price,stack size,cargo space,baseRaidDanger,icon,sound id,sound id drop,plugin,plugin params,desc,order
+,,,,,,,,,,,,,,,
+GAB发行舰船包,goat_openbp,package_bp,,,60000,1000,1,,graphics/goat/icons/cargo/blueprint_GOAT.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,goat_openbp,使重工业设施能够制造 星区发行的航务局舰船和战机LPC,142
+GAB核心舰船包,goat_bp,package_bp,,,220000,1000,1,,graphics/goat/icons/cargo/blueprint_GOAT.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,goat_bp,使重工业设施能够制造 航务局核心舰船和战机LPC,46978
+,,,,,,,,,,,,,,,
+GAB发行武器套装,goat_openbp_w,package_bp,,,45000,1000,1,,graphics/goat/icons/cargo/blueprint_GOAT.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,goat_openbp_w,使重工业设施能够制造 星区发行的航务局武器,32786
+GAB核心武器套装,goat_bp_w,package_bp,,,160000,1000,1,,graphics/goat/icons/cargo/blueprint_GOAT.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,goat_bp_w,使重工业设施能够制造 航务局核心武器,54345
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,

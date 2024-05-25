@@ -1,0 +1,172 @@
+{
+  "hullName": "Ilbud",
+  "hullId": "prv_ilbud",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/prv/ships/prv_ilbud.png",
+  "style": "PRV_MID",
+  "height": 92,
+  "width": 242,
+  "center": [121, 44.5],
+  "collisionRadius": 149,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 140.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "prv_volatiledrivecore",
+    "shielded_holds",
+    "phasefield",
+    "delicate"
+    #"high_maintenance"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -30,
+      "locations": [-2.5, -32]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [-2.5, 32]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -45,
+      "locations": [-1.5, -90]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 45,
+      "locations": [-1.5, 90]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 270,
+      "angle": 60,
+      "locations": [17.5, 71.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 270,
+      "angle": -60,
+      "locations": [17.5, -71.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 150,
+      "angle": 30,
+      "locations": [28.5, 33.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 150,
+      "angle": -30,
+      "locations": [28.5, -33.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [38, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27, 116.5],
+      "length": 26.380266,
+      "width": 14.32921,
+      "angle": 145,
+      "contrailSize": 14.32921,
+      "style": "PRV_MID"
+    },
+    {
+      "location": [-27, -116.5],
+      "length": 26.380266,
+      "width": 14.32921,
+      "angle": -145,
+      "contrailSize": 14.32921,
+      "style": "PRV_MID"
+    },
+    {
+      "location": [-32, -15.5],
+      "length": 23.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "PRV_MID"
+    },
+    {
+      "location": [-32, 15.5],
+      "length": 23.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "PRV_MID"
+    },
+    {
+      "location": [-32.5, 102.5],
+      "length": 60,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "PRV_MID"
+    },
+    {
+      "location": [-32.5, -102.5],
+      "length": 60,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "PRV_MID"
+    }
+  ],
+  "bounds": [
+    -42, -96,
+    -28.5, -96,
+    -28.5, -112,
+    -19.5, -119,
+    -1, -112,
+    21.5, -88,
+    15, -76.5,
+    38, -0,
+    15, 76.5,
+    21.5, 88,
+    -1, 112,
+    -19.5, 119,
+    -28.5, 112,
+    -28.5, 96,
+    -42, 96,
+    -34.5, -0
+  ]
+}

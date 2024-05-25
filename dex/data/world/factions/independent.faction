@@ -1,0 +1,25 @@
+{
+	id:"independent",	
+		"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+			"DEX_viaduct":0.1,
+			"DEX_evergreen":0.1,
+			"DEX_galaxia":0.1,
+		},
+	},
+	"knownShips":{
+		"hulls":[
+		#"DEX_pasture",
+		#"DEX_stockpile",
+		#"DEX_larder",
+		],
+	},
+	"knownFighters":{
+		"fighters":[
+		],
+	},
+	
+},
+

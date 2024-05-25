@@ -1,0 +1,64 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 50,
+    "fluxVents": 44,
+    "goalVariant": true,
+    "hullId": "astrum",
+    "hullMods": [
+        "targetingunit",
+        "defensive_targeting_array"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "astrum_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0014": "heavymininglaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0013": "mark10"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "gustmlrs"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0016": "atrops_pod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "xpulse",
+                "WS0002": "xpulse",
+                "WS0007": "xpulse",
+                "WS0008": "xpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pdlaser",
+                "WS0004": "pdlaser",
+                "WS0005": "pdlaser",
+                "WS0006": "pdlaser",
+                "WS0009": "pdburst",
+                "WS0010": "pdburst",
+                "WS0011": "heavyburst",
+                "WS0012": "heavyburst"
+            }
+        }
+    ],
+    "wings": [
+        "4m_pulse_wing",
+        "4m_pulse_wing",
+    ]
+}

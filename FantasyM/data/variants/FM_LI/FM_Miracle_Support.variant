@@ -1,0 +1,44 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 13,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "FM_Miracle",
+    "hullMods": [
+        "converted_hangar",
+        "FantasyBorderMod",
+        "targetingunit",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Miracle_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "FM_LunaticBow"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ionbeam",
+                "WS0002": "ionbeam",
+                "WS0003": "gravitonbeam",
+                "WS0004": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "mininglaser",
+                "WS0007": "mininglaser",
+                "WS0008": "mininglaser",
+                "WS0009": "mininglaser"
+            }
+        }
+    ],
+    "wings": ["sarissa_wing"]
+}

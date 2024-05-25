@@ -1,0 +1,13 @@
+{	
+	"knownShips":{
+		"tags":["prv_bp"],
+	},
+	"knownWeapons":{
+		"tags":["prv_bp"],
+	},
+	"hullFrequency":{
+		"tags":{
+			"prv_rb_bp":0.33,
+		},
+	},
+}

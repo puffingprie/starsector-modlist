@@ -1,0 +1,76 @@
+{
+  "displayName": "Attack",
+  "fluxCapacitors": 0,
+  "fluxVents": 24,
+  "goalVariant": true,
+  "hullId": "prv_hornfels_pather",
+  "hullMods": [
+    "magazines",
+    "heavyarmor",
+    "missleracks",
+    "shield_shunt"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 1,
+  "variantId": "prv_hornfels_pather_attack",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "jackhammer",
+        "WS0010": "jackhammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "swarmer",
+        "WS0013": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "shredder",
+        "WS0002": "shredder",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightdualac",
+        "WS0005r": "lightdualac",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "lightag",
+        "WS0012": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "vulcan"
+      }
+    }
+  ],
+  "wings": []
+}

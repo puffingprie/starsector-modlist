@@ -1,0 +1,147 @@
+{
+  "hullName": "Guardhouse",
+  "hullId": "DEX_guardhouse",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/DEX_guardhouse.png",
+  "style": "LOW_TECH",
+  "height": 170,
+  "width": 169,
+  "center": [83.5, 84.5],
+  "collisionRadius": 102.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 97.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "ecm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-53.5, -47.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 254,
+      "angle": 54.5,
+      "locations": [39.5, 61.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [60.5, -35.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [64.5, -51.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [64.5, -17.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        10, 6,
+        3, 10,
+        3, 18
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        9.5, 39.5,
+        10, 30.5,
+        6, 24.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-84, 24],
+      "length": 59,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-82.5, -0.5],
+      "length": 64,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-82, -21],
+      "length": 64,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-82.5, -42.5],
+      "length": 64,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-75.5, 54.5],
+      "length": 59,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -76, 65,
+    -85, 30.5,
+    -84.5, -52,
+    -59, -60.5,
+    58, -62.5,
+    69, -52.5,
+    69.5, -5,
+    90.5, -2.5,
+    58, 57,
+    30.5, 82,
+    -18.5, 82
+  ]
+}

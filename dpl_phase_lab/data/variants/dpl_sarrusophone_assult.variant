@@ -1,0 +1,43 @@
+{
+  "variantId": "dpl_sarrusophone_assult",
+  "hullId": "dpl_sarrusophone",
+  "displayName": "Assult",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "fluxcoil",
+    "fluxdistributor",
+    "stabilizedshieldemitter",
+    "dpl_energy_rangefinder"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "phasebeam",
+        "WS0004": "phasebeam",
+        "WS0005": "phasebeam",
+        "WS0006": "phasebeam",
+        "WS0007": "tachyonlance",
+        "WS0008": "tachyonlance",
+        "WS0009": "phasebeam",
+        "WS0010": "phasebeam",
+        "WS0023": "dpl_hymn"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "irpulse",
+        "WS0002": "irpulse"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,116 @@
+{
+  "hullName": "Battalier",
+  "hullId": "DEX_battalier",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/DEX_battalier.png",
+  "style": "LOW_TECH",
+  "height": 110,
+  "width": 151,
+  "center": [82.5, 46.5],
+  "collisionRadius": 93.5,
+  "shieldCenter": [0, 0.5],
+  "shieldRadius": 96.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -45,
+      "locations": [-4, 10]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [24.5, 39.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": 90,
+      "locations": [-10.5, 61.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -80.5,
+      "locations": [9.5, -59.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -80.5,
+      "locations": [-6.5, -64.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-43.5, 37],
+      "length": 80.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39.5, 11.5],
+      "length": 100,
+      "width": 33,
+      "angle": 180,
+      "contrailSize": 33,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44.5, -22],
+      "length": 100,
+      "width": 33,
+      "angle": 180,
+      "contrailSize": 33,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-45, -39.5],
+      "length": 88.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-45, -53.5],
+      "length": 88.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    40.5, -59,
+    64, 11.5,
+    40, 79.5,
+    -20, 68.5,
+    -45, 45.5,
+    -46, -60.5,
+    -36.5, -68
+  ]
+}

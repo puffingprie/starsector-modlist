@@ -1,0 +1,100 @@
+{
+  "hullName": "Terminal",
+  "hullId": "DEX_terminal",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/DEX_terminal.png",
+  "style": "LOW_TECH",
+  "height": 193,
+  "width": 192,
+  "center": [96, 96.5],
+  "collisionRadius": 434,
+  "shieldCenter": [-104.5, -2],
+  "shieldRadius": 536.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [14.5, 77]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [14.5, -77]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-93, 50],
+      "length": 95.5,
+      "width": 20,
+      "angle": 178.5,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-98, 30],
+      "length": 86.5,
+      "width": 33,
+      "angle": 180,
+      "contrailSize": 33,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-97, -41],
+      "length": 86.5,
+      "width": 33,
+      "angle": 180,
+      "contrailSize": 33,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-98, 6],
+      "length": 96.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-97.5, -16],
+      "length": 96.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-91.5, -61.5],
+      "length": 96.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    98, 29,
+    70.5, 80.5,
+    32, 97,
+    -76, 90.5,
+    -98.5, 58,
+    -98.5, -58,
+    -76, -90.5,
+    32, -97,
+    70.5, -80.5,
+    98, -29
+  ]
+}

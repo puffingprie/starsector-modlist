@@ -1,0 +1,76 @@
+{
+    "displayName": "Sparky",
+    "fluxCapacitors": 35,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "oddykoc",
+    "hullMods": [
+        "frontemitter",
+        "pointdefenseai"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "oddykoc_Sparky",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "mark10",
+                "WS 002": "mark10"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "hammerrack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "gravburst",
+                "WS 005": "gravburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "gravburst"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "xpulse",
+                "WS 008": "xpulse",
+                "WS 010": "xpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "xpulse",
+                "WS 016": "xpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "flicker_pdl",
+                "WS 011": "flicker_pdl",
+                "WS 012": "flicker_pdl",
+                "WS 013": "flicker_pdl",
+                "WS 014": "flicker_pdl",
+                "WS 017": "flicker_pdl",
+                "WS 018": "flicker_pdl"
+            }
+        }
+    ],
+    "wings": [
+        "4c_pulse_wing",
+        "4c_pulse_wing"
+    ]
+}

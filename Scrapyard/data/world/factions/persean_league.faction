@@ -1,0 +1,33 @@
+{
+	"names":{
+		"SA_NAMES":1,
+	},
+  "variantOverrides": {},
+  "hullFrequency": {
+    "hulls": {
+    "sa_anaktora":"0.2",}
+  },
+  "shipsWhenImporting": {
+    "hulls": []
+  },
+  "knownShips": {
+    "hulls":[ 
+    "sa_scalpel",
+    "sa_gorget",
+    "sa_elanus",
+    "sa_skua",
+    "sa_ingot",
+    "sa_anaktora",
+    ],
+  },
+  "priorityShips": {
+    "hulls": []
+  },
+	"knownWeapons":{
+		"tags":[],
+		"weapons":[
+			"sa_rhino",
+			"sa_loki",
+		],
+	},
+}

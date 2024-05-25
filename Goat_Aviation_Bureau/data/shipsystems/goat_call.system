@@ -1,0 +1,30 @@
+{
+	"id":"goat_call",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.goat_CallStats",
+	
+	"weaponGlowColor":[255, 120, 50 ,185],
+	"weaponTypes":[BALLISTIC],
+	
+	"useSound":"goat_call_active",
+	"loopSound":"goat_call_loop",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"jitterUnderColor":[250, 133, 214,115],
+	"jitterUnderCopies":3,
+	"jitterUnderMinRange":0.1,
+	"jitterUnderRange":0.1,
+	"jitterUnderRangeRadiusFraction":0.04,
+	
+	"jitterColor":[250, 133, 214,15],
+	"jitterCopies":1,
+	"jitterMinRange":0.1,
+	"jitterRange":0.5,
+	"jitterRangeRadiusFraction":0.02,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":4.95,
+	"soundFilterGainHF":0.1,
+}

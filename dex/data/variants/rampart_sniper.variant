@@ -1,0 +1,45 @@
+{
+  "variantId": "rampart_sniper",
+  "hullId": "rampart",
+  "displayName": "Fire Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "gauss",
+        "WS 001": "gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "hveldriver",
+        "WS 004": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

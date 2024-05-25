@@ -1,0 +1,111 @@
+{
+  "hullName": "Skral",
+  "hullId": "prv_skral",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/prv/ships/fighters/prv_skral.png",
+  "style": "PRV_MID",
+  "height": 56,
+  "width": 38,
+  "center": [19, 18],
+  "collisionRadius": 45,
+  "shieldCenter": [5, -0],
+  "shieldRadius": 36,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [4, 11.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [4, -11.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [2, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 270,
+      "angle": -180,
+      "locations": [-2.5, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, -11.5],
+      "length": 21,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "PRV_MID"
+    },
+    {
+      "location": [-14, 12.5],
+      "length": 21,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "PRV_MID"
+    },
+    {
+      "location": [-15, 3.5],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "PRV_MID"
+    },
+    {
+      "location": [-15, -2.5],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "PRV_MID"
+    },
+    {
+      "location": [-10.5, 15],
+      "length": 10,
+      "width": 5,
+      "angle": 155,
+      "contrailSize": 5,
+      "style": "PRV_MID"
+    },
+    {
+      "location": [-10.5, -14],
+      "length": 10,
+      "width": 5,
+      "angle": -155,
+      "contrailSize": 5,
+      "style": "PRV_MID"
+    }
+  ],
+  "bounds": [
+    -1, -18,
+    12, -6,
+    37, 0,
+    12, 6,
+    -1, 18,
+    -15, 8,
+    -15, -8
+  ]
+}

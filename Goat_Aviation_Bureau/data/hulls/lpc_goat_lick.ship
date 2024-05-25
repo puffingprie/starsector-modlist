@@ -1,0 +1,68 @@
+{
+  "hullName": "lpc_goat_lick",
+  "hullId": "lpc_goat_lick",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/goat/ships/A_LPC/lpc_goat_lick.png",
+  "style": "GOAT_TECH",
+  "height": 28,
+  "width": 16,
+  "center": [8, 12],
+  "collisionRadius": 18.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 17,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 0,
+      "locations": [10, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 212,
+      "angle": 90,
+      "locations": [3.5, 5.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 212,
+      "angle": -90,
+      "locations": [3.5, -5.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11.5, -0],
+      "length": 33,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 130,
+      "style": "GOAT_TECH_crystal"
+    },
+    {
+      "location": [-9.5, 0],
+      "length": 2,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "GOAT_TECH_light_LPC"
+    }
+  ],
+  "bounds": [
+    -12, 3.5,
+    -12, -4.5,
+    -5, -7.5,
+    15.5, -3,
+    -2, 7.5
+  ]
+}

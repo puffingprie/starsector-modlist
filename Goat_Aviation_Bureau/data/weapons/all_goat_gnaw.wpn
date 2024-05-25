@@ -1,0 +1,48 @@
+{
+  "id": "all_goat_gnaw",
+  "specClass": "projectile",
+  "projectileSpecId": "goat_gnaw_fire",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "mountTypeOverride":"HYBRID",
+  "everyFrameEffect": "data.scripts.weapons.goat_GnawDecoEffect",
+  "turretSprite": "graphics/goat/weapons/ballistic/goat_gnaw/goat_gnaw_turret_00.png",
+  "hardpointSprite": "graphics/goat/weapons/ballistic/goat_gnaw/goat_gnaw_turret_00.png",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    14,
+    0,
+  ],
+  "turretAngleOffsets": [
+    0,
+  ],
+  "hardpointOffsets": [
+    20.5,
+    0,
+  ],
+  "hardpointAngleOffsets": [
+    0,
+  ],
+  "barrelMode": "LINKED",
+  "autocharge": "true",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 5,
+  "frameRate": 0,
+  "muzzleFlashSpec": {
+    "length": 25,
+    "spread": 42,
+    "particleSizeMin": 6,
+    "particleSizeRange": 10,
+    "particleDuration": 0.25,
+    "particleCount": 20,
+    "particleColor": [
+      190,
+      137,
+      220,
+      255
+    ]
+  },
+  "fireSoundTwo": "all_goat_gnaw_fire1"
+}

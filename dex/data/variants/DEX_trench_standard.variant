@@ -1,0 +1,49 @@
+{
+  "variantId": "DEX_trench_standard",
+  "hullId": "DEX_trench",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "annihilatorpod",
+        "WS0003": "annihilatorpod",
+        "WS0004": "annihilatorpod",
+        "WS0005": "flak",
+        "WS0006": "mark9",
+        "WS0007": "heavyac",
+        "WS0008": "lightmg",
+        "WS0009": "swarmer_fighter",
+        "WS0010": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

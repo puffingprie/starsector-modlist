@@ -1,0 +1,40 @@
+{
+	"id":"all_goat_mjolnir",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"displayArcRadius":450,
+	"turretSprite": "graphics/goat/weapons/ballistic/goat_mjolnir/goat_mjolnir.png",
+
+  "hardpointSprite": "graphics/goat/weapons/ballistic/goat_mjolnir/goat_mjolnir.png",
+
+	"visualRecoil":10.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"glowColor":[255,185,215,215],
+	"turretOffsets":[25, -4.5, 25, 4.5],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[37, -4.5, 37, 4.5],
+	"hardpointAngleOffsets":[0, 0],
+	"autocharge": true,
+	"barrelMode":"ALTERNATING", # LINKED or ALTERNATING.  whether barrels fire at the same time or alternate.
+	  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 30,
+    "particleSizeRange": 15,
+    "cloudParticleCount": 30,
+    "cloudDuration": 1.8,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 40,
+    "blowbackDuration": 2,
+    "blowbackLength": -115,
+    "blowbackSpread": 20,
+    "particleColor": [
+      40,
+      35,
+      35,
+      115
+    ]
+  },
+	"projectileSpecId":"goat_mjolnir_ass",  # projectile that will be fired
+	"fireSoundTwo":"all_goat_mjolnir_fire1",	
+}

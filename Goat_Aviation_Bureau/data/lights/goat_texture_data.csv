@@ -1,0 +1,16 @@
+id,type,frame,magnitude,map,path
+goat_immortality,ship,,,normal,graphics/goat/normal/immortality.png
+goat_immortality_mod,ship,,,normal,graphics/goat/normal/immortality_mod.png
+goat_cagepot,ship,,,normal,graphics/goat/normal/cagepot.png
+,,,,,
+goat_flowertide,ship,,,normal,graphics/goat/normal/flowertide.png
+goat_goatbone_scholar,ship,,,normal,graphics/goat/normal/goatbone_scholar.png
+goat_ironpavilion,ship,,,normal,graphics/goat/normal/ironpavilion.png
+goat_midnight_book,ship,,,normal,graphics/goat/normal/midnight_book.png
+,,,,,
+goat_rainfarewell,ship,,,normal,graphics/goat/normal/rainfarewell.png
+goat_gentiles,ship,,,normal,graphics/goat/normal/gentiles.png
+goat_fastboxer,ship,,,normal,graphics/goat/normal/fastboxer.png
+,,,,,
+goat_CROWN,ship,,,normal,graphics/goat/normal/CROWN.png
+goat_THRONE,ship,,,normal,graphics/goat/normal/THRONE.png

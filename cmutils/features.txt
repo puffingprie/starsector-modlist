@@ -1,0 +1,31 @@
+Shaders:
+    -High performance pooled particle renderers with full control over particle behaviour
+        -Simple to implement and debug
+        -Use default or custom compute methods to determine particle advance behaviour per frame
+            -Use to change alpha, shape, colour etc. over time
+        -Particle count cap settings to stop bad implementations overwhelming others
+        -Uses global manager to prevent going over particle cap
+    -Sprite renderer
+    -Implosion effect shader
+    -Segmented line shader program renderer for trails etc.
+        -Render sprites or custom shader programs along segments
+        -Additional helper class for managing trail instances
+    -Supports custom shader plugins that extend BaseRenderPlugin
+    -Requires OpenGL 3.3 support
+Subsystems:
+    -Feature-complete scripts that mimic ship systems
+    -Allows for arbitrary script execution based on specific ship
+    -Can be applied in any combination
+    -Automatic hotkey mapping
+    -Fully custom UI implemented
+        -Hooks for rendering own UI without visual overlaps
+Debug GUI:
+    -Display data from any script with global methods
+    -Requires data to be set per-frame, smooth fadeout over 1 second
+    -Uses simple keymap system to maintain text in list
+    -Flexible graphing tool
+    -Dynamic display listPanel adjustment with '[' ']' keys
+    -Support for custom renderer containers
+Drone Systems:
+    -Drone launch and tracking plugin with custom UI widget
+    -Base classes for drone AI

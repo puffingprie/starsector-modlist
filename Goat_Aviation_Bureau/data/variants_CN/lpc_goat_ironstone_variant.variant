@@ -1,0 +1,23 @@
+{
+  "variantId": "lpc_goat_ironstone_variant",
+  "hullId": "lpc_goat_ironstone",
+  "displayName": "战斗机",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightag",
+        "WS0007": "all_goat_grasp"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

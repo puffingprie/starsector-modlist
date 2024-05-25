@@ -1,0 +1,16 @@
+{
+	"music":{
+	"scavenge_music":[
+		{"file":"scavenge_music_v1.ogg","source":"sounds/music","volume":0.70,"randomStart":true}
+		],
+	"music_derelict_theme":[
+		{"file":"campaign_mysterious_encounter_01.ogg","source":"sounds/music","volume":1.0,"randomStart":true}
+		],
+	"derelict_theme2":[
+		{"file":"campaign_mysterious_encounter_02.ogg","source":"sounds/music","volume":1.0,"randomStart":true}
+		],
+	"derelict_theme3":[
+		{"file":"campaign_neutral_encounter_01.ogg","source":"sounds/music","volume":1.0,"randomStart":true}
+		],
+	}
+}

@@ -1,0 +1,144 @@
+{
+  "hullName": "AWL",
+  "hullId": "goat_AWL",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/goat/ships/Saxton/AWL.png",
+  "style": "GOAT_TECH_blue",
+  "height": 195,
+  "width": 60,
+  "center": [31, 91],
+  "collisionRadius": 152.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 142.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "goat_hullstyle_sax",
+    "goat_parallel_assembly_line2",
+    "goat_state_tidal"
+  ],
+  "builtInWings": [
+    "lpc_goat_AWL_side_wing",
+    "lpc_goat_AWL_side_wing",
+    "lpc_goat_AWL_side_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "taclaser",
+    "WS0002": "goat_pdlr"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [-11.5, -10.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 16,
+      "angle": 0,
+      "locations": [64.5, 5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-16, 24.5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [63, 12]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [5.5, 19]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 135.5,
+      "locations": [-35, 13]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-69, -0],
+      "length": 38,
+      "width": 34,
+      "angle": 180,
+      "contrailSize": 34,
+      "style": "GOAT_TECH_FLY"
+    },
+    {
+      "location": [-75.5, -0],
+      "length": 68,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "GOAT_TECH_FLY"
+    },
+    {
+      "location": [-19, 27],
+      "length": 8.449871,
+      "width": 5.234379,
+      "angle": 116.5,
+      "contrailSize": 5.234379,
+      "style": "GOAT_TECH_FLY"
+    },
+    {
+      "location": [-23, 24],
+      "length": 8.449871,
+      "width": 5.234379,
+      "angle": 139.5,
+      "contrailSize": 5.234379,
+      "style": "GOAT_TECH_FLY"
+    },
+    {
+      "location": [32.5, -18.5],
+      "length": 8.449871,
+      "width": 5.234379,
+      "angle": -124.5,
+      "contrailSize": 5.234379,
+      "style": "GOAT_TECH_FLY"
+    }
+  ],
+  "bounds": [
+    75, -2.5,
+    75, 2.5,
+    62.5, 4,
+    67.5, 10.5,
+    60, 17,
+    46, 4,
+    24.5, 8.5,
+    -1.5, 25.5,
+    -6.5, 22,
+    -15.5, 28,
+    -86, -0,
+    -32.5, -22,
+    -10, -14,
+    26.5, -5.5,
+    38, -15.5,
+    50.5, -5
+  ]
+}

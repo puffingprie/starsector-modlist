@@ -1,0 +1,18 @@
+{
+    "displayName": "Prototype",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "cpbf",
+    "hullMods": ["hardened_subsystems"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "cpbf_Prototype",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "phasebeam_cpbf"}
+        },
+    ]
+}

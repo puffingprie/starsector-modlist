@@ -1,0 +1,36 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 1,
+    "hullId": "goat_midnight_tea",
+    "hullMods": [
+        "targetingunit",
+        "converted_hangar",
+        "auxiliarythrusters",
+        "goat_auxiliarythrusters",
+        "goat_pointdefense"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_midnight_tea_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "all_goat_zeal"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "all_goat_grasp",
+                "WS0002": "all_goat_grasp",
+                "WS0003": "all_goat_grasp",
+                "WS0004": "all_goat_grasp",
+                "WS0008": "all_goat_grasp",
+                "WS0009": "all_goat_grasp"
+            }
+        }
+    ],
+    "wings": ["lpc_goat_hunter_wing"]
+}

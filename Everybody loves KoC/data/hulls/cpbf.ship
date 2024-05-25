@@ -1,0 +1,103 @@
+{
+  "bounds": [
+    -45.5,
+    -15,
+    -20,
+    -55,
+    40,
+    -10,
+    20,
+    -0,
+    40,
+    10,
+    -20,
+    55,
+    -45.5,
+    15
+  ],
+  "builtInMods": [
+    "delicate"
+  ],
+  "builtInWings": [],
+  "center": [
+    60,
+    50
+  ],
+  "collisionRadius": 80,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -40,
+        34
+      ],
+      "style": "HIGH_TECH",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -40,
+        -34
+      ],
+      "style": "HIGH_TECH",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -48,
+        16
+      ],
+      "style": "HIGH_TECH",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -48,
+        -16
+      ],
+      "style": "HIGH_TECH",
+      "width": 16
+    }
+  ],
+  "height": 100,
+  "hullId": "cpbf",
+  "hullName": "Parallax",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 65,
+  "spriteName": "graphics/ships/cpbf.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+    "builtInWeapons": {
+        "WS0001": "phasebeam_cpbf",
+    },
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        0,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+  ],
+  "width": 120
+}

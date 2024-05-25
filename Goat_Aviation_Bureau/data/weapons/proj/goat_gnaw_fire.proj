@@ -1,0 +1,22 @@
+{
+	"id":"goat_gnaw_fire",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM", 
+	"collisionClass":"RAY", 
+	"collisionClassByFighter":"RAY_FIGHTER", 
+	"onFireEffect": "data.scripts.weapons.goat_GnawOnFireEffect",
+	"length":2.0,
+	"hitGlowRadius":80,
+	"width":2.0,
+	"fadeTime":0.05,
+	
+	"fringeColor":[225,164,48,225],
+	"coreColor":[225,164,48,255],
+	"glowColor":[228,140,46,20],
+	
+	"glowRadius":35,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/goat/missiles/goat_gnaw_fire.png"
+}

@@ -1,0 +1,24 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Baize",
+    "hullMods": [
+        "militarized_subsystems",
+        "assault_package",
+        "FantasyBorderMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Baize_Support",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "irpulse",
+            "WS0002": "irpulse"
+        }
+    }],
+    "wings": ["warthog_wing"]
+}

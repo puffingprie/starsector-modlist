@@ -1,0 +1,102 @@
+{
+  "hullName": "Skystar",
+  "hullId": "DEX_skystar",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Fighters/DEX_skystar.png",
+  "style": "LOW_TECH",
+  "height": 38,
+  "width": 40,
+  "center": [20, 20],
+  "collisionRadius": 26,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 25,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "no_weapon_flux",
+    "pointdefenseai"
+  ],
+  "builtInWings": [
+    "borer_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -1, 11,
+        -1, -10.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-1, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18, -0.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-18, 9.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-18, -11],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [15, 8],
+      "length": 1,
+      "width": 3,
+      "angle": 0,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [15, -2.5],
+      "length": 1,
+      "width": 3,
+      "angle": 0,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [15, -12],
+      "length": 1,
+      "width": 3,
+      "angle": 0,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -18, 16.5,
+    16, 16.5,
+    16, -16.5,
+    -18, -16.5
+  ]
+}

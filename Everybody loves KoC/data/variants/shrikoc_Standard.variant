@@ -1,0 +1,40 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 12,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "shrikoc",
+    "hullMods": ["frontemitter"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "shrikoc_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "maidenpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "gravburst"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "xpulse",
+                "WS 002": "xpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 006": "lightdualmg",
+                "WS 007": "lightdualmg"
+            }
+        }
+    ]
+}

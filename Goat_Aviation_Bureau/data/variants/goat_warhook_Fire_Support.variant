@@ -1,0 +1,52 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 3,
+    "fluxVents": 10,
+    "hullId": "goat_warhook",
+    "hullMods": [
+        "advancedoptics",
+        "goat_auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_warhook_Fire_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0018": "goat_pdlaser_plus",
+                "WS0019": "goat_pdlaser_plus",
+                "WS0020": "goat_pdlaser_plus",
+                "WS0021": "goat_pdlaser_plus",
+                "WS0022": "goat_pdlaser_plus",
+                "WS0023": "goat_pdlaser_plus",
+                "WS0024": "goat_pdlaser_plus",
+                "WS0025": "goat_pdlaser_plus",
+                "WS0026": "goat_pdlaser_plus",
+                "WS0027": "goat_pdlaser_plus",
+                "WS0028": "goat_pdlaser_plus",
+                "WS0029": "goat_pdlaser_plus",
+                "WS0030": "goat_pdlaser_plus",
+                "WS0031": "goat_pdlaser_plus",
+                "WS0032": "goat_pdlaser_plus",
+                "WS0033": "goat_pdlaser_plus"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heatseeker"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "all_goat_punch"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "mininglaser"}
+        }
+    ]
+}

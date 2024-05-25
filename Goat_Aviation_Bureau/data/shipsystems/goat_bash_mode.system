@@ -1,0 +1,11 @@
+{
+	"id":"goat_bash_mode",
+	"type":"STAT_MOD",
+    "aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.goat_BashModeAI",
+	
+	"statsScript":"data.shipsystems.scripts.goat_BashModeStats",
+	
+	"useSound":"all_goat_pd_bashmode_fire1",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

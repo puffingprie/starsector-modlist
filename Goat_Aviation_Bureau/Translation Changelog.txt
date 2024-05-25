@@ -1,0 +1,38 @@
+BIG NAME CHANGE REVISION (1.4.5)
+Insulator->Whalestone
+Sleigh->Snowcross
+Crematorium->Iron Tower
+Firebird->Phoenix
+Warhook->Hooksword
+Prince of Darkness->Asmodeus
+Ribosome->Waterwheel
+Theatre->Amphitheatre
+Turmoil->Tumult
+Hunter->Pursuer
+
+Phase Assault->Phase Lunge
+
+Fighter wings now refer to "Gen-# Bastion" rather than "Bastion-#"
+
+Punishment Collider Lance onhit effect is now more accurate to what it does (I hope)
+
+
+Version 1.4.0:
+Changed Midnight Letter to Night Book
+Changed Lantern to Windlantern
+
+
+Version 1.2.9:
+Ported over 1.2.9
+
+Fixed the double-generation bug, and translated things that I forgor to in 1.2.7
+Probably some other things I forgor
+
+Version 1.2.3:
+
+-Ported over goathead 1.2.3 so that's where most of the changes are
+
+-Changed faction/design group name to just Goathead Aviation (to have a better length), with the long name becoming "Goat's Skull Aviation Bureau"
+-Taivassija Station renamed Babel Station
+-Broken Scars Station renamed Mindscar Station
+-Many more minor tweaks to translation

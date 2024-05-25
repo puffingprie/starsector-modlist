@@ -1,0 +1,138 @@
+{
+  "hullName": "Lab Transport",
+  "hullId": "dpl_lab_transport",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/dpl_lab_transport.png",
+  "style": "HIGH_TECH",
+  "height": 540,
+  "width": 170,
+  "center": [85, 222],
+  "collisionRadius": 371.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 342.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "shield_shunt",
+    "armoredweapons",
+    "blast_doors",
+    "autorepair",
+    "fluxbreakers",
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [270, 25]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -0,
+      "locations": [270, -25]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-196, 34]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -180,
+      "locations": [-196, -34]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-225.5, 65],
+      "length": 93,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-225.5, -65],
+      "length": 93,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-223.5, 39.5],
+      "length": 55.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-223.5, -39.5],
+      "length": 55.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-223.5, 8],
+      "length": 55.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-223.5, -8],
+      "length": 55.5,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-222, 24.5],
+      "length": 144,
+      "width": 44,
+      "angle": 180,
+      "contrailSize": 44,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-222, -24.5],
+      "length": 144,
+      "width": 44,
+      "angle": -180,
+      "contrailSize": 44,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    317.5, -36,
+    238, -74,
+    -138.5, -76.5,
+    -169.5, -89.5,
+    -222.5, -77.5,
+    -222.5, 77.5,
+    -169.5, 89.5,
+    -138.5, 76.5,
+    238, 74,
+    317.5, 36
+  ]
+}

@@ -1,0 +1,31 @@
+Bar event trigger requirements:
+
+Awkward lab technician (Laboratory Complex access)
+- Market has a Laboratory Complex.
+- Market is not player owned.
+- Market owner relation to the player is at worst Suspicious.
+- Player does not have a commission and relationship is Friendly or lower.
+- Player has not already purchased access at this market.
+
+###
+
+Bounty trigger requirements:
+
+Lost Property
+- Mod enabled: prv Rust Belt.
+- 75 FP player fleet size.
+- Market owner: prv.
+
+Fool's Gold
+- 100 FP player fleet size.
+- Market owner: Pirates, Independent, Rust Belt, Persean League or the Sindrian Diktat.
+
+Precariously Precocious
+- Mod enabled: prv Agni.
+- 100 FP player fleet size.
+- prv relation at least +50.
+- Market owner: prv.
+
+Andra Perseiska Kompaniet
+- 150 FP player fleet size.
+- Market owner: Hegemony.

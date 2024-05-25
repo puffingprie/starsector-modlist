@@ -1,0 +1,49 @@
+{
+	"id":"goat_punish_minelayer_ass",
+	"specClass":"missile",	
+	"missileType":"PHASE_MINE",
+	"sprite":"",
+	"glowSprite":"",
+	"glowColor":[255, 79, 35,15], # also used for the NegativeExplosionVisual effect color
+	"size":[16,16],	
+	"center":[8,8],	
+	"collisionRadius":4,
+	"collisionClass":"NONE",
+	"collisionClassAfterFlameout":"NONE",
+	"flameoutTime":0.1, # total time from flameout to full fadeout
+	"fadeTime":0.1, # fadeout duration
+	"noEngineGlowTime":0.2, # time spent without the engine glow being rendered
+	"explosionColor":[15, 155, 64,55],  # unused
+	"explosionRadius":0, # purely visual	
+	"renderTargetIndicator":false, # no target diamond in combat view, not targeted by flares
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":150,
+				  "acc":500,
+				  "dec":500},
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"onExplosionEffect":"data.scripts.weapons.goat_PunishMinelayerAssExplosion",
+					"range":1,
+					"slowToMaxSpeed":true,
+					"delay":0,
+					#"pingSound":"launch_flare_1",
+					"pingColor":[20,20,25,25],
+					"mineHasNoSprite":true,
+					"flashRateMult":0.1,
+					"pingRadius":1,
+					"pingDuration":0.25,
+					#"windupSound":"mine_windup_heavy",
+					#"windupDelay":1,
+					"explosionSpec":{"duration":0.1f,
+									 "radius":1,
+									 "coreRadius":1, # full damage within core radius
+									 "collisionClass":PROJECTILE_NO_FF,
+									 "collisionClassByFighter":PROJECTILE_NO_FF,
+									 "particleDuration":0.5,
+									 "particleCount":0,
+									 "particleColor":[0,0,0,0],
+									 "explosionColor":[222,60,60,10],
+									 "sound":"riftbeam_rift"},
+					}	
+}
+
+

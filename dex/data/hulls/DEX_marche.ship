@@ -1,0 +1,91 @@
+{
+  "hullName": "Marche",
+  "hullId": "DEX_marche",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/DEX_marche.png",
+  "style": "LOW_TECH",
+  "height": 122,
+  "width": 133,
+  "center": [66.5, 61],
+  "collisionRadius": 85.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 75.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged",
+    "ballistic_rangefinder"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [14, 14.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 224,
+      "angle": 90,
+      "locations": [-1, 49.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [24, -14.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [24, -42.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-57, 12.5],
+      "length": 37,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-57, -8.5],
+      "length": 37,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -5.5, -61,
+    -50, -38,
+    -58, -19.5,
+    -58, 19.5,
+    -51, 42,
+    -7, 67,
+    23.5, 65.5,
+    29.5, 44,
+    60.5, 42.5,
+    43, 21,
+    42, 8,
+    30, -7.5,
+    30.5, -52,
+    23.5, -62.5
+  ]
+}

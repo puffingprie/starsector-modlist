@@ -1,0 +1,30 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "goat_stormlight",
+    "hullMods": [
+        "phase_anchor",
+        "auxiliarythrusters",
+        "unstable_injector"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "goat_stormlight_variant",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "chaingun"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 00": "all_goat_giant_halberd_s",
+                "WS 003": "all_goat_giant_halberd_s"
+            }
+        }
+    ]
+}

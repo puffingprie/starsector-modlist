@@ -1,0 +1,25 @@
+{
+    "baseHullId":"paragon",
+    "skinHullId":"paragon_goat_painting",
+	
+	"hullName":"Paragon (GP)",
+	"descriptionId":"paragon",
+	
+	"descriptionPrefix":"As a special edition from the Goathead painting facility, it was painted with a stellar-reflective finish that's hard to find in the Sector, and received some simple armor modifications.",
+  
+  "baseValueMult": 1.25,
+  
+  "hullDesignation": "Battleship",
+
+  
+  
+  "restoreToBaseHull": false,
+  
+  
+  
+  "spriteName": "graphics/goat/ships/goat_painting/paragon_goat_painting.png",
+  
+  "tech": "Goathead Aviation",
+  
+  "builtInMods":["goat_painting"],
+}
