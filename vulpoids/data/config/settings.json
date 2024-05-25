@@ -1,0 +1,86 @@
+{
+	"ruleCommandPackages":[
+		"vulpoids.impl.campaign.rulecmd",
+		"vulpoids.impl.campaign.rulecmd.salvage",
+	],
+	
+	"graphics": {
+		"industry":{
+			"organfarm":"graphics/icons/industry/organfarm.png",
+			"organfarmvulp":"graphics/icons/industry/organfarmvulp.png",
+			"organfarmlobster":"graphics/icons/industry/organfarmlobster.png",
+			"biotechlow":"graphics/icons/industry/biotech_low.png",
+			"biotechmed":"graphics/icons/industry/biotech_medium.png",
+			"biotechhigh":"graphics/icons/industry/biotech_high.png",
+			"biotechlowvulp":"graphics/icons/industry/biotech_low_fox.png",
+			"biotechmedvulp":"graphics/icons/industry/biotech_medium_fox.png",
+			"biotechhighvulp":"graphics/icons/industry/biotech_high_fox.png",
+			"biotechlowlobster":"graphics/icons/industry/biotech_low_lobster.png",
+			"biotechmedlobster":"graphics/icons/industry/biotech_medium_lobster.png",
+			"biotechhighlobster":"graphics/icons/industry/biotech_high_lobster.png",
+		},
+		"intel":{
+			"shiny_produced":"graphics/icons/intel/fox_produced.png",
+			"vulp_pop_growth":"graphics/icons/intel/fox_pop_growth.png",
+			"vulp_pop_01":"graphics/icons/markets/vulp_pop_01.png",
+			"vulp_pop_02":"graphics/icons/markets/vulp_pop_02.png",
+			"vulp_pop_03":"graphics/icons/markets/vulp_pop_03.png",
+			"vulp_pop_04":"graphics/icons/markets/vulp_pop_04.png",
+			"vulp_pop_05":"graphics/icons/markets/vulp_pop_05.png",
+			"vulp_pop_06":"graphics/icons/markets/vulp_pop_06.png",
+			"vulp_pop_07":"graphics/icons/markets/vulp_pop_07.png",
+			"vulp_pop_08":"graphics/icons/markets/vulp_pop_08.png",
+			"vulp_pop_09":"graphics/icons/markets/vulp_pop_09.png",
+			"vulp_pop_10":"graphics/icons/markets/vulp_pop_10.png",
+			"workforce_confusion":"graphics/icons/markets/workforce_confused.png",
+			"terraformer_idyllic":"graphics/icons/markets/terraformer_idyllic.png",
+			"terraformer_improvement":"graphics/icons/markets/terraformer_improvement.png",
+			"terraformer_supression":"graphics/icons/markets/terraformer_supression.png",
+		},
+		"illustrations":{
+			"asteroid_belt_moon":"graphics/illustrations/asteroid_belt_moon.jpg",
+			
+			"vulp_bar_quest":"graphics/illustrations/bar_quest.png",
+			"citadel_biodome":"graphics/illustrations/citadel.png",
+			"vulpoid_advertisement":"graphics/illustrations/vulpoid_advertisement.png",
+			"vulp_execution":"graphics/illustrations/cold_option.png",
+			"laisa_death":"graphics/illustrations/laisa_death.png",
+			"citadel_cic":"graphics/illustrations/laisa_encounter.png",
+			
+			"vulp_pop_low":"graphics/illustrations/vulpoid_pop_low.png",
+			"vulp_pop_med":"graphics/illustrations/vulpoid_pop_med.png",
+			"vulp_pop_high":"graphics/illustrations/vulpoid_pop_high.png",
+			"vulpoid_petting":"graphics/illustrations/vulpoid_petting.png",
+			"vulpoid_smooch":"graphics/illustrations/vulpoid_smooch.png",
+			
+			"laisa_hug1":"graphics/illustrations/laisa_hug1.png",
+			"laisa_hug2":"graphics/illustrations/laisa_hug2.png",
+		},
+		"cargo":{
+			"vulp_lock_icon":"graphics/icons/cargo/vulpoids/vulpoid_locked_icon.png",
+			"vulp_embarked_icon":"graphics/icons/cargo/vulpoids/vulpoid_travel_icon.png",
+			"vulp_officer_icon":"graphics/icons/cargo/vulpoids/vulpoid_admiral_icon.png",
+			"vulp_admin_icon":"graphics/icons/cargo/vulpoids/vulpoid_admin_icon.png",
+			
+			"vulp_shiny_arctic":"graphics/icons/cargo/vulpoids/vulpoid_arctic.png",
+			"vulp_shiny_terran":"graphics/icons/cargo/vulpoids/vulpoid_terran.png",
+			"vulp_shiny_desert":"graphics/icons/cargo/vulpoids/vulpoid_desert.png",
+			"vulp_shiny_sugar":"graphics/icons/cargo/vulpoids/vulpoid_sugar.png",
+			"vulp_laisa":"graphics/icons/cargo/vulpoids/vulpoid_laisa.png",
+		},
+		"events":{
+			"vulpoidAcceptance_icon":"graphics/icons/campaign/vulpoidAcceptance_icon.png",
+			"vulpoidAcceptance_sanctions":"graphics/icons/campaign/vulpoidAcceptance_sanctions.png",
+			"vulpoidAcceptance_sanctionsLifted":"graphics/icons/campaign/vulpoidAcceptance_sanctionsLifted.png",
+			"vulpoidAcceptance_knightAttack":"graphics/icons/campaign/vulpoidAcceptance_knightAttack.png",
+			"vulpoidAcceptance_knightBombardment":"graphics/icons/campaign/vulpoidAcceptance_knightBombardment.png",
+			"vulpoidAcceptance_success":"graphics/icons/campaign/vulpoidAcceptance_success.png",
+		}
+	}
+}
+
+
+
+
+
+

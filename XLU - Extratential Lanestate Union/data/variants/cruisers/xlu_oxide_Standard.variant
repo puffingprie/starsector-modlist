@@ -1,0 +1,68 @@
+{
+  "variantId": "xlu_oxide_Standard",
+  "hullId": "xlu_oxide",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 20,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "turretgyros",
+    "targetingunit",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "xlu_stubbon",
+        "WS0009": "xlu_stubbon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "xlu_mortar_s",
+        "WS0006": "xlu_mortar_s",
+        "WS0007": "xlu_mortar_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "xlu_hovlet",
+        "WS0002": "xlu_hovlet"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "BW 01": "xlu_gattler",
+        "BW 02": "xlu_gattler",
+        "BW 03": "xlu_gattler",
+        "BW 04": "xlu_gattler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heatseeker"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
