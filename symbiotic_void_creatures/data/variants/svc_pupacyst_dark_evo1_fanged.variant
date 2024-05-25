@@ -1,0 +1,55 @@
+{
+  "variantId": "svc_pupacyst_dark_evo1_fanged",
+  "hullId": "svc_pupacyst_dark_evo1",
+  "displayName": "Fanged",
+  "goalVariant": false,
+  "fluxCapacitors": 13,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "grappler": "svc_bge_grappler_pd",
+        "grappler2": "svc_bge_grappler_pd",
+        "left_sml_pd": "svc_bge_grappler_pd",
+        "right_sml_pd": "svc_bge_grappler_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "left_lrg_mand": "svc_adv_lrg_mand_r",
+        "left_sml_mand": "svc_adv_sml_mand_r",
+        "right_lrg_mand": "svc_adv_lrg_mand_r",
+        "right_sml_mand": "svc_adv_sml_mand_r"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Alphamiddle2": "svc_fangcluster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "svc_worm_colony_small",
+        "WS0004": "svc_worm_colony_small"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

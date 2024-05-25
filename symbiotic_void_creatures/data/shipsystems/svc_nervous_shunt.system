@@ -1,0 +1,12 @@
+{
+	"id":"svc_nervous_shunt",
+	"type":"STAT_MOD",
+
+	"aiType":"CUSTOM",
+	"aiScript":"tecrys.svc.shipsystems.ais.NervousShuntAI",
+
+	"statsScript":"tecrys.svc.shipsystems.ShuntNervousSystem",
+
+	"useSound":"system_ammo_feeder",
+    "outOfUsesSound":"gun_out_of_ammo",
+}

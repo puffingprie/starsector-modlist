@@ -1,0 +1,67 @@
+{
+  "variantId": "svc_hemalisk_dark_evo2_acidclaw",
+  "hullId": "svc_hemalisk_dark_evo2",
+  "displayName": "Acidclaw",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "left_grappler": "svc_bge_grappler",
+        "right_grappler": "svc_bge_grappler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Alphamiddle1": "svc_acidthrower"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "left_med_uni2": "svc_adv_med_scythe_r",
+        "right_med_uni2": "svc_adv_med_scythe_r"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "left_pd": "svc_bge_grappler_pd",
+        "right_pd": "svc_bge_grappler_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "left_mand": "svc_adv_sml_mand_r",
+        "right_mand": "svc_adv_sml_mand_r"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "svc_boltzmann_brain",
+        "WS0015": "svc_boltzmann_brain"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

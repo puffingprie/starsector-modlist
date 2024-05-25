@@ -1,0 +1,133 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+small Mandible,svc_sml_mand_l,2,,2500,60,,20,,50,0,0,,,,HIGH_EXPLOSIVE,4,,0,0.5,,,,,,,,150,,0.5,30,,,"SYSTEM, FIRE_WHEN_INEFFICIENT, FIRE_WHEN_INEFFICIENT, DO_NOT_AIM","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,41
+small Mandible,svc_sml_mand_r,2,,2500,60,,20,,50,0,0,,,,HIGH_EXPLOSIVE,4,,0,0.5,,,,,,,,150,,0.5,30,,,"SYSTEM, FIRE_WHEN_INEFFICIENT, FIRE_WHEN_INEFFICIENT, DO_NOT_AIM","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,41
+large Mandible,svc_lrg_mand_l,2,,2500,60,,30,,50,0,0,,,,HIGH_EXPLOSIVE,6,,0,0.5,,,,,,,,150,,0.5,30,,,"SYSTEM, FIRE_WHEN_INEFFICIENT, FIRE_WHEN_INEFFICIENT, DO_NOT_AIM","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,24
+large Mandible,svc_lrg_mand_r,2,,2500,60,,30,,50,0,0,,,,HIGH_EXPLOSIVE,6,,0,0.5,,,,,,,,150,,0.5,30,,,"SYSTEM, FIRE_WHEN_INEFFICIENT, FIRE_WHEN_INEFFICIENT, DO_NOT_AIM","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,24
+Scythe,svc_med_scythe_r,2,,1500,115,,180,,500,60,0,,,,HIGH_EXPLOSIVE,30,,0,1,,,,,,,,150,,0.5,30,,,"SYSTEM, PD, FIRE_WHEN_INEFFICIENT, FIRE_WHEN_INEFFICIENT","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,28
+Scythe Claw,svc_lrg_scythe_r,2,,2500,140,,800,,1000,60,0,,,,HIGH_EXPLOSIVE,70,,0,1,,,,,,,,150,,0.5,30,,,"SYSTEM, PD, FIRE_WHEN_INEFFICIENT, FIRE_WHEN_INEFFICIENT","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,25
+Umbra small Mandible,svc_adv_sml_mand_l,2,,2500,60,,20,,50,0,0,,,,HIGH_EXPLOSIVE,4,,0,0.5,,,,,,,,150,,0.5,30,,,"SYSTEM, FIRE_WHEN_INEFFICIENT, FIRE_WHEN_INEFFICIENT, DO_NOT_AIM","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,68
+Umbra small Mandible,svc_adv_sml_mand_r,2,,2500,60,,20,,50,0,0,,,,HIGH_EXPLOSIVE,4,,0,0.5,,,,,,,,150,,0.5,30,,,"SYSTEM, FIRE_WHEN_INEFFICIENT, FIRE_WHEN_INEFFICIENT, DO_NOT_AIM","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,68
+Umbra large Mandible,svc_adv_lrg_mand_l,2,,2500,60,,30,,50,0,0,,,,HIGH_EXPLOSIVE,6,,0,0.5,,,,,,,,150,,0.5,30,,,"SYSTEM, FIRE_WHEN_INEFFICIENT, FIRE_WHEN_INEFFICIENT, DO_NOT_AIM","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,66
+Umbra large Mandible,svc_adv_lrg_mand_r,2,,2500,60,,30,,50,0,0,,,,HIGH_EXPLOSIVE,6,,0,0.5,,,,,,,,150,,0.5,30,,,"SYSTEM, FIRE_WHEN_INEFFICIENT, FIRE_WHEN_INEFFICIENT, DO_NOT_AIM","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,66
+Umbra Scythe,svc_adv_med_scythe_r,2,,1500,115,,220,,500,60,0,,,,HIGH_EXPLOSIVE,30,,0,1,,,,,,,,150,,0.5,30,,,"SYSTEM, PD, FIRE_WHEN_INEFFICIENT, FIRE_WHEN_INEFFICIENT","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,64
+Umbra Scythe Claw,svc_adv_lrg_scythe_r,2,,2500,140,,900,,1000,60,0,,,,HIGH_EXPLOSIVE,70,,0,1,,,,,,,,150,,0.5,30,,,"SYSTEM, PD, FIRE_WHEN_INEFFICIENT, FIRE_WHEN_INEFFICIENT","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,61
+Pincer,svc_med_pincer_r,2,,5500,115,,80,120,2000,60,0,,,,HIGH_EXPLOSIVE,80,,0,2,,,,,,,,150,,0.5,30,,,"SYSTEM, FIRE_WHEN_INEFFICIENT","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,46
+Pincer Claw,svc_lrg_pincer_r,2,,6500,150,,450,250,2000,60,0,,,,HIGH_EXPLOSIVE,150,,0,2,,,,,,,,150,,0.5,30,,,"SYSTEM, FIRE_WHEN_INEFFICIENT","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,44
+Grappler Tendril,svc_bge_grappler,2,,1000,800,25,,25,0,20,0,,,,OTHER,,10,0.25,0.5,1,0.5,0,0,0,0,4500,,,,,,,SYSTEM,"no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,1006
+Ripper Tendril,svc_bge_grappler_reverse,2,,1000,1100,25,,0,0,20,0,,,,OTHER,,10,0.25,0.5,1,2,0,0,0,0,4500,,,,,,,SYSTEM,"no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,1006
+Tentacle Whip,svc_bge_grappler_pd,2,,1000,450,70,,60,10000,20,0,,,,FRAGMENTATION,,180,0,0.7,0.25,0.25,,,,,4500,,,,,,,"SYSTEM, PD, PD_ONLY, ANTI_FTR","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,1010
+Mini Tendril,svc_bge_mini_grappler,2,,3000,300,25,,25,0,20,0,,,,KINETIC,,80,0,0.25,0.25,1,,,,,3500,,,,,,,"SYSTEM, PD, PD_ONLY, ANTI_FTR","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,1007
+Mord Tendril,svc_bge_mord_grappler,2,,3000,300,25,,25,0,20,0,,,,KINETIC,,80,0,0.25,,1,,,,,3500,,,,,,,"SYSTEM, PD, PD_ONLY, ANTI_FTR","no_sell, no_dealer, no_drop_salvage, restricted",,Biological,,General,,,,,,,,,,1009
+Acid Spitter,svc_acidthrower,3,,3000,400,,20,,1,15,10,,,,HIGH_EXPLOSIVE,5,,0,6,12,0.142,20,50,3,5,,270,,0.5,10,,,"STRIKE, USE_VS_FRIGATES, DO_NOT_CONSERVE","no_sell, no_dealer, restricted",,Biological,,General,,,,Medium,,,,,,5.75
+Spawner,svc_spawner,0,,150,1500,,200,,20,30,4,50,,,HIGH_EXPLOSIVE,0,,0,5,5,0.2,0,0,0,0,,250,50,,50,,,,"no_sell, no_dealer, restricted",,Biological,,General,,,,,,,,,,11
+Fang Cluster,svc_fangcluster,3,0.3,800,700,,75,,1,20,8,6,1.7,6,KINETIC,40,,0,1,6,0.15,2,15,0.66,5,,1200,,,10,,,"RESET_BARREL_INDEX_ON_BURST, FIRE_WHEN_INEFFICIENT, DO_NOT_CONSERVE","no_sell, no_dealer, restricted",,Biological,,Anti Shield,,,,Medium,,,,,,3.65
+Ink Sac,svc_inksac,3,0.3,800,400,,0,,1,10,8,,,,KINETIC,40,,0,4,2,0,20,50,20,5,,1200,,,10,,,PD,"no_sell, no_dealer, restricted",,Biological,,Point Defence,,,,,,,,,,3.65
+Volatile Drone Strike,svc_volatile_drone,3,,0,1200,,800,0,50,0,0,1,,,ENERGY,0,,0,1,1,,0,0,0,0,,350,0,13,100000,,,"DIRECT_AIM, SYSTEM","no_sell, no_dealer, restricted",,,,Missile,Medium,Medium,,,,,,,TRUE,1011.01
+Mature Phaseworm Colony,svc_worm_colony_large,1,,250,2000,,350,,15,4,15,160,0.1,8,FRAGMENTATION,0,,0,7,8,0.1,6,64,8,6,,250,400,15,100,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","no_sell, no_dealer, restricted",,Biological,,Assault Boarding,Medium,Manoeuvre,,,"When phaseworms collide with an enemy ship they creep on board, wreaking havoc among the crew and sensitive systems. Each hit to hull or armour reduces Combat Readiness by 0.2% and inflicts extra casualties among crew and marines.",,,,,10
+Phaseworm Colony,svc_worm_colony_small,1,,250,2000,,350,,15,4,5,68,0.1,4,FRAGMENTATION,0,,0,4,4,0.1,6,64,8,6,,250,400,15,100,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","no_sell, no_dealer, restricted",,Biological,,Assault Boarding,Medium,Manoeuvre,,,"When phaseworms collide with an enemy ship they creep on board, wreaking havoc among the crew and sensitive systems. Each hit to hull or armour reduces Combat Readiness by 0.2% and inflicts extra casualties among crew and marines.",,,,,10
+Boltzmnn Brain,svc_boltzmann_brain,1,,250,1500,,800,,15,0,8,2,0.017,,ENERGY,0,,0,10,1,,0,0,0,0,,350,75,8,500,,,DO_NOT_AIM,"no_sell, no_dealer, restricted, damage_special, damage_soft_flux",,,,Area Denial,Medium,Manoeuvre,,,EMP arcs cover an area with a radius between 250 and 500su. Each arc deals 30 energy damage and 350 EMP damage.,800,,,TRUE,11.9
+    Boltzmnn Brain - Payload,svc_brain_payload,1,,0,700,800,,,,30,0,,,,ENERGY,0,,0.05,0.25,0.9,0.5,,,,,1000000,,,,,,,"SYSTEM, DANGEROUS",fires_one_burst,,,,,,,,,,,,,,11.91
+Tysis,svc_bioplasma_large,3,,7500,1000,,600,,,20,25,10,0.7,10,ENERGY,400,,0.33,1.01,2,0.2,,,,,,350,,,500,,,USE_VS_FRIGATES,"no_sell, no_dealer, restricted",,,,Suppression,,,,Special,,,,,,23
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Decoratives:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tentacle_right_gargantuan,svc_tentacle_right_gargantuan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4409
+tentacle_left_huge,svc_tentacle_left_huge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4410
+tentacle_right_huge,svc_tentacle_right_huge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4411
+tentacle_left_large,svc_tentacle_left_large,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4412
+tentacle_right_large,svc_tentacle_right_large,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4413
+tentacle_right_medium,svc_tentacle_right_medium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4415
+tentacle_right_small,svc_tentacle_right_small,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4417
+tentacle_left_tiny,svc_tentacle_left_tiny,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4418
+tentacle_right_tiny,svc_tentacle_right_tiny,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4419
+tentacle_right_gargantuan_barbed,svc_tentacle_right_gargantuan_barbed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4421
+tentacle_left_huge_barbed,svc_tentacle_left_huge_barbed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4422
+tentacle_right_huge_barbed,svc_tentacle_right_huge_barbed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4423
+tentacle_right_large_barbed,svc_tentacle_right_large_barbed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4425
+tentacle_left_medium_barbed,svc_tentacle_left_medium_barbed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4427
+tentacle_right_medium_barbed,svc_tentacle_right_medium_barbed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4427
+tentacle_right_small_barbed,svc_tentacle_right_small_barbed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4429
+tentacle_left_tiny_barbed,svc_tentacle_left_tiny_barbed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4430
+tentacle_right_tiny_barbed,svc_tentacle_right_tiny_barbed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4431
+tentacle_left_medium_barbed_short,svc_tentacle_left_medium_barbed_short,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4432
+tentacle_right_medium_barbed_short,svc_tentacle_right_medium_barbed_short,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4433
+tentacle_left_huge_dark,svc_tentacle_left_huge_dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4434
+tentacle_right_huge_dark,svc_tentacle_right_huge_dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4435
+tentacle_left_large_dark,svc_tentacle_left_large_dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4436
+tentacle_right_large_dark,svc_tentacle_right_large_dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4437
+tentacle_left_medium_dark,svc_tentacle_left_medium_dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4438
+tentacle_right_medium_dark,svc_tentacle_right_medium_dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4439
+tentacle_right_small_dark,svc_tentacle_right_small_dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4441
+tentacle_right_tiny_dark,svc_tentacle_right_tiny_dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4443
+tentacle_left_micro_dark,svc_tentacle_left_micro_dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4444
+tentacle_right_micro_dark,svc_tentacle_right_micro_dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4445
+dark_fin_right_huge,svc_dark_fin_right_huge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4447
+dark_fin_right_large,svc_dark_fin_right_large,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4449
+dark_fin_right_medium,svc_dark_fin_right_medium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4451
+dark_fin_right_small,svc_dark_fin_right_small,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4453
+dark_fin_right_tiny,svc_dark_fin_right_tiny,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4455
+Scoliac Tail Deco,svc_scoliactaildeco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,69
+Scoliac Deco,svc_scoliac_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,69
+Shade Deco,svc_shade_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,69
+Trauer,svc_trauer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,69
+Verzweiflung,svc_verzweiflung,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,70
+Gewalt,svc_gewalt,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,71
+Zorn,svc_zorn,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,65
+Zorn Head,svc_zorn_head,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,66
+Rache,svc_rache,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,67
+Rache Head,svc_rache_head,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,68
+right Antena,svc_antena_right,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,30
+right long fin,svc_long_fin_right,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,34
+right long fin2,svc_long_fin_right2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,36
+Koenig eyes,svc_koenig_eyes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,37
+Koenig fin left,svc_koenigfinleft,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,38
+Koenig fin right,svc_koenigfinright,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,39
+Arbiter Head,svc_arbiter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,53
+Embolist Head,svc_flusskrebs,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,55
+Pupacyst Head,svc_zophe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,58
+Waechter eyes,svc_waechter_eyes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,59
+right Stinger,svc_stinger_right,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4408
+left Stinger,svc_stinger_left,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4409
+right long fin small,svc_long_fin_right_sml,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,49
+right long fin small2,svc_long_fin_right_sml2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,51
+left long fin tiny,svc_long_fin_left_tiny,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+right long fin tiny,svc_long_fin_right_tiny,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+left long fin tiny2,svc_long_fin_left_tiny2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+right long fin tiny2,svc_long_fin_right_tiny2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+right translucent fin2,svc_trans_fin_right2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4402
+left translucent fin2,svc_trans_fin_left2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4403
+right small translucent fin,svc_trans_fin_right_sml,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4404
+left small translucent fin,svc_trans_fin_left_sml,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4405
+right small translucent fin2,svc_trans_fin_right_sml2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4406
+left small translucent fin2,svc_trans_fin_left_sml2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4407
+right tiny translucent fin,svc_trans_fin_right_tiny,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4407
+left tiny translucent fin,svc_trans_fin_left_tiny,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4407
+right tiny translucent fin2,svc_trans_fin_right_tiny2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4407
+left tiny translucent fin2,svc_trans_fin_left_tiny2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4407
+W�chter Shell,svc_waechtershell,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,42
+right translucent fin,svc_trans_fin_right,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4400
+left translucent fin,svc_trans_fin_left,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4401
+Umbra Arbiter Head,svc_Arbiter_dark_head,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,66
+Umbra Arbiter Spike right,svc_Arbiter_dark_spike_right,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,66
+Umbra Arbiter Armor right,svc_Arbiter_dark_armor_right,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,66
+Umbra Hemalisk right,svc_Hemalisk_right,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,66
+Umbra Keratinos right,svc_Keratinos_right,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,66
+control collar small,svc_ctrl_cllr_sml,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,66
+control collar medium,svc_ctrl_cllr_med,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,66
+control collar large,svc_ctrl_cllr_lrg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,66
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+whale tentacle 1 left large,svc_whale_tentacle_l_lrg,,,8,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+whale flipper left large,svc_whale_flipper_l_lrg,,,2,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+whale flipper right large,svc_whale_flipper_r_lrg,,,2,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+whale tentacle 1 left,svc_whale_tentacle_l,,,8,,,,,,15,,,,,,,,,,,,,,,,,,,,,,,"SYSTEM, NO_TURN_RATE_BOOST_WHEN_IDLE",,,,,,,,,,,,,,,
+whale flipper left,svc_whale_flipper_l,,,2,,,,,,12,,,,,,,,,,,,,,,,,,,,,,,"SYSTEM, NO_TURN_RATE_BOOST_WHEN_IDLE",,,,,,,,,,,,,,,
+whale flipper right,svc_whale_flipper_r,,,2,,,,,,12,,,,,,,,,,,,,,,,,,,,,,,"SYSTEM, NO_TURN_RATE_BOOST_WHEN_IDLE",,,,,,,,,,,,,,,
+whale tentacle 1 left small,svc_whale_tentacle_l_sml,,,8,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+whale flipper left small,svc_whale_flipper_l_sml,,,2,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+whale flipper right small,svc_whale_flipper_r_sml,,,2,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+svc_Stjarwhalmkii_deco_lrg,svc_Stjarwhalmkii_deco_lrg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,58
+svc_whale_mock_lrg,svc_whale_mock_lrg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,58
+svc_whale_mock,svc_whale_mock,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,58
+svc_whale_mock_sml,svc_whale_mock_sml,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,58
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

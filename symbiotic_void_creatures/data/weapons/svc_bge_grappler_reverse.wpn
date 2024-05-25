@@ -1,0 +1,60 @@
+{
+  "id": "svc_bge_grappler_reverse",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "tecrys.svc.weapons.ReverseGreiferEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "displayArcRadius": 1000,
+  "turretSprite": "graphics/weapons/Grappler.png",
+  "turretGlowSprite": "graphics/weapons/Grappler.png",
+  "hardpointSprite": "graphics/weapons/Grappler.png",
+  "hardpointGlowSprite": "graphics/weapons/Grappler.png",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    0,
+    7.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    64,
+    0,
+    255,
+    64
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 30,
+  "textureType": [
+    "graphics/weapons/Proj/tentaclebeamlarger.png",
+    "graphics/weapons/Proj/tentaclebeamlarger.png"
+  ],
+  "textureScrollSpeed": 0,
+  "pixelsPerTexel": 16.299999,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundOne": "svc_weapon_grappler"
+}

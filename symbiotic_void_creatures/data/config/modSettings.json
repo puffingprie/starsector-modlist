@@ -1,0 +1,23 @@
+{
+  "AdvancedGunneryControl": {
+    "suggestedWeaponTags" : {
+      "svc_inksac": "BlockBeams,PrioMissile",
+      "svc_fangcluster": "TargetShields"
+    }
+  },
+  "SymbioticVoidCreatures": {
+    "doNotAdjustRelationsWith": []
+  },
+  "MoreMilitaryMissions":{
+        "DmReinforcementFactionBlacklist": [
+            "vwl",
+        ],
+},
+  "TakeNoPrisoners": {
+
+    "factionsWithConfigs": [
+      "svc",
+      "vwl",	  
+    ]
+  }
+}

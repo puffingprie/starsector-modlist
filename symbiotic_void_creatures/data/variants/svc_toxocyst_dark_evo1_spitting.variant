@@ -1,0 +1,62 @@
+{
+  "variantId": "svc_toxocyst_dark_evo1_spitting",
+  "hullId": "svc_toxocyst_dark_evo1",
+  "displayName": "Spitting",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "svc_bge_grappler",
+        "WS0004": "svc_bge_grappler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "svc_bge_grappler_pd",
+        "WS0006": "svc_bge_grappler_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "svc_adv_sml_mand_r",
+        "WS0002": "svc_adv_sml_mand_r"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Alphaleft1": "svc_acidthrower",
+        "Alpharight1": "svc_acidthrower"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Alphamiddle": "svc_inksac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "svc_worm_colony_small",
+        "WS0008": "svc_worm_colony_small"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

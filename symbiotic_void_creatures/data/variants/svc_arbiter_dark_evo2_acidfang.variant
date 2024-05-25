@@ -1,0 +1,73 @@
+{
+  "variantId": "svc_arbiter_dark_evo2_acidfang",
+  "hullId": "svc_arbiter_dark_evo2",
+  "displayName": "Acidfang",
+  "goalVariant": false,
+  "fluxCapacitors": 15,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "svc_bge_grappler",
+        "WS0016": "svc_bge_grappler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "svc_bge_grappler_pd",
+        "WS0012": "svc_bge_grappler_pd",
+        "WS0013": "svc_bge_grappler_pd",
+        "WS0014": "svc_bge_grappler_pd",
+        "WS0017": "svc_bge_grappler_pd",
+        "WS0018": "svc_bge_grappler_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "svc_adv_lrg_mand_r",
+        "WS0008": "svc_adv_lrg_mand_r",
+        "WS0009": "svc_adv_sml_mand_r",
+        "WS0010": "svc_adv_sml_mand_r"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "alphaleft1": "svc_fangcluster",
+        "alpharight1": "svc_fangcluster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "alphamiddle": "svc_acidthrower"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0028": "svc_boltzmann_brain",
+        "WS0029": "svc_boltzmann_brain"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

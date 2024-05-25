@@ -1,0 +1,73 @@
+{
+  "variantId": "svc_arbiter_dark_evo1_spitting",
+  "hullId": "svc_arbiter_dark_evo1",
+  "displayName": "Spitting",
+  "goalVariant": false,
+  "fluxCapacitors": 15,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "svc_bge_grappler",
+        "WS0016": "svc_bge_grappler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "svc_bge_grappler_pd",
+        "WS0012": "svc_bge_grappler_pd",
+        "WS0013": "svc_bge_grappler_pd",
+        "WS0014": "svc_bge_grappler_pd",
+        "WS0017": "svc_bge_grappler_pd",
+        "WS0018": "svc_bge_grappler_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "svc_adv_lrg_mand_r",
+        "WS0008": "svc_adv_lrg_mand_r",
+        "WS0009": "svc_adv_sml_mand_r",
+        "WS0010": "svc_adv_sml_mand_r"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "alphaleft1": "svc_inksac",
+        "alpharight1": "svc_inksac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "alphamiddle": "svc_acidthrower"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0028": "svc_worm_colony_large",
+        "WS0029": "svc_worm_colony_large"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

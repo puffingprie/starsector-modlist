@@ -1,0 +1,35 @@
+{
+	"plugins":{
+		#"AdrenalineToggleTracker":"data.scripts.plugins.AdrenalineToggleTracker",
+		#"ProtectionTracker":"data.scripts.plugins.ProtectionTracker",
+		"BloodEffect":"tecrys.svc.plugins.BloodEffect",
+		"SvcCombatPlugin":"tecrys.svc.CombatPlugin",
+		"tentacle_render":"tecrys.svc.plugins.tentacle_render",		
+		#"ForceShieldDisablePlugin":"data.scripts.plugins.ForceShieldDisablePlugin",		
+		#"Acid":"data.scripts.plugins.Acid",				
+		
+	},
+		"designTypeColors":{
+		"Biological":[112,135,1,255],
+		},
+	"graphics": {
+		"backgrounds": {
+			"victory_notification_img": "graphics/backgrounds/dissectionbyNeoSpectra.png",
+			"svc_encounter": "graphics/backgrounds/BGE.jpg",
+			"whale_encounter": "graphics/backgrounds/Stjarwhal.png",
+			"hunter_fleet": "graphics/backgrounds/Pursuitsml2.png"
+		},
+		"beams": {
+			"svc_parasumbilical_beam": "graphics/weapons/beams/svc_parasumbilical_beam.png"
+		},
+		"exotics": {
+			"VoidChitinPlating": "graphics/icons/exotics/voidchitinplating.png"
+		},
+		"illustrations": {
+			"svc_hunter_bar_event_portrait": "graphics/illustrations/space_bar.jpg"
+		}
+	},
+	"ruleCommandPackages": [
+		"tecrys.svc.rulecmd"
+	]
+}

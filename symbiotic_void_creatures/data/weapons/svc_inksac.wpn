@@ -1,0 +1,42 @@
+{
+  "id": "svc_inksac",
+  "specClass": "projectile",
+  "projectileSpecId": "svc_inksac_shot",
+  "type": "HYBRID",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/animated/svc_inksac/svc_inkspray_base00.png",
+  "hardpointSprite": "graphics/weapons/animated/svc_inksac/svc_inkspray_base00.png",
+  "turretOffsets": [
+    11.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 27,
+  "frameRate": 12,
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 100,
+    "particleSizeMin": 5,
+    "particleSizeRange": 30,
+    "particleDuration": 3,
+    "particleCount": 25,
+    "particleColor": [
+      110,
+      0,
+      200,
+      60
+    ]
+  },
+  "fireSoundOne": "svc_weapon_inkspray"
+}

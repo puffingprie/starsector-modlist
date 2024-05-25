@@ -1,0 +1,534 @@
+{
+  "hullName": "Keratinos Alpha",
+  "hullId": "svc_keratinos_dark_evo2",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Gewalt.png",
+  "style": "BIOLOGICAL",
+  "height": 136,
+  "width": 264,
+  "center": [132, 68],
+  "collisionRadius": 133.526215,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 142.682343,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BGECarapace",
+    "do_not_back_off",
+    "svc_alpha_voidling"
+  ],
+  "builtInWeapons": {
+    "Alphaleft1": "svc_fangcluster",
+    "Alphaleft2": "svc_acidthrower",
+    "Alphaleft3": "svc_inksac",
+    "Alphaleft4": "svc_fangcluster",
+    "Alpharight1": "svc_fangcluster",
+    "Alpharight2": "svc_acidthrower",
+    "Alpharight3": "svc_inksac",
+    "Alpharight4": "svc_fangcluster",
+    "WS0001": "svc_tentacle_right_large_barbed",
+    "WS0002": "svc_tentacle_right_large_barbed",
+    "WS0003": "svc_Keratinos_right",
+    "WS0004": "svc_Keratinos_right",
+    "WS0005": "svc_bioplasma_large",
+    "left_grappler": "svc_bge_grappler_pd",
+    "left_grappler3": "svc_worm_colony_small",
+    "left_long_fin": "svc_tentacle_left_huge",
+    "left_long_fin2": "svc_tentacle_right_gargantuan_barbed",
+    "left_long_fin3": "svc_tentacle_right_huge_dark",
+    "left_long_fin4": "svc_tentacle_left_large",
+    "left_small_mand": "svc_adv_sml_mand_r",
+    "left_sml_mand2": "svc_adv_lrg_mand_r",
+    "left_sml_mand3": "svc_adv_lrg_mand_r",
+    "right_grappler": "svc_bge_grappler_pd",
+    "right_grappler3": "svc_worm_colony_small",
+    "right_long_fin": "svc_tentacle_right_huge",
+    "right_long_fin2": "svc_tentacle_right_gargantuan_barbed",
+    "right_long_fin3": "svc_tentacle_left_huge_dark",
+    "right_long_fin4": "svc_tentacle_right_large",
+    "right_sml_mand": "svc_adv_sml_mand_r",
+    "right_sml_mand2": "svc_adv_lrg_mand_r",
+    "right_sml_mand3": "svc_adv_lrg_mand_r",
+    "svc_controlcollar": "svc_ctrl_cllr_lrg"
+  },
+  "weaponSlots": [
+    {
+      "id": "left_small_mand",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 8,
+      "locations": [59, 9]
+    },
+    {
+      "id": "right_sml_mand",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -8,
+      "locations": [59, -9]
+    },
+    {
+      "id": "left_med_uni2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 69.574997,
+      "angle": -37.404999,
+      "locations": [44.5, 49]
+    },
+    {
+      "id": "right_med_uni",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 69.574997,
+      "angle": 37.404999,
+      "locations": [44.5, -49]
+    },
+    {
+      "id": "left_grappler",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [3.5, 68.5]
+    },
+    {
+      "id": "right_grappler",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [3.5, -68.5]
+    },
+    {
+      "id": "Eyes",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [47.5, 0]
+    },
+    {
+      "id": "left_antenna",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -22.833654,
+      "locations": [35.5, 20.5]
+    },
+    {
+      "id": "right_antenna",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 22.833654,
+      "locations": [35.5, -20.5]
+    },
+    {
+      "id": "left_sml_mand2",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -5.5,
+      "locations": [45.5, 15.5]
+    },
+    {
+      "id": "right_sml_mand2",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 5.5,
+      "locations": [45.5, -15.5]
+    },
+    {
+      "id": "left_sml_mand3",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 11.5,
+      "locations": [40, 12.5]
+    },
+    {
+      "id": "right_sml_mand3",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -11.5,
+      "locations": [40, -12.5]
+    },
+    {
+      "id": "left_long_fin",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -156.5,
+      "locations": [-52.5, -128],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "right_long_fin",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 156.5,
+      "locations": [-52.5, 128],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "left_long_fin2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -174.5,
+      "locations": [-53, -93.5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "right_long_fin2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 174.5,
+      "locations": [-53, 93.5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "left_long_fin3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 137,
+      "locations": [-26, 55],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "right_long_fin3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -137,
+      "locations": [-26, -55],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "left_long_fin4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -161.565002,
+      "locations": [-28.5, -46]
+    },
+    {
+      "id": "right_long_fin4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 161.565002,
+      "locations": [-28.5, 46]
+    },
+    {
+      "id": "left_grappler3",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 72,
+      "angle": -0,
+      "locations": [18, 34],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "right_grappler3",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 72,
+      "angle": 0,
+      "locations": [18, -34],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 151.5,
+      "locations": [-31, 68]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -151.5,
+      "locations": [-31, -68]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-27, -75.5],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-27, 75.5],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "Alphaleft1",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 60,
+      "angle": -6.5,
+      "locations": [28, 54]
+    },
+    {
+      "id": "Alpharight1",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 60,
+      "angle": 6.5,
+      "locations": [28, -54]
+    },
+    {
+      "id": "Alpharight2",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 2.5,
+      "locations": [59.5, -30]
+    },
+    {
+      "id": "Alphaleft2",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -2.5,
+      "locations": [59.5, 30]
+    },
+    {
+      "id": "Alpharight3",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": -25.5,
+      "locations": [27, -100.5]
+    },
+    {
+      "id": "Alphaleft3",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": 25.5,
+      "locations": [27, 100.5]
+    },
+    {
+      "id": "Alpharight4",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 60,
+      "angle": 5.5,
+      "locations": [7, -83],
+      "renderOrderMod": 4
+    },
+    {
+      "id": "Alphaleft4",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 60,
+      "angle": -5.5,
+      "locations": [7, 83],
+      "renderOrderMod": 4
+    },
+    {
+      "id": "svc_controlcollar",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [26, -0],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-4, -0],
+      "renderOrderMod": 30
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6, 66],
+      "length": 5.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "CUSTOM",
+      "styleId": "BGE"
+    },
+    {
+      "location": [-6, -66],
+      "length": 5.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "CUSTOM",
+      "styleId": "BGE"
+    },
+    {
+      "location": [-9, 83.5],
+      "length": 5.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "CUSTOM",
+      "styleId": "BGE"
+    },
+    {
+      "location": [-9, -83.5],
+      "length": 5.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "CUSTOM",
+      "styleId": "BGE"
+    },
+    {
+      "location": [-10, 99.5],
+      "length": 8.315647,
+      "width": 13.76227,
+      "angle": 143,
+      "contrailSize": 13.76227,
+      "style": "CUSTOM",
+      "styleId": "BGE"
+    },
+    {
+      "location": [-10, -99.5],
+      "length": 8.315647,
+      "width": 13.76227,
+      "angle": -143,
+      "contrailSize": 13.76227,
+      "style": "CUSTOM",
+      "styleId": "BGE"
+    },
+    {
+      "location": [-7.5, 123.5],
+      "length": 8.763899,
+      "width": 9.632047,
+      "angle": 155.660004,
+      "contrailSize": 9.632047,
+      "style": "CUSTOM",
+      "styleId": "BGE"
+    },
+    {
+      "location": [-7.5, -123.5],
+      "length": 8.763899,
+      "width": 9.632047,
+      "angle": -155.660004,
+      "contrailSize": 9.632047,
+      "style": "CUSTOM",
+      "styleId": "BGE"
+    },
+    {
+      "location": [-4, 47],
+      "length": 6.681146,
+      "width": 12.627318,
+      "angle": -159,
+      "contrailSize": 12.627318,
+      "style": "CUSTOM",
+      "styleId": "BGE"
+    },
+    {
+      "location": [-4, -47],
+      "length": 6.681146,
+      "width": 12.627318,
+      "angle": 159,
+      "contrailSize": 12.627318,
+      "style": "CUSTOM",
+      "styleId": "BGE"
+    }
+  ],
+  "bounds": [
+    -56, -2,
+    -29, -17,
+    -2, -18.5,
+    -2, -26,
+    -28.5, -35.5,
+    -2.5, -42.5,
+    -21.5, -64.5,
+    -25, -82,
+    -37.5, -87.5,
+    -6, -83,
+    -35.5, -100,
+    -10, -96,
+    -18.5, -117.5,
+    -5.5, -123,
+    53.5, -73.5,
+    55.5, -28.5,
+    44, -16.5,
+    53, -5,
+    66, -2.5,
+    66, 2.5,
+    53, 5,
+    44, 16.5,
+    55.5, 28.5,
+    53.5, 73.5,
+    -5.5, 123,
+    -18.5, 117.5,
+    -10, 96,
+    -35.5, 100,
+    -6, 83,
+    -37.5, 87.5,
+    -25, 82,
+    -21.5, 64.5,
+    -2.5, 42.5,
+    -28.5, 35.5,
+    -2, 26,
+    -2, 18.5,
+    -29, 17,
+    -56, 2
+  ]
+}

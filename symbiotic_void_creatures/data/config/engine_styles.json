@@ -1,0 +1,34 @@
+{
+
+	"BGE":{
+		"engineColor":[0,255,85,100],
+		"contrailParticleSizeMult":2,
+		"contrailParticleDuration":0.4,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.2f,
+		"contrailAngularVelocityMult":0.2f,
+		"contrailColor":[0,255,85,50],
+		"type":"SMOKE" # GLOW or SMOKE
+	},	
+                "BGE_ADV":{
+		"engineColor":[193,0,193,255],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":1,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[100,165,255,25],
+		"type":"SMOKE" # GLOW or SMOKE
+	},
+		"Wale":{
+		"engineColor":[0, 189, 208,100],
+		"contrailParticleSizeMult":2,
+		"contrailParticleDuration":0.8,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.2f,
+		"contrailAngularVelocityMult":0.2f,
+		"contrailColor":[0, 189, 208,50],
+		"type":"GLOW" # GLOW or SMOKE
+	},	
+}
+
