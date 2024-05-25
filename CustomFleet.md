@@ -1,0 +1,430 @@
+# Officer
+
+addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20;
+
+# Normal Colony
+
+addindustry BOGGLED_AI_STATION;
+addindustry BOGGLED_CHAMELEON;
+addindustry BOGGLED_CRYOSANCTUM;
+addindustry BOGGLED_DOMAIN_ARCHAEOLOGY;
+addindustry BOGGLED_GENELAB;
+addindustry BOGGLED_HARMONIC_DAMPER;
+addindustry CFT_biolab;
+addindustry heavybatteries;
+addindustry highcommand;
+addindustry IndEvo_Academy;
+addindustry IndEvo_AdInfra;
+addindustry IndEvo_AdManuf;
+addindustry IndEvo_IntArray;
+addindustry IndEvo_CloudPainter;
+addindustry IndEvo_dryDock;
+addindustry IndEvo_embassy;
+addindustry IndEvo_EngHub;
+addindustry IndEvo_IntArray;
+addindustry IndEvo_PrivatePort;
+addindustry IndEvo_senate;
+addindustry loa_void_extraction;
+addindustry megaport;
+addindustry population;
+addindustry vic_revCenter;
+addindustry vicbiolabs;
+addindustry waystation;
+
+# Great Colony
+
+addcondition farmland_bountiful;
+addcondition ore_ultrarich;
+addcondition organics_plentiful;
+addcondition rare_ore_ultrarich;
+addcondition ruins_vast;
+addcondition volatiles_plentiful;
+setmarketsize 5;
+addindustry BOGGLED_AI_STATION;
+addindustry BOGGLED_CHAMELEON;
+addindustry BOGGLED_CLONING;
+addindustry BOGGLED_CRYOSANCTUM;
+addindustry BOGGLED_DOMAIN_ARCHAEOLOGY;
+addindustry BOGGLED_GENELAB;
+addindustry BOGGLED_HARMONIC_DAMPER;
+addindustry CFT_biolab;
+addindustry heavybatteries;
+addindustry highcommand;
+addindustry IndEvo_Academy;
+addindustry IndEvo_AdInfra;
+addindustry IndEvo_AdManuf;
+addindustry IndEvo_CloudPainter;
+addindustry IndEvo_dryDock;
+addindustry IndEvo_embassy;
+addindustry IndEvo_EngHub;
+addindustry IndEvo_IntArray;
+addindustry IndEvo_PrivatePort;
+addindustry IndEvo_senate;
+addindustry lightindustry;
+addindustry loa_void_extraction;
+addindustry megaport;
+addindustry orbitalworks;
+addindustry population;
+addindustry refining;
+addindustry vic_revCenter;
+addindustry vicbiolabs;
+addindustry waystation;
+
+# Astropolis
+
+addcondition farmland_bountiful;
+addcondition ore_ultrarich;
+addcondition organics_plentiful;
+addcondition rare_ore_ultrarich;
+addcondition ruins_vast;
+addcondition volatiles_plentiful;
+setmarketsize 4;
+addindustry BOGGLED_AI_STATION;
+addindustry BOGGLED_CHAMELEON;
+addindustry BOGGLED_CLONING;
+addindustry BOGGLED_CRYOSANCTUM;
+addindustry BOGGLED_DOMAIN_ARCHAEOLOGY;
+addindustry BOGGLED_GENELAB;
+addindustry BOGGLED_HARMONIC_DAMPER;
+addindustry BOGGLED_STATION_EXPANSION;
+addindustry CFT_biolab;
+addindustry heavybatteries;
+addindustry orbitalworks;
+addindustry highcommand;
+addindustry IndEvo_Academy;
+addindustry IndEvo_AdInfra;
+addindustry IndEvo_AdManuf;
+addindustry IndEvo_dryDock;
+addindustry IndEvo_embassy;
+addindustry IndEvo_EngHub;
+addindustry IndEvo_IntArray;
+addindustry IndEvo_LeisureOrbitals;
+addindustry IndEvo_PrivatePort;
+addindustry IndEvo_senate;
+addindustry loa_void_extraction;
+addindustry megaport;
+addindustry vic_revCenter;
+addindustry vicbiolabs;
+addindustry waystation
+
+# Perfect Colony
+
+addcondition farmland_bountiful;
+addcondition ore_ultrarich;
+addcondition organics_plentiful;
+addcondition rare_ore_ultrarich;
+addcondition ruins_vast;
+addcondition volatiles_plentiful;
+addcondition rat_ancient_fuel_hub;
+addcondition rat_ancient_industries;
+addcondition rat_ancient_megacities;
+addcondition rat_ancient_military_hub;
+addcondition rat_bionic_plantlife;
+addcondition rat_engineered_utopia;
+addcondition nskr_upchip;
+
+# Siphon Station
+
+addcondition ore_ultrarich;
+addcondition rare_ore_ultrarich;
+addcondition volatiles_plentiful;
+addindustry BOGGLED_AI_MINING_DRONES;
+addindustry BOGGLED_AI_STATION;
+addindustry BOGGLED_CHAMELEON;
+addindustry heavybatteries;
+addindustry highcommand;
+addindustry IndEvo_AdAssem;
+addindustry IndEvo_IntArray;
+addindustry IndEvo_LeisureOrbitals;
+addindustry IndEvo_PrivatePort;
+addindustry lightindustry;
+addindustry megaport;
+addindustry mining;
+addindustry orbitalworks;
+addindustry population;
+addindustry refining;
+addindustry waystation;
+
+# Mining Station
+
+addcondition ore_ultrarich;
+addcondition rare_ore_ultrarich;
+addcondition volatiles_plentiful;
+addindustry BOGGLED_AI_MINING_DRONES;
+addindustry BOGGLED_AI_STATION;
+addindustry BOGGLED_ASTEROID_PROCESSING;
+addindustry BOGGLED_CHAMELEON;
+addindustry heavybatteries;
+addindustry highcommand;
+addindustry IndEvo_AdAssem;
+addindustry IndEvo_IntArray;
+addindustry IndEvo_LeisureOrbitals;
+addindustry IndEvo_PrivatePort;
+addindustry lightindustry;
+addindustry megaport;
+addindustry mining;
+addindustry orbitalworks;
+addindustry population;
+addindustry refining;
+addindustry waystation;
+
+# Special Items
+
+addspecial corrupted_nanoforge; addspecial pristine_nanoforge; addspecial synchrotron; addspecial orbital_fusion_lamp; addspecial coronal_portal; addspecial mantle_bore; addspecial catalytic_core; addspecial soil_nanites; addspecial biofactory_embryo; addspecial fullerene_spool; addspecial plasma_dynamo; addspecial cryoarithmetic_engine; addspecial drone_replicator; addspecial dealmaker_holosuite;
+addspecial IndEvo_vpc_supplies; addspecial IndEvo_vpc_marines; addspecial IndEvo_vpc_heavy_machinery; addspecial IndEvo_vpc_domestic_goods; addspecial IndEvo_vpc_drugs; addspecial IndEvo_vpc_hand_weapons; addspecial IndEvo_vpc_IndEvo_parts; addspecial IndEvo_vpc_luxury_goods; addspecial IndEvo_vpc_marines_hand_weapons; addspecial IndEvo_vpc_supply_fuel;
+addspecial atmo_mineralizer; addspecial atmo_sublimator; addspecial solar_reflector; addspecial tectonic_attenuator; addspecial weather_core; addspecial climate_sculptor; addspecial gravity_oscillator; addspecial rad_remover;
+
+# Wings
+
+addwing uaf_taufan 3000;
+addwing uaf_wing_hyperaria_custom 3000;
+
+# Special
+
+## addship uaf_ai_roria_esvernia | Extremely OP Battleship
+
+addsmods uaf_ai_roria_esvernia Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem Arx_Mod_KrakenCore Arx_Mod_RagnorakCore Arx_Mod_WardenCore
+
+removetraits; addtrait durable; addtrait strong armor; addtrait overclocked targeting unit; addtrait deadly; addtrait powerful engines; addtrait powerful capacitors; addtrait rapid ship system; addtrait dauntless crew;
+
+addweapon sw_fusion_beam 6;
+addweapon sw_blackhole 6;
+addweapon sw_annihilator 6;
+addweapon sw_lightning_storm 6;
+addweapon sw_flash 12;
+addweapon sw_positronlens 4;
+addweapon nskr_plasmal 6;
+addweapon Xhan_Erlekhkeyt 4;
+addweapon sw_tesla_coil 10;
+addweapon sw_reflective_shield;
+
+## addship uaf_cherry_core | XXL-Hyper Freighter
+
+addsmods uaf_cherry_core Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem Arx_Mod_KrakenCore Arx_Mod_WardenCore Arx_Mod_RagnorakCore ASH_FuelRamscoop
+
+addweapon uaf_minibreve_tnt_s 4;
+addweapon uaf_exoscar_torpedo_large 2;
+addweapon sw_annihilator 2;
+addweapon uaf_weiss_flk 26;
+addweapon uaf_triyia_pdx 6;
+
+# Fleet Distribution
+
+## Standard Imperial Fleet
+
+addship uaf_junyo_delta 3; addship uaf_tsutsumu_l 3; addship uaf_eyeseau 2; addship uaf_ai_exoria 4; addship uaf_reisen 6; addship uaf_m_reisen; addship uaf_rillaru 4; addship uaf_ai_rillaru; addship uaf_seniraja 4; addship uaf_m_seniraja; addship uaf_lillaru 4; addship uaf_ai_lillaru; addship uaf_ai_rama_corvette 6; addship uaf_m_lovela 4; addship uaf_m_seiichi 4;
+
+addweapon uaf_weiss_flk 15; addweapon uaf_triyia_pdx 6; addweapon uaf_medlav_quad 3; addweapon uaf_flair_pod 12; addweapon uaf_weiss_flk 12; addweapon uaf_triyia_pdx 15; addweapon uaf_tona_ii 8; addweapon uaf_minibreve_tnt_m 8; addweapon uaf_weiss_flk 8; addweapon uaf_tona_i 8; addweapon uaf_triyia_pdx 8; addweapon uaf_weiss_flk 4; addweapon uaf_tona_iii 36; addweapon uaf_medlav_quad 6; addweapon uaf_tona_ii 24; addweapon uaf_weiss_flk 60; addweapon uaf_semibreve_tnt_m 12; addweapon sw_annihilator 3; addweapon uaf_minibreve_tnt_m 2; addweapon uaf_medlav_quad; addweapon uaf_tona_ii 4; addweapon uaf_weiss_flk 10; addweapon uaf_tona_iii 8; addweapon uaf_minibreve_tnt_m 8; addweapon uaf_minibreve_tnt_s 8; addweapon uaf_tona_ii 8; addweapon uaf_tona_i 8; addweapon uaf_triyia_pdx 12; addweapon uaf_weiss_flk 24; addweapon sw_annihilator 3; addweapon uaf_minibreve_tnt_m 2; addweapon uaf_minibreve_tnt_s 2; addweapon uaf_medlav_quad; addweapon uaf_tona_ii 2; addweapon uaf_triyia_pdx 3; addweapon uaf_weiss_flk 6; addweapon uaf_minibreve_tnt_s 16; addweapon uaf_tona_iii 4; addweapon uaf_tona_ii 16; addweapon uaf_tona_i 8; addweapon uaf_weiss_flk 12; addweapon sw_annihilator; addweapon uaf_minibreve_tnt_m 2; addweapon uaf_tona_ii 4; addweapon uaf_tona_i 2; addweapon uaf_weiss_flk 3;
+
+addweapon uaf_medlav_quad 4; addweapon uaf_minibreve_tnt_m 2; addweapon uaf_tona_i 2; addweapon uaf_triyia_pdx; addweapon uaf_weiss_flk 5; addweapon uaf_minibreve_tnt_s 2; addweapon uaf_amazoch_s_asrm_single 2; addweapon uaf_tona_i 4; addweapon sw_annihilator; addweapon uaf_medlav_quad 2; addweapon uaf_triyia_pdx 3; addweapon uaf_weiss_flk; addweapon uaf_edge_type_i 18; addweapon uaf_medlav_quad 6; addweapon uaf_medlav_quad 8; addweapon uaf_tona_i 8; addweapon uaf_weiss_flk 4; addweapon uaf_tona_ii 8; addweapon uaf_medlav_quad 8; addweapon uaf_minibreve_tnt_s 8; addweapon uaf_weiss_flk 8;
+
+addsmods uaf_junyo_delta Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_tsutsumu_l Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_eyeseau Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem uaf_eyeseau_command ASH_FuelRamscoop;
+addsmods uaf_ai_exoria Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_m_zepporia Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_ai_neuxoria Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_reisen Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_m_reisen Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_rillaru Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_ai_rillaru Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_ai_akatsuzuma Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_seniraja Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_m_seniraja Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_lillaru Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_ai_lillaru Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_ai_rama_corvette Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_m_lovela Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+addsmods uaf_m_seiichi Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+## Silver Warden Fleet
+
+## Golden Dragon Fleet
+
+# Logistics
+
+## addship uaf_junyo_delta | Freighter
+
+addsmods uaf_junyo_delta Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon uaf_weiss_flk 5;
+addweapon uaf_triyia_pdx 2;
+
+## addship uaf_tsutsumu_l | Tanker
+
+addsmods uaf_tsutsumu_l Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon uaf_medlav_quad 1;
+addweapon uaf_flair_pod 4;
+addweapon uaf_weiss_flk 4;
+addweapon uaf_triyia_pdx 5;
+
+# Support
+
+## addship uaf_eyeseau | Support Ship
+
+addsmods uaf_eyeseau Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem uaf_eyeseau_command ASH_FuelRamscoop;
+
+addweapon uaf_tona_ii 4;
+addweapon uaf_minibreve_tnt_m 4;
+addweapon uaf_weiss_flk 4;
+
+# Carrier
+
+## addship uaf_ai_exoria | Elite Carrier
+
+addsmods uaf_ai_exoria Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon uaf_tona_i 2;
+addweapon uaf_triyia_pdx 2;
+addweapon uaf_weiss_flk;
+
+## addship uaf_m_zepporia | Supercarrier
+
+addsmods uaf_m_zepporia Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon uaf_medlav_quad;
+addweapon uaf_minirest_asm_l 2;
+addweapon uaf_tona_ii 6;
+addweapon uaf_triyia_pdx 4;
+addweapon uaf_weiss_flk 6;
+
+## addship uaf_ai_neuxoria | Elite Supercarrier
+
+addsmods uaf_ai_neuxoria Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon uaf_minibreve_tnt_m 4;
+addweapon sw_novax;
+addweapon uaf_medlav_quad;
+addweapon uaf_tona_ii 2;
+addweapon uaf_tona_i 2;
+addweapon uaf_weiss_flk 4;
+addweapon uaf_triyia_pdx 4;
+
+# Battleship
+
+## addship uaf_reisen | Battleship
+
+addsmods uaf_reisen Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon uaf_tona_iii 3;
+addweapon uaf_medlav_quad;
+addweapon uaf_tona_ii 4;
+addweapon uaf_weiss_flk 10;
+addweapon uaf_semibreve_tnt_m 2;
+
+## addship uaf_m_reisen | Elite Battleship
+
+addsmods uaf_m_reisen Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon sw_annihilator 3;
+addweapon uaf_minibreve_tnt_m 2;
+addweapon uaf_medlav_quad;
+addweapon uaf_tona_ii 4;
+addweapon uaf_weiss_flk 10;
+
+# Battlecruiser
+
+## addship uaf_rillaru | Battlecruiser
+
+addsmods uaf_rillaru Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon uaf_tona_iii 2;
+addweapon uaf_minibreve_tnt_m 2;
+addweapon uaf_minibreve_tnt_s 2;
+addweapon uaf_tona_ii 2;
+addweapon uaf_tona_i 2;
+addweapon uaf_triyia_pdx 3;
+addweapon uaf_weiss_flk 6;
+
+## addship uaf_ai_rillaru | Elite Battlecruier
+
+addsmods uaf_ai_rillaru Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon sw_annihilator 3;
+addweapon uaf_minibreve_tnt_m 2;
+addweapon uaf_minibreve_tnt_s 2;
+addweapon uaf_medlav_quad;
+addweapon uaf_tona_ii 2;
+addweapon uaf_triyia_pdx 3;
+addweapon uaf_weiss_flk 6;
+
+# Cruiser
+
+## addship uaf_ai_akatsuzuma | Elite Light Cruiser
+
+addsmods uaf_ai_akatsuzuma Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon sw_annihilator;
+addweapon uaf_medlav_quad 2;
+addweapon uaf_tona_i 2;
+addweapon uaf_merupaka_epd 2;
+addweapon uaf_weiss_flk 2;
+
+## addship uaf_seniraja | Heavy Cruiser
+
+addsmods uaf_seniraja Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon uaf_minibreve_tnt_s 4;
+addweapon uaf_tona_iii;
+addweapon uaf_tona_ii 4;
+addweapon uaf_tona_i 2;
+addweapon uaf_weiss_flk 3;
+
+## addship uaf_m_seniraja | Heavy Elite Cruiser
+
+addsmods uaf_m_seniraja Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon sw_annihilator;
+addweapon uaf_minibreve_tnt_m 2;
+addweapon uaf_tona_ii 4;
+addweapon uaf_tona_i 2;
+addweapon uaf_weiss_flk 3;
+
+## addship uaf_lillaru | Heavy Cruiser
+
+addsmods uaf_lillaru Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon uaf_medlav_quad 4;
+addweapon uaf_minibreve_tnt_m 2;
+addweapon uaf_tona_i 2;
+addweapon uaf_triyia_pdx;
+addweapon uaf_weiss_flk 5;
+
+## addship uaf_ai_lillaru | Heavy Elite Cruiser
+
+addsmods uaf_ai_lillaru Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon uaf_minibreve_tnt_s 2;
+addweapon uaf_amazoch_s_asrm_single 2;
+addweapon uaf_tona_i 4;
+addweapon sw_annihilator;
+addweapon uaf_medlav_quad 2;
+addweapon uaf_triyia_pdx 3;
+addweapon uaf_weiss_flk;
+
+# Small
+
+## addship uaf_ai_rama_corvette | Advanced Corvette
+
+addsmods uaf_ai_rama_corvette Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon uaf_edge_type_i 3;
+addweapon uaf_medlav_quad;
+
+## addship uaf_m_lovela | Advanced Frigate
+
+addsmods uaf_m_lovela Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon uaf_medlav_quad 2;
+addweapon uaf_tona_i 2;
+addweapon uaf_weiss_flk;
+
+## addship uaf_m_seiichi | Heavy Destroyer
+
+addsmods uaf_m_seiichi Arx_Mod_EntropicAutoloader Arx_Mod_EntropicEngineering Arx_Mod_EntropicEngines Arx_Mod_EntropicIntegration Arx_Mod_EntropicLogisticsAI Arx_Mod_EntropicMothershipProtocol Arx_Mod_EntropicWeaponSystem ASH_FuelRamscoop;
+
+addweapon uaf_tona_ii 2;
+addweapon uaf_medlav_quad 2;
+addweapon uaf_minibreve_tnt_s 2;
+addweapon uaf_weiss_flk 2;
