@@ -1,6 +1,8 @@
 # Officer
 
+```
 addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20;
+```
 
 # Add Special Item to Industry
 ```
@@ -17,6 +19,7 @@ market.getIndustry("heavybatteries").setSpecialItem(new SpecialItemData("drone_r
 
 # Normal Colony
 
+```
 addindustry BOGGLED_AI_STATION;
 addindustry BOGGLED_CHAMELEON;
 addindustry BOGGLED_CRYOSANCTUM;
@@ -43,9 +46,11 @@ addindustry population;
 addindustry vic_revCenter;
 addindustry vicbiolabs;
 addindustry waystation;
+```
 
 # Great Colony
 
+```
 addcondition farmland_bountiful;
 addcondition ore_ultrarich;
 addcondition organics_plentiful;
@@ -82,9 +87,11 @@ addindustry refining;
 addindustry vic_revCenter;
 addindustry vicbiolabs;
 addindustry waystation;
+```
 
 # Astropolis
 
+```
 addcondition farmland_bountiful;
 addcondition ore_ultrarich;
 addcondition organics_plentiful;
@@ -119,9 +126,11 @@ addindustry megaport;
 addindustry vic_revCenter;
 addindustry vicbiolabs;
 addindustry waystation
+```
 
 # Perfect Colony
 
+```
 addcondition farmland_bountiful;
 addcondition ore_ultrarich;
 addcondition organics_plentiful;
@@ -135,9 +144,11 @@ addcondition rat_ancient_military_hub;
 addcondition rat_bionic_plantlife;
 addcondition rat_engineered_utopia;
 addcondition nskr_upchip;
+```
 
 # Siphon Station
 
+```
 addcondition ore_ultrarich;
 addcondition rare_ore_ultrarich;
 addcondition volatiles_plentiful;
@@ -157,9 +168,11 @@ addindustry orbitalworks;
 addindustry population;
 addindustry refining;
 addindustry waystation;
+```
 
 # Mining Station
 
+```
 addcondition ore_ultrarich;
 addcondition rare_ore_ultrarich;
 addcondition volatiles_plentiful;
@@ -180,6 +193,7 @@ addindustry orbitalworks;
 addindustry population;
 addindustry refining;
 addindustry waystation;
+```
 
 # Special Items
 
