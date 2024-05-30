@@ -2,6 +2,19 @@
 
 addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20;
 
+# Add Special Item to Industry
+```
+runcode import com.fs.starfarer.api.campaign.SpecialItemData;
+StarSystemAPI system = (StarSystemAPI)$playerFleet.getContainingLocation();
+MarketAPI market = system.getEntityById("hek_tradehub").getMarket();
+market.getIndustry("population").setSpecialItem(new SpecialItemData("coronal_portal", null));
+market.getIndustry("megaport").setSpecialItem(new SpecialItemData("fullerene_spool", null));
+market.getIndustry("IndEvo_AdManuf").setSpecialItem(new SpecialItemData("IndEvo_vpc_supply_fuel", null));
+market.getIndustry("orbitalworks").setSpecialItem(new SpecialItemData("pristine_nanoforge", null));
+market.getIndustry("heavybatteries").setSpecialItem(new SpecialItemData("drone_replicator", null));
+```
+
+
 # Normal Colony
 
 addindustry BOGGLED_AI_STATION;
