@@ -4,6 +4,102 @@
 addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20; addofficer aggressive 20;
 ```
 
+# Colony Code
+```
+removecondition farmland_bountiful; removecondition ore_ultrarich; removecondition organics_plentiful; removecondition rare_ore_ultrarich; removecondition ruins_vast; removecondition volatiles_plentiful;
+addcondition farmland_bountiful; addcondition ore_ultrarich; addcondition organics_plentiful; addcondition rare_ore_ultrarich; addcondition ruins_vast; addcondition volatiles_plentiful;
+setmarketsize 5;
+-- addindustry BOGGLED_AI_STATION;
+-- addindustry BOGGLED_CHAMELEON;
+-- addindustry BOGGLED_CLONING;
+-- addindustry BOGGLED_CRYOSANCTUM;
+-- addindustry BOGGLED_DOMAIN_ARCHAEOLOGY;
+-- addindustry BOGGLED_GENELAB;
+-- addindustry BOGGLED_HARMONIC_DAMPER;
+-- addindustry BOGGLED_LIMELIGHT_NETWORK;
+-- addindustry CFT_biolab;
+-- addindustry fuelprod;
+-- addindustry heavybatteries;
+-- addindustry highcommand;
+-- addindustry IndEvo_Academy;
+-- addindustry IndEvo_AdInfra;
+-- addindustry IndEvo_AdManuf;
+-- addindustry IndEvo_dryDock;
+-- addindustry IndEvo_embassy;
+-- addindustry IndEvo_EngHub;
+-- addindustry IndEvo_IntArray;
+-- addindustry IndEvo_LeisureOrbitals;
+-- addindustry IndEvo_PrivatePort;
+-- addindustry IndEvo_senate;
+-- addindustry loa_void_extraction;
+-- addindustry megaport;
+-- addindustry orbitalworks;
+-- addindustry refining;
+-- addindustry vic_revCenter;
+-- addindustry vicbiolabs;
+-- addindustry waystation;
+-- Arx_AddAlphaCoresToIndustries;
+-- Arx_ImproveIndustries;
+runcode import com.fs.starfarer.api.campaign.SpecialItemData;
+import com.fs.starfarer.api.campaign.econ.Industry;
+import java.util.List;
+StarSystemAPI system = (StarSystemAPI)$playerFleet.getContainingLocation();
+MarketAPI market = system.getEntityById("renyn_fortizar_ark").getMarket();
+market.setSize(5);
+market.addCondition("farmland_bountiful");
+market.addCondition("ore_ultrarich");
+market.addCondition("organics_plentiful");
+market.addCondition("rare_ore_ultrarich");
+market.addCondition("ruins_vast");
+market.addCondition("volatiles_plentiful");
+market.addIndustry("BOGGLED_AI_STATION");
+market.addIndustry("BOGGLED_CHAMELEON");
+market.addIndustry("BOGGLED_CLONING");
+market.addIndustry("BOGGLED_CRYOSANCTUM");
+market.addIndustry("BOGGLED_DOMAIN_ARCHAEOLOGY");
+market.addIndustry("BOGGLED_GENELAB");
+market.addIndustry("BOGGLED_HARMONIC_DAMPER");
+market.addIndustry("BOGGLED_LIMELIGHT_NETWORK");
+market.addIndustry("CFT_biolab");
+market.addIndustry("fuelprod");
+market.addIndustry("heavybatteries");
+market.addIndustry("highcommand");
+market.addIndustry("IndEvo_Academy");
+market.addIndustry("IndEvo_AdInfra");
+market.addIndustry("IndEvo_AdManuf");
+market.addIndustry("IndEvo_dryDock");
+market.addIndustry("IndEvo_embassy");
+market.addIndustry("IndEvo_EngHub");
+market.addIndustry("IndEvo_IntArray");
+market.addIndustry("IndEvo_LeisureOrbitals");
+market.addIndustry("IndEvo_PrivatePort");
+market.addIndustry("IndEvo_senate");
+market.addIndustry("loa_void_extraction");
+if (market.hasIndustry("spaceport")) {
+    market.removeIndustry("spaceport", null);
+}
+market.addIndustry("megaport");
+market.addIndustry("orbitalworks");
+market.addIndustry("refining");
+market.addIndustry("vic_revCenter");
+market.addIndustry("vicbiolabs");
+market.addIndustry("waystation");
+market.getIndustry("population").setSpecialItem(new SpecialItemData("coronal_portal", null));
+market.getIndustry("megaport").setSpecialItem(new SpecialItemData("fullerene_spool", null));
+market.getIndustry("IndEvo_AdManuf").setSpecialItem(new SpecialItemData("IndEvo_vpc_marines_hand_weapons", null));
+market.getIndustry("orbitalworks").setSpecialItem(new SpecialItemData("pristine_nanoforge", null));
+market.getIndustry("heavybatteries").setSpecialItem(new SpecialItemData("drone_replicator", null));
+List<Industry> industries = market.getIndustries();
+for (Industry industry : industries) {
+    if (industry.canInstallAICores()) {
+        industry.setAICoreId("alpha_core");
+    }
+    if (industry.canImprove()) {
+        industry.setImproved(true);
+    }
+}
+```
+
 # Add Special Item to Industry
 ```
 runcode import com.fs.starfarer.api.campaign.SpecialItemData;
